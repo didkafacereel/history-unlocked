@@ -60,11 +60,15 @@ export const FounderSeatsRow = memo(function FounderSeatsRow() {
         <View style={[styles.fill, { width: `${Math.max(ratio * 100, 2)}%` }]} />
       </View>
 
-      <SegmentedText variant="caption">
+      {/* Plain Text, for the reason given in PaywallFeatureRow: the two-line
+          caption cap belongs to feed cards, and the first-generation line
+          wraps to three on a phone. Cutting the sentence that explains why
+          this price is the lowest it will ever be defeats the point of it. */}
+      <Text style={type.caption}>
         {current.ordinal === 1
           ? `Seats ${current.firstSeat}–${current.lastSeat}, at the lowest price this will ever be. You are buying early, so you pay least.`
           : `Seats ${current.firstSeat}–${current.lastSeat}. Your number is yours for good.`}
-      </SegmentedText>
+      </Text>
 
       <View style={styles.ladder}>
         {FOUNDER_GENERATIONS.map((generation) => {

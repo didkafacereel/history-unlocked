@@ -1,7 +1,6 @@
 import { useRouter } from 'expo-router';
 import { memo } from 'react';
 import { StyleSheet, View } from 'react-native';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { PressableScale } from '@/components/primitives/PressableScale';
 import { palette, radius, spacing } from '@/theme/tokens';
@@ -16,10 +15,9 @@ import { StreakFlame } from './StreakFlame';
  */
 export const FeedIntelChip = memo(function FeedIntelChip() {
   const router = useRouter();
-  const insets = useSafeAreaInsets();
 
   return (
-    <View style={[styles.anchor, { top: insets.top + spacing.md }]}>
+    <View>
       <PressableScale
         onPress={() => router.push('/profile')}
         style={styles.chip}
@@ -34,10 +32,6 @@ export const FeedIntelChip = memo(function FeedIntelChip() {
 });
 
 const styles = StyleSheet.create({
-  anchor: {
-    position: 'absolute',
-    left: spacing.lg,
-  },
   chip: {
     flexDirection: 'row',
     alignItems: 'center',

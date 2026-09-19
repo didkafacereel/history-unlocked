@@ -1,7 +1,6 @@
 import { useRouter } from 'expo-router';
 import { memo } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { PressableScale } from '@/components/primitives/PressableScale';
 import { SegmentedText } from '@/components/primitives/SegmentedText';
@@ -23,7 +22,6 @@ const FILTER_WORTH_IT = 6;
 
 export const FeedDateBar = memo(function FeedDateBar() {
   const router = useRouter();
-  const insets = useSafeAreaInsets();
   const dateKey = useFeedStore((s) => s.dateKey);
   const loadDeck = useFeedStore((s) => s.loadDeck);
   const dayCount = useFeedStore((s) => s.dayEvents.length);
@@ -37,7 +35,7 @@ export const FeedDateBar = memo(function FeedDateBar() {
   const showFilter = dayCount >= FILTER_WORTH_IT;
 
   return (
-    <View style={[styles.bar, { top: insets.top + spacing.md }]} pointerEvents="box-none">
+    <View style={styles.bar} pointerEvents="box-none">
       <View style={styles.row}>
         <PressableScale
           onPress={() => router.push(isPro ? '/calendar' : '/paywall')}
@@ -93,9 +91,8 @@ const styles = StyleSheet.create({
     gap: spacing.sm,
   },
   bar: {
-    position: 'absolute',
-    left: 0,
-    right: 0,
+    // No absolute positioning: FeedTopBar lays this out in a row beside the
+    // intel chip, which is what stops the two overlapping on a phone.
     alignItems: 'center',
     gap: spacing.sm,
   },

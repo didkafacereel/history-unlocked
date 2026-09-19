@@ -2,7 +2,6 @@ import { useCallback, useMemo, useState } from 'react';
 import { Dimensions, LayoutChangeEvent, StyleSheet, View, useWindowDimensions } from 'react-native';
 
 import { EventDetailSheet } from '@/components/event-detail/EventDetailSheet';
-import { FeedIntelChip } from '@/components/gamification/FeedIntelChip';
 import { WelcomeSheet } from '@/components/onboarding/WelcomeSheet';
 import { TacticalOverlay } from '@/components/tactical-overlay/TacticalOverlay';
 import { useHaptics } from '@/hooks/useHaptics';
@@ -11,7 +10,7 @@ import { palette } from '@/theme/tokens';
 
 import { CardProgressRail } from './CardProgressRail';
 import { CategoryFilterSheet } from './CategoryFilterSheet';
-import { FeedDateBar } from './FeedDateBar';
+import { FeedTopBar } from './FeedTopBar';
 import { FeedDeck, TerminalKind } from './FeedDeck';
 import { FeedEmptyState } from './FeedEmptyState';
 import { PersonDetailSheet } from './PersonDetailSheet';
@@ -85,8 +84,7 @@ export function ChronosFeedScreen() {
       <View style={styles.stage} onLayout={onStageLayout}>
         <FeedEmptyState dateKey={dateKey} />
         <CardProgressRail />
-        <FeedIntelChip />
-        <FeedDateBar />
+        <FeedTopBar />
       </View>
     );
   }
@@ -110,8 +108,7 @@ export function ChronosFeedScreen() {
         >
           <CardProgressRail />
           <SwipeHintPulse />
-          <FeedIntelChip />
-          <FeedDateBar />
+          <FeedTopBar />
         </FeedDeck>
       ) : null}
       <TacticalOverlay />
