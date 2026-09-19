@@ -1,98 +1,129 @@
-import * as Device from 'expo-device';
-import { Platform, StyleSheet } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import { useCallback, useEffect, useRef, useState } from 'react';
+import { ActivityIndicator, AppState, StyleSheet, Text, View } from 'react-native';
 
-import { AnimatedIcon } from '@/components/animated-icon';
-import { HintRow } from '@/components/hint-row';
-import { ThemedText } from '@/components/themed-text';
-import { ThemedView } from '@/components/themed-view';
-import { WebBadge } from '@/components/web-badge';
-import { BottomTabInset, MaxContentWidth, Spacing } from '@/constants/theme';
+import { ChronosFeedScreen } from '@/components/chronos-feed/ChronosFeedScreen';
+import { PressableScale } from '@/components/primitives/PressableScale';
+import { invalidateManifest } from '@/data/ingestion';
+import { todayDateKey } from '@/lib/dateKey';
+import { subscribeToReminderTaps } from '@/services/notifications';
+import { useIsPro } from '@/stores/useEntitlementStore';
+import { useFeedStore } from '@/stores/useFeedStore';
+import { palette, radius, spacing } from '@/theme/tokens';
+import { type } from '@/theme/typography';
 
-function getDevMenuHint() {
-  if (Platform.OS === 'web') {
-    return <ThemedText type="small">use browser devtools</ThemedText>;
-  }
-  if (Device.isDevice) {
+/** Route shell: hydrate today's deck, then hand off to the feed. */
+export default function FeedRoute() {
+  const status = useFeedStore((s) => s.status);
+  const deckCount = useFeedStore((s) => s.deck.length);
+  const deckToken = useFeedStore((s) => s.deckToken);
+  const loadDeck = useFeedStore((s) => s.loadDeck);
+  const isPro = useIsPro();
+  const [retrying, setRetrying] = useState(false);
+  /** What "today" meant when this deck was loaded — see the resume effect. */
+  const todayWhenLoaded = useRef(todayDateKey());
+
+  // Entitlement is part of the deck plan (it decides the depth wall), so a
+  // purchase or restore has to re-plan the day the reader is already on —
+  // otherwise Pro is bought and the feed still shows three events.
+  useEffect(() => {
+    const current = useFeedStore.getState().dateKey;
+    void loadDeck(current ?? todayDateKey());
+  }, [loadDeck, isPro]);
+
+  // A reader who leaves the app open overnight — or takes it across a date
+  // line — came back to yesterday, because the effect above only runs on mount
+  // and nothing else watched the clock. Checked on resume rather than by timer:
+  // the question is only ever interesting at the moment the app is looked at.
+  useEffect(() => {
+    const subscription = AppState.addEventListener('change', (next) => {
+      if (next !== 'active') {
+        return;
+      }
+      const today = todayDateKey();
+      const showing = useFeedStore.getState().dateKey;
+      // Only a reader sitting on TODAY is moved forward. Someone who walked
+      // back to 3 June through the Time Machine stays on 3 June — which is why
+      // this compares against the date that WAS today when the deck loaded,
+      // not against the deck's date alone.
+      if (showing !== today && showing === todayWhenLoaded.current) {
+        todayWhenLoaded.current = today;
+        void loadDeck(today);
+      }
+    });
+    return () => subscription.remove();
+  }, [loadDeck]);
+
+  // The scheduled reminder has always carried the date it fired for; until now
+  // nothing read it, so a reminder tapped after midnight opened the wrong day.
+  useEffect(() => subscribeToReminderTaps((dateKey) => void loadDeck(dateKey)), [loadDeck]);
+
+  const retry = useCallback(async () => {
+    setRetrying(true);
+    invalidateManifest();
+    await loadDeck(useFeedStore.getState().dateKey ?? todayDateKey());
+    setRetrying(false);
+  }, [loadDeck]);
+
+  if (status === 'error' || (status === 'ready' && deckCount === 0)) {
+    // One screen for both, because the reader's situation is the same either
+    // way: the archive did not arrive. The Zod message that used to be printed
+    // here told them nothing and named our internals.
     return (
-      <ThemedText type="small">
-        shake device or press <ThemedText type="code">m</ThemedText> in terminal
-      </ThemedText>
+      <View style={styles.fallback}>
+        <Text style={[type.headline, styles.centered]}>Today didn’t arrive</Text>
+        <Text style={[type.caption, styles.centered]}>
+          The archive couldn’t be reached. Check your connection and try again.
+        </Text>
+        <PressableScale onPress={() => void retry()} style={styles.retry} accessibilityLabel="Try again">
+          {retrying ? (
+            <ActivityIndicator color={palette.void} />
+          ) : (
+            <Text style={styles.retryLabel}>Try again</Text>
+          )}
+        </PressableScale>
+      </View>
     );
   }
-  const shortcut = Platform.OS === 'android' ? 'cmd+m (or ctrl+m)' : 'cmd+d';
-  return (
-    <ThemedText type="small">
-      press <ThemedText type="code">{shortcut}</ThemedText>
-    </ThemedText>
-  );
-}
 
-export default function HomeScreen() {
-  return (
-    <ThemedView style={styles.container}>
-      <SafeAreaView style={styles.safeArea}>
-        <ThemedView style={styles.heroSection}>
-          <AnimatedIcon />
-          <ThemedText type="title" style={styles.title}>
-            Welcome to&nbsp;Expo
-          </ThemedText>
-        </ThemedView>
+  if (status !== 'ready') {
+    return (
+      <View style={styles.fallback}>
+        <ActivityIndicator color={palette.accent} />
+      </View>
+    );
+  }
 
-        <ThemedText type="code" style={styles.code}>
-          get started
-        </ThemedText>
-
-        <ThemedView type="backgroundElement" style={styles.stepContainer}>
-          <HintRow
-            title="Try editing"
-            hint={<ThemedText type="code">src/app/index.tsx</ThemedText>}
-          />
-          <HintRow title="Dev tools" hint={getDevMenuHint()} />
-          <HintRow
-            title="Fresh start"
-            hint={<ThemedText type="code">npm run reset-project</ThemedText>}
-          />
-        </ThemedView>
-
-        {Platform.OS === 'web' && <WebBadge />}
-      </SafeAreaView>
-    </ThemedView>
-  );
+  // Keyed on the deck token: a new day is a new gesture surface. `scrollY`
+  // lives on the UI thread with no reset path, so remounting is both the
+  // simplest and the only lint-clean way to open on a different card.
+  return <ChronosFeedScreen key={deckToken} />;
 }
 
 const styles = StyleSheet.create({
-  container: {
+  fallback: {
     flex: 1,
-    justifyContent: 'center',
-    flexDirection: 'row',
-  },
-  safeArea: {
-    flex: 1,
-    paddingHorizontal: Spacing.four,
-    alignItems: 'center',
-    gap: Spacing.three,
-    paddingBottom: BottomTabInset + Spacing.three,
-    maxWidth: MaxContentWidth,
-  },
-  heroSection: {
+    backgroundColor: palette.void,
     alignItems: 'center',
     justifyContent: 'center',
-    flex: 1,
-    paddingHorizontal: Spacing.four,
-    gap: Spacing.four,
+    gap: spacing.md,
+    padding: spacing.xl,
   },
-  title: {
+  centered: {
     textAlign: 'center',
   },
-  code: {
-    textTransform: 'uppercase',
+  retry: {
+    marginTop: spacing.sm,
+    minWidth: 160,
+    minHeight: 48,
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingHorizontal: spacing.xl,
+    borderRadius: radius.pill,
+    backgroundColor: palette.accent,
   },
-  stepContainer: {
-    gap: Spacing.three,
-    alignSelf: 'stretch',
-    paddingHorizontal: Spacing.three,
-    paddingVertical: Spacing.four,
-    borderRadius: Spacing.four,
+  retryLabel: {
+    ...type.label,
+    color: palette.void,
+    fontWeight: '700',
   },
 });

@@ -1,0 +1,159 @@
+import { useRouter } from 'expo-router';
+import { memo } from 'react';
+import { StyleSheet, Text, View } from 'react-native';
+import Animated, { FadeInDown } from 'react-native-reanimated';
+
+import { CelebrationBurst } from '@/components/gamification/CelebrationBurst';
+import { RankProgressBar } from '@/components/gamification/RankProgressBar';
+import { StreakFlame } from '@/components/gamification/StreakFlame';
+import { PressableScale } from '@/components/primitives/PressableScale';
+import { SegmentedText } from '@/components/primitives/SegmentedText';
+import { useQuizStore } from '@/stores/useQuizStore';
+import { useSimulationStore } from '@/stores/useSimulationStore';
+import { palette, radius, spacing } from '@/theme/tokens';
+import { type } from '@/theme/typography';
+
+/**
+ * Debrief: accuracy → XP → rank progress → streak, in that visual order —
+ * the handoff from today's performance to long-term progression. XP and
+ * streak were already committed by the store on entering `summary`.
+ */
+export const QuizSummaryCard = memo(function QuizSummaryCard() {
+  const router = useRouter();
+  const answers = useQuizStore((s) => s.answers);
+  const total = useQuizStore((s) => s.items.length);
+  const xpEarned = useQuizStore((s) => s.xpEarned);
+  const practice = useQuizStore((s) => s.practice);
+  const solemn = useQuizStore((s) => s.solemn);
+  const simulation = useQuizStore((s) => s.mode === 'simulation');
+  const round = useSimulationStore((s) => s.round);
+
+  const correct = answers.filter((a) => a.isCorrect).length;
+  const perfect = total > 0 && correct === total;
+
+  return (
+    <View style={styles.stage}>
+      {/* A round that touched a massacre, a famine or a mass-casualty disaster
+          gets its score and its XP — but not the confetti. */}
+      {perfect && !solemn && <CelebrationBurst />}
+
+      <Animated.View entering={FadeInDown.duration(320)} style={styles.scoreBlock}>
+        <SegmentedText variant="label" style={styles.kicker}>
+          {practice
+            ? 'Practice debrief'
+            : perfect && !solemn
+              ? 'Flawless simulation'
+              : 'Simulation debrief'}
+        </SegmentedText>
+        <Text style={styles.score}>{`${correct}/${total}`}</Text>
+        <SegmentedText variant="caption">scenarios called correctly</SegmentedText>
+      </Animated.View>
+
+      {/* Practice replays are score-only — no XP, no progression handoff. The
+          era tallies, which a simulation DOES move, are shown in the profile;
+          repeating them here would bury the score under statistics. */}
+      {practice ? (
+        <Animated.View entering={FadeInDown.duration(320).delay(120)} style={styles.xpBlock}>
+          <SegmentedText variant="caption">
+            {simulation ? `Round ${round} — no XP or streak` : 'Practice round — no XP or streak'}
+          </SegmentedText>
+        </Animated.View>
+      ) : (
+        <>
+          <Animated.View entering={FadeInDown.duration(320).delay(120)} style={styles.xpBlock}>
+            <Text style={styles.xpText}>{`+${xpEarned} XP`}</Text>
+            <RankProgressBar />
+          </Animated.View>
+
+          <Animated.View entering={FadeInDown.duration(320).delay(240)}>
+            <StreakFlame />
+          </Animated.View>
+        </>
+      )}
+
+      {/* A simulation is a sitting, not an errand — the primary action is one
+          more round, and leaving is the quiet option beneath it. Every other
+          mode ends by going back, because it had a reason to end. */}
+      <Animated.View entering={FadeInDown.duration(320).delay(360)} style={styles.actions}>
+        {simulation ? (
+          <>
+            <PressableScale
+              onPress={() => useSimulationStore.getState().nextRound()}
+              style={styles.doneButton}
+              accessibilityLabel="Run another round"
+            >
+              <SegmentedText variant="label" style={styles.doneLabel}>
+                Another round
+              </SegmentedText>
+            </PressableScale>
+            <PressableScale
+              onPress={() => useSimulationStore.getState().clear()}
+              accessibilityLabel="Choose a different scope"
+            >
+              <SegmentedText variant="caption" style={styles.quietLink}>
+                Pick a different era
+              </SegmentedText>
+            </PressableScale>
+          </>
+        ) : (
+          <PressableScale
+            onPress={() => router.dismissTo('/')}
+            style={styles.doneButton}
+            accessibilityLabel="Return to today's feed"
+          >
+            <SegmentedText variant="label" style={styles.doneLabel}>
+              Return to the feed
+            </SegmentedText>
+          </PressableScale>
+        )}
+      </Animated.View>
+    </View>
+  );
+});
+
+const styles = StyleSheet.create({
+  stage: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: spacing.xxl,
+  },
+  scoreBlock: {
+    alignItems: 'center',
+    gap: spacing.xs,
+  },
+  kicker: {
+    color: palette.accent,
+  },
+  score: {
+    ...type.yearDisplay,
+    fontSize: 64,
+    lineHeight: 70,
+  },
+  xpBlock: {
+    alignSelf: 'stretch',
+    alignItems: 'center',
+    gap: spacing.md,
+  },
+  xpText: {
+    fontSize: 22,
+    fontWeight: '800',
+    color: palette.correct,
+  },
+  doneButton: {
+    backgroundColor: palette.accent,
+    borderRadius: radius.pill,
+    paddingHorizontal: spacing.xxl,
+    paddingVertical: spacing.lg - 2,
+  },
+  doneLabel: {
+    color: palette.void,
+  },
+  actions: {
+    alignItems: 'center',
+    gap: spacing.lg,
+  },
+  quietLink: {
+    color: palette.textSecondary,
+  },
+});

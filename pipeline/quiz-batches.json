@@ -1,0 +1,25 @@
+{
+  "batches": [
+    {
+      "id": "msgbatch_01VuHDwo1GdMKsjDmxrZgogb",
+      "submittedAt": "2026-09-14T19:48:48.502Z",
+      "requests": 500,
+      "events": 3000,
+      "merged": true
+    },
+    {
+      "id": "msgbatch_01FjTojgNgukmRtyRFtR3AEg",
+      "submittedAt": "2026-09-14T19:48:49.389Z",
+      "requests": 500,
+      "events": 3000,
+      "merged": true
+    },
+    {
+      "id": "msgbatch_016DdfdBf62yzp3Rsd2Dd7Yt",
+      "submittedAt": "2026-09-14T19:48:50.030Z",
+      "requests": 342,
+      "events": 2052,
+      "merged": true
+    }
+  ]
+}
