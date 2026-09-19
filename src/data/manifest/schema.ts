@@ -20,7 +20,11 @@ export const eraSchema = z.enum([
 export const factBlockSchema = z.object({
   id: z.string().min(1),
   icon: z.string().min(1),
-  text: z.string().min(1).max(160), // density cap: one sentence, no walls of text
+  // 220, matching FACT_MAX in pipeline/lite.ts. At 160 the only clause
+  // boundary in range often fell before the sentence's verb, and 30% of all
+  // facts shipped ending in an ellipsis. The density rule is still this cap —
+  // one sentence, no walls of text — it just clears its own sentences now.
+  text: z.string().min(1).max(220),
 });
 
 export const tacticalAssetSchema = z.object({

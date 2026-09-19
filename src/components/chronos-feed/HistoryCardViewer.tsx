@@ -45,8 +45,15 @@ export const HistoryCardViewer = memo(function HistoryCardViewer({
       <View
         style={[
           styles.content,
-          // Keep clear of the home indicator plus room for the swipe hint.
-          { paddingBottom: insets.bottom + spacing.xxxl },
+          {
+            // The content is bottom-anchored, so a long card grows UPWARD —
+            // and with nothing stopping it, the lead badge and the era chip
+            // ended up underneath the streak and date chips. This reserves the
+            // top bar's own band: its inset, its offset, and a chip's height.
+            paddingTop: insets.top + TOP_BAR_BAND,
+            // Keep clear of the home indicator plus room for the swipe hint.
+            paddingBottom: insets.bottom + spacing.xxxl,
+          },
         ]}
       >
         {isLead ? (
@@ -77,6 +84,9 @@ export const HistoryCardViewer = memo(function HistoryCardViewer({
     </View>
   );
 });
+
+/** FeedTopBar's offset from the inset, plus the height of a chip, plus a gap. */
+const TOP_BAR_BAND = spacing.md + 38 + spacing.md;
 
 const styles = StyleSheet.create({
   card: {

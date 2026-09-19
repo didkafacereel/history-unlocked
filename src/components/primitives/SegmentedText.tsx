@@ -12,7 +12,7 @@ type Variant = keyof typeof type;
 
 const lineCaps: Record<Variant, number | undefined> = {
   yearDisplay: 1,
-  heroHeadline: densityCaps.headlineLines,
+  heroHeadline: densityCaps.heroHeadlineLines,
   headline: densityCaps.headlineLines,
   fact: densityCaps.factLines,
   label: 1,

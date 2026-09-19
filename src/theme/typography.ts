@@ -21,8 +21,11 @@ export const type = {
    * lines, because density is not negotiable even for the lead.
    */
   heroHeadline: {
-    fontSize: 32,
-    lineHeight: 37,
+    // 26, not 32. A 90-character title — the schema's maximum — needs five
+    // lines at 32 on a 375dp phone, and five lines pushed the year up behind
+    // the top bar. At 26 it fits in four and the card holds together.
+    fontSize: 26,
+    lineHeight: 31,
     fontWeight: '800',
     letterSpacing: -0.7,
     color: palette.textPrimary,
@@ -60,8 +63,37 @@ export const type = {
 } satisfies Record<string, TextStyle>;
 
 /** Density caps — SegmentedText enforces these at the component level. */
+/**
+ * Line caps, set against what the SCHEMA allows rather than against a
+ * viewport that happened to be wide.
+ *
+ * These were 2 and 2, chosen on a desktop-sized preview where two lines held a
+ * whole headline. On a 375dp phone two lines of `heroHeadline` hold about
+ * forty characters, and the schema permits ninety — so the archive was
+ * routinely handed text the card could not render, and the reader got
+ * "Second World War: Allied forces captured San Mari…". A fact may run to 160
+ * characters and had the same problem.
+ *
+ * A presentation cap below the data contract is not density, it is data loss.
+ * These now clear their own maxima at phone width; the schema is what keeps a
+ * wall of text out, and it still does.
+ */
 export const densityCaps = {
-  headlineLines: 2,
-  factLines: 2,
+  /** 90 chars at `headline` size. */
+  headlineLines: 4,
+  /** 90 chars at `heroHeadline` size. */
+  heroHeadlineLines: 4,
+  /** 220 chars at `fact` size on a 375dp phone. */
+  factLines: 6,
+  /** What the SCHEMA allows an event to carry. */
   maxFactsPerCard: 4,
+  /**
+   * What the CARD shows, which is not the same thing.
+   *
+   * Facts are whole sentences now rather than clauses, and four of them run to
+   * fifteen lines on a phone — enough to push the year and the era chip up
+   * behind the top bar on a card that does not scroll. Three fit. The fourth
+   * is not lost: the whole panel opens the reader, where nothing is clipped.
+   */
+  factsShownOnCard: 3,
 } as const;

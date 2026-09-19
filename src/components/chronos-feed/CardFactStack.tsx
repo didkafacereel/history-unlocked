@@ -8,14 +8,16 @@ import { palette, spacing } from '@/theme/tokens';
 import { HistoricalEvent } from '@/types/manifest';
 
 import { CardFactRow } from './CardFactRow';
+import { densityCaps } from '@/theme/typography';
 
 /**
  * Micro-segmented fact blocks on a glass surface.
  *
- * Each row is capped at two lines to hold the feed's density, which means
- * longer facts visibly trail off. That truncation is an invitation, not a
- * defect: the whole panel is tappable and opens the reader, where nothing is
- * clipped and the full narrative sits underneath.
+ * Shows the first `factsShownOnCard` of them. An event may carry four and
+ * often does, but four whole sentences overflow a phone — see the constant.
+ * The panel is tappable and opens the reader, where nothing is clipped and the
+ * full narrative sits underneath, so the card is a way in rather than a
+ * complete account.
  */
 export const CardFactStack = memo(function CardFactStack({ event }: { event: HistoricalEvent }) {
   const openDetail = useEventDetailStore((s) => s.open);
@@ -28,7 +30,7 @@ export const CardFactStack = memo(function CardFactStack({ event }: { event: His
     >
       <GlassPanel>
         <View style={styles.stack}>
-          {event.facts.map((fact) => (
+          {event.facts.slice(0, densityCaps.factsShownOnCard).map((fact) => (
             <CardFactRow key={fact.id} icon={fact.icon} text={fact.text} />
           ))}
           <View style={styles.moreRow}>
