@@ -2,12 +2,14 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { ActivityIndicator, AppState, StyleSheet, Text, View } from 'react-native';
 
 import { ChronosFeedScreen } from '@/components/chronos-feed/ChronosFeedScreen';
+import { LaunchScreen } from '@/components/launch/LaunchScreen';
 import { PressableScale } from '@/components/primitives/PressableScale';
 import { invalidateManifest } from '@/data/ingestion';
 import { todayDateKey } from '@/lib/dateKey';
 import { subscribeToReminderTaps } from '@/services/notifications';
 import { useIsPro } from '@/stores/useEntitlementStore';
 import { useFeedStore } from '@/stores/useFeedStore';
+import { useShouldOfferAccount } from '@/stores/useOnboardingStore';
 import { palette, radius, spacing } from '@/theme/tokens';
 import { type } from '@/theme/typography';
 
@@ -19,6 +21,8 @@ export default function FeedRoute() {
   const loadDeck = useFeedStore((s) => s.loadDeck);
   const isPro = useIsPro();
   const [retrying, setRetrying] = useState(false);
+  const offerAccount = useShouldOfferAccount();
+  const [launched, setLaunched] = useState(false);
   /** What "today" meant when this deck was loaded — see the resume effect. */
   const todayWhenLoaded = useRef(todayDateKey());
 
@@ -85,11 +89,16 @@ export default function FeedRoute() {
     );
   }
 
-  if (status !== 'ready') {
+  // A bare spinner on black used to sit here for the seconds it takes to
+  // download 16 MB and put 8056 events through Zod. LaunchScreen fills that
+  // time with the brand, and on the first launch only, an offer of an account.
+  if (status !== 'ready' || (offerAccount && !launched)) {
     return (
-      <View style={styles.fallback}>
-        <ActivityIndicator color={palette.accent} />
-      </View>
+      <LaunchScreen
+        ready={status === 'ready'}
+        offerAccount={offerAccount}
+        onContinue={() => setLaunched(true)}
+      />
     );
   }
 
