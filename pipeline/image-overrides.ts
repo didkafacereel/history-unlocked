@@ -517,4 +517,53 @@ export const IMAGE_OVERRIDES: ImageOverride[] = [
     wikiTitle: 'MS Mikhail Lermontov',
     reason: 'The liner that ran aground, photographed at Tilbury while in service.',
   },
+
+  /*
+   * ---------------------------------------------------------------------
+   * A second curation round, and the point where this stops being worth it.
+   *
+   * Twenty-two candidates across the US Navy, South Vietnam, the Imperial
+   * Japanese Army, Timor-Leste, Pakistan, the Taliban and North Korea. Six
+   * survived. The failure was almost never a wrong title — "USS Maine (1889)",
+   * "February 26 Incident", "Battle of Kranji" and "1963 South Vietnamese
+   * coup" are all the right articles. They have NO FREELY LICENSED lead image,
+   * and this archive ships free licences only.
+   *
+   * That is a wall, not a tuning problem: no better search, source or
+   * heuristic reaches a picture that Commons does not hold. The ~400 symbol
+   * backdrops that remain are mostly behind it.
+   * ---------------------------------------------------------------------
+   */
+  {
+    eventId: 'evt-03-31-1854-united-states-navy',
+    wikiTitle: 'Perry Expedition',
+    reason:
+      'The headline says "Japanese depiction pictured" and the article leads with exactly that 1854 print.',
+  },
+  {
+    eventId: 'evt-03-20-1922-united-states-navy',
+    wikiTitle: 'USS Langley (CV-1)',
+    reason: 'The carrier the event commissions, under way in 1927.',
+  },
+  {
+    eventId: 'evt-05-08-1957-south-vietnam',
+    wikiTitle: 'Ngo Dinh Diem',
+    reason: 'His presidential portrait; the event is his state visit. Was the South Vietnamese flag.',
+  },
+  {
+    eventId: 'evt-09-02-1957-south-vietnam',
+    wikiTitle: 'Ngo Dinh Diem',
+    reason:
+      'The same portrait as his other 1957 visit, deliberately: two cards sharing a true picture of the man beats two cards showing a flag.',
+  },
+  {
+    eventId: 'evt-02-11-2008-timor-leste',
+    wikiTitle: 'José Ramos-Horta',
+    reason: 'The president who was shot, rather than the national flag.',
+  },
+  {
+    eventId: 'evt-11-20-1998-taliban',
+    wikiTitle: 'Osama bin Laden',
+    reason: 'The subject of the ruling the event describes.',
+  },
 ];
