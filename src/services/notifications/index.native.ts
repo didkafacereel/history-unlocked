@@ -3,10 +3,13 @@ import { Platform } from 'react-native';
 
 import { palette } from '@/theme/tokens';
 
-import { DailyReminderService, ScheduledBrief, dateKeyFromPayload } from './index';
+// From './shared', never './index': on native `./index` IS this file, so
+// importing from it made the module import itself and blew the stack on the
+// first device build.
+import { DailyReminderService, ScheduledBrief, dateKeyFromPayload } from './shared';
 
-export type { ScheduledBrief } from './index';
-export { briefFor, dateKeyFromPayload } from './index';
+export type { DailyReminderService, ScheduledBrief } from './shared';
+export { briefFor, dateKeyFromPayload } from './shared';
 
 /**
  * Daily reminder — the native implementation.

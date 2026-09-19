@@ -1,5 +1,6 @@
 import { AuthService } from './AuthService';
-import { stubAuthService } from './index';
+// From './stubAuth', never './index': on native `./index` IS this file.
+import { stubAuthService } from './stubAuth';
 import { googleAuthService, hasGoogleClientId } from './googleAuth.native';
 
 export * from './AuthService';
