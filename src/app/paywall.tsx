@@ -1,4 +1,4 @@
-import { useRouter } from 'expo-router';
+import { useLocalSearchParams, useRouter } from 'expo-router';
 import { useEffect, useMemo, useState } from 'react';
 import { ActivityIndicator, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -26,10 +26,21 @@ export default function PaywallScreen() {
   const restore = useEntitlementStore((s) => s.restore);
   const loadOfferings = useEntitlementStore((s) => s.loadOfferings);
 
-  const defaultId = useMemo(
-    () => packages.find((p) => p.highlight)?.id ?? packages[0]?.id ?? null,
-    [packages],
-  );
+  /**
+   * `?plan=lifetime` arrives from a link that is already about one product.
+   *
+   * The launch screen's "claim this date" line is the case that needed it: a
+   * date is a Lifetime privilege, so sending the reader here with the annual
+   * plan selected — and the button reading "Unlock Pro" over the wrong price —
+   * asks them to find the right card themselves. Unrecognised values fall
+   * through to the normal default rather than selecting nothing.
+   */
+  const { plan } = useLocalSearchParams<{ plan?: string }>();
+
+  const defaultId = useMemo(() => {
+    const asked = plan === undefined ? undefined : packages.find((p) => p.period === plan);
+    return asked?.id ?? packages.find((p) => p.highlight)?.id ?? packages[0]?.id ?? null;
+  }, [packages, plan]);
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const activeId = selectedId ?? defaultId;
 

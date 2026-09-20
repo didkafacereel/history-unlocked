@@ -5,6 +5,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import { PressableScale } from '@/components/primitives/PressableScale';
 import { monthLabel, parseDateKey, todayDateKey } from '@/lib/dateKey';
 import { getFoundersService } from '@/services/founders';
+import { useFoundersStore } from '@/stores/useFoundersStore';
 import { palette, spacing } from '@/theme/tokens';
 import { type } from '@/theme/typography';
 
@@ -27,11 +28,24 @@ import { type } from '@/theme/typography';
  * the opposite choice in the register, deliberately: the archive's own voice
  * should not advertise. The launch screen already carries the Pro tile, so an
  * offer here is in keeping.
+ *
+ * Where the prompt GOES depends on what the reader already owns, because a day
+ * is not sold on its own — it is a Lifetime privilege, claimed afterwards:
+ *
+ *   not a founder  → the paywall, with Lifetime already selected
+ *   founder, no day → the claim form, opened on this date
+ *   founder with a day → no prompt at all; they have spent their one claim
+ *
+ * Sending all three to `/paywall` was the previous behaviour and was wrong for
+ * two of them: a founder who taps "claim it" and is shown a price for
+ * something they already bought has been told the app does not know them.
  */
 export const LaunchDateLine = memo(function LaunchDateLine() {
   const router = useRouter();
   const dateKey = todayDateKey();
   const [keepers, setKeepers] = useState<string[] | null>(null);
+  const seat = useFoundersStore((s) => s.status.seat);
+  const keptDate = useFoundersStore((s) => s.status.keptDate);
 
   useEffect(() => {
     let active = true;
@@ -65,9 +79,15 @@ export const LaunchDateLine = memo(function LaunchDateLine() {
         <Text style={styles.kept} numberOfLines={1}>
           {`Kept by ${keepers.join(' · ')}`}
         </Text>
-      ) : (
+      ) : keptDate !== null ? null : (
         <PressableScale
-          onPress={() => router.push('/paywall')}
+          onPress={() =>
+            router.push(
+              seat === null
+                ? '/paywall?plan=lifetime'
+                : `/keep-a-day?date=${encodeURIComponent(dateKey)}`,
+            )
+          }
           style={styles.claim}
           accessibilityLabel={`Keep ${date} in your name`}
         >

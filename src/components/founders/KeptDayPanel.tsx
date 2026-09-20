@@ -5,7 +5,14 @@ import { StyleSheet, Text, TextInput, View } from 'react-native';
 import { PressableScale } from '@/components/primitives/PressableScale';
 import { SegmentedText } from '@/components/primitives/SegmentedText';
 import { getFoundersService, KEEPERS_PER_DATE } from '@/services/founders';
-import { makeDateKey, monthLabel, shortDateKeyLabel, daysInMonth } from '@/lib/dateKey';
+import {
+  makeDateKey,
+  monthLabel,
+  parseDateKey,
+  shortDateKeyLabel,
+  daysInMonth,
+  todayDateKey,
+} from '@/lib/dateKey';
 import { useIsPro } from '@/stores/useEntitlementStore';
 import { useFoundersStore } from '@/stores/useFoundersStore';
 import { palette, radius, spacing } from '@/theme/tokens';
@@ -27,16 +34,27 @@ import { FounderBadge } from './FounderBadge';
  */
 const MAX_NAME = 28;
 
-export const KeptDayPanel = memo(function KeptDayPanel() {
+interface KeptDayPanelProps {
+  /**
+   * The date the picker opens on, "MM-DD". Defaults to today.
+   *
+   * Set when the reader arrived from a link about one particular date — the
+   * launch screen offers the day it is showing, and opening the picker on some
+   * other date would make them step back to the one they tapped.
+   */
+  initialDateKey?: string;
+}
+
+export const KeptDayPanel = memo(function KeptDayPanel({ initialDateKey }: KeptDayPanelProps) {
   const router = useRouter();
   const isPro = useIsPro();
   const seat = useFoundersStore((s) => s.status.seat);
   const keptDate = useFoundersStore((s) => s.status.keptDate);
   const claimDate = useFoundersStore((s) => s.claimDate);
 
-  const today = new Date();
-  const [month, setMonth] = useState(today.getMonth() + 1);
-  const [day, setDay] = useState(today.getDate());
+  const opening = initialDateKey === undefined ? todayDateKey() : initialDateKey;
+  const [month, setMonth] = useState(() => parseDateKey(opening).month);
+  const [day, setDay] = useState(() => parseDateKey(opening).day);
   const [name, setName] = useState('');
   const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
@@ -76,7 +94,7 @@ export const KeptDayPanel = memo(function KeptDayPanel() {
   if (seat === null) {
     return (
       <PressableScale
-        onPress={() => router.push('/paywall')}
+        onPress={() => router.push('/paywall?plan=lifetime')}
         style={styles.panel}
         accessibilityLabel="Keep a day in history — a Lifetime privilege"
       >
