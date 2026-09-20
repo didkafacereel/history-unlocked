@@ -4,7 +4,7 @@ import { StyleSheet, Text, TextInput, View } from 'react-native';
 
 import { PressableScale } from '@/components/primitives/PressableScale';
 import { SegmentedText } from '@/components/primitives/SegmentedText';
-import { getFoundersService, KEEPERS_PER_DATE } from '@/services/founders';
+import { getFoundersService, KEEPERS_PER_DATE, KEEPER_REFRESH_NOTE } from '@/services/founders';
 import {
   makeDateKey,
   monthLabel,
@@ -24,10 +24,11 @@ import { FounderBadge } from './FounderBadge';
  * Keep a day.
  *
  * A founder claims one calendar date and their name sits at the foot of that
- * date's register, every year. It is the one privilege this app can offer that
- * no other app can copy, because the product IS a calendar — and the ceiling is
- * honest rather than invented: there are 366 days, and {@link KEEPERS_PER_DATE}
- * names fit on each.
+ * date's register, every year. One name per date: the day is theirs, not a
+ * line on a shared list. It is the one privilege this app can offer that no
+ * other app can copy, because the product IS a calendar — and the ceiling is
+ * honest rather than invented: there are 366 days and that is how many there
+ * will ever be.
  *
  * Claiming is deliberately one-way and stated as such before the button. A day
  * you can swap next week is a setting; a day you choose once is a decision.
@@ -117,8 +118,11 @@ export const KeptDayPanel = memo(function KeptDayPanel({ initialDateKey }: KeptD
         <SegmentedText variant="label">Your day</SegmentedText>
         <Text style={styles.keptDate}>{shortDateKeyLabel(keptDate)}</Text>
         <SegmentedText variant="caption">
-          Your name sits at the foot of this day’s register, every year.
+          Yours alone. Your name sits at the foot of this day’s register, every year.
         </SegmentedText>
+        {/* Said here because this is the screen a new founder is looking at
+            when they wonder why the day does not carry their name yet. */}
+        <SegmentedText variant="caption">{KEEPER_REFRESH_NOTE}</SegmentedText>
         <FounderBadge compact />
       </View>
     );
@@ -139,7 +143,7 @@ export const KeptDayPanel = memo(function KeptDayPanel({ initialDateKey }: KeptD
     setBusy(false);
     if (result === 'taken') {
       setAvailability({ dateKey, taken: KEEPERS_PER_DATE });
-      setError(`${shortDateKeyLabel(dateKey)} filled up. Pick another day.`);
+      setError(`${shortDateKeyLabel(dateKey)} was taken. Pick another day.`);
     } else if (result === 'failed') {
       setError('Could not reach the archive. Try again in a moment.');
     }
@@ -174,8 +178,8 @@ export const KeptDayPanel = memo(function KeptDayPanel({ initialDateKey }: KeptD
         {known === null
           ? 'Checking who keeps this day…'
           : full
-            ? `${shortDateKeyLabel(dateKey)} is full — ${KEEPERS_PER_DATE} keepers already.`
-            : `${KEEPERS_PER_DATE - known} of ${KEEPERS_PER_DATE} places free on ${shortDateKeyLabel(dateKey)}.`}
+            ? `${shortDateKeyLabel(dateKey)} already has a keeper.`
+            : `${shortDateKeyLabel(dateKey)} is free.`}
       </SegmentedText>
 
       <TextInput
@@ -202,7 +206,7 @@ export const KeptDayPanel = memo(function KeptDayPanel({ initialDateKey }: KeptD
           // Kept pressable when full rather than disabled: a dead button
           // explains nothing, and the message names the actual problem.
           if (full) {
-            setError(`${shortDateKeyLabel(dateKey)} is full. Step to another day.`);
+            setError(`${shortDateKeyLabel(dateKey)} is taken. Step to another day.`);
             return;
           }
           void onClaim();

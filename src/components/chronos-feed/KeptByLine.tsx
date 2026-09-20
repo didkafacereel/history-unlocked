@@ -44,10 +44,13 @@ export const KeptByLine = memo(function KeptByLine() {
   return (
     <View style={styles.line}>
       <SegmentedText variant="label" style={styles.label}>
-        {keepers.length === 1 ? 'This day is kept by' : 'This day is kept by'}
+        This day is kept by
       </SegmentedText>
+      {/* One name. A date has a single keeper now, but the service still
+          answers with a list — it is the shape a server returns — so this
+          takes the first rather than assuming the array has exactly one. */}
       <SegmentedText variant="fact" style={styles.names}>
-        {keepers.join(' · ')}
+        {keepers[0] ?? ''}
       </SegmentedText>
     </View>
   );

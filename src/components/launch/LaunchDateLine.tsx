@@ -77,7 +77,7 @@ export const LaunchDateLine = memo(function LaunchDateLine() {
 
       {keepers === null ? null : keepers.length > 0 ? (
         <Text style={styles.kept} numberOfLines={1}>
-          {`Kept by ${keepers.join(' · ')}`}
+          {`Kept by ${keepers[0] ?? ''}`}
         </Text>
       ) : keptDate !== null ? null : (
         <PressableScale

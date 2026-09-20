@@ -34,8 +34,15 @@ const EMPTY: LocalState = {
   keptDate: null,
   displayName: '',
   // A plausible starting point, so the cap reads as a real ceiling in review
-  // rather than as "1 of 500" on a fresh install.
-  seatsTaken: 128,
+  // rather than as "1 of 122" on a fresh install.
+  //
+  // Kept inside the FIRST band deliberately. At 128 — fine when a band was 500
+  // seats — it now lands in the second generation, and the paywall renders
+  // "Second Generation · $79.99" because the name comes from the live seat
+  // count while the price comes from the store. That is a true picture of a
+  // misconfigured store, not of a working one, and it is the wrong thing for a
+  // review build to be showing.
+  seatsTaken: 37,
   keepersByDate: {},
 };
 

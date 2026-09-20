@@ -44,14 +44,20 @@ three prices:
 
 | Generation | Seats | Price |
 | --- | --- | --- |
-| First | 1–500 | $79.99 |
-| Second | 501–1000 | $119.99 |
-| Third | 1001–1500 | $159.99 |
+| First | 1–122 | $79.99 |
+| Second | 123–244 | $119.99 |
+| Third | 245–366 | $159.99 |
+
+366 seats in total and no more, because a founder keeps one date of the year
+outright and there are 366 dates. The bands are that number divided by three;
+do not treat them as a round number that can be nudged. See
+`src/services/founders/FoundersService.ts`, where every one of these figures
+is derived from the calendar rather than typed in.
 
 `FounderSeatsRow` already shows the right one as on sale, because it reads the
 live seat count. What it cannot do is change what the store charges.
 
-**So: launch with the First Generation product only.** When seat 500 sells,
+**So: launch with the First Generation product only.** When seat 122 sells,
 swap the lifetime product in the `default` offering for a new
 `history_unlocked_pro_lifetime_gen2` at $119.99. No app update is needed —
 RevenueCat offerings are server-side.

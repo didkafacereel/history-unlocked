@@ -18,9 +18,9 @@
  *
  * A single cap forces an ugly choice the day it fills: close the tier and turn
  * away money, or raise it and break the promise the first buyers paid for.
- * Generations avoid both. The first 500 seats are gone forever once they are
- * gone — nobody can become first-generation later, which is the whole point —
- * and the line simply moves on to the next band at a higher price.
+ * Generations avoid both. The first band is gone forever once it is gone —
+ * nobody can become first-generation later, which is the whole point — and the
+ * line simply moves on to the next band at a higher price.
  *
  * The generation is DERIVED from the seat number rather than stored, so it can
  * never disagree with it: #47 is first-generation by arithmetic, not by a flag
@@ -56,23 +56,39 @@ export interface FounderGeneration {
  * who would never have subscribed at all, which makes them additional revenue
  * rather than cannibalised revenue.
  */
+/** Leap year, so 29 February is a date somebody can own. */
+const DATES_IN_YEAR = 366;
+
 /**
- * A generation is one calendar year of keepers: 366 seats, not 500.
+ * How many founders may keep the same date. One — the date is theirs.
  *
- * It was 500, which made 1500 seats against 1098 day-places — 366 dates times
- * {@link KEEPERS_PER_DATE}. Four hundred and two people could have paid for a
- * Lifetime seat sold with the words "one date of the year kept in your name"
- * and found every date taken. The old comment on KEEPER_PLACES called that the
- * honest reason a late founder might find no day left, but there is nothing
- * honest about selling a thing that provably does not exist for a quarter of
- * the people buying it.
+ * This was three, and the argument for three was written down: a single keeper
+ * makes 366 the hard ceiling on lifetime sales, and it turns birthdays into a
+ * land grab where the first buyers take every date anyone actually wants.
+ * Both of those are still true, and the decision went the other way anyway.
  *
- * Tied to the calendar instead, so the promise is arithmetic rather than hope:
- * three generations of 366 is exactly 1098, and the last seat sold is the last
- * day-place there is. A reader can check it — there are 366 days in a year and
- * three names fit on each.
+ * What three cost is the thing being sold. "Your name is on 3 March, alongside
+ * two others" is a mailing list. "3 March is yours" is a deed, and it is the
+ * only thing this app can offer that no competitor can copy, because the
+ * product IS a calendar and there is exactly one 3 March. A land grab is what
+ * a scarce thing looks like when it is real.
+ *
+ * The ceiling is the honest consequence: 366 seats, ever. Priced accordingly.
  */
-const SEATS_PER_GENERATION = 366;
+export const KEEPERS_PER_DATE = 1;
+
+/**
+ * Total day-keeping places, and therefore total seats.
+ *
+ * Every number below is derived from the calendar so the promise is arithmetic
+ * rather than hope: the last seat sold is the last day there is. An earlier
+ * version set the seat count by hand at 1500 against 1098 places, which would
+ * have sold 402 people a date that did not exist.
+ */
+export const KEEPER_PLACES = DATES_IN_YEAR * KEEPERS_PER_DATE;
+
+const GENERATION_COUNT = 3;
+const SEATS_PER_GENERATION = KEEPER_PLACES / GENERATION_COUNT;
 
 function band(ordinal: number): { firstSeat: number; lastSeat: number } {
   return {
@@ -102,25 +118,16 @@ export function generationOnSale(seatsTaken: number): FounderGeneration | null {
 }
 
 /**
- * How many founders may keep the same date.
+ * How long a newly claimed name takes to appear on its date.
  *
- * Three, not one. A single keeper per day makes 366 the hard ceiling on
- * lifetime sales and turns birthdays into a land grab — the first hundred
- * buyers would take every date anyone actually wants. Three keeps the
- * good dates reachable for longer while the line still reads as a short list
- * of names rather than a crowd.
+ * Claims are recorded the moment they are made, but the name is written into
+ * the published archive on its daily rebuild, so a founder who claims at noon
+ * sees their day carry their name the following morning. Stated in the app
+ * rather than glossed over: someone who has just paid and does not see their
+ * name will assume it failed, and an unexplained wait is how a purchase turns
+ * into a support message.
  */
-export const KEEPERS_PER_DATE = 3;
-
-/**
- * Total day-keeping places: 366 dates times {@link KEEPERS_PER_DATE}.
- *
- * Equal to {@link FOUNDER_SEATS} by construction, and the equality is the
- * promise: every seat that can be sold has a day behind it. Held by a test
- * rather than by this comment, because the two numbers are computed from
- * different constants and a change to either would silently reopen the gap.
- */
-export const KEEPER_PLACES = 366 * KEEPERS_PER_DATE;
+export const KEEPER_REFRESH_NOTE = 'Names are written into the archive once a day.';
 
 export interface FounderStatus {
   /** 1-based seat number, or null when this reader is not a founder. */

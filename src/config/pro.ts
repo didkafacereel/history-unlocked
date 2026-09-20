@@ -37,8 +37,11 @@ export const PRO_FEATURES: ProFeatureCopy[] = [
   {
     icon: '✦',
     title: 'Founder — a Seat and a Day',
+    // "one date of the year" understated it while three people could share a
+    // date. One keeper now, so the copy can say the thing that is actually
+    // being sold: 366 days exist and one of them becomes yours.
     description:
-      'Lifetime only: a numbered seat in the current generation, and one date of the year kept in your name at the foot of its register.',
+      'Lifetime only: a numbered seat in the current generation, and one day of the year that is yours alone — your name at the foot of its register, every year.',
   },
   {
     icon: '📚',
@@ -154,6 +157,6 @@ export const DEV_PACKAGES: SubscriptionPackage[] = [
     // production this string comes from the store, where the app cannot
     // correct it. NOTE for launch: each generation needs its OWN store
     // product, because the price differs per band.
-    subtitle: 'A numbered seat and a day of the year, kept in your name',
+    subtitle: 'A numbered seat, and one day of the year that is yours alone',
   },
 ];

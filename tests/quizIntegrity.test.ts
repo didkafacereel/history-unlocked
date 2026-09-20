@@ -137,6 +137,14 @@ describe('founder seats', () => {
   // 1098 day-places, so 402 buyers could have paid for a promise the calendar
   // could not keep. These two numbers are computed from different constants;
   // nothing but this test stops them drifting apart again.
+  it('gives a date one keeper, because the paywall says "yours alone"', () => {
+    // Not arithmetic — a promise. Raising this to two would double the
+    // revenue ceiling and quietly make a lie of the offer text, the panel
+    // that says "Yours alone", and the register line that names one person.
+    // Change it only with those.
+    expect(KEEPERS_PER_DATE).toBe(1);
+  });
+
   it('never sells a seat the calendar cannot honour', () => {
     expect(FOUNDER_SEATS).toBeLessThanOrEqual(KEEPER_PLACES);
   });
