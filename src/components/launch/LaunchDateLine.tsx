@@ -81,11 +81,16 @@ export const LaunchDateLine = memo(function LaunchDateLine() {
         </Text>
       ) : keptDate !== null ? null : (
         <PressableScale
+          // The object form, not `/paywall?plan=lifetime`. Both are legal
+          // hrefs, but the string form leaves the query to be parsed out of a
+          // path and that is the one part of this that behaved differently on
+          // the device than in the browser. `params` is unambiguous, and it
+          // also means no hand-rolled encodeURIComponent.
           onPress={() =>
             router.push(
               seat === null
-                ? '/paywall?plan=lifetime'
-                : `/keep-a-day?date=${encodeURIComponent(dateKey)}`,
+                ? { pathname: '/paywall', params: { plan: 'lifetime' } }
+                : { pathname: '/keep-a-day', params: { date: dateKey } },
             )
           }
           style={styles.claim}

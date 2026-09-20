@@ -94,7 +94,7 @@ export const KeptDayPanel = memo(function KeptDayPanel({ initialDateKey }: KeptD
   if (seat === null) {
     return (
       <PressableScale
-        onPress={() => router.push('/paywall?plan=lifetime')}
+        onPress={() => router.push({ pathname: '/paywall', params: { plan: 'lifetime' } })}
         style={styles.panel}
         accessibilityLabel="Keep a day in history — a Lifetime privilege"
       >
