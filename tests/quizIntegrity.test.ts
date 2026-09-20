@@ -3,6 +3,13 @@ import { describe, expect, it } from 'vitest';
 import { isGeneratedQuestion, questionsFor, seededShuffle } from '@/data/quizGeneration';
 import { tierStanding } from '@/data/collectionTiers';
 import { dateKeyFromPayload } from '@/services/notifications';
+import {
+  FOUNDER_GENERATIONS,
+  FOUNDER_SEATS,
+  KEEPERS_PER_DATE,
+  KEEPER_PLACES,
+  generationOnSale,
+} from '@/services/founders';
 import { dailyQuestionCount } from '@/stores/useQuizStore';
 import { awardForQuiz } from '@/types/progression';
 import type { HistoricalEvent, ScenarioQuestion } from '@/types/manifest';
@@ -121,6 +128,36 @@ describe('the daily quiz length', () => {
     // persisted raw and raising the rungs would demote people who already
     // earned their badge. So the award comes down instead.
     expect(awardForQuiz(dailyQuestionCount(false), dailyQuestionCount(false))).toBe(100);
+  });
+});
+
+describe('founder seats', () => {
+  // The Lifetime pitch says, in those words, "one date of the year kept in
+  // your name". Three generations of 500 made 1500 seats against 366 x 3 =
+  // 1098 day-places, so 402 buyers could have paid for a promise the calendar
+  // could not keep. These two numbers are computed from different constants;
+  // nothing but this test stops them drifting apart again.
+  it('never sells a seat the calendar cannot honour', () => {
+    expect(FOUNDER_SEATS).toBeLessThanOrEqual(KEEPER_PLACES);
+  });
+
+  it('sells exactly as many seats as there are places', () => {
+    expect(FOUNDER_SEATS).toBe(366 * KEEPERS_PER_DATE);
+  });
+
+  it('leaves no gap or overlap between the generations', () => {
+    let expected = 1;
+    for (const generation of FOUNDER_GENERATIONS) {
+      expect(generation.firstSeat).toBe(expected);
+      expect(generation.lastSeat).toBeGreaterThanOrEqual(generation.firstSeat);
+      expected = generation.lastSeat + 1;
+    }
+    expect(expected - 1).toBe(FOUNDER_SEATS);
+  });
+
+  it('closes Lifetime for good once the last seat goes', () => {
+    expect(generationOnSale(FOUNDER_SEATS - 1)?.ordinal).toBe(FOUNDER_GENERATIONS.length);
+    expect(generationOnSale(FOUNDER_SEATS)).toBeNull();
   });
 });
 

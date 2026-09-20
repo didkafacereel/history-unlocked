@@ -67,7 +67,11 @@ export const FounderSeatsRow = memo(function FounderSeatsRow() {
         <SegmentedText variant="label" style={styles.label}>
           {`${current.name} · ${storePrice ?? current.price}`}
         </SegmentedText>
-        <Text style={styles.count}>{`${remaining} left`}</Text>
+        {/* "372 left" was read as "there are 372 seats" by the first person to
+            see it, which is the opposite of what the row is for — the whole
+            tier rests on these numbers being unmistakable. The denominator
+            makes it one reading. */}
+        <Text style={styles.count}>{`${remaining} of ${size} left`}</Text>
       </View>
 
       <View style={styles.track}>

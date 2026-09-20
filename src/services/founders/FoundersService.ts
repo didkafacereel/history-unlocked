@@ -56,10 +56,35 @@ export interface FounderGeneration {
  * who would never have subscribed at all, which makes them additional revenue
  * rather than cannibalised revenue.
  */
+/**
+ * A generation is one calendar year of keepers: 366 seats, not 500.
+ *
+ * It was 500, which made 1500 seats against 1098 day-places — 366 dates times
+ * {@link KEEPERS_PER_DATE}. Four hundred and two people could have paid for a
+ * Lifetime seat sold with the words "one date of the year kept in your name"
+ * and found every date taken. The old comment on KEEPER_PLACES called that the
+ * honest reason a late founder might find no day left, but there is nothing
+ * honest about selling a thing that provably does not exist for a quarter of
+ * the people buying it.
+ *
+ * Tied to the calendar instead, so the promise is arithmetic rather than hope:
+ * three generations of 366 is exactly 1098, and the last seat sold is the last
+ * day-place there is. A reader can check it — there are 366 days in a year and
+ * three names fit on each.
+ */
+const SEATS_PER_GENERATION = 366;
+
+function band(ordinal: number): { firstSeat: number; lastSeat: number } {
+  return {
+    firstSeat: (ordinal - 1) * SEATS_PER_GENERATION + 1,
+    lastSeat: ordinal * SEATS_PER_GENERATION,
+  };
+}
+
 export const FOUNDER_GENERATIONS: FounderGeneration[] = [
-  { ordinal: 1, numeral: 'I', name: 'First Generation', firstSeat: 1, lastSeat: 500, price: '$79.99' },
-  { ordinal: 2, numeral: 'II', name: 'Second Generation', firstSeat: 501, lastSeat: 1000, price: '$119.99' },
-  { ordinal: 3, numeral: 'III', name: 'Third Generation', firstSeat: 1001, lastSeat: 1500, price: '$159.99' },
+  { ordinal: 1, numeral: 'I', name: 'First Generation', ...band(1), price: '$79.99' },
+  { ordinal: 2, numeral: 'II', name: 'Second Generation', ...band(2), price: '$119.99' },
+  { ordinal: 3, numeral: 'III', name: 'Third Generation', ...band(3), price: '$159.99' },
 ];
 
 /** Every seat there will ever be. After this, Lifetime closes for good. */
@@ -88,11 +113,14 @@ export function generationOnSale(seatsTaken: number): FounderGeneration | null {
 export const KEEPERS_PER_DATE = 3;
 
 /**
- * Total day-keeping places: 366 dates times {@link KEEPERS_PER_DATE}. A
- * different ceiling from the seat count, and the honest reason a late founder
- * may find no day left — there are only so many days.
+ * Total day-keeping places: 366 dates times {@link KEEPERS_PER_DATE}.
+ *
+ * Equal to {@link FOUNDER_SEATS} by construction, and the equality is the
+ * promise: every seat that can be sold has a day behind it. Held by a test
+ * rather than by this comment, because the two numbers are computed from
+ * different constants and a change to either would silently reopen the gap.
  */
-export const KEEPER_PLACES = 366 * 3;
+export const KEEPER_PLACES = 366 * KEEPERS_PER_DATE;
 
 export interface FounderStatus {
   /** 1-based seat number, or null when this reader is not a founder. */

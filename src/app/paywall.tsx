@@ -18,6 +18,8 @@ import { type } from '@/theme/typography';
 export default function PaywallScreen() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
+  // TEMPORARY device instrumentation — remove once confirmed.
+  console.log('[HU] paywall mounted');
 
   const isPro = useEntitlementStore((s) => s.isPro);
   const packages = useEntitlementStore((s) => s.packages);
@@ -39,8 +41,14 @@ export default function PaywallScreen() {
 
   const defaultId = useMemo(() => {
     const asked = plan === undefined ? undefined : packages.find((p) => p.period === plan);
-    return asked?.id ?? packages.find((p) => p.highlight)?.id ?? packages[0]?.id ?? null;
-  }, [packages, plan]);
+    // A reader who is already Pro is here for the one thing they do not have.
+    // Opening on the highlighted annual plan would arm the button to sell them
+    // the subscription they are already paying for.
+    const forPro = isPro ? packages.find((p) => p.period === 'lifetime') : undefined;
+    return (
+      asked?.id ?? forPro?.id ?? packages.find((p) => p.highlight)?.id ?? packages[0]?.id ?? null
+    );
+  }, [packages, plan, isPro]);
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const activeId = selectedId ?? defaultId;
 
@@ -50,14 +58,39 @@ export default function PaywallScreen() {
     }
   }, [packages.length, loadOfferings]);
 
-  // Leaving the screen Pro (purchase or restore succeeded) returns to the app.
-  // Via `goBack`, because a Pro reader who opens /paywall as a deep link has no
-  // history behind it and a bare back() there leaves them on a blank screen.
-  useEffect(() => {
-    if (isPro) {
-      goBack(router);
+  /*
+   * Leaving is a consequence of BUYING something here, not of being Pro.
+   *
+   * This used to be `useEffect(() => { if (isPro) goBack(router) })`, and it
+   * was a dead end: a Pro subscriber is still not a founder, Lifetime is the
+   * only way to keep a day, Lifetime is sold on this screen — and the screen
+   * shut itself the instant it opened. Every route to it looked broken from
+   * the outside, which is exactly how it was reported: "the button does
+   * nothing". It did something. This closed it again before a frame was drawn.
+   *
+   * So the exits are explicit, on the two actions that can actually finish:
+   * the purchase button and Restore. A Pro reader who opens this screen now
+   * stays on it and can see what is left to buy.
+   */
+  const buy = async () => {
+    if (!activeId) {
+      return;
     }
-  }, [isPro, router]);
+    const bought = packages.find((p) => p.id === activeId);
+    if (!(await purchase(activeId))) {
+      return;
+    }
+    // A founder seat comes with a day to choose, and the moment just after
+    // paying is when they want to choose it — not three taps into the profile
+    // screen, whenever they happen to find it. `purchase` has already awaited
+    // the seat allocation for a lifetime package, so the picker opens on a
+    // reader the founders service already knows.
+    if (bought?.period === 'lifetime') {
+      router.replace('/keep-a-day');
+      return;
+    }
+    goBack(router);
+  };
 
   return (
     <View style={styles.screen}>
@@ -110,11 +143,7 @@ export default function PaywallScreen() {
         </View>
 
         <PressableScale
-          onPress={() => {
-            if (activeId) {
-              void purchase(activeId);
-            }
-          }}
+          onPress={() => void buy()}
           style={styles.cta}
           accessibilityLabel="Start Pro"
         >
@@ -122,14 +151,23 @@ export default function PaywallScreen() {
             <ActivityIndicator color={palette.void} />
           ) : (
             <SegmentedText variant="label" style={styles.ctaLabel}>
-              Unlock Pro
+              {/* "Unlock Pro" is wrong for someone who already has it. The
+                  only purchase left for a subscriber is the founder seat, and
+                  the button should say which one it is about to make. */}
+              {isPro && packages.find((p) => p.id === activeId)?.period === 'lifetime'
+                ? 'Become a founder'
+                : 'Unlock Pro'}
             </SegmentedText>
           )}
         </PressableScale>
 
         <PressableScale
           onPress={() => {
-            void restore();
+            void restore().then((ok) => {
+              if (ok) {
+                goBack(router);
+              }
+            });
           }}
           style={styles.restore}
           accessibilityLabel="Restore purchases"
