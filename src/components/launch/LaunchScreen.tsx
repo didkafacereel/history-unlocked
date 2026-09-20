@@ -132,9 +132,15 @@ export const LaunchScreen = memo(function LaunchScreen({
       />
 
       <Animated.View entering={FadeIn.duration(400)} style={styles.brand}>
+        {/* The mark shrinks once there is something to choose between.
+            While the archive loads it is the whole screen and should be; the
+            moment the tiles arrive it is competing with them for the fold, and
+            measured on a 360x800 phone it lost the Pro tile entirely — that
+            tile began at y=808 on an 800pt screen, so the offer existed and
+            no one ever saw it. */}
         <Image
           source={require('@/assets/images/icon.png')}
-          style={styles.mark}
+          style={ready ? styles.markSmall : styles.mark}
           contentFit="contain"
           transition={200}
         />
@@ -221,23 +227,29 @@ export const LaunchScreen = memo(function LaunchScreen({
 });
 
 const MARK = 88;
+const MARK_SMALL = 56;
 
 const styles = StyleSheet.create({
   screen: {
     flex: 1,
     backgroundColor: palette.void,
-    paddingTop: spacing.xxxl,
+    paddingTop: spacing.xl,
     paddingBottom: spacing.xl,
     paddingHorizontal: spacing.xl,
   },
   brand: {
     alignItems: 'center',
     gap: spacing.sm,
-    paddingVertical: spacing.lg,
+    paddingVertical: spacing.md,
   },
   mark: {
     width: MARK,
     height: MARK,
+    borderRadius: radius.pill,
+  },
+  markSmall: {
+    width: MARK_SMALL,
+    height: MARK_SMALL,
     borderRadius: radius.pill,
   },
   title: {

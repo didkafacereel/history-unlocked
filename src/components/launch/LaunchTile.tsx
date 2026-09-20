@@ -60,10 +60,10 @@ export const LaunchTile = memo(function LaunchTile({
       <View style={styles.body}>
         <Text style={styles.glyph}>{glyph}</Text>
         <View style={styles.text}>
-          {/* One line each, and the tile is a fixed 116px band: a subtitle
-              that wraps pushes its second line past the bottom edge, which is
-              how "and every other date" ended up half outside the Pro tile.
-              Keep the strings short; this only stops a long one breaking the
+          {/* One line each, and the tile is a fixed band: a subtitle that
+              wraps pushes its second line past the bottom edge, which is how
+              "and every other date" ended up half outside the Pro tile. Keep
+              the strings short; this only stops a long one breaking the
               layout. */}
           <Text style={styles.title} numberOfLines={1}>
             {title}
@@ -79,7 +79,11 @@ export const LaunchTile = memo(function LaunchTile({
 
 const styles = StyleSheet.create({
   tile: {
-    height: 116,
+    // 98, down from 116. Four tiles at 116 plus the brand above them came to
+    // 924pt on an 800pt screen and the fourth — the Pro offer — sat entirely
+    // below the fold. Eight points of picture each is a cheap price for the
+    // offer being on the screen at all.
+    height: 98,
     borderRadius: radius.lg,
     overflow: 'hidden',
     borderWidth: StyleSheet.hairlineWidth,
