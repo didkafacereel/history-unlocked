@@ -101,8 +101,11 @@ export const PRO_FEATURES: ProFeatureCopy[] = [
   {
     icon: '🗳️',
     title: 'A Say in the Feed',
+    // "and suggest one the archive is missing" was here, and the suggestion
+    // box is not shipping — see src/config/feedback.ts. Half a promise on a
+    // paywall is a whole broken one.
     description:
-      'Vote for the event that should lead a day, and suggest one the archive is missing.',
+      'Vote for the event that should lead a day, and see the share it won on the card itself.',
   },
 ];
 

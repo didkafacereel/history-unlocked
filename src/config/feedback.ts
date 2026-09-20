@@ -14,6 +14,12 @@ import { HistoricalEvent } from '@/types/manifest';
  *
  *   EXPO_PUBLIC_FEEDBACK_FORM_URL   a web form; the date is appended as ?date=
  *   EXPO_PUBLIC_FEEDBACK_EMAIL      fallback, opens the mail composer
+ *
+ * NEITHER IS SET FOR LAUNCH, and that is a decision rather than an oversight:
+ * an inbox is a commitment to answer it, and the intent is an in-app channel in
+ * a later update instead. The paywall's feature list was corrected to match —
+ * it used to offer "suggest one the archive is missing". Anyone wiring this up
+ * later should put that clause back at the same time.
  */
 
 const FORM_URL = process.env.EXPO_PUBLIC_FEEDBACK_FORM_URL?.trim() || null;
