@@ -86,13 +86,13 @@ export const LaunchDateLine = memo(function LaunchDateLine() {
           // path and that is the one part of this that behaved differently on
           // the device than in the browser. `params` is unambiguous, and it
           // also means no hand-rolled encodeURIComponent.
-          onPress={() =>
+          onPress={() => {
             router.push(
               seat === null
                 ? { pathname: '/paywall', params: { plan: 'lifetime' } }
                 : { pathname: '/keep-a-day', params: { date: dateKey } },
-            )
-          }
+            );
+          }}
           style={styles.claim}
           accessibilityLabel={`Keep ${date} in your name`}
         >

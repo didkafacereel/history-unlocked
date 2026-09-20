@@ -18,8 +18,6 @@ import { type } from '@/theme/typography';
 export default function PaywallScreen() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
-  // TEMPORARY device instrumentation — remove once confirmed.
-  console.log('[HU] paywall mounted');
 
   const isPro = useEntitlementStore((s) => s.isPro);
   const packages = useEntitlementStore((s) => s.packages);
