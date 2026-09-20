@@ -1,35 +1,92 @@
 import { Image } from 'expo-image';
-import { memo, useState } from 'react';
-import { ActivityIndicator, StyleSheet, Text, View } from 'react-native';
+import { useRouter } from 'expo-router';
+import { memo, useMemo, useState } from 'react';
+import { ActivityIndicator, ScrollView, StyleSheet, Text, View } from 'react-native';
 import Animated, { FadeIn } from 'react-native-reanimated';
 
 import { PressableScale } from '@/components/primitives/PressableScale';
+import { COLLECTIONS } from '@/config/collections';
+import { prominence } from '@/data/deckPlan';
 import { getAuthService } from '@/services/auth';
 import { useAuthStore } from '@/stores/useAuthStore';
+import { useFeedStore } from '@/stores/useFeedStore';
 import { useOnboardingStore } from '@/stores/useOnboardingStore';
 import { palette, radius, spacing } from '@/theme/tokens';
 import { type } from '@/theme/typography';
 
+import { LaunchTile } from './LaunchTile';
+
 /**
- * What the reader looks at while the archive arrives.
+ * Hand-made art for the tiles, when there is any.
  *
- * There used to be a bare spinner on black here. That is a long time to show
- * nothing: the manifest is 16 MB and every one of its 8056 events goes through
- * Zod before the first card can be planned, which is seconds on a phone. A
- * black screen for seconds reads as a broken app.
+ * Each entry is either a `require(...)` of a file under assets/images or
+ * undefined, in which case the tile borrows a picture from today's archive.
+ * Drop a file in, point the entry at it, and nothing else changes — the
+ * fallback stays for whichever tiles are still unset.
  *
- * On the first launch it also offers an account, because this is the one
- * moment the reader is already waiting and nothing is being interrupted. The
- * offer never blocks: "Continue without an account" sits directly beneath it,
- * and the app is designed so a free reader is never prompted again.
+ *   today: require('@/assets/images/tile-today.jpg'),
  *
- * Once that question is answered — either way — it is not asked again, and
- * later launches show only the brand and the spinner.
+ * Landscape, at least 800px wide. The tile is a 116px band with a gradient
+ * over the foot of it, so anything with its subject low down will be covered
+ * by the words.
+ */
+/**
+ * Pictures that are fine on a card but wrong as a tile.
+ *
+ * The archive still holds a few hundred flags, seals, logos and locator maps,
+ * and the launch screen is the worst place to meet one: the first tiles it
+ * built showed the French Army's logo and the title card of a 1980s sitcom.
+ *
+ * `.svg.png` is refused here although the pipeline's own `isSymbolImage`
+ * deliberately allows it — historical maps and machine schematics are vectors
+ * too, so being one says nothing about whether it depicts an event. As
+ * DECORATION the odds run the other way: a vector on Commons is a logo, a
+ * seal or a diagram almost every time. The pipeline draws the same line in
+ * `replacementFault`, for the same reason.
+ */
+const DECORATIVE =
+  /\.svg\.png$|logo|seal|emblem|coat[_ ]of[_ ]arms|flag[_ ]of|locator|blank[_ ]map|title[_ ]card/i;
+
+function usableAsArt(imageUrl: string): boolean {
+  let file = imageUrl.split('/').pop() ?? '';
+  try {
+    file = decodeURIComponent(file);
+  } catch {
+    // A lone percent sign in a Commons filename throws here; the raw name is
+    // still good enough to test.
+  }
+  return !DECORATIVE.test(file);
+}
+
+const TILE_ART: Record<'today' | 'scenarios' | 'museum', number | undefined> = {
+  today: undefined,
+  scenarios: undefined,
+  museum: undefined,
+};
+
+/**
+ * The screen the app opens on: what is waiting today, and a way into each of
+ * it.
+ *
+ * It began as a fix for a black screen — the manifest is 16 MB and all 8056
+ * events go through Zod before the first card can be planned, which is seconds
+ * on a phone, and a bare spinner for that long reads as a broken app. It is
+ * now also the answer to the quiz being hard to find: the scenarios have their
+ * own way in from the first thing anyone sees, rather than sitting behind the
+ * whole day.
+ *
+ * While the archive loads there is nothing to choose between, so the tiles are
+ * absent and the brand fills the wait. They appear when the day is known, with
+ * their own counts and their own pictures taken from it.
+ *
+ * On the very first launch it also offers an account, quietly and underneath —
+ * the app is built so a free reader is never required to sign in, and a full
+ * screen demanding one would contradict what the account panel says in writing.
  */
 interface LaunchScreenProps {
-  /** True once the archive is loaded and the feed could be shown. */
+  /** True once the archive is loaded and the day can be described. */
   ready: boolean;
-  /** Whether to ask about an account, or simply wait for the archive. */
+  /** Whether to offer an account, or simply show the way in. */
   offerAccount: boolean;
   onContinue: () => void;
 }
@@ -39,25 +96,53 @@ export const LaunchScreen = memo(function LaunchScreen({
   offerAccount,
   onContinue,
 }: LaunchScreenProps) {
+  const router = useRouter();
   const signIn = useAuthStore((s) => s.signIn);
   const answerLaunch = useOnboardingStore((s) => s.answerLaunch);
+  const dayEvents = useFeedStore((s) => s.dayEvents);
   const [busy, setBusy] = useState(false);
 
-  const answer = (then?: () => Promise<unknown>) => async () => {
+  /*
+   * Three pictures from today, chosen rather than taken in order.
+   *
+   * The first attempt used dayEvents[0..2] and the Museum tile came up with a
+   * locator map: the archive still holds a few hundred flags, seals and maps,
+   * and on a wide tile they look like a rendering fault. Landscape first,
+   * because a tall portrait cover-cropped to a 116px band shows a chin; then
+   * by prominence, which is the same ranking the feed uses to pick the day's
+   * lead, so the strongest material rises.
+   */
+  const art = useMemo(() => {
+    const ranked = dayEvents
+      .filter((e) => e.imageUrl && usableAsArt(e.imageUrl))
+      .slice()
+      .sort((a, b) => {
+        const wide = Number((b.imageAspect ?? 1) > 1.2) - Number((a.imageAspect ?? 1) > 1.2);
+        return wide !== 0 ? wide : prominence(b) - prominence(a);
+      });
+    return ranked.map((e) => e.imageUrl);
+  }, [dayEvents]);
+
+  const authored = dayEvents.filter((e) => e.authored === true || e.quizPool.length > 0).length;
+
+  const enter = (go: () => void) => () => {
+    // Answering here too: reaching the app IS an answer to "do you want an
+    // account", and asking again next launch would be nagging.
+    answerLaunch();
+    onContinue();
+    go();
+  };
+
+  const withAccount = async () => {
     setBusy(true);
     try {
-      await then?.();
+      await signIn();
     } finally {
-      answerLaunch();
       setBusy(false);
+      answerLaunch();
       onContinue();
     }
   };
-
-  // The buttons appear only once the archive is in. Offering a choice while
-  // the screen is still going to move under the reader's thumb is worse than
-  // offering it a second later.
-  const asking = offerAccount && ready && !busy;
 
   return (
     <View style={styles.screen}>
@@ -72,54 +157,82 @@ export const LaunchScreen = memo(function LaunchScreen({
         <Text style={styles.tagline}>Today, but every year at once</Text>
       </Animated.View>
 
-      <View style={styles.foot}>
-        {asking ? (
-          <Animated.View entering={FadeIn.duration(260)} style={styles.actions}>
-            {getAuthService().available ? (
+      {ready ? (
+        <Animated.View entering={FadeIn.duration(320)} style={styles.foot}>
+          <ScrollView
+            contentContainerStyle={styles.tiles}
+            showsVerticalScrollIndicator={false}
+            bounces={false}
+          >
+            <LaunchTile
+              glyph="📅"
+              title="On this day"
+              subtitle={`${dayEvents.length} events recorded for today`}
+              image={TILE_ART.today ?? art[0]}
+              onPress={enter(() => {})}
+            />
+            <LaunchTile
+              glyph="🦋"
+              title="Today’s scenarios"
+              subtitle={
+                authored > 0
+                  ? `${authored} written scenarios from today`
+                  : 'Decide what you would have done'
+              }
+              image={TILE_ART.scenarios ?? art[1]}
+              onPress={enter(() => router.push('/quiz'))}
+            />
+            <LaunchTile
+              glyph="🏛"
+              title="The Museum"
+              subtitle={`${COLLECTIONS.length} collections across the archive`}
+              image={TILE_ART.museum ?? art[2]}
+              onPress={enter(() => router.push('/collections'))}
+            />
+
+            {offerAccount && getAuthService().available ? (
               <PressableScale
-                onPress={() => void answer(signIn)()}
-                style={styles.primary}
-                accessibilityLabel="Sign in with Google"
+                onPress={() => void withAccount()}
+                style={styles.account}
+                accessibilityLabel="Sign in with Google to keep your progress"
               >
-                <Text style={styles.primaryLabel}>Sign in with Google</Text>
+                {busy ? (
+                  <ActivityIndicator color={palette.textSecondary} />
+                ) : (
+                  <Text style={styles.accountLabel}>
+                    Sign in to keep your progress — not required
+                  </Text>
+                )}
               </PressableScale>
             ) : null}
-            <PressableScale
-              onPress={() => void answer()()}
-              style={styles.secondary}
-              accessibilityLabel="Continue without an account"
-            >
-              <Text style={styles.secondaryLabel}>Continue without an account</Text>
-            </PressableScale>
-            <Text style={styles.note}>An account is only for keeping your progress.</Text>
-          </Animated.View>
-        ) : (
+          </ScrollView>
+        </Animated.View>
+      ) : (
+        <View style={styles.foot}>
           <View style={styles.loading}>
             <ActivityIndicator color={palette.accent} />
             <Text style={styles.note}>Loading the archive…</Text>
           </View>
-        )}
-      </View>
+        </View>
+      )}
     </View>
   );
 });
 
-const MARK = 96;
+const MARK = 88;
 
 const styles = StyleSheet.create({
   screen: {
     flex: 1,
     backgroundColor: palette.void,
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    paddingVertical: spacing.xxxl,
+    paddingTop: spacing.xxxl,
+    paddingBottom: spacing.xl,
     paddingHorizontal: spacing.xl,
   },
   brand: {
-    flex: 1,
     alignItems: 'center',
-    justifyContent: 'center',
-    gap: spacing.md,
+    gap: spacing.sm,
+    paddingVertical: spacing.lg,
   },
   mark: {
     width: MARK,
@@ -135,45 +248,26 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   foot: {
-    width: '100%',
-    minHeight: 150,
-    justifyContent: 'flex-end',
+    flex: 1,
+    justifyContent: 'center',
+  },
+  tiles: {
+    gap: spacing.md,
+    paddingVertical: spacing.md,
   },
   loading: {
     alignItems: 'center',
     gap: spacing.md,
-    paddingBottom: spacing.xl,
   },
-  actions: {
-    width: '100%',
-    gap: spacing.md,
-    alignItems: 'center',
-  },
-  primary: {
-    width: '100%',
-    minHeight: 52,
+  account: {
+    minHeight: 48,
     alignItems: 'center',
     justifyContent: 'center',
-    borderRadius: radius.pill,
-    backgroundColor: palette.accent,
+    marginTop: spacing.xs,
   },
-  primaryLabel: {
-    ...type.label,
-    color: palette.void,
-    fontWeight: '700',
-  },
-  secondary: {
-    width: '100%',
-    minHeight: 52,
-    alignItems: 'center',
-    justifyContent: 'center',
-    borderRadius: radius.pill,
-    borderWidth: StyleSheet.hairlineWidth,
-    borderColor: palette.glassBorder,
-  },
-  secondaryLabel: {
-    ...type.label,
-    color: palette.textSecondary,
+  accountLabel: {
+    ...type.caption,
+    textAlign: 'center',
   },
   note: {
     ...type.caption,

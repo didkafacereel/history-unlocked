@@ -89,10 +89,11 @@ export default function FeedRoute() {
     );
   }
 
-  // A bare spinner on black used to sit here for the seconds it takes to
-  // download 16 MB and put 8056 events through Zod. LaunchScreen fills that
-  // time with the brand, and on the first launch only, an offer of an account.
-  if (status !== 'ready' || (offerAccount && !launched)) {
+  // The app opens here, every launch: the brand while the archive downloads —
+  // 16 MB and 8056 events through Zod, which is seconds on a phone — and then
+  // the ways into the day. `launched` is component state, not persisted, so
+  // this is a screen per launch rather than a screen once ever.
+  if (status !== 'ready' || !launched) {
     return (
       <LaunchScreen
         ready={status === 'ready'}
