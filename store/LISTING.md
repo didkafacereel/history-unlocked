@@ -129,8 +129,13 @@ the form; do not re-answer it from memory.
 
 ## Privacy policy
 
-`docs/privacy.html`, served from the same host as the manifest.
-**Still needs a contact email** — line 159.
+```
+https://didkafacereel.github.io/history-unlocked/privacy.html
+```
+
+Live and serving. **Still needs a contact email** — `docs/privacy.html` line
+159 reads `[YOUR CONTACT EMAIL]`. Play publishes this address, so it is a
+decision rather than a default.
 
 ---
 

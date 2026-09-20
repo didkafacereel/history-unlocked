@@ -91,7 +91,12 @@ that gate content are `EXPO_PUBLIC_MANIFEST_URL` and `EXPO_PUBLIC_WEB_ORIGIN`.
 
 ## 5. Order
 
-1. Host `docs/` → gives the manifest and privacy URLs
+1. ~~Host `docs/`~~ — **done**. GitHub Pages serves the repository's `/docs`
+   folder at `https://didkafacereel.github.io/history-unlocked/`, and
+   `EXPO_PUBLIC_MANIFEST_URL` and `EXPO_PUBLIC_WEB_ORIGIN` are already EAS
+   project secrets. Measured over the wire: the 17 MB manifest arrives as
+   4.06 MB gzipped, with `Access-Control-Allow-Origin: *` and a ten-minute
+   cache.
 2. Play Console developer account, then the three products
 3. RevenueCat project, entitlement, offering, Android key
 4. Google Cloud OAuth clients
