@@ -80,9 +80,9 @@ Select nothing for these — the code touches none of them:
 - **Privacy policy URL** — `https://<your-pages-domain>/privacy.html`
   (the file is `docs/privacy.html`, published by the same GitHub Pages site that
   serves the manifest)
-- Replace **[YOUR CONTACT EMAIL]** in `docs/privacy.html` before submitting.
-  It is deliberately left blank: a contact address is configuration, and
-  hardcoding a personal address into a public repository is not reversible.
+- **Contact address** — `support@gridconvertpro.com`, in `docs/privacy.html`.
+  A purpose-made support address, not a personal one: this file is published
+  and indexed, and putting a personal inbox in it is not reversible.
 
 ## Re-check this file when
 

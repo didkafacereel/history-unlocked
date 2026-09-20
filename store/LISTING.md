@@ -133,9 +133,10 @@ the form; do not re-answer it from memory.
 https://didkafacereel.github.io/history-unlocked/privacy.html
 ```
 
-Live and serving. **Still needs a contact email** — `docs/privacy.html` line
-159 reads `[YOUR CONTACT EMAIL]`. Play publishes this address, so it is a
-decision rather than a default.
+Live and serving, with `support@gridconvertpro.com` as the contact address.
+Play publishes that address, so it is a support inbox rather than a personal
+one — and the same address belongs in the Play Console listing's own contact
+field, which is a separate box from this page.
 
 ---
 

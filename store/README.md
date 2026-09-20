@@ -17,9 +17,10 @@ over the centre.
 
 - **Screenshots** — at least two, English. These can only be taken from a real
   build on a device; nothing here can produce them.
-- **Contact email** — `docs/privacy.html` still reads `[YOUR CONTACT EMAIL]`.
-  Play publishes this address, so it is a decision, not a default.
 - **Short and long description.**
+
+Done: the contact address is `support@gridconvertpro.com`, in
+`docs/privacy.html` and in the Play Console listing's own contact field.
 
 ## Regenerating
 
