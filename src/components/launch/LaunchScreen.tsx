@@ -1,4 +1,5 @@
 import { Image } from 'expo-image';
+import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
 import { memo, useState } from 'react';
 import { ActivityIndicator, ScrollView, StyleSheet, Text, View } from 'react-native';
@@ -102,6 +103,34 @@ export const LaunchScreen = memo(function LaunchScreen({
 
   return (
     <View style={styles.screen}>
+      {/* The archive itself, as the room the app opens in.
+          Every print in it is a real picture of a real event under a
+          public-domain licence — see launch-backdrop.credits.md. The obvious
+          way to make this image is to ask a model for "vintage photographs on
+          a table", and what comes back contains an invented Apollo 11. This
+          app's whole promise is that the picture matches the event; putting
+          fabricated history on the front door would undo that before a reader
+          has read a word. */}
+      <Image
+        source={require('@/assets/images/launch-backdrop.jpg')}
+        style={StyleSheet.absoluteFill}
+        contentFit="cover"
+        transition={600}
+      />
+      {/* Readability, not decoration. The backdrop already carries a vignette
+          baked in; this is the part that has to hold white text at full
+          contrast over whichever print happens to land behind it.
+
+          It ends on scrimBottom (0.92) rather than `palette.void`, which is
+          opaque: ending on void turned the lower half of the screen into flat
+          black and threw away two thirds of the picture. Faint texture between
+          the tiles is the point. */}
+      <LinearGradient
+        colors={[palette.scrimTop, palette.scrimMid, palette.scrimBottom]}
+        locations={[0, 0.45, 1]}
+        style={StyleSheet.absoluteFill}
+      />
+
       <Animated.View entering={FadeIn.duration(400)} style={styles.brand}>
         <Image
           source={require('@/assets/images/icon.png')}
