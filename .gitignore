@@ -58,3 +58,9 @@ pipeline/drafts/symbol-*.json
 
 # Per-machine editor state.
 .claude/settings.local.json
+
+# Account index — usernames and where things are registered. The repository is
+# PUBLIC; this must never be pushed. Secrets do not live in it either, but the
+# email addresses alone are worth keeping out.
+ACCOUNTS.local.md
+*.local.md
