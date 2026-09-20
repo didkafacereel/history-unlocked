@@ -15,6 +15,7 @@ import { useOnboardingStore } from '@/stores/useOnboardingStore';
 import { palette, radius, spacing } from '@/theme/tokens';
 import { type } from '@/theme/typography';
 
+import { LaunchDateLine } from './LaunchDateLine';
 import { LaunchTile } from './LaunchTile';
 
 /**
@@ -159,6 +160,7 @@ export const LaunchScreen = memo(function LaunchScreen({
         />
         <Text style={styles.title}>History Unlocked</Text>
         <Text style={styles.tagline}>Today, but every year at once</Text>
+        {ready ? <LaunchDateLine /> : null}
       </Animated.View>
 
       {ready ? (
