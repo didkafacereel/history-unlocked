@@ -1,8 +1,11 @@
 import { describe, expect, it } from 'vitest';
 
-import { seededShuffle } from '@/data/quizGeneration';
+import { isGeneratedQuestion, questionsFor, seededShuffle } from '@/data/quizGeneration';
 import { tierStanding } from '@/data/collectionTiers';
 import { dateKeyFromPayload } from '@/services/notifications';
+import { dailyQuestionCount } from '@/stores/useQuizStore';
+import { awardForQuiz } from '@/types/progression';
+import type { HistoricalEvent, ScenarioQuestion } from '@/types/manifest';
 
 describe('seededShuffle', () => {
   // This exists because 87.7% of 6017 authored questions had the correct
@@ -49,6 +52,75 @@ describe('seededShuffle', () => {
   it('handles the degenerate sizes', () => {
     expect(seededShuffle([], 'seed')).toEqual([]);
     expect(seededShuffle(['only'], 'seed')).toEqual(['only']);
+  });
+});
+
+describe('questionsFor', () => {
+  // The daily quiz was capped at three because this function returned the
+  // authored pool INSTEAD of the generated questions, and every authored pool
+  // in the archive holds exactly one question. A free deck is three events, so
+  // three was the whole supply. These guard the fix in both directions.
+  const event = (over: Partial<HistoricalEvent> = {}): HistoricalEvent =>
+    ({
+      id: 'evt-1',
+      dateKey: '09-20',
+      year: 1815,
+      era: 'Industrial',
+      title: 'Something was recorded',
+      sensitivity: 'standard',
+      facts: [],
+      quizPool: [],
+      ...over,
+    }) as HistoricalEvent;
+
+  const authored: ScenarioQuestion = {
+    id: 'q-authored',
+    scenario: 'You are standing on the field.',
+    prompt: 'What do you do?',
+    choices: [
+      { id: 'a', text: 'Advance', isCorrect: true },
+      { id: 'b', text: 'Hold', isCorrect: false },
+    ],
+    butterflyEffect: 'And so it went.',
+  };
+
+  const others = [event({ id: 'evt-2', year: 1901 }), event({ id: 'evt-3', year: 1950 })];
+
+  it('serves the authored question first', () => {
+    const questions = questionsFor(event({ quizPool: [authored] }), others);
+    expect(questions[0]?.id).toBe('q-authored');
+  });
+
+  it('keeps the generated questions behind it rather than dropping them', () => {
+    const withPool = questionsFor(event({ quizPool: [authored] }), others);
+    const withoutPool = questionsFor(event(), others);
+    expect(withPool.length).toBe(withoutPool.length + 1);
+    expect(withPool.slice(1).every((q) => isGeneratedQuestion(q))).toBe(true);
+  });
+
+  it('gives an authored event more than one question', () => {
+    // The specific regression: one authored question used to mean one question.
+    expect(questionsFor(event({ quizPool: [authored] }), others).length).toBeGreaterThan(1);
+  });
+
+  it('never collides an authored id with a generated one', () => {
+    const ids = questionsFor(event({ quizPool: [authored] }), others).map((q) => q.id);
+    expect(new Set(ids).size).toBe(ids.length);
+  });
+});
+
+describe('the daily quiz length', () => {
+  it('asks Pro more than free, and both more than the old three', () => {
+    expect(dailyQuestionCount(false)).toBe(8);
+    expect(dailyQuestionCount(true)).toBe(16);
+    expect(dailyQuestionCount(false)).toBeGreaterThan(3);
+  });
+
+  it('leaves a perfect free day paying exactly what it paid at three questions', () => {
+    // The ladder tops out at 2000 XP and is not being moved, because XP is
+    // persisted raw and raising the rungs would demote people who already
+    // earned their badge. So the award comes down instead.
+    expect(awardForQuiz(dailyQuestionCount(false), dailyQuestionCount(false))).toBe(100);
   });
 });
 

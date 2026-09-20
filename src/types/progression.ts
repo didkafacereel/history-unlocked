@@ -52,8 +52,22 @@ export function rankProgress(xp: number): number {
   return (xp - current.minXp) / (next.minXp - current.minXp);
 }
 
-export const XP_PER_CORRECT = 25;
-export const XP_PERFECT_BONUS = 25;
+/**
+ * Rescaled when the daily quiz went from three questions to eight (sixteen for
+ * Pro). At 25 a perfect free day would have paid 225 instead of 100, and
+ * Grandmaster — the top of a ladder that ends at 2000 — would have arrived in
+ * nine days rather than twenty.
+ *
+ * The award was lowered rather than the ladder raised, deliberately. XP is
+ * persisted raw and every rank is derived from it, so raising `minXp` would
+ * demote readers who had already earned their badge. Lowering what future
+ * answers pay takes nothing off anyone.
+ *
+ * A perfect free day is 8 x 10 + 20 = 100, exactly what it paid before. Pro's
+ * sixteen pay 180, which is the point of the longer quiz.
+ */
+export const XP_PER_CORRECT = 10;
+export const XP_PERFECT_BONUS = 20;
 
 export function awardForQuiz(correct: number, total: number): number {
   const perfect = total > 0 && correct === total ? XP_PERFECT_BONUS : 0;

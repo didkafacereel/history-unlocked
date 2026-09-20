@@ -7,7 +7,8 @@ import { SegmentedText } from '@/components/primitives/SegmentedText';
 import { QuizEngine } from '@/components/quiz-engine/QuizEngine';
 import { goBack } from '@/lib/goBack';
 import { useFeedStore } from '@/stores/useFeedStore';
-import { useQuizStore } from '@/stores/useQuizStore';
+import { useIsPro } from '@/stores/useEntitlementStore';
+import { dailyQuestionCount, useQuizStore } from '@/stores/useQuizStore';
 import { palette, spacing } from '@/theme/tokens';
 import { type } from '@/theme/typography';
 import { attachQuizPools } from '@/data/ingestion';
@@ -17,6 +18,7 @@ export default function QuizRoute() {
   const router = useRouter();
   const { practice } = useLocalSearchParams<{ practice?: string }>();
   const deck = useFeedStore((s) => s.deck);
+  const isPro = useIsPro();
   const beginDailyQuiz = useQuizStore((s) => s.beginDailyQuiz);
   const phase = useQuizStore((s) => s.phase);
 
@@ -28,14 +30,14 @@ export default function QuizRoute() {
     let active = true;
     void attachQuizPools(deck).then((withPools) => {
       if (active) {
-        beginDailyQuiz(withPools, practice === '1');
+        beginDailyQuiz(withPools, dailyQuestionCount(isPro), practice === '1');
       }
     });
     return () => {
       active = false;
       useQuizStore.getState().reset();
     };
-  }, [beginDailyQuiz, deck, practice]);
+  }, [beginDailyQuiz, deck, practice, isPro]);
 
   if (phase === 'idle') {
     return (

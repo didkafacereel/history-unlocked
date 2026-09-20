@@ -18,7 +18,28 @@ import { Era, HistoricalEvent, ScenarioQuestion } from '@/types/manifest';
  * re-renders only the panels that actually change.
  */
 
-export const DAILY_QUESTION_COUNT = 3;
+/**
+ * How long the daily quiz is.
+ *
+ * It was three for everyone, which was a cap and not a supply problem.
+ * Measured across all 366 days of the archive, at the moment the quiz draws:
+ *
+ *   free deck (3 events)   min 9 questions,  median 9
+ *   pro deck (whole day)   min 64 questions, median 67
+ *
+ * So a Pro reader was being handed three of sixty-seven. Eight clears the free
+ * minimum on every single day with a question to spare, and sixteen is not
+ * close to Pro's floor.
+ *
+ * The split is also the honest version of the depth wall the feed already has:
+ * Pro reads the whole day, so Pro is asked about the whole day.
+ */
+export const DAILY_QUESTIONS_FREE = 8;
+export const DAILY_QUESTIONS_PRO = 16;
+
+export function dailyQuestionCount(isPro: boolean): number {
+  return isPro ? DAILY_QUESTIONS_PRO : DAILY_QUESTIONS_FREE;
+}
 
 export type QuizPhase = 'idle' | 'question' | 'reveal' | 'summary';
 
@@ -84,7 +105,12 @@ interface QuizState {
   solemn: boolean;
   mode: QuizMode;
 
-  beginDailyQuiz: (deck: HistoricalEvent[], practice?: boolean) => void;
+  /**
+   * `count` is passed rather than read from the entitlement store, so the
+   * state machine stays free of the question "who is this reader" — the same
+   * reason `deckPlan` takes `isPro` instead of subscribing to it.
+   */
+  beginDailyQuiz: (deck: HistoricalEvent[], count: number, practice?: boolean) => void;
   /** Recall drill: questions drawn over an arbitrary set of past events. */
   beginRecallDrill: (events: HistoricalEvent[]) => void;
   /** One practice round over a slice of the archive. See `simulationPlan`. */
@@ -163,8 +189,8 @@ export const useQuizStore = create<QuizState>()((set, get) => ({
   practice: false,
   mode: 'daily',
 
-  beginDailyQuiz: (deck, practice = false) => {
-    const items = drawQuestions(deck, DAILY_QUESTION_COUNT);
+  beginDailyQuiz: (deck, count, practice = false) => {
+    const items = drawQuestions(deck, count);
     if (items.length === 0) {
       set({ ...IDLE, practice, mode: 'daily' });
       return;

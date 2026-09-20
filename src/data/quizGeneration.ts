@@ -372,19 +372,38 @@ export function hasAuthoredQuiz(event: HistoricalEvent): boolean {
   return event.authored === true || event.quizPool.length > 0;
 }
 
+/**
+ * Every question this event can be asked, best first.
+ *
+ * The authored scenario leads and the generated ones follow it. This used to be
+ * an either/or — an authored event returned its pool and nothing else — and
+ * that single line was what capped the daily quiz at three. Every authored pool
+ * in the archive holds exactly one question (6017 of them, all size 1), so a
+ * free deck of three events could offer three questions and no more. Measured
+ * across all 366 days:
+ *
+ *   either/or   free min 3, median 3     pro min 22, median 32
+ *   combined    free min 10, median 12   pro min 72, median 84
+ *
+ * The ordering matters as much as the count. `drawQuestions` round-robins by
+ * index, so index 0 of every event — the written scenario — is served before
+ * any generated question is reached. A reader still meets the archive's real
+ * material first; the generated ones only extend the session past where it used
+ * to stop, and the UI labels them as generated either way.
+ */
 export function questionsFor(
   event: HistoricalEvent,
   pool: readonly HistoricalEvent[],
 ): ScenarioQuestion[] {
-  if (event.quizPool.length > 0) {
-    return event.quizPool;
-  }
   return [
-    yearQuestion(event),
-    whichEventQuestion(event, pool),
-    whichFirstQuestion(event, pool),
-    centuryQuestion(event),
-  ].filter((q): q is ScenarioQuestion => q !== null);
+    ...event.quizPool,
+    ...[
+      yearQuestion(event),
+      whichEventQuestion(event, pool),
+      whichFirstQuestion(event, pool),
+      centuryQuestion(event),
+    ].filter((q): q is ScenarioQuestion => q !== null),
+  ];
 }
 
 /** True for a question this module invented, so the UI can label it honestly. */
