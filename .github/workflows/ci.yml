@@ -1,0 +1,46 @@
+# The same gate that runs locally, on every push.
+#
+# This replaced a scheduled job that regenerated docs/manifest.json each night
+# with AI-generated imagery. That job predated the decision to use freely
+# licensed archival material only, and had it ever fired it would have
+# overwritten the curated 8056-event archive with exactly the kind of picture
+# this project refuses to ship — a synthetic one presented as the record.
+#
+# Nothing needs to run on a schedule. The archive covers all 366 days and does
+# not change; the app picks today's date out of it client-side. New material is
+# published deliberately with `npm run pipeline:publish`.
+name: CI
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Test
+        run: npm test
+
+      # Validates the bundled fixture, the published archive and the quiz
+      # pools against the app's own Zod schema — the three files a reader
+      # actually receives.
+      - name: Validate manifests
+        run: npm run validate:manifest
