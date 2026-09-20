@@ -6,6 +6,7 @@ import { FOUNDER_GENERATIONS, generationOnSale } from '@/services/founders';
 import { useFoundersStore } from '@/stores/useFoundersStore';
 import { palette, radius, spacing } from '@/theme/tokens';
 import { type } from '@/theme/typography';
+import { useEntitlementStore } from '@/stores/useEntitlementStore';
 
 /**
  * Which generation of founders is on sale, and how much of it is left.
@@ -23,6 +24,19 @@ import { type } from '@/theme/typography';
 export const FounderSeatsRow = memo(function FounderSeatsRow() {
   const loaded = useFoundersStore((s) => s.loaded);
   const taken = useFoundersStore((s) => s.status.seatsTaken);
+  /**
+   * The store's own price for the lifetime product, when it has loaded.
+   *
+   * Two prices sit on this screen — this row names the generation on sale and
+   * its price, and the package card below shows what the store will charge —
+   * and until now they came from different places: a constant in the code and
+   * Google Play. They agree only for as long as somebody remembers to change
+   * both. The store is the one that takes the money, so it wins, and the
+   * constant is the fallback for before the offering arrives.
+   */
+  const storePrice = useEntitlementStore(
+    (s) => s.packages.find((p) => p.period === 'lifetime')?.priceString ?? null,
+  );
 
   if (!loaded || taken === 0) {
     return null;
@@ -51,7 +65,7 @@ export const FounderSeatsRow = memo(function FounderSeatsRow() {
     <View style={styles.row}>
       <View style={styles.head}>
         <SegmentedText variant="label" style={styles.label}>
-          {`${current.name} · ${current.price}`}
+          {`${current.name} · ${storePrice ?? current.price}`}
         </SegmentedText>
         <Text style={styles.count}>{`${remaining} left`}</Text>
       </View>
