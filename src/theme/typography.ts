@@ -96,4 +96,17 @@ export const densityCaps = {
    * is not lost: the whole panel opens the reader, where nothing is clipped.
    */
   factsShownOnCard: 3,
+  /**
+   * What the LEAD card shows, which is less again.
+   *
+   * The day's lead carries a "TODAY'S LEAD" badge and a hero headline the
+   * other cards do not: about sixty points more chrome above the same three
+   * facts. Measured on a 360×800 phone, that tipped the lead card forty-seven
+   * points over the screen, and — because the content is bottom-anchored and
+   * overruns upward — the badge came to rest across the intel chip.
+   *
+   * Two facts on the lead, three elsewhere. The card is a way in, not the
+   * account; the panel opens the reader, where nothing is clipped.
+   */
+  heroFactsShownOnCard: 2,
 } as const;

@@ -58,9 +58,16 @@ export const FeedDateBar = memo(function FeedDateBar() {
             }
           >
             <Text style={styles.glyph}>⌗</Text>
-            <SegmentedText variant="label" style={category ? styles.labelActive : styles.label}>
-              {category ? category.split(' ')[0] ?? 'Filter' : 'Filter'}
-            </SegmentedText>
+            {/* The word only when it is carrying information. Unfiltered, this
+                chip said "FILTER" beside a chip saying "TODAY" and the pair
+                needed 231pt of a 360dp phone's 205pt slot — the overflow is
+                what put TODAY on top of the rank. Filtered, the category name
+                is the whole point of the chip and it stays. */}
+            {category ? (
+              <SegmentedText variant="label" style={styles.labelActive}>
+                {category.split(' ')[0] ?? 'Filter'}
+              </SegmentedText>
+            ) : null}
             {isPro ? null : <Text style={styles.lock}>✦</Text>}
           </PressableScale>
         ) : null}
@@ -88,13 +95,36 @@ const styles = StyleSheet.create({
   row: {
     flexDirection: 'row',
     alignItems: 'center',
+    justifyContent: 'flex-end',
+    alignSelf: 'stretch',
+    // The safety net, for the case the trimming above does not cover: a long
+    // category name ("Exploration") makes this chip wide enough to overrun the
+    // slot again. Wrapping drops it onto a second line, right-aligned — two
+    // short lines of chrome, never a collision.
+    flexWrap: 'wrap',
     gap: spacing.sm,
+    // Shrinkable all the way down: FeedTopBar gives this group whatever the
+    // back button and intel chip leave, and on a 360dp phone that is less than
+    // both chips want. Shrinking makes the labels ellipsise; not shrinking
+    // makes them overflow the screen, which is how "TODAY" ended up printed
+    // over the rank in the first place.
+    flexShrink: 1,
+    minWidth: 0,
+    maxWidth: '100%',
   },
   bar: {
     // No absolute positioning: FeedTopBar lays this out in a row beside the
     // intel chip, which is what stops the two overlapping on a phone.
-    alignItems: 'center',
+    //
+    // `alignSelf: stretch` so this takes the width FeedTopBar's right-hand
+    // group was given instead of sizing to its own content. Sized to content
+    // it stayed 231pt wide inside a 205pt slot and the Filter chip hung off
+    // the right edge of a 360dp screen — the chips below can only shrink if
+    // something above them is actually narrower than they are.
+    alignSelf: 'stretch',
+    alignItems: 'flex-end',
     gap: spacing.sm,
+    minWidth: 0,
   },
   chip: {
     flexDirection: 'row',
@@ -106,6 +136,8 @@ const styles = StyleSheet.create({
     borderColor: palette.glassBorder,
     paddingHorizontal: spacing.md,
     paddingVertical: spacing.sm,
+    flexShrink: 1,
+    minWidth: 0,
   },
   chipActive: {
     borderColor: palette.accent,
@@ -117,9 +149,11 @@ const styles = StyleSheet.create({
   },
   label: {
     color: palette.textSecondary,
+    flexShrink: 1,
   },
   labelActive: {
     color: palette.accent,
+    flexShrink: 1,
   },
   lock: {
     color: palette.accent,

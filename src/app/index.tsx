@@ -9,6 +9,7 @@ import { todayDateKey } from '@/lib/dateKey';
 import { subscribeToReminderTaps } from '@/services/notifications';
 import { useIsPro } from '@/stores/useEntitlementStore';
 import { useFeedStore } from '@/stores/useFeedStore';
+import { useHubStore } from '@/stores/useHubStore';
 import { useShouldOfferAccount } from '@/stores/useOnboardingStore';
 import { palette, radius, spacing } from '@/theme/tokens';
 import { type } from '@/theme/typography';
@@ -22,7 +23,10 @@ export default function FeedRoute() {
   const isPro = useIsPro();
   const [retrying, setRetrying] = useState(false);
   const offerAccount = useShouldOfferAccount();
-  const [launched, setLaunched] = useState(false);
+  // In a store rather than local state so the feed's back button can return
+  // here from four components down. Not persisted — see useHubStore.
+  const entered = useHubStore((s) => s.entered);
+  const enter = useHubStore((s) => s.enter);
   /** What "today" meant when this deck was loaded — see the resume effect. */
   const todayWhenLoaded = useRef(todayDateKey());
 
@@ -91,15 +95,11 @@ export default function FeedRoute() {
 
   // The app opens here, every launch: the brand while the archive downloads —
   // 16 MB and 8056 events through Zod, which is seconds on a phone — and then
-  // the ways into the day. `launched` is component state, not persisted, so
-  // this is a screen per launch rather than a screen once ever.
-  if (status !== 'ready' || !launched) {
+  // the ways into the day. `entered` is never persisted, so this is a screen
+  // per launch rather than a screen once ever.
+  if (status !== 'ready' || !entered) {
     return (
-      <LaunchScreen
-        ready={status === 'ready'}
-        offerAccount={offerAccount}
-        onContinue={() => setLaunched(true)}
-      />
+      <LaunchScreen ready={status === 'ready'} offerAccount={offerAccount} onContinue={enter} />
     );
   }
 

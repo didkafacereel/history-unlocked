@@ -17,6 +17,7 @@ import { CardKeepButton } from './CardKeepButton';
 import { CardLeadBadge } from './CardLeadBadge';
 import { CardNewBadge } from './CardNewBadge';
 import { CardReadersChoiceBadge } from './CardReadersChoiceBadge';
+import { TOP_BAR_BAND } from './FeedTopBar';
 
 /**
  * One full-screen historical event. Pure composition — no gesture logic, no
@@ -49,7 +50,12 @@ export const HistoryCardViewer = memo(function HistoryCardViewer({
             // The content is bottom-anchored, so a long card grows UPWARD —
             // and with nothing stopping it, the lead badge and the era chip
             // ended up underneath the streak and date chips. This reserves the
-            // top bar's own band: its inset, its offset, and a chip's height.
+            // top bar's band, imported from the bar itself so the reservation
+            // and the scrim that darkens it are the same number.
+            //
+            // A reservation, not a clamp: content taller than the card still
+            // overruns it. That is why the bar carries a scrim — so an overrun
+            // passes behind chrome rather than colliding with it.
             paddingTop: insets.top + TOP_BAR_BAND,
             // Keep clear of the home indicator plus room for the swipe hint.
             paddingBottom: insets.bottom + spacing.xxxl,
@@ -67,7 +73,7 @@ export const HistoryCardViewer = memo(function HistoryCardViewer({
           <CardEraBadge year={event.year} era={event.era} region={event.region} />
         </View>
         <CardHeadline year={event.year} title={event.title} hero={isLead} />
-        <CardFactStack event={event} />
+        <CardFactStack event={event} hero={isLead} />
         <View style={styles.actions}>
           {event.tactical && (
             <TacticalTrigger eventTitle={event.title} tactical={event.tactical} />
@@ -84,9 +90,6 @@ export const HistoryCardViewer = memo(function HistoryCardViewer({
     </View>
   );
 });
-
-/** FeedTopBar's offset from the inset, plus the height of a chip, plus a gap. */
-const TOP_BAR_BAND = spacing.md + 38 + spacing.md;
 
 const styles = StyleSheet.create({
   card: {

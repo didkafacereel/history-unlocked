@@ -19,18 +19,34 @@ import { densityCaps } from '@/theme/typography';
  * full narrative sits underneath, so the card is a way in rather than a
  * complete account.
  */
-export const CardFactStack = memo(function CardFactStack({ event }: { event: HistoricalEvent }) {
+interface CardFactStackProps {
+  event: HistoricalEvent;
+  /** The day's lead, which carries more chrome and so shows fewer facts. */
+  hero?: boolean;
+}
+
+export const CardFactStack = memo(function CardFactStack({
+  event,
+  hero = false,
+}: CardFactStackProps) {
   const openDetail = useEventDetailStore((s) => s.open);
+  const shown = hero ? densityCaps.heroFactsShownOnCard : densityCaps.factsShownOnCard;
 
   return (
     <Pressable
       onPress={() => openDetail(event)}
       accessibilityRole="button"
       accessibilityLabel={`Read more about ${event.title}`}
+      // The card's shock absorber. Everything else on a card is a fixed claim —
+      // the year, the badges, the actions — so if something has to give when a
+      // card does not fit, it has to be this. Without it the column overruns
+      // upward and the header slides under the top bar; with it the panel
+      // clips instead, which stays inside the card.
+      style={styles.press}
     >
       <GlassPanel>
         <View style={styles.stack}>
-          {event.facts.slice(0, densityCaps.factsShownOnCard).map((fact) => (
+          {event.facts.slice(0, shown).map((fact) => (
             <CardFactRow key={fact.id} icon={fact.icon} text={fact.text} />
           ))}
           <View style={styles.moreRow}>
@@ -45,6 +61,10 @@ export const CardFactStack = memo(function CardFactStack({ event }: { event: His
 });
 
 const styles = StyleSheet.create({
+  press: {
+    flexShrink: 1,
+    overflow: 'hidden',
+  },
   stack: {
     gap: spacing.md,
   },
