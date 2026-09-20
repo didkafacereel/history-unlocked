@@ -1,12 +1,11 @@
 import { Image } from 'expo-image';
 import { useRouter } from 'expo-router';
-import { memo, useMemo, useState } from 'react';
+import { memo, useState } from 'react';
 import { ActivityIndicator, ScrollView, StyleSheet, Text, View } from 'react-native';
 import Animated, { FadeIn } from 'react-native-reanimated';
 
 import { PressableScale } from '@/components/primitives/PressableScale';
 import { COLLECTIONS } from '@/config/collections';
-import { prominence } from '@/data/deckPlan';
 import { getAuthService } from '@/services/auth';
 import { useAuthStore } from '@/stores/useAuthStore';
 import { useIsPro } from '@/stores/useEntitlementStore';
@@ -19,52 +18,25 @@ import { LaunchDateLine } from './LaunchDateLine';
 import { LaunchTile } from './LaunchTile';
 
 /**
- * Hand-made art for the tiles, when there is any.
+ * The art for the tiles: commissioned, bundled, and the same every day.
  *
- * Each entry is either a `require(...)` of a file under assets/images or
- * undefined, in which case the tile borrows a picture from today's archive.
- * Drop a file in, point the entry at it, and nothing else changes — the
- * fallback stays for whichever tiles are still unset.
+ * These were drawn for this screen — 1400×600, the subject in the upper two
+ * thirds because the tile is a 116px band with a gradient over the foot of it,
+ * and the same lamp-lit palette across all four so the screen reads as one
+ * place rather than four.
  *
- *   today: require('@/assets/images/tile-today.jpg'),
- *
- * Landscape, at least 800px wide. The tile is a 116px band with a gradient
- * over the foot of it, so anything with its subject low down will be covered
- * by the words.
+ * It used to take a picture from today's archive instead. That sounded better
+ * than it was: the archive holds a few hundred flags, seals and locator maps,
+ * so the tiles had to be filtered and ranked, and they still came up with the
+ * French Army's logo and the title card of a 1980s sitcom. A tile is furniture,
+ * not evidence — it should not change under the reader, and it is the one place
+ * in this app where a picture is not making a claim about an event.
  */
-/**
- * Pictures that are fine on a card but wrong as a tile.
- *
- * The archive still holds a few hundred flags, seals, logos and locator maps,
- * and the launch screen is the worst place to meet one: the first tiles it
- * built showed the French Army's logo and the title card of a 1980s sitcom.
- *
- * `.svg.png` is refused here although the pipeline's own `isSymbolImage`
- * deliberately allows it — historical maps and machine schematics are vectors
- * too, so being one says nothing about whether it depicts an event. As
- * DECORATION the odds run the other way: a vector on Commons is a logo, a
- * seal or a diagram almost every time. The pipeline draws the same line in
- * `replacementFault`, for the same reason.
- */
-const DECORATIVE =
-  /\.svg\.png$|logo|seal|emblem|coat[_ ]of[_ ]arms|flag[_ ]of|locator|blank[_ ]map|title[_ ]card/i;
-
-function usableAsArt(imageUrl: string): boolean {
-  let file = imageUrl.split('/').pop() ?? '';
-  try {
-    file = decodeURIComponent(file);
-  } catch {
-    // A lone percent sign in a Commons filename throws here; the raw name is
-    // still good enough to test.
-  }
-  return !DECORATIVE.test(file);
-}
-
-const TILE_ART: Record<'today' | 'scenarios' | 'museum' | 'pro', number | undefined> = {
-  today: undefined,
-  scenarios: undefined,
-  museum: undefined,
-  pro: undefined,
+const TILE_ART = {
+  today: require('@/assets/images/tile-today.jpg') as number,
+  scenarios: require('@/assets/images/tile-scenarios.jpg') as number,
+  museum: require('@/assets/images/tile-museum.jpg') as number,
+  pro: require('@/assets/images/tile-pro.jpg') as number,
 };
 
 /**
@@ -106,27 +78,6 @@ export const LaunchScreen = memo(function LaunchScreen({
   const lockedCount = useFeedStore((s) => s.lockedCount);
   const isPro = useIsPro();
   const [busy, setBusy] = useState(false);
-
-  /*
-   * Three pictures from today, chosen rather than taken in order.
-   *
-   * The first attempt used dayEvents[0..2] and the Museum tile came up with a
-   * locator map: the archive still holds a few hundred flags, seals and maps,
-   * and on a wide tile they look like a rendering fault. Landscape first,
-   * because a tall portrait cover-cropped to a 116px band shows a chin; then
-   * by prominence, which is the same ranking the feed uses to pick the day's
-   * lead, so the strongest material rises.
-   */
-  const art = useMemo(() => {
-    const ranked = dayEvents
-      .filter((e) => e.imageUrl && usableAsArt(e.imageUrl))
-      .slice()
-      .sort((a, b) => {
-        const wide = Number((b.imageAspect ?? 1) > 1.2) - Number((a.imageAspect ?? 1) > 1.2);
-        return wide !== 0 ? wide : prominence(b) - prominence(a);
-      });
-    return ranked.map((e) => e.imageUrl);
-  }, [dayEvents]);
 
   const authored = dayEvents.filter((e) => e.authored === true || e.quizPool.length > 0).length;
 
@@ -174,7 +125,7 @@ export const LaunchScreen = memo(function LaunchScreen({
               glyph="📅"
               title="On this day"
               subtitle={`${dayEvents.length} events recorded today`}
-              image={TILE_ART.today ?? art[0]}
+              image={TILE_ART.today}
               onPress={enter(() => {})}
             />
             <LaunchTile
@@ -185,14 +136,14 @@ export const LaunchScreen = memo(function LaunchScreen({
                   ? `${authored} written scenarios today`
                   : 'Decide what you would have done'
               }
-              image={TILE_ART.scenarios ?? art[1]}
+              image={TILE_ART.scenarios}
               onPress={enter(() => router.push('/quiz'))}
             />
             <LaunchTile
               glyph="🏛"
               title="The Museum"
               subtitle={`${COLLECTIONS.length} collections to fill`}
-              image={TILE_ART.museum ?? art[2]}
+              image={TILE_ART.museum}
               onPress={enter(() => router.push('/collections'))}
             />
 
@@ -205,7 +156,7 @@ export const LaunchScreen = memo(function LaunchScreen({
                     ? `${lockedCount} more events locked today`
                     : 'Every date, every scenario, recall drills'
                 }
-                image={TILE_ART.pro ?? art[3]}
+                image={TILE_ART.pro}
                 highlight
                 onPress={enter(() => router.push('/paywall'))}
               />

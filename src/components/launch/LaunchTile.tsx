@@ -10,24 +10,19 @@ import { type } from '@/theme/typography';
 /**
  * One way into the app, on the launch screen.
  *
- * The picture is a real backdrop from today's archive rather than stock art:
- * it is already downloaded, already credited, already free-licensed, and it
- * changes every day on its own. A fixed illustration would be one more thing
- * to keep true.
- *
- * `image` is optional so a tile still works before the archive arrives, and so
- * a hand-made picture can be dropped in later without touching anything else.
+ * The picture is commissioned art bundled with the app, not a backdrop from
+ * the archive. Every other picture in this app is evidence and carries a
+ * credit; this one is a door, and the distinction is worth keeping visible in
+ * the types — an archive image reaching a tile would be an image making no
+ * claim about the event it came from.
  */
 interface LaunchTileProps {
   glyph: string;
   title: string;
   /** One short line. A live count if there is one — never a slogan. */
   subtitle: string;
-  /**
-   * A remote URI from the archive, or a bundled `require(...)`, which React
-   * Native resolves to a number. expo-image takes either as-is.
-   */
-  image?: string | number;
+  /** A bundled `require(...)`, which React Native resolves to a number. */
+  image: number;
   /** Draws the tile in the accent colour. For the offer, never for content. */
   highlight?: boolean;
   onPress: () => void;
@@ -47,13 +42,19 @@ export const LaunchTile = memo(function LaunchTile({
       style={highlight ? { ...styles.tile, ...styles.tileHighlight } : styles.tile}
       accessibilityLabel={`${title}. ${subtitle}`}
     >
-      {image ? (
-        <Image source={image} style={StyleSheet.absoluteFill} contentFit="cover" transition={260} />
-      ) : null}
-      {/* Dark at the foot, clear at the head: the words stay readable over any
-          photograph without hiding the one underneath them. */}
+      <Image source={image} style={StyleSheet.absoluteFill} contentFit="cover" transition={260} />
+      {/* Clear at the head, dark at the foot: the words stay readable without
+          hiding the picture underneath them.
+
+          Three stops rather than two, and the top one fully clear. A straight
+          0.15→0.92 ramp was built for bright archive photographs; over art
+          that is already mostly black with one lit subject it put a second
+          veil on the half of the picture worth seeing — the key on the Pro
+          tile all but disappeared. The foot stays dark enough for white text
+          on the brightest of the four (the lamp on the scenarios tile). */}
       <LinearGradient
-        colors={['rgba(6,7,10,0.15)', 'rgba(6,7,10,0.92)']}
+        colors={['rgba(6,7,10,0)', 'rgba(6,7,10,0.30)', 'rgba(6,7,10,0.88)']}
+        locations={[0, 0.45, 1]}
         style={StyleSheet.absoluteFill}
       />
       <View style={styles.body}>
