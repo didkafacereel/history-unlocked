@@ -91,5 +91,13 @@ export function createRemoteFoundersService(config: RemoteConfig): FoundersServi
       const found = await request<DateAvailability>(config, `/founders/date/${dateKey}`);
       return found?.keepers ?? [];
     },
+
+    // A whole year in one response, keyed "MM-DD". `request` already answers
+    // null on any failure, and null becomes an empty map here — the calendar
+    // then draws every day as unclaimed, which is the honest reading of "the
+    // archive could not be reached" for a screen whose whole content is
+    // "who has taken what".
+    keptDates: async () =>
+      (await request<Record<string, string>>(config, '/founders/dates')) ?? {},
   };
 }

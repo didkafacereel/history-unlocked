@@ -163,6 +163,20 @@ export interface FoundersService {
   /** Names keeping a date, for the register card. Empty when none or offline. */
   keepersFor(dateKey: string): Promise<string[]>;
   /**
+   * Every kept date at once, as "MM-DD" to the keeper's name.
+   *
+   * One call rather than 366. The keepers calendar needs the whole year before
+   * it can draw a single cell, and asking `keepersFor` per date would be 366
+   * round trips to render one screen.
+   *
+   * Dates with no keeper are simply absent, so the map is small — at most 366
+   * short strings, and far fewer until the seats sell. An empty map is a valid
+   * answer and means nothing is kept yet; a failure returns one too, because a
+   * calendar that cannot reach the archive should read as "none known" rather
+   * than refuse to draw.
+   */
+  keptDates(): Promise<Record<string, string>>;
+  /**
    * True for the device-local stand-in. The UI says so out loud: a seat number
    * that is not globally allocated must never be presented as if it were.
    */

@@ -13,6 +13,12 @@ interface CalendarDayCellProps {
   dateKey: string;
   covered: boolean;
   isToday: boolean;
+  /**
+   * What the accent means, for a screen reader. The grid is reused by the
+   * keepers calendar, where an accented day is one somebody owns rather than
+   * one the archive covers.
+   */
+  markedLabel?: string;
   onSelect: (dateKey: string) => void;
 }
 
@@ -21,6 +27,7 @@ export const CalendarDayCell = memo(function CalendarDayCell({
   dateKey,
   covered,
   isToday,
+  markedLabel = 'has events',
   onSelect,
 }: CalendarDayCellProps) {
   return (
@@ -28,7 +35,7 @@ export const CalendarDayCell = memo(function CalendarDayCell({
       onPress={() => onSelect(dateKey)}
       style={[styles.cell, covered && styles.covered, isToday && styles.today]}
       accessibilityRole="button"
-      accessibilityLabel={`Day ${day}${covered ? ', has events' : ''}`}
+      accessibilityLabel={`Day ${day}${covered ? `, ${markedLabel}` : ''}`}
     >
       <Text style={[styles.num, covered ? styles.numCovered : styles.numEmpty]}>{day}</Text>
       {covered ? <Text style={styles.dot}>•</Text> : null}

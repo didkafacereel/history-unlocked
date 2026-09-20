@@ -16,6 +16,7 @@ import { palette, radius, spacing } from '@/theme/tokens';
 import { type } from '@/theme/typography';
 
 import { LaunchDateLine } from './LaunchDateLine';
+import { LaunchSupporter } from './LaunchSupporter';
 import { LaunchTile } from './LaunchTile';
 
 /**
@@ -212,6 +213,8 @@ export const LaunchScreen = memo(function LaunchScreen({
                 )}
               </PressableScale>
             ) : null}
+
+            <LaunchSupporter />
           </ScrollView>
         </Animated.View>
       ) : (

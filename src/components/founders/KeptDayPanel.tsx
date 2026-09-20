@@ -124,6 +124,7 @@ export const KeptDayPanel = memo(function KeptDayPanel({ initialDateKey }: KeptD
             when they wonder why the day does not carry their name yet. */}
         <SegmentedText variant="caption">{KEEPER_REFRESH_NOTE}</SegmentedText>
         <FounderBadge compact />
+        <RegisterLink />
       </View>
     );
   }
@@ -155,6 +156,9 @@ export const KeptDayPanel = memo(function KeptDayPanel({ initialDateKey }: KeptD
       <SegmentedText variant="caption">
         One date, chosen once — it cannot be swapped later.
       </SegmentedText>
+      {/* Before the choice, not only after it. Stepping the pickers one day at
+          a time to find a free date is the slow way to read a calendar. */}
+      <RegisterLink />
 
       <View style={styles.pickers}>
         <Stepper
@@ -224,6 +228,22 @@ export const KeptDayPanel = memo(function KeptDayPanel({ initialDateKey }: KeptD
   );
 });
 
+/** Way into the register of days — every date and who holds it. */
+const RegisterLink = memo(function RegisterLink() {
+  const router = useRouter();
+  return (
+    <PressableScale
+      onPress={() => router.push('/keepers')}
+      style={styles.register}
+      accessibilityLabel="See every day and who keeps it"
+    >
+      <SegmentedText variant="label" style={styles.registerLabel}>
+        See the whole year ›
+      </SegmentedText>
+    </PressableScale>
+  );
+});
+
 interface StepperProps {
   label: string;
   onBack: () => void;
@@ -269,6 +289,14 @@ const styles = StyleSheet.create({
   pickers: {
     flexDirection: 'row',
     gap: spacing.sm,
+  },
+  register: {
+    alignSelf: 'flex-start',
+    minHeight: 34,
+    justifyContent: 'center',
+  },
+  registerLabel: {
+    color: palette.accent,
   },
   stepper: {
     flex: 1,

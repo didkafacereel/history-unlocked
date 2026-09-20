@@ -122,4 +122,16 @@ export const localFoundersService: FoundersService = {
     const state = await read();
     return state.keepersByDate[dateKey] ?? [];
   },
+
+  keptDates: async () => {
+    const state = await read();
+    const out: Record<string, string> = {};
+    for (const [dateKey, keepers] of Object.entries(state.keepersByDate)) {
+      const first = keepers[0];
+      if (first !== undefined) {
+        out[dateKey] = first;
+      }
+    }
+    return out;
+  },
 };

@@ -17,6 +17,8 @@ interface CalendarMonthGridProps {
   month: number;
   coveredDays: Set<number>;
   todayDay: number | null;
+  /** What an accented day means. Passed through to each cell for a11y. */
+  markedLabel?: string;
   onPrevMonth: () => void;
   onNextMonth: () => void;
   onSelect: (dateKey: string) => void;
@@ -26,6 +28,7 @@ export const CalendarMonthGrid = memo(function CalendarMonthGrid({
   month,
   coveredDays,
   todayDay,
+  markedLabel,
   onPrevMonth,
   onNextMonth,
   onSelect,
@@ -65,6 +68,7 @@ export const CalendarMonthGrid = memo(function CalendarMonthGrid({
                 dateKey={makeDateKey(month, day)}
                 covered={coveredDays.has(day)}
                 isToday={todayDay === day}
+                markedLabel={markedLabel}
                 onSelect={onSelect}
               />
             ))}
