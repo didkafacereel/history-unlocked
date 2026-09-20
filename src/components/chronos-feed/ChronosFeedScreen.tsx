@@ -83,7 +83,7 @@ export function ChronosFeedScreen() {
     return (
       <View style={styles.stage} onLayout={onStageLayout}>
         <FeedEmptyState dateKey={dateKey} />
-        <CardProgressRail />
+        <CardProgressRail terminals={terminals} />
         <FeedTopBar />
       </View>
     );
@@ -106,7 +106,7 @@ export function ChronosFeedScreen() {
           cardHeight={cardHeight}
           onSettle={onSettle}
         >
-          <CardProgressRail />
+          <CardProgressRail terminals={terminals} />
           <SwipeHintPulse />
           <FeedTopBar />
         </FeedDeck>
