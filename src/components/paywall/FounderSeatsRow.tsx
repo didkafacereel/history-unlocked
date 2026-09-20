@@ -1,6 +1,8 @@
+import { useRouter } from 'expo-router';
 import { memo } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
+import { PressableScale } from '@/components/primitives/PressableScale';
 import { SegmentedText } from '@/components/primitives/SegmentedText';
 import { FOUNDER_GENERATIONS, generationOnSale } from '@/services/founders';
 import { useFoundersStore } from '@/stores/useFoundersStore';
@@ -22,6 +24,7 @@ import { useEntitlementStore } from '@/stores/useEntitlementStore';
  * waiting costs, in numbers the app will have to honour.
  */
 export const FounderSeatsRow = memo(function FounderSeatsRow() {
+  const router = useRouter();
   const loaded = useFoundersStore((s) => s.loaded);
   const taken = useFoundersStore((s) => s.status.seatsTaken);
   /**
@@ -88,6 +91,20 @@ export const FounderSeatsRow = memo(function FounderSeatsRow() {
           : `Seats ${current.firstSeat}–${current.lastSeat}. Your number is yours for good.`}
       </Text>
 
+      {/* The strongest argument for this tier is a specific free date, not a
+          seat count — "your birthday is still free" lands where "238 left"
+          does not. So the register is reachable from the decision itself, and
+          it is open to people who have not bought anything. */}
+      <PressableScale
+        onPress={() => router.push('/keepers')}
+        style={styles.register}
+        accessibilityLabel="See which days of the year are still free"
+      >
+        <SegmentedText variant="label" style={styles.registerLabel}>
+          See which days are free ›
+        </SegmentedText>
+      </PressableScale>
+
       <View style={styles.ladder}>
         {FOUNDER_GENERATIONS.map((generation) => {
           const done = generation.lastSeat <= taken;
@@ -142,6 +159,14 @@ const styles = StyleSheet.create({
     height: '100%',
     borderRadius: radius.pill,
     backgroundColor: palette.accent,
+  },
+  register: {
+    alignSelf: 'flex-start',
+    minHeight: 34,
+    justifyContent: 'center',
+  },
+  registerLabel: {
+    color: palette.accent,
   },
   // The price ladder: what the next generations will cost, stated up front.
   ladder: {

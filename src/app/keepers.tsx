@@ -20,10 +20,16 @@ import { type } from '@/theme/typography';
 /**
  * The register of days: which of the 366 are spoken for, and by whom.
  *
- * A founders-only screen, and it earns that twice over. Before claiming it is
- * how someone finds a day still free instead of stepping through the picker one
- * date at a time; after claiming it is the thing they bought into — a visible
- * roll of everyone who did the same, with their own day in it.
+ * Open to everyone, names to founders. Availability is the strongest argument
+ * this app has for the Lifetime tier — "your birthday is still free" — and
+ * showing it only to people who have already paid wastes it. It also makes the
+ * scarcity checkable rather than asserted, which is the same standard
+ * FounderSeatsRow holds itself to.
+ *
+ * The names are the founders' own view. Not much of a secret, and worth being
+ * honest about: a day's keeper is already named on that day's register card,
+ * which is free for everyone. What is withheld here is the aggregate — the roll
+ * of the whole club at once — not the fact of who keeps a given day.
  *
  * Built on the Time Machine's own month grid rather than a second one. The only
  * difference is what an accented day means, which is why that grid now takes a
@@ -45,14 +51,7 @@ export default function KeepersScreen() {
   const [kept, setKept] = useState<Record<string, string> | null>(null);
   const [selected, setSelected] = useState<string | null>(null);
 
-  // Founders only, as a defensive redirect — the entry point is already inside
-  // the founder panel, but a deep link has no such gate. Only once the answer
-  // is actually known: "not yet" is not "no".
-  useEffect(() => {
-    if (loaded && seat === null) {
-      router.replace({ pathname: '/paywall', params: { plan: 'lifetime' } });
-    }
-  }, [loaded, seat, router]);
+  const isFounder = loaded && seat !== null;
 
   useEffect(() => {
     let active = true;
@@ -103,7 +102,7 @@ export default function KeepersScreen() {
             <SegmentedText variant="label" style={styles.kicker}>
               ✦ The register of days
             </SegmentedText>
-            <Text style={styles.title}>Who keeps what</Text>
+            <Text style={styles.title}>{isFounder ? 'Who keeps what' : 'Which days are free'}</Text>
           </View>
           <PressableScale
             onPress={() => goBack(router)}
@@ -135,7 +134,9 @@ export default function KeepersScreen() {
             are comparing would have to be dismissed between every two taps. */}
         <View style={styles.answer}>
           {selected === null ? (
-            <SegmentedText variant="caption">Tap a day to see who keeps it.</SegmentedText>
+            <SegmentedText variant="caption">
+              {isFounder ? 'Tap a day to see who keeps it.' : 'Tap a day to see if it is free.'}
+            </SegmentedText>
           ) : (
             <>
               <Text style={styles.answerDate}>{shortDateKeyLabel(selected)}</Text>
@@ -144,8 +145,34 @@ export default function KeepersScreen() {
                   ? 'Nobody keeps this day yet.'
                   : selected === myDate
                     ? `${keeperOf} — this one is yours.`
-                    : `Kept by ${keeperOf}`}
+                    : isFounder
+                      ? `Kept by ${keeperOf}`
+                      : // The name is the founders' view. Not "unknown" — the
+                        // day is plainly taken, and saying so is the point of
+                        // the screen for someone still deciding.
+                        'Kept by a founder.'}
               </SegmentedText>
+              {/* A free day is only actionable for someone who has no day yet.
+                  A founder who has already chosen gets no button, because the
+                  claim is one-way and they have spent it — offering it again
+                  would be an invitation the archive will refuse. */}
+              {keeperOf === undefined && myDate === null ? (
+                <PressableScale
+                  onPress={() =>
+                    router.push(
+                      isFounder
+                        ? { pathname: '/keep-a-day', params: { date: selected } }
+                        : { pathname: '/paywall', params: { plan: 'lifetime' } },
+                    )
+                  }
+                  style={styles.claim}
+                  accessibilityLabel={`Keep ${shortDateKeyLabel(selected)} in your name`}
+                >
+                  <SegmentedText variant="label" style={styles.claimLabel}>
+                    {`Keep ${shortDateKeyLabel(selected)} ›`}
+                  </SegmentedText>
+                </PressableScale>
+              ) : null}
             </>
           )}
         </View>
@@ -223,6 +250,17 @@ const styles = StyleSheet.create({
   },
   answerName: {
     color: palette.textPrimary,
+  },
+  claim: {
+    alignSelf: 'flex-start',
+    marginTop: spacing.sm,
+    backgroundColor: palette.accent,
+    borderRadius: radius.pill,
+    paddingHorizontal: spacing.lg,
+    paddingVertical: spacing.sm,
+  },
+  claimLabel: {
+    color: palette.void,
   },
   legend: {
     flexDirection: 'row',
