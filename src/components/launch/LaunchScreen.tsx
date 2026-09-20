@@ -9,6 +9,7 @@ import { COLLECTIONS } from '@/config/collections';
 import { prominence } from '@/data/deckPlan';
 import { getAuthService } from '@/services/auth';
 import { useAuthStore } from '@/stores/useAuthStore';
+import { useIsPro } from '@/stores/useEntitlementStore';
 import { useFeedStore } from '@/stores/useFeedStore';
 import { useOnboardingStore } from '@/stores/useOnboardingStore';
 import { palette, radius, spacing } from '@/theme/tokens';
@@ -58,10 +59,11 @@ function usableAsArt(imageUrl: string): boolean {
   return !DECORATIVE.test(file);
 }
 
-const TILE_ART: Record<'today' | 'scenarios' | 'museum', number | undefined> = {
+const TILE_ART: Record<'today' | 'scenarios' | 'museum' | 'pro', number | undefined> = {
   today: undefined,
   scenarios: undefined,
   museum: undefined,
+  pro: undefined,
 };
 
 /**
@@ -100,6 +102,8 @@ export const LaunchScreen = memo(function LaunchScreen({
   const signIn = useAuthStore((s) => s.signIn);
   const answerLaunch = useOnboardingStore((s) => s.answerLaunch);
   const dayEvents = useFeedStore((s) => s.dayEvents);
+  const lockedCount = useFeedStore((s) => s.lockedCount);
+  const isPro = useIsPro();
   const [busy, setBusy] = useState(false);
 
   /*
@@ -167,7 +171,7 @@ export const LaunchScreen = memo(function LaunchScreen({
             <LaunchTile
               glyph="📅"
               title="On this day"
-              subtitle={`${dayEvents.length} events recorded for today`}
+              subtitle={`${dayEvents.length} events recorded today`}
               image={TILE_ART.today ?? art[0]}
               onPress={enter(() => {})}
             />
@@ -176,7 +180,7 @@ export const LaunchScreen = memo(function LaunchScreen({
               title="Today’s scenarios"
               subtitle={
                 authored > 0
-                  ? `${authored} written scenarios from today`
+                  ? `${authored} written scenarios today`
                   : 'Decide what you would have done'
               }
               image={TILE_ART.scenarios ?? art[1]}
@@ -185,10 +189,25 @@ export const LaunchScreen = memo(function LaunchScreen({
             <LaunchTile
               glyph="🏛"
               title="The Museum"
-              subtitle={`${COLLECTIONS.length} collections across the archive`}
+              subtitle={`${COLLECTIONS.length} collections to fill`}
               image={TILE_ART.museum ?? art[2]}
               onPress={enter(() => router.push('/collections'))}
             />
+
+            {isPro ? null : (
+              <LaunchTile
+                glyph="✦"
+                title="History Unlocked Pro"
+                subtitle={
+                  lockedCount > 0
+                    ? `${lockedCount} more events locked today`
+                    : 'Every date, every scenario, recall drills'
+                }
+                image={TILE_ART.pro ?? art[3]}
+                highlight
+                onPress={enter(() => router.push('/paywall'))}
+              />
+            )}
 
             {offerAccount && getAuthService().available ? (
               <PressableScale

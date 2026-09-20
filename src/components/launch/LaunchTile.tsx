@@ -28,6 +28,8 @@ interface LaunchTileProps {
    * Native resolves to a number. expo-image takes either as-is.
    */
   image?: string | number;
+  /** Draws the tile in the accent colour. For the offer, never for content. */
+  highlight?: boolean;
   onPress: () => void;
 }
 
@@ -36,10 +38,15 @@ export const LaunchTile = memo(function LaunchTile({
   title,
   subtitle,
   image,
+  highlight = false,
   onPress,
 }: LaunchTileProps) {
   return (
-    <PressableScale onPress={onPress} style={styles.tile} accessibilityLabel={`${title}. ${subtitle}`}>
+    <PressableScale
+      onPress={onPress}
+      style={highlight ? { ...styles.tile, ...styles.tileHighlight } : styles.tile}
+      accessibilityLabel={`${title}. ${subtitle}`}
+    >
       {image ? (
         <Image source={image} style={StyleSheet.absoluteFill} contentFit="cover" transition={260} />
       ) : null}
@@ -52,8 +59,17 @@ export const LaunchTile = memo(function LaunchTile({
       <View style={styles.body}>
         <Text style={styles.glyph}>{glyph}</Text>
         <View style={styles.text}>
-          <Text style={styles.title}>{title}</Text>
-          <Text style={styles.subtitle}>{subtitle}</Text>
+          {/* One line each, and the tile is a fixed 116px band: a subtitle
+              that wraps pushes its second line past the bottom edge, which is
+              how "and every other date" ended up half outside the Pro tile.
+              Keep the strings short; this only stops a long one breaking the
+              layout. */}
+          <Text style={styles.title} numberOfLines={1}>
+            {title}
+          </Text>
+          <Text style={styles.subtitle} numberOfLines={1}>
+            {subtitle}
+          </Text>
         </View>
       </View>
     </PressableScale>
@@ -69,6 +85,10 @@ const styles = StyleSheet.create({
     borderColor: palette.glassBorder,
     backgroundColor: palette.inkRaised,
     justifyContent: 'flex-end',
+  },
+  tileHighlight: {
+    borderColor: palette.accent,
+    borderWidth: 1,
   },
   body: {
     flexDirection: 'row',
