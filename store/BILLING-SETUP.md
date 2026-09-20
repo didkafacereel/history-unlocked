@@ -91,16 +91,42 @@ that gate content are `EXPO_PUBLIC_MANIFEST_URL` and `EXPO_PUBLIC_WEB_ORIGIN`.
 
 ## 5. Order
 
+The ordering matters and is not the obvious one: **Play Console will not let
+you create in-app products until a build carrying the billing permission has
+been uploaded to a track.** So the first build happens before the products
+exist, and is therefore a build whose paywall cannot yet sell anything. That is
+expected — it is there to unlock the console, and to produce screenshots.
+
 1. ~~Host `docs/`~~ — **done**. GitHub Pages serves the repository's `/docs`
    folder at `https://didkafacereel.github.io/history-unlocked/`, and
    `EXPO_PUBLIC_MANIFEST_URL` and `EXPO_PUBLIC_WEB_ORIGIN` are already EAS
    project secrets. Measured over the wire: the 17 MB manifest arrives as
    4.06 MB gzipped, with `Access-Control-Allow-Origin: *` and a ten-minute
    cache.
-2. Play Console developer account, then the three products
-3. RevenueCat project, entitlement, offering, Android key
-4. Google Cloud OAuth clients
-5. `eas secret:create` for each value
-6. `npx eas-cli build --platform android --profile production`
+2. ~~Play Console developer account~~ — **done**, already paid for.
+3. Create the app in Play Console. Name, default language, "App", "Free".
+4. `npx eas-cli build --platform android --profile production` → an AAB.
+   `react-native-purchases` is a dependency, so the merged manifest carries
+   `com.android.vending.BILLING` whether or not a RevenueCat key is set.
+5. Upload that AAB to **Internal testing**. This is what unlocks the products
+   page, and it gives you a real install to take screenshots from.
+6. Create the three products from the table above.
+7. RevenueCat project, entitlement `pro`, offering `default`, Android key.
+8. Google Cloud OAuth clients.
+9. `eas env:create` for `EXPO_PUBLIC_RC_ANDROID_KEY` and
+   `EXPO_PUBLIC_GOOGLE_WEB_CLIENT_ID`.
+10. Rebuild. This is the first build that can actually take money.
 
-Steps 2–4 can run in parallel with 1; step 5 needs all of them.
+Steps 7 and 8 can be done at any time in parallel; everything else is in order.
+
+## 6. The fourteen-day question
+
+A Play developer account **registered as a personal account after November
+2023** must run a closed test with at least 12 testers for 14 continuous days
+before it can apply for production access. An organisation account, or a
+personal one older than that, is not subject to it.
+
+Check which yours is under **Play Console → Setup → App content**, or the
+account details page. It decides whether launch day is "when the app is
+finished" or "two weeks after the first closed build", and it is much better
+known now than discovered later.
