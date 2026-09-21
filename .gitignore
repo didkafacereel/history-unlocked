@@ -68,3 +68,11 @@ ACCOUNTS.local.md
 # Downloaded originals for pipeline/build-collage.ts. Rebuildable, and the
 # prints themselves are committed as launch-backdrop.jpg.
 .cache/
+
+# Firebase Android config. Google says this is not a secret — its values ship
+# inside every APK and anyone can read them out. It stays out anyway, because
+# this repository is public: a committed config is scraped in minutes, and if a
+# Firestore rule is ever wrong it turns a decompile into a copy-paste. The
+# build gets it from an EAS file variable instead.
+google-services.json
+GoogleService-Info.plist
