@@ -64,9 +64,23 @@ async function request<T>(
   config: RemoteConfig,
   path: string,
   init?: RequestInit,
+  /**
+   * Whether a signed-in reader is required.
+   *
+   * 'optional' exists for one route and it matters: the register of days is
+   * open to everyone, so a visitor with no account has to be able to see which
+   * dates are taken — that availability is the strongest argument the Lifetime
+   * tier has. Refusing to call without a token would have left them a blank
+   * calendar and no reason to buy.
+   *
+   * The server still decides what comes back. An anonymous caller gets the
+   * dates without the names; withholding them client-side would be decoration,
+   * since the payload would already be on the device.
+   */
+  auth: 'required' | 'optional' = 'required',
 ): Promise<T | null> {
   const token = await config.authToken();
-  if (!token) {
+  if (!token && auth === 'required') {
     return null;
   }
   const { signal, done } = timeoutSignal(TIMEOUT_MS);
@@ -76,7 +90,7 @@ async function request<T>(
       headers: {
         accept: 'application/json',
         'content-type': 'application/json',
-        authorization: `Bearer ${token}`,
+        ...(token ? { authorization: `Bearer ${token}` } : {}),
         ...init?.headers,
       },
       signal,
@@ -122,17 +136,27 @@ export function createRemoteFoundersService(config: RemoteConfig): FoundersServi
         body: JSON.stringify({ displayName }),
       })) ?? { ok: false, reason: 'unavailable' },
 
+    // Open to anyone: this is the line under a day in the register, and that
+    // register is free for every reader, signed in or not.
     keepersFor: async (dateKey) => {
-      const found = await request<DateAvailability>(config, `/founders/date/${dateKey}`);
+      const found = await request<DateAvailability>(
+        config,
+        `/founders/date/${dateKey}`,
+        undefined,
+        'optional',
+      );
       return found?.keepers ?? [];
     },
 
-    // A whole year in one response, keyed "MM-DD". `request` already answers
-    // null on any failure, and null becomes an empty map here — the calendar
-    // then draws every day as unclaimed, which is the honest reading of "the
-    // archive could not be reached" for a screen whose whole content is
-    // "who has taken what".
+    // A whole year in one response, keyed "MM-DD". Open to anyone for the same
+    // reason: the calendar sells the tier, so it cannot require the tier.
+    //
+    // `request` already answers null on any failure, and null becomes an empty
+    // map here — the calendar then draws every day as unclaimed, which is the
+    // honest reading of "could not be reached" for a screen whose whole
+    // content is who has taken what.
     keptDates: async () =>
-      (await request<Record<string, string>>(config, '/founders/dates')) ?? {},
+      (await request<Record<string, string>>(config, '/founders/dates', undefined, 'optional')) ??
+      {},
   };
 }
