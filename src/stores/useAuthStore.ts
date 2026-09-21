@@ -2,6 +2,7 @@ import { create } from 'zustand';
 
 import { AuthUser, getAuthService } from '@/services/auth';
 import { getPurchaseService } from '@/services/purchases';
+import { useFoundersStore } from '@/stores/useFoundersStore';
 import { useQuizHistoryStore } from '@/stores/useQuizHistoryStore';
 
 /**
@@ -44,6 +45,19 @@ async function linkBilling(user: AuthUser | null): Promise<void> {
   } catch {
     // Intentionally swallowed; see above.
   }
+  // AFTER the re-key, never before. Founder standing is answered by whoever
+  // billing currently says this is, so asking first would ask about the
+  // identity being replaced. Without the refresh at all, a founder signing in
+  // on a new phone stayed a non-founder until the next cold start — the one
+  // launch where it matters most, because they have just restored a purchase
+  // and are looking for it.
+  await useFoundersStore
+    .getState()
+    .refresh()
+    .catch(() => {
+      // Best-effort, like the re-key above: the next launch asks again, and
+      // failing a sign-in over a status lookup would be the worse outcome.
+    });
 }
 
 /**
