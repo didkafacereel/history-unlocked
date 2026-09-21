@@ -1,0 +1,67 @@
+rules_version = '2';
+
+// Firestore security for the founders registry.
+//
+// The shape of these rules is one sentence: THE CLIENT NEVER WRITES. Every
+// mutation — a seat, a claimed date, a revoked entitlement — goes through a
+// Cloud Function using the Admin SDK, which bypasses rules entirely. What is
+// written here is therefore a deny-list for direct database access, and its job
+// is to make sure a client holding nothing but an ID token cannot reach around
+// the functions and write to the collections itself.
+//
+// That is not paranoia about a hypothetical. The Firebase config is in every
+// APK; anyone can extract it, sign in with a throwaway Google account, and talk
+// to this database directly with the official SDK. Rules are the only thing
+// standing there.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Whether this reader owns Lifetime, their seat number, and the date they
+    // kept. Written ONLY by the RevenueCat webhook and the seat/claim
+    // functions.
+    //
+    // Readable by its owner so the app can show a seat without a round trip if
+    // it ever wants to. Never writable: a client that could set
+    // `lifetime: true` here would have granted itself the paid tier.
+    match /entitlements/{uid} {
+      allow read: if request.auth != null && request.auth.uid == uid;
+      allow write: if false;
+    }
+
+    // One document per kept date, id = "MM-DD". The id IS the uniqueness
+    // guarantee — two people cannot create the same document — which is why
+    // this is a collection keyed by date rather than a list of claims.
+    //
+    // Public read. The register is open to everyone, and the keeper of a given
+    // day is already named on that day's card in the app. What is withheld from
+    // a non-founder is the whole roll at once, and that is enforced by the
+    // function that serves it, not here: a rule cannot blank a field.
+    match /keepers/{dateKey} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    // The single aggregate the calendar reads, so one screen costs one read
+    // instead of 366. Same reasoning as above for the public read.
+    match /registry/{doc} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    // How many seats are gone. Public because the paywall states it as a fact
+    // and a reader is entitled to check it — the scarcity is only worth
+    // anything if it is verifiable.
+    match /counters/{doc} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    // Anything not named above does not exist. Without this a future
+    // collection added by hand in the console would default to... nothing,
+    // actually — but saying so out loud costs one line and removes the
+    // question.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

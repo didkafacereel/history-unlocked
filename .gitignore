@@ -76,3 +76,8 @@ ACCOUNTS.local.md
 # build gets it from an EAS file variable instead.
 google-services.json
 GoogleService-Info.plist
+
+# Cloud Functions build output and deps
+firebase/functions/lib/
+firebase/functions/node_modules/
+firebase/.firebaserc
