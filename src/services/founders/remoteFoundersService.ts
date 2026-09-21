@@ -8,15 +8,24 @@ import {
 /**
  * The real founders service, once an endpoint exists.
  *
- * Four routes, all keyed on the reader's RevenueCat app-user id, which the
- * server must verify against RevenueCat before allocating anything — otherwise
- * a seat is a POST away and the scarcity that makes the tier worth buying is
- * fiction.
- *
  *   GET  /founders/me
  *   POST /founders/seat
+ *   GET  /founders/dates
  *   GET  /founders/date/:dateKey
  *   POST /founders/date/:dateKey   { displayName }
+ *
+ * IDENTITY IS A SIGNED TOKEN, NOT A CLAIM. This used to send the reader's
+ * RevenueCat app-user id in an `x-app-user-id` header, with a note saying the
+ * server should check it against RevenueCat. That check answers the wrong
+ * question: it proves the named user owns Lifetime, never that the caller is
+ * that user. Anyone who learned another founder's id — and it travels in every
+ * request — could have taken a seat or a date as them, with curl.
+ *
+ * A Firebase ID token is verified cryptographically on the other end, so the
+ * uid the server reads cannot be asserted by the caller. It is also why
+ * claiming needs an account at all: buying can stay anonymous because Google
+ * takes the money, but writing a permanent public name into a shared register
+ * needs the writer to be provable.
  *
  * A failed request never throws into the UI. A founder whose seat cannot be
  * read right now is a founder with a network problem, not a former founder, so
@@ -27,8 +36,28 @@ const TIMEOUT_MS = 6000;
 
 interface RemoteConfig {
   baseUrl: string;
-  /** Identifies the reader to the server; verified there against RevenueCat. */
-  appUserId: () => string | null;
+  /**
+   * A Firebase ID token for the signed-in reader, or null when nobody is.
+   * Async because the SDK refreshes it; short-lived by design, so it is
+   * fetched per request rather than held.
+   */
+  authToken: () => Promise<string | null>;
+}
+
+/**
+ * `AbortSignal.timeout` does not exist in React Native.
+ *
+ * The runtime replaces the global AbortController with the `abort-controller`
+ * polyfill, which never had the static. Calling it throws a TypeError inside
+ * the try below, every request returns null, and the app concludes the reader
+ * is not a founder — silently, and identically to being offline. The same trap
+ * cost this codebase a day in `src/data/ingestion.ts`; it is spelled out there
+ * too.
+ */
+function timeoutSignal(ms: number): { signal: AbortSignal; done: () => void } {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), ms);
+  return { signal: controller.signal, done: () => clearTimeout(timer) };
 }
 
 async function request<T>(
@@ -36,24 +65,30 @@ async function request<T>(
   path: string,
   init?: RequestInit,
 ): Promise<T | null> {
-  const userId = config.appUserId();
-  if (!userId) {
+  const token = await config.authToken();
+  if (!token) {
     return null;
   }
+  const { signal, done } = timeoutSignal(TIMEOUT_MS);
   try {
     const res = await fetch(`${config.baseUrl}${path}`, {
       ...init,
       headers: {
         accept: 'application/json',
         'content-type': 'application/json',
-        'x-app-user-id': userId,
+        authorization: `Bearer ${token}`,
         ...init?.headers,
       },
-      signal: AbortSignal.timeout(TIMEOUT_MS),
+      signal,
     });
     return res.ok ? ((await res.json()) as T) : null;
   } catch {
     return null;
+  } finally {
+    // Cleared whatever happened, and before the caller parses anything — an
+    // armed timer that fires after a successful response aborts nothing but
+    // keeps the process awake.
+    done();
   }
 }
 

@@ -19,10 +19,12 @@ export function getFoundersService(): FoundersService {
   service ??= API
     ? createRemoteFoundersService({
         baseUrl: API,
-        // Wired to RevenueCat's app user id once billing is live; until then a
-        // remote endpoint simply has nobody to identify and degrades to
-        // "unknown" rather than inventing an identity.
-        appUserId: () => process.env.EXPO_PUBLIC_FOUNDERS_TEST_USER?.trim() || null,
+        // Wired to Firebase Auth once it is installed. Until then there is no
+        // token to send, every call short-circuits to null, and the screens
+        // show "unknown" — which is honest: nobody is signed in, so nobody can
+        // be identified. Deliberately NOT a fallback to some device id; an
+        // identity the server cannot verify is worse than none.
+        authToken: async () => null,
       })
     : localFoundersService;
   return service;
