@@ -16,11 +16,20 @@ over the centre.
 ## Still needed before the listing can go live
 
 - **Screenshots** — at least two, English. These can only be taken from a real
-  build on a device; nothing here can produce them.
-- **Short and long description.**
+  build on a device; nothing here can produce them. `LISTING.md` names the five
+  worth taking, in order.
 
-Done: the contact address is `support@gridconvertpro.com`, in
-`docs/privacy.html` and in the Play Console listing's own contact field.
+Everything else is written and checked:
+
+| | |
+| --- | --- |
+| App name, short and long description | `LISTING.md`, all inside Play's limits |
+| Icon 512×512, feature graphic 1024×500 | in this folder, ready |
+| Contact address | `support@gridconvertpro.com`, in `docs/privacy.html` and the Console's own contact field |
+| Privacy policy URL | live and serving |
+| Data safety answers | `docs/DATA-SAFETY.md` |
+| Content rating answers | `LISTING.md` |
+| In-app products | `BILLING-SETUP.md` |
 
 ## Regenerating
 

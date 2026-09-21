@@ -51,16 +51,27 @@ your first unread event, so the same story is never served twice.
 
 FREE, AND WHAT PRO ADDS
 
-Free is the whole habit: today's date, three events from it, the daily
-scenario, and your streak. No account needed — the app never asks you to sign
-in to read.
+Free is the whole habit: today's date, three events from it, eight questions
+on the day, the register of who was born and lost on it, and your streak. No
+account needed — the app never asks you to sign in to read.
 
 Pro opens the depth:
-• The whole day, not three of it
+• The whole day — at least twenty events, not three
+• Sixteen questions a day instead of eight
 • The Time Machine — any date of the year, not only today
 • Whole-archive search
 • Recall drills that bring events back on a schedule so you remember them
 • Unlimited practice across all 6,017 scenarios
+• Fourteen Museum collections, filled by reading
+
+LIFETIME, AND THE DAY THAT COMES WITH IT
+
+Lifetime is one payment and a numbered founder seat — and one date of the
+year that is yours alone. Your name sits at the foot of that day's register,
+every year, for as long as the archive exists.
+
+There are 366 days and one keeper each, so there are 366 seats and there will
+never be more. You can see which days are still free before you buy.
 
 SOURCES
 
@@ -72,7 +83,13 @@ else.
 Works offline once the archive has downloaded.
 ```
 
-*About 1,700 characters — well inside the limit and short enough to be read.*
+*2,284 characters — well inside the 4,000 limit and short enough to be read.*
+
+Every number above is checked against the published archive, not remembered:
+8,056 events over 366 days, the thinnest day carrying 21, 6,017 authored
+scenarios, and 29 February present with 22 of its own. "At least twenty" is
+deliberately one under the true minimum, so a rebuild that loses an event
+somewhere does not turn the listing into a false claim.
 
 ---
 
