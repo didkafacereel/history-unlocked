@@ -4,7 +4,12 @@ import { StyleSheet, Text, TextInput, View } from 'react-native';
 
 import { PressableScale } from '@/components/primitives/PressableScale';
 import { SegmentedText } from '@/components/primitives/SegmentedText';
-import { getFoundersService, KEEPERS_PER_DATE, KEEPER_REFRESH_NOTE } from '@/services/founders';
+import {
+  getFoundersService,
+  KEEPERS_PER_DATE,
+  KEEPER_CHANGE_NOTE,
+  KEEPER_REFRESH_NOTE,
+} from '@/services/founders';
 import {
   makeDateKey,
   monthLabel,
@@ -153,9 +158,10 @@ export const KeptDayPanel = memo(function KeptDayPanel({ initialDateKey }: KeptD
   return (
     <View style={styles.panel}>
       <SegmentedText variant="label">Claim your day</SegmentedText>
-      <SegmentedText variant="caption">
-        One date, chosen once — it cannot be swapped later.
-      </SegmentedText>
+      {/* Plain Text, not SegmentedText: the caption variant caps at two lines
+          and this runs to three on a 360dp phone. Clipping the sentence that
+          names the only way to correct a one-way choice would defeat it. */}
+      <Text style={styles.changeNote}>{KEEPER_CHANGE_NOTE}</Text>
       {/* Before the choice, not only after it. Stepping the pickers one day at
           a time to find a free date is the slow way to read a calendar. */}
       <RegisterLink />
@@ -279,6 +285,9 @@ const styles = StyleSheet.create({
   pitch: {
     ...type.fact,
     color: palette.textSecondary,
+  },
+  changeNote: {
+    ...type.caption,
   },
   keptDate: {
     ...type.headline,

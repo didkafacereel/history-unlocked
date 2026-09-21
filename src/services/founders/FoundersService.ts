@@ -129,6 +129,28 @@ export function generationOnSale(seatsTaken: number): FounderGeneration | null {
  */
 export const KEEPER_REFRESH_NOTE = 'Names are written into the archive once a day.';
 
+/**
+ * Where a founder goes when they picked the wrong day.
+ *
+ * The claim stays one-way in the app — a day you can swap next week is a
+ * setting, and the scarcity only means anything if the register is stable. But
+ * one-way with no recourse at all turns a mis-tap on a $79.99 purchase into a
+ * permanent grievance, so there is a door: a human one, within a day, by
+ * writing.
+ *
+ * Deliberately not a button. Self-service swapping would need the whole
+ * release-and-reclaim path built, tested and defended against someone cycling
+ * dates to squat the good ones; a mailbox needs none of that and the volume
+ * will be a handful of messages a year.
+ *
+ * A constant rather than an environment variable, unlike the feedback
+ * destination: this is the published support address that already appears in
+ * the privacy policy, and a build that forgot to set it would leave a founder
+ * with no recourse named at all.
+ */
+export const KEEPER_SUPPORT_EMAIL = 'support@gridconvertpro.com';
+export const KEEPER_CHANGE_NOTE = `One date, chosen once. Picked the wrong day? Write to ${KEEPER_SUPPORT_EMAIL} within 24 hours.`;
+
 export interface FounderStatus {
   /** 1-based seat number, or null when this reader is not a founder. */
   seat: number | null;
