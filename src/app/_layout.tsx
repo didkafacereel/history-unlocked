@@ -1,3 +1,4 @@
+import * as Linking from 'expo-linking';
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { useEffect } from 'react';
@@ -38,6 +39,22 @@ export default function RootLayout() {
   useEffect(() => {
     void useAuthStore.getState().refresh();
   }, []);
+
+  // A tapped email sign-in link, whether it cold-started the app or arrived
+  // while it was open. `useURL` covers both; without the cold-start half the
+  // link would work only for a reader who already had the app in front of
+  // them, which is the rarer case.
+  //
+  // Every other incoming URL falls through untouched — the service checks that
+  // this is actually a Firebase sign-in link before doing anything with it, so
+  // a shared event link never reaches the auth path.
+  const incomingUrl = Linking.useURL();
+  useEffect(() => {
+    if (!incomingUrl) {
+      return;
+    }
+    void useAuthStore.getState().completeEmailLink(incomingUrl);
+  }, [incomingUrl]);
 
   return (
     <GestureHandlerRootView style={styles.root}>

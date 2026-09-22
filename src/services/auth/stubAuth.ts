@@ -54,6 +54,38 @@ export const stubAuthService: AuthService = {
   },
 
   /**
+   * Pretends to post a link, so the two states of the email form can be built
+   * and reviewed on web — the same reason this whole stand-in exists.
+   *
+   * It validates the address and then does nothing, which is the honest
+   * imitation: no mail is sent, and the panel above already says "Local test
+   * account" whenever this provider is the one answering.
+   */
+  sendEmailLink: async (email) => {
+    const address = email.trim();
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(address)) {
+      return { ok: false, reason: 'bad-email' };
+    }
+    return { ok: true };
+  },
+
+  /*
+   * No `completeEmailLink`, deliberately, and the omission is the fix for a
+   * bug this stand-in briefly had.
+   *
+   * The root layout hands EVERY incoming url to the auth service and relies on
+   * the service to recognise its own links — which the real one does, by
+   * asking Firebase whether the url is a sign-in link. This stand-in has no
+   * way to tell one url from another, and a version that accepted any of them
+   * signed the local account in on every single launch, because on web
+   * `Linking.useURL()` returns the address of the page you are already on.
+   *
+   * Leaving the method off makes that call a no-op here. `sendEmailLink`
+   * stays, because the form's two states are the thing worth reviewing on web
+   * and posting nothing is a truthful imitation of posting nothing.
+   */
+
+  /**
    * Always null, and that is the point.
    *
    * A stand-in cannot produce a token any server would believe, and inventing

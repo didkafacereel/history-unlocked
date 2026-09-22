@@ -23,10 +23,26 @@ interface AuthState {
   /** Set once a check has completed, so the UI can tell "no" from "not yet". */
   loaded: boolean;
   error: 'unavailable' | 'failed' | null;
+  /**
+   * The address a sign-in link was just posted to, or null.
+   *
+   * Held here rather than in the panel because the reader leaves the app to
+   * fetch the link and the panel unmounts behind them. Coming back to "enter
+   * your email" with no sign that anything happened is how someone asks for a
+   * second link and then a third.
+   */
+  emailSent: string | null;
+  emailError: 'bad-email' | 'unavailable' | 'failed' | null;
 
   refresh: () => Promise<void>;
   signIn: () => Promise<boolean>;
   signOut: () => Promise<void>;
+  /** Post a sign-in link. Resolves true when the letter is on its way. */
+  sendEmailLink: (email: string) => Promise<boolean>;
+  /** Finish a sign-in from a link the reader opened. */
+  completeEmailLink: (url: string) => Promise<boolean>;
+  /** Back to the form, for a reader who mistyped the address. */
+  clearEmailSent: () => void;
 }
 
 /**
@@ -76,6 +92,8 @@ export const useAuthStore = create<AuthState>()((set, get) => ({
   busy: false,
   loaded: false,
   error: null,
+  emailSent: null,
+  emailError: null,
 
   refresh: async () => {
     if (get().busy) {
@@ -113,11 +131,56 @@ export const useAuthStore = create<AuthState>()((set, get) => ({
     set({ busy: true });
     try {
       await getAuthService().signOut();
-      set({ user: null, loaded: true, error: null });
+      set({ user: null, loaded: true, error: null, emailSent: null, emailError: null });
       scopeToAccount(null);
       await linkBilling(null);
     } finally {
       set({ busy: false });
     }
   },
+
+  sendEmailLink: async (email) => {
+    const send = getAuthService().sendEmailLink;
+    if (!send) {
+      set({ emailError: 'unavailable' });
+      return false;
+    }
+    set({ busy: true, emailError: null });
+    try {
+      const result = await send(email);
+      if (!result.ok) {
+        set({ emailError: result.reason });
+        return false;
+      }
+      set({ emailSent: email.trim() });
+      return true;
+    } finally {
+      set({ busy: false });
+    }
+  },
+
+  completeEmailLink: async (url) => {
+    const complete = getAuthService().completeEmailLink;
+    if (!complete) {
+      return false;
+    }
+    set({ busy: true, emailError: null });
+    try {
+      const result = await complete(url);
+      if (!result.ok) {
+        // Not reported as an email error: the commonest cause is a link opened
+        // on a phone that never asked for one, and the reader who is looking
+        // at this app did not necessarily do anything wrong.
+        return false;
+      }
+      set({ user: result.user, loaded: true, emailSent: null });
+      scopeToAccount(result.user);
+      await linkBilling(result.user);
+      return true;
+    } finally {
+      set({ busy: false });
+    }
+  },
+
+  clearEmailSent: () => set({ emailSent: null, emailError: null }),
 }));

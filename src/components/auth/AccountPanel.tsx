@@ -11,6 +11,8 @@ import { formatCount } from '@/lib/formatCount';
 import { palette, radius, spacing } from '@/theme/tokens';
 import { type } from '@/theme/typography';
 
+import { EmailSignInRow } from './EmailSignInRow';
+
 /**
  * Signing in — offered, never demanded.
  *
@@ -133,6 +135,10 @@ export const AccountPanel = memo(function AccountPanel() {
           </SegmentedText>
         )}
       </PressableScale>
+
+      {/* Offered only where it can actually work. The stand-in has no mailbox,
+          and a form that posts nothing is worse than no form. */}
+      {service.sendEmailLink ? <EmailSignInRow /> : null}
     </View>
   );
 });
