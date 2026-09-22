@@ -19,8 +19,22 @@ import { makeDateKey } from '@/lib/dateKey';
  * turned off entirely — after which no amount of content can reach anyone.
  */
 
-/** How many days ahead to schedule. Each is a real headline, so they run out. */
-const HORIZON_DAYS = 10;
+/**
+ * How many days ahead to schedule. Each is a real headline, so they run out.
+ *
+ * Thirty, not ten, and the reason is the failure mode rather than the feature.
+ * The horizon is topped up on launch, so it only runs down for a reader who has
+ * stopped opening the app — which is precisely the reader the reminder exists
+ * to reach. At ten days the habit engine switched itself off after a week and a
+ * half of silence, exactly when it was the only thing left.
+ *
+ * Thirty is the largest number that is safe on both platforms without thinking
+ * about it: iOS allows 64 pending notifications and Android is scheduling that
+ * many exact alarms. Past that this wants push from the server rather than a
+ * longer list on the device, which is now possible — Firebase is here — and is
+ * a bigger piece of work than a constant.
+ */
+const HORIZON_DAYS = 30;
 
 interface ReminderState {
   enabled: boolean;
