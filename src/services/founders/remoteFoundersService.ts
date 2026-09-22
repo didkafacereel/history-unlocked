@@ -158,5 +158,12 @@ export function createRemoteFoundersService(config: RemoteConfig): FoundersServi
     keptDates: async () =>
       (await request<Record<string, string>>(config, '/founders/dates', undefined, 'optional')) ??
       {},
+
+    // `request` answers null on anything but a 2xx, and here that has to mean
+    // "not deleted". Every other call degrades to a harmless unknown; this one
+    // degrades to a claim that somebody's account is gone when it is not, which
+    // they would only discover by signing in again months later.
+    deleteAccount: async () =>
+      (await request<{ ok?: boolean }>(config, '/account', { method: 'DELETE' })) !== null,
   };
 }

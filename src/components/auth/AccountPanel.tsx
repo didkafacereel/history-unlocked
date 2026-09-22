@@ -11,6 +11,7 @@ import { formatCount } from '@/lib/formatCount';
 import { palette, radius, spacing } from '@/theme/tokens';
 import { type } from '@/theme/typography';
 
+import { DeleteAccountRow } from './DeleteAccountRow';
 import { EmailSignInRow } from './EmailSignInRow';
 
 /**
@@ -88,6 +89,11 @@ export const AccountPanel = memo(function AccountPanel() {
             {busy ? 'Signing out…' : 'Sign out'}
           </SegmentedText>
         </PressableScale>
+
+        {/* Below the ordinary way out, and quieter than it. Play requires the
+            door to exist and to be reachable without writing to anybody; it
+            does not require it to compete with signing out. */}
+        <DeleteAccountRow />
       </View>
     );
   }

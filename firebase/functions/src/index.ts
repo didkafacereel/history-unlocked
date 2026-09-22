@@ -9,6 +9,7 @@ import { cleanDisplayName, isValidDateKey } from './constants';
 import {
   allocateSeat,
   claimDate,
+  deleteAccountData,
   readEntitlement,
   readKeeper,
   readKeptDates,
@@ -185,6 +186,42 @@ export const api = onRequest(
           seatsTaken,
         },
       });
+      return;
+    }
+
+    /**
+     * Delete the account, and everything the server holds because of it.
+     *
+     * Required by Google Play of any app that lets people create an account,
+     * and the requirement has two halves — this endpoint, and the page at
+     * `docs/delete-account.html` for someone who has already uninstalled.
+     *
+     * DELETE is the honest verb; POST is accepted because a browser form on
+     * that page can only send POST, and a reader who has uninstalled the app
+     * has nothing else to call this with.
+     *
+     * ORDER IS LOAD-BEARING. Firestore first, the Auth user second. Deleting
+     * the account first would leave someone unable to authenticate a retry, so
+     * a failure at the second step would strand their name in the public
+     * register permanently. This way a failure leaves an empty account they can
+     * simply delete again.
+     */
+    if ((req.method === 'DELETE' || req.method === 'POST') && path === '/account') {
+      try {
+        await deleteAccountData(uid);
+        await getAuth().deleteUser(uid);
+      } catch (error) {
+        // Already gone is the outcome the caller asked for, not a failure —
+        // and it is what a retry after a half-finished delete looks like.
+        if ((error as { code?: string }).code === 'auth/user-not-found') {
+          send(res, 200, { ok: true });
+          return;
+        }
+        logger.error('account deletion failed', { uid, error });
+        send(res, 500, { ok: false });
+        return;
+      }
+      send(res, 200, { ok: true });
       return;
     }
 

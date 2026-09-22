@@ -210,6 +210,16 @@ export const KeptDayPanel = memo(function KeptDayPanel({ initialDateKey }: KeptD
         accessibilityLabel="The name shown on your day"
       />
 
+      {/* Said where it is typed, not only in the pitch above. This name is
+          published — to every reader, in the register and in the archive — and
+          a permanent public disclosure that is only mentioned on the screen
+          that sold the tier is a disclosure somebody can reach this box
+          without having read. It also does not have to be their real name,
+          which is worth saying before they assume it does. */}
+      <Text style={styles.changeNote}>
+        Anyone can see this name on your day. It need not be your real one.
+      </Text>
+
       {error ? (
         <SegmentedText variant="caption" style={styles.error}>
           {error}

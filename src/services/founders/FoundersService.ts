@@ -199,6 +199,19 @@ export interface FoundersService {
    */
   keptDates(): Promise<Record<string, string>>;
   /**
+   * Erase the signed-in reader's account and everything the server holds
+   * because of it, releasing their day back into the calendar.
+   *
+   * It lives here rather than on `AuthService` because the founders API is the
+   * only server this app has, and because Firebase's own `user.delete()` would
+   * remove the account while leaving the keeper document behind — a name in a
+   * public register with nobody left who can ask for it to come down.
+   *
+   * Resolves false when nothing was deleted, so the UI can say the account is
+   * still there instead of showing a success it cannot vouch for.
+   */
+  deleteAccount(): Promise<boolean>;
+  /**
    * True for the device-local stand-in. The UI says so out loud: a seat number
    * that is not globally allocated must never be presented as if it were.
    */

@@ -42,13 +42,14 @@
   <body>
     <main>
       <h1>Privacy Policy</h1>
-      <p class="updated">History Unlocked · last updated 15 September 2026</p>
+      <p class="updated">History Unlocked · last updated 22 September 2026</p>
 
       <p class="lead">
-        History Unlocked does not have accounts you must create, does not run
-        analytics, and does not have a server that stores what you read. Almost
-        everything the app knows about you is on your phone and goes away when
-        you uninstall it.
+        History Unlocked does not require an account, does not run analytics,
+        and has no server that records what you read. Almost everything the app
+        knows about you is on your phone and goes away when you uninstall it.
+        There are two exceptions, and both only happen if you choose them:
+        signing in, and keeping a day as a founder.
       </p>
 
       <h2>What stays on your device</h2>
@@ -89,11 +90,44 @@
       </p>
 
       <p>
-        <strong>Signing in with Google — optional.</strong> You do not need an
-        account to read. If you choose to sign in, Google gives the app your
-        name, email address and Google account ID. We use them only to attach
-        your purchase to you so it survives a new phone. There is no profile,
-        no mailing list, and no sharing with anyone.
+        <strong>Signing in — optional, two ways.</strong> You do not need an
+        account to read. If you choose to sign in, there are two routes and
+        neither uses a password:
+      </p>
+      <ul>
+        <li>
+          <strong>With Google.</strong> Google gives the app your name, email
+          address and Google account ID.
+        </li>
+        <li>
+          <strong>With an email link.</strong> You type an address, we send a
+          link to it, and opening the link signs you in. The address is what we
+          hold; there is nothing else.
+        </li>
+      </ul>
+      <p>
+        Accounts are handled by <strong>Firebase Authentication</strong>, a
+        Google service, acting for us. It holds your account record — the
+        address, the Google identity if you used one, and the internal account
+        ID — and, like any service handling a request, sees your IP address and
+        the time. We use the account for exactly two things: so a purchase
+        survives a new phone, and so a founder's seat and day can be proved to
+        be theirs. There is no profile, no mailing list, and no advertising.
+      </p>
+
+      <p>
+        <strong>Keeping a day — founders only.</strong> A lifetime founder may
+        claim one date of the year and write a name on it. That name and that
+        date are stored on our side, in <strong>Cloud Firestore</strong>, and
+        they are <strong>published</strong>: the name appears on its day in the
+        app, in the register of days that every reader can open, and in the
+        archive when it rebuilds each night. That is the point of the tier, and
+        it is the only thing this app ever shows publicly.
+      </p>
+      <p>
+        The name is yours to choose and does not have to be your real one. It
+        goes when the account goes — see
+        <a href="delete-account.html">deleting your account</a>.
       </p>
 
       <p>
@@ -103,6 +137,14 @@
         if you signed in, your account ID — see the
         <a href="https://www.revenuecat.com/privacy">RevenueCat privacy policy</a>
         and <a href="https://policies.google.com/privacy">Google's</a>.
+      </p>
+      <p>
+        For the lifetime tier, RevenueCat also tells our server that the account
+        owns it, and tells it again if the purchase is refunded. That is how a
+        founder's seat is proved without the app being able to claim one for
+        itself, and how a refunded day goes back into the calendar. What is
+        stored is a yes or a no against your account ID — never an amount, a
+        card, or anything about the payment.
       </p>
 
       <p>
@@ -119,7 +161,12 @@
         <li>No selling or sharing of personal data with third parties.</li>
         <li>No location access. Events carry coordinates; your phone's location is never requested.</li>
         <li>No access to contacts, photos, microphone or camera.</li>
-        <li>No server-side record of what you read, answered or kept.</li>
+        <li>
+          No server-side record of what you read, what you answered, or which
+          events you collected. Those stay on the phone. The only thing we hold
+          about a signed-in reader is the account itself and, for a founder,
+          the day they keep.
+        </li>
       </ul>
 
       <h2>Notifications</h2>
@@ -139,11 +186,24 @@
       <h2>Deleting your data</h2>
       <p>
         Uninstalling the app removes everything listed under "What stays on your
-        device" — permanently, and there is no copy elsewhere to request. If you
-        signed in with Google, you can remove the app's access at
+        device" — permanently, and there is no copy elsewhere to request.
+      </p>
+      <p>
+        If you made an account, you can delete it from inside the app: your
+        profile → <strong>Account</strong> → <strong>Delete account</strong>.
+        It is immediate, and it takes the account, the seat and the kept day
+        with it. If you have already uninstalled, write to the address below and
+        it will be done within 30 days.
+      </p>
+      <p>
+        <a href="delete-account.html"><strong>Full instructions, and exactly
+        what is and is not deleted →</strong></a>
+      </p>
+      <p>
+        If you signed in with Google, you can also remove the app's access at
         <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
-        To have any account record deleted from our side, write to the address
-        below and it will be done within 30 days.
+        That stops Google sharing anything further; it does not delete the
+        account on our side, so do both.
       </p>
 
       <h2>Changes</h2>

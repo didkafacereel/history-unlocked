@@ -120,6 +120,7 @@ Everything below was requested by the user. Ordered roughly as it came.
 | 24 | Fix text unreadable on white photographs | done — scrim remeasured against a forced-white card |
 | 25 | Free should reach back a week in the calendar | done — 7 days, 3 events each, backwards only |
 | 26 | Daily notification | already existed; horizon raised 10 → 30 days |
+| 27 | Account deletion | done — **not asked for; found while rewriting the data-safety answers.** Play requires it of any app that creates accounts, and this one does. See below. |
 
 ### Open questions the user has not answered
 
@@ -151,13 +152,35 @@ The full detail is in the memory note `history-unlocked-launch-todo` and in
 6. **Screenshots** from the installed build — five listed in
    `store/LISTING.md`.
 
+Two things now have to be true in the Console before the app can publish, and
+both are ready in the repo: the privacy policy URL, and the **account deletion
+URL**. Both are listed in `docs/DATA-SAFETY.md` with the fields they go in.
+
 The user is not familiar with Play Console and asked to be walked through it
 one screen at a time, the way Firebase was done.
 
 ### Owed before upload
 
-`docs/DATA-SAFETY.md` **must be rewritten once the backend ships.** Its answers
-were written when the app talked to no server. Firebase Auth collects an email
-and a Google identity, Firestore stores the keeper's name and date, and both
-process IP addresses. Shipping a declaration that is no longer true is how
-apps get pulled later.
+`docs/DATA-SAFETY.md` — **done, 22 September.** Rewritten against the shipped
+backend: accounts, the published keeper name, the RevenueCat webhook, and a
+note on why IP addresses have no line in the form. `docs/privacy.html` was
+rewritten in the same pass, because it was published and no longer true — it
+knew about Google sign-in but not the email link, the public register or
+Firestore.
+
+**Account deletion — found in that pass, and it was a blocker.** Google Play
+requires any app that lets people create an account to let them delete it, from
+inside the app *and* from a web page someone who has uninstalled can reach. A
+support mailbox does not satisfy it. History Unlocked creates an account the
+moment anyone signs in, and had no deletion path at all.
+
+Now it has one: `DELETE /account` on the founders API releases the kept date,
+removes the entitlement and deletes the Firebase Auth user; the profile has a
+two-step confirm; `docs/delete-account.html` is the public page. **The Console
+wants that URL in two separate fields** — App content → Data deletion, and the
+Data safety form — and `docs/DATA-SAFETY.md` says which.
+
+A founder who deletes loses their seat and their day for good, and the confirm
+says so in those words. That was a judgement call: Play does not allow
+deletion to be blocked, so the only honest alternative to letting them was
+refusing to ship the tier.

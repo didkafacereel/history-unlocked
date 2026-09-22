@@ -1,6 +1,7 @@
 import { create } from 'zustand';
 
 import { AuthUser, getAuthService } from '@/services/auth';
+import { getFoundersService } from '@/services/founders';
 import { getPurchaseService } from '@/services/purchases';
 import { useFoundersStore } from '@/stores/useFoundersStore';
 import { useQuizHistoryStore } from '@/stores/useQuizHistoryStore';
@@ -37,6 +38,12 @@ interface AuthState {
   refresh: () => Promise<void>;
   signIn: () => Promise<boolean>;
   signOut: () => Promise<void>;
+  /**
+   * Delete the account for good. Resolves true only when the server said it
+   * did it — a failure here must not look like success, because the reader's
+   * next move after being told "deleted" is to stop checking.
+   */
+  deleteAccount: () => Promise<boolean>;
   /** Post a sign-in link. Resolves true when the letter is on its way. */
   sendEmailLink: (email: string) => Promise<boolean>;
   /** Finish a sign-in from a link the reader opened. */
@@ -134,6 +141,35 @@ export const useAuthStore = create<AuthState>()((set, get) => ({
       set({ user: null, loaded: true, error: null, emailSent: null, emailError: null });
       scopeToAccount(null);
       await linkBilling(null);
+    } finally {
+      set({ busy: false });
+    }
+  },
+
+  /**
+   * The one-way door, required by Google Play of any app that creates accounts.
+   *
+   * The server does the deleting, including the Firebase Auth user, because the
+   * client SDK's own `user.delete()` would remove the account and leave the
+   * keeper document standing — a name in a public register with nobody left who
+   * can ask for it to come down.
+   *
+   * The local sign-out runs even after a failed delete: whatever happened on the
+   * far end, a session the reader has just tried to destroy is not one to leave
+   * them holding.
+   */
+  deleteAccount: async () => {
+    set({ busy: true, error: null });
+    try {
+      const deleted = await getFoundersService().deleteAccount();
+      await getAuthService().signOut();
+      set({ user: null, loaded: true, emailSent: null, emailError: null });
+      scopeToAccount(null);
+      await linkBilling(null);
+      if (!deleted) {
+        set({ error: 'failed' });
+      }
+      return deleted;
     } finally {
       set({ busy: false });
     }

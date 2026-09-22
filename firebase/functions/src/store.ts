@@ -181,6 +181,45 @@ export async function claimDate(
 }
 
 /**
+ * Erase everything the server holds about a reader, and release their day.
+ *
+ * Google Play requires any app that lets people create an account to let them
+ * delete it — from inside the app and from a web page, without installing
+ * anything. A support mailbox does not satisfy it, which is why this is an
+ * endpoint rather than the address the wrong-day path uses.
+ *
+ * The seat counter is NOT decremented, for the same reason a refund does not
+ * decrement it: a seat number is an identity, not a place in a queue, and
+ * reissuing #37 would put two people's badges on the same number. Deletion
+ * therefore costs a seat permanently, which errs toward fewer seats than days —
+ * the only safe direction, because the opposite sells a date that does not
+ * exist.
+ *
+ * Every read happens before the first write: a Firestore transaction refuses to
+ * read after writing, and the failure only appears when a date is actually held.
+ */
+export async function deleteAccountData(uid: string): Promise<void> {
+  await db().runTransaction(async (tx: Transaction) => {
+    const mineSnap = await tx.get(entitlementRef(uid));
+    const mine: Partial<Entitlement> = mineSnap.exists
+      ? (mineSnap.data() as Partial<Entitlement>)
+      : {};
+
+    const held =
+      typeof mine.keptDate === 'string' && mine.keptDate.length > 0 ? mine.keptDate : null;
+    const registrySnap = held ? await tx.get(registryRef()) : null;
+
+    if (held && registrySnap) {
+      const registry = { ...(registrySnap.data() ?? {}) };
+      delete registry[held];
+      tx.delete(keeperRef(held));
+      tx.set(registryRef(), registry);
+    }
+    tx.delete(entitlementRef(uid));
+  });
+}
+
+/**
  * Turn Lifetime on or off for a reader, and release their day when it goes off.
  *
  * Called only by the RevenueCat webhook. Without the release half, someone buys

@@ -134,4 +134,17 @@ export const localFoundersService: FoundersService = {
     }
     return out;
   },
+
+  /**
+   * There is no account to delete here — the stand-in never had one — but the
+   * record it keeps is exactly the record the real service would erase, so
+   * removing it is the honest local equivalent. The seat count is left where it
+   * stands for the same reason the server leaves it: a number already shown is
+   * not handed to somebody else.
+   */
+  deleteAccount: async () => {
+    const state = await read();
+    await write({ ...EMPTY, seatsTaken: state.seatsTaken });
+    return true;
+  },
 };
