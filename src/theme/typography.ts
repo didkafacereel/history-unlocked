@@ -6,6 +6,24 @@ import { palette } from './tokens';
  * Type scale tuned for Blinkist-grade density: short line lengths,
  * generous line-height, hard caps on block size (enforced by SegmentedText).
  */
+/**
+ * Carried by every variant that can land on a photograph.
+ *
+ * The archive is not stock imagery. It holds white marble, snowfields, pale
+ * parchment and overexposed press photographs, and white type on any of them
+ * disappears — the scrims were tuned against dark stock and cannot be pushed
+ * much further without burying the picture the card exists to show.
+ *
+ * A halo solves the same problem from the other side: it follows the letters,
+ * so it costs nothing anywhere the background is already dark. On the panels
+ * and sheets where these variants are also used it is simply invisible.
+ */
+const onImagery = {
+  textShadowColor: palette.textHalo,
+  textShadowOffset: { width: 0, height: 1 },
+  textShadowRadius: 9,
+} as const;
+
 export const type = {
   /** Year numeral on a card — the single loudest element. */
   yearDisplay: {
@@ -14,6 +32,7 @@ export const type = {
     fontWeight: '800',
     letterSpacing: -1.5,
     color: palette.textPrimary,
+    ...onImagery,
   },
   /**
    * The day's lead. Louder than a normal headline so the front card reads as
@@ -29,6 +48,7 @@ export const type = {
     fontWeight: '800',
     letterSpacing: -0.7,
     color: palette.textPrimary,
+    ...onImagery,
   },
   /** Event title. Max two lines, ever. */
   headline: {
@@ -37,6 +57,7 @@ export const type = {
     fontWeight: '700',
     letterSpacing: -0.4,
     color: palette.textPrimary,
+    ...onImagery,
   },
   /** A single fact row. One sentence. */
   fact: {

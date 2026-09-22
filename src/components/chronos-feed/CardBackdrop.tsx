@@ -61,15 +61,26 @@ export const CardBackdrop = memo(function CardBackdrop({ imageUrl, aspect }: Car
         </>
       ) : null}
 
+      {/* One scrim over the whole card, not a top and a bottom one.
+
+          The old pair left a gap exactly where the text lives. The bottom
+          scrim began at 32% of the card and only reached 0.72 by 63%, while
+          the year and the headline sit between 35% and 52% — so they landed in
+          the part of the ramp that is still nearly clear. On a dark photograph
+          nobody noticed. On the Declaration of Independence, a snowfield or an
+          overexposed press photograph, white type sat on white paper.
+
+          Measured rather than guessed: the card was rendered with a forced
+          pure-white backdrop and these four stops are the ones that made the
+          year and the headline read against it.
+
+          The separate top scrim is gone. FeedTopBar carries its own now, so
+          keeping this one as well stacked three layers of darkness over the
+          same strip of artwork. */}
       <LinearGradient
-        colors={[palette.scrimTop, 'transparent']}
-        style={styles.topScrim}
-        pointerEvents="none"
-      />
-      <LinearGradient
-        colors={['transparent', palette.scrimMid, palette.scrimBottom]}
-        locations={[0, 0.45, 1]}
-        style={styles.bottomScrim}
+        colors={[palette.scrimHint, palette.scrimSoft, palette.scrimText, palette.scrimBottom]}
+        locations={[0, 0.28, 0.46, 1]}
+        style={StyleSheet.absoluteFill}
         pointerEvents="none"
       />
     </>
@@ -95,19 +106,5 @@ const styles = StyleSheet.create({
     left: 0,
     right: 0,
     height: '46%',
-  },
-  topScrim: {
-    position: 'absolute',
-    top: 0,
-    left: 0,
-    right: 0,
-    height: '22%',
-  },
-  bottomScrim: {
-    position: 'absolute',
-    bottom: 0,
-    left: 0,
-    right: 0,
-    height: '68%',
   },
 });

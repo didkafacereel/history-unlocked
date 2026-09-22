@@ -26,7 +26,22 @@ export const palette = {
   glass: 'rgba(10, 12, 20, 0.62)',
   glassBorder: 'rgba(244, 246, 251, 0.10)',
 
+  /**
+   * The halo behind type that sits directly on a photograph.
+   *
+   * The scrims darken the whole card and cannot be pushed much further without
+   * burying the image the card exists to show. This is the other half: a soft
+   * black shadow that follows the letters, so contrast survives a white
+   * painting behind them without dimming the painting.
+   */
+  textHalo: 'rgba(6, 7, 10, 0.9)',
+
   scrimTop: 'rgba(6, 7, 10, 0.55)',
+  /** First two stops of the card scrim, above the text block. */
+  scrimHint: 'rgba(6, 7, 10, 0.10)',
+  scrimSoft: 'rgba(6, 7, 10, 0.30)',
+  /** Where the text block begins. Set by testing against a pure-white card. */
+  scrimText: 'rgba(6, 7, 10, 0.78)',
   /**
    * Mid-stop of the bottom scrim. Archival paintings and photographs are far
    * brighter than the dark stock imagery the feed was first tuned against, so
