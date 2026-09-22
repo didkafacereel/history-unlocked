@@ -52,4 +52,15 @@ export const stubAuthService: AuthService = {
       // Nothing to recover from; the next getUser simply reports the truth.
     }
   },
+
+  /**
+   * Always null, and that is the point.
+   *
+   * A stand-in cannot produce a token any server would believe, and inventing
+   * something token-shaped would mean the founders client sent it, the server
+   * rejected it, and the failure surfaced as a confusing 401 rather than as
+   * "this build has no real account". Null short-circuits in the client, which
+   * then reports "unknown" — the truth.
+   */
+  idToken: async () => null,
 };

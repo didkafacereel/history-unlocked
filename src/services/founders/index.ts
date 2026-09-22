@@ -1,3 +1,5 @@
+import { getAuthService } from '@/services/auth';
+
 import { FoundersService } from './FoundersService';
 import { localFoundersService } from './localFoundersService';
 import { createRemoteFoundersService } from './remoteFoundersService';
@@ -19,12 +21,14 @@ export function getFoundersService(): FoundersService {
   service ??= API
     ? createRemoteFoundersService({
         baseUrl: API,
-        // Wired to Firebase Auth once it is installed. Until then there is no
-        // token to send, every call short-circuits to null, and the screens
-        // show "unknown" — which is honest: nobody is signed in, so nobody can
-        // be identified. Deliberately NOT a fallback to some device id; an
-        // identity the server cannot verify is worse than none.
-        authToken: async () => null,
+        // A Firebase ID token, or null when nobody is signed in. The server
+        // verifies the signature, so this is the one identity claim in the app
+        // that the caller cannot simply assert.
+        //
+        // Read through `getAuthService()` rather than Firebase directly, so a
+        // build running the stand-in returns null here instead of reaching for
+        // an SDK it never initialised.
+        authToken: () => getAuthService().idToken(),
       })
     : localFoundersService;
   return service;
