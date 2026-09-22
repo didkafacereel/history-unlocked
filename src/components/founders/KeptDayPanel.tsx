@@ -18,6 +18,7 @@ import {
   daysInMonth,
   todayDateKey,
 } from '@/lib/dateKey';
+import { checkKeeperName, keeperNameMessage, MAX_NAME } from '@/lib/keeperName';
 import { useIsPro } from '@/stores/useEntitlementStore';
 import { useFoundersStore } from '@/stores/useFoundersStore';
 import { palette, radius, spacing } from '@/theme/tokens';
@@ -38,7 +39,6 @@ import { FounderBadge } from './FounderBadge';
  * Claiming is deliberately one-way and stated as such before the button. A day
  * you can swap next week is a setting; a day you choose once is a decision.
  */
-const MAX_NAME = 28;
 
 interface KeptDayPanelProps {
   /**
@@ -138,14 +138,17 @@ export const KeptDayPanel = memo(function KeptDayPanel({ initialDateKey }: KeptD
   const full = known !== null && known >= KEEPERS_PER_DATE;
 
   const onClaim = async () => {
-    const trimmed = name.trim();
-    if (trimmed.length < 2) {
-      setError('Enter the name you want on the day.');
+    // Checked here so the reader is told which rule they met and why, rather
+    // than watching a request fail. The server checks again and is the one
+    // that decides — this copy exists to be quick, not to be trusted.
+    const checked = checkKeeperName(name);
+    if (!checked.ok) {
+      setError(keeperNameMessage(checked.reason ?? 'too-short'));
       return;
     }
     setBusy(true);
     setError(null);
-    const result = await claimDate(dateKey, trimmed.slice(0, MAX_NAME));
+    const result = await claimDate(dateKey, checked.value);
     setBusy(false);
     if (result === 'taken') {
       setAvailability({ dateKey, taken: KEEPERS_PER_DATE });
@@ -201,6 +204,8 @@ export const KeptDayPanel = memo(function KeptDayPanel({ initialDateKey }: KeptD
         placeholder="The name on the day"
         placeholderTextColor={palette.textTertiary}
         maxLength={MAX_NAME}
+        autoCapitalize="words"
+        autoCorrect={false}
         style={styles.input}
         accessibilityLabel="The name shown on your day"
       />
