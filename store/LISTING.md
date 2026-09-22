@@ -52,13 +52,14 @@ your first unread event, so the same story is never served twice.
 FREE, AND WHAT PRO ADDS
 
 Free is the whole habit: today's date, three events from it, eight questions
-on the day, the register of who was born and lost on it, and your streak. No
-account needed — the app never asks you to sign in to read.
+on the day, the register of who was born and lost on it, and your streak. Miss
+a day and you can still go back a week for it. No account needed — the app
+never asks you to sign in to read.
 
 Pro opens the depth:
 • The whole day — at least twenty events, not three
 • Sixteen questions a day instead of eight
-• The Time Machine — any date of the year, not only today
+• The Time Machine — all 366 dates, not only the last seven days
 • Whole-archive search
 • Recall drills that bring events back on a schedule so you remember them
 • Unlimited practice across all 6,017 scenarios

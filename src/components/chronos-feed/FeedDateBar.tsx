@@ -37,8 +37,11 @@ export const FeedDateBar = memo(function FeedDateBar() {
   return (
     <View style={styles.bar} pointerEvents="box-none">
       <View style={styles.row}>
+        {/* Open to everyone now. A free reader gets the last week, which is
+            how a missed day stops being a lost one — and the locked dates
+            beyond it sell Pro better than a chip that refuses to open. */}
         <PressableScale
-          onPress={() => router.push(isPro ? '/calendar' : '/paywall')}
+          onPress={() => router.push('/calendar')}
           style={{ ...styles.chip, ...(onToday ? {} : styles.chipActive) }}
           accessibilityLabel="Open the Time Machine calendar"
         >

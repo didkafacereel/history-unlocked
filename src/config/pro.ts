@@ -61,7 +61,10 @@ export const PRO_FEATURES: ProFeatureCopy[] = [
   {
     icon: '🕰️',
     title: 'Time Machine',
-    description: 'Travel to any date in history — every day of the year, not just today.',
+    // Free reaches back seven days, so "any date, not just today" is no longer
+    // the difference. Naming the free window is also the more honest pitch:
+    // the reader can check it before they pay rather than after.
+    description: 'Every date of the year. Free reaches back seven days; Pro opens all 366.',
   },
   {
     icon: '⌖',
