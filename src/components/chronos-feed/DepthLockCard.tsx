@@ -35,8 +35,12 @@ export const DepthLockCard = memo(function DepthLockCard() {
         <SegmentedText variant="label" style={styles.kicker}>
           {`${lockedCount} more from ${dayLabel}`}
         </SegmentedText>
+        {/* `shown`, not a literal 3. FREE_DEPTH is three today and the number
+            was typed in beside a variable that already held it — so a change
+            to the free tier, or a day the archive covers thinly, would have
+            had this card state a count the reader could see was wrong. */}
         <Text style={styles.headline}>
-          {`You have read 3 of ${total} events\nrecorded on this day.`}
+          {`You have read ${shown} of ${total} events\nrecorded on this day.`}
         </Text>
         <SegmentedText variant="caption" style={styles.body}>
           Pro opens every day in full — and remembers what you’ve read.

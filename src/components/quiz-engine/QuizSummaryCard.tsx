@@ -8,10 +8,13 @@ import { RankProgressBar } from '@/components/gamification/RankProgressBar';
 import { StreakFlame } from '@/components/gamification/StreakFlame';
 import { PressableScale } from '@/components/primitives/PressableScale';
 import { SegmentedText } from '@/components/primitives/SegmentedText';
+import { useIsPro } from '@/stores/useEntitlementStore';
 import { useQuizStore } from '@/stores/useQuizStore';
 import { useSimulationStore } from '@/stores/useSimulationStore';
 import { palette, radius, spacing } from '@/theme/tokens';
 import { type } from '@/theme/typography';
+
+import { QuizUpsellPanel } from './QuizUpsellPanel';
 
 /**
  * Debrief: accuracy → XP → rank progress → streak, in that visual order —
@@ -27,9 +30,11 @@ export const QuizSummaryCard = memo(function QuizSummaryCard() {
   const solemn = useQuizStore((s) => s.solemn);
   const simulation = useQuizStore((s) => s.mode === 'simulation');
   const round = useSimulationStore((s) => s.round);
+  const isPro = useIsPro();
 
   const correct = answers.filter((a) => a.isCorrect).length;
   const perfect = total > 0 && correct === total;
+  const showUpsell = !isPro && !practice && !simulation;
 
   return (
     <View style={styles.stage}>
@@ -70,6 +75,16 @@ export const QuizSummaryCard = memo(function QuizSummaryCard() {
           </Animated.View>
         </>
       )}
+
+      {/* The offer, and only where there is something to offer: a free reader
+          who has just finished the DAILY quiz. Never in practice or a
+          simulation, which are Pro-only and whose reader has already bought
+          it, and never to a Pro reader, who would be sold what they own. */}
+      {showUpsell ? (
+        <Animated.View entering={FadeInDown.duration(320).delay(300)} style={styles.upsell}>
+          <QuizUpsellPanel />
+        </Animated.View>
+      ) : null}
 
       {/* A simulation is a sitting, not an errand — the primary action is one
           more round, and leaving is the quiet option beneath it. Every other
@@ -152,6 +167,9 @@ const styles = StyleSheet.create({
   actions: {
     alignItems: 'center',
     gap: spacing.lg,
+  },
+  upsell: {
+    alignSelf: 'stretch',
   },
   quietLink: {
     color: palette.textSecondary,
