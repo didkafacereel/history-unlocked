@@ -121,7 +121,7 @@ Everything below was requested by the user. Ordered roughly as it came.
 | 25 | Free should reach back a week in the calendar | done — 7 days, 3 events each, backwards only |
 | 26 | Daily notification | already existed; horizon raised 10 → 30 days |
 | 27 | Account deletion | done — **not asked for; found while rewriting the data-safety answers.** Play requires it of any app that creates accounts, and this one does. See below. |
-| 28 | Hostile pre-release review | in progress — phases 0, 1, 2 and the money path done; 3, 5, 6, 7 outstanding. The prompt is reusable; ask the user for it. Four findings, all in the money path, all fixed — see below. |
+| 28 | Hostile pre-release review | phases 0–7 run. Six findings, all fixed. The prompt is reusable; ask the user for it. See below. |
 | 29 | Sign-in before a Lifetime purchase | done — the user's call, taken as a specialist recommendation. Subscriptions unchanged. |
 
 ### What the review found, and why it mattered
@@ -154,6 +154,39 @@ back.**
 
 `tests/foundersWebhook.test.ts` is the decision table, 17 cases. It would have
 caught (2) in a minute.
+
+Two more, from the later phases:
+
+5. **A release build with billing but no `EXPO_PUBLIC_FOUNDERS_API` would have
+   sold $79.99 seats out of AsyncStorage.** Exactly the hazard
+   `src/services/purchases/index.native.ts` was hardened against, one product
+   along, and it had never been closed here. `lifetimeIsSellable()` now drops
+   the product from the offering and hides both pitches when no endpoint is
+   configured.
+6. **The chip could still be left with an orphaned opener.** "1919 and 1920
+   battles in the Polish–Soviet War" went onto the card as "and 1920 battles…"
+   — same family as the "1864–" regression, opposite end of the string. Found
+   by sweeping all 8,056 events rather than by example, which is how the rest
+   of this should be checked too.
+
+### What the review cleared
+
+The date engine, which was the thing most likely to be wrong: `todayDateKey`
+reads the local calendar, `dateKey` is not persisted so "today" cannot freeze,
+and the resume listener moves a reader forward without dragging someone out of
+the Time Machine. No Cyrillic anywhere in `src/`. DEV buttons are behind
+`__DEV__`. `app.json` and `eas.json` are release-shaped and `expo.name` is
+still "History Unlocked". Chip sanitiser: 0 echoed years and 0 dangling ends
+across the whole archive. Every image and source URL is https, and
+`validate:manifest` now fails if that stops being true.
+
+### A finding that was downgraded, honestly
+
+The missing `.catch` on `/e/[id]` was first called S1 — "spinner forever,
+offline". It is not. Every layer under `resolveManifest` catches and returns
+null; the only throw is the bundled fixture failing its own schema, which
+`validate:manifest` gates on every build. The guard is still right, and it is
+latent S3, not a blocker.
 
 ### Open questions the user has not answered
 

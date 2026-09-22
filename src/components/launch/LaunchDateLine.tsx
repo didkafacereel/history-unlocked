@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import { PressableScale } from '@/components/primitives/PressableScale';
 import { monthLabel, parseDateKey, todayDateKey } from '@/lib/dateKey';
-import { getFoundersService } from '@/services/founders';
+import { getFoundersService, lifetimeIsSellable } from '@/services/founders';
 import { useFoundersStore } from '@/stores/useFoundersStore';
 import { palette, spacing } from '@/theme/tokens';
 import { type } from '@/theme/typography';
@@ -79,7 +79,7 @@ export const LaunchDateLine = memo(function LaunchDateLine() {
         <Text style={styles.kept} numberOfLines={1}>
           {`Kept by ${keepers[0] ?? ''}`}
         </Text>
-      ) : keptDate !== null ? null : (
+      ) : keptDate !== null || !lifetimeIsSellable() ? null : (
         <PressableScale
           // The object form, not `/paywall?plan=lifetime`. Both are legal
           // hrefs, but the string form leaves the query to be parsed out of a

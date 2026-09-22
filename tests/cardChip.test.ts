@@ -18,6 +18,25 @@ describe('contextLine', () => {
     );
   });
 
+  it('leaves no orphaned connective at the FRONT after a removal', () => {
+    // Found by sweeping all 8,056 events rather than by example: stripping the
+    // year out of "1919 and 1920 battles in the Polish–Soviet War" left the
+    // card reading "and 1920 battles in the Polish–Soviet War". Same family as
+    // the "1864–" regression, opposite end of the string.
+    expect(contextLine('1919 and 1920 battles in the Polish–Soviet War', 1919)).toBe(
+      '1920 battles in the Polish–Soviet War',
+    );
+  });
+
+  it('does not eat a title that legitimately begins with one of those words', () => {
+    // The safety of the rule above is that it only strips a LOWERCASE opener.
+    // These are real regions in the archive and all three must survive intact.
+    expect(contextLine('The Troubles', 1998)).toBe('The Troubles');
+    expect(contextLine('In vitro fertilisation', 1978)).toBe('In vitro fertilisation');
+    expect(contextLine('On the Origin of Species', 1859)).toBe('On the Origin of Species');
+    expect(contextLine('The Holocaust in Greece', 1943)).toBe('The Holocaust in Greece');
+  });
+
   it('keeps years that are NOT the event’s', () => {
     // A 250 card should still say what the description says about 249–251.
     expect(contextLine('Roman emperor from 249 to 251', 250)).toBe('Roman emperor from 249 to 251');

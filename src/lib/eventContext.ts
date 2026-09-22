@@ -77,6 +77,21 @@ function tidy(text: string): string {
     out = out
       .replace(/[\s,;:·–—-]+$/u, '')
       .replace(/\s+\b(on|in|of|from|to|since|until|between|by|during|the|a|an)\b$/i, '')
+      /**
+       * And the same at the FRONT, which was missing.
+       *
+       * Found by running this over all 8,056 events rather than over examples:
+       * "1919 and 1920 battles in the Polish–Soviet War" lost its own year and
+       * went onto the card as "and 1920 battles in the Polish–Soviet War".
+       * Same family as the "1864–" regression, opposite end of the string.
+       *
+       * LOWERCASE ONLY, and that is the whole safety of it. "The Troubles",
+       * "In vitro fertilisation" and "On the Origin of Species" are titles that
+       * genuinely open with one of these words; a capital letter is what tells
+       * a title apart from a connective left over from mid-sentence.
+       */
+      .replace(/^[\s,;:·–—-]+/u, '')
+      .replace(/^(and|or|on|in|of|from|to|since|until|between|by|during|the|a|an)\b\s+/, '')
       .trim();
     if (out === before) {
       break;

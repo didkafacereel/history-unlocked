@@ -40,6 +40,44 @@ function report(label: string, json: unknown): void {
   const questions = events.reduce((n, e) => n + e.quizPool.length, 0);
   const days = new Set(events.map((e) => e.dateKey)).size;
   console.log(`${label} VALID: ${events.length} events, ${days} days, ${questions} questions`);
+  reportInsecureUrls(label, events);
+}
+
+/**
+ * Every URL the app fetches must be https, and nothing enforced it.
+ *
+ * The archive is clean today — swept, 0 of 8,056 — but a pipeline run is what
+ * writes these, and one `http://` from an upstream source would ship silently.
+ * Android release builds disable cleartext traffic, so the failure on a phone
+ * is not an error message: it is a card with no picture, for one event, which
+ * nobody would trace back to a URL scheme.
+ *
+ * Checked here rather than in the Zod schema on purpose. The schema runs on the
+ * reader's device, and failing the whole manifest over one bad link would blank
+ * the archive for everybody; this runs before anything is published, which is
+ * where a content problem belongs.
+ */
+function reportInsecureUrls(label: string, events: readonly HistoricalEvent[]): void {
+  const bad: string[] = [];
+  for (const event of events) {
+    for (const [field, value] of [
+      ['imageUrl', event.imageUrl],
+      ['imageSourceUrl', event.imageSourceUrl],
+    ] as const) {
+      if (typeof value === 'string' && value.length > 0 && !value.startsWith('https://')) {
+        bad.push(`  ${event.id} · ${field} · ${value}`);
+      }
+    }
+  }
+  if (bad.length > 0) {
+    console.error(`${label} INSECURE URLS: ${bad.length}`);
+    for (const line of bad.slice(0, 10)) {
+      console.error(line);
+    }
+    failed = true;
+    return;
+  }
+  console.log(`${label} URLS OK: every image and source link is https`);
 }
 
 report('FIXTURE', raw);

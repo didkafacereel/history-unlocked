@@ -30,26 +30,58 @@ export default function SharedEventRoute() {
   const insets = useSafeAreaInsets();
   const { id } = useLocalSearchParams<{ id: string }>();
   const [event, setEvent] = useState<HistoricalEvent | null>(null);
-  const [loading, setLoading] = useState(true);
+  /**
+   * Four states, not two, and the fourth is the one that was missing.
+   *
+   * `loadEventsByIds` resolves the manifest, and this screen had no `.catch`,
+   * so a rejection would leave `loading` true for good: a spinner with no text
+   * and no way out. Worse here than anywhere else, because a shared link is
+   * opened cold, the back stack is empty, and hardware back leaves the app.
+   *
+   * How likely is that? Less than it looks, and the honest answer is worth
+   * writing down: `fetchRemoteManifest` catches everything and returns null,
+   * `readManifestCache` the same, and the last fallback is the BUNDLED fixture,
+   * which only throws if it fails its own schema — and `validate:manifest`
+   * gates that on every build. So this is defence in depth rather than a bug
+   * anybody will meet. It is here because `loadArchiveStats` already guards the
+   * same call, one unguarded caller is how the guarantee quietly stops being
+   * one, and a spinner is the worst possible way to find out.
+   *
+   * "Could not reach it" and "not in the archive" also need different words.
+   * Telling an offline reader the event does not exist is a lie they may act on
+   * by not trying again.
+   */
+  const [status, setStatus] = useState<'loading' | 'ready' | 'failed'>('loading');
+  const [attempt, setAttempt] = useState(0);
 
   useEffect(() => {
     let active = true;
-    void loadEventsByIds(id ? [id] : []).then(([found]) => {
-      if (!active) {
-        return;
-      }
-      setEvent(found ?? null);
-      setLoading(false);
-      if (found) {
-        // Arriving through a link counts as reading it — otherwise the feed
-        // would serve the same event again as "new" the next time it opens.
-        useLibraryStore.getState().markSeen(found.id);
-      }
-    });
+    // No `setStatus('loading')` here: setting state directly in an effect body
+    // is what `react-hooks/set-state-in-effect` forbids, and the retry button
+    // is a better place for it anyway — it is the event that means "try again".
+    loadEventsByIds(id ? [id] : [])
+      .then(([found]) => {
+        if (!active) {
+          return;
+        }
+        setEvent(found ?? null);
+        setStatus('ready');
+        if (found) {
+          // Arriving through a link counts as reading it — otherwise the feed
+          // would serve the same event again as "new" the next time it opens.
+          useLibraryStore.getState().markSeen(found.id);
+        }
+      })
+      .catch(() => {
+        if (active) {
+          setEvent(null);
+          setStatus('failed');
+        }
+      });
     return () => {
       active = false;
     };
-  }, [id]);
+  }, [id, attempt]);
 
   const openDay = () => {
     if (event) {
@@ -58,10 +90,42 @@ export default function SharedEventRoute() {
     router.replace('/');
   };
 
-  if (loading) {
+  if (status === 'loading') {
     return (
       <View style={styles.centered}>
         <ActivityIndicator color={palette.accent} />
+      </View>
+    );
+  }
+
+  if (status === 'failed') {
+    return (
+      <View style={styles.centered}>
+        <Text style={type.headline}>Couldn’t reach the archive</Text>
+        <SegmentedText variant="caption" style={styles.centeredText}>
+          This link needs the archive, and it couldn’t be downloaded. Check your connection.
+        </SegmentedText>
+        <PressableScale
+          onPress={() => {
+            setStatus('loading');
+            setAttempt((n) => n + 1);
+          }}
+          style={styles.cta}
+          accessibilityLabel="Try again"
+        >
+          <SegmentedText variant="label" style={styles.ctaLabel}>
+            Try again
+          </SegmentedText>
+        </PressableScale>
+        {/* A second way out, because this screen is usually opened cold: the
+            back stack is empty and hardware back leaves the app. */}
+        <PressableScale
+          onPress={() => router.replace('/')}
+          style={styles.ghost}
+          accessibilityLabel="Go to today"
+        >
+          <SegmentedText variant="label">Go to today</SegmentedText>
+        </PressableScale>
       </View>
     );
   }
@@ -189,6 +253,14 @@ const styles = StyleSheet.create({
   },
   ctaLabel: {
     color: palette.void,
+  },
+  ghost: {
+    alignSelf: 'center',
+    borderWidth: StyleSheet.hairlineWidth,
+    borderColor: palette.glassBorder,
+    borderRadius: radius.pill,
+    paddingHorizontal: spacing.lg,
+    paddingVertical: spacing.sm + 2,
   },
   credit: {
     marginTop: spacing.lg,

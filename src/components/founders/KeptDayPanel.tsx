@@ -9,6 +9,7 @@ import {
   KEEPERS_PER_DATE,
   KEEPER_CHANGE_NOTE,
   KEEPER_REFRESH_NOTE,
+  lifetimeIsSellable,
 } from '@/services/founders';
 import {
   makeDateKey,
@@ -123,6 +124,13 @@ export const KeptDayPanel = memo(function KeptDayPanel({ initialDateKey }: KeptD
         <ActivityIndicator color={palette.accent} size="small" />
       </View>
     );
+  }
+
+  // A build that cannot sell the tier does not advertise it either — the
+  // paywall has already dropped the product, and a pitch leading to a screen
+  // that no longer offers it is worse than no pitch.
+  if (seat === null && !lifetimeIsSellable()) {
+    return null;
   }
 
   // Not a founder: this is the pitch, not the form.

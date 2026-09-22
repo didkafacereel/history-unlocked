@@ -3,6 +3,7 @@ import { create } from 'zustand';
 import { createJSONStorage, persist } from 'zustand/middleware';
 
 import { getPurchaseService, SubscriptionPackage } from '@/services/purchases';
+import { lifetimeIsSellable } from '@/services/founders';
 import { useFoundersStore } from '@/stores/useFoundersStore';
 import { useProgressionStore } from '@/stores/useProgressionStore';
 
@@ -61,7 +62,15 @@ export const useEntitlementStore = create<EntitlementState>()(
 
       loadOfferings: async () => {
         try {
-          set({ packages: await getPurchaseService().getOfferings() });
+          const offered = await getPurchaseService().getOfferings();
+          // Filtered HERE rather than in the paywall, so no screen can show a
+          // product this build cannot honour by reading `packages` directly.
+          // See `lifetimeIsSellable` for what it is protecting against.
+          set({
+            packages: lifetimeIsSellable()
+              ? offered
+              : offered.filter((p) => p.period !== 'lifetime'),
+          });
         } catch {
           // Offerings are best-effort; the paywall shows a retry affordance.
         }

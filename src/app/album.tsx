@@ -49,11 +49,21 @@ export default function AlbumRoute() {
   useEffect(() => {
     let active = true;
     const ids = wanted.length > 0 ? wanted.split(',') : [];
-    void loadEventsByIds(ids).then((loaded) => {
-      if (active) {
-        setEvents(new Map(loaded.map((e) => [e.id, e])));
-      }
-    });
+    loadEventsByIds(ids)
+      .then((loaded) => {
+        if (active) {
+          setEvents(new Map(loaded.map((e) => [e.id, e])));
+        }
+      })
+      .catch(() => {
+        // Resolving the manifest can reject — offline with no cache. An empty
+        // map renders the same empty album that `null` already did, so nothing
+        // moves on screen; what changes is that the rejection is handled rather
+        // than left unhandled, which in a release build is silent.
+        if (active) {
+          setEvents(new Map());
+        }
+      });
     return () => {
       active = false;
     };
