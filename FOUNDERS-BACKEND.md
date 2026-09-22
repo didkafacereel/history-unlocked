@@ -16,7 +16,7 @@ says out loud that its numbers are device-local.
 | | |
 | --- | --- |
 | One keeper per date | 366 dates, 366 seats, ever |
-| Claiming needs an account | Buying does not. A permanent public name needs something to carry it to the next phone. |
+| Claiming needs an account | **And so does buying Lifetime, since 22 September.** Subscriptions still do not. |
 | Sign-in methods | Google **and** email magic link — no passwords |
 | Wrong day | One-way in the app; `support@gridconvertpro.com` within 24 hours, by hand |
 | Name appears | On the archive's daily rebuild, stated in the app |
@@ -41,12 +41,36 @@ transaction where Postgres needed a constraint — more code, same guarantee.
 
 ```
 RevenueCat webhook ──> function ──> entitlements/{uid}  { lifetime: true }
+                                          ├─> allocateSeat(uid)  { seat: n }
                                           │
 claim a date ──> transaction ─────────────┤ rules read the entitlement
                                           └─> keepers/{MM-DD}  { uid, name, at }
 
 refund ──> same webhook ──> lifetime:false ──> the day is released
 ```
+
+### Why the webhook allocates the seat
+
+It used to be the app's job: buy, then `POST /founders/seat`. That call raced
+this webhook and usually lost — the server had not been told about the purchase
+yet and answered 403 — the client swallowed it, and **no other code path ever
+allocated a seat afterwards.** Somebody could pay and be permanently unable to
+claim a day. The moment the server learns about the purchase is the right moment
+to hand out the number; `allocateSeat` was already idempotent, so the client's
+call still works and simply finds the seat there.
+
+`GET /founders/me` now also returns `lifetime`, so the app can tell "not a
+founder" from "a founder with no seat yet" and repair the second on every
+launch, sign-in and restore. See `useFoundersStore.refresh`.
+
+### What the webhook must NOT do
+
+All three products grant the `pro` entitlement, so an event carrying `pro` says
+nothing about which one it is about. The revoke branch used to fire on any of
+them: a founder who also held a monthly subscription and turned off auto-renew
+— the rational thing after buying Lifetime — had their seat destroyed and their
+day put back on sale. The **product id** decides now, not `period_type`, and
+`tests/foundersWebhook.test.ts` holds that scenario.
 
 Refunds fall out of the same mechanism rather than needing their own. Without
 it, someone buys, takes 29 February, refunds, and keeps the best day in the

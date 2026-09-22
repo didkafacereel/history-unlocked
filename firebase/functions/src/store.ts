@@ -181,6 +181,80 @@ export async function claimDate(
 }
 
 /**
+ * Move a founder's standing from one app-user id to another.
+ *
+ * RevenueCat sends TRANSFER when a purchase changes hands between ids, and the
+ * ordinary way that happens here is the designed one: buying needs no account,
+ * so the purchase lands on an anonymous id and moves to the Firebase uid the
+ * moment the reader signs in to claim their day.
+ *
+ * Moving the entitlement is the obvious half. The half that is easy to miss is
+ * `keepers/{MM-DD}.uid` — the document that IS the claim. Leave it pointing at
+ * the old id and the founder's name stands on their day while the account that
+ * owns it can never be signed in as again, so deleting the account would not
+ * release it and support has nothing to match it against.
+ *
+ * `registry/dates` holds names only, never ids, so it needs no change.
+ *
+ * Idempotent: a repeat, or a transfer whose destination already holds Lifetime,
+ * tidies the source away and reports success. Returns false when there was
+ * nothing to move, which is the common case — most transfers are of
+ * subscriptions this registry does not care about.
+ */
+export async function transferAccount(fromUids: string[], toUid: string): Promise<boolean> {
+  return db().runTransaction(async (tx: Transaction) => {
+    // Every read first. Firestore refuses a read that follows a write in the
+    // same transaction, and the failure would only appear on the path where a
+    // date is actually held.
+    const sourceSnaps = await Promise.all(fromUids.map((uid) => tx.get(entitlementRef(uid))));
+    const destSnap = await tx.get(entitlementRef(toUid));
+
+    let sourceUid: string | null = null;
+    let source: Partial<Entitlement> = {};
+    for (const [index, snap] of sourceSnaps.entries()) {
+      const data = snap.exists ? (snap.data() as Partial<Entitlement>) : {};
+      if (data.lifetime === true) {
+        sourceUid = fromUids[index] ?? null;
+        source = data;
+        break;
+      }
+    }
+    if (sourceUid === null) {
+      return false;
+    }
+
+    const held =
+      typeof source.keptDate === 'string' && source.keptDate.length > 0 ? source.keptDate : null;
+    const keeperSnap = held ? await tx.get(keeperRef(held)) : null;
+
+    // ── reads done ──────────────────────────────────────────────────────────
+
+    const dest = destSnap.exists ? (destSnap.data() as Partial<Entitlement>) : {};
+    if (dest.lifetime === true) {
+      tx.delete(entitlementRef(sourceUid));
+      return true;
+    }
+
+    tx.set(
+      entitlementRef(toUid),
+      {
+        lifetime: true,
+        seat: typeof source.seat === 'number' ? source.seat : null,
+        keptDate: held,
+        displayName: typeof source.displayName === 'string' ? source.displayName : '',
+        updatedAt: FieldValue.serverTimestamp(),
+      },
+      { merge: true },
+    );
+    if (held && keeperSnap?.exists) {
+      tx.set(keeperRef(held), { uid: toUid }, { merge: true });
+    }
+    tx.delete(entitlementRef(sourceUid));
+    return true;
+  });
+}
+
+/**
  * Erase everything the server holds about a reader, and release their day.
  *
  * Google Play requires any app that lets people create an account to let them

@@ -1,6 +1,6 @@
 import { useRouter } from 'expo-router';
 import { memo, useEffect, useState } from 'react';
-import { StyleSheet, Text, TextInput, View } from 'react-native';
+import { ActivityIndicator, StyleSheet, Text, TextInput, View } from 'react-native';
 
 import { PressableScale } from '@/components/primitives/PressableScale';
 import { SegmentedText } from '@/components/primitives/SegmentedText';
@@ -57,6 +57,8 @@ export const KeptDayPanel = memo(function KeptDayPanel({ initialDateKey }: KeptD
   const seat = useFoundersStore((s) => s.status.seat);
   const keptDate = useFoundersStore((s) => s.status.keptDate);
   const claimDate = useFoundersStore((s) => s.claimDate);
+  const ownsLifetime = useFoundersStore((s) => s.status.lifetime);
+  const loaded = useFoundersStore((s) => s.loaded);
 
   const opening = initialDateKey === undefined ? todayDateKey() : initialDateKey;
   const [month, setMonth] = useState(() => parseDateKey(opening).month);
@@ -95,6 +97,33 @@ export const KeptDayPanel = memo(function KeptDayPanel({ initialDateKey }: KeptD
       active = false;
     };
   }, [dateKey, seat, keptDate]);
+
+  /**
+   * Paid, but not numbered yet — or not answered yet.
+   *
+   * These two states used to be indistinguishable from "not a founder", and the
+   * consequence was the worst copy in the app: a reader who had just paid
+   * $79.99 was sent straight here by the paywall and shown an advertisement for
+   * the thing they had bought two seconds earlier. It happened whenever the
+   * seat allocation lost its race with the webhook, which was most of the time.
+   *
+   * The store repairs the standing on every refresh, so this is a wait rather
+   * than a dead end — and saying "a moment" is the honest thing to show while
+   * it does.
+   */
+  if (seat === null && (ownsLifetime || !loaded)) {
+    return (
+      <View style={styles.panel}>
+        <SegmentedText variant="label">Your seat</SegmentedText>
+        <Text style={styles.pitch}>
+          {ownsLifetime
+            ? 'Setting up your founder seat. This takes a moment after a purchase — your day is waiting.'
+            : 'Checking your founder standing…'}
+        </Text>
+        <ActivityIndicator color={palette.accent} size="small" />
+      </View>
+    );
+  }
 
   // Not a founder: this is the pitch, not the form.
   if (seat === null) {

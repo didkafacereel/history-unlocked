@@ -1,5 +1,5 @@
 import { memo } from 'react';
-import { ActivityIndicator, StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 
 import { PressableScale } from '@/components/primitives/PressableScale';
 import { SegmentedText } from '@/components/primitives/SegmentedText';
@@ -12,7 +12,7 @@ import { palette, radius, spacing } from '@/theme/tokens';
 import { type } from '@/theme/typography';
 
 import { DeleteAccountRow } from './DeleteAccountRow';
-import { EmailSignInRow } from './EmailSignInRow';
+import { SignInControls } from './SignInControls';
 
 /**
  * Signing in — offered, never demanded.
@@ -26,8 +26,6 @@ import { EmailSignInRow } from './EmailSignInRow';
 export const AccountPanel = memo(function AccountPanel() {
   const user = useAuthStore((s) => s.user);
   const busy = useAuthStore((s) => s.busy);
-  const error = useAuthStore((s) => s.error);
-  const signIn = useAuthStore((s) => s.signIn);
   const signOut = useAuthStore((s) => s.signOut);
   const seat = useFoundersStore((s) => s.status.seat);
   const answered = useAnsweredCount();
@@ -115,36 +113,8 @@ export const AccountPanel = memo(function AccountPanel() {
         </SegmentedText>
       ) : null}
 
-      {error ? (
-        <SegmentedText variant="caption" style={styles.error}>
-          {error === 'unavailable'
-            ? 'Google Play services are not available on this device.'
-            : 'Sign-in did not complete. Try again.'}
-        </SegmentedText>
-      ) : null}
-
-      <PressableScale
-        onPress={() => {
-          void signIn();
-        }}
-        style={seat !== null ? { ...styles.cta, ...styles.ctaUrgent } : styles.cta}
-        accessibilityLabel="Sign in with Google"
-      >
-        {busy ? (
-          <ActivityIndicator color={seat !== null ? palette.void : palette.textPrimary} size="small" />
-        ) : (
-          <SegmentedText
-            variant="label"
-            style={seat !== null ? styles.ctaUrgentLabel : styles.ctaLabel}
-          >
-            Sign in with Google
-          </SegmentedText>
-        )}
-      </PressableScale>
-
-      {/* Offered only where it can actually work. The stand-in has no mailbox,
-          and a form that posts nothing is worse than no form. */}
-      {service.sendEmailLink ? <EmailSignInRow /> : null}
+      {/* A founder has something to lose, so the button stops being quiet. */}
+      <SignInControls urgent={seat !== null} />
     </View>
   );
 });
@@ -189,30 +159,8 @@ const styles = StyleSheet.create({
     ...type.fact,
     color: palette.textSecondary,
   },
-  error: {
-    color: palette.incorrect,
-  },
   stub: {
     color: palette.textTertiary,
-  },
-  cta: {
-    alignSelf: 'flex-start',
-    borderWidth: 1,
-    borderColor: palette.glassBorder,
-    borderRadius: radius.pill,
-    paddingHorizontal: spacing.xl,
-    paddingVertical: spacing.md,
-  },
-  ctaLabel: {
-    color: palette.textPrimary,
-  },
-  // A founder has something to lose, so the button stops being quiet.
-  ctaUrgent: {
-    backgroundColor: palette.accent,
-    borderColor: palette.accent,
-  },
-  ctaUrgentLabel: {
-    color: palette.void,
   },
   ghost: {
     alignSelf: 'flex-start',

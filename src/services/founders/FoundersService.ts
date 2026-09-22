@@ -152,6 +152,20 @@ export const KEEPER_SUPPORT_EMAIL = 'support@gridconvertpro.com';
 export const KEEPER_CHANGE_NOTE = `One date, chosen once. Picked the wrong day? Write to ${KEEPER_SUPPORT_EMAIL} within 24 hours.`;
 
 export interface FounderStatus {
+  /**
+   * Whether the SERVER believes this reader owns Lifetime.
+   *
+   * Separate from `seat` because the two can legitimately disagree for a
+   * moment, and telling them apart is what stops a paid founder being stranded.
+   * `lifetime: true, seat: null` means "paid, not yet numbered" — which the app
+   * fixes by asking for a seat — while `lifetime: false, seat: null` means "not
+   * a founder". Before this existed both looked identical, and a seat that
+   * failed to allocate stayed unallocated for good.
+   *
+   * Not read from the device's cached Pro flag: that flag is true for a monthly
+   * subscriber as well, and says nothing about which product was bought.
+   */
+  lifetime: boolean;
   /** 1-based seat number, or null when this reader is not a founder. */
   seat: number | null;
   /** "MM-DD" this founder keeps, or null when they have not claimed one. */

@@ -15,7 +15,9 @@ import {
   readKeptDates,
   readSeatsTaken,
   setLifetime,
+  transferAccount,
 } from './store';
+import { decideWebhook, type RevenueCatEvent } from './webhook';
 
 initializeApp();
 
@@ -129,6 +131,15 @@ export const api = onRequest(
     if (req.method === 'GET' && path === '/founders/me') {
       const [mine, seatsTaken] = await Promise.all([readEntitlement(uid), readSeatsTaken()]);
       send(res, 200, {
+        /**
+         * `lifetime` is sent so the app can tell "not a founder" from "a
+         * founder whose seat never got allocated", and fix the second on its
+         * own. It reports what the SERVER believes, which is the only opinion
+         * that counts — the device's cached Pro flag says nothing about which
+         * product was bought, and a founder restoring on a new phone has no
+         * local state at all.
+         */
+        lifetime: mine.lifetime === true,
         seat: mine.seat,
         keptDate: mine.keptDate,
         displayName: mine.displayName,
@@ -151,6 +162,7 @@ export const api = onRequest(
         return;
       }
       send(res, 200, {
+        lifetime: true,
         seat: result.seat,
         keptDate: mine.keptDate,
         displayName: mine.displayName,
@@ -180,6 +192,7 @@ export const api = onRequest(
       send(res, 200, {
         ok: true,
         status: {
+          lifetime: mine.lifetime === true,
           seat: mine.seat,
           keptDate: mine.keptDate,
           displayName: mine.displayName,
@@ -252,46 +265,55 @@ export const revenuecat = onRequest(
       return;
     }
 
-    const event = (req.body?.event ?? {}) as {
-      type?: string;
-      app_user_id?: string;
-      entitlement_ids?: string[];
-      period_type?: string;
-    };
-    const uid = typeof event.app_user_id === 'string' ? event.app_user_id : '';
-    if (!uid) {
-      send(res, 200, { ignored: 'no-user' });
-      return;
-    }
+    const event = (req.body?.event ?? {}) as RevenueCatEvent;
+    const decision = decideWebhook(event);
 
-    // Only the lifetime entitlement moves the needle here. A monthly or annual
-    // subscriber is Pro, which the app learns from RevenueCat directly; this
-    // registry is only ever about founders.
-    const touchesPro = (event.entitlement_ids ?? []).includes('pro');
-    const isLifetime = event.period_type === 'LIFETIME' || event.type === 'NON_RENEWING_PURCHASE';
-
-    const GRANT = new Set(['INITIAL_PURCHASE', 'NON_RENEWING_PURCHASE', 'UNCANCELLATION']);
-    const REVOKE = new Set(['CANCELLATION', 'EXPIRATION', 'REFUND', 'SUBSCRIPTION_PAUSED']);
-
-    const type = event.type ?? '';
     try {
-      if (touchesPro && isLifetime && GRANT.has(type)) {
-        await setLifetime(uid, true);
-      } else if (touchesPro && REVOKE.has(type)) {
-        // Revoked without checking period_type: a refund event does not always
-        // repeat it, and wrongly keeping a day is worse than wrongly freeing
-        // one — the second is recoverable by claiming again, the first is a
-        // day nobody can ever buy.
-        await setLifetime(uid, false);
+      switch (decision.action) {
+        case 'grant':
+          await setLifetime(decision.uid, true);
+          /**
+           * THE SEAT IS ALLOCATED HERE, not by the app.
+           *
+           * It used to be the client's job: the paywall bought, then called
+           * `POST /founders/seat` immediately. That call raced this webhook and
+           * usually lost — the server had not been told about the purchase yet,
+           * so it answered 403 `no-lifetime`. The client swallowed it, nothing
+           * retried, and the reader had paid $79.99 for a seat that was never
+           * allocated by any code path afterwards.
+           *
+           * The moment the server learns somebody paid is the right moment to
+           * give them a number. `allocateSeat` is idempotent, so the old client
+           * call still works and simply finds the seat already there.
+           */
+          await allocateSeat(decision.uid);
+          break;
+        case 'revoke':
+          await setLifetime(decision.uid, false);
+          break;
+        case 'transfer':
+          await transferAccount(decision.from, decision.to);
+          break;
+        case 'ignore':
+          if (decision.alarming) {
+            // Not an error we can act on, and not one to lose either: it means
+            // an event about our own entitlement that could not be read
+            // confidently. A day may need releasing by hand.
+            logger.error('revenuecat webhook needs a human', {
+              reason: decision.reason,
+              type: event.type,
+            });
+          }
+          break;
       }
     } catch (error) {
-      logger.error('revenuecat webhook failed', { type, uid, error });
+      logger.error('revenuecat webhook failed', { decision, error });
       // 500 so RevenueCat retries. Silently swallowing a grant would leave
       // somebody who paid without a seat and no trace of why.
       send(res, 500, { error: 'failed' });
       return;
     }
 
-    send(res, 200, { ok: true });
+    send(res, 200, { ok: true, action: decision.action });
   },
 );

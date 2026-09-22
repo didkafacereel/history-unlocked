@@ -18,7 +18,13 @@ import {
  * Same rule as every store: subscribe to one field.
  */
 
-const UNKNOWN: FounderStatus = { seat: null, keptDate: null, displayName: '', seatsTaken: 0 };
+const UNKNOWN: FounderStatus = {
+  lifetime: false,
+  seat: null,
+  keptDate: null,
+  displayName: '',
+  seatsTaken: 0,
+};
 
 interface FoundersState {
   status: FounderStatus;
@@ -37,13 +43,37 @@ export const useFoundersStore = create<FoundersState>()((set, get) => ({
   loading: false,
   loaded: false,
 
+  /**
+   * Read the reader's standing, and repair it if it is half-finished.
+   *
+   * THE REPAIR IS THE POINT. A seat used to be allocated from exactly one
+   * place — the paywall, immediately after paying — and that call raced the
+   * RevenueCat webhook and usually lost, because the server had not been told
+   * about the purchase yet and answered 403. The failure was silent, nothing
+   * retried, and no other code path ever allocated a seat: `restore` refreshed
+   * but never claimed, and so did launch. Somebody could pay $79.99 and be
+   * permanently unable to claim a day.
+   *
+   * The webhook now allocates the seat itself, which removes the race. This is
+   * the second line: every launch, every sign-in and every restore comes
+   * through here, so a founder the server knows about but has not numbered gets
+   * numbered on the next thing they do — including a reader whose purchase only
+   * reached the server minutes later.
+   *
+   * Guarded on `lifetime`, which only the server asserts, so a failed request
+   * (UNKNOWN, lifetime false) can never trigger a claim.
+   */
   refresh: async () => {
     if (get().loading) {
       return;
     }
     set({ loading: true });
     try {
-      set({ status: await getFoundersService().getStatus(), loaded: true });
+      const status = await getFoundersService().getStatus();
+      set({ status, loaded: true });
+      if (status.lifetime && status.seat === null) {
+        set({ status: await getFoundersService().claimSeat() });
+      }
     } finally {
       set({ loading: false });
     }

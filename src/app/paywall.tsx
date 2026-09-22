@@ -10,6 +10,7 @@ import { PressableScale } from '@/components/primitives/PressableScale';
 import { SegmentedText } from '@/components/primitives/SegmentedText';
 import { PRO_FEATURES } from '@/config/pro';
 import { goBack } from '@/lib/goBack';
+import { useAuthStore } from '@/stores/useAuthStore';
 import { useEntitlementStore } from '@/stores/useEntitlementStore';
 import { palette, radius, spacing } from '@/theme/tokens';
 import { type } from '@/theme/typography';
@@ -75,6 +76,25 @@ export default function PaywallScreen() {
       return;
     }
     const bought = packages.find((p) => p.id === activeId);
+
+    /**
+     * Lifetime needs an account BEFORE the money moves, and only Lifetime does.
+     *
+     * What is being sold is a numbered seat and a permanent public name on one
+     * date — neither can belong to a handset. Buying anonymously also gave
+     * RevenueCat an anonymous id, and signing in afterwards moved the purchase
+     * with a TRANSFER event; that is handled server-side now, but a purchase
+     * that never needs transferring is a purchase that cannot get lost in one.
+     *
+     * The subscriptions are deliberately left alone. They unlock features on a
+     * device and lose nothing by staying anonymous, so they keep the shortest
+     * possible path to paying.
+     */
+    if (bought?.period === 'lifetime' && !useAuthStore.getState().user) {
+      router.push('/sign-in');
+      return;
+    }
+
     if (!(await purchase(activeId))) {
       return;
     }

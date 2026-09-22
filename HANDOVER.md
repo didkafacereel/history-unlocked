@@ -121,6 +121,39 @@ Everything below was requested by the user. Ordered roughly as it came.
 | 25 | Free should reach back a week in the calendar | done — 7 days, 3 events each, backwards only |
 | 26 | Daily notification | already existed; horizon raised 10 → 30 days |
 | 27 | Account deletion | done — **not asked for; found while rewriting the data-safety answers.** Play requires it of any app that creates accounts, and this one does. See below. |
+| 28 | Hostile pre-release review | in progress — phases 0, 1, 2 and the money path done; 3, 5, 6, 7 outstanding. The prompt is reusable; ask the user for it. Four findings, all in the money path, all fixed — see below. |
+| 29 | Sign-in before a Lifetime purchase | done — the user's call, taken as a specialist recommendation. Subscriptions unchanged. |
+
+### What the review found, and why it mattered
+
+Every finding was in code that had never run against a real Firestore or a real
+RevenueCat key, and all four converged on one state: **paid, no seat, no way
+back.**
+
+1. **The seat allocation raced the webhook and usually lost.** `claimSeat` was
+   called from exactly one place, immediately after paying, against a server
+   that had not been told about the purchase yet. It answered 403, the client
+   swallowed it silently, and no other path ever allocated a seat — `restore`
+   refreshed but never claimed, and so did launch. Fixed twice over: the
+   webhook allocates the seat itself, and `refresh` repairs a founder with no
+   seat on every launch, sign-in and restore.
+2. **Cancelling a monthly subscription destroyed a founder seat.** All three
+   products grant `pro`, and the revoke branch checked only that. A founder who
+   also subscribed and then turned off auto-renew — the rational thing to do
+   after buying Lifetime — lost their seat and had their day put back on sale,
+   instantly, while the subscription was still running. The product id decides
+   now.
+3. **TRANSFER was ignored**, and it is the designed purchase path: buying
+   needed no account, so the purchase landed on an anonymous id and moved to
+   the Firebase uid at sign-in. The money stayed on an id nobody can sign in
+   as. Handled now — and Lifetime requires a signed-in buyer, so it should not
+   arise.
+4. **The just-paid founder was shown an advertisement for what they had just
+   bought.** `seat === null` meant both "not a founder" and "we do not know
+   yet". `FounderStatus.lifetime` separates them.
+
+`tests/foundersWebhook.test.ts` is the decision table, 17 cases. It would have
+caught (2) in a minute.
 
 ### Open questions the user has not answered
 

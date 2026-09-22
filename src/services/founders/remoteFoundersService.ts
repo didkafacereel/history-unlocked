@@ -107,6 +107,10 @@ async function request<T>(
 }
 
 const UNKNOWN: FounderStatus = {
+  // False rather than unknown: a request that failed must never present the
+  // reader as a founder, and the self-heal in the store must not fire on a
+  // network error. The next successful refresh tells the truth.
+  lifetime: false,
   seat: null,
   keptDate: null,
   displayName: '',

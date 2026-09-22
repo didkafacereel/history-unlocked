@@ -66,6 +66,10 @@ async function write(state: LocalState): Promise<LocalState> {
 
 function statusOf(state: LocalState): FounderStatus {
   return {
+    // The stand-in has no entitlement of its own; holding a seat IS the only
+    // evidence it can offer. Derived rather than stored so it can never
+    // disagree with the seat and send the store into a repeated claim.
+    lifetime: state.seat !== null,
     seat: state.seat,
     keptDate: state.keptDate,
     displayName: state.displayName,

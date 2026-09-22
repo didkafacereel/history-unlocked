@@ -1,5 +1,43 @@
 # Billing and sign-in setup
 
+## 0. The payments profile — before any of this
+
+**No in-app product can take money until a Google Play payments profile
+exists**, and it is not the same thing as the developer account. It asks for a
+legal name and address, a bank account, and tax information, and it is verified
+by a human, which takes days.
+
+Two ways it goes wrong, both expensive and both avoidable:
+
+- **The address must match your documents.** A mismatch drops the profile into
+  manual review and adds weeks.
+- **Google asks for US tax information even from non-US developers** — the
+  W-8BEN equivalent, filled in inside the payments profile. Skip it and Google
+  applies backup withholding to earnings from US buyers, up to 24–30%, which is
+  slow and painful to reclaim afterwards.
+
+### What actually arrives
+
+Google is the merchant of record: it sells to the customer, remits VAT, and
+handles refunds. **VAT comes off before the service fee, not after**, which is
+the part people get wrong:
+
+| | Price | less VAT (EU, 20%) | less 15% fee | Net |
+| --- | --- | --- | --- | --- |
+| Monthly | $5.99 | 4.99 | | ~$4.24 |
+| Annual | $39.99 | 33.33 | | ~$28.33 |
+| Lifetime, Gen I | $79.99 | 66.66 | | ~$56.66 |
+
+15% applies to the first $1M of earnings a year, which 366 seats will never
+reach. Payouts land around the 15th of the following month, above a threshold
+of roughly $100.
+
+**RevenueCat never touches the money.** Its dashboard shows gross, in real
+time; the authoritative figure is Play Console → Download reports → Earnings,
+and the actual transfers are in the Google payments centre. The two will never
+agree, and that is expected.
+
+
 Everything below is read from the code, not from memory. The identifiers are
 what the app actually asks for; if you name something differently in the
 console, the app will not find it.
@@ -95,6 +133,26 @@ The full list the app reads is in `.env.example`. The two that gate revenue are
 `EXPO_PUBLIC_RC_ANDROID_KEY` and `EXPO_PUBLIC_GOOGLE_WEB_CLIENT_ID`; the two
 that gate content are `EXPO_PUBLIC_MANIFEST_URL` and `EXPO_PUBLIC_WEB_ORIGIN`.
 
+## 4b. Lifetime requires a signed-in buyer
+
+Changed 22 September, and it reverses an earlier decision that buying needs no
+account. Subscriptions still do not — only Lifetime.
+
+The reason is a way the purchase could fail with the money already taken.
+Buying signed out gives RevenueCat an anonymous app-user id, so the webhook
+grants Lifetime to `$RCAnonymousID:…`. Signing in afterwards moves the purchase
+and announces it with a **TRANSFER** event, which the server ignored — leaving
+the buyer with a 403 on the seat they had just paid for. The transfer is
+handled now, and not needing it is still better than handling it.
+
+`src/app/sign-in.tsx` is the gate, and `src/app/paywall.tsx` sends a signed-out
+reader there before a Lifetime purchase. It costs some conversion at the most
+expensive product, knowingly.
+
+**When testing:** buy Lifetime while signed out is no longer reachable through
+the UI, but a purchase made outside the app can still arrive anonymous, so the
+TRANSFER path stays live and is worth exercising once.
+
 ## 5. Order
 
 The ordering matters and is not the obvious one: **Play Console will not let
@@ -103,6 +161,8 @@ been uploaded to a track.** So the first build happens before the products
 exist, and is therefore a build whose paywall cannot yet sell anything. That is
 expected — it is there to unlock the console, and to produce screenshots.
 
+0. **Payments profile** — section 0 above. Nothing can be sold without it and
+   it is verified by a human, so start it first.
 1. ~~Host `docs/`~~ — **done**. GitHub Pages serves the repository's `/docs`
    folder at `https://didkafacereel.github.io/history-unlocked/`, and
    `EXPO_PUBLIC_MANIFEST_URL` and `EXPO_PUBLIC_WEB_ORIGIN` are already EAS
