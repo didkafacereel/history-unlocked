@@ -17,10 +17,16 @@ description: >-
 
 "History Unlocked" is an S-tier "Today in History" mobile app: a TikTok-style
 swipeable feed, Blinkist-grade density, a scenario-based daily quiz, and
-Duolingo-style gamification. Stack: **Expo SDK 56, React Native 0.85, Reanimated
-4.3 (+ react-native-worklets), expo-router (routes live in `src/app`), Zustand 5,
-Zod 4, expo-image, AsyncStorage, RevenueCat**. TypeScript strict +
-`noUncheckedIndexedAccess`. React Compiler is enabled by the SDK 56 template.
+Duolingo-style gamification. Stack: **Expo SDK 57, React Native 0.86, Reanimated
+4.5 (+ react-native-worklets 0.10), gesture-handler 2.32, expo-router (routes
+live in `src/app`), Zustand 5, Zod 4, expo-image, AsyncStorage, RevenueCat,
+Firebase Auth (JS SDK), expo-updates**. TypeScript strict +
+`noUncheckedIndexedAccess`. React Compiler is enabled.
+
+**Upgraded 56 → 57 on 24 September 2026**, deliberately, before launch: SDK
+56's Hermes V1 has a known memory regression in apps importing Reanimated or
+worklets (the feed's swipe), fixed only in expo@57.0.9+; 57.0.17+ also fixes a
+startup-time regression. `npx expo-doctor` checks for it — keep it at 21/21.
 
 `AGENTS.md` at the repo root says it plainly: **Expo has changed — read the
 versioned docs at https://docs.expo.dev/versions/v56.0.0/ before writing Expo
@@ -445,6 +451,14 @@ React-Native-Web quirks cost hours to rediscover:
   `buttons: 1`) → `pointerup`. The swipe commits on **distance** (>22% of screen)
   even at ~0 velocity, so synthetic drags work without realistic timing. Allow
   ~900 ms between swipes for the settle spring.
+- **Since gesture-handler 2.32 (SDK 57) the recipe above throws**
+  `NotFoundError: Failed to execute 'setPointerCapture'` — the handler now
+  captures the pointer, and a synthetic `pointerId` is not one the browser
+  knows. Stub it in the page first, test-only:
+  `Element.prototype.setPointerCapture = () => {}` (and `releasePointerCapture`,
+  `hasPointerCapture = () => true`), then run the recipe. Real fingers are
+  unaffected. A plain `left_click_drag` from the browser tool is a MOUSE
+  pointer and is ignored by the feed's pan, as before.
 - **Scrolling**: RNW `ScrollView` is a nested overflow div — set that element's
   `scrollTop`, not `window.scrollY`.
 - **Client-side navigation**: `location.href = '/route'` does a full reload and
