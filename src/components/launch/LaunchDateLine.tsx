@@ -76,9 +76,33 @@ export const LaunchDateLine = memo(function LaunchDateLine() {
       <Text style={styles.date}>{date}</Text>
 
       {keepers === null ? null : keepers.length > 0 ? (
-        <Text style={styles.kept} numberOfLines={1}>
-          {`Kept by ${keepers[0] ?? ''}`}
-        </Text>
+        /**
+         * The name is the headline of the line, not a caption under the date.
+         *
+         * It used to be 13px grey — "Kept by Ada Lovelace" read like a
+         * footnote, on the one screen every reader sees every day. The name is
+         * what a founder paid for and what the next reader should want, so it
+         * is gold, heavy and large, with a soft halo, and "Kept by" steps down
+         * to a small label above it.
+         *
+         * Sized by the name's length rather than left to `adjustsFontSizeToFit`
+         * alone: that prop does nothing on web, and the first version of this
+         * ran a 28-character name — the most the register allows — off both
+         * edges of a 360dp screen. Short names get the full size; long ones
+         * step down so the whole name always fits. "Ada Love…" on the front
+         * door would be worse than a slightly smaller whole name.
+         */
+        <View style={styles.keptBlock} accessibilityLabel={`Kept by ${keepers[0] ?? ''}`}>
+          <Text style={styles.keptLabel}>Kept by</Text>
+          <Text
+            style={[styles.keeperName, keeperNameSize(keepers[0] ?? '')]}
+            numberOfLines={1}
+            adjustsFontSizeToFit
+            minimumFontScale={0.7}
+          >
+            {keepers[0] ?? ''}
+          </Text>
+        </View>
       ) : keptDate !== null || !lifetimeIsSellable() ? null : (
         <PressableScale
           // The object form, not `/paywall?plan=lifetime`. Both are legal
@@ -105,18 +129,57 @@ export const LaunchDateLine = memo(function LaunchDateLine() {
   );
 });
 
+/**
+ * Font size for a keeper's name, stepped by length.
+ *
+ * Bold sans averages a little under 0.6em per character. The tiers keep the
+ * widest name in each band under ~300dp — what a 360dp phone leaves after the
+ * screen's padding — so the register's 28-character maximum still fits whole.
+ */
+function keeperNameSize(name: string): { fontSize: number; lineHeight: number } {
+  const length = name.length;
+  if (length <= 14) {
+    return { fontSize: 28, lineHeight: 36 };
+  }
+  if (length <= 19) {
+    return { fontSize: 24, lineHeight: 32 };
+  }
+  if (length <= 23) {
+    return { fontSize: 21, lineHeight: 28 };
+  }
+  return { fontSize: 18, lineHeight: 26 };
+}
+
 const styles = StyleSheet.create({
   wrap: {
     alignItems: 'center',
+    alignSelf: 'stretch',
     gap: 2,
   },
   date: {
     ...type.label,
     color: palette.accent,
   },
-  kept: {
-    ...type.caption,
+  keptBlock: {
+    alignItems: 'center',
+    alignSelf: 'stretch',
+    marginTop: spacing.xs,
+    paddingHorizontal: spacing.lg,
+  },
+  keptLabel: {
+    ...type.label,
+    fontSize: 11,
+    letterSpacing: 2,
+  },
+  keeperName: {
+    maxWidth: '100%',
+    fontWeight: '800',
+    letterSpacing: 0.2,
+    color: palette.accent,
     textAlign: 'center',
+    textShadowColor: palette.accentGlow,
+    textShadowOffset: { width: 0, height: 0 },
+    textShadowRadius: 14,
   },
   claim: {
     minHeight: 32,

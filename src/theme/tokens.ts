@@ -15,6 +15,8 @@ export const palette = {
   // Brand accent — "intel amber", used sparingly for tactical affordances.
   accent: '#F5B73B',
   accentDim: 'rgba(245, 183, 59, 0.16)',
+  /** The soft gold halo behind a keeper's name on the launch screen. */
+  accentGlow: 'rgba(245, 183, 59, 0.45)',
 
   // Gamification signals.
   streakFlame: '#FF6B35',
