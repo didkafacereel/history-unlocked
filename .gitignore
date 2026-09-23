@@ -81,3 +81,9 @@ GoogleService-Info.plist
 firebase/functions/lib/
 firebase/functions/node_modules/
 firebase/.firebaserc
+
+# Local values for Firebase secrets, read by the functions emulator. The file
+# holds a throwaway test value today, but the pattern must never be committed:
+# the day someone puts a real webhook secret in it, this line is what stops it.
+firebase/functions/.secret.local
+
