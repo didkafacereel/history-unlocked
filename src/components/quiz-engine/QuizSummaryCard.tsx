@@ -1,5 +1,5 @@
 import { useRouter } from 'expo-router';
-import { memo } from 'react';
+import { memo, useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Animated, { FadeInDown } from 'react-native-reanimated';
 
@@ -8,13 +8,17 @@ import { RankProgressBar } from '@/components/gamification/RankProgressBar';
 import { StreakFlame } from '@/components/gamification/StreakFlame';
 import { PressableScale } from '@/components/primitives/PressableScale';
 import { SegmentedText } from '@/components/primitives/SegmentedText';
+import { shouldOfferReminder } from '@/lib/reminderOffer';
+import { dailyReminders } from '@/services/notifications';
 import { useIsPro } from '@/stores/useEntitlementStore';
 import { useQuizStore } from '@/stores/useQuizStore';
+import { useReminderStore } from '@/stores/useReminderStore';
 import { useSimulationStore } from '@/stores/useSimulationStore';
 import { palette, radius, spacing } from '@/theme/tokens';
 import { type } from '@/theme/typography';
 
 import { QuizUpsellPanel } from './QuizUpsellPanel';
+import { ReminderAskPanel } from './ReminderAskPanel';
 
 /**
  * Debrief: accuracy → XP → rank progress → streak, in that visual order —
@@ -34,7 +38,27 @@ export const QuizSummaryCard = memo(function QuizSummaryCard() {
 
   const correct = answers.filter((a) => a.isCorrect).length;
   const perfect = total > 0 && correct === total;
-  const showUpsell = !isPro && !practice && !simulation;
+
+  /**
+   * Decided ONCE, when the debrief mounts. Answering the ask marks it offered,
+   * and a condition read live would unmount the panel mid-answer and slide the
+   * upsell into its place — the reader would tap "Remind me" and watch it turn
+   * into an advertisement.
+   */
+  const [askReminder] = useState(() => {
+    const reminder = useReminderStore.getState();
+    return shouldOfferReminder({
+      supported: dailyReminders.supported,
+      enabled: reminder.enabled,
+      offered: reminder.offered,
+      practice,
+      simulation,
+    });
+  });
+  // The ask takes the upsell's place rather than stacking beside it: one
+  // request per debrief. It only ever happens once, so every later daily quiz
+  // still carries the offer — and a habit is worth more than one impression.
+  const showUpsell = !askReminder && !isPro && !practice && !simulation;
 
   return (
     <View style={styles.stage}>
@@ -80,6 +104,12 @@ export const QuizSummaryCard = memo(function QuizSummaryCard() {
           who has just finished the DAILY quiz. Never in practice or a
           simulation, which are Pro-only and whose reader has already bought
           it, and never to a Pro reader, who would be sold what they own. */}
+      {askReminder ? (
+        <Animated.View entering={FadeInDown.duration(320).delay(300)} style={styles.upsell}>
+          <ReminderAskPanel />
+        </Animated.View>
+      ) : null}
+
       {showUpsell ? (
         <Animated.View entering={FadeInDown.duration(320).delay(300)} style={styles.upsell}>
           <QuizUpsellPanel />

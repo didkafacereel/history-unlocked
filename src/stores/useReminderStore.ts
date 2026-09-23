@@ -42,8 +42,17 @@ interface ReminderState {
   minute: number;
   /** Last "YYYY-MM-DD" the schedule was topped up, so launches are cheap. */
   lastScheduled: string | null;
+  /**
+   * Whether the reader has been ASKED — once, after their first daily quiz.
+   *
+   * Persisted, and set whatever they answered. Asking again after "not now" is
+   * how an app teaches people to dismiss it; the toggle in the profile stays
+   * for anyone who changes their mind.
+   */
+  offered: boolean;
 
   setEnabled: (enabled: boolean) => Promise<boolean>;
+  markOffered: () => void;
   setTime: (hour: number, minute: number) => Promise<void>;
   /** Re-fill the horizon. Safe and cheap to call on every launch. */
   refresh: () => Promise<void>;
@@ -86,6 +95,9 @@ export const useReminderStore = create<ReminderState>()(
       hour: 8,
       minute: 0,
       lastScheduled: null,
+      offered: false,
+
+      markOffered: () => set({ offered: true }),
 
       setEnabled: async (enabled) => {
         if (!enabled) {
@@ -136,6 +148,7 @@ export const useReminderStore = create<ReminderState>()(
         hour: state.hour,
         minute: state.minute,
         lastScheduled: state.lastScheduled,
+        offered: state.offered,
       }),
     },
   ),
