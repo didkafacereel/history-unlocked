@@ -109,6 +109,24 @@ at the top of this file: strict costs nothing, lenient costs a review cycle.
 > Card numbers are never seen by the app. Google Play handles payment end to
 > end; do NOT declare "Payment info".
 
+### Device or other IDs
+
+- Collected: **Yes** — one: a random token that identifies this *installation*
+  to the app-update service (Expo EAS Update), so an update reaches only
+  compatible installs and installs can be counted
+- Shared: **No** — Expo delivers the updates on our behalf, a service provider
+  in the same position as Firebase
+- Processed ephemerally: **No**
+- Required or optional: **Required** — every install checks for updates
+- Purpose: **App functionality**
+
+Expo's own description: the requests "do not contain identifying information
+such as unique device identifiers". It is not the advertising ID, not a
+hardware ID, and not linked to an account. It is declared anyway, on the rule
+at the top of this file — Google's definition of this type includes
+app-generated installation IDs, and an argument about it would cost a review
+cycle. Added 23 September 2026 with `expo-updates`.
+
 ## Data types to declare as NOT collected
 
 Select nothing for these — the code touches none of them:
@@ -124,11 +142,11 @@ Select nothing for these — the code touches none of them:
   matched locally against the downloaded archive and never sent anywhere
 - App activity → other user-generated content — the one piece of user text the
   app sends is the keeper name, declared under **Name** above
-- Device or other IDs → **advertising ID** — the app has no ads and no ad SDK.
-  There is no Firebase Installations ID either: only `firebase/app` and
-  `firebase/auth` are imported, no Analytics, Messaging, Remote Config or
-  Crashlytics, and the founders API is plain HTTPS rather than the Firestore
-  client SDK.
+- **Advertising ID** — the app has no ads and no ad SDK. (The *Device or other
+  IDs* type is declared above, but only for the update token.) There is no
+  Firebase Installations ID either: only `firebase/app` and `firebase/auth` are
+  imported, no Analytics, Messaging, Remote Config or Crashlytics, and the
+  founders API is plain HTTPS rather than the Firestore client SDK.
 - App info and performance → crash logs, diagnostics — no crash reporter is
   installed
 
@@ -173,6 +191,7 @@ and not in this form.
 | Deletion honoured | `firebase/functions/src/store.ts` → `deleteAccountData` |
 | No client-side Firestore, no Analytics | `package.json`, and the imports in `src/services/firebase/` |
 | Notifications are local only | no push token is ever requested |
+| Update token collected | `expo-updates` in `package.json`, `updates.url` in `app.json` |
 
 ## Re-check this file when
 

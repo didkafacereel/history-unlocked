@@ -7,6 +7,12 @@
     "icon": "./assets/images/icon.png",
     "scheme": "historyunlocked",
     "userInterfaceStyle": "automatic",
+    "runtimeVersion": {
+      "policy": "fingerprint"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/196c0c9c-4086-4afd-b3b8-c9213ff7c6b4"
+    },
     "android": {
       "package": "com.historyunlocked.app",
       "versionCode": 3,
@@ -26,7 +32,10 @@
             "host": "history-unlocked-fa9a9.firebaseapp.com",
             "pathPrefix": "/__/auth/links"
           },
-          "category": ["BROWSABLE", "DEFAULT"]
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
         }
       ]
     },
@@ -47,7 +56,9 @@
         }
       ],
       "expo-sharing",
-      "@react-native-google-signin/google-signin"
+      "@react-native-google-signin/google-signin",
+      "expo-image",
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true,
