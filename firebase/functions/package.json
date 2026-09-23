@@ -9,8 +9,10 @@
   "scripts": {
     "build": "tsc",
     "typecheck": "tsc --noEmit",
-    "serve": "npm run build && firebase emulators:start --only functions,firestore,auth",
-    "deploy": "firebase deploy --only functions"
+    "serve": "npm run build && npx -y firebase-tools@15 emulators:start --only functions,firestore,auth",
+    "deploy": "npx -y firebase-tools@15 deploy --only functions,firestore:rules",
+    "secret:webhook": "npx -y firebase-tools@15 functions:secrets:set REVENUECAT_WEBHOOK_SECRET",
+    "secret:webhook:show": "npx -y firebase-tools@15 functions:secrets:access REVENUECAT_WEBHOOK_SECRET"
   },
   "dependencies": {
     "firebase-admin": "^13.0.2",
