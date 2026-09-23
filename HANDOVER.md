@@ -218,6 +218,31 @@ The full detail is in the memory note `history-unlocked-launch-todo` and in
 6. **Screenshots** from the installed build — five listed in
    `store/LISTING.md`.
 
+### After launch — the update roadmap
+
+Agreed with the user on 23 September: every growth idea is wanted, and all of
+them ship as updates AFTER launch. Nothing below is started before 1.0 is live
+and there are 30 days of real data. The order is by what each one does:
+reach first, then market size, then revenue per reader, then retention.
+
+| Version | What | Why this position |
+| --- | --- | --- |
+| — | **Short video**, daily, from the archive | Not an app update at all — content operations. Can start on day one of the closed test. The cheapest route to the first 100k readers, and the pipeline already produces the material. |
+| 1.1 | Closed-test fixes; the notification prompt after the first finished quiz (the open question in §3); decide on minimal privacy-respecting analytics | Without measurement nothing after this can be judged. Analytics changes the Data safety answers. |
+| 1.2 | **Languages**, Bulgarian first | The biggest multiplier. Needs i18n in the app (every UI string is hard-coded English today) and a pipeline run per Wikipedia language. Each language gets its own 366-day register. |
+| 1.3 | **Gift a day** | Emotional, proven category, and it makes the register spread. Needs a gift-code flow: buyer pays, recipient claims. Care needed for memorial days. |
+| 1.4 | **Audio briefings** | Daily three minutes. Already on the deferred list. |
+| 2.0 | **Schools** | Class mode, teacher dashboard, per-school licence. Slow to sell, sticky, higher revenue per seat. |
+| 2.x | AI historian over the archive; "what happened here" from event coordinates | Differentiators, once the base is growing. Watch cost per reader. |
+
+**Nothing being launched now blocks any of this.** The register is keyed by
+`MM-DD` alone; when languages arrive, today's collections simply become the
+English register and new languages get their own. No migration of anything a
+founder has bought.
+
+**Decision gate after 30 days:** if D30 retention is healthy, go to languages;
+if not, fix the daily habit before adding anything.
+
 Two things now have to be true in the Console before the app can publish, and
 both are ready in the repo: the privacy policy URL, and the **account deletion
 URL**. Both are listed in `docs/DATA-SAFETY.md` with the fields they go in.
