@@ -1,0 +1,41 @@
+{
+  "total": 29.347,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "On this day in 1869, two men tried to corner America's gold.",
+      "start": 0.4,
+      "end": 5.563
+    },
+    {
+      "id": "s2",
+      "show": "Jay Gould and James Fisk formed the Gold Ring, to force up the price on the New York Gold Exchange.",
+      "start": 5.863,
+      "end": 12.476
+    },
+    {
+      "id": "s3",
+      "show": "Their inside man? The President's own brother-in-law.",
+      "start": 12.826,
+      "end": 16.282
+    },
+    {
+      "id": "s4",
+      "show": "But President Grant ordered the Treasury to sell gold, and the price plummeted.",
+      "start": 16.682,
+      "end": 21.333
+    },
+    {
+      "id": "s5",
+      "show": "They called it Black Friday.",
+      "start": 21.683,
+      "end": 23.475
+    },
+    {
+      "id": "s6",
+      "show": "Every day has a story like this. History Unlocked — link in bio.",
+      "start": 24.075,
+      "end": 28.747
+    }
+  ]
+}

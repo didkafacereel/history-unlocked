@@ -1,0 +1,48 @@
+{
+  "dateKey": "09-24",
+  "eventId": "evt-09-24-1869-jay-gould",
+  "voice": "bm_george",
+  "speed": 1.0,
+  "sources": [
+    "Wikimedia 'On this day' feed, 24 September: Black Friday (1869)",
+    "Wikipedia: Black Friday (1869), James Fisk (financier), Ulysses S. Grant"
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "On this day in eighteen sixty-nine, two men tried to corner America's gold.",
+      "show": "On this day in 1869, two men tried to corner America's gold.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s2",
+      "say": "Jay Gould and James Fisk formed the Gold Ring, to force up the price on the New York Gold Exchange.",
+      "show": "Jay Gould and James Fisk formed the Gold Ring, to force up the price on the New York Gold Exchange.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s3",
+      "say": "Their inside man? The President's own brother-in-law.",
+      "show": "Their inside man? The President's own brother-in-law.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "But President Grant ordered the Treasury to sell gold, and the price plummeted.",
+      "show": "But President Grant ordered the Treasury to sell gold, and the price plummeted.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s5",
+      "say": "They called it Black Friday.",
+      "show": "They called it Black Friday.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s6",
+      "say": "Every day has a story like this. History Unlocked. Link in bio.",
+      "show": "Every day has a story like this. History Unlocked — link in bio.",
+      "pauseAfter": 0.6
+    }
+  ]
+}
