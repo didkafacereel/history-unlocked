@@ -482,9 +482,9 @@
     </style>
   </head>
   <body>
-    <div id="root" data-composition-id="main" data-start="0" data-duration="56.12" data-width="1080" data-height="1920">
+    <div id="root" data-composition-id="main" data-start="0" data-duration="{{total}}" data-width="1080" data-height="1920">
       <!-- 1 ── ON THIS DAY, 1869 ─────────────────────────────────────── -->
-      <div id="scene1" class="scene clip" data-start="0" data-duration="6.715" data-track-index="1" style="z-index: 1">
+      <div id="scene1" class="scene clip" data-start="{{scene1.start}}" data-duration="{{scene1.duration}}" data-track-index="1" style="z-index: 1">
         <div class="layer solid"></div>
         <div id="s1-kb" class="layer" data-layout-allow-overflow>
           <img class="cover" src="assets/black-friday.jpg" alt="" style="object-position: 30% 45%" />
@@ -501,7 +501,7 @@
       </div>
 
       <!-- 2 ── THE GOLD RING ─────────────────────────────────────────── -->
-      <div id="scene2" class="scene clip" data-start="6.415" data-duration="9.824" data-track-index="2" style="z-index: 2">
+      <div id="scene2" class="scene clip" data-start="{{scene2.start}}" data-duration="{{scene2.duration}}" data-track-index="2" style="z-index: 2">
         <div id="s2-fade" class="layer">
           <div class="layer solid"></div>
           <div class="layer glow"></div>
@@ -530,7 +530,7 @@
       </div>
 
       <!-- 3 ── THE PROBLEM: THE TREASURY SELLS ───────────────────────── -->
-      <div id="scene3" class="scene clip" data-start="15.939" data-duration="5.666" data-track-index="3" style="z-index: 3">
+      <div id="scene3" class="scene clip" data-start="{{scene3.start}}" data-duration="{{scene3.duration}}" data-track-index="3" style="z-index: 3">
         <div id="s3-fade" class="layer">
           <div class="layer solid"></div>
           <div class="layer glow"></div>
@@ -544,7 +544,7 @@
       </div>
 
       <!-- 4 ── THE INSIDE MAN (hard cut) ─────────────────────────────── -->
-      <div id="scene4" class="scene clip" data-start="21.605" data-duration="6.916" data-track-index="4" style="z-index: 4">
+      <div id="scene4" class="scene clip" data-start="{{scene4.start}}" data-duration="{{scene4.duration}}" data-track-index="4" style="z-index: 4">
         <div class="layer solid"></div>
         <div id="s4-ghost" data-layout-ignore>INSIDE MAN</div>
         <div class="content">
@@ -557,7 +557,7 @@
       </div>
 
       <!-- 5 ── GRANT ORDERS THE SALE ─────────────────────────────────── -->
-      <div id="scene5" class="scene clip" data-start="28.221" data-duration="6.403" data-track-index="5" style="z-index: 5">
+      <div id="scene5" class="scene clip" data-start="{{scene5.start}}" data-duration="{{scene5.duration}}" data-track-index="5" style="z-index: 5">
         <div id="s5-fade" class="layer">
           <div class="layer solid"></div>
           <div id="s5-kb" class="layer" data-layout-allow-overflow>
@@ -573,7 +573,7 @@
       </div>
 
       <!-- 6 ── THE CRASH, FROM THE BOARD ITSELF ──────────────────────── -->
-      <div id="scene6" class="scene clip" data-start="34.324" data-duration="5.524" data-track-index="6" style="z-index: 6">
+      <div id="scene6" class="scene clip" data-start="{{scene6.start}}" data-duration="{{scene6.duration}}" data-track-index="6" style="z-index: 6">
         <div id="s6-fade" class="layer">
           <div class="layer solid"></div>
           <div id="s6-kb" data-layout-allow-overflow>
@@ -596,7 +596,7 @@
       </div>
 
       <!-- 7 ── BLACK FRIDAY (hard cut) ───────────────────────────────── -->
-      <div id="scene7" class="scene clip" data-start="39.848" data-duration="2.761" data-track-index="7" style="z-index: 7">
+      <div id="scene7" class="scene clip" data-start="{{scene7.start}}" data-duration="{{scene7.duration}}" data-track-index="7" style="z-index: 7">
         <div class="layer solid"></div>
         <div class="layer glow"></div>
         <div id="s7-header">
@@ -606,7 +606,7 @@
       </div>
 
       <!-- 8 ── EPILOGUE: FISK ────────────────────────────────────────── -->
-      <div id="scene8" class="scene clip" data-start="42.309" data-duration="7.089" data-track-index="8" style="z-index: 8">
+      <div id="scene8" class="scene clip" data-start="{{scene8.start}}" data-duration="{{scene8.duration}}" data-track-index="8" style="z-index: 8">
         <div id="s8-fade" class="layer">
           <div class="layer solid"></div>
           <div id="s8-content" class="content">
@@ -621,7 +621,7 @@
       </div>
 
       <!-- 9 ── END CARD ──────────────────────────────────────────────── -->
-      <div id="scene9" class="scene clip" data-start="49.098" data-duration="7.022" data-track-index="9" style="z-index: 9">
+      <div id="scene9" class="scene clip" data-start="{{scene9.start}}" data-duration="{{scene9.duration}}" data-track-index="9" style="z-index: 9">
         <div id="s9-fade" class="layer">
           <div class="layer solid"></div>
           <div id="s9-bg" class="layer" style="opacity: 0.14">
@@ -642,9 +642,9 @@
       </div>
 
       <!-- captions, built from TIMINGS below -->
-      <div id="captions" class="clip" data-start="0" data-duration="49.098" data-track-index="10"></div>
+      <div id="captions" class="clip" data-start="0" data-duration="{{captions.duration}}" data-track-index="10"></div>
 
-      <audio id="narration" data-start="0" data-duration="55.72" data-track-index="0" src="narration.wav" data-volume="1"></audio>
+      <audio id="narration" data-start="0" data-duration="{{narration}}" data-track-index="0" src="narration.wav" data-volume="1"></audio>
     </div>
 
     <script>
@@ -655,7 +655,7 @@
        *   T.captions     the phrases that get captions
        * Every cue below is written against one of these — no hand-typed seconds.
        */
-      var T = {"total":56.12,"narration":55.72,"seg":{"s1":{"id":"s1","show":"On this day in 1869, two men tried to corner America's gold.","start":0.4,"end":5.925},"s2":{"id":"s2","show":"Jay Gould and his partner, James Fisk, had a plan. Buy up the gold, and force the price up on the New York Gold Exchange.","start":6.475,"end":15.499},"s3":{"id":"s3","show":"There was one problem. Every two weeks, the Treasury sold gold of its own.","start":15.999,"end":21.055},"s4a":{"id":"s4a","show":"So they found a way in.","start":21.605,"end":23.312},"s4b":{"id":"s4b","show":"Their inside man?","start":23.662,"end":25.134},"s4c":{"id":"s4c","show":"The President's own brother-in-law.","start":25.584,"end":27.781},"s5a":{"id":"s5a","show":"But on Friday, 24 September, President Grant ordered the Treasury to sell.","start":28.281,"end":34.084},"s5b":{"id":"s5b","show":"And the price collapsed. From 162½, to 133.","start":34.384,"end":39.248},"s6":{"id":"s6","show":"They called it Black Friday.","start":39.848,"end":41.619},"s7a":{"id":"s7a","show":"And James Fisk?","start":42.369,"end":43.862},"s7b":{"id":"s7b","show":"Less than three years later, he was assassinated in New York.","start":44.262,"end":48.358},"s8a":{"id":"s8a","show":"Every day has a story like this.","start":49.158,"end":51.526},"s8b":{"id":"s8b","show":"History Unlocked.","start":51.876,"end":53.455},"s8c":{"id":"s8c","show":"Link in bio.","start":53.755,"end":55.12}},"scene":{"scene1":{"start":0,"end":6.715,"duration":6.715},"scene2":{"start":6.415,"end":16.239,"duration":9.824},"scene3":{"start":15.939,"end":21.605,"duration":5.666},"scene4":{"start":21.605,"end":28.521,"duration":6.916},"scene5":{"start":28.221,"end":34.624,"duration":6.403},"scene6":{"start":34.324,"end":39.848,"duration":5.524},"scene7":{"start":39.848,"end":42.609,"duration":2.761},"scene8":{"start":42.309,"end":49.398,"duration":7.089},"scene9":{"start":49.098,"end":56.12,"duration":7.022}},"captions":[{"show":"On this day in 1869, two men tried to corner America's gold.","start":0.4,"end":5.925},{"show":"Jay Gould and his partner, James Fisk, had a plan. Buy up the gold, and force the price up on the New York Gold Exchange.","start":6.475,"end":15.499},{"show":"There was one problem. Every two weeks, the Treasury sold gold of its own.","start":15.999,"end":21.055},{"show":"So they found a way in.","start":21.605,"end":23.312},{"show":"Their inside man?","start":23.662,"end":25.134},{"show":"The President's own brother-in-law.","start":25.584,"end":27.781},{"show":"But on Friday, 24 September, President Grant ordered the Treasury to sell.","start":28.281,"end":34.084},{"show":"And the price collapsed. From 162½, to 133.","start":34.384,"end":39.248},{"show":"They called it Black Friday.","start":39.848,"end":41.619},{"show":"And James Fisk?","start":42.369,"end":43.862},{"show":"Less than three years later, he was assassinated in New York.","start":44.262,"end":48.358}]};
+      var T = /*TIMINGS*/ null;
       var G = T.seg;
       var S = T.scene;
 

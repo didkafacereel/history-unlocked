@@ -1,47 +1,111 @@
 {
   "dateKey": "09-24",
   "eventId": "evt-09-24-1869-jay-gould",
-  "voice": "bm_george",
-  "speed": 1.0,
+  "voice": "am_michael",
+  "speed": 0.9,
   "sources": [
     "Wikimedia 'On this day' feed, 24 September: Black Friday (1869)",
-    "Wikipedia: Black Friday (1869), James Fisk (financier), Ulysses S. Grant"
+    "Wikipedia: Black Friday (1869) — the Gold Ring, Abel Corbin, the Treasury's biweekly gold sales",
+    "Wikipedia: James Fisk (financier) — befriended Grant; assassinated in New York, 7 January 1872",
+    "Wikipedia: Jay Gould — railroad magnate",
+    "Library of Congress: photograph of the Gold Room bulletin board, 24 September 1869 — 162½ to 133"
   ],
+  "scenes": [
+    { "id": "scene1", "from": null },
+    { "id": "scene2", "from": "s2", "enter": "fade" },
+    { "id": "scene3", "from": "s3", "enter": "fade" },
+    { "id": "scene4", "from": "s4a", "enter": "cut" },
+    { "id": "scene5", "from": "s5a", "enter": "fade" },
+    { "id": "scene6", "from": "s5b", "enter": "fade" },
+    { "id": "scene7", "from": "s6", "enter": "cut" },
+    { "id": "scene8", "from": "s7a", "enter": "fade" },
+    { "id": "scene9", "from": "s8a", "enter": "fade" }
+  ],
+  "captionsUntil": "s8a",
+  "tail": 1.0,
   "sentences": [
     {
       "id": "s1",
       "say": "On this day in eighteen sixty-nine, two men tried to corner America's gold.",
       "show": "On this day in 1869, two men tried to corner America's gold.",
-      "pauseAfter": 0.3
+      "pauseAfter": 0.55
     },
     {
       "id": "s2",
-      "say": "Jay Gould and James Fisk formed the Gold Ring, to force up the price on the New York Gold Exchange.",
-      "show": "Jay Gould and James Fisk formed the Gold Ring, to force up the price on the New York Gold Exchange.",
-      "pauseAfter": 0.35
+      "say": "Jay Gould and his partner, James Fisk, had a plan. Buy up the gold, and force the price up on the New York Gold Exchange.",
+      "show": "Jay Gould and his partner, James Fisk, had a plan. Buy up the gold, and force the price up on the New York Gold Exchange.",
+      "pauseAfter": 0.5
     },
     {
       "id": "s3",
-      "say": "Their inside man? The President's own brother-in-law.",
-      "show": "Their inside man? The President's own brother-in-law.",
-      "pauseAfter": 0.4
+      "say": "There was one problem. Every two weeks, the Treasury sold gold of its own.",
+      "show": "There was one problem. Every two weeks, the Treasury sold gold of its own.",
+      "pauseAfter": 0.55
     },
     {
-      "id": "s4",
-      "say": "But President Grant ordered the Treasury to sell gold, and the price plummeted.",
-      "show": "But President Grant ordered the Treasury to sell gold, and the price plummeted.",
+      "id": "s4a",
+      "say": "So they found a way in.",
+      "show": "So they found a way in.",
       "pauseAfter": 0.35
     },
     {
-      "id": "s5",
-      "say": "They called it Black Friday.",
-      "show": "They called it Black Friday.",
+      "id": "s4b",
+      "say": "Their inside man?",
+      "show": "Their inside man?",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s4c",
+      "say": "The President's own brother-in-law.",
+      "show": "The President's own brother-in-law.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s5a",
+      "say": "But on Friday, the twenty-fourth of September, President Grant ordered the Treasury to sell.",
+      "show": "But on Friday, 24 September, President Grant ordered the Treasury to sell.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s5b",
+      "say": "And the price collapsed. From one sixty-two and a half, to one thirty-three.",
+      "show": "And the price collapsed. From 162½, to 133.",
       "pauseAfter": 0.6
     },
     {
       "id": "s6",
-      "say": "Every day has a story like this. History Unlocked. Link in bio.",
-      "show": "Every day has a story like this. History Unlocked — link in bio.",
+      "say": "They called it Black Friday.",
+      "show": "They called it Black Friday.",
+      "pauseAfter": 0.75
+    },
+    {
+      "id": "s7a",
+      "say": "And James Fisk?",
+      "show": "And James Fisk?",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s7b",
+      "say": "Less than three years later, he was assassinated in New York.",
+      "show": "Less than three years later, he was assassinated in New York.",
+      "pauseAfter": 0.8
+    },
+    {
+      "id": "s8a",
+      "say": "Every day has a story like this.",
+      "show": "Every day has a story like this.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s8b",
+      "say": "History Unlocked.",
+      "show": "History Unlocked.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s8c",
+      "say": "Link in bio.",
+      "show": "Link in bio.",
       "pauseAfter": 0.6
     }
   ]

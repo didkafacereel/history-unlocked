@@ -1,41 +1,89 @@
 {
-  "total": 29.347,
+  "total": 55.72,
   "sentences": [
     {
       "id": "s1",
       "show": "On this day in 1869, two men tried to corner America's gold.",
       "start": 0.4,
-      "end": 5.563
+      "end": 5.925
     },
     {
       "id": "s2",
-      "show": "Jay Gould and James Fisk formed the Gold Ring, to force up the price on the New York Gold Exchange.",
-      "start": 5.863,
-      "end": 12.476
+      "show": "Jay Gould and his partner, James Fisk, had a plan. Buy up the gold, and force the price up on the New York Gold Exchange.",
+      "start": 6.475,
+      "end": 15.499
     },
     {
       "id": "s3",
-      "show": "Their inside man? The President's own brother-in-law.",
-      "start": 12.826,
-      "end": 16.282
+      "show": "There was one problem. Every two weeks, the Treasury sold gold of its own.",
+      "start": 15.999,
+      "end": 21.055
     },
     {
-      "id": "s4",
-      "show": "But President Grant ordered the Treasury to sell gold, and the price plummeted.",
-      "start": 16.682,
-      "end": 21.333
+      "id": "s4a",
+      "show": "So they found a way in.",
+      "start": 21.605,
+      "end": 23.312
     },
     {
-      "id": "s5",
-      "show": "They called it Black Friday.",
-      "start": 21.683,
-      "end": 23.475
+      "id": "s4b",
+      "show": "Their inside man?",
+      "start": 23.662,
+      "end": 25.134
+    },
+    {
+      "id": "s4c",
+      "show": "The President's own brother-in-law.",
+      "start": 25.584,
+      "end": 27.781
+    },
+    {
+      "id": "s5a",
+      "show": "But on Friday, 24 September, President Grant ordered the Treasury to sell.",
+      "start": 28.281,
+      "end": 34.084
+    },
+    {
+      "id": "s5b",
+      "show": "And the price collapsed. From 162½, to 133.",
+      "start": 34.384,
+      "end": 39.248
     },
     {
       "id": "s6",
-      "show": "Every day has a story like this. History Unlocked — link in bio.",
-      "start": 24.075,
-      "end": 28.747
+      "show": "They called it Black Friday.",
+      "start": 39.848,
+      "end": 41.619
+    },
+    {
+      "id": "s7a",
+      "show": "And James Fisk?",
+      "start": 42.369,
+      "end": 43.862
+    },
+    {
+      "id": "s7b",
+      "show": "Less than three years later, he was assassinated in New York.",
+      "start": 44.262,
+      "end": 48.358
+    },
+    {
+      "id": "s8a",
+      "show": "Every day has a story like this.",
+      "start": 49.158,
+      "end": 51.526
+    },
+    {
+      "id": "s8b",
+      "show": "History Unlocked.",
+      "start": 51.876,
+      "end": 53.455
+    },
+    {
+      "id": "s8c",
+      "show": "Link in bio.",
+      "start": 53.755,
+      "end": 55.12
     }
   ]
 }
