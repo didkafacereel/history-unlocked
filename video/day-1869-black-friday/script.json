@@ -21,6 +21,12 @@
     { "id": "scene8", "from": "s7a", "enter": "fade" },
     { "id": "scene9", "from": "s8a", "enter": "fade" }
   ],
+  "music": {
+    "file": "../music/satie-gnossienne-1.ogg",
+    "start": 0,
+    "levelLufs": -31,
+    "credit": "Erik Satie, Gnossienne No. 1 — public domain recording, Wikimedia Commons"
+  },
   "captionsUntil": "s8a",
   "tail": 1.0,
   "sentences": [

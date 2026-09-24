@@ -6,6 +6,11 @@
 */snapshots/
 */audio/
 */narration.wav
+*/mix.wav
+music/*.ogg
+music/*.flac
+music/*.wav
+music/*.mp3
 */assets/*.jpg
 */assets/*.jpeg
 */assets/*.png
