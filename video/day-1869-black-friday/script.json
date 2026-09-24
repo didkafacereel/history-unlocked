@@ -27,6 +27,11 @@
     "levelLufs": -31,
     "credit": "Erik Satie, Gnossienne No. 1 — public domain recording, Wikimedia Commons"
   },
+  "endCard": {
+    "stage": "pre-launch",
+    "pill": "FOLLOW FOR MORE",
+    "note": "The app is coming soon to Google Play"
+  },
   "captionsUntil": "s8a",
   "tail": 1.0,
   "sentences": [
@@ -110,8 +115,8 @@
     },
     {
       "id": "s8c",
-      "say": "Link in bio.",
-      "show": "Link in bio.",
+      "say": "Follow for a new story, every day.",
+      "show": "Follow for a new story, every day.",
       "pauseAfter": 0.6
     }
   ]

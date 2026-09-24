@@ -73,6 +73,19 @@ for (const [id, s] of Object.entries(scene)) {
   values[`${id}.start`] = s.start;
   values[`${id}.duration`] = s.duration;
 }
+
+/*
+ * The end card's call to action changes with the app's stage — follow now,
+ * early access during the closed test, the store link at launch — so it lives
+ * in script.json rather than in the template, and switching stages is one line.
+ * Escaped: it is text going into HTML.
+ */
+const escapeHtml = (s) =>
+  String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+if (script.endCard) {
+  values['endCard.pill'] = escapeHtml(script.endCard.pill ?? '');
+  values['endCard.note'] = escapeHtml(script.endCard.note ?? '');
+}
 html = html.replace(/\{\{\s*([\w.]+)\s*\}\}/g, (match, key) => {
   if (!(key in values)) throw new Error(`template asks for unknown value {{${key}}}`);
   return String(values[key]);

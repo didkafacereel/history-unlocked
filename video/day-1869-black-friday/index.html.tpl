@@ -438,6 +438,10 @@
         padding: 20px 60px;
         margin-top: 10px;
       }
+      #s9-note {
+        font-size: 38px;
+        color: var(--text-2);
+      }
       #s9-credit {
         position: absolute;
         left: 90px;
@@ -633,7 +637,8 @@
             <div id="s9-story" class="serif">Every day has a story like this.</div>
             <div id="s9-name">HISTORY UNLOCKED</div>
             <div id="s9-tag" class="italic">Today, but every year at once</div>
-            <div id="s9-cta">LINK IN BIO</div>
+            <div id="s9-cta">{{endCard.pill}}</div>
+            <div id="s9-note" class="italic">{{endCard.note}}</div>
           </div>
           <div id="s9-credit">
             Images: Library of Congress &amp; Wikimedia Commons · public domain. Music: Satie, Gnossienne No. 1 ·
@@ -859,6 +864,7 @@
       tl.fromTo("#s9-tag", { opacity: 0 }, { opacity: 1, duration: 0.6, ease: "sine.out" }, G.s8b.start + 0.5);
       tl.fromTo("#s9-cta", { opacity: 0, scale: 0.8 }, { opacity: 1, scale: 1, duration: 0.5, ease: "back.out(2)" }, G.s8c.start);
       tl.fromTo("#s9-cta", { scale: 1 }, { scale: 1.06, duration: 0.45, ease: "sine.inOut", yoyo: true, repeat: 1, immediateRender: false }, G.s8c.start + 0.55);
+      tl.fromTo("#s9-note", { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.5, ease: "sine.out" }, G.s8c.start + 0.4);
       tl.fromTo("#s9-credit", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "sine.out" }, G.s8b.start + 0.2);
       // Final scene only: fade to black.
       tl.fromTo("#s9-content", { opacity: 1 }, { opacity: 0, duration: 0.4, ease: "power2.in" }, T.total - 0.45);

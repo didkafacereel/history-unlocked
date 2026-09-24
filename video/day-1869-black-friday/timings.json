@@ -1,5 +1,5 @@
 {
-  "total": 55.72,
+  "total": 56.808,
   "sentences": [
     {
       "id": "s1",
@@ -81,9 +81,9 @@
     },
     {
       "id": "s8c",
-      "show": "Link in bio.",
+      "show": "Follow for a new story, every day.",
       "start": 53.755,
-      "end": 55.12
+      "end": 56.208
     }
   ]
 }
