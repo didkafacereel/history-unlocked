@@ -257,6 +257,39 @@ founder has bought.
 **Decision gate after 30 days:** if D30 retention is healthy, go to languages;
 if not, fix the daily habit before adding anything.
 
+### Firebase is live — 24 September
+
+Deployed to `history-unlocked-fa9a9`, europe-west1:
+
+- functions `api` and `revenuecat` at
+  `https://europe-west1-history-unlocked-fa9a9.cloudfunctions.net/{api,revenuecat}`;
+  smoke-tested live (anonymous calendar 200, unsigned calls 401, webhook with
+  no or wrong secret 401)
+- `REVENUECAT_WEBHOOK_SECRET` in Secret Manager — generated on this machine,
+  never printed or written anywhere else. Read it back only in your own
+  terminal when pasting into RevenueCat: `npm run secret:webhook:show` in
+  `firebase/functions`
+- Firestore rules: **no client access to anything but your own entitlement**.
+  keepers/registry/counters were public-read and every keeper document
+  carries the founder's uid; the app never reads Firestore directly, so they
+  were closed before the first deploy. Direct read verified 403
+- Hosting: a minimal site whose only job is `/.well-known/assetlinks.json`,
+  so the email sign-in link opens the app. Hosting had never been deployed,
+  so the file did not exist and the link would have opened a browser tab.
+  Confirmed by Google's own Digital Asset Links verifier
+- artifact cleanup policy, 3 days, so old images do not accrue a bill
+- EAS: all six `EXPO_PUBLIC_FIREBASE_*` / `GOOGLE_WEB_CLIENT_ID` /
+  `FOUNDERS_API` in production, preview and development. Local development
+  reads the same from `.env.local` (not committed)
+
+**⚠ When the app is first uploaded to Play:** Play re-signs it with its own key.
+That key's SHA-256 must go in TWO places, or sign-in works from a sideloaded
+build and fails for every store install:
+1. Firebase → Project settings → the Android app → Add fingerprint (SHA-1 and
+   SHA-256 of the **app signing** key, from Play Console → App integrity)
+2. `firebase/hosting/.well-known/assetlinks.json` → add it to
+   `sha256_cert_fingerprints`, then `firebase deploy --only hosting`
+
 Two things now have to be true in the Console before the app can publish, and
 both are ready in the repo: the privacy policy URL, and the **account deletion
 URL**. Both are listed in `docs/DATA-SAFETY.md` with the fields they go in.

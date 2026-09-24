@@ -28,32 +28,28 @@ service cloud.firestore {
       allow write: if false;
     }
 
-    // One document per kept date, id = "MM-DD". The id IS the uniqueness
-    // guarantee — two people cannot create the same document — which is why
-    // this is a collection keyed by date rather than a list of claims.
+    // keepers/{MM-DD}, registry/dates, counters/seats — NO client access at all.
     //
-    // Public read. The register is open to everyone, and the keeper of a given
-    // day is already named on that day's card in the app. What is withheld from
-    // a non-founder is the whole roll at once, and that is enforced by the
-    // function that serves it, not here: a rule cannot blank a field.
+    // These were public-read, on the reasoning that the register is open to
+    // everyone. The register IS open to everyone — through the function that
+    // serves it, which decides what an anonymous caller sees. A public rule let
+    // anyone holding the (public) Firebase config read around that function,
+    // and every keeper document carries the founder's `uid`: the whole list of
+    // founders' account ids, which are also their RevenueCat app-user ids,
+    // for the asking.
+    //
+    // The app never reads Firestore directly — it imports only firebase/auth,
+    // and every read goes through a Cloud Function using the Admin SDK, which
+    // rules do not apply to. So closing these costs nothing and removes the
+    // exposure. Changed 24 September 2026, before the first deploy.
     match /keepers/{dateKey} {
-      allow read: if true;
-      allow write: if false;
+      allow read, write: if false;
     }
-
-    // The single aggregate the calendar reads, so one screen costs one read
-    // instead of 366. Same reasoning as above for the public read.
     match /registry/{doc} {
-      allow read: if true;
-      allow write: if false;
+      allow read, write: if false;
     }
-
-    // How many seats are gone. Public because the paywall states it as a fact
-    // and a reader is entitled to check it — the scarcity is only worth
-    // anything if it is verifiable.
     match /counters/{doc} {
-      allow read: if true;
-      allow write: if false;
+      allow read, write: if false;
     }
 
     // Anything not named above does not exist. Without this a future

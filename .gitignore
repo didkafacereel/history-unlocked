@@ -87,3 +87,6 @@ firebase/.firebaserc
 # the day someone puts a real webhook secret in it, this line is what stops it.
 firebase/functions/.secret.local
 
+
+# Firebase CLI's local deploy cache
+firebase/.firebase/
