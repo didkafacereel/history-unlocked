@@ -235,6 +235,20 @@ reach first, then market size, then revenue per reader, then retention.
 | 2.0 | **Schools** | Class mode, teacher dashboard, per-school licence. Slow to sell, sticky, higher revenue per seat. |
 | 2.x | AI historian over the archive; "what happened here" from event coordinates | Differentiators, once the base is growing. Watch cost per reader. |
 
+**Income, agreed 24 September — all of it, no ads.** The user is building this
+for passive income and chose every option offered except advertising, which
+they had never considered:
+
+| Stream | Kind | Notes |
+| --- | --- | --- |
+| 7-day store trial on annual + per-country prices | configuration only | Done when the products are created in Play Console. RevenueCat Experiments can test prices. |
+| **First 5,000 readers: a free week of Pro, no card** | launch hook | The user's own idea, 24 Sep. Server-side counter (same transaction pattern as seats), RevenueCat promotional entitlement granted by the backend, live "N of 5,000 left" line, a day-6 reminder. Needs RevenueCat to exist. **Guard the webhook against promotional events before it ships** — a promo arriving as NON_RENEWING_PURCHASE without a product id would currently read as Lifetime. |
+| "Your birthday in history" | one-off purchase, gift | Generated from the archive; later print-on-demand posters. Not a founder seat — no scarcity consumed. |
+| **Short video** | distribution + platform revenue | **FIRST, by the user's choice**: they already run a history TikTok channel. Public-domain images only in video (CC BY-SA share-alike risk). |
+| Daily newsletter | distribution + sponsorship | Sent from the archive; ad networks sell the space. |
+| Languages | multiplier | Each language: a new market, a new 366-seat register, new video and newsletter. |
+| Teacher packs | passive digital sales | Built from the 6,017 authored scenarios — the only content that is wholly ours; the rest is Wikipedia and copyable. |
+
 **Nothing being launched now blocks any of this.** The register is keyed by
 `MM-DD` alone; when languages arrive, today's collections simply become the
 English register and new languages get their own. No migration of anything a
