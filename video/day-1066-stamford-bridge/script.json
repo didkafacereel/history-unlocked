@@ -1,0 +1,140 @@
+{
+  "dateKey": "09-25",
+  "eventId": "evt-09-25-1066-battle-of-stamford-bridge",
+  "voice": "am_michael",
+  "speed": 0.9,
+  "sources": [
+    "Wikimedia 'On this day' feed, 25 September: Battle of Stamford Bridge",
+    "Wikipedia: Battle of Stamford Bridge — 25 September 1066; traditionally the end of the Viking Age; 300 ships (Anglo-Saxon Chronicle) / over 200 (Snorri); Tostig, Harold's brother, with the invaders; London to Yorkshire, about 185 miles, in four days, taking the Norwegians completely by surprise; a lone Norwegian with an axe held the bridge, cut down more than 40 Englishmen, and was killed by a soldier who floated under the bridge and speared him through the planks; Hardrada and Tostig both killed",
+    "Wikipedia: Harald Hardrada — King of Norway; 'Thunderbolt of the North' (Adam of Bremen)",
+    "Wikipedia: Harold Godwinson — died at the Battle of Hastings, 14 October 1066; succeeded by William the Conqueror"
+  ],
+  "scenes": [
+    {
+      "id": "scene1",
+      "from": null
+    },
+    {
+      "id": "scene2",
+      "from": "s2",
+      "enter": "fade"
+    },
+    {
+      "id": "scene3",
+      "from": "s3",
+      "enter": "cut"
+    },
+    {
+      "id": "scene4",
+      "from": "s4a",
+      "enter": "fade"
+    },
+    {
+      "id": "scene5",
+      "from": "s5a",
+      "enter": "cut"
+    },
+    {
+      "id": "scene6",
+      "from": "s6",
+      "enter": "fade"
+    },
+    {
+      "id": "scene7",
+      "from": "s7a",
+      "enter": "fade"
+    },
+    {
+      "id": "scene8",
+      "from": "s8a",
+      "enter": "fade"
+    }
+  ],
+  "music": {
+    "file": "../music/chopin-nocturne-c-minor.ogg",
+    "start": 0,
+    "levelLufs": -31,
+    "credit": "Chopin, Nocturne in C minor — public domain recording (Diana Hughes), Wikimedia Commons"
+  },
+  "endCard": {
+    "stage": "pre-launch",
+    "pill": "SUBSCRIBE",
+    "note": "and find out when the app comes out"
+  },
+  "captionsUntil": "s8a",
+  "tail": 0.9,
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "On this day in ten sixty-six, the Viking Age ended at a bridge in Yorkshire. Or so they say.",
+      "show": "On this day in 1066, the Viking Age ended at a bridge in Yorkshire. Or so they say.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "Harald Hardrada, King of Norway, had invaded England with hundreds of ships.",
+      "show": "Harald Hardrada, King of Norway, had invaded England with hundreds of ships.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s3",
+      "say": "Fighting at his side was the English king's own brother, Tostig.",
+      "show": "Fighting at his side was the English king's own brother, Tostig.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s4a",
+      "say": "But King Harold marched a hundred and eighty-five miles, in just four days.",
+      "show": "But King Harold marched 185 miles, in just four days.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s4b",
+      "say": "The Vikings never saw him coming.",
+      "show": "The Vikings never saw him coming.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s5a",
+      "say": "At the bridge, one Viking with an axe held back the whole English army.",
+      "show": "At the bridge, one Viking with an axe held back the whole English army.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s5b",
+      "say": "He cut down more than forty men, until a soldier floated under the bridge, and speared him through the planks.",
+      "show": "He cut down more than forty men, until a soldier floated under the bridge, and speared him through the planks.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s6",
+      "say": "By the end, Hardrada and Tostig were both dead.",
+      "show": "By the end, Hardrada and Tostig were both dead.",
+      "pauseAfter": 0.65
+    },
+    {
+      "id": "s7a",
+      "say": "And Harold?",
+      "show": "And Harold?",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s7b",
+      "say": "Nineteen days later, he died at Hastings, and William the Conqueror took the crown.",
+      "show": "Nineteen days later, he died at Hastings, and William the Conqueror took the crown.",
+      "pauseAfter": 0.7
+    },
+    {
+      "id": "s8a",
+      "say": "Every day has a story like this.",
+      "show": "Every day has a story like this.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s8b",
+      "say": "Subscribe, to find out when our app comes out.",
+      "show": "Subscribe, to find out when our app comes out.",
+      "pauseAfter": 0.5
+    }
+  ]
+}

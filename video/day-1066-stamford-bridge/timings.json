@@ -1,0 +1,77 @@
+{
+  "total": 58.829,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "On this day in 1066, the Viking Age ended at a bridge in Yorkshire. Or so they say.",
+      "start": 0.4,
+      "end": 7.44
+    },
+    {
+      "id": "s2",
+      "show": "Harald Hardrada, King of Norway, had invaded England with hundreds of ships.",
+      "start": 7.89,
+      "end": 13.479
+    },
+    {
+      "id": "s3",
+      "show": "Fighting at his side was the English king's own brother, Tostig.",
+      "start": 13.979,
+      "end": 18.31
+    },
+    {
+      "id": "s4a",
+      "show": "But King Harold marched 185 miles, in just four days.",
+      "start": 18.76,
+      "end": 23.965
+    },
+    {
+      "id": "s4b",
+      "show": "The Vikings never saw him coming.",
+      "start": 24.315,
+      "end": 26.641
+    },
+    {
+      "id": "s5a",
+      "show": "At the bridge, one Viking with an axe held back the whole English army.",
+      "start": 27.091,
+      "end": 32.168
+    },
+    {
+      "id": "s5b",
+      "show": "He cut down more than forty men, until a soldier floated under the bridge, and speared him through the planks.",
+      "start": 32.518,
+      "end": 39.75
+    },
+    {
+      "id": "s6",
+      "show": "By the end, Hardrada and Tostig were both dead.",
+      "start": 40.25,
+      "end": 43.599
+    },
+    {
+      "id": "s7a",
+      "show": "And Harold?",
+      "start": 44.249,
+      "end": 45.465
+    },
+    {
+      "id": "s7b",
+      "show": "Nineteen days later, he died at Hastings, and William the Conqueror took the crown.",
+      "start": 45.865,
+      "end": 51.689
+    },
+    {
+      "id": "s8a",
+      "show": "Every day has a story like this.",
+      "start": 52.389,
+      "end": 54.757
+    },
+    {
+      "id": "s8b",
+      "show": "Subscribe, to find out when our app comes out.",
+      "start": 55.107,
+      "end": 58.329
+    }
+  ]
+}
