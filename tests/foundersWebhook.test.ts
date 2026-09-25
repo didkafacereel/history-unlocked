@@ -184,6 +184,33 @@ describe('transfer — the designed purchase path', () => {
   });
 });
 
+describe('promotional grants', () => {
+  it('never turns a free promotional entitlement into a founder seat', () => {
+    // Arrives as NON_RENEWING_PURCHASE with no product id — exactly the shape
+    // the one-time fallback would otherwise read as Lifetime.
+    expect(
+      decideWebhook({
+        type: 'NON_RENEWING_PURCHASE',
+        app_user_id: 'uid-p',
+        entitlement_ids: ['pro'],
+        store: 'PROMOTIONAL',
+      }),
+    ).toEqual({ action: 'ignore', reason: 'promotional' });
+  });
+
+  it('still grants a real Play Store lifetime purchase', () => {
+    expect(
+      decideWebhook({
+        type: 'NON_RENEWING_PURCHASE',
+        app_user_id: 'uid-q',
+        entitlement_ids: ['pro'],
+        product_id: LIFETIME,
+        store: 'PLAY_STORE',
+      }).action,
+    ).toBe('grant');
+  });
+});
+
 describe('everything else', () => {
   it('ignores an event that does not touch pro at all', () => {
     expect(

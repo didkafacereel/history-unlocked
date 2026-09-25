@@ -7,8 +7,11 @@ import Animated, { FadeIn } from 'react-native-reanimated';
 
 import { PressableScale } from '@/components/primitives/PressableScale';
 import { COLLECTIONS } from '@/config/collections';
+import { formatCount } from '@/lib/formatCount';
 import { getAuthService } from '@/services/auth';
+import { WELCOME_CAP, WELCOME_DAYS } from '@/services/welcome';
 import { useAuthStore } from '@/stores/useAuthStore';
+import { useWelcomeStore } from '@/stores/useWelcomeStore';
 import { useIsPro } from '@/stores/useEntitlementStore';
 import { useFeedStore } from '@/stores/useFeedStore';
 import { useOnboardingStore } from '@/stores/useOnboardingStore';
@@ -75,6 +78,7 @@ export const LaunchScreen = memo(function LaunchScreen({
 }: LaunchScreenProps) {
   const router = useRouter();
   const signIn = useAuthStore((s) => s.signIn);
+  const giftsLeft = useWelcomeStore((s) => s.remaining);
   const answerLaunch = useOnboardingStore((s) => s.answerLaunch);
   const dayEvents = useFeedStore((s) => s.dayEvents);
   const lockedCount = useFeedStore((s) => s.lockedCount);
@@ -208,7 +212,12 @@ export const LaunchScreen = memo(function LaunchScreen({
                   <ActivityIndicator color={palette.textSecondary} />
                 ) : (
                   <Text style={styles.accountLabel}>
-                    Sign in to keep your progress — not required
+                    {/* The gift is the reason to sign in, so it is the sentence
+                        that asks — with the real count, and only while there
+                        is one. Past the cap it goes back to the plain offer. */}
+                    {giftsLeft !== null && giftsLeft > 0
+                      ? `Sign in for ${WELCOME_DAYS} days of Pro, free — ${formatCount(giftsLeft)} of ${formatCount(WELCOME_CAP)} left`
+                      : 'Sign in to keep your progress — not required'}
                   </Text>
                 )}
               </PressableScale>

@@ -40,6 +40,8 @@ export interface RevenueCatEvent {
   transferred_from?: string[];
   /** TRANSFER only: the ids that gained it. */
   transferred_to?: string[];
+  /** PLAY_STORE, APP_STORE, … or PROMOTIONAL for an entitlement granted free. */
+  store?: string;
 }
 
 export type WebhookDecision =
@@ -77,6 +79,17 @@ export function decideWebhook(event: RevenueCatEvent): WebhookDecision {
   const uid = typeof event.app_user_id === 'string' ? event.app_user_id : '';
   if (!uid) {
     return { action: 'ignore', reason: 'no-user' };
+  }
+
+  /**
+   * A promotional entitlement is a gift, never a purchase — and it arrives as
+   * NON_RENEWING_PURCHASE, often with no product id, which the fallback below
+   * would read as Lifetime and answer with a founder seat and a day. The launch
+   * week is granted by our own server today, but anything granted by hand in
+   * the RevenueCat dashboard would come through here.
+   */
+  if (event.store === 'PROMOTIONAL') {
+    return { action: 'ignore', reason: 'promotional' };
   }
 
   if (!(event.entitlement_ids ?? []).includes(PRO_ENTITLEMENT)) {

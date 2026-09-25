@@ -5,7 +5,7 @@ import { onRequest, Request } from 'firebase-functions/v2/https';
 import { logger } from 'firebase-functions';
 import type { Response } from 'express';
 
-import { cleanDisplayName, isValidDateKey } from './constants';
+import { cleanDisplayName, isValidDateKey, WELCOME_CAP } from './constants';
 import {
   allocateSeat,
   claimDate,
@@ -18,6 +18,7 @@ import {
   transferAccount,
 } from './store';
 import { decideWebhook, type RevenueCatEvent } from './webhook';
+import { claimWelcome, deleteWelcome, readWelcome, readWelcomeGranted } from './welcome';
 
 initializeApp();
 
@@ -121,10 +122,34 @@ export const api = onRequest(
       return;
     }
 
+    // ── The launch gift: how many weeks are left, and whether this reader has one
+    //
+    // Open, because the launch screen shows "N of 5,000 left" to a reader who
+    // has not signed in yet — that line is the reason to sign in. `serverNow`
+    // lets the app measure its own clock against ours, so moving the phone's
+    // date forward does not end a week early or backward stretch it.
+    if (req.method === 'GET' && path === '/welcome') {
+      const [granted, viewer] = await Promise.all([readWelcomeGranted(), uidOf(req)]);
+      send(res, 200, {
+        cap: WELCOME_CAP,
+        remaining: Math.max(WELCOME_CAP - granted, 0),
+        mine: viewer ? await readWelcome(viewer) : null,
+        serverNow: Date.now(),
+      });
+      return;
+    }
+
     // ── Everything below needs a verified reader ────────────────────────────
     const uid = await uidOf(req);
     if (!uid) {
       send(res, 401, { error: 'unauthenticated' });
+      return;
+    }
+
+    if (req.method === 'POST' && path === '/welcome') {
+      const now = Date.now();
+      const result = await claimWelcome(uid, now);
+      send(res, 200, { ...result, serverNow: now });
       return;
     }
 
@@ -222,6 +247,7 @@ export const api = onRequest(
     if ((req.method === 'DELETE' || req.method === 'POST') && path === '/account') {
       try {
         await deleteAccountData(uid);
+        await deleteWelcome(uid);
         await getAuth().deleteUser(uid);
       } catch (error) {
         // Already gone is the outcome the caller asked for, not a failure —

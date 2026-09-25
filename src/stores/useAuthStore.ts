@@ -5,6 +5,7 @@ import { getFoundersService } from '@/services/founders';
 import { getPurchaseService } from '@/services/purchases';
 import { useFoundersStore } from '@/stores/useFoundersStore';
 import { useQuizHistoryStore } from '@/stores/useQuizHistoryStore';
+import { useWelcomeStore } from '@/stores/useWelcomeStore';
 
 /**
  * Who is signed in.
@@ -81,6 +82,19 @@ async function linkBilling(user: AuthUser | null): Promise<void> {
       // Best-effort, like the re-key above: the next launch asks again, and
       // failing a sign-in over a status lookup would be the worse outcome.
     });
+
+  // The launch gift belongs to the account. Signing in claims it — the server
+  // gives each account one week, ever, so this is safe on every sign-in — and
+  // signing out or deleting the account takes it off this phone.
+  const welcome = useWelcomeStore.getState();
+  if (user) {
+    await welcome.claim().catch(() => {
+      // Best-effort: launch retries through `refresh`, so a bad network at
+      // sign-in costs the reader nothing but a delay.
+    });
+  } else {
+    welcome.reset();
+  }
 }
 
 /**

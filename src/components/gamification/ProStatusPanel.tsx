@@ -3,6 +3,7 @@ import { memo } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 import { PressableScale } from '@/components/primitives/PressableScale';
+import { monthLabel } from '@/lib/dateKey';
 import { SegmentedText } from '@/components/primitives/SegmentedText';
 import { useEntitlementStore } from '@/stores/useEntitlementStore';
 import { useOnboardingStore } from '@/stores/useOnboardingStore';
@@ -13,17 +14,45 @@ import { palette, radius, spacing } from '@/theme/tokens';
  * for everyone else. Subscribes only to `isPro`. The __DEV__ toggle lets us
  * exercise both states without a billing account.
  */
+function giftEnd(endsAt: number): string {
+  const d = new Date(endsAt);
+  return `${d.getDate()} ${monthLabel(d.getMonth() + 1)}`;
+}
+
 export const ProStatusPanel = memo(function ProStatusPanel() {
   const router = useRouter();
   const isPro = useEntitlementStore((s) => s.isPro);
+  const purchased = useEntitlementStore((s) => s.purchased);
+  const trialEndsAt = useEntitlementStore((s) => s.trialEndsAt);
   const restore = useEntitlementStore((s) => s.restore);
   const devTogglePro = useEntitlementStore((s) => s.devTogglePro);
+
+  // Pro through the gift week, not a purchase: say so, with the date, and
+  // make the card the way to keep it — the end of a free week is the moment a
+  // reader knows exactly what they would be paying for.
+  const inGiftWeek = isPro && !purchased && trialEndsAt !== null;
 
   return (
     <View style={styles.section}>
       <SegmentedText variant="label">Membership</SegmentedText>
 
-      {isPro ? (
+      {inGiftWeek ? (
+        <PressableScale
+          onPress={() => router.push('/paywall')}
+          style={styles.proCard}
+          accessibilityLabel="Your free Pro week. See plans to keep Pro"
+        >
+          <Text style={styles.crest}>✦</Text>
+          <View style={styles.proText}>
+            <SegmentedText variant="fact" style={styles.proTitle}>
+              Gift week of Pro
+            </SegmentedText>
+            <SegmentedText variant="caption">
+              {`Everything unlocked until ${giftEnd(trialEndsAt)}. Keep it →`}
+            </SegmentedText>
+          </View>
+        </PressableScale>
+      ) : isPro ? (
         <View style={styles.proCard}>
           <Text style={styles.crest}>✦</Text>
           <View style={styles.proText}>
@@ -82,7 +111,7 @@ export const ProStatusPanel = memo(function ProStatusPanel() {
               accessibilityLabel="Developer: toggle Pro"
             >
               <SegmentedText variant="caption" style={styles.devLink}>
-                {`DEV: ${isPro ? 'disable' : 'enable'} Pro`}
+                {`DEV: ${purchased ? 'disable' : 'enable'} Pro`}
               </SegmentedText>
             </PressableScale>
           </>

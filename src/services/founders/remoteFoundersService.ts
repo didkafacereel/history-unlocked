@@ -4,6 +4,7 @@ import {
   FounderStatus,
   FoundersService,
 } from './FoundersService';
+import { apiRequest, type ApiConfig } from '@/services/api/request';
 
 /**
  * The real founders service, once an endpoint exists.
@@ -32,79 +33,9 @@ import {
  * calls degrade to "unknown" and the screens show their last known state.
  */
 
-const TIMEOUT_MS = 6000;
+type RemoteConfig = ApiConfig;
 
-interface RemoteConfig {
-  baseUrl: string;
-  /**
-   * A Firebase ID token for the signed-in reader, or null when nobody is.
-   * Async because the SDK refreshes it; short-lived by design, so it is
-   * fetched per request rather than held.
-   */
-  authToken: () => Promise<string | null>;
-}
-
-/**
- * `AbortSignal.timeout` does not exist in React Native.
- *
- * The runtime replaces the global AbortController with the `abort-controller`
- * polyfill, which never had the static. Calling it throws a TypeError inside
- * the try below, every request returns null, and the app concludes the reader
- * is not a founder — silently, and identically to being offline. The same trap
- * cost this codebase a day in `src/data/ingestion.ts`; it is spelled out there
- * too.
- */
-function timeoutSignal(ms: number): { signal: AbortSignal; done: () => void } {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), ms);
-  return { signal: controller.signal, done: () => clearTimeout(timer) };
-}
-
-async function request<T>(
-  config: RemoteConfig,
-  path: string,
-  init?: RequestInit,
-  /**
-   * Whether a signed-in reader is required.
-   *
-   * 'optional' exists for one route and it matters: the register of days is
-   * open to everyone, so a visitor with no account has to be able to see which
-   * dates are taken — that availability is the strongest argument the Lifetime
-   * tier has. Refusing to call without a token would have left them a blank
-   * calendar and no reason to buy.
-   *
-   * The server still decides what comes back. An anonymous caller gets the
-   * dates without the names; withholding them client-side would be decoration,
-   * since the payload would already be on the device.
-   */
-  auth: 'required' | 'optional' = 'required',
-): Promise<T | null> {
-  const token = await config.authToken();
-  if (!token && auth === 'required') {
-    return null;
-  }
-  const { signal, done } = timeoutSignal(TIMEOUT_MS);
-  try {
-    const res = await fetch(`${config.baseUrl}${path}`, {
-      ...init,
-      headers: {
-        accept: 'application/json',
-        'content-type': 'application/json',
-        ...(token ? { authorization: `Bearer ${token}` } : {}),
-        ...init?.headers,
-      },
-      signal,
-    });
-    return res.ok ? ((await res.json()) as T) : null;
-  } catch {
-    return null;
-  } finally {
-    // Cleared whatever happened, and before the caller parses anything — an
-    // armed timer that fires after a successful response aborts nothing but
-    // keeps the process awake.
-    done();
-  }
-}
+const request = apiRequest;
 
 const UNKNOWN: FounderStatus = {
   // False rather than unknown: a request that failed must never present the

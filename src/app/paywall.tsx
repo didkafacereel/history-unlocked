@@ -20,7 +20,9 @@ export default function PaywallScreen() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
 
-  const isPro = useEntitlementStore((s) => s.isPro);
+  // What was BOUGHT, not what is unlocked: a reader in their free gift week has
+  // every Pro feature but no plan, and this screen exists to sell them one.
+  const isPro = useEntitlementStore((s) => s.purchased);
   const packages = useEntitlementStore((s) => s.packages);
   const purchasing = useEntitlementStore((s) => s.purchasing);
   const purchase = useEntitlementStore((s) => s.purchase);

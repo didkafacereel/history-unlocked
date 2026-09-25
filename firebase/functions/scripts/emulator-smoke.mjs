@@ -332,6 +332,27 @@ async function main() {
   const anonymous = (await api('/founders/dates')).body ?? {};
   check('a reader with no account sees which days are kept, but not by whom', Object.keys(anonymous).length === Object.keys(fromDocs).length && Object.values(anonymous).every((v) => v === ''));
 
+  console.log('\nThe launch gift: a week of Pro for the first 5,000');
+  const open = (await api('/welcome')).body;
+  check('anyone can see how many weeks are left', open?.remaining === 5000 && open?.mine === null, JSON.stringify(open));
+  check('a signed-out reader cannot claim', (await api('/welcome', { method: 'POST' })).status === 401);
+  const gia = await newUser();
+  const g1 = (await api('/welcome', { token: gia.token, method: 'POST' })).body;
+  check('the first claim is granted as #1', g1?.status === 'granted' && g1?.grant?.number === 1, JSON.stringify(g1));
+  check('for exactly seven days', g1?.grant && g1.grant.endsAt - g1.grant.startedAt === 7 * 86_400_000);
+  const g2 = (await api('/welcome', { token: gia.token, method: 'POST' })).body;
+  check('claiming again returns the same week, not a new one', g2?.status === 'existing' && g2?.grant?.number === 1 && g2?.grant?.endsAt === g1?.grant?.endsAt);
+  const rush = await Promise.all(Array.from({ length: 12 }, () => newUser()));
+  const rushed = await Promise.all(rush.map((u) => api('/welcome', { token: u.token, method: 'POST' })));
+  const giftNumbers = rushed.map((r) => r.body?.grant?.number).sort((x, y) => x - y);
+  check('twelve at once get #2..#13 — no repeats, no gaps', JSON.stringify(giftNumbers) === JSON.stringify(Array.from({ length: 12 }, (_, i) => i + 2)), JSON.stringify(giftNumbers));
+  const mineNow = (await api('/welcome', { token: gia.token })).body;
+  check('a signed-in reader sees their own week', mineNow?.mine?.number === 1 && mineNow?.remaining === 5000 - 13, JSON.stringify(mineNow));
+  check('the server reports its clock', typeof mineNow?.serverNow === 'number');
+  await api('/account', { token: rush[0].token, method: 'DELETE' });
+  check('deleting an account removes its week', (await doc(`welcome/${rush[0].uid}`)) === null);
+  check('but never lowers the count — the cap is on weeks given, not held', (await doc('counters/welcome'))?.granted === 13);
+
   console.log(`\n${passes} passed, ${failures} failed`);
   process.exit(failures === 0 ? 0 : 1);
 }
