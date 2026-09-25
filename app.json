@@ -15,7 +15,7 @@
     },
     "android": {
       "package": "com.historyunlocked.app",
-      "versionCode": 3,
+      "versionCode": 4,
       "adaptiveIcon": {
         "backgroundColor": "#06070A",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
