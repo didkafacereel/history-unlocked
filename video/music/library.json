@@ -1,0 +1,89 @@
+{
+  "//": "Background beds. Public domain or CC0 only — composition AND recording (checked on Commons LicenseShortName, 25 Sep 2026). Audio files are not committed; `node video/tools/fetch-music.mjs` downloads any that are missing. Pick by mood; do not use the same track two days running.",
+  "tracks": [
+    {
+      "id": "satie-gnossienne-1",
+      "file": "satie-gnossienne-1.ogg",
+      "commons": "File:Satie - Gnossienne 1.ogg",
+      "mood": "mysterious, quiet, sly — schemes, conspiracies, secrets, heists",
+      "credit": "Satie, Gnossienne No. 1 · public domain"
+    },
+    {
+      "id": "chopin-nocturne-c-minor",
+      "file": "chopin-nocturne-c-minor.ogg",
+      "commons": "File:Chopin - Nocturne No. 21 in C minor, B. 108 (Diana Hughes).flac",
+      "mood": "grave, mournful — disasters, deaths, the end of an era, battles that end in loss",
+      "credit": "Chopin, Nocturne in C minor · public domain"
+    },
+    {
+      "id": "beethoven-moonlight-1",
+      "file": "beethoven-moonlight-1.ogg",
+      "commons": "File:Ludwig van Beethoven - sonata no. 14 in c sharp minor 'moonlight', op. 27 no. 2 - i. adagio sostenuto.ogg",
+      "mood": "brooding, suspenseful, nocturnal — near misses, Cold War, a single decision under pressure",
+      "credit": "Beethoven, Moonlight Sonata · Paul Pitman for Musopen · public domain"
+    },
+    {
+      "id": "grieg-aase-death",
+      "file": "grieg-aase-death.ogg",
+      "commons": "File:Peer Gynt Suite No. 1, Op. 46 - II. Aase's Death.ogg",
+      "mood": "tragic, elegiac, orchestral strings — tragedies told with care, heroic sacrifice",
+      "credit": "Grieg, The Death of Åse · Musopen Symphony · CC0"
+    },
+    {
+      "id": "grieg-morning",
+      "file": "grieg-morning.ogg",
+      "commons": "File:Musopen - Morning.ogg",
+      "mood": "hopeful, bright, dawn — discoveries, inventions, firsts, exploration, happy endings",
+      "credit": "Grieg, Morning Mood · Musopen Symphony · public domain"
+    },
+    {
+      "id": "mussorgsky-old-castle",
+      "file": "mussorgsky-old-castle.ogg",
+      "commons": "File:Modest Mussorgsky - pictures at an exhibition - ii. il vecchio castello - andante.ogg",
+      "mood": "ancient, legendary, melancholic — medieval kings, antiquity, myths, lost empires",
+      "credit": "Mussorgsky, The Old Castle · Musopen · public domain"
+    },
+    {
+      "id": "mussorgsky-catacombs",
+      "file": "mussorgsky-catacombs.ogg",
+      "commons": "File:Modest Mussorgsky - pictures at an exhibition - viii. catacombae. sepulcrum romanum - largo.ogg",
+      "mood": "dark, ominous, slow — plagues, tombs, executions, mysteries of the dead",
+      "credit": "Mussorgsky, Catacombs · Musopen · public domain"
+    },
+    {
+      "id": "mussorgsky-bydlo",
+      "file": "mussorgsky-bydlo.ogg",
+      "commons": "File:Modest Mussorgsky - pictures at an exhibition - iv. bydlo - sempre moderato, pesante.ogg",
+      "mood": "heavy, plodding, relentless — wars grinding on, marches, oppression, labour",
+      "credit": "Mussorgsky, Bydło · Musopen · public domain"
+    },
+    {
+      "id": "chopin-nocturne-10",
+      "file": "chopin-nocturne-10.flac",
+      "commons": "File:Chopin - Nocturne No. 10 in A-flat major, Op. 32 No. 2 (Olga Gurevich).flac",
+      "mood": "warm, reflective, romantic — art, music, love stories, lives remembered",
+      "credit": "Chopin, Nocturne No. 10 · Olga Gurevich for Musopen · public domain"
+    },
+    {
+      "id": "satie-gymnopedie-1",
+      "file": "satie-gymnopedie-1.flac",
+      "commons": "File:Satie Gymnopedie No 1 performed by Michael Laucke.flac",
+      "mood": "calm, tender, gentle guitar — quiet wonders, curiosities, nature, small human moments",
+      "credit": "Satie, Gymnopédie No. 1 · Michael Laucke · public domain"
+    },
+    {
+      "id": "grieg-concerto-adagio",
+      "file": "grieg-concerto-adagio.ogg",
+      "commons": "File:Edvard Grieg - piano concerto in a minor, op. 16 - ii. adagio.ogg",
+      "mood": "noble, romantic, sweeping — independence days, great speeches, coronations",
+      "credit": "Grieg, Piano Concerto, Adagio · Musopen · public domain"
+    },
+    {
+      "id": "bach-air-1920",
+      "file": "bach-air-1920.ogg",
+      "commons": "File:Air (Bach).ogg",
+      "mood": "old-time, dignified, crackly 1920 record — early 20th century, silent-film era, nostalgia",
+      "credit": "Bach, Air · 1920 recording (Joel Belov) · public domain"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "//": "Settings every daily video shares. The end card and its last spoken line follow the app's stage — change `stage` when the app moves on (closed test, launch) and every video from then on says the right thing. The channel is NOT named anywhere: it is called something else than the app.",
+  "stage": "pre-launch",
+  "voice": "am_michael",
+  "speed": 0.9,
+  "tail": 0.9,
+  "story": "Every day has a story like this.",
+  "stages": {
+    "pre-launch": {
+      "say": "Subscribe, to find out when our app comes out.",
+      "app": "Our app",
+      "name": "HISTORY UNLOCKED",
+      "tag": "coming soon to Google Play",
+      "pill": "SUBSCRIBE",
+      "note": "and find out when the app comes out"
+    },
+    "closed-test": {
+      "say": "Our app is almost here. Subscribe, and be the first to know.",
+      "app": "Our app",
+      "name": "HISTORY UNLOCKED",
+      "tag": "in testing now · Google Play",
+      "pill": "SUBSCRIBE",
+      "note": "and be the first to know when it opens"
+    },
+    "launch": {
+      "say": "It's in our app, History Unlocked. Free on Google Play. Link in bio.",
+      "app": "Every day, in the app",
+      "name": "HISTORY UNLOCKED",
+      "tag": "free on Google Play",
+      "pill": "LINK IN BIO",
+      "note": "366 days · thousands of stories"
+    }
+  }
+}

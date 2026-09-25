@@ -1,0 +1,83 @@
+{
+  "total": 57.267,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "On this day in 1983, a Soviet officer may have saved the world, by doing nothing.",
+      "start": 0.4,
+      "end": 7.355
+    },
+    {
+      "id": "s2",
+      "show": "Stanislav Petrov was on duty near Moscow, at the height of the Cold War.",
+      "start": 7.855,
+      "end": 13.145
+    },
+    {
+      "id": "s3a",
+      "show": "Just after midnight, the alarm went off.",
+      "start": 13.595,
+      "end": 16.198
+    },
+    {
+      "id": "s3b",
+      "show": "An American missile was on its way. Then four more.",
+      "start": 16.548,
+      "end": 20.324
+    },
+    {
+      "id": "s4a",
+      "show": "Protocol said report it, and the answer would be a nuclear strike.",
+      "start": 20.824,
+      "end": 25.133
+    },
+    {
+      "id": "s4b",
+      "show": "But Petrov reasoned that a real attack would use hundreds of missiles, not five.",
+      "start": 25.483,
+      "end": 31.073
+    },
+    {
+      "id": "s5",
+      "show": "So he called it a false alarm, and waited.",
+      "start": 31.523,
+      "end": 34.573
+    },
+    {
+      "id": "s6a",
+      "show": "No missiles came.",
+      "start": 35.273,
+      "end": 36.639
+    },
+    {
+      "id": "s6b",
+      "show": "The satellites had mistaken sunlight on clouds for rocket launches.",
+      "start": 37.039,
+      "end": 41.625
+    },
+    {
+      "id": "s7a",
+      "show": "Petrov got no reward. For ten years, even his wife didn't know.",
+      "start": 42.175,
+      "end": 46.847
+    },
+    {
+      "id": "s7b",
+      "show": "When she asked, he said: I did nothing.",
+      "start": 47.247,
+      "end": 50.127
+    },
+    {
+      "id": "end1",
+      "show": "Every day has a story like this.",
+      "start": 50.827,
+      "end": 53.195
+    },
+    {
+      "id": "end2",
+      "show": "Subscribe, to find out when our app comes out.",
+      "start": 53.545,
+      "end": 56.767
+    }
+  ]
+}

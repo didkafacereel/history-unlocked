@@ -1,12 +1,14 @@
 # Everything here that is regenerable or large stays out of a public repo.
-# A day's source of truth is index.html + script.json + timings.json; the
-# images are public-domain files re-fetched from Wikimedia Commons, the audio
-# is re-synthesised locally, and renders are outputs.
+# A day's source of truth is script.json (+ index.html, timings.json); the
+# images are public-domain files re-fetched from Wikimedia Commons (their
+# origin is kept in assets/credits.json), the audio is re-synthesised
+# locally, and renders are outputs.
 */renders/
 */snapshots/
 */audio/
 */narration.wav
 */mix.wav
+*/.candidates/
 music/*.ogg
 music/*.flac
 music/*.wav
@@ -16,3 +18,7 @@ music/*.mp3
 */assets/*.png
 */.hyperframes/
 voice-samples/
+# research notes (fetched article text) and the finished videos waiting to be posted
+.research/
+ready/
+.scratch-test/
