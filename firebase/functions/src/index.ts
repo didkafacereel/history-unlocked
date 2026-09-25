@@ -18,7 +18,14 @@ import {
   transferAccount,
 } from './store';
 import { decideWebhook, type RevenueCatEvent } from './webhook';
-import { claimWelcome, deleteWelcome, readWelcome, readWelcomeGranted } from './welcome';
+import {
+  claimReviewer,
+  claimWelcome,
+  deleteWelcome,
+  isReviewerEmail,
+  readWelcome,
+  readWelcomeGranted,
+} from './welcome';
 
 initializeApp();
 
@@ -47,6 +54,12 @@ const REGION = 'europe-west1';
  */
 const REVENUECAT_WEBHOOK_SECRET = defineSecret('REVENUECAT_WEBHOOK_SECRET');
 
+/**
+ * The Play review account(s), comma-separated — see `claimReviewer`. Set with:
+ *   firebase functions:secrets:set REVIEW_EMAILS
+ */
+const REVIEW_EMAILS = defineSecret('REVIEW_EMAILS');
+
 function send(res: Response, status: number, body: unknown): void {
   res.status(status).json(body);
 }
@@ -59,14 +72,17 @@ function send(res: Response, status: number, body: unknown): void {
  * to send: an id in a header is a claim anybody can make, and a seat is worth
  * $79.99.
  */
-async function uidOf(req: Request): Promise<string | null> {
+async function readerOf(req: Request): Promise<{ uid: string; verifiedEmail: string | null } | null> {
   const header = req.get('authorization') ?? '';
   const token = header.startsWith('Bearer ') ? header.slice(7).trim() : '';
   if (!token) {
     return null;
   }
   try {
-    return (await getAuth().verifyIdToken(token)).uid;
+    const decoded = await getAuth().verifyIdToken(token);
+    // Only an address the provider vouched for counts — an unverified one is
+    // whatever somebody typed.
+    return { uid: decoded.uid, verifiedEmail: decoded.email_verified === true ? (decoded.email ?? null) : null };
   } catch {
     // An expired or forged token is simply not signed in. Nothing to report to
     // the caller beyond that, and nothing worth logging at volume.
@@ -74,12 +90,16 @@ async function uidOf(req: Request): Promise<string | null> {
   }
 }
 
+async function uidOf(req: Request): Promise<string | null> {
+  return (await readerOf(req))?.uid ?? null;
+}
+
 export const api = onRequest(
   {
     region: REGION,
     maxInstances: 10,
     cors: true,
-    secrets: [REVENUECAT_WEBHOOK_SECRET],
+    secrets: [REVENUECAT_WEBHOOK_SECRET, REVIEW_EMAILS],
   },
   async (req, res) => {
     const path = req.path.replace(/\/+$/, '');
@@ -140,15 +160,18 @@ export const api = onRequest(
     }
 
     // ── Everything below needs a verified reader ────────────────────────────
-    const uid = await uidOf(req);
-    if (!uid) {
+    const reader = await readerOf(req);
+    if (!reader) {
       send(res, 401, { error: 'unauthenticated' });
       return;
     }
+    const { uid } = reader;
 
     if (req.method === 'POST' && path === '/welcome') {
       const now = Date.now();
-      const result = await claimWelcome(uid, now);
+      const result = isReviewerEmail(reader.verifiedEmail, REVIEW_EMAILS.value())
+        ? await claimReviewer(uid, now)
+        : await claimWelcome(uid, now);
       send(res, 200, { ...result, serverNow: now });
       return;
     }

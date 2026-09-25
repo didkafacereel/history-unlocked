@@ -111,6 +111,63 @@ export async function claimWelcome(uid: string, now: number): Promise<ClaimWelco
   });
 }
 
+/**
+ * Store review access.
+ *
+ * Google Play's reviewers must reach every paid part of the app, and they will
+ * not buy anything, create an account, or accept a trial to do it. So the
+ * account whose credentials go into Play Console → App access is given Pro by
+ * the server, on the same document the launch gift uses — which is what the
+ * app already reads as "Pro for a while, not bought".
+ *
+ * Deliberately NOT counted against the 5,000: the "N left" line is a promise to
+ * readers, and a review account is not one of them. `number: 0` marks it.
+ *
+ * The list is a secret (REVIEW_EMAILS, comma-separated), not code: the repo is
+ * public, and while an address alone opens nothing, there is no reason to
+ * publish the one account that holds free Pro.
+ */
+export const REVIEW_DAYS = 400;
+
+export function isReviewerEmail(email: string | null | undefined, list: string | null | undefined): boolean {
+  if (!email || !list) return false;
+  const wanted = email.trim().toLowerCase();
+  return list
+    .split(',')
+    .map((e) => e.trim().toLowerCase())
+    .filter(Boolean)
+    .includes(wanted);
+}
+
+/**
+ * A reviewer keeps a grant that still has most of its length; anything shorter
+ * — nothing yet, or the ordinary week from signing in before being listed — is
+ * replaced by a fresh long one.
+ */
+export function decideReviewer(input: {
+  existing: WelcomeGrant | null;
+  now: number;
+}): Exclude<WelcomeDecision, { action: 'sold-out' }> {
+  const { existing, now } = input;
+  if (existing && existing.number === 0 && existing.endsAt - now > (REVIEW_DAYS / 2) * DAY_MS) {
+    return { action: 'existing', grant: existing };
+  }
+  return { action: 'grant', grant: { number: 0, startedAt: now, endsAt: now + REVIEW_DAYS * DAY_MS } };
+}
+
+export async function claimReviewer(uid: string, now: number): Promise<ClaimWelcomeResult> {
+  const [existing, granted] = await Promise.all([readWelcome(uid), readWelcomeGranted()]);
+  const decision = decideReviewer({ existing, now });
+  if (decision.action === 'grant') {
+    await grantRef(uid).set(decision.grant);
+  }
+  return {
+    status: decision.action === 'grant' ? 'granted' : 'existing',
+    grant: decision.grant,
+    remaining: Math.max(WELCOME_CAP - granted, 0),
+  };
+}
+
 /** Account deletion removes the grant too — it is data held about the account. */
 export async function deleteWelcome(uid: string): Promise<void> {
   await grantRef(uid).delete();

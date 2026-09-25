@@ -35,7 +35,9 @@ export const WelcomeGift = memo(function WelcomeGift() {
   const unseen = useWelcomeStore((s) => s.unseen);
   const markSeen = useWelcomeStore((s) => s.markSeen);
 
-  if (!unseen || !grant) {
+  // `number: 0` is store review access (see the server's `claimReviewer`), not
+  // one of the 5,000 — the week and the reader number would both be untrue.
+  if (!unseen || !grant || grant.number === 0) {
     return null;
   }
 
