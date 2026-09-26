@@ -308,8 +308,10 @@ export function stripPronunciation(text: string): string {
       .replace(/\((?:\s*[,;])*\s*/g, '(')
       .replace(/(?:\s*[,;])+\s*\)/g, ')'),
   )
-    // "Балакирев ; 2 January": the space belonged to the transcription.
-    .replace(/ +(?=[,;])/g, '')
+    // "Балакирев ; 2 January", "known in Japan as the Hinomaru .": the space
+    // belonged to a transcription or a vanished conversion. Only a stop that
+    // ends a sentence, so ".NET" and "..." keep theirs.
+    .replace(/ +(?=[,;]|\.(?:\s|$))/g, '')
     .replace(/\s*\(\s*\)/g, '');
   return dropStrayClosers(out).replace(/ {2,}/g, ' ').trim();
 }

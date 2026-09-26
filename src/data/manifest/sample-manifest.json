@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-26T21:12:48.052Z",
+  "generatedAt": "2026-09-26T21:45:17.319Z",
   "events": [
     {
       "id": "evt-09-20-1066-harald-hardrada",
@@ -1629,7 +1629,7 @@
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:21,September,1934_Typhoon_weather_map.png",
       "textCredit": "Text: Wikipedia · CC BY-SA 4.0",
       "wikiTitle": "1934 Muroto typhoon",
-      "summary": "In September 1934, a violent typhoon caused tremendous devastation in Japan, leaving more than 3,000 people dead in its wake. Dubbed the Muroto typhoon , the system was first identified on September 13 over the western Federated States of Micronesia. Moving generally northwest, it eventually brushed the Ryukyu Islands on September 20. Turning northeast, the typhoon accelerated and struck Shikoku and southern Honshu the following morning. It made landfalls in Muroto, Kaifu, Awaji Island, and Kobe. A pressure of 911.9 hPa (26.93 inHg) was observed in Muroto, making the typhoon the strongest ever recorded to impact Japan at the time. This value was also the lowest land-based pressure reading in the world on record at the time; however, it was surpassed the following year during the 1935 Labor Day hurricane. After clearing Japan, the now extratropical storm traveled east and weakened. Turning north by September 24, the system deepened and impacted the Aleutian Islands; it was last noted the following day over western Alaska.",
+      "summary": "In September 1934, a violent typhoon caused tremendous devastation in Japan, leaving more than 3,000 people dead in its wake. Dubbed the Muroto typhoon, the system was first identified on September 13 over the western Federated States of Micronesia. Moving generally northwest, it eventually brushed the Ryukyu Islands on September 20. Turning northeast, the typhoon accelerated and struck Shikoku and southern Honshu the following morning. It made landfalls in Muroto, Kaifu, Awaji Island, and Kobe. A pressure of 911.9 hPa (26.93 inHg) was observed in Muroto, making the typhoon the strongest ever recorded to impact Japan at the time. This value was also the lowest land-based pressure reading in the world on record at the time; however, it was surpassed the following year during the 1935 Labor Day hurricane. After clearing Japan, the now extratropical storm traveled east and weakened. Turning north by September 24, the system deepened and impacted the Aleutian Islands; it was last noted the following day over western Alaska.",
       "facts": [
         {
           "id": "f1",
@@ -1639,7 +1639,7 @@
         {
           "id": "f2",
           "icon": "🌋",
-          "text": "Dubbed the Muroto typhoon , the system was first identified on September 13 over the western Federated States of Micronesia."
+          "text": "Dubbed the Muroto typhoon, the system was first identified on September 13 over the western Federated States of Micronesia."
         },
         {
           "id": "f3",
@@ -7398,12 +7398,12 @@
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:2003%E5%B9%B4%E5%8D%81%E5%8B%9D%E6%B2%96%E5%9C%B0%E9%9C%87%E3%81%AB%E3%82%88%E3%82%8B%E8%8B%AB%E5%B0%8F%E7%89%A7%E3%81%A7%E3%81%AE%E7%9F%B3%E6%B2%B9%E3%82%BF%E3%83%B3%E3%82%AF%E3%81%AE%E7%81%AB%E7%81%BD.jpg",
       "textCredit": "Text: Wikipedia · CC BY-SA 4.0",
       "wikiTitle": "2003 Tokachi earthquake",
-      "summary": "The 2003 Tokachi earthquake, known in Japanese as the 2003 Tokachi-Oki earthquake , occurred off the coast of Hokkaido, Japan on 26 September at 04:50 local time. At a focal depth of 27 km (17 mi), this great undersea earthquake measured 8.3 on the moment magnitude scale, making it the most powerful earthquake of 2003, as well as one of the most intense earthquakes to hit Japan since modern record-keeping began in 1900.",
+      "summary": "The 2003 Tokachi earthquake, known in Japanese as the 2003 Tokachi-Oki earthquake, occurred off the coast of Hokkaido, Japan on 26 September at 04:50 local time. At a focal depth of 27 km (17 mi), this great undersea earthquake measured 8.3 on the moment magnitude scale, making it the most powerful earthquake of 2003, as well as one of the most intense earthquakes to hit Japan since modern record-keeping began in 1900.",
       "facts": [
         {
           "id": "f1",
           "icon": "🌋",
-          "text": "The 2003 Tokachi earthquake, known in Japanese as the 2003 Tokachi-Oki earthquake , occurred off the coast of Hokkaido, Japan on 26 September at 04:50 local time."
+          "text": "The 2003 Tokachi earthquake, known in Japanese as the 2003 Tokachi-Oki earthquake, occurred off the coast of Hokkaido, Japan on 26 September at 04:50 local time."
         },
         {
           "id": "f2",
@@ -8187,12 +8187,12 @@
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Typhoon_Vera_analysis_23_Sep_1959.png",
       "textCredit": "Text: Wikipedia · CC BY-SA 4.0",
       "wikiTitle": "Typhoon Vera",
-      "summary": "Typhoon Vera, also known as the Isewan Typhoon , was an exceptionally intense tropical cyclone that struck Japan in September 1959, becoming the strongest and deadliest typhoon on record to make landfall on the country, as well as the only one to do so as a Category 5 equivalent storm. The storm's intensity resulted in catastrophic damage of unparalleled severity and extent, and was a major setback to the Japanese economy, which was still recovering from World War II. In the aftermath of Vera, Japan's disaster management and relief systems were significantly reformed, and the typhoon's effects would set a benchmark for future storms striking the country.",
+      "summary": "Typhoon Vera, also known as the Isewan Typhoon, was an exceptionally intense tropical cyclone that struck Japan in September 1959, becoming the strongest and deadliest typhoon on record to make landfall on the country, as well as the only one to do so as a Category 5 equivalent storm. The storm's intensity resulted in catastrophic damage of unparalleled severity and extent, and was a major setback to the Japanese economy, which was still recovering from World War II. In the aftermath of Vera, Japan's disaster management and relief systems were significantly reformed, and the typhoon's effects would set a benchmark for future storms striking the country.",
       "facts": [
         {
           "id": "f1",
           "icon": "🌋",
-          "text": "Typhoon Vera, also known as the Isewan Typhoon , was an exceptionally intense tropical cyclone that struck Japan in September 1959, becoming the strongest and deadliest typhoon on record to make landfall on the country…"
+          "text": "Typhoon Vera, also known as the Isewan Typhoon, was an exceptionally intense tropical cyclone that struck Japan in September 1959, becoming the strongest and deadliest typhoon on record to make landfall on the country…"
         },
         {
           "id": "f2",

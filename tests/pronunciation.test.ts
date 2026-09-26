@@ -117,6 +117,15 @@ describe('stripPronunciation', () => {
     expect(stripPronunciation('Dubbed the Muroto typhoon , the system was first identified on September 13.')).toBe(
       'Dubbed the Muroto typhoon, the system was first identified on September 13.',
     );
+    expect(
+      stripPronunciation('The flag is officially called the Nisshōki , but is more commonly known in Japan as the Hinomaru .'),
+    ).toBe('The flag is officially called the Nisshōki, but is more commonly known in Japan as the Hinomaru.');
+    expect(stripPronunciation('the programme cost was estimated at £70 million .\nConstruction of six prototypes began')).toBe(
+      'the programme cost was estimated at £70 million.\nConstruction of six prototypes began',
+    );
+    for (const text of ['Written in .NET and C#.', 'He paused ... then went on.']) {
+      expect(stripPronunciation(text)).toBe(text);
+    }
   });
 });
 
