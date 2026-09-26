@@ -25,6 +25,7 @@
  *    sentence, which for a well-titled event article is exactly right.
  */
 
+import { CORNERSTONE_HEADLINES, headlineKey } from './cornerstone-headlines';
 import { fetchArticleExtracts } from './imagery';
 import { EventCandidate } from './onthisday';
 
@@ -302,7 +303,8 @@ export async function cornerstoneCandidates(dateKey: string): Promise<EventCandi
     return [
       {
         year: entry.year,
-        summary: entry.headline ?? firstSentence(extract),
+        summary:
+          entry.headline ?? CORNERSTONE_HEADLINES[headlineKey(entry.dateKey, entry.year)] ?? firstSentence(extract),
         wikiTitle: entry.wikiTitle,
         extract: extract.slice(0, 2000),
         hasImage: true,
