@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <!-- The 30-second store trailer (Play listing → YouTube). Landscape, no
+         voice: Play autoplays it muted, so every line is on screen.
+         Rebuild: copy store/screenshots/1–5 and store/HistoryUnlocked_icon_512.png
+         (as icon.png) into assets/, the fonts from any day folder into fonts/, then
+           ffmpeg -i ../music/grieg-morning.ogg -t 30 -af "afade=t=in:d=0.4,afade=t=out:st=27:d=3,loudnorm=I=-16:TP=-1.5:LRA=11" -ar 48000 -ac 2 music.wav
+           npx hyperframes@0.8.72 render --quality high --output renders/history-unlocked-trailer.mp4 -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+@font-face { font-family: "Anton"; src: url("fonts/anton-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; }
+@font-face { font-family: "DM Serif Display"; src: url("fonts/dmserif-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; }
+@font-face { font-family: "DM Serif Display"; src: url("fonts/dmserif-italic.woff2") format("woff2"); font-weight: 400; font-style: italic; }
+:root {
+  --void: #06070a; --ink-raised: #141826; --gold: #f5b73b; --gold-soft: rgba(245, 183, 59, 0.2);
+  --text: #f4f6fb; --text-2: rgba(244, 246, 251, 0.74);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { margin: 0; overflow: hidden; background: var(--void); }
+#root { position: relative; width: 100%; height: 100%; overflow: hidden; background: var(--void); color: var(--text); }
+.scene { position: absolute; inset: 0; overflow: hidden; }
+.layer { position: absolute; inset: 0; }
+.glow { background: radial-gradient(ellipse 60% 70% at 30% 50%, var(--gold-soft), transparent 70%); }
+.glow-c { background: radial-gradient(ellipse 55% 60% at 50% 45%, var(--gold-soft), transparent 70%); }
+.kicker { font-family: "Anton", sans-serif; font-size: 40px; letter-spacing: 0.22em; color: var(--gold); text-transform: uppercase; line-height: 1.1; }
+.serif { font-family: "DM Serif Display", serif; font-weight: 400; line-height: 1.04; }
+.italic { font-family: "DM Serif Display", serif; font-style: italic; color: var(--text-2); }
+.hl { color: var(--gold); }
+
+/* 1 ── the question */
+.intro { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 34px; text-align: center; }
+.intro .serif { font-size: 150px; }
+
+/* the phone */
+.phone { position: absolute; width: 534px; height: 928px; border-radius: 64px; background: #1b1f2c; padding: 14px;
+  box-shadow: 0 0 0 2px rgba(255,255,255,0.08), 0 40px 90px rgba(0,0,0,0.65), 0 0 120px rgba(245,183,59,0.12); }
+.screen { position: relative; width: 100%; height: 100%; border-radius: 50px; overflow: hidden; background: #0b0c10; }
+.screen img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 0%; }
+
+/* 2–4 ── one phone, the words beside it */
+.copy { position: absolute; left: 930px; top: 0; bottom: 0; width: 860px; display: flex; flex-direction: column; justify-content: center; gap: 30px; }
+.copy .serif { font-size: 112px; text-wrap: balance; }
+.copy .italic { font-size: 50px; line-height: 1.2; text-wrap: balance; }
+
+/* 5 ── two phones */
+.copy-5 { left: 1300px; width: 560px; }
+.copy-5 .serif { font-size: 92px; }
+
+/* 6 ── end card */
+.end { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 26px; text-align: center; }
+.end img { width: 220px; height: 220px; border-radius: 48px; box-shadow: 0 30px 80px rgba(0,0,0,0.6), 0 0 90px rgba(245,183,59,0.22); }
+.end .serif { font-size: 130px; margin-top: 18px; }
+.end .italic { font-size: 50px; }
+.pill { margin-top: 22px; font-family: "Anton", sans-serif; font-size: 44px; letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--void); background: var(--gold); border-radius: 999px; padding: 18px 54px 16px; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="30" data-width="1920" data-height="1080">
+
+      <!-- 1 ── the question -->
+      <div id="s1" class="scene clip" data-start="0" data-duration="3.9" data-track-index="1" style="z-index: 1">
+        <div class="layer glow-c"></div>
+        <div id="s1-box" class="intro">
+          <div id="s1-kicker" class="kicker">History Unlocked</div>
+          <div id="s1-line" class="serif">What happened<br />on <span class="hl">this day</span>?</div>
+        </div>
+      </div>
+
+      <!-- 2–4 ── one phone: the feed, a scenario, the calendar -->
+      <div id="s2" class="scene clip" data-start="3.6" data-duration="17.2" data-track-index="2" style="z-index: 2">
+        <div id="s2-glow" class="layer glow"></div>
+        <div id="phone" class="phone" style="left: 250px; top: 76px">
+          <div class="screen">
+            <img id="scr1" src="assets/1-feed-titanic.png" alt="" data-layout-allow-overflow />
+            <img id="scr2" src="assets/2-scenario-titanic.png" alt="" data-layout-allow-overflow style="opacity: 0" />
+            <img id="scr3" src="assets/3-time-machine.png" alt="" data-layout-allow-overflow style="opacity: 0" />
+          </div>
+        </div>
+        <div id="c1" class="copy">
+          <div id="c1-kicker" class="kicker">Every day</div>
+          <div id="c1-line" class="serif">One date.<br />Every <span class="hl">century</span>.</div>
+          <div id="c1-fact" class="italic">8,056 events across all 366 days</div>
+        </div>
+        <div id="c2" class="copy" style="opacity: 0">
+          <div id="c2-kicker" class="kicker">Scenarios</div>
+          <div id="c2-line" class="serif">What would <span class="hl">you</span> have done?</div>
+          <div id="c2-fact" class="italic">Choose — then see what really happened</div>
+        </div>
+        <div id="c3" class="copy" style="opacity: 0">
+          <div id="c3-kicker" class="kicker">Time Machine</div>
+          <div id="c3-line" class="serif">Travel to <span class="hl">any day</span> in history</div>
+          <div id="c3-fact" class="italic">From 1 January to 31 December</div>
+        </div>
+      </div>
+
+      <!-- 5 ── search and the Museum -->
+      <div id="s5" class="scene clip" data-start="20.5" data-duration="5.4" data-track-index="3" style="z-index: 3">
+        <div class="layer glow"></div>
+        <div id="p4" class="phone" style="left: 110px; top: 76px">
+          <div class="screen"><img src="assets/4-search.png" alt="" /></div>
+        </div>
+        <div id="p5" class="phone" style="left: 690px; top: 76px">
+          <div class="screen"><img src="assets/5-museum.png" alt="" /></div>
+        </div>
+        <div id="c5" class="copy copy-5">
+          <div id="c5-kicker" class="kicker">Search &amp; collect</div>
+          <div id="c5-line" class="serif">Search it all. Build your <span class="hl">Museum</span>.</div>
+          <div id="c5-fact" class="italic">14 collections to complete</div>
+        </div>
+      </div>
+
+      <!-- 6 ── end card -->
+      <div id="s6" class="scene clip" data-start="25.6" data-duration="4.4" data-track-index="4" style="z-index: 4">
+        <div class="layer glow-c"></div>
+        <div id="s6-box" class="end">
+          <img id="s6-icon" src="assets/icon.png" alt="" />
+          <div id="s6-name" class="serif">History <span class="hl">Unlocked</span></div>
+          <div id="s6-tag" class="italic">Today in history, one day at a time</div>
+          <div id="s6-pill" class="pill">Free on Google Play</div>
+        </div>
+      </div>
+
+      <audio id="soundtrack" data-start="0" data-duration="30" data-track-index="0" src="music.wav" data-volume="1"></audio>
+    </div>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+
+      // 1
+      tl.fromTo("#s1-kicker", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.6, ease: "power3.out" }, 0.2);
+      tl.fromTo("#s1-line", { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 0.9, ease: "expo.out" }, 0.5);
+      tl.fromTo("#s1-line", { scale: 1 }, { scale: 1.05, duration: 3.4, ease: "none", immediateRender: false }, 0.5);
+      tl.to("#s1-box", { opacity: 0, duration: 0.35, ease: "power2.in" }, 3.5);
+
+      // 2 — the phone rises, the feed
+      tl.fromTo("#s2-glow", { opacity: 0 }, { opacity: 1, duration: 0.8, ease: "sine.out" }, 3.6);
+      tl.fromTo("#phone", { opacity: 0, y: 260 }, { opacity: 1, y: 0, duration: 1.0, ease: "expo.out" }, 3.7);
+      tl.fromTo("#scr1", { scale: 1 }, { scale: 1.06, duration: 6.4, ease: "none" }, 3.7);
+      tl.fromTo("#c1-kicker", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 4.2);
+      tl.fromTo("#c1-line", { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 0.8, ease: "expo.out" }, 4.45);
+      tl.fromTo("#c1-fact", { opacity: 0, x: -30 }, { opacity: 1, x: 0, duration: 0.6, ease: "sine.out" }, 5.6);
+      tl.to("#c1", { opacity: 0, duration: 0.35, ease: "power2.in" }, 9.4);
+
+      // 3 — a scenario
+      tl.to("#scr2", { opacity: 1, duration: 0.5, ease: "power1.inOut" }, 9.6);
+      tl.fromTo("#scr2", { scale: 1.04 }, { scale: 1, duration: 5.8, ease: "none" }, 9.6);
+      tl.set("#c2", { opacity: 1 }, 9.7);
+      tl.fromTo("#c2-kicker", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 9.8);
+      tl.fromTo("#c2-line", { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 0.8, ease: "expo.out" }, 10.05);
+      tl.fromTo("#c2-fact", { opacity: 0, x: -30 }, { opacity: 1, x: 0, duration: 0.6, ease: "sine.out" }, 11.2);
+      tl.to("#c2", { opacity: 0, duration: 0.35, ease: "power2.in" }, 15.0);
+
+      // 4 — the Time Machine
+      tl.to("#scr3", { opacity: 1, duration: 0.5, ease: "power1.inOut" }, 15.2);
+      tl.fromTo("#scr3", { scale: 1 }, { scale: 1.05, duration: 5.4, ease: "none" }, 15.2);
+      tl.set("#c3", { opacity: 1 }, 15.3);
+      tl.fromTo("#c3-kicker", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 15.4);
+      tl.fromTo("#c3-line", { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 0.8, ease: "expo.out" }, 15.65);
+      tl.fromTo("#c3-fact", { opacity: 0, x: -30 }, { opacity: 1, x: 0, duration: 0.6, ease: "sine.out" }, 16.8);
+      tl.to("#s2", { opacity: 0, duration: 0.35, ease: "power2.in" }, 20.4);
+
+      // 5 — two phones
+      tl.fromTo("#p4", { opacity: 0, x: -160 }, { opacity: 1, x: 0, duration: 0.9, ease: "expo.out" }, 20.6);
+      tl.fromTo("#p5", { opacity: 0, y: 220 }, { opacity: 1, y: 0, duration: 0.9, ease: "expo.out" }, 20.85);
+      tl.fromTo("#c5-kicker", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 21.1);
+      tl.fromTo("#c5-line", { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 0.8, ease: "expo.out" }, 21.35);
+      tl.fromTo("#c5-fact", { opacity: 0, x: -30 }, { opacity: 1, x: 0, duration: 0.6, ease: "sine.out" }, 22.4);
+      tl.to("#s5", { opacity: 0, duration: 0.35, ease: "power2.in" }, 25.5);
+
+      // 6 — end card
+      tl.fromTo("#s6-icon", { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1, duration: 0.7, ease: "back.out(1.8)" }, 25.75);
+      tl.fromTo("#s6-name", { opacity: 0, scale: 1.15 }, { opacity: 1, scale: 1, duration: 0.8, ease: "expo.out" }, 26.1);
+      tl.fromTo("#s6-tag", { opacity: 0 }, { opacity: 1, duration: 0.6, ease: "sine.out" }, 26.6);
+      tl.fromTo("#s6-pill", { opacity: 0, scale: 0.8 }, { opacity: 1, scale: 1, duration: 0.5, ease: "back.out(2)" }, 27.0);
+      tl.fromTo("#s6-pill", { scale: 1 }, { scale: 1.06, duration: 0.45, ease: "sine.inOut", yoyo: true, repeat: 1, immediateRender: false }, 27.6);
+      tl.to("#s6-box", { opacity: 0, duration: 0.5, ease: "power2.in" }, 29.45);
+
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>
