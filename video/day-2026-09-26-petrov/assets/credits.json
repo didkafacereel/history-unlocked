@@ -62,5 +62,13 @@
     "artist": "User:Brandmeister (Togrul Safarov)",
     "date": "2021-10-30",
     "description": "A memorial stone to Stanislav Petrov in Warsaw, Poland. The inscription reads: \"To Stanislav Yevgrafovich Petrov (1939-2017), a Soviet officer whose courage in 1983 saved the world from the cataclysm of nuclear war - [he] risked in the name"
+  },
+  "sunlit-clouds.jpg": {
+    "file": "File:Cloudscape Over the Philippine Sea.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cloudscape_Over_the_Philippine_Sea.jpg",
+    "licence": "Public domain",
+    "artist": "NASA",
+    "date": "2016-06-25",
+    "description": "Flying over the Philippine Sea, an astronaut looked toward the horizon from the International Space Station and shot this photograph of three-dimensional clouds, the thin blue envelope of the atmosphere, and the blackness of space."
   }
 }

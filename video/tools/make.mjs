@@ -12,7 +12,7 @@
  *   4. mix       music bed, ducked under the voice
  *   5. compose   index.html from the scene library
  *   6. check     hyperframes lint + layout; any error stops here
- *   7. snapshot  the cover and every scene → snapshots/contact-sheet.jpg — LOOK AT IT
+ *   7. snapshot  the cover and every scene → snapshots/contact-sheet*.jpg — LOOK AT IT
  *   8. render    high quality, then verify length and loudness, cut cover.jpg
  *   9. deliver   video/ready/<date>-<slug>/ : the mp4, cover.jpg, POST.md
  *                and one line in video/log.json
@@ -86,9 +86,20 @@ script.scenes.forEach((sc, i) => {
 // Credits: the artists recorded when each image was fetched.
 const creditsFile = path.join(dir, 'assets', 'credits.json');
 const credits = existsSync(creditsFile) ? JSON.parse(readFileSync(creditsFile, 'utf8')) : {};
+// Only the pictures that are actually on screen — a file fetched and then
+// replaced must not be credited for a video it is not in.
+const usedImages = new Set(
+  [
+    script.cover?.image,
+    script.endImage,
+    ...script.scenes.flatMap((sc) => [sc.image, sc.a?.image, sc.b?.image]),
+  ].filter(Boolean),
+);
 const artists = [
   ...new Set(
-    Object.values(credits)
+    Object.entries(credits)
+      .filter(([file]) => usedImages.has(file))
+      .map(([, c]) => c)
       .map((c) => (c.artist ?? '').replace(/\s*\(.*?\)\s*/g, ' ').trim())
       .filter((a) => a && a.length <= 40 && !/unknown|anonymous|unidentified|^user:/i.test(a)),
   ),
@@ -159,7 +170,20 @@ try {
 } catch (e) {
   fail(e.message);
 }
-for (const [id, s] of Object.entries(composed.scene)) console.log(`  ${id.padEnd(8)} ${s.start.toFixed(2)} → ${s.end.toFixed(2)}`);
+// What is SAID while each scene is on screen, beside what it SHOWS — the check
+// for a picture that contradicts the words (a name spoken over someone else's
+// portrait). Read this next to the contact sheet.
+for (const sc of resolved.scenes) {
+  const s = composed.scene[sc.id];
+  const pics = [sc.image, sc.a?.image, sc.b?.image].filter(Boolean).join(' + ') || '(text only)';
+  const said = timings.sentences
+    // Over half a second of the sentence inside the scene — the crossfade
+    // overlap at each boundary is not "said over" the next picture.
+    .filter((t) => Math.min(t.end, s.end) - Math.max(t.start, s.start) > 0.5)
+    .map((t) => `"${t.show}"`)
+    .join(' ');
+  console.log(`  ${sc.id.padEnd(8)} ${s.start.toFixed(2)}→${s.end.toFixed(2)}  ${sc.type} · ${pics}\n           says: ${said}`);
+}
 if (composed.problems.length) fail(composed.problems.join('\n  '));
 
 // ── 6. check ──────────────────────────────────────────────────────────────
@@ -183,7 +207,7 @@ if (!renderOnly) {
   step('snapshot');
   const at = [0.2, ...Object.values(composed.scene).map((s) => Math.min(s.end - 0.25, s.start + s.duration * 0.65))].map((t) => t.toFixed(2));
   npx(['snapshot', '--at', at.join(','), '--no-end', '--describe', 'false'], { stdio: ['ignore', 'pipe', 'pipe'] });
-  console.log(`snapshots/contact-sheet.jpg — cover + ${at.length - 1} scenes at ${at.join(', ')}s`);
+  console.log(`snapshots/contact-sheet*.jpg — cover + ${at.length - 1} scenes at ${at.join(', ')}s`);
   console.log('LOOK at the contact sheet before rendering: cropped faces, unreadable text, a dull cover.');
 }
 if (noRender) {

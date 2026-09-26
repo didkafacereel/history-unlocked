@@ -82,7 +82,25 @@ engravings are usually public domain.
 Honesty with pictures: a picture shows what the scene says it shows. Do not
 pass off an American control room as a Soviet bunker, or one battle's
 painting as another. If a picture is only illustrative, say so on screen
-(e.g. the `credit` line: "Soviet stamps, 1968 · satellites in Molniya orbit").
+(e.g. the `credit` line: "Sunlight on clouds, seen from orbit · NASA").
+
+**The picture must match the words spoken over it** — the user caught both of
+these in the first automated video, and they are the rule now:
+
+- **Never name a person while showing someone else.** "Stanislav Petrov was
+  on duty…" over portraits of Reagan and Andropov reads as "this is Petrov".
+  When the person named has no public-domain picture, give that sentence its
+  own `statement` scene with their NAME as the main text — not another face.
+  If two people or sides frame the story, give THEM their own sentence
+  ("It was the height of the Cold War.") for the `pair` scene.
+- **Show the thing itself, not a symbol of it.** "Sunlight on clouds fooled
+  the satellites" wants a photograph of sunlight on clouds, not a postage
+  stamp of a satellite. Stamps, coats of arms and maps are a last resort.
+
+`make.mjs` prints, for every scene, its pictures and the exact words spoken
+while it is on screen. Read that list line by line next to the contact
+sheet: any line where the words name or describe something the pictures do
+not show is a scene to fix.
 
 ```bash
 node D:/android/history-unlocked/video/tools/images.mjs D:/android/history-unlocked/video/day-<date>-<slug> get <n> <name>
@@ -157,7 +175,7 @@ It voices, times, mixes, composes and checks. It stops with a reason when:
 - **hyperframes check error** (overlap, overflow) → shorten the text, or pick
   another scene type; run again
 
-Then **Read `video/day-<date>-<slug>/snapshots/contact-sheet.jpg`** and check
+Then **Read every `video/day-<date>-<slug>/snapshots/contact-sheet*.jpg`** (split into `-1`, `-2` past 8 frames) and check
 every frame:
 
 - the cover is striking and its text readable at a glance

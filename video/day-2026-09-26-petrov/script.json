@@ -10,70 +10,235 @@
     "Wikipedia: 1983 Soviet nuclear false alarm incident — 26 September 1983; Oko reported one ICBM from the US, then four more; shortly after midnight; Serpukhov-15 bunker near Moscow; launch-on-warning doctrine; Petrov reasoned a real first strike would be hundreds of missiles; no missiles arrived; cause: sunlight on high-altitude clouds and the satellites' Molniya orbits",
     "Wikipedia: Stanislav Petrov — duty officer; 'often credited as having saved the world'; no reward; 'My late wife for 10 years knew nothing about it. \"So what did you do?\" she asked me. \"Nothing. I did nothing.\"'"
   ],
-  "music": { "track": "beethoven-moonlight-1" },
-  "highlight": ["PETROV", "MOSCOW", "MIDNIGHT", "MISSILE", "MISSILES", "FIVE", "HUNDREDS", "NUCLEAR", "FALSE", "ALARM", "NOTHING", "WORLD", "SUNLIGHT", "REWARD", "WIFE"],
+  "music": {
+    "track": "beethoven-moonlight-1"
+  },
+  "highlight": [
+    "PETROV",
+    "MOSCOW",
+    "MIDNIGHT",
+    "MISSILE",
+    "MISSILES",
+    "FIVE",
+    "HUNDREDS",
+    "NUCLEAR",
+    "FALSE",
+    "ALARM",
+    "NOTHING",
+    "WORLD",
+    "SUNLIGHT",
+    "REWARD",
+    "WIFE"
+  ],
   "cover": {
     "image": "launch-fire.jpg",
     "focus": "50% 70%",
     "date": "26 SEPTEMBER 1983",
-    "lines": ["THE MAN WHO", "*SAVED*", "*THE WORLD*"]
+    "lines": [
+      "THE MAN WHO",
+      "*SAVED*",
+      "*THE WORLD*"
+    ]
   },
   "sentences": [
-    { "id": "s1", "say": "On this day in nineteen eighty-three, a Soviet officer may have saved the world, by doing nothing.", "show": "On this day in 1983, a Soviet officer may have saved the world, by doing nothing.", "pauseAfter": 0.5 },
-    { "id": "s2", "say": "Stanislav Petrov was on duty near Moscow, at the height of the Cold War.", "show": "Stanislav Petrov was on duty near Moscow, at the height of the Cold War.", "pauseAfter": 0.45 },
-    { "id": "s3a", "say": "Just after midnight, the alarm went off.", "show": "Just after midnight, the alarm went off.", "pauseAfter": 0.35 },
-    { "id": "s3b", "say": "An American missile was on its way. Then four more.", "show": "An American missile was on its way. Then four more.", "pauseAfter": 0.5 },
-    { "id": "s4a", "say": "Protocol said report it, and the answer would be a nuclear strike.", "show": "Protocol said report it, and the answer would be a nuclear strike.", "pauseAfter": 0.35 },
-    { "id": "s4b", "say": "But Petrov reasoned that a real attack would use hundreds of missiles, not five.", "show": "But Petrov reasoned that a real attack would use hundreds of missiles, not five.", "pauseAfter": 0.45 },
-    { "id": "s5", "say": "So he called it a false alarm, and waited.", "show": "So he called it a false alarm, and waited.", "pauseAfter": 0.7 },
-    { "id": "s6a", "say": "No missiles came.", "show": "No missiles came.", "pauseAfter": 0.4 },
-    { "id": "s6b", "say": "The satellites had mistaken sunlight on clouds for rocket launches.", "show": "The satellites had mistaken sunlight on clouds for rocket launches.", "pauseAfter": 0.55 },
-    { "id": "s7a", "say": "Petrov got no reward. For ten years, even his wife didn't know.", "show": "Petrov got no reward. For ten years, even his wife didn't know.", "pauseAfter": 0.4 },
-    { "id": "s7b", "say": "When she asked, he said: I did nothing.", "show": "When she asked, he said: I did nothing.", "pauseAfter": 0.7 }
+    {
+      "id": "s1",
+      "say": "On this day in nineteen eighty-three, a Soviet officer may have saved the world, by doing nothing.",
+      "show": "On this day in 1983, a Soviet officer may have saved the world, by doing nothing.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s2a",
+      "say": "It was the height of the Cold War.",
+      "show": "It was the height of the Cold War.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s2b",
+      "say": "Stanislav Petrov was on duty in a bunker near Moscow.",
+      "show": "Stanislav Petrov was on duty in a bunker near Moscow.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s3a",
+      "say": "Just after midnight, the alarm went off.",
+      "show": "Just after midnight, the alarm went off.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s3b",
+      "say": "An American missile was on its way. Then four more.",
+      "show": "An American missile was on its way. Then four more.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s4a",
+      "say": "Protocol said report it, and the answer would be a nuclear strike.",
+      "show": "Protocol said report it, and the answer would be a nuclear strike.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s4b",
+      "say": "But Petrov reasoned that a real attack would use hundreds of missiles, not five.",
+      "show": "But Petrov reasoned that a real attack would use hundreds of missiles, not five.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s5",
+      "say": "So he called it a false alarm, and waited.",
+      "show": "So he called it a false alarm, and waited.",
+      "pauseAfter": 0.7
+    },
+    {
+      "id": "s6a",
+      "say": "No missiles came.",
+      "show": "No missiles came.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s6b",
+      "say": "The satellites had mistaken sunlight on clouds for rocket launches.",
+      "show": "The satellites had mistaken sunlight on clouds for rocket launches.",
+      "pauseAfter": 0.55
+    },
+    {
+      "id": "s7a",
+      "say": "Petrov got no reward. For ten years, even his wife didn't know.",
+      "show": "Petrov got no reward. For ten years, even his wife didn't know.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s7b",
+      "say": "When she asked, he said: I did nothing.",
+      "show": "When she asked, he said: I did nothing.",
+      "pauseAfter": 0.7
+    }
   ],
   "scenes": [
-    { "type": "title", "image": "missile-arc.jpg", "focus": "62% 50%", "date": "26 SEPTEMBER", "year": "1983", "place": "Serpukhov-15, near Moscow" },
     {
-      "type": "pair", "from": "s2", "enter": "fade",
+      "type": "title",
+      "image": "missile-arc.jpg",
+      "focus": "62% 50%",
+      "date": "26 SEPTEMBER",
+      "year": "1983",
+      "place": "Serpukhov-15, near Moscow"
+    },
+    {
+      "type": "pair",
+      "from": "s2a",
+      "enter": "fade",
       "kicker": "The Cold War",
-      "a": { "image": "reagan.jpg", "focus": "50% 22%", "name": "Ronald Reagan", "role": "United States" },
-      "b": { "image": "andropov.jpg", "focus": "50% 25%", "name": "Yuri Andropov", "role": "Soviet Union", "at": "s2@0.5" },
-      "foot": { "text": "On duty: Lt. Col. Stanislav Petrov", "at": "s2@0.15" }
+      "a": {
+        "image": "reagan.jpg",
+        "focus": "50% 22%",
+        "name": "Ronald Reagan",
+        "role": "United States"
+      },
+      "b": {
+        "image": "andropov.jpg",
+        "focus": "50% 25%",
+        "name": "Yuri Andropov",
+        "role": "Soviet Union",
+        "at": "s2a@0.45"
+      }
     },
     {
-      "type": "number", "from": "s3a", "enter": "cut",
-      "image": "launch-night.jpg", "focus": "50% 60%",
+      "type": "statement",
+      "from": "s2b",
+      "enter": "fade",
+      "ghost": "PETROV",
+      "kicker": "The duty officer",
+      "main": {
+        "text": "Lt. Col. *Stanislav Petrov*",
+        "at": "s2b@0.05"
+      },
+      "fact": {
+        "text": "Serpukhov-15 early-warning bunker, near Moscow",
+        "at": "s2b@0.55"
+      }
+    },
+    {
+      "type": "number",
+      "from": "s3a",
+      "enter": "cut",
+      "image": "launch-night.jpg",
+      "focus": "50% 60%",
       "label": "Just after midnight",
-      "value": 5, "start": 1, "unit": "INCOMING",
-      "count": { "from": "s3b@0.72", "to": "s3b@1" },
-      "sub": { "text": "US missiles, on the screen", "at": "s3b@0.1" }
+      "value": 5,
+      "start": 1,
+      "unit": "INCOMING",
+      "count": {
+        "from": "s3b@0.72",
+        "to": "s3b@1"
+      },
+      "sub": {
+        "text": "US missiles, on the screen",
+        "at": "s3b@0.1"
+      }
     },
     {
-      "type": "statement", "from": "s4a", "enter": "cut",
-      "image": "red-square.jpg", "focus": "50% 50%",
-      "ghost": "PROTOCOL", "kicker": "Protocol",
-      "main": { "text": "Report it. *Strike back.*", "at": "s4a@0.25" },
-      "fact": { "text": "A real attack would be hundreds of missiles — not five.", "at": "s4b@0.3" }
+      "type": "statement",
+      "from": "s4a",
+      "enter": "cut",
+      "image": "red-square.jpg",
+      "focus": "50% 50%",
+      "ghost": "PROTOCOL",
+      "kicker": "Protocol",
+      "main": {
+        "text": "Report it. *Strike back.*",
+        "at": "s4a@0.25"
+      },
+      "fact": {
+        "text": "A real attack would be hundreds of missiles — not five.",
+        "at": "s4b@0.3"
+      }
     },
     {
-      "type": "statement", "from": "s5", "enter": "cut",
-      "ghost": "FALSE ALARM", "kicker": "His call",
-      "main": { "text": "*False alarm.*", "at": "s5@0.3" },
-      "fact": { "text": "Then he waited.", "at": "s5@0.8" }
+      "type": "statement",
+      "from": "s5",
+      "enter": "cut",
+      "ghost": "FALSE ALARM",
+      "kicker": "His call",
+      "main": {
+        "text": "*False alarm.*",
+        "at": "s5@0.3"
+      },
+      "fact": {
+        "text": "Then he waited.",
+        "at": "s5@0.8"
+      }
     },
     {
-      "type": "document", "from": "s6a", "enter": "fade",
-      "image": "molniya-stamps.jpg", "focus": "50% 45%",
-      "credit": "Soviet stamps, 1968 · satellites in Molniya orbit",
-      "sub": { "text": "No missiles. Just *sunlight on clouds*.", "at": "s6b@0.2" }
+      "type": "document",
+      "from": "s6a",
+      "enter": "fade",
+      "image": "sunlit-clouds.jpg",
+      "focus": "50% 55%",
+      "credit": "Sunlight on clouds, seen from orbit · NASA",
+      "sub": {
+        "text": "No missiles. Just *sunlight on clouds*.",
+        "at": "s6b@0.2"
+      }
     },
     {
-      "type": "portrait", "from": "s7a", "enter": "fade",
-      "image": "memorial.jpg", "focus": "50% 40%",
+      "type": "portrait",
+      "from": "s7a",
+      "enter": "fade",
+      "image": "memorial.jpg",
+      "focus": "50% 40%",
       "kicker": "No reward. No medal.",
-      "date": { "text": "Ten years of silence", "at": "s7a@0.45" },
-      "line": { "text": "Not even his wife knew", "at": "s7a@0.8" },
-      "line2": { "text": "“I did nothing.”", "at": "s7b@0.55" }
+      "date": {
+        "text": "Ten years of silence",
+        "at": "s7a@0.45"
+      },
+      "line": {
+        "text": "Not even his wife knew",
+        "at": "s7a@0.8"
+      },
+      "line2": {
+        "text": "“I did nothing.”",
+        "at": "s7b@0.55"
+      }
     }
   ],
   "post": {
