@@ -14,6 +14,7 @@
  */
 import { EventCategory, FactBlock } from '../src/types/manifest';
 import { shortHeadline, TITLE_MAX } from './headline';
+import { WRITTEN_HEADLINES } from './written-headlines';
 import { EventCandidate } from './onthisday';
 
 type Era = 'Ancient' | 'Classical' | 'Medieval' | 'Early Modern' | 'Industrial' | 'Modern';
@@ -490,15 +491,18 @@ export function liteEventFrom(candidate: EventCandidate, dateKey: string, image:
     facts = [{ id: 'f1', icon, text: summary.slice(0, FACT_MAX) }];
   }
 
+  const id = eventId(candidate, dateKey);
   return {
-    id: eventId(candidate, dateKey),
+    id,
     dateKey,
     year: candidate.year,
     era: eraForYear(candidate.year),
     category,
     sensitivity: sensitivityFor(`${summary} ${extract}`),
     ...(candidate.cornerstone ? { cornerstone: true } : {}),
-    title: titleFromSummary(summary),
+    // A written headline wins over any cut of the feed sentence — see
+    // written-headlines.ts. Cornerstones get theirs earlier, as their summary.
+    title: WRITTEN_HEADLINES[id] ?? titleFromSummary(summary),
     region: candidate.description ?? candidate.wikiTitle,
     wikiTitle: candidate.wikiTitle,
     coordinates: candidate.coordinates,

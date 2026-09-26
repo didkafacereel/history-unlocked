@@ -16,6 +16,7 @@ import { manifestSchema } from '../src/data/manifest/schema';
 import type { HistoricalEvent } from '../src/types/manifest';
 
 import { CORNERSTONE_HEADLINES, headlineKey } from './cornerstone-headlines';
+import { WRITTEN_HEADLINES } from './written-headlines';
 
 const DB_PATH = path.resolve('pipeline/events-db.json');
 const apply = process.argv.includes('--apply');
@@ -24,6 +25,15 @@ const db = JSON.parse(readFileSync(DB_PATH, 'utf8')) as { events: HistoricalEven
 let changed = 0;
 let missing = 0;
 for (const e of db.events) {
+  // Written headlines for the free tier (written-headlines.ts), by id.
+  const written = WRITTEN_HEADLINES[e.id];
+  if (written && !e.cornerstone) {
+    if (e.title !== written) {
+      e.title = written;
+      changed++;
+    }
+    continue;
+  }
   if (!e.cornerstone) continue;
   const headline = CORNERSTONE_HEADLINES[headlineKey(e.dateKey, e.year)];
   if (!headline) {

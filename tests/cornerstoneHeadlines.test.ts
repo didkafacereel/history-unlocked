@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 
 import { CORNERSTONE_HEADLINES, headlineKey } from '../pipeline/cornerstone-headlines';
 import { CORNERSTONES } from '../pipeline/cornerstones';
+import { WRITTEN_HEADLINES } from '../pipeline/written-headlines';
 
 /**
  * The lead card's headline is the first thing a reader sees on a date. Every
@@ -26,5 +27,19 @@ describe('cornerstone headlines', () => {
       ([, h]) => /…$|\.$/.test(h) || /\s(and|or|the|a|an|of|to|in|with)$/.test(h),
     );
     expect(bad).toEqual([]);
+  });
+});
+
+
+describe('written headlines for the free tier', () => {
+  it('keeps every one within 90 characters, finished, and never cut', () => {
+    const bad = Object.entries(WRITTEN_HEADLINES).filter(
+      ([, h]) => h.length > 90 || /…$|\.$/.test(h) || /\s(and|or|the|a|an|of|to|in|with)$/.test(h),
+    );
+    expect(bad).toEqual([]);
+  });
+
+  it('keys every headline by a real event id', () => {
+    expect(Object.keys(WRITTEN_HEADLINES).filter((id) => !/^evt-\d{2}-\d{2}-/.test(id))).toEqual([]);
   });
 });
