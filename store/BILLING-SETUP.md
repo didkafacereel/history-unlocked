@@ -57,7 +57,14 @@ Create these under **Monetise → Products**. The IDs are matched exactly by
 | --- | --- | --- | --- |
 | Subscription | `history_unlocked_pro_monthly` | $5.99 / month | Monthly |
 | Subscription | `history_unlocked_pro_annual` | $39.99 / year | Annual — "save 44%" |
-| One-time | `history_unlocked_pro_lifetime` | $79.99 | Founder — Lifetime |
+| One-time | `history_unlocked_pro_lifetime_gen1` | $79.99 | Founder — Lifetime |
+
+**Why `_gen1`:** on 26 September the first attempt created
+`history_unlocked_pro_lifetime` as a *subscription* by mistake and it was
+deleted; Play never lets a product id be reused. Nothing depends on the bare
+name — the app recognises Lifetime by RevenueCat's LIFETIME package type and
+the webhook by the `history_unlocked_pro_lifetime` prefix — and `_gen1` lines
+up with the `_gen2` / `_gen3` products below.
 
 The 44% is computed from the other two prices ($71.88 a year monthly against
 $39.99) and the paywall recomputes it. **If you change either subscription

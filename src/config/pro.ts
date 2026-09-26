@@ -147,7 +147,7 @@ export const DEV_PACKAGES: SubscriptionPackage[] = [
   },
   {
     id: 'dev.lifetime',
-    productId: 'history_unlocked_pro_lifetime',
+    productId: 'history_unlocked_pro_lifetime_gen1',
     title: 'Founder — Lifetime',
     // Matches FOUNDER_GENERATIONS[0]. See that file for why the first band is
     // priced below the market norm: an unlaunched archive cannot charge like a

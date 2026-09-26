@@ -42,6 +42,20 @@ describe('buying Lifetime', () => {
     ).toEqual({ action: 'grant', uid: 'uid-2' });
   });
 
+  it('grants for the generation I product as it exists in Play Console', () => {
+    // The first Lifetime product was created as a subscription by mistake and
+    // deleted; Play never lets a product id be reused, so generation I is sold
+    // as `…_gen1`. The prefix match is what keeps that a non-event.
+    expect(
+      decideWebhook({
+        type: 'NON_RENEWING_PURCHASE',
+        app_user_id: 'uid-gen1',
+        entitlement_ids: ['pro'],
+        product_id: `${LIFETIME}_gen1`,
+      }),
+    ).toEqual({ action: 'grant', uid: 'uid-gen1' });
+  });
+
   it('grants when the product id is missing but the type says one-time', () => {
     expect(
       decideWebhook({
