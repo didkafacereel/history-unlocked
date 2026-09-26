@@ -202,21 +202,22 @@ latent S3, not a blocker.
 The full detail is in the memory note `history-unlocked-launch-todo` and in
 `FOUNDERS-BACKEND.md`. Short version:
 
-1. **Upload the `.aab` to Play Internal testing.** Everything is blocked on
-   this, and a new personal developer account must run a 12-tester closed test
-   for 14 continuous days before production. The clock has not started. The
-   file is at `~/Downloads/HistoryUnlocked-v1.0.0-build3.aab` — it predates
-   21–22 September, which is fine for establishing the track and getting the
-   app-signing key, wrong for testing.
-2. **Both signing fingerprints into Firebase.** SHA-1 from `npx eas
-   credentials -p android`, SHA-256 from Play Console → App signing. Until
-   both are in, neither sign-in method works on device.
-3. **Three products** — `store/BILLING-SETUP.md`.
-4. **RevenueCat**, then `EXPO_PUBLIC_RC_ANDROID_KEY` into EAS, then deploy the
-   functions.
-5. **A fresh build** — the first one that can actually sell anything.
-6. **Screenshots** from the installed build — five listed in
-   `store/LISTING.md`.
+State on 27 September: signing, Firebase, the three products, RevenueCat and
+the webhook are all live; build 5 is on internal testing. Left, in order:
+
+1. **Build 7 onto internal testing, then the closed test.** Build 7 is the
+   first that can take an OTA update (`eas update --channel production`).
+   Builds 5 and 6 cannot: 5's fingerprint never matched, 6 failed on it.
+   **Rule:** `fingerprint.config.js` must keep the default
+   `PackageJsonAndroidAndIosScriptsIfNotContainRun` skip — setting
+   `sourceSkips` replaces the default rather than adding to it. Every
+   versionCode bump changes the runtime, so publish updates from the commit a
+   build was made from.
+2. **12+ testers × 14 continuous days** before production can be requested.
+3. **License-test purchase**, the review account (its email into the
+   `REVIEW_EMAILS` secret, then redeploy functions), the IARC retake.
+4. **The trailer** (`video/promo/`, 30 s landscape, music only) goes on
+   YouTube, and its URL into the Play listing's promo video field.
 
 ### After launch — the update roadmap
 
