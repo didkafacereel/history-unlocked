@@ -7,6 +7,7 @@ import Purchases, {
 
 import { PRO_ENTITLEMENT_ID, PRO_OFFERING_ID, revenueCatApiKey } from '@/config/pro';
 
+import { presentPackages } from './presentPackages';
 import { BillingPeriod, PurchaseOutcome, PurchaseService, SubscriptionPackage } from './PurchaseService';
 
 /**
@@ -69,16 +70,18 @@ export function createRevenueCatService(): PurchaseService {
       const available = offering?.availablePackages ?? [];
 
       packageCache.clear();
-      return available.map((pkg) => {
-        packageCache.set(pkg.identifier, pkg);
-        return {
-          id: pkg.identifier,
-          productId: pkg.product.identifier,
-          title: pkg.product.title,
-          priceString: pkg.product.priceString,
-          period: periodOf(pkg),
-        };
-      });
+      return presentPackages(
+        available.map((pkg) => {
+          packageCache.set(pkg.identifier, pkg);
+          return {
+            id: pkg.identifier,
+            productId: pkg.product.identifier,
+            priceString: pkg.product.priceString,
+            price: pkg.product.price,
+            period: periodOf(pkg),
+          };
+        }),
+      );
     },
 
     async refreshEntitlement() {
