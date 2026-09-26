@@ -1,0 +1,233 @@
+{
+  "format": 2,
+  "date": "2026-09-27",
+  "dateKey": "09-27",
+  "slug": "champollion",
+  "title": "Champollion reads the hieroglyphs — Lettre à M. Dacier, 1822",
+  "eventId": "evt-09-27-1822-lettre-a-m-dacier",
+  "category": "Culture & Ideas",
+  "sources": [
+    "Wikipedia: Lettre à M. Dacier — 14 September 1822 breakthrough while visiting his brother; 'Je tiens l'affaire!' ('I've got it!') then fainted; 27 September 1822 presented to the Académie des Inscriptions et Belles-Lettres",
+    "Wikipedia: Jean-François Champollion — fluent in Coptic, which he rightly believed was the last stage of the ancient Egyptian language; many thought hieroglyphs were esoteric symbols that could not be deciphered; Thomas Young (London) read only some signs; breakthrough 14 September 1822 comparing texts from Abu Simbel; ran down the street to find his brother, yelled 'I've got it!' and collapsed; read the letter before the assembled Académie with Young present; congratulated by the audience including Young; relationship quickly deteriorated as Young felt denied credit",
+    "Wikipedia: Rosetta Stone — decree of 196 BC in hieroglyphic, Demotic and Greek; found in July 1799 by French soldiers during Napoleon's invasion of Egypt; script not understood since shortly before the fall of the Roman Empire, last known hieroglyphic inscription AD 394"
+  ],
+  "music": {
+    "track": "grieg-morning"
+  },
+  "highlight": [
+    "CHAMPOLLION",
+    "ROSETTA",
+    "STONE",
+    "HIEROGLYPHS",
+    "COPTIC",
+    "YOUNG",
+    "GOT",
+    "COLLAPSED",
+    "CREDIT",
+    "RIVAL",
+    "FOURTEEN"
+  ],
+  "cover": {
+    "image": "champollion.jpg",
+    "focus": "50% 30%",
+    "date": "27 SEPTEMBER 1822",
+    "lines": [
+      "THE MAN WHO",
+      "*READ*",
+      "*HIEROGLYPHS*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "On this day in eighteen twenty-two, a young Frenchman announced he could read a script lost for fourteen centuries.",
+      "show": "On this day in 1822, a young Frenchman announced he could read a script lost for fourteen centuries.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s2a",
+      "say": "Napoleon's soldiers had found the key in Egypt: the Rosetta Stone.",
+      "show": "Napoleon's soldiers had found the key in Egypt: the Rosetta Stone.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s2b",
+      "say": "One decree, in hieroglyphs, Demotic and Greek.",
+      "show": "One decree, in hieroglyphs, Demotic and Greek.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s3a",
+      "say": "Many thought hieroglyphs were mystic symbols no one could read.",
+      "show": "Many thought hieroglyphs were mystic symbols no one could read.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s3b",
+      "say": "In London, Thomas Young had worked out only a few signs.",
+      "show": "In London, Thomas Young had worked out only a few signs.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s4a",
+      "say": "But Jean-François Champollion spoke Coptic, the last form of the Egyptian language.",
+      "show": "But Jean-François Champollion spoke Coptic, the last form of the Egyptian language.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4b",
+      "say": "On the fourteenth of September, it clicked.",
+      "show": "On 14 September, it clicked.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s5",
+      "say": "He ran to find his brother, shouted, I've got it! And collapsed.",
+      "show": "He ran to find his brother, shouted “I've got it!” — and collapsed.",
+      "pauseAfter": 0.55
+    },
+    {
+      "id": "s6a",
+      "say": "Thirteen days later, he read his letter to the Academy in Paris.",
+      "show": "Thirteen days later, he read his letter to the Academy in Paris.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s6b",
+      "say": "In the audience sat his rival, Thomas Young.",
+      "show": "In the audience sat his rival, Thomas Young.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s7a",
+      "say": "Young congratulated him.",
+      "show": "Young congratulated him.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s7b",
+      "say": "Soon, they were quarrelling over who deserved the credit.",
+      "show": "Soon, they were quarrelling over who deserved the credit.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "scenes": [
+    {
+      "type": "title",
+      "image": "stone-museum.jpg",
+      "focus": "50% 45%",
+      "date": "27 SEPTEMBER",
+      "year": "1822",
+      "place": "Paris"
+    },
+    {
+      "type": "photo",
+      "from": "s2a",
+      "enter": "fade",
+      "image": "stone.jpg",
+      "focus": "50% 40%",
+      "move": "in",
+      "kicker": "Found in Egypt, 1799",
+      "line": "The *Rosetta Stone*",
+      "fact": {
+        "text": "Hieroglyphs · Demotic · Greek",
+        "at": "s2b@0.2"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s3a",
+      "enter": "fade",
+      "image": "relief.jpg",
+      "focus": "50% 45%",
+      "move": "up",
+      "kicker": "The riddle",
+      "line": "Mystic *symbols*?",
+      "fact": {
+        "text": "Many thought they could never be read",
+        "at": "s3a@0.5"
+      }
+    },
+    {
+      "type": "pair",
+      "from": "s3b",
+      "enter": "fade",
+      "kicker": "Two men, one riddle",
+      "a": {
+        "image": "young.jpg",
+        "focus": "50% 30%",
+        "name": "Thomas Young",
+        "role": "London"
+      },
+      "b": {
+        "image": "champollion.jpg",
+        "focus": "50% 28%",
+        "name": "J.-F. Champollion",
+        "role": "Spoke Coptic",
+        "at": "s4a@0.1"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s4b",
+      "enter": "cut",
+      "image": "letter-page.jpg",
+      "ghost": "14 SEPT",
+      "kicker": "14 September 1822",
+      "main": {
+        "text": "It *clicked*.",
+        "at": "s4b@0.5"
+      },
+      "fact": {
+        "text": "“I've got it!” — then he collapsed.",
+        "at": "s5@0.55"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s6a",
+      "enter": "fade",
+      "image": "letter-cover.jpg",
+      "focus": "50% 35%",
+      "move": "in",
+      "kicker": "27 September 1822",
+      "line": "Letter to *M. Dacier*",
+      "fact": {
+        "text": "Read aloud at the Académie, Paris",
+        "at": "s6a@0.5"
+      }
+    },
+    {
+      "type": "portrait",
+      "from": "s6b",
+      "enter": "fade",
+      "image": "young.jpg",
+      "focus": "50% 30%",
+      "kicker": "In the audience",
+      "date": {
+        "text": "His rival, Thomas Young",
+        "at": "s6b@0.5"
+      },
+      "line": {
+        "text": "He congratulated him",
+        "at": "s7a@0.2"
+      }
+    },
+    {
+      "type": "portrait",
+      "from": "s7b",
+      "enter": "fade",
+      "image": "champollion-egypt.jpg",
+      "focus": "50% 30%",
+      "kicker": "Soon after",
+      "line": {
+        "text": "A quarrel over *credit*",
+        "at": "s7b@0.6"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "For 1,400 years no one could read Egyptian hieroglyphs. Then one man ran down the street shouting “I've got it!” — and collapsed. 📜\n\nOn 27 September 1822, Jean-François Champollion read his letter to the Academy in Paris. His rival Thomas Young sat in the audience.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #historytok #egypt #hieroglyphs #rosettastone #champollion",
+    "facebook": "On this day in 1822, a young Frenchman announced he could read a script that had been lost for fourteen centuries.\n\nNapoleon's soldiers had found the key in Egypt in 1799: the Rosetta Stone, one decree carved in hieroglyphs, Demotic and Greek. Yet many scholars believed hieroglyphs were mystic symbols that could never be read. In London, Thomas Young had worked out only a few signs.\n\nJean-François Champollion had an edge: he spoke Coptic, the last stage of the ancient Egyptian language. On 14 September 1822 it clicked. He ran down the street to find his brother, shouted “I've got it!” — and collapsed.\n\nThirteen days later he read his Letter to M. Dacier before the Académie in Paris. In the audience sat his rival, Thomas Young, who congratulated him. Soon, the two were quarrelling over who deserved the credit.\n\nEvery day has a story like this. Follow the page to find out when our app comes out. 📜\n\n#OnThisDay #History #Egypt #Hieroglyphs"
+  }
+}

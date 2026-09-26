@@ -1,0 +1,82 @@
+{
+  "champollion.jpg": {
+    "file": "File:Jean-François Champollion, by Léon Cogniet.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jean-Fran%C3%A7ois_Champollion,_by_L%C3%A9on_Cogniet.jpg",
+    "licence": "Public domain",
+    "artist": "Léon Cogniet",
+    "date": "1831",
+    "description": "Jean-François Champollion"
+  },
+  "stone-museum.jpg": {
+    "file": "File:Rosetta stone.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Rosetta_stone.jpg",
+    "licence": "Public domain",
+    "artist": "No machine-readable author provided. Matijap assumed (based on copyright claims).",
+    "date": "20 July 2005 (original upload date)",
+    "description": "Description: The Rosetta Stone in British Museum Source: self-made Author: Matija Podhraški, December 2003"
+  },
+  "stone.jpg": {
+    "file": "File:The Rosetta Stone.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Rosetta_Stone.jpg",
+    "licence": "Public domain",
+    "artist": "Book: Sir Ernest Alfred Wallis (1857-1934) Photo: Donald Macbeth",
+    "date": "1922-02-17",
+    "description": "A photo of the Rosetta Stone taken from the book The Rosetta Stone (1922), a short work describing the history of the stone and how it was translated. The book was made by and sold in the British Museum for sixpence."
+  },
+  "young.jpg": {
+    "file": "File:Portrait of Thomas Young with printed autograph.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Thomas_Young_with_printed_autograph.jpg",
+    "licence": "Public domain",
+    "artist": "After Thomas Lawrence",
+    "date": "before 1830date QS:P571,+1830-00-00T00:0",
+    "description": "Portrait of Thomas Young (1773–1829), British scientist"
+  },
+  "relief.jpg": {
+    "file": "File:Egyptian - Temple Relief of Ptolemy II Philadelphos - Walters 228 - Side.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Egyptian_-_Temple_Relief_of_Ptolemy_II_Philadelphos_-_Walters_228_-_Side.jpg",
+    "licence": "Public domain",
+    "artist": "Anonymous (Egypt)Unknown author",
+    "date": "between circa 270 and circa 260 BC (Grec",
+    "description": "The outer face of this block shows the king behind an unnamed goddess, most probably Maat, holding an ankh (life sign). The inscription indicates he is offering the incense to his father, the sun-god Re. The king's near hand is raised in ad"
+  },
+  "letter-page.jpg": {
+    "file": "File:Jean-François Champollion - Lettre à M. Dacier relative à l'alphabet des hiéroglyphes phonétiques, p.54.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jean-Fran%C3%A7ois_Champollion_-_Lettre_%C3%A0_M._Dacier_relative_%C3%A0_l%27alphabet_des_hi%C3%A9roglyphes_phon%C3%A9tiques,_p.54.jpg",
+    "licence": "Public domain",
+    "artist": "Jean-François Champollion",
+    "date": "1822",
+    "description": "Letter to M. Dacier relating to the alphabet of phonetic hieroglyphs, page 54"
+  },
+  "letter-cover.jpg": {
+    "file": "File:Lettre à M. Dacier (1822).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lettre_%C3%A0_M._Dacier_(1822).jpg",
+    "licence": "Public domain",
+    "artist": "Librairie Firmin Didot",
+    "date": "1822",
+    "description": "Cover of the Letter to Mr. Dacier in its 1822 edition."
+  },
+  "champollion-egypt.jpg": {
+    "file": "File:Jean-Francois Champollion 1828 29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jean-Francois_Champollion_1828_29.jpg",
+    "licence": "Public domain",
+    "artist": "Giuseppe Angelelli",
+    "date": "1828date QS:P571,+1828-00-00T00:00:00Z/9",
+    "description": ""
+  },
+  "bonaparte.jpg": {
+    "file": "File:Bonaparte ante la Esfinge, por Jean-Léon Gérôme.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bonaparte_ante_la_Esfinge,_por_Jean-L%C3%A9on_G%C3%A9r%C3%B4me.jpg",
+    "licence": "Public domain",
+    "artist": "Jean-Léon Gérôme",
+    "date": "1886date QS:P571,+1886-00-00T00:00:00Z/9",
+    "description": ""
+  },
+  "cartouche.jpg": {
+    "file": "File:Egyptian - Temple Relief Fragment of Ptolemy II Offering Incense - Walters 22176.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Egyptian_-_Temple_Relief_Fragment_of_Ptolemy_II_Offering_Incense_-_Walters_22176.jpg",
+    "licence": "Public domain",
+    "artist": "Anonymous (Egypt)Unknown author",
+    "date": "between 285 and 246 BC (Greco-Roman)",
+    "description": "Wearing the shuty, or \"double plumes\" headdress, the king was once shown burning incense to a now-missing deity. Oval cartouches, elliptically shaped coils of rope used to mark royal names, record Ptolemy II's name in hieroglyphs, while his"
+  }
+}

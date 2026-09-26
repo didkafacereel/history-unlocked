@@ -25,5 +25,14 @@
     "category": "Military & Conflict",
     "music": "beethoven-moonlight-1",
     "seconds": 59
+  },
+  {
+    "date": "2026-09-27",
+    "slug": "champollion",
+    "title": "Champollion reads the hieroglyphs — Lettre à M. Dacier, 1822",
+    "eventId": "evt-09-27-1822-lettre-a-m-dacier",
+    "category": "Culture & Ideas",
+    "music": "grieg-morning",
+    "seconds": 61
   }
 ]

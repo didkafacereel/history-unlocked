@@ -13,6 +13,12 @@ else should be run: no `cd`, no PowerShell, no other programs. Read and write
 files only under `D:/android/history-unlocked/video/` (Read / Write / Edit
 tools).
 
+**Nobody is there to approve anything.** The first nightly run (26 Sep) sat
+for three hours on one permission prompt after fixing a too-long script. If a
+command would need approval, it is written in the wrong form: rewrite it as
+exactly `node D:/android/history-unlocked/video/tools/<tool>.mjs …` and run
+that instead. Never wait.
+
 ## Never
 
 - **Never publish, post, upload or send anything anywhere.** The video goes
@@ -170,7 +176,10 @@ node D:/android/history-unlocked/video/tools/make.mjs D:/android/history-unlocke
 
 It voices, times, mixes, composes and checks. It stops with a reason when:
 
-- **too long / too short** → cut or add words (it says how many), run again
+- **too long / too short** → cut or add words (it says how many), run again.
+  Cheapest first: take 0.1 s off three or four of the longest `pauseAfter`
+  values (never below 0.35), then make one sentence more concise. Only the
+  changed sentence is re-voiced. (27 Sep: 62.2 s → 61.4 s this way.)
 - **cue after the scene ends** → move the cue earlier or the scene later
 - **hyperframes check error** (overlap, overflow) → shorten the text, or pick
   another scene type; run again

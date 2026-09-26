@@ -1,0 +1,9 @@
+{
+  "name": "day-2026-09-27-champollion",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "make": "node ../tools/make.mjs .",
+    "preview": "npx --yes hyperframes@0.8.72 preview"
+  }
+}

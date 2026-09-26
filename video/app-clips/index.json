@@ -31,5 +31,16 @@
     "video": "2026-09-26-petrov.mp4",
     "poster": "2026-09-26-petrov.jpg",
     "bytes": 1912177
+  },
+  {
+    "date": "2026-09-27",
+    "dateKey": "09-27",
+    "slug": "champollion",
+    "eventId": "evt-09-27-1822-lettre-a-m-dacier",
+    "title": "Champollion reads the hieroglyphs — Lettre à M. Dacier, 1822",
+    "seconds": 54.1,
+    "video": "2026-09-27-champollion.mp4",
+    "poster": "2026-09-27-champollion.jpg",
+    "bytes": 3664499
   }
 ]

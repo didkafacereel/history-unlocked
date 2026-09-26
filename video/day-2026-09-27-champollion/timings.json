@@ -1,0 +1,89 @@
+{
+  "total": 60.979,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "On this day in 1822, a young Frenchman announced he could read a script lost for fourteen centuries.",
+      "start": 0.4,
+      "end": 7.781
+    },
+    {
+      "id": "s2a",
+      "show": "Napoleon's soldiers had found the key in Egypt: the Rosetta Stone.",
+      "start": 8.281,
+      "end": 13.081
+    },
+    {
+      "id": "s2b",
+      "show": "One decree, in hieroglyphs, Demotic and Greek.",
+      "start": 13.431,
+      "end": 16.781
+    },
+    {
+      "id": "s3a",
+      "show": "Many thought hieroglyphs were mystic symbols no one could read.",
+      "start": 17.231,
+      "end": 21.561
+    },
+    {
+      "id": "s3b",
+      "show": "In London, Thomas Young had worked out only a few signs.",
+      "start": 22.011,
+      "end": 25.766
+    },
+    {
+      "id": "s4a",
+      "show": "But Jean-François Champollion spoke Coptic, the last form of the Egyptian language.",
+      "start": 26.116,
+      "end": 32.111
+    },
+    {
+      "id": "s4b",
+      "show": "On 14 September, it clicked.",
+      "start": 32.511,
+      "end": 35.092
+    },
+    {
+      "id": "s5",
+      "show": "He ran to find his brother, shouted “I've got it!” — and collapsed.",
+      "start": 35.442,
+      "end": 39.751
+    },
+    {
+      "id": "s6a",
+      "show": "Thirteen days later, he read his letter to the Academy in Paris.",
+      "start": 40.301,
+      "end": 44.739
+    },
+    {
+      "id": "s6b",
+      "show": "In the audience sat his rival, Thomas Young.",
+      "start": 45.139,
+      "end": 47.997
+    },
+    {
+      "id": "s7a",
+      "show": "Young congratulated him.",
+      "start": 48.447,
+      "end": 50.303
+    },
+    {
+      "id": "s7b",
+      "show": "Soon, they were quarrelling over who deserved the credit.",
+      "start": 50.803,
+      "end": 53.939
+    },
+    {
+      "id": "end1",
+      "show": "Every day has a story like this.",
+      "start": 54.539,
+      "end": 56.907
+    },
+    {
+      "id": "end2",
+      "show": "Subscribe, to find out when our app comes out.",
+      "start": 57.257,
+      "end": 60.479
+    }
+  ]
+}
