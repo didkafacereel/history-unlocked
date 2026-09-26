@@ -92,6 +92,84 @@ const ICONS: Record<EventCategory, string> = {
   'Nations & Empires': '🗿',
 };
 
+/**
+ * A bracket counts as a transcription when it holds a character only IPA uses:
+ * the IPA Extensions and Spacing Modifier blocks (ʁ ə ɑ ˈ ː …) plus the few
+ * Latin letters IPA borrows. Accented Latin alone is not enough — "[sic]" and
+ * "[Fr. château]" are editorial and stay.
+ */
+const IPA_CHAR = /[ɐ-˿ᴀ-ᶿæðøœθŋχβ]/;
+
+const IPA_BRACKET = /(,?\s*(?:pronounced|(?:[A-Z][\w-]* )?pronunciation:))?\s*\[([^[\]]*)\]/g;
+
+/**
+ * Wikipedia wrote "(German pronunciation: [ɪntɛliˈɡɛnt͡s.akˌt͡sjoːn] was a
+ * series…" and never closed the bracket. Removing the transcription leaves
+ * "( was", so an opener whose only content was the transcription, with no
+ * closing bracket before the sentence ends, goes with it.
+ */
+const ORPHAN_OPENER =
+  /\s*\((?:[A-Z][\w-]*(?: [\w-]+)?:\s*|pronounced\s+)?\[([^[\]]*)\]\s*(?=\w[^()]*?(?:[.!?](?:\s|$)|$))/g;
+
+/** "UK:", "Norwegian:" — a language label left holding nothing. */
+const EMPTY_LABEL = /(?<=[(;,]\s*)[A-Za-z][\w-]*(?: [A-Za-z][\w-]*)?:\s*(?=[,;)]|$)/g;
+
+/**
+ * Strip what the pronunciation templates leave in a plain-text extract.
+ *
+ * The REST extract drops the audio and respelling templates but keeps their
+ * punctuation, so a lead sentence arrives as "Roald Amundsen (UK: , US: ;
+ * Norwegian: [ˈrùːɑɫ ˈɑ̂mʉnsən] ; 16 July 1872 – …)". That opens the lead card.
+ *
+ * Removes transcriptions and the labels that introduced them, then the empty
+ * labels and stray separators they leave, then any bracket left empty. Every
+ * parenthetical with words in it survives: "born Alexander Bell", the dates,
+ * "German: Reichstagsbrand", "French: Prise de la Bastille".
+ */
+export function stripPronunciation(text: string): string {
+  const isIpa = (inner: string) => IPA_CHAR.test(inner);
+  const out = text
+    .replace(ORPHAN_OPENER, (m: string, inner: string) => (isIpa(inner) ? ' ' : m))
+    .replace(IPA_BRACKET, (m: string, _label: string | undefined, inner: string) =>
+      isIpa(inner) ? '' : m,
+    )
+    .replace(EMPTY_LABEL, '')
+    .replace(/\((?:\s*[,;])+\s*/g, '(')
+    .replace(/(?:\s*[,;])+\s*\)/g, ')')
+    // "Sumqayit; ; is a city", "Empress Maud,, or Athelicia": what stood
+    // between them was an aside, and a comma is what an aside leaves behind.
+    .replace(/\s*[,;](?:\s*[,;])+/g, ',')
+    .replace(/\s*\(\s*\)/g, '');
+  return dropStrayClosers(out).replace(/ {2,}/g, ' ').trim();
+}
+
+/**
+ * "The Goiânia accident ), also known…" — the template took its own opening
+ * bracket and left the closing one. Only a closer with whitespace before it
+ * and nothing open to close is removed; "1)" in a list keeps its bracket.
+ */
+function dropStrayClosers(text: string): string {
+  let depth = 0;
+  let out = '';
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
+    if (ch === '(') depth++;
+    if (ch === ')') {
+      if (depth > 0) {
+        depth--;
+        // A space before a closer that does close something is the template's
+        // too: "Reichstagsbrand )".
+        out = out.trimEnd();
+      } else if (/\s$/.test(out)) {
+        out = out.trimEnd();
+        continue;
+      }
+    }
+    out += ch;
+  }
+  return out;
+}
+
 const TITLE_MAX = 90;
 
 /**
@@ -297,16 +375,21 @@ function eventId(candidate: EventCandidate, dateKey: string): string {
 
 /** Assemble the event object; the caller validates it through the Zod schema. */
 export function liteEventFrom(candidate: EventCandidate, dateKey: string, image: LiteImage) {
-  const category = categoryFor(candidate.summary);
+  // Cleaned once, here, because the title, the facts and the stored summary
+  // are all cut from these two strings. A cornerstone's summary is the
+  // extract's first sentence, so it carries the same markup.
+  const summary = stripPronunciation(candidate.summary);
+  const extract = stripPronunciation(candidate.extract);
+  const category = categoryFor(summary);
   const icon = ICONS[category];
 
-  let facts = factsFromText(candidate.extract, icon);
+  let facts = factsFromText(extract, icon);
   if (facts.length === 0) {
-    facts = factsFromText(candidate.summary.replace(/\s*\(pictured\)/gi, ''), icon, 1);
+    facts = factsFromText(summary.replace(/\s*\(pictured\)/gi, ''), icon, 1);
   }
   if (facts.length === 0) {
     // Extremely short entry: the summary itself, hard-trimmed, is still a fact.
-    facts = [{ id: 'f1', icon, text: candidate.summary.slice(0, FACT_MAX) }];
+    facts = [{ id: 'f1', icon, text: summary.slice(0, FACT_MAX) }];
   }
 
   return {
@@ -315,9 +398,9 @@ export function liteEventFrom(candidate: EventCandidate, dateKey: string, image:
     year: candidate.year,
     era: eraForYear(candidate.year),
     category,
-    sensitivity: sensitivityFor(`${candidate.summary} ${candidate.extract}`),
+    sensitivity: sensitivityFor(`${summary} ${extract}`),
     ...(candidate.cornerstone ? { cornerstone: true } : {}),
-    title: titleFromSummary(candidate.summary),
+    title: titleFromSummary(summary),
     region: candidate.description ?? candidate.wikiTitle,
     wikiTitle: candidate.wikiTitle,
     coordinates: candidate.coordinates,
@@ -326,7 +409,7 @@ export function liteEventFrom(candidate: EventCandidate, dateKey: string, image:
     imageSourceUrl: image.sourceUrl,
     imageAspect: image.aspect,
     textCredit: 'Text: Wikipedia · CC BY-SA 4.0',
-    summary: candidate.extract.trim() || undefined,
+    summary: extract || undefined,
     facts,
     quizPool: [],
   };
