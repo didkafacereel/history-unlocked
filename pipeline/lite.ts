@@ -13,6 +13,7 @@
  * When the LLM pass later runs for the same date, it replaces these entries.
  */
 import { EventCategory, FactBlock } from '../src/types/manifest';
+import { shortHeadline, TITLE_MAX } from './headline';
 import { EventCandidate } from './onthisday';
 
 type Era = 'Ancient' | 'Classical' | 'Medieval' | 'Early Modern' | 'Industrial' | 'Modern';
@@ -100,7 +101,19 @@ const ICONS: Record<EventCategory, string> = {
  */
 const IPA_CHAR = /[ɐ-˿ᴀ-ᶿæðøœθŋχβ]/;
 
-const IPA_BRACKET = /(,?\s*(?:pronounced|(?:[A-Z][\w-]* )?pronunciation:))?\s*\[([^[\]]*)\]/g;
+/**
+ * The transcription, with any label before it and any lowercase respelling
+ * after it: "Nguyễn Phú Trọng (Vietnamese: [ŋwiən˦ˀ˥ …] new-yen foo chong;".
+ */
+const IPA_BRACKET =
+  /(,?\s*(?:pronounced|(?:[A-Z][\w-]* )?pronunciation:))?\s*\[([^[\]]*)\](?: [a-z]+-[a-z]+(?:[ -][a-z]+)*(?=[;,)]))?/g;
+
+/**
+ * An English transcription between slashes: "Jiddu Krishnamurti (pronounced
+ * /ˈdʒɪduː ˌkrɪʃnəˈmʊərti/; 11 May 1895". Standalone slashes only, so
+ * "and/or" and "km/h" never match.
+ */
+const IPA_SLASHES = /(,?\s*pronounced)?\s*(?<![\w/])\/([^/]{1,80})\/(?![\w/])/g;
 
 /**
  * Wikipedia wrote "(German pronunciation: [ɪntɛliˈɡɛnt͡s.akˌt͡sjoːn] was a
@@ -111,8 +124,158 @@ const IPA_BRACKET = /(,?\s*(?:pronounced|(?:[A-Z][\w-]* )?pronunciation:))?\s*\[
 const ORPHAN_OPENER =
   /\s*\((?:[A-Z][\w-]*(?: [\w-]+)?:\s*|pronounced\s+)?\[([^[\]]*)\]\s*(?=\w[^()]*?(?:[.!?](?:\s|$)|$))/g;
 
-/** "UK:", "Norwegian:" — a language label left holding nothing. */
-const EMPTY_LABEL = /(?<=[(;,]\s*)[A-Za-z][\w-]*(?: [A-Za-z][\w-]*)?:\s*(?=[,;)]|$)/g;
+/** "UK:", "Latin American Spanish:" — a language label left holding nothing. */
+const EMPTY_LABEL = /(?<=[(;,]\s*)[A-Za-z][\w-]*(?: [A-Za-z][\w-]*){0,2}:\s*(?=[,;)]|$)/g;
+
+/**
+ * Labels that only ever introduce an English pronunciation: "UK:", "US also",
+ * "also US:", "English:", "commonly". A native name has its language instead.
+ */
+const RESPELL_LABEL = /^\s*(?:(?:also|or|commonly)\s+)?(?:(?:UK|US|English)(?::|\s+also\b:?)\s*)?(?:(?:also|or|commonly)\b\s*)?/;
+
+/** The respell template joins a continuation to its hyphen: "-mahn". */
+const WORD_JOINER = /\u2060/g;
+
+/**
+ * Hyphen words whose caps part is an acronym and not a stressed syllable:
+ * "KGB-backed", "pro-EU", "anti-NATO".
+ */
+const ACRONYM_COMPOUND =
+  /^(?:pro|anti|non|post|pre|ex|neo|sub|mid|inter|trans|pan|ultra|semi|multi|cross)-|-(?:led|backed|based|born|era|style|type|class|owned|run|made|like|wide|free|level|related|speaking|controlled|dominated|occupied|funded|affiliated|aligned|allied|era)$/;
+
+/**
+ * "SHAR-lə-mayn", "GA(H)N-dee", "MEER-": every syllable wholly upper or wholly
+ * lower case. Real words are Capitalised, so "II-Birkenau", "All-NBA" and
+ * "Waffen-SS" fail.
+ */
+function isUniformHyphenWord(word: string): boolean {
+  const parts = word.replace(WORD_JOINER, '').split('-');
+  return parts.length > 1 && parts.every((p) => /^[a-zə()]*$/.test(p) || /^[A-Z()]*$/.test(p));
+}
+
+/** A word only a respelling or a bare transcription would contain. */
+function isStrongRespelling(word: string, gap: boolean): boolean {
+  if (/\u2060/.test(word)) return true;
+  // A bare or /slashed/ transcription: IPA letters, never capitals.
+  if (/[ɐ-ʯˈˌː]/.test(word) && !/[A-Z]/.test(word)) return true;
+  // "YAY", "BRA(H)K": one stressed syllable, told from an acronym by the gap.
+  if (/^[A-Z]{2,}$/.test(word.replace(/[()]/g, ''))) return gap;
+  // A stressed syllable in capitals next to an unstressed one in lower case,
+  // or a fragment ("MEER-"); all capitals is an acronym: "TNI-AD", "EBR-I".
+  return (
+    isUniformHyphenWord(word) &&
+    /[A-Z]{2,}/.test(word.replace(/[()]/g, '')) &&
+    (/[a-zə]/.test(word) || /^-|-$/.test(word)) &&
+    !ACRONYM_COMPOUND.test(word.toLowerCase())
+  );
+}
+
+/** "lə", "von", "or", "-": the small words between stressed syllables. */
+function isRespellingWord(word: string, gap: boolean): boolean {
+  return (
+    isStrongRespelling(word, gap) ||
+    /^[a-zə]{1,8}$/.test(word) ||
+    /^[-\u2060]+$/.test(word) ||
+    /^[A-Z]{2,}$/.test(word) ||
+    isUniformHyphenWord(word)
+  );
+}
+
+/**
+ * One item between separators in a parenthetical, or '' if it was a
+ * respelling. `open` says the item may be one: it sits in the lead
+ * parenthetical, in one opened by the gap an audio link left, or after a
+ * pronunciation label.
+ */
+function dropRespellingItem(item: string, open: boolean, gap: boolean): string {
+  const label = RESPELL_LABEL.exec(item)?.[0] ?? '';
+  const rest = item.slice(label.length).trim();
+  // "Piet Mondrian (, US also ;", "Anne Brontë (, commonly ;": the label
+  // outlived its respelling.
+  if (rest === '' && /also|commonly|:/.test(label)) return '';
+  if (!open && !/\b(?:UK|US|English)\b/.test(label)) return item;
+
+  const words = rest.split(/\s+/);
+  if (words.every((w) => isRespellingWord(w, gap))) {
+    if (words.some((w) => isStrongRespelling(w, gap))) return '';
+    // "Luigi Galvani ( gal-VAH-nee, US also gahl-;": unstressed, but labelled.
+    if (/\b(?:UK|US)\b/.test(label) && words.some((w) => w.includes('-'))) return '';
+  }
+  // "Dr. Seuss ( sooss, zooss)", "Thomas Browne ( "brown";": a one-syllable
+  // respelling has no capitals, so only the gap says what it is.
+  if (gap && words.length === 1 && /^["“]?[a-z]{2,8}["”]?$/.test(words[0]!)) return '';
+  // "born Kanye Omari West KAHN-yay oh-MAH-ree": a respelling after the name.
+  let keep = words.length;
+  while (keep > 1 && words[keep - 1]!.includes('-') && isStrongRespelling(words[keep - 1]!, false)) keep--;
+  if (keep === words.length) return item;
+  return item.slice(0, item.lastIndexOf(words[keep - 1]!) + words[keep - 1]!.length);
+}
+
+/**
+ * The respell template ("kam-OO", "KROH-bər lə GWIN") comes through the
+ * extract as plain words, usually after a gap where its audio link was: "Albert
+ * Camus ( kam-OO; French: …". Each top-level parenthetical is split at its
+ * separators and any item that is wholly a respelling goes; the separators it
+ * leaves are collapsed with the rest.
+ */
+function dropRespellings(text: string): string {
+  let out = '';
+  let from = 0;
+  let lead = true;
+  for (let open = text.indexOf('(', from); open >= 0; open = text.indexOf('(', from)) {
+    let depth = 1;
+    let close = open + 1;
+    for (; close < text.length && depth > 0; close++) {
+      if (text[close] === '(') depth++;
+      if (text[close] === ')') depth--;
+    }
+    const end = depth === 0 ? close - 1 : text.length;
+    const inner = text.slice(open + 1, end);
+    const gap = /^[\s,;]/.test(inner);
+
+    const items: string[] = [];
+    // "Raphael (UK: RAF-ay-əl, US: RAF-ee-əl, RAY-fee-, RAH-fy-EL)": after one
+    // respelling the next item may be another, label or not.
+    let after = false;
+    const drop = (text: string) => {
+      const kept = dropRespellingItem(text, lead || gap || after, gap);
+      after = kept === '' && text.trim() !== '';
+      return kept;
+    };
+    let item = '';
+    let level = 0;
+    for (const ch of inner) {
+      if (ch === '(') level++;
+      if (ch === ')') level--;
+      if (level === 0 && (ch === ';' || ch === ',')) {
+        items.push(drop(item), ch);
+        item = '';
+      } else {
+        item += ch;
+      }
+    }
+    items.push(drop(item));
+
+    out += text.slice(from, open + 1) + items.join('');
+    from = end;
+    lead = false;
+  }
+  return out + text.slice(from);
+}
+
+/**
+ * "Sumqayit; ; is a city", "Empress Maud,, or Athelicia": what stood between
+ * them was an aside, and a comma is what an aside leaves behind. Inside a
+ * bracket the groups were semicolon-separated, so "Róża Luksemburg ; ; 5 March
+ * 1871" keeps its semicolon.
+ */
+function collapseSeparators(text: string): string {
+  return text.replace(/\s*[,;](?:\s*[,;])+/g, (run: string, at: number) => {
+    const before = text.slice(0, at);
+    const inside = (before.match(/\(/g)?.length ?? 0) > (before.match(/\)/g)?.length ?? 0);
+    return inside && run.includes(';') ? ';' : ',';
+  });
+}
 
 /**
  * Strip what the pronunciation templates leave in a plain-text extract.
@@ -121,24 +284,32 @@ const EMPTY_LABEL = /(?<=[(;,]\s*)[A-Za-z][\w-]*(?: [A-Za-z][\w-]*)?:\s*(?=[,;)]
  * punctuation, so a lead sentence arrives as "Roald Amundsen (UK: , US: ;
  * Norwegian: [ˈrùːɑɫ ˈɑ̂mʉnsən] ; 16 July 1872 – …)". That opens the lead card.
  *
- * Removes transcriptions and the labels that introduced them, then the empty
- * labels and stray separators they leave, then any bracket left empty. Every
- * parenthetical with words in it survives: "born Alexander Bell", the dates,
- * "German: Reichstagsbrand", "French: Prise de la Bastille".
+ * Removes transcriptions and the labels that introduced them, then English
+ * respellings, then the empty labels and stray separators they leave, then any
+ * bracket left empty. Every parenthetical with words in it survives: "born
+ * Alexander Bell", the dates, "German: Reichstagsbrand", "French: Prise de la
+ * Bastille".
  */
 export function stripPronunciation(text: string): string {
   const isIpa = (inner: string) => IPA_CHAR.test(inner);
-  const out = text
-    .replace(ORPHAN_OPENER, (m: string, inner: string) => (isIpa(inner) ? ' ' : m))
-    .replace(IPA_BRACKET, (m: string, _label: string | undefined, inner: string) =>
-      isIpa(inner) ? '' : m,
+  const out = collapseSeparators(
+    dropRespellings(
+      text
+        .replace(ORPHAN_OPENER, (m: string, inner: string) => (isIpa(inner) ? ' ' : m))
+        .replace(IPA_BRACKET, (m: string, _label: string | undefined, inner: string) =>
+          isIpa(inner) ? '' : m,
+        )
+        .replace(IPA_SLASHES, (m: string, _label: string | undefined, inner: string) =>
+          isIpa(inner) ? '' : m,
+        ),
     )
-    .replace(EMPTY_LABEL, '')
-    .replace(/\((?:\s*[,;])+\s*/g, '(')
-    .replace(/(?:\s*[,;])+\s*\)/g, ')')
-    // "Sumqayit; ; is a city", "Empress Maud,, or Athelicia": what stood
-    // between them was an aside, and a comma is what an aside leaves behind.
-    .replace(/\s*[,;](?:\s*[,;])+/g, ',')
+      .replace(EMPTY_LABEL, '')
+      // "Daniel Defoe ( c. 1660": an opener followed by space is always a gap.
+      .replace(/\((?:\s*[,;])*\s*/g, '(')
+      .replace(/(?:\s*[,;])+\s*\)/g, ')'),
+  )
+    // "Балакирев ; 2 January": the space belonged to the transcription.
+    .replace(/ +(?=[,;])/g, '')
     .replace(/\s*\(\s*\)/g, '');
   return dropStrayClosers(out).replace(/ {2,}/g, ' ').trim();
 }
@@ -170,96 +341,21 @@ function dropStrayClosers(text: string): string {
   return out;
 }
 
-const TITLE_MAX = 90;
-
-/**
- * Words a headline must never end on — the reader is left waiting for the rest.
- *
- * Only words that CANNOT close a clause. "over", "under", "before" and "after"
- * were in an earlier version of this list and had to come out: "the Sierra
- * Leone Civil War is declared over" and "to keep the Leaning Tower of Pisa from
- * toppling over" are finished sentences, and trimming them produced nonsense.
- *
- * Lower case only, too: case-insensitively this ate the "A" from "MV Karine A",
- * the ship's name, because "a" is an article.
- */
-const DANGLING =
-  /\s+(and|or|but|nor|the|a|an|of|in|on|at|to|from|with|by|for|as|its|his|her|their|our|into|onto|which|that|whose|than)$/;
-
-/**
- * Tidy a cut so it reads as a finished phrase.
- *
- * Two failures, both of them visible on 57 cards before this existed. An
- * opening bracket whose partner fell off the end left "Francisco Pizarro
- * founded Ciudad de los Reyes (present-day Lima" on screen; cutting at a comma
- * that happened to follow a conjunction left "…resigns as leader of the
- * Conservative Party and".
- */
-function tidyCut(text: string): string {
-  let out = text.trim();
-
-  for (const [open, close] of [
-    ['(', ')'],
-    ['[', ']'],
-  ] as const) {
-    let depth = 0;
-    let openedAt = -1;
-    for (let i = 0; i < out.length; i++) {
-      if (out[i] === open) {
-        if (depth === 0) openedAt = i;
-        depth++;
-      } else if (out[i] === close) {
-        depth = Math.max(0, depth - 1);
-        if (depth === 0) openedAt = -1;
-      }
-    }
-    // A bracket still open at the end means the parenthetical was cut in half.
-    // Drop it entirely: the words before it are the headline.
-    if (depth > 0 && openedAt >= 0) {
-      out = out.slice(0, openedAt).trim();
-    }
-  }
-
-  out = out.replace(/[,;:–—-]+$/, '').trim();
-  while (DANGLING.test(out)) {
-    out = out.replace(DANGLING, '').replace(/[,;:]+$/, '');
-  }
-  return out.trim();
-}
+// The headline rules (90 characters, what may be cut and what may not) live in
+// ./headline.ts, shared with repair-truncated-titles.ts.
 
 /**
  * The feed's summary is a full sentence; the card wants a headline. Prefer
  * cutting at a clause boundary so the result still reads as a phrase.
  */
 export function titleFromSummary(summary: string): string {
-  const clean = summary
-    .replace(/\s*\(pictured\)/gi, '')
-    .replace(/\s+/g, ' ')
-    .trim()
-    .replace(/[.]+$/, '');
-  // `|| clean` because tidying can empty a scrap like "(" and the schema wants
-  // at least one character. An EMPTY summary still yields an empty title, on
-  // purpose: that event has no content, and the Zod gate at publish should say
-  // so rather than have this invent a headline.
-  if (clean.length <= TITLE_MAX) return tidyCut(clean) || clean;
-
-  const head = clean.slice(0, TITLE_MAX);
-  const boundary = Math.max(
-    head.lastIndexOf(', '),
-    head.lastIndexOf('; '),
-    head.lastIndexOf(' — '),
-    head.lastIndexOf(' – '),
-  );
-  if (boundary > 40) {
-    const cut = tidyCut(head.slice(0, boundary));
-    // Only if tidying left enough to be a headline; otherwise fall through to
-    // the word-boundary cut below, which keeps more of the sentence.
-    if (cut.length > 40) return cut;
-  }
-
-  const space = head.lastIndexOf(' ', TITLE_MAX - 2);
-  const cut = tidyCut(head.slice(0, space > 40 ? space : TITLE_MAX - 1));
-  return `${cut}…`;
+  // Delegated since 26 September: the plain 90-character cut left 44% of the
+  // archive ending in "…". `shortHeadline` removes parentheticals, a leading
+  // context label, appositives and trailing subordinate clauses first, and cuts
+  // at a word only when nothing else fits — see pipeline/headline.ts. An EMPTY
+  // summary still yields an empty title, on purpose: that event has no content,
+  // and the Zod gate at publish should say so rather than have this invent one.
+  return shortHeadline(summary, TITLE_MAX);
 }
 
 /**

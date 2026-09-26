@@ -94,3 +94,6 @@ firebase/.firebase/
 # Google Cloud service-account keys (RevenueCat, etc.) — secrets, never in the repo or an EAS upload
 history-unlocked-fa9a9-*.json
 *service-account*.json
+
+# re-fetchable Wikimedia feed sentences (repair-truncated-titles.ts)
+pipeline/.feed-cache/

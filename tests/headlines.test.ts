@@ -28,21 +28,22 @@ describe('titleFromSummary', () => {
     expect(out).not.toMatch(/\($/);
   });
 
-  it('drops a parenthetical it cannot finish rather than half-printing it', () => {
-    // No closing bracket inside the 90-char window, so the whole aside goes.
+  it('drops a parenthetical that would not fit, and keeps the sentence whole', () => {
+    // Was "The Reichstag fire…" until 26 September: the aside was cut with
+    // everything after it. Removing the aside is the first thing a too-long
+    // headline gives up now (pipeline/headline.ts), and the sentence survives.
     const out = titleFromSummary(
       'The Reichstag fire (German: Reichstagsbrand, pronounced approximately as raikhstahks-brahnt by German speakers) was an arson attack.',
     );
-    // The ellipsis stays: something really was cut, and saying so is honest.
-    expect(out).toBe('The Reichstag fire…');
+    expect(out).toBe('The Reichstag fire was an arson attack');
   });
 
-  it('keeps a parenthetical that does close in time', () => {
+  it('gives up an aside before it gives up the sentence', () => {
     const out = titleFromSummary(
       'The Reichstag fire (German: Reichstagsbrand) was an arson attack on the Reichstag building, home of the German parliament.',
     );
     expect(brackets(out)).toBe(true);
-    expect(out).toContain('(German: Reichstagsbrand)');
+    expect(out).toBe('The Reichstag fire was an arson attack on the Reichstag building');
   });
 
   it('never ends on a conjunction', () => {
