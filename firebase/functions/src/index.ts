@@ -1,3 +1,5 @@
+import { timingSafeEqual } from 'node:crypto';
+
 import { initializeApp } from 'firebase-admin/app';
 import { getAuth } from 'firebase-admin/auth';
 import { defineSecret } from 'firebase-functions/params';
@@ -59,6 +61,13 @@ const REVENUECAT_WEBHOOK_SECRET = defineSecret('REVENUECAT_WEBHOOK_SECRET');
  *   firebase functions:secrets:set REVIEW_EMAILS
  */
 const REVIEW_EMAILS = defineSecret('REVIEW_EMAILS');
+
+/** Constant-time comparison, so response timing says nothing about how much of a guess was right. */
+function sameSecret(given: string, expected: string): boolean {
+  const a = Buffer.from(given);
+  const b = Buffer.from(expected);
+  return a.length === b.length && timingSafeEqual(a, b);
+}
 
 function send(res: Response, status: number, body: unknown): void {
   res.status(status).json(body);
@@ -306,8 +315,13 @@ export const api = onRequest(
 export const revenuecat = onRequest(
   { region: REGION, maxInstances: 5, secrets: [REVENUECAT_WEBHOOK_SECRET] },
   async (req, res) => {
-    const expected = REVENUECAT_WEBHOOK_SECRET.value();
-    if (!expected || req.get('authorization') !== `Bearer ${expected}`) {
+    // Trimmed on both sides: the secret was first stored with a Windows line
+    // ending on it, which no pasted header can ever match — every event came
+    // back 401 with the right password. "Bearer " is optional for the same
+    // reason: it is the part people drop when pasting.
+    const expected = REVENUECAT_WEBHOOK_SECRET.value().trim();
+    const given = (req.get('authorization') ?? '').trim().replace(/^Bearer\s+/i, '');
+    if (!expected || !sameSecret(given, expected)) {
       // 401 rather than 403, and no detail: an endpoint that explains why a
       // secret was wrong is an endpoint that helps someone guess it.
       send(res, 401, { error: 'unauthenticated' });
