@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-19T23:21:48.890Z",
+  "generatedAt": "2026-09-26T21:12:48.052Z",
   "events": [
     {
       "id": "evt-09-20-1066-harald-hardrada",
@@ -504,7 +504,7 @@
       "dateKey": "09-20",
       "year": 1920,
       "era": "Modern",
-      "title": "Irish War of Independence: British auxiliary police officers known as Black and Tans…",
+      "title": "British auxiliary police officers known as Black and Tans went on a rampage in Balbriggan",
       "region": "1919–1921 war between Irish and British forces",
       "category": "Military & Conflict",
       "sensitivity": "standard",
@@ -672,7 +672,7 @@
       "dateKey": "09-20",
       "year": 1971,
       "era": "Modern",
-      "title": "Hurricane Irene (satellite image pictured) moved into the Pacific Ocean from the…",
+      "title": "Hurricane Irene moved into the Pacific Ocean from the Atlantic",
       "region": "Category 3 Atlantic and Pacific hurricane in 1971",
       "category": "Disaster & Tragedy",
       "sensitivity": "standard",
@@ -869,7 +869,7 @@
       "dateKey": "09-20",
       "year": 1997,
       "era": "Modern",
-      "title": "Hurricane Erika, the strongest and longest-lasting hurricane of the 1997 Atlantic…",
+      "title": "Hurricane Erika dissipated after causing flooding and power outages throughout Puerto Rico",
       "region": "1997 Atlantic hurricane season",
       "category": "Disaster & Tragedy",
       "sensitivity": "standard",
@@ -1417,7 +1417,7 @@
       "dateKey": "09-21",
       "year": 1776,
       "era": "Early Modern",
-      "title": "American Revolutionary War: The Great Fire of New York (depicted) broke out during the…",
+      "title": "The Great Fire of New York broke out during the British occupation of New York City",
       "region": "1775–1783 conflict in North America",
       "category": "Military & Conflict",
       "sensitivity": "standard",
@@ -1550,7 +1550,7 @@
       "dateKey": "09-21",
       "year": 1918,
       "era": "Modern",
-      "title": "World War I: The Battle of Nazareth ended with the British Empire victorious over the…",
+      "title": "The Battle of Nazareth ended with the British Empire victorious over the Ottomans",
       "region": "Global conflict from 1914 to 1918",
       "category": "Military & Conflict",
       "sensitivity": "standard",
@@ -2397,7 +2397,7 @@
       "dateKey": "09-21",
       "year": 2015,
       "era": "Modern",
-      "title": "Adventist Health System agreed to pay $118.7 million to settle allegations of fraud. It…",
+      "title": "Adventist Health System agreed to pay $118.7 million to settle allegations of fraud",
       "region": "American health care system",
       "category": "Culture & Ideas",
       "sensitivity": "standard",
@@ -2506,7 +2506,7 @@
       "dateKey": "09-21",
       "year": 2019,
       "era": "Modern",
-      "title": "A 5.6 Mw earthquake shakes the Albanian port of Durrës. Forty-nine people are injured in…",
+      "title": "A 5.6 Mw earthquake shakes the Albanian port of Durrës",
       "region": "Earthquake in Northwestern Albania",
       "category": "Disaster & Tragedy",
       "sensitivity": "standard",
@@ -2692,7 +2692,7 @@
       "dateKey": "09-22",
       "year": 1869,
       "era": "Industrial",
-      "title": "Das Rheingold, the first of four operas in Der Ring des Nibelungen by the German…",
+      "title": "Das Rheingold was first performed in Munich",
       "region": "1869 opera by Richard Wagner",
       "category": "Culture & Ideas",
       "sensitivity": "standard",
@@ -2751,7 +2751,7 @@
       "dateKey": "09-22",
       "year": 1908,
       "era": "Industrial",
-      "title": "The de jure independence of Bulgaria",
+      "title": "Bulgaria declared full independence from the Ottoman Empire",
       "region": "Independence of Bulgaria",
       "category": "Nations & Empires",
       "sensitivity": "standard",
@@ -2880,7 +2880,7 @@
       "dateKey": "09-22",
       "year": 1934,
       "era": "Modern",
-      "title": "One of Britain's worst mining accidents took place when an explosion at Gresford…",
+      "title": "One of Britain's worst mining accidents took place",
       "region": "1934 coal mining disaster near Wrexham, Wales",
       "category": "Disaster & Tragedy",
       "sensitivity": "standard",
@@ -3066,7 +3066,7 @@
       "dateKey": "09-22",
       "year": 1965,
       "era": "Modern",
-      "title": "The Indo-Pakistani War of 1965 between India and Pakistan over Kashmir ends after the…",
+      "title": "The Indo-Pakistani War of 1965 between India and Pakistan over Kashmir ends",
       "region": "Armed conflict",
       "category": "Military & Conflict",
       "sensitivity": "standard",
@@ -3174,7 +3174,7 @@
       "dateKey": "09-22",
       "year": 1976,
       "era": "Modern",
-      "title": "Red Dye No. 4 is banned by the US Food and Drug Administration after it is discovered…",
+      "title": "Red Dye No. 4 is banned by the US Food and Drug Administration",
       "region": "Chemical compound",
       "category": "Science & Technology",
       "sensitivity": "standard",
@@ -4141,7 +4141,7 @@
       "dateKey": "09-23",
       "year": 1920,
       "era": "Modern",
-      "title": "The Louisiana hurricane dissipated over Kansas after forcing around 4,500 people to…",
+      "title": "The Louisiana hurricane dissipated over Kansas",
       "region": "Category 2 Atlantic hurricane",
       "category": "Disaster & Tragedy",
       "sensitivity": "standard",
@@ -4486,7 +4486,7 @@
       "dateKey": "09-23",
       "year": 1967,
       "era": "Modern",
-      "title": "Seven people die, 46 people are injured, and more than 150 boats capsize when a squall…",
+      "title": "Seven people die, 46 people are injured, and more than 150 boats capsize",
       "region": "Weather event in the United States",
       "category": "Culture & Ideas",
       "sensitivity": "standard",
@@ -5476,7 +5476,7 @@
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:ShiroyamaBattle.jpg",
       "textCredit": "Text: Wikipedia · CC BY-SA 4.0",
       "wikiTitle": "Battle of Shiroyama",
-      "summary": "The Battle of Shiroyama  took place on 24 September 1877, in Kagoshima, Japan. It was the final battle of the Satsuma Rebellion, where the heavily outnumbered samurai under Saigō Takamori made their last stand against Imperial Japanese Army troops under the command of General Yamagata Aritomo and Admiral Kawamura Sumiyoshi. The battle culminated in the annihilation of Saigō and his army, marking the end of the Satsuma Rebellion. The Imperial Army's victory consolidated their power, and the Satsuma Rebellion was the last instance of internal mutiny seen in the Empire of Japan.",
+      "summary": "The Battle of Shiroyama took place on 24 September 1877, in Kagoshima, Japan. It was the final battle of the Satsuma Rebellion, where the heavily outnumbered samurai under Saigō Takamori made their last stand against Imperial Japanese Army troops under the command of General Yamagata Aritomo and Admiral Kawamura Sumiyoshi. The battle culminated in the annihilation of Saigō and his army, marking the end of the Satsuma Rebellion. The Imperial Army's victory consolidated their power, and the Satsuma Rebellion was the last instance of internal mutiny seen in the Empire of Japan.",
       "facts": [
         {
           "id": "f1",
@@ -5901,7 +5901,7 @@
       "dateKey": "09-24",
       "year": 1993,
       "era": "Modern",
-      "title": "Norodom Sihanouk became King of Cambodia with the restoration of the monarchy after a…",
+      "title": "Norodom Sihanouk became King of Cambodia with the restoration of the monarchy",
       "region": "King of Cambodia (1941–1955; 1993–2004)",
       "category": "Politics & Power",
       "sensitivity": "standard",
@@ -6182,7 +6182,7 @@
       "dateKey": "09-24",
       "year": 2015,
       "era": "Modern",
-      "title": "At least 1,100 people are killed and another 934 wounded after a stampede during the…",
+      "title": "At least 1,100 people are killed and another 934 wounded after a stampede",
       "region": "Crowd crush incident in Saudi Arabia",
       "category": "Disaster & Tragedy",
       "sensitivity": "solemn",
@@ -6827,7 +6827,7 @@
       "dateKey": "09-25",
       "year": 1944,
       "era": "Modern",
-      "title": "Second World War: British troops began their withdrawal from the Battle of Arnhem in the…",
+      "title": "British troops began their withdrawal from the Battle of Arnhem in the Netherlands",
       "region": "Global conflict from 1939 to 1945",
       "category": "Military & Conflict",
       "sensitivity": "solemn",
@@ -7733,7 +7733,7 @@
       "dateKey": "09-26",
       "year": 1580,
       "era": "Early Modern",
-      "title": "English explorer Francis Drake's galleon the Golden Hind (replica pictured) sailed into…",
+      "title": "English explorer Francis Drake's galleon the Golden Hind sailed into Plymouth",
       "region": "English sailor and privateer (c. 1540–1596)",
       "category": "Exploration & Discovery",
       "sensitivity": "standard",
@@ -8842,7 +8842,7 @@
           "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Annie_Besant_-_portrait.jpg",
           "imageCredit": "London Stereoscopic Company · Public domain",
           "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Annie_Besant_-_portrait.jpg",
-          "summary": "Annie Besant (; née Wood; 1 October 1847 – 20 September 1933) was an English socialist, theosophist, freemason, women's rights and activist, educationist, involved in women's rights, Home Rule, and Indian nationalism. She gave support to both Irish and Indian self-rule. She had been the first female president of the Indian National Congress in 1917."
+          "summary": "Annie Besant (née Wood; 1 October 1847 – 20 September 1933) was an English socialist, theosophist, freemason, women's rights and activist, educationist, involved in women's rights, Home Rule, and Indian nationalism. She gave support to both Irish and Indian self-rule. She had been the first female president of the Indian National Congress in 1917."
         },
         {
           "year": 1957,
@@ -8852,7 +8852,7 @@
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Jean_Sibelius_circa_1898-1900_%283x4_cropped%29.jpg/500px-Jean_Sibelius_circa_1898-1900_%283x4_cropped%29.jpg",
           "imageCredit": "Photographerː Daniel Nyblin · CC BY 4.0",
           "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Jean_Sibelius_circa_1898-1900_(3x4_cropped).jpg",
-          "summary": "Jean Sibelius (; Finland Swedish: [ˈʃɑːn siˈbeːliʉs] ; born Johan Christian Julius Sibelius; 8 December 1865 – 20 September 1957) was a Finnish composer of the late Romantic and early modern periods. He is widely regarded as his country's greatest composer, and his music is often credited with having helped Finland develop a stronger national identity when the country was struggling from several attempts at Russification in the late 19th century."
+          "summary": "Jean Sibelius (born Johan Christian Julius Sibelius; 8 December 1865 – 20 September 1957) was a Finnish composer of the late Romantic and early modern periods. He is widely regarded as his country's greatest composer, and his music is often credited with having helped Finland develop a stronger national identity when the country was struggling from several attempts at Russification in the late 19th century."
         },
         {
           "year": 1996,
@@ -8862,7 +8862,7 @@
           "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Erdos_budapest_fall_1992_%28cropped%29.jpg",
           "imageCredit": "Kmhkmh · CC BY 3.0",
           "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Erdos_budapest_fall_1992_(cropped).jpg",
-          "summary": "Paul Erdős (Hungarian: Erdős Pál [ˈɛrdøːʃ ˈpaːl]; 26 March 1913 – 20 September 1996) was a Hungarian mathematician. He was one of the most prolific mathematicians and producers of mathematical conjectures of the 20th century. Erdős pursued and proposed problems in discrete mathematics, graph theory, number theory, mathematical analysis, approximation theory, set theory, and probability theory."
+          "summary": "Paul Erdős (Hungarian: Erdős Pál; 26 March 1913 – 20 September 1996) was a Hungarian mathematician. He was one of the most prolific mathematicians and producers of mathematical conjectures of the 20th century. Erdős pursued and proposed problems in discrete mathematics, graph theory, number theory, mathematical analysis, approximation theory, set theory, and probability theory."
         }
       ],
       "observances": [
@@ -8919,7 +8919,7 @@
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Yuri_Luzhkov.jpg/500px-Yuri_Luzhkov.jpg",
           "imageCredit": "mos.ru · CC BY 4.0",
           "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Yuri_Luzhkov.jpg",
-          "summary": "Yury Mikhailovich Luzhkov (Russian: Юрий Михайлович Лужков, IPA: [ˈjʉrʲɪj mʲɪˈxajləvʲɪtɕ lʊˈʂkof]; 21 September 1936 – 10 December 2019) was a Russian politician who served as mayor of Moscow from 1992 to 2010. Before the election of Gavriil Popov as the first mayor of Moscow, he also headed the capital in 1990–1991 as chairman of the Mosgorispolkom. He was the vice-chairman and one of the founders of the ruling United Russia party."
+          "summary": "Yury Mikhailovich Luzhkov (Russian: Юрий Михайлович Лужков; 21 September 1936 – 10 December 2019) was a Russian politician who served as mayor of Moscow from 1992 to 2010. Before the election of Gavriil Popov as the first mayor of Moscow, he also headed the capital in 1990–1991 as chairman of the Mosgorispolkom. He was the vice-chairman and one of the founders of the ruling United Russia party."
         }
       ],
       "deaths": [
@@ -8931,7 +8931,7 @@
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Virgil_mosaic_in_the_Bardo_National_Museum_%28Tunis%29_%2812241228546%29.jpg/500px-Virgil_mosaic_in_the_Bardo_National_Museum_%28Tunis%29_%2812241228546%29.jpg",
           "imageCredit": "Boyd Dwyer · Public domain",
           "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Virgil_mosaic_in_the_Bardo_National_Museum_(Tunis)_(12241228546).jpg",
-          "summary": "Publius Vergilius Maro (Classical Latin: [ˈpuːbliʊs wɛrˈɡɪliʊs ˈmaroː]; 15 October 70 BC – 21 September 19 BC), usually called Virgil or Vergil ( VUR-jil) in English, was an ancient Roman poet of the Augustan period. He composed three of the most famous poems in Latin literature: the Eclogues (or Bucolics), the Georgics, and the epic Aeneid."
+          "summary": "Publius Vergilius Maro (15 October 70 BC – 21 September 19 BC), usually called Virgil or Vergil in English, was an ancient Roman poet of the Augustan period. He composed three of the most famous poems in Latin literature: the Eclogues (or Bucolics), the Georgics, and the epic Aeneid."
         },
         {
           "year": 1558,
@@ -8991,7 +8991,7 @@
           "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Stroheim_Harcourt_1946.jpg",
           "imageCredit": "Studio Harcourt · Public domain",
           "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Stroheim_Harcourt_1946.jpg",
-          "summary": "Erich Oswald Hans Carl Maria von Stroheim (born Erich Oswald Stroheim, Austrian German: [ˈʃtroːhaɪm]; September 22, 1885 – May 12, 1957) was an Austrian-American director, screenwriter, actor and producer, most noted as a film star and avant-garde, visionary director of the silent era."
+          "summary": "Erich Oswald Hans Carl Maria von Stroheim (born Erich Oswald Stroheim; September 22, 1885 – May 12, 1957) was an Austrian-American director, screenwriter, actor and producer, most noted as a film star and avant-garde, visionary director of the silent era."
         },
         {
           "year": 1940,
@@ -9103,7 +9103,7 @@
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/RomySchneider-StudioHarcourt-1960.png/500px-RomySchneider-StudioHarcourt-1960.png",
           "imageCredit": "Studio Harcourt. · Public domain",
           "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:RomySchneider-StudioHarcourt-1960.png",
-          "summary": "Rosemarie Magdalena Albach (23 September 1938 – 29 May 1982), known professionally as Romy Schneider (German: [ˈʁoːmi ˈʃnaɪdɐ, ˈʁɔmi -] ), was a German and French actress. She is regarded as one of the greatest screen actresses of all time and became a cult figure due to her role as Empress Elisabeth of Austria in the Sissi trilogy in the mid-1950s. She later reprised the role in a more mature version in Luchino Visconti's Ludwig (1973)."
+          "summary": "Rosemarie Magdalena Albach (23 September 1938 – 29 May 1982), known professionally as Romy Schneider, was a German and French actress. She is regarded as one of the greatest screen actresses of all time and became a cult figure due to her role as Empress Elisabeth of Austria in the Sissi trilogy in the mid-1950s. She later reprised the role in a more mature version in Luchino Visconti's Ludwig (1973)."
         },
         {
           "year": 1943,
@@ -9113,7 +9113,7 @@
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Julio_Iglesias09.jpg/500px-Julio_Iglesias09.jpg",
           "imageCredit": "Alejandro Vilar · CC0",
           "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Julio_Iglesias09.jpg",
-          "summary": "Julio José Iglesias de la Cueva (Spanish: [ˈxuljo jˈɣlesjas]; born 23 September 1943) is a Spanish singer and songwriter. Iglesias is recognized as the most commercially successful Spanish singer in the world and one of the top record sellers in music history, having sold more than 300 million records worldwide in 14 languages. It is estimated that during his career he has performed in more than 5,000 concerts, for over 60 million people in six continents."
+          "summary": "Julio José Iglesias de la Cueva (born 23 September 1943) is a Spanish singer and songwriter. Iglesias is recognized as the most commercially successful Spanish singer in the world and one of the top record sellers in music history, having sold more than 300 million records worldwide in 14 languages. It is estimated that during his career he has performed in more than 5,000 concerts, for over 60 million people in six continents."
         },
         {
           "year": 1956,
@@ -9123,7 +9123,7 @@
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Paolo_Rossi_Vicenza.jpg/500px-Paolo_Rossi_Vicenza.jpg",
           "imageCredit": "The original uploader was Snake90 at Italian Wikipedia . · Public domain",
           "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Paolo_Rossi_Vicenza.jpg",
-          "summary": "Paolo Rossi (Italian pronunciation: [ˈpaːolo ˈrossi]; 23 September 1956 – 9 December 2020) was an Italian professional footballer who played as a striker. He led Italy to the 1982 FIFA World Cup title, scoring six goals to win the Golden Boot as top goalscorer, and the Golden Ball for the player of the tournament."
+          "summary": "Paolo Rossi (23 September 1956 – 9 December 2020) was an Italian professional footballer who played as a striker. He led Italy to the 1982 FIFA World Cup title, scoring six goals to win the Golden Boot as top goalscorer, and the Golden Ball for the player of the tournament."
         }
       ],
       "deaths": [
@@ -9135,7 +9135,7 @@
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Snorre_Sturluson-Christian_Krohg.jpg/500px-Snorre_Sturluson-Christian_Krohg.jpg",
           "imageCredit": "Christian Krohg · Public domain",
           "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Snorre_Sturluson-Christian_Krohg.jpg",
-          "summary": "Snorri Sturluson (Old Norse: [ˈsnorːe ˈsturloˌson]; Icelandic: [ˈstnɔrːɪ ˈstʏ(r)tlʏˌsɔːn]; 1179 – 23 September 1241) was an Icelandic historian, poet, knight, and politician. He was elected twice as lawspeaker of the Icelandic parliament, the Althing."
+          "summary": "Snorri Sturluson (1179 – 23 September 1241) was an Icelandic historian, poet, knight, and politician. He was elected twice as lawspeaker of the Icelandic parliament, the Althing."
         },
         {
           "year": 1870,
@@ -9145,7 +9145,7 @@
           "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Prosper_M%C3%A9rim%C3%A9e.jpg",
           "imageCredit": "Charles Reutlinger · Public domain",
           "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Prosper_M%C3%A9rim%C3%A9e.jpg",
-          "summary": "Prosper Mérimée (French: [pʁɔspɛʁ meʁime]; 28 September 1803 – 23 September 1870) was a French writer in the movement of Romanticism, one of the pioneers of the novella, a short novel or long short story. He was also a noted archaeologist and historian, an important figure in the history of architectural preservation. He is best known for his novella Carmen, which became the basis of Bizet's opera of the same name."
+          "summary": "Prosper Mérimée (28 September 1803 – 23 September 1870) was a French writer in the movement of Romanticism, one of the pioneers of the novella, a short novel or long short story. He was also a noted archaeologist and historian, an important figure in the history of architectural preservation. He is best known for his novella Carmen, which became the basis of Bizet's opera of the same name."
         },
         {
           "year": 1939,
@@ -9165,7 +9165,7 @@
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Pablo_Neruda_1963.jpg/500px-Pablo_Neruda_1963.jpg",
           "imageCredit": "Unknown ( Mondadori Publishers ) · Public domain",
           "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Pablo_Neruda_1963.jpg",
-          "summary": "Pablo Neruda ( nə-ROO-də; Spanish: [ˈpaβlo neˈɾuða] ; born Ricardo Eliécer Neftalí Reyes Basoalto; 12 July 1904 – 23 September 1973) was a Chilean poet-diplomat and politician who won the 1971 Nobel Prize in Literature."
+          "summary": "Pablo Neruda (born Ricardo Eliécer Neftalí Reyes Basoalto; 12 July 1904 – 23 September 1973) was a Chilean poet-diplomat and politician who won the 1971 Nobel Prize in Literature."
         }
       ],
       "observances": [
@@ -9185,7 +9185,7 @@
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Girolamo_Cardano._Stipple_engraving_by_R._Cooper._Wellcome_V0001004.jpg/500px-Girolamo_Cardano._Stipple_engraving_by_R._Cooper._Wellcome_V0001004.jpg",
           "imageCredit": "CC BY 4.0",
           "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Girolamo_Cardano._Stipple_engraving_by_R._Cooper._Wellcome_V0001004.jpg",
-          "summary": "Gerolamo Cardano (Italian: [dʒeˈrɔːlamo karˈdaːno]; also Girolamo or Geronimo; French: Jérôme Cardan; Latin: Hieronymus Cardanus; 24 September 1501– 21 September 1576) was an Italian polymath whose interests and proficiencies ranged through those of mathematician, physician, biologist, physicist, chemist, astrologer, astronomer, philosopher, music theorist, writer, and gambler."
+          "summary": "Gerolamo Cardano (also Girolamo or Geronimo; French: Jérôme Cardan; Latin: Hieronymus Cardanus; 24 September 1501– 21 September 1576) was an Italian polymath whose interests and proficiencies ranged through those of mathematician, physician, biologist, physicist, chemist, astrologer, astronomer, philosopher, music theorist, writer, and gambler."
         },
         {
           "year": 1583,
@@ -9195,7 +9195,7 @@
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Albrecht_von_Wallenstein.jpeg/500px-Albrecht_von_Wallenstein.jpeg",
           "imageCredit": "Julius Schnorr von Carolsfeld · Public domain",
           "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Albrecht_von_Wallenstein.jpeg",
-          "summary": "Albrecht Wenzel Eusebius von Wallenstein, Duke of Friedland (; 24 September 1583 – 25 February 1634), also von Waldstein (Czech: Albrecht Václav Eusebius z Valdštejna), was a Bohemian military leader, statesman and a major figure of the Thirty Years' War, fighting on the Catholic side as supreme commander of the armies of Holy Roman Emperor Ferdinand II."
+          "summary": "Albrecht Wenzel Eusebius von Wallenstein, Duke of Friedland (24 September 1583 – 25 February 1634), also von Waldstein (Czech: Albrecht Václav Eusebius z Valdštejna), was a Bohemian military leader, statesman and a major figure of the Thirty Years' War, fighting on the Catholic side as supreme commander of the armies of Holy Roman Emperor Ferdinand II."
         },
         {
           "year": 1755,
@@ -9225,7 +9225,7 @@
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Marco_Tardelli-0282.jpg/500px-Marco_Tardelli-0282.jpg",
           "imageCredit": "Harald Krichel · CC BY-SA 4.0",
           "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Marco_Tardelli-0282.jpg",
-          "summary": "Marco Tardelli (Italian pronunciation: [ˈmarko tarˈdɛlli]; born 24 September 1954) is an Italian former football player and manager. At club level, he played as a midfielder for several Italian clubs; he began his career with Pisa, and later played for Como, Juventus, and Inter Milan, before retiring with Swiss club St. Gallen."
+          "summary": "Marco Tardelli (born 24 September 1954) is an Italian former football player and manager. At club level, he played as a midfielder for several Italian clubs; he began his career with Pisa, and later played for Como, Juventus, and Inter Milan, before retiring with Swiss club St. Gallen."
         }
       ],
       "deaths": [
@@ -9257,7 +9257,7 @@
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Theodor_Seuss_Geisel_%2801037v%29.jpg/500px-Theodor_Seuss_Geisel_%2801037v%29.jpg",
           "imageCredit": "Al Ravenna · Public domain",
           "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Theodor_Seuss_Geisel_(01037v).jpg",
-          "summary": "Theodor Seuss Geisel ( sooss GHY-zəl, zoyss -⁠; March 2, 1904 – September 24, 1991) was an American children's author, illustrator, animator, and cartoonist. He is known for his work writing and illustrating more than 60 books under the pen name Dr. Seuss ( sooss, zooss). His work includes many of the most popular children's books of all time, selling over 600 million copies and being translated into more than 20 languages by the time of his death."
+          "summary": "Theodor Seuss Geisel (March 2, 1904 – September 24, 1991) was an American children's author, illustrator, animator, and cartoonist. He is known for his work writing and illustrating more than 60 books under the pen name Dr. Seuss. His work includes many of the most popular children's books of all time, selling over 600 million copies and being translated into more than 20 languages by the time of his death."
         },
         {
           "year": 2004,
@@ -9267,7 +9267,7 @@
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Identite-Sagan-1958-Sacem.jpg/500px-Identite-Sagan-1958-Sacem.jpg",
           "imageCredit": "Unknown author · Public domain",
           "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Identite-Sagan-1958-Sacem.jpg",
-          "summary": "Françoise Sagan (French: [fʁɑ̃swaz saɡɑ̃]; born Françoise Delphine Quoirez; 21 June 1935 – 24 September 2004) was a French playwright, novelist, and screenwriter. Sagan was known for works with strong romantic themes involving wealthy and disillusioned bourgeois characters. Her best-known novel was her first, Bonjour Tristesse (1954), which was written when she was a teenager."
+          "summary": "Françoise Sagan (born Françoise Delphine Quoirez; 21 June 1935 – 24 September 2004) was a French playwright, novelist, and screenwriter. Sagan was known for works with strong romantic themes involving wealthy and disillusioned bourgeois characters. Her best-known novel was her first, Bonjour Tristesse (1954), which was written when she was a teenager."
         }
       ],
       "observances": [
@@ -9287,7 +9287,7 @@
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Carl_Van_Vechten_-_William_Faulkner_%28greyscale_and_cropped%29.jpg/500px-Carl_Van_Vechten_-_William_Faulkner_%28greyscale_and_cropped%29.jpg",
           "imageCredit": "Carl Van Vechten · Public domain",
           "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Carl_Van_Vechten_-_William_Faulkner_(greyscale_and_cropped).jpg",
-          "summary": "William Cuthbert Faulkner ( FAWK-nər; né Falkner; September 25, 1897 – July 6, 1962) was an American writer. He is best known for his novels and short stories set in the fictional Yoknapatawpha County, Mississippi, a stand-in for Lafayette County where he spent most of his life."
+          "summary": "William Cuthbert Faulkner (né Falkner; September 25, 1897 – July 6, 1962) was an American writer. He is best known for his novels and short stories set in the fictional Yoknapatawpha County, Mississippi, a stand-in for Lafayette County where he spent most of his life."
         },
         {
           "year": 1929,
@@ -9327,7 +9327,7 @@
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Donald_Glover_TIFF_2015.jpg/500px-Donald_Glover_TIFF_2015.jpg",
           "imageCredit": "Bill Ingalls · Public domain",
           "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Donald_Glover_TIFF_2015.jpg",
-          "summary": "Donald McKinley Glover Jr. (; born September 25, 1983), also known by his musical stage name Childish Gambino (), is an American actor, rapper, singer, comedian, and filmmaker. While he studied at New York University and after working in Derrick Comedy, a comedy group, Glover was hired by Tina Fey to write for the NBC sitcom 30 Rock at age 23. He gained fame for portraying college student Troy Barnes on the NBC sitcom Community from 2009 to 2014."
+          "summary": "Donald McKinley Glover Jr. (born September 25, 1983), also known by his musical stage name Childish Gambino, is an American actor, rapper, singer, comedian, and filmmaker. While he studied at New York University and after working in Derrick Comedy, a comedy group, Glover was hired by Tina Fey to write for the NBC sitcom 30 Rock at age 23. He gained fame for portraying college student Troy Barnes on the NBC sitcom Community from 2009 to 2014."
         }
       ],
       "deaths": [
@@ -9349,7 +9349,7 @@
           "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bundesarchiv_Bild_183-R04034%2C_Erich_Maria_Remarque_%28cropped%29.jpg",
           "imageCredit": "Unknown author · CC BY-SA 3.0 de",
           "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-R04034,_Erich_Maria_Remarque_(cropped).jpg",
-          "summary": "Erich Maria Remarque (; German: [ˈeːʁɪç maˈʁiːa ʁəˈmaʁk] ; born Erich Paul Remark; 22 June 1898 – 25 September 1970) was a German novelist. His 1928 landmark novel All Quiet on the Western Front, which was based on his experience in the Imperial German Army during World War I, was an international bestseller which created a new literary genre of veterans writing about conflict. The book was adapted to film several times."
+          "summary": "Erich Maria Remarque (born Erich Paul Remark; 22 June 1898 – 25 September 1970) was a German novelist. His 1928 landmark novel All Quiet on the Western Front, which was based on his experience in the Imperial German Army during World War I, was an international bestseller which created a new literary genre of veterans writing about conflict. The book was adapted to film several times."
         },
         {
           "year": 1983,
@@ -9369,7 +9369,7 @@
           "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Wangari_Maathai_in_2001.jpg",
           "imageCredit": "Kingkongphoto www.celebrity-photos.com from Laurel Maryland, USA · CC BY-SA 2.0",
           "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Wangari_Maathai_in_2001.jpg",
-          "summary": "Wangarĩ Maathai (; 1 April 1940 – 25 September 2011) was a Kenyan social, environmental, and political activist who founded the Green Belt Movement, an environmental non-governmental organization focused on planting trees, environmental conservation, and women's rights. In 2004, she became the first African woman to win the Nobel Peace Prize. As a beneficiary of the Kennedy Airlift, she studied in the United States, earning a bachelor's degree from Mount St."
+          "summary": "Wangarĩ Maathai (1 April 1940 – 25 September 2011) was a Kenyan social, environmental, and political activist who founded the Green Belt Movement, an environmental non-governmental organization focused on planting trees, environmental conservation, and women's rights. In 2004, she became the first African woman to win the Nobel Peace Prize. As a beneficiary of the Kennedy Airlift, she studied in the United States, earning a bachelor's degree from Mount St."
         }
       ],
       "observances": [
@@ -9389,7 +9389,7 @@
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Portrait_of_George_Gershwin_LCCN2004662906.jpg/500px-Portrait_of_George_Gershwin_LCCN2004662906.jpg",
           "imageCredit": "Carl Van Vechten · Public domain",
           "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_George_Gershwin_LCCN2004662906.jpg",
-          "summary": "George Gershwin (; born Jacob Gershwine; September 26, 1898 – July 11, 1937) was an American composer and pianist whose compositions spanned jazz, popular and classical music."
+          "summary": "George Gershwin (born Jacob Gershwine; September 26, 1898 – July 11, 1937) was an American composer and pianist whose compositions spanned jazz, popular and classical music."
         },
         {
           "year": 1914,
@@ -9399,7 +9399,7 @@
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Jack_LaLanne_1961_portrait.JPG/500px-Jack_LaLanne_1961_portrait.JPG",
           "imageCredit": "Photographer-Cliff Riddle, Hollywood. · Public domain",
           "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Jack_LaLanne_1961_portrait.JPG",
-          "summary": "Francois Henri \"Jack\" LaLanne (; September 26, 1914 – January 23, 2011) was an American fitness and nutrition guru and motivational speaker. He described himself as being a \"sugarholic\" and a \"junk food junkie\" until he was 15 years old. He also had behavioral problems but \"turned his life around\" after listening to a public lecture about the benefits of good nutrition by health food pioneer Paul Bragg."
+          "summary": "Francois Henri \"Jack\" LaLanne (September 26, 1914 – January 23, 2011) was an American fitness and nutrition guru and motivational speaker. He described himself as being a \"sugarholic\" and a \"junk food junkie\" until he was 15 years old. He also had behavioral problems but \"turned his life around\" after listening to a public lecture about the benefits of good nutrition by health food pioneer Paul Bragg."
         },
         {
           "year": 1936,
@@ -9448,7 +9448,7 @@
           "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Bart%C3%B3k_B%C3%A9la_1927.jpg",
           "imageCredit": "Unknown author · Public domain",
           "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bart%C3%B3k_B%C3%A9la_1927.jpg",
-          "summary": "Béla Viktor János Bartók (; Hungarian: [ˈbɒrtoːk ˈbeːlɒ]; 25 March 1881 – 26 September 1945) was a Hungarian composer, pianist and ethnomusicologist. He is considered one of the most important composers of the 20th century; he and Franz Liszt are regarded as Hungary's greatest composers. Among his notable works are the opera Bluebeard's Castle, the ballet The Miraculous Mandarin, Music for Strings, Percussion and Celesta, the Concerto for Orchestra and six string quartets."
+          "summary": "Béla Viktor János Bartók (25 March 1881 – 26 September 1945) was a Hungarian composer, pianist and ethnomusicologist. He is considered one of the most important composers of the 20th century; he and Franz Liszt are regarded as Hungary's greatest composers. Among his notable works are the opera Bluebeard's Castle, the ballet The Miraculous Mandarin, Music for Strings, Percussion and Celesta, the Concerto for Orchestra and six string quartets."
         },
         {
           "year": 1990,
@@ -9458,7 +9458,7 @@
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Paolo_Monti_-_Servizio_fotografico_-_BEIC_6361580_%28cropped2%29.jpg/500px-Paolo_Monti_-_Servizio_fotografico_-_BEIC_6361580_%28cropped2%29.jpg",
           "imageCredit": "Paolo Monti · CC BY-SA 4.0",
           "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Paolo_Monti_-_Servizio_fotografico_-_BEIC_6361580_(cropped2).jpg",
-          "summary": "Alberto Pincherle (Italian: [alˈbɛrto ˈpiŋkerle]; 28 November 1907 – 26 September 1990), known by his pseudonym Alberto Moravia (US: moh-RAH-vee-ə, -⁠RAY-; Italian: [moˈraːvja]), was an Italian novelist and journalist. His novels explored matters of modern sexuality, social alienation and existentialism."
+          "summary": "Alberto Pincherle (28 November 1907 – 26 September 1990), known by his pseudonym Alberto Moravia, was an Italian novelist and journalist. His novels explored matters of modern sexuality, social alienation and existentialism."
         },
         {
           "year": 2008,

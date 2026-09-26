@@ -18,6 +18,7 @@
  */
 import { fetchJson } from './archival';
 import { fetchArticleExtracts, resolveImagesBatch } from './imagery';
+import { stripPronunciation } from './lite';
 
 const FEED_BASE = 'https://api.wikimedia.org/feed/v1/wikipedia/en/onthisday/all';
 const WIKI_API = 'https://en.wikipedia.org/w/api.php';
@@ -127,7 +128,9 @@ async function enrich(people: PersonEntry[]): Promise<PersonEntry[]> {
             imageSourceUrl: image.sourceUrl,
           }
         : {}),
-      ...(extract ? { summary: trimToSentences(extract, MAX_SUMMARY) } : {}),
+      // Cleaned before the trim, so the markup does not spend the 480
+      // characters: "Lorenzo di Piero de' Medici (Italian: [loˈrɛntso…])".
+      ...(extract ? { summary: trimToSentences(stripPronunciation(extract), MAX_SUMMARY) } : {}),
     };
   });
 }

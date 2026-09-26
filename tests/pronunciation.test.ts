@@ -112,4 +112,115 @@ describe('stripPronunciation', () => {
       expect(stripPronunciation(text)).toBe(text);
     }
   });
+
+  it('closes up a space the template left before a separator', () => {
+    expect(stripPronunciation('Dubbed the Muroto typhoon , the system was first identified on September 13.')).toBe(
+      'Dubbed the Muroto typhoon, the system was first identified on September 13.',
+    );
+  });
+});
+
+/**
+ * Biography leads the day register actually carried, copied from
+ * pipeline/people-db.json. People's articles add the English respelling
+ * template ("kam-OO") to the same markup. The last case holds look-alikes that
+ * must survive: real strings from both archives, and one built for the
+ * acronym-compound list.
+ */
+describe('stripPronunciation on biographies', () => {
+  /** The respell template joins a continuation to its hyphen. */
+  const WJ = String.fromCharCode(0x2060);
+
+  it('removes a respelling left behind the gap of its audio link', () => {
+    expect(
+      stripPronunciation('Albert Camus ( kam-OO; French: [albɛʁ kamy] ; 7 November 1913 – 4 January 1960) was a French philosopher.'),
+    ).toBe('Albert Camus (7 November 1913 – 4 January 1960) was a French philosopher.');
+    expect(stripPronunciation('Ursula Kroeber Le Guin ( KROH-bər lə GWIN; née Kroeber; October 21, 1929 – January 22, 2018)')).toBe(
+      'Ursula Kroeber Le Guin (née Kroeber; October 21, 1929 – January 22, 2018)',
+    );
+    expect(stripPronunciation('Georges Braque ( BRA(H)K; 13 May 1882 – 31 August 1963) was a French painter.')).toBe(
+      'Georges Braque (13 May 1882 – 31 August 1963) was a French painter.',
+    );
+  });
+
+  it('keeps the words of an item and drops the respelling after them', () => {
+    expect(stripPronunciation('Ye ( YAY; born Kanye Omari West KAHN-yay oh-MAH-ree, June 8, 1977) is an American rapper.')).toBe(
+      'Ye (born Kanye Omari West, June 8, 1977) is an American rapper.',
+    );
+    expect(stripPronunciation('Mika ( MEE-kə, stylised in all caps), is a Lebanese singer.')).toBe(
+      'Mika (stylised in all caps), is a Lebanese singer.',
+    );
+  });
+
+  it('removes a labelled list of respellings, labels and all', () => {
+    expect(
+      stripPronunciation(
+        'now generally known in English as Raphael (UK: RAF-ay-əl, US: RAF-ee-əl, RAY-fee-, RAH-fy-EL), was an Italian painter',
+      ),
+    ).toBe('now generally known in English as Raphael, was an Italian painter');
+    expect(
+      stripPronunciation(`known by his pseudonym Alberto Moravia (US: moh-RAH-vee-ə, -${WJ}RAY-; Italian: [moˈraːvja]), was an Italian novelist`),
+    ).toBe('known by his pseudonym Alberto Moravia, was an Italian novelist');
+    expect(stripPronunciation('Luigi Galvani ( gal-VAH-nee, US also gahl-; Italian: [luˈiːdʒi ɡalˈvaːni]; 9 September 1737)')).toBe(
+      'Luigi Galvani (9 September 1737)',
+    );
+  });
+
+  it('removes a label that outlived its respelling', () => {
+    expect(stripPronunciation('known after 1911 as Piet Mondrian (, US also ; Dutch: [pit ˈmɔndrijɑn]), was a Dutch painter')).toBe(
+      'known after 1911 as Piet Mondrian, was a Dutch painter',
+    );
+    expect(stripPronunciation('Anne Brontë (, commonly ; 17 January 1820 – 28 May 1849) was an English novelist.')).toBe(
+      'Anne Brontë (17 January 1820 – 28 May 1849) was an English novelist.',
+    );
+    expect(
+      stripPronunciation('Lucila Godoy Alcayaga (Latin American Spanish: [luˈsila ɣoˈðoj alkaˈʝaɣa]; 7 April 1889 – 10 January 1957)'),
+    ).toBe('Lucila Godoy Alcayaga (7 April 1889 – 10 January 1957)');
+  });
+
+  it('removes a one-syllable respelling only where the gap marks it', () => {
+    expect(stripPronunciation('under the pen name Dr. Seuss ( sooss, zooss). His work includes')).toBe(
+      'under the pen name Dr. Seuss. His work includes',
+    );
+    expect(stripPronunciation('Sir Thomas Browne ( "brown"; 19 October 1605 – 19 October 1682) was an English polymath.')).toBe(
+      'Sir Thomas Browne (19 October 1605 – 19 October 1682) was an English polymath.',
+    );
+    expect(stripPronunciation('Daniel Defoe ( c. 1660 – 24 April 1731) was an English writer.')).toBe(
+      'Daniel Defoe (c. 1660 – 24 April 1731) was an English writer.',
+    );
+  });
+
+  it('removes transcriptions between slashes and a respelling after brackets', () => {
+    expect(stripPronunciation('Jiddu Krishnamurti (pronounced /ˈdʒɪduː ˌkrɪʃnəˈmʊərti/ ; 11 May 1895 – 17 February 1986) was')).toBe(
+      'Jiddu Krishnamurti (11 May 1895 – 17 February 1986) was',
+    );
+    expect(stripPronunciation('Nkrumah (born Francis Nwia Kofi Ngonloma, /(ə)nˈkruːmə/ (ə)n-KROO-mə; 21 September 1909)')).toBe(
+      'Nkrumah (born Francis Nwia Kofi Ngonloma; 21 September 1909)',
+    );
+    expect(stripPronunciation('Nguyễn Phú Trọng (Vietnamese: [ŋwiən˦ˀ˥ fu˧˦ t͡ɕawŋ͡m˧˨ʔ] new-yen foo chong; 14 April 1944)')).toBe(
+      'Nguyễn Phú Trọng (14 April 1944)',
+    );
+  });
+
+  it('keeps a semicolon between the groups of a bracket', () => {
+    expect(
+      stripPronunciation(
+        'Rosa Luxemburg ( LUK-səm-burg; Polish: Róża Luksemburg [ˈruʐa ˈluksɛmburk] ; German: [ˈʁoːza ˈlʊksm̩bʊʁk] ; 5 March 1871 – 15 January 1919)',
+      ),
+    ).toBe('Rosa Luxemburg (Polish: Róża Luksemburg; 5 March 1871 – 15 January 1919)');
+  });
+
+  it('leaves acronyms and hyphenated names alone', () => {
+    for (const text of [
+      'It consists of the Army (TNI-AD), Navy (TNI-AL), and Air Force (TNI-AU).',
+      'Experimental Breeder Reactor I (EBR-I) is a decommissioned research reactor.',
+      'A garrote (US-EN) or garrotte (UK-EN), or garrote vil, is a weapon.',
+      'The North Atlantic Treaty Organization (NATO) carried out an aerial bombing campaign.',
+      'He experimented on prisoners at the Auschwitz II-Birkenau concentration camp.',
+      'It reached number 1 on the VG-lista chart in Norway.',
+      'The rebels (KGB-backed, pro-EU in name) held the town.',
+    ]) {
+      expect(stripPronunciation(text)).toBe(text);
+    }
+  });
 });
