@@ -103,7 +103,7 @@ const artists = [
       .map((c) => (c.artist ?? '').replace(/\s*\(.*?\)\s*/g, ' ').trim())
       .filter((a) => a && a.length <= 40 && !/unknown|anonymous|unidentified|^user:/i.test(a)),
   ),
-].slice(0, 4);
+].slice(0, 8);
 const creditLine =
   `Images: ${script.imageCredit ?? (artists.length ? `${artists.join('; ')} via Wikimedia Commons` : 'Wikimedia Commons')} · public domain. ` +
   `Music: ${track.credit}. Sources: Wikipedia.`;
