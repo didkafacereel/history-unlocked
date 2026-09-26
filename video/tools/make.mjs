@@ -25,6 +25,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { HYPERFRAMES, mix, narration, videoLength, voice } from './lib/audio.mjs';
 import { compose } from './lib/compose.mjs';
+import { makeAppClip } from './app-clip.mjs';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const videoDir = path.resolve(here, '..');
@@ -278,5 +279,8 @@ if (at === -1) log.push(entry);
 else log[at] = entry;
 log.sort((a, b) => a.date.localeCompare(b.date));
 writeFileSync(logFile, JSON.stringify(log, null, 2) + '\n');
+// The in-app version (app update 1.1): cut before the TikTok end card, 720p.
+const clip = makeAppClip(dir, mp4, entry);
+console.log(`app-clips/${clip.video} — ${clip.seconds}s, ${(clip.bytes / 1e6).toFixed(1)} MB for the app`);
 if (!post.tiktok || !post.facebook) console.log('⚠ POST.md is missing a caption — add "post" to script.json');
 console.log(`ready → ${path.relative(path.resolve(videoDir, '..'), ready)}`);

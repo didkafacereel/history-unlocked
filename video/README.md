@@ -39,6 +39,7 @@ channel; it follows the app's stage in `channel.json`.
 | `images.mjs <day> list --page … --search …` | numbered contact sheet of public-domain candidates |
 | `images.mjs <day> get <n\|File:…> name` | download one (licence re-checked; anything not PD/CC0 is refused) |
 | `make.mjs <day> [--no-render\|--render-only]` | voice → narration → mix → compose → check → snapshots → render → verify → deliver |
+| `app-clip.mjs <day>` | the in-app version (app update 1.1, Cloudflare R2): 720p, ~2 MB, cut before the end card; `make.mjs` runs it after every render, into `app-clips/` + `index.json` |
 | `fetch-music.mjs` | download any missing music (licence re-checked) |
 
 `lib/scenes.mjs` is the scene library (title, pair, statement, number,

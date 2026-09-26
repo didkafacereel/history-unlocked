@@ -22,3 +22,6 @@ voice-samples/
 .research/
 ready/
 .scratch-test/
+# In-app clips (app update 1.1, uploaded to Cloudflare R2): regenerable outputs
+app-clips/*.mp4
+app-clips/*.jpg

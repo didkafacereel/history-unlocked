@@ -1,0 +1,35 @@
+[
+  {
+    "date": "2026-09-24",
+    "dateKey": "09-24",
+    "slug": "black-friday",
+    "eventId": "evt-09-24-1869-jay-gould",
+    "title": "Black Friday 1869 — Gould and Fisk corner the gold market",
+    "seconds": 48.8,
+    "video": "2026-09-24-black-friday.mp4",
+    "poster": "2026-09-24-black-friday.jpg",
+    "bytes": 1745668
+  },
+  {
+    "date": "2026-09-25",
+    "dateKey": "09-25",
+    "slug": "stamford-bridge",
+    "eventId": "evt-09-25-1066-battle-of-stamford-bridge",
+    "title": "Battle of Stamford Bridge 1066 — the end of the Viking Age",
+    "seconds": 52,
+    "video": "2026-09-25-stamford-bridge.mp4",
+    "poster": "2026-09-25-stamford-bridge.jpg",
+    "bytes": 2117500
+  },
+  {
+    "date": "2026-09-26",
+    "dateKey": "09-26",
+    "slug": "petrov",
+    "eventId": "evt-09-26-1983-cold-war",
+    "title": "Stanislav Petrov and the 1983 nuclear false alarm",
+    "seconds": 51.9,
+    "video": "2026-09-26-petrov.mp4",
+    "poster": "2026-09-26-petrov.jpg",
+    "bytes": 1912177
+  }
+]
