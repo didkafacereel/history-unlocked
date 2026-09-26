@@ -64,6 +64,9 @@ interface FeedState {
   settleOnIndex: (index: number) => void;
 }
 
+/** Bumped by every `loadDeck` that starts; only the newest may write. */
+let loadSequence = 0;
+
 export const useFeedStore = create<FeedState>()((set, get) => ({
   status: 'idle',
   dateKey: null,
@@ -95,22 +98,46 @@ export const useFeedStore = create<FeedState>()((set, get) => ({
       return;
     }
 
+    // Only the newest load may write. Without this a plan begun before the
+    // entitlement hydrated (free) could resolve AFTER the one begun after it
+    // (Pro) and put the free deck back on screen.
+    const ticket = ++loadSequence;
+
     try {
       const [{ events, register }] = await Promise.all([
         loadDailyDeck(dateKey),
         whenLibraryReady(),
       ]);
+      if (ticket !== loadSequence) {
+        return;
+      }
       const plan: DeckPlan = planDeck(events, {
         isPro,
         seen: useLibraryStore.getState().seen,
         category,
       });
 
+      // The same day, re-planned because the entitlement changed (a purchase,
+      // or the launch gift arriving on sign-in): keep the reader on the card
+      // in front of them. `plan.startIndex` is the first UNREAD event, and the
+      // card they are on was marked read when it landed — so without this,
+      // signing in threw every new reader past the day's lead to card two.
+      //
+      // Read AFTER the await, not from `current`: on a cold start the plan made
+      // before the entitlement hydrated and the one made after it run side by
+      // side, and it is the first one's landing card that is on screen by the
+      // time the second resolves.
+      const latest = get();
+      const onScreen =
+        latest.status === 'ready' && latest.dateKey === dateKey ? latest.deck[latest.activeIndex] : undefined;
+      const stayAt = onScreen ? plan.events.findIndex((e) => e.id === onScreen.id) : -1;
+      const startIndex = stayAt >= 0 ? stayAt : plan.startIndex;
+
       set({
         status: 'ready',
         dateKey,
         deck: plan.events,
-        activeIndex: plan.startIndex,
+        activeIndex: startIndex,
         lockedCount: plan.lockedCount,
         unseenIds: plan.unseenIds,
         heroId: plan.heroId,
@@ -125,13 +152,15 @@ export const useFeedStore = create<FeedState>()((set, get) => ({
 
       // The landing card is on screen, so it counts as read. Marking it here
       // (rather than on settle) means a one-card day is still remembered.
-      const landing = plan.events[plan.startIndex];
+      const landing = plan.events[startIndex];
       if (landing) {
         useLibraryStore.getState().markSeen(landing.id);
       }
-      prefetchAround(plan.events, plan.startIndex);
+      prefetchAround(plan.events, startIndex);
     } catch (e) {
-      set({ status: 'error', error: e instanceof Error ? e.message : String(e) });
+      if (ticket === loadSequence) {
+        set({ status: 'error', error: e instanceof Error ? e.message : String(e) });
+      }
     }
   },
 
