@@ -445,7 +445,7 @@ export function renderCover(cover, asset, duration) {
         <div class="layer solid"></div>
         ${img(asset(cover.image), cover.focus)}
         <div class="layer c-shade"></div>
-        <div class="c-box">
+        <div class="c-box"${Number.isFinite(cover.top) ? ` style="top: ${cover.top}px"` : ''}>
           <div class="c-kicker">${md(cover.kicker ?? 'ON THIS DAY')}</div>
           <div class="c-date">${md(cover.date)}</div>
           <div class="c-hook" style="font-size: ${px}px">${lines.map(md).join('<br />')}</div>

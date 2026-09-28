@@ -1,0 +1,256 @@
+{
+  "format": 2,
+  "date": "2026-09-28",
+  "dateKey": "09-28",
+  "slug": "fleming",
+  "title": "Fleming confirms penicillin, 1928 — the mould on the dish",
+  "eventId": "evt-09-28-1928-alexander-fleming",
+  "category": "Culture & Ideas",
+  "sources": [
+    "Wikipedia: Alexander Fleming — St Mary's Hospital, London; returned 3 September 1928 from a family holiday in Suffolk; had left staphylococci culture plates on a bench; one contaminated with a fungus, colonies around it destroyed; famously remarked \"That's funny\"; called it \"mould juice\", named penicillin 7 March 1929; penicillin languished largely forgotten in the 1930s, no one believed him; praised Florey and Chain for transforming the laboratory curiosity into a practical drug; by D-Day in 1944 enough penicillin to treat all the wounded of the Allied troops; shared the 1945 Nobel Prize with Florey and Chain; described as the first antibiotic substance discovered; quote \"One sometimes finds what one is not looking for\"",
+    "Wikipedia: Penicillin — observed by chance on 3 September 1928 that fungal contamination of a Staphylococcus aureus culture appeared to kill the bacteria; confirmed this observation with a new experiment on 28 September 1928",
+    "Wikipedia: History of penicillin — summer break with family in Suffolk; plates left on a corner of the table; on return found one with an open lid, contaminated with a blue-green mould; bacteria around the mould did not grow; concluded the mould was releasing a substance that inhibited bacterial growth",
+    "Wikipedia: Howard Florey — Oxford, Sir William Dunn School of Pathology; shared the 1945 Nobel Prize with Fleming and Chain"
+  ],
+  "music": {
+    "track": "satie-gymnopedie-1"
+  },
+  "highlight": [
+    "FLEMING",
+    "MOULD",
+    "MOULDY",
+    "BACTERIA",
+    "FUNNY",
+    "PENICILLIN",
+    "FLOREY",
+    "CHAIN",
+    "D-DAY",
+    "NOBEL",
+    "ANTIBIOTIC"
+  ],
+  "cover": {
+    "image": "fleming.jpg",
+    "focus": "50% 25%",
+    "date": "28 SEPTEMBER 1928",
+    "lines": [
+      "THE *ACCIDENT*",
+      "THAT GAVE US",
+      "*PENICILLIN*"
+    ],
+    "top": 860
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "On this day in nineteen twenty-eight, Alexander Fleming confirmed the accident behind the first antibiotic.",
+      "show": "On this day in 1928, Alexander Fleming confirmed the accident behind the first antibiotic.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2a",
+      "say": "That summer, he left dishes of bacteria out and went on holiday.",
+      "show": "That summer, he left dishes of bacteria out and went on holiday.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s2b",
+      "say": "When he came back, one dish had gone mouldy.",
+      "show": "When he came back, one dish had gone mouldy.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "Around the mould, the bacteria were gone.",
+      "show": "Around the mould, the bacteria were gone.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s4",
+      "say": "That's funny, he said.",
+      "show": "“That's funny,” he said.",
+      "pauseAfter": 0.55
+    },
+    {
+      "id": "s5a",
+      "say": "On the twenty-eighth, a new experiment confirmed it.",
+      "show": "On the 28th, a new experiment confirmed it.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s5b",
+      "say": "The mould was releasing something that killed bacteria.",
+      "show": "The mould was releasing something that killed bacteria.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s6",
+      "say": "He called it mould juice, and later, penicillin.",
+      "show": "He called it “mould juice” — and later, penicillin.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s7",
+      "say": "For years, almost nobody cared.",
+      "show": "For years, almost nobody cared.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s8",
+      "say": "In Oxford, Howard Florey and Ernst Chain turned it into a medicine.",
+      "show": "In Oxford, Howard Florey and Ernst Chain turned it into a medicine.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s9",
+      "say": "By D-Day, there was enough for every wounded Allied soldier.",
+      "show": "By D-Day, there was enough for every wounded Allied soldier.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s10",
+      "say": "In nineteen forty-five, the three shared the Nobel Prize.",
+      "show": "In 1945, the three shared the Nobel Prize.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s11",
+      "say": "His words: one sometimes finds what one is not looking for.",
+      "show": "His words: “One sometimes finds what one is not looking for.”",
+      "pauseAfter": 0.6
+    }
+  ],
+  "scenes": [
+    {
+      "type": "title",
+      "image": "painting.jpg",
+      "focus": "40% 40%",
+      "date": "28 SEPTEMBER",
+      "year": "1928",
+      "place": "St Mary's Hospital, London"
+    },
+    {
+      "type": "photo",
+      "from": "s2a",
+      "enter": "fade",
+      "image": "lab.jpg",
+      "focus": "40% 50%",
+      "move": "in",
+      "kicker": "Summer 1928",
+      "line": "Dishes left on the *bench*",
+      "fact": {
+        "text": "He went on holiday",
+        "at": "s2a@0.7"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s2b",
+      "enter": "fade",
+      "image": "dish.jpg",
+      "focus": "40% 40%",
+      "move": "in",
+      "kicker": "3 September 1928",
+      "line": "One dish had *mould*",
+      "fact": {
+        "text": "Blue-green, the lid left open",
+        "at": "s2b@0.5"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "fade",
+      "image": "plate.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "kicker": "The same effect, on a modern test plate",
+      "line": "No bacteria around it",
+      "fact": {
+        "text": "“That's funny.”",
+        "at": "s4"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s5a",
+      "enter": "cut",
+      "ghost": "28 SEPT",
+      "kicker": "28 September 1928",
+      "main": {
+        "text": "*Confirmed*",
+        "at": "s5a@0.6"
+      },
+      "fact": {
+        "text": "The mould made something that killed bacteria",
+        "at": "s5b@0.3"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s6",
+      "enter": "fade",
+      "image": "fleming.jpg",
+      "focus": "50% 25%",
+      "move": "in",
+      "kicker": "“Mould juice”",
+      "line": "*Penicillin*",
+      "fact": {
+        "text": "For years, almost ignored",
+        "at": "s7@0.3"
+      }
+    },
+    {
+      "type": "pair",
+      "from": "s8",
+      "enter": "fade",
+      "kicker": "Oxford",
+      "a": {
+        "image": "florey.jpg",
+        "focus": "50% 25%",
+        "name": "Howard Florey",
+        "role": "From Australia"
+      },
+      "b": {
+        "image": "chain.jpg",
+        "focus": "45% 30%",
+        "name": "Ernst Chain",
+        "role": "From Germany",
+        "at": "s8@0.55"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s9",
+      "enter": "fade",
+      "image": "poster.jpg",
+      "focus": "50% 40%",
+      "move": "down",
+      "kicker": "By D-Day, 1944",
+      "line": "Enough for every *wounded* soldier",
+      "fact": {
+        "text": "US wartime poster",
+        "at": "s9@0.6"
+      }
+    },
+    {
+      "type": "portrait",
+      "from": "s10",
+      "enter": "fade",
+      "image": "nobel.jpg",
+      "focus": "50% 40%",
+      "kicker": "Stockholm, December 1945",
+      "date": {
+        "text": "The *Nobel Prize*",
+        "at": "s10@0.5"
+      },
+      "line": {
+        "text": "“One sometimes finds what one is not looking for.”",
+        "at": "s11@0.35"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "He went on holiday and left his dishes of bacteria out. When he came back, one had gone mouldy — and the bacteria around it were gone. 🧫\n\nOn 28 September 1928, a new experiment confirmed it. Alexander Fleming had found penicillin.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #historytok #penicillin #science #medicine #fleming",
+    "facebook": "On this day in 1928, Alexander Fleming confirmed the accident behind the first antibiotic.\n\nThat summer, before a family holiday, he left dishes of bacteria on a bench in his laboratory at St Mary's Hospital in London. When he came back on 3 September, one dish had been contaminated by a blue-green mould — and around it, the bacteria had been destroyed. \"That's funny,\" he said.\n\nOn 28 September a new experiment confirmed it: the mould was releasing something that killed bacteria. For months he called it \"mould juice\". Then he named it penicillin.\n\nFor years almost nobody cared. It took Howard Florey and Ernst Chain in Oxford to turn it into a medicine — and by D-Day in 1944 there was enough to treat all the wounded Allied troops. In 1945 the three men shared the Nobel Prize.\n\nFleming put it simply: \"One sometimes finds what one is not looking for.\"\n\nEvery day has a story like this. Follow the page to find out when our app comes out. 📜\n\n#OnThisDay #History #Penicillin #Science"
+  }
+}

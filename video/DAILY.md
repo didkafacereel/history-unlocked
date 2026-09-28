@@ -136,7 +136,9 @@ sentences (`make.mjs` adds the two end-card lines itself — do not write them).
 **Cover** (the thumbnail — also the first frames of the video):
 `lines`: 2–3 lines, 2–12 characters each, ALL CAPS, the hook in the fewest
 words ("THE MAN WHO / *SAVED* / *THE WORLD*"). `*word*` turns it gold. Pick
-the most dramatic, readable picture; `focus` moves it ("50% 70%").
+the most dramatic, readable picture; `focus` moves it ("50% 70%"). If the
+text lands on a face (it starts 560 px down), set `top` (e.g. `860`) to lower
+it onto the body — 28 Sep: "ON THIS DAY" sat on Fleming's mouth.
 
 **Scenes**: 6–8, one per beat, each opening on a sentence (`from`). First is
 always `title`. `enter`: `"fade"` normally, `"cut"` for a hard turn (a shock,

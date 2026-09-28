@@ -42,5 +42,16 @@
     "video": "2026-09-27-champollion.mp4",
     "poster": "2026-09-27-champollion.jpg",
     "bytes": 3664499
+  },
+  {
+    "date": "2026-09-28",
+    "dateKey": "09-28",
+    "slug": "fleming",
+    "eventId": "evt-09-28-1928-alexander-fleming",
+    "title": "Fleming confirms penicillin, 1928 — the mould on the dish",
+    "seconds": 54.2,
+    "video": "2026-09-28-fleming.mp4",
+    "poster": "2026-09-28-fleming.jpg",
+    "bytes": 2019755
   }
 ]

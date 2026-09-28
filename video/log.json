@@ -34,5 +34,14 @@
     "category": "Culture & Ideas",
     "music": "grieg-morning",
     "seconds": 61
+  },
+  {
+    "date": "2026-09-28",
+    "slug": "fleming",
+    "title": "Fleming confirms penicillin, 1928 — the mould on the dish",
+    "eventId": "evt-09-28-1928-alexander-fleming",
+    "category": "Culture & Ideas",
+    "music": "satie-gymnopedie-1",
+    "seconds": 61
   }
 ]
