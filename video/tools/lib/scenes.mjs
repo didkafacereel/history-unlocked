@@ -12,6 +12,9 @@
  * captions sit at y 1180–1380, so scene text lives above ~1150.
  */
 
+import { execFileSync } from 'node:child_process';
+import path from 'node:path';
+
 // ── text helpers ──────────────────────────────────────────────────────────
 export const esc = (s) =>
   String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -131,6 +134,18 @@ html, body { margin: 0; overflow: hidden; background: var(--void); }
 .c-kicker { font-family: "Anton", sans-serif; font-size: 44px; letter-spacing: 0.22em; color: var(--gold); }
 .c-date { font-family: "Anton", sans-serif; font-size: 60px; letter-spacing: 0.08em; color: var(--text); background: rgba(6, 7, 10, 0.55); padding: 6px 26px; border: 3px solid var(--gold); }
 .c-hook { font-family: "Anton", sans-serif; line-height: 0.98; text-transform: uppercase; color: var(--text); text-shadow: 0 6px 30px rgba(0, 0, 0, 0.85); }
+
+/* film — the <video> sits at the root (see compose.mjs); this is its overlay */
+.film { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+.f-credit { position: absolute; left: 72px; right: 150px; top: 250px; text-align: center; font-size: 32px; color: var(--text-2); text-shadow: 0 2px 12px rgba(0, 0, 0, 0.9); }
+.f-kicker { position: absolute; left: 72px; right: 150px; top: 180px; text-align: center; }
+
+/* The fast pace: the pictures carry the video, so they are dimmed far less. */
+.fast .shade { background: radial-gradient(ellipse 90% 60% at 50% 38%, rgba(6, 7, 10, 0.1), rgba(6, 7, 10, 0.62) 75%), rgba(6, 7, 10, 0.1); }
+.fast .shade-top { background: linear-gradient(180deg, rgba(6, 7, 10, 0.78) 0%, rgba(6, 7, 10, 0.35) 30%, rgba(6, 7, 10, 0) 50%, rgba(6, 7, 10, 0.1) 62%, rgba(6, 7, 10, 0.6) 100%); }
+.fast .dim { background: rgba(6, 7, 10, 0.6); }
+.fast .bare { background: linear-gradient(180deg, rgba(6, 7, 10, 0.35) 0%, rgba(6, 7, 10, 0) 25%, rgba(6, 7, 10, 0) 55%, rgba(6, 7, 10, 0.45) 100%); }
+.bare { background: linear-gradient(180deg, rgba(6, 7, 10, 0.45) 0%, rgba(6, 7, 10, 0.1) 30%, rgba(6, 7, 10, 0.1) 55%, rgba(6, 7, 10, 0.6) 100%); }
 
 /* captions */
 #captions { position: absolute; left: 60px; right: 140px; top: 1180px; height: 200px; z-index: 50; pointer-events: none; }
@@ -342,7 +357,7 @@ export const renderers = {
     const html = `
       <div class="layer solid"></div>
       <div id="${id}-kb" class="layer" data-layout-allow-overflow>${img(ctx.asset(sc.image), sc.focus)}</div>
-      <div class="layer shade-top"></div>
+      <div class="layer ${sc.kicker || line || fact ? 'shade-top' : 'bare'}"></div>
       <div class="content p-text">
         ${sc.kicker ? `<div id="${id}-kicker" class="kicker">${md(sc.kicker)}</div>` : ''}
         ${line ? `<div id="${id}-line" class="serif p-line" style="font-size: ${px}px">${md(line.text)}</div>` : ''}
@@ -353,6 +368,30 @@ export const renderers = {
     if (line) a.ft(`#${id}-line`, { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 0.8, ease: 'expo.out' }, line.at);
     if (fact) a.ft(`#${id}-fact`, { opacity: 0, x: -30 }, { opacity: 1, x: 0, duration: 0.6, ease: 'sine.out' }, fact.at);
     return { html, anim: a.lines };
+  },
+
+  /* Archive film (clips.mjs get): the shot plays under a small honest credit
+     line — say what it is, and "illustrative" when it is not the event. */
+  film(sc, ctx) {
+    const { id, S } = ctx;
+    const a = animator();
+    const src = ctx.asset(sc.clip);
+    let problem = null;
+    try {
+      const len = Number.parseFloat(
+        execFileSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'default=nw=1:nk=1', path.join(ctx.dir, src)], { encoding: 'utf8' }).trim(),
+      );
+      if (len < S.duration - 0.05) problem = `${id}: film ${sc.clip} is ${len.toFixed(2)}s but the scene is on screen ${S.duration.toFixed(2)}s — cut a longer shot (clips.mjs get --len) or shorten the scene`;
+    } catch {
+      problem = `${id}: cannot read ${src}`;
+    }
+    if (!sc.credit) problem ??= `${id}: a film scene needs "credit" — what the footage is, and "illustrative" if it is not the event itself`;
+    const html = `
+      ${sc.kicker ? `<div id="${id}-kicker" class="kicker f-kicker">${md(sc.kicker)}</div>` : ''}
+      <div id="${id}-credit" class="italic f-credit">${md(sc.credit ?? '')}</div>`;
+    if (sc.kicker) a.ft(`#${id}-kicker`, { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.4, ease: 'power3.out' }, ctx.base);
+    a.ft(`#${id}-credit`, { opacity: 0 }, { opacity: 1, duration: 0.4, ease: 'sine.out' }, ctx.base + 0.1);
+    return { html, anim: a.lines, media: src, problem };
   },
 
   document(sc, ctx) {

@@ -1,0 +1,307 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-09-29",
+  "dateKey": "09-29",
+  "slug": "brocklesby",
+  "title": "The Brocklesby mid-air collision, 1940 — two Ansons locked together land as one",
+  "eventId": "evt-09-29-1940-royal-australian-air-force",
+  "category": "Military & Conflict",
+  "sources": [
+    "Wikipedia: 1940 Brocklesby mid-air collision — 29 September 1940; two RAAF Avro Ansons of No. 2 Service Flying Training School, cross-country training exercise over southern New South Wales; 300 m (1,000 ft) over Brocklesby, banking turn; Fuller (22, upper Anson N4876) lost sight of Hewson's aircraft beneath him; collided and remained jammed together; upper aircraft's engines knocked out, lower one's at full power; both navigators and the lower pilot Hewson bailed out; Fuller controlled the pair with ailerons and flaps; emergency belly landing in a paddock south-west of Brocklesby; all four crewmen survived; Fuller promoted to sergeant but confined to barracks for fourteen days and docked seven days' pay for speaking to newspapers without authorisation",
+    "Wikipedia: Avro Anson — Ansons L9162 and N4876 of No. 2 SFTS RAAF collided and became locked together in flight; emergency landing at Brocklesby, New South Wales",
+    "Archive film (illustrative only, labelled on screen): \"How To Fly The B-26 Airplane\", US Army Air Forces training film, 1944 — Wikimedia Commons, public domain"
+  ],
+  "music": {
+    "track": "beethoven-moonlight-1"
+  },
+  "highlight": [
+    "FULLER",
+    "BROCKLESBY",
+    "ONE",
+    "STUCK",
+    "DEAD",
+    "FULL",
+    "THREE",
+    "STAYED",
+    "FOUR",
+    "SURVIVED",
+    "PROMOTED",
+    "PUNISHED"
+  ],
+  "cover": {
+    "image": "locked.jpg",
+    "focus": "50% 45%",
+    "date": "29 SEPTEMBER 1940",
+    "lines": [
+      "TWO PLANES",
+      "*LANDED*",
+      "*AS ONE*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "Two planes collided in mid-air, and landed as one.",
+      "show": "Two planes collided in mid-air, and landed as one.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s2",
+      "say": "It happened on this day in nineteen forty.",
+      "show": "It happened on this day in 1940.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "Two Avro Ansons from an Australian flying school were on a training flight.",
+      "show": "Two Avro Ansons from an Australian flying school were on a training flight.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s4",
+      "say": "Over the town of Brocklesby, they made a banking turn.",
+      "show": "Over the town of Brocklesby, they made a banking turn.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s5",
+      "say": "The upper pilot, Leonard Fuller, lost sight of the plane below him.",
+      "show": "The upper pilot, Leonard Fuller, lost sight of the plane below him.",
+      "pauseAfter": 0.55
+    },
+    {
+      "id": "s6",
+      "say": "They collided, and stuck together.",
+      "show": "They collided, and stuck together.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s7",
+      "say": "The top plane's engines were dead.",
+      "show": "The top plane's engines were dead.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s8",
+      "say": "The bottom plane's still ran at full power.",
+      "show": "The bottom plane's still ran at full power.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s9",
+      "say": "Three men bailed out.",
+      "show": "Three men bailed out.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s10",
+      "say": "Fuller stayed.",
+      "show": "Fuller stayed.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s11",
+      "say": "He found he could still steer both planes, with the ailerons and flaps.",
+      "show": "He found he could still steer both planes, with the ailerons and flaps.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s12",
+      "say": "He picked a paddock, and made a belly landing.",
+      "show": "He picked a paddock, and made a belly landing.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s13",
+      "say": "All four men survived.",
+      "show": "All four men survived.",
+      "pauseAfter": 0.55
+    },
+    {
+      "id": "s14",
+      "say": "Fuller was promoted to sergeant.",
+      "show": "Fuller was promoted to sergeant.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s15",
+      "say": "And punished, for talking to the newspapers.",
+      "show": "And punished, for talking to the newspapers.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook — the real photo, fast push in",
+      "image": "locked.jpg",
+      "focus": "50% 45%",
+      "move": "in"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "anson-flight.jpg",
+      "focus": "40% 50%",
+      "date": "29 SEPTEMBER",
+      "year": "1940",
+      "place": "Brocklesby, New South Wales"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "fade",
+      "image": "sydney-ansons.jpg",
+      "focus": "50% 50%",
+      "move": "up",
+      "kicker": "RAAF Avro Ansons · 1940"
+    },
+    {
+      "type": "film",
+      "from": "s3@0.55",
+      "enter": "cut",
+      "clip": "film-crew.mp4",
+      "credit": "Aircrew in training, 1940s · archive film, illustrative"
+    },
+    {
+      "type": "film",
+      "from": "s4",
+      "enter": "cut",
+      "clip": "film-flight.mp4",
+      "credit": "A 1940s twin-engine plane · archive film, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s5",
+      "enter": "cut",
+      "image": "formation.jpg",
+      "ghost": "FULLER",
+      "kicker": "The upper pilot",
+      "main": {
+        "text": "*Leonard Fuller*, 22",
+        "at": "s5@0.2"
+      },
+      "fact": {
+        "text": "He lost sight of the plane below him.",
+        "at": "s5@0.6"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s6",
+      "enter": "cut",
+      "image": "locked.jpg",
+      "focus": "50% 50%",
+      "move": "out"
+    },
+    {
+      "type": "photo",
+      "from": "s7",
+      "enter": "cut",
+      "image": "locked.jpg",
+      "focus": "75% 25%",
+      "move": "in"
+    },
+    {
+      "type": "film",
+      "from": "s8",
+      "enter": "cut",
+      "clip": "film-throttle.mp4",
+      "credit": "Throttles at full power · archive film, illustrative"
+    },
+    {
+      "type": "number",
+      "from": "s9",
+      "enter": "cut",
+      "image": "anson-ground.jpg",
+      "focus": "50% 50%",
+      "label": "Bailed out",
+      "value": 3,
+      "start": 0,
+      "unit": "MEN",
+      "count": {
+        "from": "s9@0.1",
+        "to": "s9@0.8"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s10",
+      "enter": "cut",
+      "image": "anson-cockpit.jpg",
+      "focus": "50% 45%",
+      "move": "in",
+      "kicker": "Inside an Anson",
+      "line": {
+        "text": "Fuller *stayed*.",
+        "at": "s10"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s11",
+      "enter": "fade",
+      "image": "anson-flight.jpg",
+      "focus": "45% 50%",
+      "move": "right",
+      "kicker": "One pilot · two planes",
+      "fact": {
+        "text": "Ailerons and flaps only",
+        "at": "s11@0.6"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s12",
+      "enter": "fade",
+      "image": "locked.jpg",
+      "focus": "30% 65%",
+      "move": "out",
+      "kicker": "A paddock near Brocklesby",
+      "line": {
+        "text": "A *belly landing*",
+        "at": "s12@0.6"
+      },
+      "fact": {
+        "text": "All 4 men survived",
+        "at": "s13@0.2"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s14",
+      "enter": "fade",
+      "ghost": "SERGEANT",
+      "kicker": "His reward",
+      "main": {
+        "text": "*Promoted.*",
+        "at": "s14@0.4"
+      },
+      "image": "formation.jpg",
+      "focus": "50% 50%"
+    },
+    {
+      "type": "statement",
+      "from": "s15",
+      "enter": "cut",
+      "ghost": "PUNISHED",
+      "kicker": "And then",
+      "main": {
+        "text": "*Punished.*",
+        "at": "s15"
+      },
+      "fact": {
+        "text": "14 days confined to barracks — for talking to the newspapers.",
+        "at": "s15@0.4"
+      },
+      "image": "anson-ground.jpg",
+      "focus": "50% 50%"
+    }
+  ],
+  "post": {
+    "tiktok": "Two planes collided in mid-air… and landed as one. ✈️\n\nOn 29 September 1940, two RAAF training Ansons locked together over Brocklesby, Australia. Three men bailed out. Pilot Leonard Fuller stayed and belly-landed both in a paddock. All four survived.\n\nHis reward? Promotion — and punishment for talking to the papers.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #historytok #aviation #ww2 #australia #1940 #didyouknow",
+    "facebook": "On this day in 1940, two planes collided in mid-air — and landed as one.\n\nTwo Avro Ansons of an Australian flying school were on a cross-country training exercise over New South Wales. Over the town of Brocklesby they made a banking turn, and the upper pilot, 22-year-old Leonard Fuller, lost sight of the plane beneath him.\n\nThey collided and jammed together. The top plane's engines were knocked out; the bottom plane's kept running at full power. Both navigators and the lower pilot bailed out.\n\nFuller stayed. He found he could still control the pair with his ailerons and flaps, picked a paddock, and made a belly landing. All four men survived, and both aircraft were repaired.\n\nFuller was promoted to sergeant — and confined to barracks for fourteen days for speaking to the newspapers without permission.\n\nEvery day has a story like this. Follow the page to find out when our app comes out. 📜\n\n#OnThisDay #History #Aviation #Australia"
+  }
+}

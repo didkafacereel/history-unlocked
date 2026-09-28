@@ -1,0 +1,95 @@
+{
+  "total": 59.937,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "On this day in 1940, two planes collided in mid-air, and landed as one.",
+      "start": 0.4,
+      "end": 6.523
+    },
+    {
+      "id": "s2a",
+      "show": "They were Avro Ansons of an Australian flying school.",
+      "start": 7.023,
+      "end": 10.82
+    },
+    {
+      "id": "s2b",
+      "show": "Two trainee crews, on a cross-country exercise over New South Wales.",
+      "start": 11.17,
+      "end": 16.29
+    },
+    {
+      "id": "s3a",
+      "show": "Over the town of Brocklesby, they made a banking turn.",
+      "start": 16.74,
+      "end": 20.452
+    },
+    {
+      "id": "s3b",
+      "show": "The upper pilot, Leonard Fuller, lost sight of the plane beneath him.",
+      "start": 20.802,
+      "end": 25.197
+    },
+    {
+      "id": "s4a",
+      "show": "They collided, and stuck together.",
+      "start": 25.797,
+      "end": 28.015
+    },
+    {
+      "id": "s4b",
+      "show": "The top plane's engines were dead. The bottom plane's still roared at full power.",
+      "start": 28.415,
+      "end": 33.834
+    },
+    {
+      "id": "s5a",
+      "show": "Three men bailed out.",
+      "start": 34.334,
+      "end": 36.126
+    },
+    {
+      "id": "s5b",
+      "show": "Fuller stayed, and found he could still steer the pair with ailerons and flaps.",
+      "start": 36.526,
+      "end": 41.305
+    },
+    {
+      "id": "s6a",
+      "show": "He picked a paddock, and made a belly landing.",
+      "start": 41.755,
+      "end": 44.613
+    },
+    {
+      "id": "s6b",
+      "show": "All four men survived.",
+      "start": 45.013,
+      "end": 46.869
+    },
+    {
+      "id": "s7a",
+      "show": "Fuller was promoted to sergeant.",
+      "start": 47.469,
+      "end": 49.56
+    },
+    {
+      "id": "s7b",
+      "show": "And punished, for talking to the newspapers.",
+      "start": 49.96,
+      "end": 52.797
+    },
+    {
+      "id": "end1",
+      "show": "Every day has a story like this.",
+      "start": 53.497,
+      "end": 55.865
+    },
+    {
+      "id": "end2",
+      "show": "Subscribe, to find out when our app comes out.",
+      "start": 56.215,
+      "end": 59.437
+    }
+  ]
+}

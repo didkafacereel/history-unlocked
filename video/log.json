@@ -43,5 +43,14 @@
     "category": "Culture & Ideas",
     "music": "satie-gymnopedie-1",
     "seconds": 61
+  },
+  {
+    "date": "2026-09-29",
+    "slug": "brocklesby",
+    "title": "The Brocklesby mid-air collision, 1940 — two Ansons locked together land as one",
+    "eventId": "evt-09-29-1940-royal-australian-air-force",
+    "category": "Military & Conflict",
+    "music": "beethoven-moonlight-1",
+    "seconds": 51
   }
 ]

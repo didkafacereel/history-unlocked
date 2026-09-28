@@ -1,0 +1,115 @@
+{
+  "locked.jpg": {
+    "file": "File:WhenAnsonLandsOnAnson1940.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:WhenAnsonLandsOnAnson1940.jpg",
+    "licence": "Public domain",
+    "artist": "Flying Officer Ian Frederick Rose",
+    "date": "c. 29 September 1940",
+    "description": "Two Avro Ansons of No. 2 Service Flying Training School that collided in mid-air, locked together, and then landed safely near Brocklesby, New South Wales, on 29 September 1940."
+  },
+  "formation.jpg": {
+    "file": "File:StateLibQld 2 201399 Avro Anson aircraft flying in formation, ca. 1940.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:StateLibQld_2_201399_Avro_Anson_aircraft_flying_in_formation,_ca._1940.jpg",
+    "licence": "Public domain",
+    "artist": "Department of Information",
+    "date": "circa 1940date QS:P,+1940-00-00T00:00:00",
+    "description": "Avro Anson aircraft flying in formation, ca. 1940. Title of the Defence Series postcard: 'Ansons in Cloudland'."
+  },
+  "sydney-ansons.jpg": {
+    "file": "File:Avro Ansons 1940 SLNSW FL19137630.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Avro_Ansons_1940_SLNSW_FL19137630.jpg",
+    "licence": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "date": "1940",
+    "description": "Avro Anson aircraft, Sydney, Australia, 19 March 1940, vintage film negative, State Library of New South Wales, ON 388/Box 064/Item 168"
+  },
+  "anson-flight.jpg": {
+    "file": "File:Avro Anson c. 1940.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Avro_Anson_c._1940.jpg",
+    "licence": "Public domain",
+    "artist": "Bzuk",
+    "date": "circa 1940date QS:P,+1940-00-00T00:00:00",
+    "description": "Avro Anson"
+  },
+  "anson-ground.jpg": {
+    "file": "File:StateLibQld 1 190791 Avro Anson aeroplane, 1940-1950.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:StateLibQld_1_190791_Avro_Anson_aeroplane,_1940-1950.jpg",
+    "licence": "Public domain",
+    "artist": "",
+    "date": "between 1940 and 1950date QS:P,+1950-00-",
+    "description": "Avro Anson aeroplane, 1940-1950."
+  },
+  "film-flight.mp4": {
+    "file": "File:How To Fly The B-26.webm",
+    "page": "https://commons.wikimedia.org/wiki/File:How_To_Fly_The_B-26.webm",
+    "licence": "Public domain",
+    "artist": "USAAF",
+    "date": "1944",
+    "description": "This 1944 U.S. Army Air Forces training film - \"How To Fly The B-26 Airplane\" - features Don Porter as a flight instructor responsible for the training of a young lieutenant pilot, played by Craig Stevens. It details the initial introductio",
+    "film": {
+      "at": 2331,
+      "len": 5,
+      "fit": "band"
+    }
+  },
+  "film-throttle.mp4": {
+    "file": "File:How To Fly The B-26.webm",
+    "page": "https://commons.wikimedia.org/wiki/File:How_To_Fly_The_B-26.webm",
+    "licence": "Public domain",
+    "artist": "USAAF",
+    "date": "1944",
+    "description": "This 1944 U.S. Army Air Forces training film - \"How To Fly The B-26 Airplane\" - features Don Porter as a flight instructor responsible for the training of a young lieutenant pilot, played by Craig Stevens. It details the initial introductio",
+    "film": {
+      "at": 1197.5,
+      "len": 4,
+      "fit": "band"
+    }
+  },
+  "film-crew.mp4": {
+    "file": "File:How To Fly The B-26.webm",
+    "page": "https://commons.wikimedia.org/wiki/File:How_To_Fly_The_B-26.webm",
+    "licence": "Public domain",
+    "artist": "USAAF",
+    "date": "1944",
+    "description": "This 1944 U.S. Army Air Forces training film - \"How To Fly The B-26 Airplane\" - features Don Porter as a flight instructor responsible for the training of a young lieutenant pilot, played by Craig Stevens. It details the initial introductio",
+    "film": {
+      "at": 1854.5,
+      "len": 4,
+      "fit": "band"
+    }
+  },
+  "film-sky.mp4": {
+    "file": "File:How To Fly The B-26.webm",
+    "page": "https://commons.wikimedia.org/wiki/File:How_To_Fly_The_B-26.webm",
+    "licence": "Public domain",
+    "artist": "USAAF",
+    "date": "1944",
+    "description": "This 1944 U.S. Army Air Forces training film - \"How To Fly The B-26 Airplane\" - features Don Porter as a flight instructor responsible for the training of a young lieutenant pilot, played by Craig Stevens. It details the initial introductio",
+    "film": {
+      "at": 1841.5,
+      "len": 4,
+      "fit": "band"
+    }
+  },
+  "film-flight2.mp4": {
+    "file": "File:How To Fly The B-26.webm",
+    "page": "https://commons.wikimedia.org/wiki/File:How_To_Fly_The_B-26.webm",
+    "licence": "Public domain",
+    "artist": "USAAF",
+    "date": "1944",
+    "description": "This 1944 U.S. Army Air Forces training film - \"How To Fly The B-26 Airplane\" - features Don Porter as a flight instructor responsible for the training of a young lieutenant pilot, played by Craig Stevens. It details the initial introductio",
+    "film": {
+      "at": 2350,
+      "len": 5,
+      "fit": "band"
+    }
+  },
+  "anson-cockpit.jpg": {
+    "file": "File:Avro Anson - Royal Air Force Transport Command, 1943-1945. CH16482.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Avro_Anson_-_Royal_Air_Force_Transport_Command,_1943-1945._CH16482.jpg",
+    "licence": "Public domain",
+    "artist": "Royal Air Force official photographer, Miller (Flt Lt)",
+    "date": "between 1939 and 1945date QS:P571,+1950-",
+    "description": "Royal Air Force Transport Command, 1943-1945. The interior of Avro Anson C Mark XI, PH693, of No. 167 Squadron RAF at Hendon, Middlesex, looking forward from the passenger compartment to the cockpit. The aircraft's four-letter Transport Com"
+  }
+}

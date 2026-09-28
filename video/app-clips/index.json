@@ -53,5 +53,16 @@
     "video": "2026-09-28-fleming.mp4",
     "poster": "2026-09-28-fleming.jpg",
     "bytes": 2019755
+  },
+  {
+    "date": "2026-09-29",
+    "dateKey": "09-29",
+    "slug": "brocklesby",
+    "eventId": "evt-09-29-1940-royal-australian-air-force",
+    "title": "The Brocklesby mid-air collision, 1940 — two Ansons locked together land as one",
+    "seconds": 47.1,
+    "video": "2026-09-29-brocklesby.mp4",
+    "poster": "2026-09-29-brocklesby.jpg",
+    "bytes": 2112709
   }
 ]

@@ -1,0 +1,101 @@
+{
+  "total": 50.94,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "Two planes collided in mid-air, and landed as one.",
+      "start": 0.4,
+      "end": 3.813
+    },
+    {
+      "id": "s2",
+      "show": "It happened on this day in 1940.",
+      "start": 4.213,
+      "end": 6.667
+    },
+    {
+      "id": "s3",
+      "show": "Two Avro Ansons from an Australian flying school were on a training flight.",
+      "start": 7.067,
+      "end": 11.931
+    },
+    {
+      "id": "s4",
+      "show": "Over the town of Brocklesby, they made a banking turn.",
+      "start": 12.281,
+      "end": 15.758
+    },
+    {
+      "id": "s5",
+      "show": "The upper pilot, Leonard Fuller, lost sight of the plane below him.",
+      "start": 16.108,
+      "end": 20.183
+    },
+    {
+      "id": "s6",
+      "show": "They collided, and stuck together.",
+      "start": 20.733,
+      "end": 22.781
+    },
+    {
+      "id": "s7",
+      "show": "The top plane's engines were dead.",
+      "start": 23.181,
+      "end": 25.165
+    },
+    {
+      "id": "s8",
+      "show": "The bottom plane's still ran at full power.",
+      "start": 25.465,
+      "end": 27.918
+    },
+    {
+      "id": "s9",
+      "show": "Three men bailed out.",
+      "start": 28.368,
+      "end": 30.011
+    },
+    {
+      "id": "s10",
+      "show": "Fuller stayed.",
+      "start": 30.411,
+      "end": 31.584
+    },
+    {
+      "id": "s11",
+      "show": "He found he could still steer both planes, with the ailerons and flaps.",
+      "start": 31.934,
+      "end": 36.265
+    },
+    {
+      "id": "s12",
+      "show": "He picked a paddock, and made a belly landing.",
+      "start": 36.665,
+      "end": 39.331
+    },
+    {
+      "id": "s13",
+      "show": "All four men survived.",
+      "start": 39.681,
+      "end": 41.409
+    },
+    {
+      "id": "s14",
+      "show": "Fuller was promoted to sergeant.",
+      "start": 41.959,
+      "end": 44.007
+    },
+    {
+      "id": "s15",
+      "show": "And punished, for talking to the newspapers.",
+      "start": 44.357,
+      "end": 46.896
+    },
+    {
+      "id": "end2",
+      "show": "Subscribe, to find out when our app comes out.",
+      "start": 47.496,
+      "end": 50.44
+    }
+  ]
+}

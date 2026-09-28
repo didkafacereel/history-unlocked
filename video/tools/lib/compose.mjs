@@ -24,13 +24,27 @@ const FADE_LEAD = 0.06;
 const COVER = 0.4; // the thumbnail holds through the lead-in silence
 const r3 = (n) => Math.round(n * 1000) / 1000;
 
+/** "s4" / "s4@0.5" / "s4+0.3" → seconds into the narration. */
+export function phraseCue(seg, value) {
+  const m = /^([A-Za-z]\w*)(?:@([\d.]+))?([+-][\d.]+)?$/.exec(String(value).trim());
+  if (!m) return null;
+  const p = seg[m[1]];
+  if (!p) return null;
+  return p.start + (p.end - p.start) * Number(m[2] ?? 0) + Number(m[3] ?? 0);
+}
+
 export function sceneTimes(script, timings, total) {
   const seg = Object.fromEntries(timings.sentences.map((s) => [s.id, s]));
+  // A scene opens on a sentence ("s4") or, for a cut inside one, on any cue
+  // ("s4@0.5") — the fast pace changes picture every two or three seconds.
   const starts = script.scenes.map((sc, i) => {
     if (i === 0 || sc.from == null) return 0;
-    const phrase = seg[sc.from];
-    if (!phrase) throw new Error(`scene ${sc.id} opens on unknown phrase "${sc.from}"`);
-    return r3(sc.enter === 'cut' ? phrase.start : phrase.start - FADE_LEAD);
+    const at = phraseCue(seg, sc.from);
+    if (at === null) throw new Error(`scene ${sc.id} opens on unknown phrase "${sc.from}"`);
+    return r3(sc.enter === 'cut' ? at : at - FADE_LEAD);
+  });
+  starts.forEach((t, i) => {
+    if (i > 0 && t < starts[i - 1] + 0.8) throw new Error(`scene ${script.scenes[i].id} opens ${(t - starts[i - 1]).toFixed(2)}s after the one before — scenes must be in order and at least 0.8s long`);
   });
   const scene = {};
   script.scenes.forEach((sc, i) => {
@@ -66,11 +80,8 @@ export function compose(dir, script, timings, total) {
     let t;
     if (typeof value === 'number') t = S.start + value;
     else {
-      const m = /^([A-Za-z]\w*)(?:@([\d.]+))?([+-][\d.]+)?$/.exec(String(value).trim());
-      if (!m) throw new Error(`${sceneId}: cannot read cue "${value}"`);
-      const p = seg[m[1]];
-      if (!p) throw new Error(`${sceneId}: cue "${value}" names unknown phrase "${m[1]}"`);
-      t = p.start + (p.end - p.start) * Number(m[2] ?? 0) + Number(m[3] ?? 0);
+      t = phraseCue(seg, value);
+      if (t === null) throw new Error(`${sceneId}: cannot read cue "${value}" (unknown phrase?)`);
     }
     if (t > S.end - 0.35) problems.push(`${sceneId}: cue "${value}" (${t.toFixed(2)}s) is after the scene ends (${S.end.toFixed(2)}s) — it would never be seen`);
     return r3(Math.max(t, S.start));
@@ -85,6 +96,7 @@ export function compose(dir, script, timings, total) {
     const cue = cueFor(sc.id, S);
     const ctx = {
       id: sc.id,
+      dir,
       S,
       cue,
       asset,
@@ -95,8 +107,17 @@ export function compose(dir, script, timings, total) {
         return { text: field.text, at: cue(field.at, fallback) };
       },
     };
-    const { html, anim: lines } = render(sc, ctx);
+    const { html, anim: lines, media, problem } = render(sc, ctx);
+    if (problem) problems.push(problem);
     const fadeIn = i > 0 && sc.enter !== 'cut';
+    // Film is a timed <video> of its own at the root — a timed video inside the
+    // timed scene div would show the wrong frames — stacked just under the
+    // scene's transparent overlay (same z-index, earlier in the document).
+    if (media) {
+      blocks.push(`
+      <video id="${sc.id}-film" class="clip film" src="${media}" data-start="${S.start}" data-duration="${S.duration}" data-track-index="${i + 1}" style="z-index: ${i + 1}" muted playsinline></video>`);
+      if (fadeIn) anim.push(`tl.fromTo("#${sc.id}-film", {"opacity":0}, {"opacity":1,"duration":0.35,"ease":"power1.out"}, ${S.start});`);
+    }
     blocks.push(`
       <!-- ${i + 1} ── ${esc(sc.type)}${sc.note ? ` · ${esc(sc.note)}` : ''} -->
       <div id="${sc.id}" class="scene clip" data-start="${S.start}" data-duration="${S.duration}" data-track-index="${i + 1}" style="z-index: ${i + 1}">
@@ -127,7 +148,7 @@ export function compose(dir, script, timings, total) {
     <style>${CSS}</style>
   </head>
   <body>
-    <div id="root" data-composition-id="main" data-start="0" data-duration="${total}" data-width="1080" data-height="1920">${cover}
+    <div id="root"${script.pace === 'fast' ? ' class="fast"' : ''} data-composition-id="main" data-start="0" data-duration="${total}" data-width="1080" data-height="1920">${cover}
 ${blocks.join('\n')}
 
       <div id="captions" class="clip" data-start="0" data-duration="${r3(captionsEnd)}" data-track-index="30"></div>
@@ -137,8 +158,9 @@ ${blocks.join('\n')}
     <script>
       var CAPTIONS = ${JSON.stringify(captions)};
       var KEY = ${JSON.stringify(highlight)};
+      var MAXW = ${script.pace === 'fast' ? 3 : 4};
 
-      // Captions come in balanced chunks of up to four words, split at
+      // Captions come in balanced chunks of up to MAXW words (four; three at the fast pace), split at
       // punctuation first, each timed by its share of the phrase's letters.
       function groupsOf(phrase) {
         var words = phrase.show.split(/\\s+/);
@@ -149,7 +171,7 @@ ${blocks.join('\n')}
         });
         var groups = [];
         parts.forEach(function (p) {
-          var chunks = Math.ceil(p.length / 4), base = Math.floor(p.length / chunks), extra = p.length % chunks, at = 0;
+          var chunks = Math.ceil(p.length / MAXW), base = Math.floor(p.length / chunks), extra = p.length % chunks, at = 0;
           for (var c = 0; c < chunks; c++) { var size = base + (c < extra ? 1 : 0); groups.push(p.slice(at, at + size)); at += size; }
         });
         var total = groups.reduce(function (n, g) { return n + g.join(" ").length; }, 0);

@@ -79,7 +79,9 @@ node D:/android/history-unlocked/video/tools/images.mjs D:/android/history-unloc
 ```
 
 **Look at `video/day-<date>-<slug>/.candidates/sheet.jpg`** (Read it — it is an
-image). Choose 6–9: one striking picture for the cover, one for the title,
+image). Choose 8–12 (with 2–4 film shots from step 3b, that feeds 14–18
+scenes; the one real picture of the event may be used 3–4 times with
+different `focus` crops): one striking picture for the cover, one for the title,
 people's faces for pair/portrait scenes, documents/maps/art for the rest.
 Search Commons more if the articles are thin: US government photos (military,
 NASA, White House), pre-1929 paintings and photographs, Soviet stamps, old
@@ -112,13 +114,62 @@ not show is a scene to fix.
 node D:/android/history-unlocked/video/tools/images.mjs D:/android/history-unlocked/video/day-<date>-<slug> get <n> <name>
 ```
 
+## 3b. Archive film (the user's choice, 28 Sep: "real footage builds trust")
+
+Look for real public-domain film of the event, the place, the people or the
+era — newsreels, US government films, NASA, early cinema. Try the event's
+articles first, then searches (a war, a place, a decade + "newsreel", a
+machine):
+
+```bash
+node D:/android/history-unlocked/video/tools/clips.mjs D:/android/history-unlocked/video/day-<date>-<slug> list --page "Article" --search "search words" --file "File:Exact name.webm"
+```
+
+**Read `.clips/sheet.jpg`** (four frames per film). For a promising film,
+find the exact seconds:
+
+```bash
+node D:/android/history-unlocked/video/tools/clips.mjs D:/android/history-unlocked/video/day-<date>-<slug> scan <n> --from 600 --to 700 --every 2
+```
+
+**Read `.clips/scan.jpg`** — every frame is stamped with its second. Scan the
+whole film coarsely first (`--every 40`), then the good stretches finely.
+Then cut 2–4 shots, each a little longer than its scene (4–5 s):
+
+```bash
+node D:/android/history-unlocked/video/tools/clips.mjs D:/android/history-unlocked/video/day-<date>-<slug> get <n> <name> --at 1197.5 --len 4
+```
+
+The shot lands in `assets/<name>.mp4` as a 1080×1920 band over a blurred copy
+of itself (`--fit fill` crops to full screen — only for sharp HD film;
+`--color` keeps colour). Pick moving shots: a plane in flight, a hand on a
+lever, a crowd, a ship — motion is the point.
+
+**Honesty rules for film** (as for pictures, only stricter — moving pictures
+read as "this is the event"):
+
+- Every `film` scene has a `credit` line on screen saying what it is. When it
+  is not the event itself, it ends "archive film, illustrative".
+- Same era, same kind of thing, and never the other side: a US 1944 bomber
+  may stand in for "a 1940s twin-engine plane"; German bombers may NOT stand
+  in for Australian trainers (Brocklesby, 28 Sep: *Why We Fight* rejected).
+- Never over a sentence that names a person, unless the film shows that
+  person.
+- No suitable film → none. A video with only stills is fine; a misleading
+  shot is not.
+
+`upload.wikimedia.org` answers bursts with 429 — the tool waits and retries
+by itself; just run it again if it still fails.
+
 ## 4. Write script.json
 
-Model: `video/day-2026-09-26-petrov/script.json` — copy its shape.
+Model: `video/day-2026-09-29-brocklesby-v2/script.json` — copy its shape.
 
-**The voice** (decided with the user): `am_michael` at 0.9, set in
-`channel.json`. Length **50–60 s**: about **115 words of story** in 10–12
-sentences (`make.mjs` adds the two end-card lines itself — do not write them).
+**The pace** (decided with the user, 28 Sep): `"pace": "fast"` — always.
+Voice `am_michael` at 1.0, length **40–52 s** (`make.mjs` accepts 30–55):
+about **100–110 words of story** in 13–16 short sentences. A new picture
+every **2–4 s**: 14–18 scenes. `make.mjs` adds the one spoken end-card line
+itself — do not write it.
 
 **Sentences.** Each has `say` (for the voice) and `show` (for the captions):
 
@@ -128,10 +179,14 @@ sentences (`make.mjs` adds the two end-card lines itself — do not write them).
 - Short, spoken English. One idea per sentence. No semicolons.
 - `pauseAfter`: 0.35 inside a beat, 0.45–0.5 between beats, 0.6–0.7 before a
   twist or payoff. Varied pauses are what stopped the first cut sounding AI.
-- **s1 is the hook**: "On this day in <year>, <the whole story in one surprising
-  line>." Then set-up → tension → the turn → the payoff → a short, human last
-  line (often an irony or a quote from the sources).
-- Ids: `s1`, `s2`, `s3a`, `s3b`… (a/b when two sentences share a scene).
+- **s1 is the hook**: the whole story in one surprising line, no preamble
+  ("Two planes collided in mid-air, and landed as one."). **s2** dates it:
+  "It happened on this day in <year>." Then set-up → tension → the turn →
+  the payoff → a short, human last line (often an irony or a quote from the
+  sources).
+- Short sentences cut well: "Fuller stayed." is its own sentence and its own
+  scene.
+- Ids: `s1`, `s2`, `s3`… (or `s3a`, `s3b`).
 
 **Cover** (the thumbnail — also the first frames of the video):
 `lines`: 2–3 lines, 2–12 characters each, ALL CAPS, the hook in the fewest
@@ -140,15 +195,23 @@ the most dramatic, readable picture; `focus` moves it ("50% 70%"). If the
 text lands on a face (it starts 560 px down), set `top` (e.g. `860`) to lower
 it onto the body — 28 Sep: "ON THIS DAY" sat on Fleming's mouth.
 
-**Scenes**: 6–8, one per beat, each opening on a sentence (`from`). First is
-always `title`. `enter`: `"fade"` normally, `"cut"` for a hard turn (a shock,
-a reversal). Every text field is a string or `{ "text": "...", "at": <cue> }`.
-Cues: `"s4"` (sentence start), `"s4@0.5"` (halfway through), `"s4+0.3"`,
-or a number of seconds into the scene. Text: `*word*` = gold.
+**Scenes**: 14–18, a new picture every 2–4 s. Each opens on a sentence
+(`from`: `"s4"`) or inside one (`"s3@0.55"` — cut to the next picture halfway
+through a long sentence). The first scene is the hook: the most striking real
+picture as a `photo` with no text (`move: "in"`) — the captions carry it. The
+`title` scene comes second, on the date sentence. `enter`: `"cut"` for most
+changes (it is what makes the pace), `"fade"` for a softer turn. Film scenes
+are always `"cut"`. Leave text off most photo scenes; give text to the beats
+that need it (a name, a number, the payoff). No scene should be a black
+screen with text: give `statement` scenes an `image`. Every text field is a
+string or `{ "text": "...", "at": <cue> }`. Cues: `"s4"` (sentence start),
+`"s4@0.5"` (halfway through), `"s4+0.3"`, or a number of seconds into the
+scene. Text: `*word*` = gold.
 
 | type | for | fields |
 | --- | --- | --- |
-| `title` | always first | `image`, `focus`, `date` ("26 SEPTEMBER"), `year`, `place`, `move` |
+| `film` | archive film (step 3b) | `clip` ("name.mp4"), `credit` (required — see the honesty rules), `kicker` |
+| `title` | the date, second scene | `image`, `focus`, `date` ("26 SEPTEMBER"), `year`, `place`, `move` |
 | `pair` | two people / sides | `kicker`, `a` & `b`: {`image`, `focus`, `fit`:"contain", `bg`, `name`, `role`, `at`}, `foot` |
 | `statement` | a line that lands | `ghost` (huge faint word), `kicker`, `main`, `fact`, `source`, optional `image` (dimmed) |
 | `number` | a figure that counts up | `image`, `label`, `value`, `start`, `prefix`, `suffix`, `unit`, `decimals`, `count`: {`from`,`to`} cues, `sub` |
@@ -182,6 +245,8 @@ It voices, times, mixes, composes and checks. It stops with a reason when:
   Cheapest first: take 0.1 s off three or four of the longest `pauseAfter`
   values (never below 0.35), then make one sentence more concise. Only the
   changed sentence is re-voiced. (27 Sep: 62.2 s → 61.4 s this way.)
+- **film is shorter than its scene** → cut a longer shot (`clips.mjs get
+  --len`) or open the next scene earlier
 - **cue after the scene ends** → move the cue earlier or the scene later
 - **hyperframes check error** (overlap, overflow) → shorten the text, or pick
   another scene type; run again
@@ -193,6 +258,8 @@ every frame:
 - faces are not cut off (fix `focus`), nothing important under the captions
 - no text overflows or collides; nothing says something the voice does not
 - the picture in each scene matches what is being said
+- no frame is a near-black screen with a line of text; film frames show the
+  footage in its band with the credit line above it
 
 Fix and re-run until it is right (the voice is cached; re-runs take ~2 min).
 

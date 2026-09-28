@@ -22,11 +22,12 @@ const FADE = 0.6;
 /**
  * Where the end card begins, from the measured narration: the first end-card
  * sentence ("Every day has a story like this."). Automated days name it
- * `end1`; the two hand-built days name it in `captionsUntil`.
+ * `end1` (`end2` at the fast pace, which speaks only the call to action);
+ * the two hand-built days name it in `captionsUntil`.
  */
 function endCardStart(dir, script) {
   const timings = JSON.parse(readFileSync(path.join(dir, 'timings.json'), 'utf8'));
-  const id = script.format === 2 ? 'end1' : script.captionsUntil;
+  const id = script.format === 2 ? (script.pace === 'fast' ? 'end2' : 'end1') : script.captionsUntil;
   const s = timings.sentences.find((t) => t.id === id);
   if (!s) throw new Error(`no end-card sentence "${id}" in ${dir}/timings.json`);
   // Just before the words, and before the crossfade into the card.

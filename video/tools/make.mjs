@@ -4,6 +4,11 @@
  *   node video/tools/make.mjs video/day-2026-09-26-petrov                 everything
  *   node video/tools/make.mjs video/day-2026-09-26-petrov --no-render     stop after the snapshots
  *   node video/tools/make.mjs video/day-2026-09-26-petrov --render-only   frames already approved
+ *   … --draft   a trial version: delivered to ready/, but not logged and no app clip
+ *
+ * "pace": "fast" in script.json (the v2 format): voice at 1.0, 30–55 s, a
+ * picture change every 2–3 s, lighter shades, 3-word captions, and only the
+ * call-to-action line spoken over the end card.
  *
  *   1. resolve   add the end card and its two spoken lines from channel.json,
  *                the music from music/library.json; check every image exists
@@ -38,8 +43,7 @@ if (!dayArg) {
 const dir = path.resolve(dayArg);
 const noRender = args.includes('--no-render');
 const renderOnly = args.includes('--render-only');
-const MIN_LEN = 45;
-const MAX_LEN = 62;
+const draft = args.includes('--draft');
 
 const fail = (msg) => {
   console.error(`\n✗ ${msg}`);
@@ -61,6 +65,10 @@ const script = JSON.parse(readFileSync(path.join(dir, 'script.json'), 'utf8'));
 const channel = JSON.parse(readFileSync(path.join(videoDir, 'channel.json'), 'utf8'));
 const library = JSON.parse(readFileSync(path.join(videoDir, 'music', 'library.json'), 'utf8'));
 if (script.format !== 2) fail('script.json is not format 2 — the hand-built days use build-*.mjs instead');
+const fast = script.pace === 'fast';
+const MIN_LEN = fast ? 30 : 45;
+const MAX_LEN = fast ? 55 : 62;
+const TARGET = fast ? 45 : 58;
 
 const stage = channel.stages[channel.stage];
 if (!stage) fail(`channel.json stage "${channel.stage}" has no entry in "stages"`);
@@ -81,7 +89,8 @@ for (const s of script.sentences) {
 }
 script.scenes.forEach((sc, i) => {
   sc.id ??= `scene${i + 1}`;
-  if (i > 0 && !ids.has(sc.from)) fail(`${sc.id} opens on "${sc.from}", which is not a sentence id`);
+  // "s4", or a cue inside it ("s4@0.5", "s4+0.8") for a cut mid-sentence.
+  if (i > 0 && !ids.has(String(sc.from ?? '').replace(/[@+-].*$/, ''))) fail(`${sc.id} opens on "${sc.from}", which is not a sentence id or a cue on one`);
 });
 
 // Credits: the artists recorded when each image was fetched.
@@ -93,20 +102,29 @@ const usedImages = new Set(
   [
     script.cover?.image,
     script.endImage,
-    ...script.scenes.flatMap((sc) => [sc.image, sc.a?.image, sc.b?.image]),
+    ...script.scenes.flatMap((sc) => [sc.image, sc.a?.image, sc.b?.image, sc.clip]),
   ].filter(Boolean),
 );
 const artists = [
   ...new Set(
     Object.entries(credits)
-      .filter(([file]) => usedImages.has(file))
+      .filter(([file, c]) => usedImages.has(file) && !c.film)
       .map(([, c]) => c)
       .map((c) => (c.artist ?? '').replace(/\s*\(.*?\)\s*/g, ' ').trim())
       .filter((a) => a && a.length <= 40 && !/unknown|anonymous|unidentified|^user:/i.test(a)),
   ),
 ].slice(0, 8);
+// Archive film is credited by its title ("How To Fly The B-26"), once per film.
+const films = [
+  ...new Set(
+    Object.entries(credits)
+      .filter(([file, c]) => usedImages.has(file) && c.film)
+      .map(([, c]) => c.file.replace(/^File:/, '').replace(/.(webm|ogv|mpe?g|mp4)$/i, '')),
+  ),
+];
 const creditLine =
   `Images: ${script.imageCredit ?? (artists.length ? `${artists.join('; ')} via Wikimedia Commons` : 'Wikimedia Commons')} · public domain. ` +
+  (films.length ? `Film: ${films.join('; ')} · public domain. ` : '') +
   `Music: ${track.credit}. Sources: Wikipedia.`;
 
 // The end card and its two spoken lines come from the channel settings, so a
@@ -114,11 +132,13 @@ const creditLine =
 const resolved = {
   ...script,
   voice: script.voice ?? channel.voice,
-  speed: script.speed ?? channel.speed,
-  tail: script.tail ?? channel.tail,
+  speed: script.speed ?? (fast ? 1.0 : channel.speed),
+  tail: script.tail ?? (fast ? 0.6 : channel.tail),
+  // The fast pace speaks only the call to action — every second of end card
+  // is a second viewers swipe away in, and completion is what TikTok counts.
   sentences: [
     ...script.sentences,
-    { id: 'end1', say: channel.story, show: channel.story, pauseAfter: 0.35 },
+    ...(fast ? [] : [{ id: 'end1', say: channel.story, show: channel.story, pauseAfter: 0.35 }]),
     { id: 'end2', say: stage.say, show: stage.say, pauseAfter: 0.5 },
   ],
   scenes: [
@@ -126,16 +146,16 @@ const resolved = {
     {
       id: 'endcard',
       type: 'endcard',
-      from: 'end1',
+      from: fast ? 'end2' : 'end1',
       enter: 'fade',
       image: script.endImage,
       card: { story: channel.story, ...stage },
       credits: creditLine,
-      storyAt: 'end1+0.05',
-      ctaAt: 'end2',
+      storyAt: fast ? 'end2+0.05' : 'end1+0.05',
+      ctaAt: fast ? 'end2+0.3' : 'end2',
     },
   ],
-  captionsUntil: 'end1',
+  captionsUntil: fast ? 'end2' : 'end1',
 };
 const words = resolved.sentences.reduce((n, s) => n + s.say.split(/\s+/).length, 0);
 console.log(`${script.sentences.length} story sentences + end card · ${words} words · ${script.scenes.length + 1} scenes · music ${track.id} · stage ${channel.stage}`);
@@ -152,8 +172,8 @@ if (!renderOnly) {
   const len = videoLength(resolved, timings);
   console.log(`narration ${timings.total}s → video ${len}s`);
   for (const t of timings.sentences) console.log(`  ${t.id.padEnd(6)} ${t.start.toFixed(2)} → ${t.end.toFixed(2)}`);
-  if (len > MAX_LEN) fail(`video is ${len}s — over ${MAX_LEN}s. Cut about ${Math.ceil((len - 58) * 2.2)} words or shorten pauses, then run again.`);
-  if (len < MIN_LEN) fail(`video is ${len}s — under ${MIN_LEN}s. Add a sentence of story (about ${Math.ceil((52 - len) * 2.2)} words).`);
+  if (len > MAX_LEN) fail(`video is ${len}s — over ${MAX_LEN}s. Cut about ${Math.ceil((len - TARGET) * 2.2)} words or shorten pauses, then run again.`);
+  if (len < MIN_LEN) fail(`video is ${len}s — under ${MIN_LEN}s. Add a sentence of story (about ${Math.ceil((MIN_LEN + 5 - len) * 2.2)} words).`);
 
   step('mix');
   mix(dir, resolved, timings, musicFile);
@@ -176,7 +196,7 @@ try {
 // portrait). Read this next to the contact sheet.
 for (const sc of resolved.scenes) {
   const s = composed.scene[sc.id];
-  const pics = [sc.image, sc.a?.image, sc.b?.image].filter(Boolean).join(' + ') || '(text only)';
+  const pics = [sc.image, sc.a?.image, sc.b?.image, sc.clip].filter(Boolean).join(' + ') || '(text only)';
   const said = timings.sentences
     // Over half a second of the sentence inside the scene — the crossfade
     // overlap at each boundary is not "said over" the next picture.
@@ -218,7 +238,7 @@ if (noRender) {
 
 // ── 8. render + verify ────────────────────────────────────────────────────
 step('render');
-const name = `${script.date}-${script.slug}`;
+const name = `${script.date}-${script.slug}${draft ? '-v2' : ''}`;
 const mp4 = path.join(dir, 'renders', `${name}.mp4`);
 mkdirSync(path.dirname(mp4), { recursive: true });
 npx(['render', '--quality', 'high', '--output', path.relative(dir, mp4)], { stdio: ['ignore', 'pipe', 'pipe'] });
@@ -263,6 +283,11 @@ writeFileSync(
     '',
   ].join('\n'),
 );
+if (draft) {
+  console.log(`draft: not logged, no app clip
+ready → ${path.relative(path.resolve(videoDir, '..'), ready)}`);
+  process.exit(0);
+}
 const logFile = path.join(videoDir, 'log.json');
 const log = existsSync(logFile) ? JSON.parse(readFileSync(logFile, 'utf8')) : [];
 const entry = {
