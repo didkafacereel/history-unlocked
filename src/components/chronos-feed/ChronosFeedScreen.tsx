@@ -14,6 +14,7 @@ import { FeedTopBar } from './FeedTopBar';
 import { FeedDeck, TerminalKind } from './FeedDeck';
 import { FeedEmptyState } from './FeedEmptyState';
 import { PersonDetailSheet } from './PersonDetailSheet';
+import { ReminderAskSheet } from './ReminderAskSheet';
 import { SwipeHintPulse } from './SwipeHintPulse';
 
 /**
@@ -115,6 +116,7 @@ export function ChronosFeedScreen() {
       <EventDetailSheet />
       <CategoryFilterSheet />
       <PersonDetailSheet />
+      <ReminderAskSheet />
       <WelcomeSheet />
     </View>
   );

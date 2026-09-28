@@ -50,9 +50,23 @@ interface ReminderState {
    * for anyone who changes their mind.
    */
   offered: boolean;
+  /** Asked once in the feed (after `FEED_ASK_AFTER` cards), whatever the answer. */
+  askedInFeed: boolean;
+  /**
+   * Whether the feed's ask is on screen. Not persisted, and a latch rather than
+   * a condition: answering flips `offered`, and a sheet whose visibility were
+   * derived from it would vanish before it could say "Reminder on".
+   */
+  feedAskOpen: boolean;
+  /** Storage has answered — nothing may ask before it has. */
+  hydrated: boolean;
 
   setEnabled: (enabled: boolean) => Promise<boolean>;
   markOffered: () => void;
+  openFeedAsk: () => void;
+  /** Close the feed's ask and record that it happened. */
+  closeFeedAsk: () => void;
+  setHydrated: () => void;
   setTime: (hour: number, minute: number) => Promise<void>;
   /** Re-fill the horizon. Safe and cheap to call on every launch. */
   refresh: () => Promise<void>;
@@ -96,8 +110,14 @@ export const useReminderStore = create<ReminderState>()(
       minute: 0,
       lastScheduled: null,
       offered: false,
+      askedInFeed: false,
+      feedAskOpen: false,
+      hydrated: false,
 
       markOffered: () => set({ offered: true }),
+      openFeedAsk: () => set({ feedAskOpen: true, askedInFeed: true }),
+      closeFeedAsk: () => set({ feedAskOpen: false, askedInFeed: true }),
+      setHydrated: () => set({ hydrated: true }),
 
       setEnabled: async (enabled) => {
         if (!enabled) {
@@ -149,7 +169,11 @@ export const useReminderStore = create<ReminderState>()(
         minute: state.minute,
         lastScheduled: state.lastScheduled,
         offered: state.offered,
+        askedInFeed: state.askedInFeed,
       }),
+      onRehydrateStorage: () => (state) => {
+        state?.setHydrated();
+      },
     },
   ),
 );

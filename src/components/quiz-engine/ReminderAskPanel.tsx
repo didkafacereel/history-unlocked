@@ -19,10 +19,24 @@ import { type } from '@/theme/typography';
  * The answer is recorded whatever it is (`markOffered`), and the panel stays on
  * screen to say what happened rather than vanishing — a reader who tapped
  * "Remind me" and saw nothing change would reasonably tap it again.
+ *
+ * The feed asks too, three cards in (`ReminderAskSheet`). There, "Not now" is
+ * NOT recorded as `offered`, so the quiz keeps its one later chance; and
+ * `onDone` gives the sheet a way to close once the answer has been shown.
  */
 type Phase = 'ask' | 'on' | 'refused' | 'gone';
 
-export const ReminderAskPanel = memo(function ReminderAskPanel() {
+interface ReminderAskPanelProps {
+  /** Where the ask is. Decides what "Not now" records. */
+  source?: 'quiz' | 'feed';
+  /** Called when the reader is finished with the panel. Adds a close button. */
+  onDone?: () => void;
+}
+
+export const ReminderAskPanel = memo(function ReminderAskPanel({
+  source = 'quiz',
+  onDone,
+}: ReminderAskPanelProps) {
   const hour = useReminderStore((s) => s.hour);
   const minute = useReminderStore((s) => s.minute);
   const [phase, setPhase] = useState<Phase>('ask');
@@ -43,9 +57,20 @@ export const ReminderAskPanel = memo(function ReminderAskPanel() {
   };
 
   const decline = () => {
-    useReminderStore.getState().markOffered();
+    if (source === 'quiz') {
+      useReminderStore.getState().markOffered();
+    }
     setPhase('gone');
+    onDone?.();
   };
+
+  const done = onDone ? (
+    <View style={styles.actions}>
+      <PressableScale onPress={onDone} style={styles.no} accessibilityLabel="Done">
+        <SegmentedText variant="label">Done</SegmentedText>
+      </PressableScale>
+    </View>
+  ) : null;
 
   if (phase === 'on') {
     return (
@@ -56,6 +81,7 @@ export const ReminderAskPanel = memo(function ReminderAskPanel() {
         <Text style={styles.body}>
           {`Tomorrow’s lead arrives at ${time}. Change the time or turn it off in your profile.`}
         </Text>
+        {done}
       </View>
     );
   }
@@ -68,6 +94,7 @@ export const ReminderAskPanel = memo(function ReminderAskPanel() {
           Your phone is blocking notifications for History Unlocked. You can allow them in the
           phone’s settings, and the reminder in your profile will work from then on.
         </Text>
+        {done}
       </View>
     );
   }
