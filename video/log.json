@@ -61,5 +61,14 @@
     "category": "Politics & Power",
     "music": "chopin-nocturne-10",
     "seconds": 55
+  },
+  {
+    "date": "2026-10-01",
+    "slug": "model-t",
+    "title": "The Ford Model T debuts, 1908 — from 12½ hours to 93 minutes",
+    "eventId": "evt-10-01-1908-ford-model-t",
+    "category": "Culture & Ideas",
+    "music": "grieg-morning",
+    "seconds": 51
   }
 ]

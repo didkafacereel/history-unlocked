@@ -1,0 +1,157 @@
+{
+  "ford-portrait.jpg": {
+    "file": "File:Henry ford 1919.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Henry_ford_1919.jpg",
+    "licence": "Public domain",
+    "artist": "Fred Hartsook",
+    "date": "1919",
+    "description": "Portrait of Henry Ford (ca. 1919)"
+  },
+  "line-1913.jpg": {
+    "file": "File:Ford assembly line - 1913 (restored).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ford_assembly_line_-_1913_(restored).jpg",
+    "licence": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "date": "1913",
+    "description": "Конвейерная линия Генри Форда (фото 1913 года)."
+  },
+  "chassis-line.jpg": {
+    "file": "File:Assembly line at the Ford Motor Company's Highland Park plant LCCN2011661021.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Assembly_line_at_the_Ford_Motor_Company%27s_Highland_Park_plant_LCCN2011661021.jpg",
+    "licence": "Public domain",
+    "artist": "Miscellaneous Items in High Demand, PPOC, Library of Congress",
+    "date": "1913",
+    "description": "Title: Assembly line at the Ford Motor Company's Highland Park plant Abstract/medium: 1 photographic print."
+  },
+  "body-drop.jpg": {
+    "file": "File:AssemblyLine.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:AssemblyLine.jpg",
+    "licence": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "date": "1913",
+    "description": "Ford assembly line in 1913"
+  },
+  "piquette.jpg": {
+    "file": "File:Ford Piquette Avenue Plant.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ford_Piquette_Avenue_Plant.jpg",
+    "licence": "Public domain",
+    "artist": "Peninsular Engraving Company, Detroit, Michigan",
+    "date": "circa 1906date QS:P,+1906-00-00T00:00:00",
+    "description": "This photograph of the Ford Piquette Avenue Plant in Detroit, Michigan, was taken sometime around 1906 when Ford Motor Company occupied the building (it was built for the company in 1904). A Ford Model N (predecessor of the Ford Model T) ca"
+  },
+  "ten-millionth.jpg": {
+    "file": "File:First and Ten Millionth Ford.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:First_and_Ten_Millionth_Ford.jpg",
+    "licence": "Public domain",
+    "artist": "Detroit Publishing Co.",
+    "date": "1924-06-04",
+    "description": "Henry Ford standing between the ten millionth Model T produced and a Ford Quadricycle"
+  },
+  "black-t.jpg": {
+    "file": "File:1925 Ford Model T touring.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:1925_Ford_Model_T_touring.jpg",
+    "licence": "Public domain",
+    "artist": "ModelTMitch",
+    "date": "2018-01-25 16:12:25",
+    "description": "1925 Ford Model T touring, built at Henry Ford’s Highland Park Plant in Dearborn, Michigan. This example now resides in Australia, owned by the founder of FordModelT.net"
+  },
+  "first-ad.jpg": {
+    "file": "File:1908 Ford Model T.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:1908_Ford_Model_T.jpg",
+    "licence": "Public domain",
+    "artist": "User Rmhermen on en.wikipedia",
+    "date": "1908-10-01",
+    "description": "Depiction of 1908 Ford Model T Touring car, from Ford's full-page advertisement of the first Model T in the Oct. 1, 1908 issue of Life magazine, volume 52, page 365."
+  },
+  "film-line1919.mp4": {
+    "file": "File:Ford Model T Assembly Line(1919).webm",
+    "page": "https://commons.wikimedia.org/wiki/File:Ford_Model_T_Assembly_Line(1919).webm",
+    "licence": "Public domain",
+    "artist": "Ford Motor Company",
+    "date": "1919",
+    "description": "Ford Model T assembly line",
+    "film": {
+      "at": 116,
+      "len": 4.5,
+      "fit": "band"
+    }
+  },
+  "film-rolloff.mp4": {
+    "file": "File:Ford Model T Assembly Line(1919).webm",
+    "page": "https://commons.wikimedia.org/wiki/File:Ford_Model_T_Assembly_Line(1919).webm",
+    "licence": "Public domain",
+    "artist": "Ford Motor Company",
+    "date": "1919",
+    "description": "Ford Model T assembly line",
+    "film": {
+      "at": 380,
+      "len": 4.5,
+      "fit": "band"
+    }
+  },
+  "film-line1924.mp4": {
+    "file": "File:Model T assembling circa 1924.webm",
+    "page": "https://commons.wikimedia.org/wiki/File:Model_T_assembling_circa_1924.webm",
+    "licence": "Public domain",
+    "artist": "Ford Motor Company",
+    "date": "circa 1924date QS:P571,+1924-00-00T00:00",
+    "description": "Ford assembly line",
+    "film": {
+      "at": 27,
+      "len": 4.5,
+      "fit": "band"
+    }
+  },
+  "film-family.mp4": {
+    "file": "File:Model T assembling circa 1924.webm",
+    "page": "https://commons.wikimedia.org/wiki/File:Model_T_assembling_circa_1924.webm",
+    "licence": "Public domain",
+    "artist": "Ford Motor Company",
+    "date": "circa 1924date QS:P571,+1924-00-00T00:00",
+    "description": "Ford assembly line",
+    "film": {
+      "at": 97.5,
+      "len": 4.8,
+      "fit": "band"
+    }
+  },
+  "film-touring.mp4": {
+    "file": "File:Model T assembling circa 1924.webm",
+    "page": "https://commons.wikimedia.org/wiki/File:Model_T_assembling_circa_1924.webm",
+    "licence": "Public domain",
+    "artist": "Ford Motor Company",
+    "date": "circa 1924date QS:P571,+1924-00-00T00:00",
+    "description": "Ford assembly line",
+    "film": {
+      "at": 52.1,
+      "len": 4.2,
+      "fit": "band"
+    }
+  },
+  "film-shop.mp4": {
+    "file": "File:Henry Ford clips.webm",
+    "page": "https://commons.wikimedia.org/wiki/File:Henry_Ford_clips.webm",
+    "licence": "Public domain",
+    "artist": "Henry Ford/Ford Motor Co",
+    "date": "between 1916 and 1920date QS:P,+1950-00-",
+    "description": "Untitled Factory Tour and other clips",
+    "film": {
+      "at": 12,
+      "len": 4.5,
+      "fit": "band"
+    }
+  },
+  "film-drive.mp4": {
+    "file": "File:Model T assembling circa 1924.webm",
+    "page": "https://commons.wikimedia.org/wiki/File:Model_T_assembling_circa_1924.webm",
+    "licence": "Public domain",
+    "artist": "Ford Motor Company",
+    "date": "circa 1924date QS:P571,+1924-00-00T00:00",
+    "description": "Ford assembly line",
+    "film": {
+      "at": 83,
+      "len": 4.8,
+      "fit": "band"
+    }
+  }
+}

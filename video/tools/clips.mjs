@@ -9,7 +9,7 @@
  *        frames of film #3 (or "File:...") with their timestamps, to find the
  *        exact moment: <day>/.clips/scan.jpg — LOOK at it
  *
- *   node video/tools/clips.mjs <day> get 3 bomber-bank --at 128.5 --len 4 [--fit band|fill] [--focus 50] [--color]
+ *   node video/tools/clips.mjs <day> get 3 bomber-bank --at 128.5 --len 4 [--fit band|fill] [--focus 50] [--color] [--crop l,t,r,b]
  *        cut that shot into assets/<name>.mp4: 1080x1920, 30 fps, silent,
  *        black & white unless --color. "band" (default) keeps the whole frame
  *        in a band over a blurred copy of itself; "fill" crops to fill the
@@ -245,10 +245,18 @@ const info = await resolveFile(which);
 const grade = flag('color') ? '' : ',hue=s=0';
 // A touch of contrast; old prints are grey and flat on a phone.
 const tone = `eq=contrast=1.12:brightness=0.02${grade}`;
+// --crop l,t,r,b — fractions of the frame to cut away first: a burned-in
+// archive timecode, a black border (Model T film, 1 Oct: --crop 0,0,0,0.2).
+const [cl, ct, cr, cb] = String(opt('crop', '0,0,0,0')).split(',').map(Number);
+if (![cl, ct, cr, cb].every((v) => v >= 0 && v < 0.5)) {
+  console.error('--crop takes four fractions l,t,r,b, each 0–0.5, e.g. --crop 0,0,0,0.15');
+  process.exit(1);
+}
+const crop = cl || ct || cr || cb ? `crop=iw*${1 - cl - cr}:ih*${1 - ct - cb}:iw*${cl}:ih*${ct},` : '';
 const filter =
   fit === 'fill'
-    ? `[0:v]scale=-2:1920,crop=1080:1920:(iw-1080)*${focus}:0,${tone},setsar=1,fps=30[v]`
-    : `[0:v]split=2[a][b];` +
+    ? `[0:v]${crop}scale=-2:1920,crop=1080:1920:(iw-1080)*${focus}:0,${tone},setsar=1,fps=30[v]`
+    : `[0:v]${crop}split=2[a][b];` +
       `[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=28:2,eq=brightness=-0.12${grade}[bg];` +
       `[b]scale=1080:-2,${tone}[fg];` +
       `[bg][fg]overlay=0:(H-h)/2-220,setsar=1,fps=30[v]`;

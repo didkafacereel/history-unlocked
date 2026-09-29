@@ -1,0 +1,83 @@
+{
+  "total": 51.269,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "Building this car took 12½ hours. Ford got it down to 93 minutes.",
+      "start": 0.4,
+      "end": 5.925
+    },
+    {
+      "id": "s2",
+      "show": "The Model T debuted on this day in 1908.",
+      "start": 6.325,
+      "end": 9.568
+    },
+    {
+      "id": "s4",
+      "show": "At first, each one was built by hand.",
+      "start": 9.968,
+      "end": 12.4
+    },
+    {
+      "id": "s5",
+      "show": "The first full month? Just eleven.",
+      "start": 12.75,
+      "end": 15.118
+    },
+    {
+      "id": "s6",
+      "show": "So in 1913, he put the cars on a moving line.",
+      "start": 15.618,
+      "end": 19.607
+    },
+    {
+      "id": "s7",
+      "show": "A car came off it every three minutes.",
+      "start": 19.957,
+      "end": 22.347
+    },
+    {
+      "id": "s8",
+      "show": "The price fell from $825 to $260.",
+      "start": 22.747,
+      "end": 27.867
+    },
+    {
+      "id": "s9",
+      "show": "He more than doubled his workers' pay, to $5 a day.",
+      "start": 28.267,
+      "end": 32.085
+    },
+    {
+      "id": "s10",
+      "show": "Now they could afford the cars they built.",
+      "start": 32.435,
+      "end": 34.931
+    },
+    {
+      "id": "s11",
+      "show": "By 1918, half the cars in America were Model Ts.",
+      "start": 35.381,
+      "end": 39.605
+    },
+    {
+      "id": "s12",
+      "show": "His famous line: any color, so long as it's black.",
+      "start": 40.005,
+      "end": 43.227
+    },
+    {
+      "id": "s13",
+      "show": "Yet the first Model Ts weren't sold in black at all.",
+      "start": 43.727,
+      "end": 47.225
+    },
+    {
+      "id": "end2",
+      "show": "Subscribe, to find out when our app comes out.",
+      "start": 47.825,
+      "end": 50.769
+    }
+  ]
+}

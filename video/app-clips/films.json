@@ -48,6 +48,22 @@
       "seconds": 47.1,
       "video": "2026-09-29-brocklesby.mp4?v=2112709",
       "poster": "2026-09-29-brocklesby.jpg?v=57878"
+    },
+    "09-30": {
+      "date": "2026-09-30",
+      "eventId": null,
+      "title": "The Berlin Airlift ends, 1949 — and the Candy Bomber, Gail Halvorsen",
+      "seconds": 50.8,
+      "video": "2026-09-30-berlin-airlift.mp4?v=3704145",
+      "poster": "2026-09-30-berlin-airlift.jpg?v=76153"
+    },
+    "10-01": {
+      "date": "2026-10-01",
+      "eventId": "evt-10-01-1908-ford-model-t",
+      "title": "The Ford Model T debuts, 1908 — from 12½ hours to 93 minutes",
+      "seconds": 47.4,
+      "video": "2026-10-01-model-t.mp4?v=3540863",
+      "poster": "2026-10-01-model-t.jpg?v=126553"
     }
   }
 }

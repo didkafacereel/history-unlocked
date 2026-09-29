@@ -1,0 +1,267 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-10-01",
+  "dateKey": "10-01",
+  "slug": "model-t",
+  "title": "The Ford Model T debuts, 1908 — from 12½ hours to 93 minutes",
+  "eventId": "evt-10-01-1908-ford-model-t",
+  "category": "Culture & Ideas",
+  "sources": [
+    "Wikipedia: Ford Model T — produced from October 1, 1908; 'I will build a motor car for the great multitude'; at first assembled by hand, only 11 cars built at the Piquette Avenue Plant in the first full month of production; moving assembly line: cars came off the line at three-minute intervals, production time cut from 12½ hours to 93 minutes by 1914; Runabout $825 in 1909, lowered to $260 by 1925; by 1918 half of all cars in the US were Model Ts; Ford: 'Any customer can have a car painted any color that he wants so long as it is black'; from 1908 to 1913 the Model T was not available in black, only gray, green, blue and red",
+    "Wikipedia: Henry Ford — Model T debuted on October 1, 1908; $5 daily wage (5 January 1914) more than doubled the rate of most of his workers; paying employees more enabled them to afford the cars they were producing",
+    "Wikipedia: Assembly line / Highland Park Ford Plant — moving assembly line began on October 7, 1913, at Highland Park",
+    "Archive film (public domain, Wikimedia Commons): 'Ford Model T Assembly Line (1919)'; 'Model T assembling circa 1924' (US National Archives 200-FC-424); 'Henry Ford clips' — timecodes cropped out"
+  ],
+  "music": {
+    "track": "grieg-morning"
+  },
+  "highlight": [
+    "93",
+    "HOURS",
+    "MINUTES",
+    "ELEVEN",
+    "MOVING",
+    "THREE",
+    "BLACK",
+    "HALF",
+    "FORD",
+    "DOUBLED"
+  ],
+  "cover": {
+    "image": "line-1913.jpg",
+    "focus": "50% 40%",
+    "date": "1 OCTOBER 1908",
+    "top": 980,
+    "lines": [
+      "12½ HOURS",
+      "TO",
+      "*93 MINUTES*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "Building this car took twelve and a half hours. Ford got it down to ninety-three minutes.",
+      "show": "Building this car took 12½ hours. Ford got it down to 93 minutes.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s2",
+      "say": "The Model T debuted on this day in nineteen oh eight.",
+      "show": "The Model T debuted on this day in 1908.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "At first, each one was built by hand.",
+      "show": "At first, each one was built by hand.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s5",
+      "say": "The first full month? Just eleven.",
+      "show": "The first full month? Just eleven.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s6",
+      "say": "So in nineteen thirteen, he put the cars on a moving line.",
+      "show": "So in 1913, he put the cars on a moving line.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s7",
+      "say": "A car came off it every three minutes.",
+      "show": "A car came off it every three minutes.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s8",
+      "say": "The price fell from eight hundred and twenty-five dollars to two hundred and sixty.",
+      "show": "The price fell from $825 to $260.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s9",
+      "say": "He more than doubled his workers' pay, to five dollars a day.",
+      "show": "He more than doubled his workers' pay, to $5 a day.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s10",
+      "say": "Now they could afford the cars they built.",
+      "show": "Now they could afford the cars they built.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s11",
+      "say": "By nineteen eighteen, half the cars in America were Model Ts.",
+      "show": "By 1918, half the cars in America were Model Ts.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s12",
+      "say": "His famous line: any color, so long as it's black.",
+      "show": "His famous line: any color, so long as it's black.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s13",
+      "say": "Yet the first Model Ts weren't sold in black at all.",
+      "show": "Yet the first Model Ts weren't sold in black at all.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "scenes": [
+    {
+      "type": "film",
+      "note": "hook — the 1919 line, workers walking along the moving chassis",
+      "clip": "film-line1919.mp4",
+      "credit": "Ford Model T assembly line, 1919 · archive film"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.5",
+      "enter": "cut",
+      "clip": "film-line1924.mp4",
+      "credit": "Ford assembly line, c. 1924 · archive film"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "first-ad.jpg",
+      "focus": "50% 50%",
+      "date": "1 OCTOBER",
+      "year": "1908",
+      "place": "Detroit, Michigan"
+    },
+    {
+      "type": "photo",
+      "from": "s4",
+      "enter": "cut",
+      "image": "piquette.jpg",
+      "focus": "50% 55%",
+      "move": "left",
+      "fact": "The Piquette Avenue plant, Detroit"
+    },
+    {
+      "type": "number",
+      "from": "s5",
+      "enter": "cut",
+      "image": "piquette.jpg",
+      "focus": "75% 35%",
+      "label": "First full month",
+      "value": 11,
+      "start": 0,
+      "unit": "CARS",
+      "count": {
+        "from": "s5@0.5",
+        "to": "s5@0.95"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s6",
+      "enter": "cut",
+      "image": "chassis-line.jpg",
+      "focus": "45% 50%",
+      "move": "right",
+      "fact": "Highland Park, 1913"
+    },
+    {
+      "type": "film",
+      "from": "s7",
+      "enter": "cut",
+      "kicker": "Every 3 minutes",
+      "clip": "film-rolloff.mp4",
+      "credit": "A new Model T drives off the line, 1919 · archive film"
+    },
+    {
+      "type": "number",
+      "from": "s8",
+      "enter": "cut",
+      "image": "black-t.jpg",
+      "focus": "55% 50%",
+      "label": "Price of a Model T",
+      "value": 260,
+      "start": 825,
+      "prefix": "$",
+      "count": {
+        "from": "s8@0.3",
+        "to": "s8@0.95"
+      },
+      "sub": {
+        "text": "1909 → 1925",
+        "at": "s8@0.5"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s9",
+      "enter": "cut",
+      "image": "ford-portrait.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "kicker": "Henry Ford"
+    },
+    {
+      "type": "film",
+      "from": "s9@0.45",
+      "enter": "cut",
+      "kicker": "$5 a day",
+      "clip": "film-shop.mp4",
+      "credit": "A Ford factory floor · archive film"
+    },
+    {
+      "type": "film",
+      "from": "s10",
+      "enter": "cut",
+      "clip": "film-family.mp4",
+      "credit": "A family and their Model T, c. 1924 · archive film"
+    },
+    {
+      "type": "film",
+      "from": "s11",
+      "enter": "cut",
+      "kicker": "1 in 2 American cars",
+      "clip": "film-drive.mp4",
+      "credit": "Model T, c. 1924 · archive film"
+    },
+    {
+      "type": "statement",
+      "from": "s12",
+      "enter": "cut",
+      "image": "black-t.jpg",
+      "focus": "50% 50%",
+      "ghost": "BLACK",
+      "kicker": "His famous line",
+      "main": {
+        "text": "Any color — so long as it's *black*.",
+        "at": "s12@0.3"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s13",
+      "enter": "cut",
+      "image": "first-ad.jpg",
+      "focus": "50% 50%",
+      "ghost": "1908",
+      "kicker": "The first Model Ts",
+      "main": {
+        "text": "Gray. Green. Blue. *Red.*",
+        "at": "s13@0.35"
+      },
+      "fact": {
+        "text": "No black at all, 1908–1913.",
+        "at": "s13@0.7"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "Building a car took 12½ hours. Henry Ford got it down to 93 minutes. 🚗\n\nThe Model T debuted on 1 October 1908. A moving line, a car every 3 minutes, the price cut from $825 to $260 — and his workers could finally buy one.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #historytok #ford #modelt #cars #1908",
+    "facebook": "On this day in 1908, the Ford Model T made its debut.\n\nHenry Ford had promised \"a motor car for the great multitude\". But at first, each Model T was assembled by hand — in the first full month of production, his Piquette Avenue plant built just eleven.\n\nIn 1913, Ford put the cars on a moving assembly line at Highland Park. A car came off the line every three minutes, and the time to build one fell from 12½ hours to 93 minutes. The price of a Model T Runabout fell from $825 in 1909 to $260 by 1925.\n\nIn 1914 Ford more than doubled the pay of most of his workers, to $5 a day — and the men who built the cars could afford to buy them. By 1918, half of all the cars in America were Model Ts.\n\nFord famously wrote that a customer could have any color he wanted, \"so long as it is black\". Yet from 1908 to 1913, the Model T wasn't sold in black at all — only gray, green, blue and red.\n\nEvery day has a story like this. Follow the page to find out when our app comes out. 📜\n\n#OnThisDay #History #Ford #ModelT"
+  }
+}

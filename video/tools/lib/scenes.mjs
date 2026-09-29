@@ -138,7 +138,7 @@ html, body { margin: 0; overflow: hidden; background: var(--void); }
 /* film — the <video> sits at the root (see compose.mjs); this is its overlay */
 .film { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
 .f-credit { position: absolute; left: 72px; right: 150px; top: 250px; text-align: center; font-size: 32px; color: var(--text-2); text-shadow: 0 2px 12px rgba(0, 0, 0, 0.9); }
-.f-kicker { position: absolute; left: 72px; right: 150px; top: 180px; text-align: center; }
+.f-kicker { position: absolute; left: 72px; right: 150px; top: 180px; text-align: center; text-shadow: 0 2px 14px rgba(0, 0, 0, 0.95), 0 0 3px rgba(0, 0, 0, 0.9); }
 
 /* The fast pace: the pictures carry the video, so they are dimmed far less. */
 .fast .shade { background: radial-gradient(ellipse 90% 60% at 50% 38%, rgba(6, 7, 10, 0.1), rgba(6, 7, 10, 0.62) 75%), rgba(6, 7, 10, 0.1); }

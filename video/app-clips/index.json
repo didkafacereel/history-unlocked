@@ -75,5 +75,16 @@
     "video": "2026-09-30-berlin-airlift.mp4",
     "poster": "2026-09-30-berlin-airlift.jpg",
     "bytes": 3704145
+  },
+  {
+    "date": "2026-10-01",
+    "dateKey": "10-01",
+    "slug": "model-t",
+    "eventId": "evt-10-01-1908-ford-model-t",
+    "title": "The Ford Model T debuts, 1908 — from 12½ hours to 93 minutes",
+    "seconds": 47.4,
+    "video": "2026-10-01-model-t.mp4",
+    "poster": "2026-10-01-model-t.jpg",
+    "bytes": 3540863
   }
 ]
