@@ -21,8 +21,11 @@ that instead. Never wait.
 
 ## Never
 
-- **Never publish, post, upload or send anything anywhere.** The video goes
-  to `video/ready/` and to the user; they post it.
+- **Never publish, post, upload or send anything anywhere** — with ONE
+  exception: `publish-films.mjs` (step 6), which puts the in-app cut into the
+  app's own film storage. The user asked for that on 29 Sep ("automatically,
+  every night"). Social posts stay the user's: the video goes to
+  `video/ready/` and to the user; they post it.
 - Never commit, push, install packages, or touch anything outside `video/`.
 - Never use an image that `images.mjs get` did not fetch — it is the licence
   gate (public domain / CC0 only). Never draw, generate or "recreate" an image.
@@ -273,6 +276,17 @@ node D:/android/history-unlocked/video/tools/make.mjs D:/android/history-unlocke
 changed since; otherwise run without flags.) It renders, verifies length and
 loudness, cuts `cover.jpg`, writes `video/ready/<date>-<slug>/` with the mp4,
 cover and `POST.md`, and logs the day in `video/log.json`.
+
+It also cuts the in-app version into `video/app-clips/`. Put it in the app:
+
+```bash
+node D:/android/history-unlocked/video/tools/publish-films.mjs
+```
+
+It uploads whatever is new to Cloudflare R2 and rewrites `films.json`; the
+app shows the film on that date's lead card. If it fails (network, or
+"wrangler is not logged in"), say so in the final message — the TikTok video
+is still delivered, and the next night's run uploads both days.
 
 Then:
 

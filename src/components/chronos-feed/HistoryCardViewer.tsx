@@ -2,6 +2,7 @@ import { memo } from 'react';
 import { StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { CardFilmButton } from '@/components/film/CardFilmButton';
 import { ShareEventButton } from '@/components/share/ShareEventButton';
 import { TacticalTrigger } from '@/components/tactical-overlay/TacticalTrigger';
 import { useFeedStore } from '@/stores/useFeedStore';
@@ -65,6 +66,7 @@ export const HistoryCardViewer = memo(function HistoryCardViewer({
         {isLead ? (
           <View style={styles.leadRow}>
             <CardLeadBadge dateKey={event.dateKey} />
+            <CardFilmButton dateKey={event.dateKey} />
           </View>
         ) : null}
         <View style={styles.meta}>
@@ -105,6 +107,9 @@ const styles = StyleSheet.create({
   // about the whole card, not another attribute of the event.
   leadRow: {
     flexDirection: 'row',
+    flexWrap: 'wrap',
+    alignItems: 'center',
+    gap: spacing.sm,
     marginBottom: -spacing.sm,
   },
   // The NEW pill and the era chip share a row; the era chip ellipsizes so a

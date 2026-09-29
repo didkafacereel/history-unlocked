@@ -2,6 +2,7 @@ import { useCallback, useMemo, useState } from 'react';
 import { Dimensions, LayoutChangeEvent, StyleSheet, View, useWindowDimensions } from 'react-native';
 
 import { EventDetailSheet } from '@/components/event-detail/EventDetailSheet';
+import { FilmPlayerSheet } from '@/components/film/FilmPlayerSheet';
 import { WelcomeSheet } from '@/components/onboarding/WelcomeSheet';
 import { TacticalOverlay } from '@/components/tactical-overlay/TacticalOverlay';
 import { useHaptics } from '@/hooks/useHaptics';
@@ -117,6 +118,7 @@ export function ChronosFeedScreen() {
       <CategoryFilterSheet />
       <PersonDetailSheet />
       <ReminderAskSheet />
+      <FilmPlayerSheet />
       <WelcomeSheet />
     </View>
   );

@@ -60,7 +60,8 @@
       "expo-image",
       "expo-web-browser",
       "expo-font",
-      "expo-status-bar"
+      "expo-status-bar",
+      "expo-video"
     ],
     "experiments": {
       "typedRoutes": true,
