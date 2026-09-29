@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "films": {
+    "09-24": {
+      "date": "2026-09-24",
+      "eventId": "evt-09-24-1869-jay-gould",
+      "title": "Black Friday 1869 — Gould and Fisk corner the gold market",
+      "seconds": 48.8,
+      "video": "2026-09-24-black-friday.mp4?v=1745668",
+      "poster": "2026-09-24-black-friday.jpg?v=64381"
+    },
+    "09-25": {
+      "date": "2026-09-25",
+      "eventId": "evt-09-25-1066-battle-of-stamford-bridge",
+      "title": "Battle of Stamford Bridge 1066 — the end of the Viking Age",
+      "seconds": 52,
+      "video": "2026-09-25-stamford-bridge.mp4?v=2117500",
+      "poster": "2026-09-25-stamford-bridge.jpg?v=19332"
+    },
+    "09-26": {
+      "date": "2026-09-26",
+      "eventId": "evt-09-26-1983-cold-war",
+      "title": "Stanislav Petrov and the 1983 nuclear false alarm",
+      "seconds": 51.9,
+      "video": "2026-09-26-petrov.mp4?v=1912177",
+      "poster": "2026-09-26-petrov.jpg?v=47891"
+    },
+    "09-27": {
+      "date": "2026-09-27",
+      "eventId": "evt-09-27-1822-lettre-a-m-dacier",
+      "title": "Champollion reads the hieroglyphs — Lettre à M. Dacier, 1822",
+      "seconds": 54.1,
+      "video": "2026-09-27-champollion.mp4?v=3664499",
+      "poster": "2026-09-27-champollion.jpg?v=65684"
+    },
+    "09-28": {
+      "date": "2026-09-28",
+      "eventId": "evt-09-28-1928-alexander-fleming",
+      "title": "Fleming confirms penicillin, 1928 — the mould on the dish",
+      "seconds": 54.2,
+      "video": "2026-09-28-fleming.mp4?v=2019755",
+      "poster": "2026-09-28-fleming.jpg?v=66189"
+    },
+    "09-29": {
+      "date": "2026-09-29",
+      "eventId": "evt-09-29-1940-royal-australian-air-force",
+      "title": "The Brocklesby mid-air collision, 1940 — two Ansons locked together land as one",
+      "seconds": 47.1,
+      "video": "2026-09-29-brocklesby.mp4?v=2112709",
+      "poster": "2026-09-29-brocklesby.jpg?v=57878"
+    }
+  }
+}
