@@ -64,5 +64,16 @@
     "video": "2026-09-29-brocklesby.mp4",
     "poster": "2026-09-29-brocklesby.jpg",
     "bytes": 2112709
+  },
+  {
+    "date": "2026-09-30",
+    "dateKey": "09-30",
+    "slug": "berlin-airlift",
+    "eventId": null,
+    "title": "The Berlin Airlift ends, 1949 — and the Candy Bomber, Gail Halvorsen",
+    "seconds": 50.8,
+    "video": "2026-09-30-berlin-airlift.mp4",
+    "poster": "2026-09-30-berlin-airlift.jpg",
+    "bytes": 3704145
   }
 ]

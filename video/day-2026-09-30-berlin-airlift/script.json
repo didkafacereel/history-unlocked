@@ -1,0 +1,296 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-09-30",
+  "dateKey": "09-30",
+  "slug": "berlin-airlift",
+  "title": "The Berlin Airlift ends, 1949 — and the Candy Bomber, Gail Halvorsen",
+  "eventId": null,
+  "category": "Politics & Power",
+  "sources": [
+    "Wikipedia: Berlin Blockade — Soviets blocked the Western Allies' railway, road and canal access to West Berlin (24 June 1948); only the air corridors had agreements and remained open; the Berlin Airlift ran from 26 June 1948 to 30 September 1949, officially ending on 30 September 1949 after fifteen months; American and British air forces carried food, fuel (nearly two-thirds of the tonnage was coal) and other necessities; at the height of the airlift, one plane reached West Berlin every thirty seconds; Operation Little Vittles, candy-dropping 'raisin bombers'",
+    "Wikipedia: Gail Halvorsen — C-54 pilot on the airlift; in July 1948 met about thirty children at the barbed-wire fence at Tempelhof; gave them his two sticks of gum; they broke them into pieces and those without sniffed the wrappers; promised to drop more from his plane and to wiggle his wings so they would know it was him; made parachutes out of handkerchiefs for the candy rations; nicknamed 'Uncle Wiggly Wings'; Operation Little Vittles dropped over 23 tons of candy; many of those pilots had previously taken part in WWII operations against German cities",
+    "Archive film: 'Berlin airlift' — British Central Office of Information film, Wikimedia Commons, public domain (low pass over a Berlin S-Bahn station, landings, bread in a West Berlin bakery, coal unloading, a Berlin boy, crowds at an airlift plane)",
+    "Photos (public domain, USAF / US Army / USDA via Wikimedia Commons): Halvorsen and crew rigging candy parachutes; a C-54 making a Little Vittles candy drop; Berliners watching a C-54 land at Tempelhof, 1948 (Henry Ries); Berlin youngsters near Tempelhof, 1948; official portrait of Stalin, 1940s"
+  ],
+  "music": {
+    "track": "chopin-nocturne-10"
+  },
+  "highlight": [
+    "CHOCOLATE",
+    "FIFTEEN",
+    "STALIN",
+    "COAL",
+    "THIRTY",
+    "HALVORSEN",
+    "GUM",
+    "WINGS",
+    "CANDY",
+    "BOMBED",
+    "UNCLE",
+    "WIGGLY"
+  ],
+  "cover": {
+    "image": "rubble-watch.jpg",
+    "focus": "50% 50%",
+    "date": "30 SEPTEMBER 1949",
+    "top": 900,
+    "lines": [
+      "HE BOMBED",
+      "BERLIN WITH",
+      "*CHOCOLATE*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "For fifteen months, planes fed half a city. And one pilot bombed it with chocolate.",
+      "show": "For fifteen months, planes fed half a city. And one pilot bombed it with chocolate.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s2",
+      "say": "It ended on this day in nineteen forty-nine.",
+      "show": "It ended on this day in 1949.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "Stalin had blocked every road and railway into West Berlin.",
+      "show": "Stalin had blocked every road and railway into West Berlin.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s4",
+      "say": "But the air corridors stayed open.",
+      "show": "But the air corridors stayed open.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s5",
+      "say": "So American and British planes flew in food, and coal.",
+      "show": "So American and British planes flew in food, and coal.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s6",
+      "say": "At the peak, a plane arrived every thirty seconds.",
+      "show": "At the peak, a plane arrived every thirty seconds.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s7",
+      "say": "Pilot Gail Halvorsen met children at the airport fence.",
+      "show": "Pilot Gail Halvorsen met children at the airport fence.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s8",
+      "say": "He had just two sticks of gum.",
+      "show": "He had just two sticks of gum.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s9",
+      "say": "They shared them, and sniffed the wrappers.",
+      "show": "They shared them, and sniffed the wrappers.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s10",
+      "say": "He promised to drop more, and to wiggle his wings.",
+      "show": "He promised to drop more, and to wiggle his wings.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s11",
+      "say": "He tied chocolate to handkerchief parachutes.",
+      "show": "He tied chocolate to handkerchief parachutes.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s12",
+      "say": "Soon, over twenty-three tons of candy fell on Berlin.",
+      "show": "Soon, over 23 tons of candy fell on Berlin.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s13",
+      "say": "Years earlier, many of these pilots had bombed German cities.",
+      "show": "Years earlier, many of these pilots had bombed German cities.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s14",
+      "say": "Now Berlin's children called him Uncle Wiggly Wings.",
+      "show": "Now Berlin's children called him Uncle Wiggly Wings.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "scenes": [
+    {
+      "type": "film",
+      "note": "hook — real airlift film, a plane low over a Berlin station",
+      "clip": "film-lowpass.mp4",
+      "credit": "Berlin, 1948–49 · archive film"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.55",
+      "enter": "cut",
+      "image": "candy-drop.jpg",
+      "focus": "50% 50%",
+      "move": "in"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "rubble-watch.jpg",
+      "focus": "50% 45%",
+      "date": "30 SEPTEMBER",
+      "year": "1949",
+      "place": "Berlin"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "stalin.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "kicker": "June 1948 · the blockade"
+    },
+    {
+      "type": "film",
+      "from": "s4+0.2",
+      "enter": "cut",
+      "clip": "film-formation.mp4",
+      "credit": "Airlift planes, 1948–49 · archive film"
+    },
+    {
+      "type": "film",
+      "from": "s5",
+      "enter": "cut",
+      "clip": "film-bread.mp4",
+      "credit": "Bread in West Berlin, 1948–49 · archive film"
+    },
+    {
+      "type": "film",
+      "from": "s6",
+      "enter": "cut",
+      "clip": "film-landing.mp4",
+      "kicker": "Every 30 seconds",
+      "credit": "An airlift plane lands in Berlin · archive film"
+    },
+    {
+      "type": "photo",
+      "from": "s7",
+      "enter": "cut",
+      "image": "halvorsen-rig.jpg",
+      "focus": "50% 35%",
+      "move": "in",
+      "kicker": "Lt. Gail Halvorsen"
+    },
+    {
+      "type": "photo",
+      "from": "s7@0.62",
+      "enter": "cut",
+      "image": "tempelhof-crowd.jpg",
+      "focus": "60% 50%",
+      "move": "left",
+      "fact": "Tempelhof airport, 1948"
+    },
+    {
+      "type": "statement",
+      "from": "s8",
+      "enter": "cut",
+      "image": "kids-game.jpg",
+      "focus": "50% 50%",
+      "ghost": "GUM",
+      "kicker": "All he had",
+      "main": {
+        "text": "Just *two* sticks of gum.",
+        "at": "s8+0.2"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s9",
+      "enter": "cut",
+      "image": "kids-game.jpg",
+      "focus": "30% 60%",
+      "move": "in"
+    },
+    {
+      "type": "film",
+      "from": "s9@0.45",
+      "enter": "cut",
+      "clip": "film-boy.mp4",
+      "credit": "A Berlin boy, 1948–49 · archive film, illustrative"
+    },
+    {
+      "type": "film",
+      "from": "s10",
+      "enter": "cut",
+      "clip": "film-wheels.mp4",
+      "credit": "An airlift plane lands in Berlin · archive film"
+    },
+    {
+      "type": "photo",
+      "from": "s11",
+      "enter": "cut",
+      "image": "halvorsen-rig-wide.jpg",
+      "focus": "50% 45%",
+      "move": "in",
+      "kicker": "Operation Little Vittles"
+    },
+    {
+      "type": "number",
+      "from": "s12",
+      "enter": "cut",
+      "image": "candy-drop.jpg",
+      "focus": "50% 50%",
+      "label": "Candy dropped",
+      "value": 23,
+      "start": 0,
+      "prefix": "",
+      "suffix": "+",
+      "unit": "TONS",
+      "count": {
+        "from": "s12@0.3",
+        "to": "s12@0.8"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s13",
+      "enter": "cut",
+      "image": "rubble-watch.jpg",
+      "focus": "50% 70%",
+      "ghost": "BOMBED",
+      "kicker": "Years earlier",
+      "main": {
+        "text": "They had *bombed* German cities.",
+        "at": "s13@0.5"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s14",
+      "enter": "fade",
+      "image": "kids-game.jpg",
+      "focus": "60% 45%",
+      "move": "out",
+      "kicker": "What Berlin called him",
+      "line": {
+        "text": "*Uncle Wiggly Wings*",
+        "at": "s14@0.55"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "For 15 months, planes fed half a city — and one pilot bombed it with chocolate. 🍫✈️\n\nThe Berlin Airlift ended on 30 September 1949. Pilot Gail Halvorsen met kids at the Tempelhof fence with two sticks of gum. He came back with candy on handkerchief parachutes — and wiggled his wings.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #historytok #coldwar #berlin #candybomber #1949",
+    "facebook": "On this day in 1949, the Berlin Airlift came to an end.\n\nIn June 1948, Stalin had blocked every road, railway and canal into West Berlin. Only the air corridors stayed open — so American and British planes flew in food, fuel and, above all, coal. At the height of the airlift, a plane reached the city every thirty seconds.\n\nOne of the pilots, Gail Halvorsen, met about thirty children at the fence of Tempelhof airport. He had only two sticks of gum. The children broke them into pieces and shared them; the ones who got none sniffed the wrappers.\n\nHe promised to drop more from his plane — and to wiggle his wings so they would know it was him. He tied candy to parachutes made from handkerchiefs. Other pilots joined in, and more than 23 tons of candy fell on Berlin.\n\nA few years earlier, many of these pilots had flown against German cities. Now Berlin's children called one of them Uncle Wiggly Wings.\n\nEvery day has a story like this. Follow the page to find out when our app comes out. 📜\n\n#OnThisDay #History #ColdWar #Berlin"
+  }
+}

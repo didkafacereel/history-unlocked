@@ -48,6 +48,7 @@ json('meta.json', { id: name, name, createdAt: new Date().toISOString() });
 const [, mm, dd] = date.split('-');
 json('script.json', {
   format: 2,
+  pace: 'fast',
   date,
   dateKey: `${mm}-${dd}`,
   slug,

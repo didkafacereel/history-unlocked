@@ -1,0 +1,95 @@
+{
+  "total": 54.671,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "For fifteen months, planes fed half a city. And one pilot bombed it with chocolate.",
+      "start": 0.4,
+      "end": 5.712
+    },
+    {
+      "id": "s2",
+      "show": "It ended on this day in 1949.",
+      "start": 6.112,
+      "end": 9.12
+    },
+    {
+      "id": "s3",
+      "show": "Stalin had blocked every road and railway into West Berlin.",
+      "start": 9.52,
+      "end": 13.381
+    },
+    {
+      "id": "s4",
+      "show": "But the air corridors stayed open.",
+      "start": 13.731,
+      "end": 15.907
+    },
+    {
+      "id": "s5",
+      "show": "So American and British planes flew in food, and coal.",
+      "start": 16.257,
+      "end": 19.713
+    },
+    {
+      "id": "s6",
+      "show": "At the peak, a plane arrived every thirty seconds.",
+      "start": 20.063,
+      "end": 23.285
+    },
+    {
+      "id": "s7",
+      "show": "Pilot Gail Halvorsen met children at the airport fence.",
+      "start": 23.735,
+      "end": 27.084
+    },
+    {
+      "id": "s8",
+      "show": "He had just two sticks of gum.",
+      "start": 27.434,
+      "end": 29.418
+    },
+    {
+      "id": "s9",
+      "show": "They shared them, and sniffed the wrappers.",
+      "start": 29.768,
+      "end": 31.987
+    },
+    {
+      "id": "s10",
+      "show": "He promised to drop more, and to wiggle his wings.",
+      "start": 32.387,
+      "end": 35.587
+    },
+    {
+      "id": "s11",
+      "show": "He tied chocolate to handkerchief parachutes.",
+      "start": 35.937,
+      "end": 38.795
+    },
+    {
+      "id": "s12",
+      "show": "Soon, over 23 tons of candy fell on Berlin.",
+      "start": 39.145,
+      "end": 42.665
+    },
+    {
+      "id": "s13",
+      "show": "Years earlier, many of these pilots had bombed German cities.",
+      "start": 43.165,
+      "end": 47.027
+    },
+    {
+      "id": "s14",
+      "show": "Now Berlin's children called him Uncle Wiggly Wings.",
+      "start": 47.427,
+      "end": 50.627
+    },
+    {
+      "id": "end2",
+      "show": "Subscribe, to find out when our app comes out.",
+      "start": 51.227,
+      "end": 54.171
+    }
+  ]
+}

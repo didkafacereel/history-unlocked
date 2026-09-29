@@ -52,5 +52,14 @@
     "category": "Military & Conflict",
     "music": "beethoven-moonlight-1",
     "seconds": 51
+  },
+  {
+    "date": "2026-09-30",
+    "slug": "berlin-airlift",
+    "title": "The Berlin Airlift ends, 1949 — and the Candy Bomber, Gail Halvorsen",
+    "eventId": null,
+    "category": "Politics & Power",
+    "music": "chopin-nocturne-10",
+    "seconds": 55
   }
 ]

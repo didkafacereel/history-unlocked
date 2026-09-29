@@ -22,7 +22,7 @@
 import { execFileSync } from 'node:child_process';
 import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
-import { commonsApi, fileInfo, wikiApi } from './lib/wiki.mjs';
+import { commonsApi, download, fileInfo, wikiApi } from './lib/wiki.mjs';
 
 const UA = 'HistoryUnlockedShorts/1.0 (https://history-unlocked-fa9a9.web.app; support@gridconvertpro.com)';
 const FONT = "C\\:/Windows/Fonts/arialbd.ttf";
@@ -62,13 +62,32 @@ function patient(bin, args, opts) {
 const ff = (args) => patient('ffmpeg', ['-v', 'error', '-y', ...args], { stdio: ['ignore', 'ignore', 'pipe'] });
 const probe = (url) =>
   Number.parseFloat(
-    patient('ffprobe', ['-v', 'error', '-user_agent', UA, '-show_entries', 'format=duration', '-of', 'default=nw=1:nk=1', url], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] }).trim(),
+    patient('ffprobe', ['-v', 'error', ...(/^https?:/.test(url) ? ['-user_agent', UA] : []), '-show_entries', 'format=duration', '-of', 'default=nw=1:nk=1', url], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] }).trim(),
   );
 const bare = (url) => url.replace(/\?.*$/, '');
-/** A small transcode to look at (Commons keeps 240p–1080p copies); the original if there is none. */
-async function lookUrl(url) {
+/*
+ * A film under CACHE_MAX is downloaded once into .clips/cache and read from
+ * disk: seeking a small file over HTTP is where the 429s and the unreadable
+ * frames came from (Berlin airlift.ogv, 29 Sep — only a flaky 240p copy).
+ */
+const CACHE_MAX = 150e6;
+async function cached(url) {
   const u = bare(url);
-  const m = /^(https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\/)([0-9a-f]\/[0-9a-f]{2}\/)([^/]+)$/.exec(u);
+  const file = path.join(work, 'cache', decodeURIComponent(u.split('/').pop()));
+  if (existsSync(file)) return file;
+  const head = await fetch(u, { method: 'HEAD', headers: { 'User-Agent': UA } });
+  const size = Number(head.headers.get('content-length'));
+  if (!head.ok || !(size > 0 && size < CACHE_MAX)) return null;
+  mkdirSync(path.dirname(file), { recursive: true });
+  await download(u, file);
+  return file;
+}
+/** Where to read a film from: the local copy if it is small, else a small transcode to look at, else the original. */
+async function lookUrl(url, { cache = true } = {}) {
+  const local = cache ? await cached(url) : null;
+  if (local) return local;
+  const u = bare(url);
+  const m =/^(https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\/)([0-9a-f]\/[0-9a-f]{2}\/)([^/]+)$/.exec(u);
   if (m) {
     for (const r of ['360p.vp9.webm', '360p.webm', '240p.vp9.webm', '480p.vp9.webm']) {
       const t = `${m[1]}transcoded/${m[2]}${m[3]}/${m[3]}.${r}`;
@@ -78,12 +97,14 @@ async function lookUrl(url) {
   }
   return u;
 }
+/** -user_agent only for http sources — a local cached file takes no protocol options. */
+const src = (url) => (/^https?:/.test(url) ? ['-user_agent', UA, '-i', url] : ['-i', url]);
 const clock = (s) => `${Math.floor(s / 60)}m${String(Math.floor(s % 60)).padStart(2, '0')}`;
 
 /** Frame at `t` seconds of a remote video → a PNG, fast input seek over HTTP. */
 function grab(url, t, file, w, h) {
   ff([
-    '-user_agent', UA, '-ss', t.toFixed(2), '-i', url, '-frames:v', '1',
+    '-ss', t.toFixed(2), ...src(url), '-frames:v', '1',
     '-vf', `scale=${w}:${h}:force_original_aspect_ratio=decrease,pad=${w}:${h}:(ow-iw)/2:(oh-ih)/2:color=0x141826`,
     file,
   ]);
@@ -138,7 +159,8 @@ if (cmd === 'list') {
   for (const f of infos.slice(0, 12)) {
     const n = kept.length + 1;
     try {
-      const look = await lookUrl(f.url);
+      // A dozen films are only glanced at here — nothing is downloaded yet.
+      const look = await lookUrl(f.url, { cache: false });
       const seconds = probe(look);
       const tiles = [];
       for (const [k, p] of [0.12, 0.37, 0.62, 0.87].entries()) {
@@ -232,7 +254,7 @@ const filter =
       `[bg][fg]overlay=0:(H-h)/2-220,setsar=1,fps=30[v]`;
 const out = path.join(assets, `${name}.mp4`);
 ff([
-  '-user_agent', UA, '-ss', at.toFixed(2), '-i', bare(info.url), '-t', len.toFixed(2),
+  '-ss', at.toFixed(2), ...src((await cached(info.url)) ?? bare(info.url)), '-t', len.toFixed(2),
   '-filter_complex', filter, '-map', '[v]', '-an',
   '-c:v', 'libx264', '-preset', 'slow', '-crf', '18', '-pix_fmt', 'yuv420p', '-movflags', '+faststart',
   out,
