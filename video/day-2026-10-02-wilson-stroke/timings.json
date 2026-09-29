@@ -1,0 +1,89 @@
+{
+  "total": 53.255,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "A stroke left the American president paralysed. And his wife decided what reached him.",
+      "start": 0.4,
+      "end": 5.947
+    },
+    {
+      "id": "s2",
+      "show": "It struck on this day in 1919.",
+      "start": 6.347,
+      "end": 8.757
+    },
+    {
+      "id": "s3",
+      "show": "Wilson had just toured the West, selling his League of Nations.",
+      "start": 9.157,
+      "end": 12.891
+    },
+    {
+      "id": "s4",
+      "show": "His health broke, and he came home.",
+      "start": 13.241,
+      "end": 15.417
+    },
+    {
+      "id": "s5",
+      "show": "Then the stroke. Left side paralysed. Right eye, half blind.",
+      "start": 15.867,
+      "end": 19.92
+    },
+    {
+      "id": "s6",
+      "show": "His wife Edith and his doctor hid how bad it was.",
+      "start": 20.37,
+      "end": 23.741
+    },
+    {
+      "id": "s7",
+      "show": "Every paper now went through her.",
+      "start": 24.141,
+      "end": 26.082
+    },
+    {
+      "id": "s8",
+      "show": "She chose what was important, and when he would see it.",
+      "start": 26.432,
+      "end": 29.589
+    },
+    {
+      "id": "s9",
+      "show": "The Secretary of State held cabinet meetings without him. Edith pushed him out.",
+      "start": 30.039,
+      "end": 34.669
+    },
+    {
+      "id": "s10",
+      "show": "She said she never made a single decision.",
+      "start": 35.119,
+      "end": 37.807
+    },
+    {
+      "id": "s11",
+      "show": "One historian says she was, essentially, the nation's chief executive.",
+      "start": 38.157,
+      "end": 42.914
+    },
+    {
+      "id": "s12",
+      "show": "Wilson still won the Nobel Peace Prize, for the League.",
+      "start": 43.414,
+      "end": 46.55
+    },
+    {
+      "id": "s13",
+      "show": "His own country never joined it.",
+      "start": 46.95,
+      "end": 49.211
+    },
+    {
+      "id": "end2",
+      "show": "Subscribe, to find out when our app comes out.",
+      "start": 49.811,
+      "end": 52.755
+    }
+  ]
+}

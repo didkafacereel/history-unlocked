@@ -1,0 +1,128 @@
+{
+  "edith-desk.jpg": {
+    "file": "File:Woodrow and Edith Wilson2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Woodrow_and_Edith_Wilson2.jpg",
+    "licence": "Public domain",
+    "artist": "Harris & Ewing",
+    "date": "1920-06",
+    "description": "President Woodrow Wilson, seated at desk with his wife, Edith Bolling Galt, standing at his side. First posed picture after Mr. Wilson's illness, White House, June 1920. Mrs. Wilson holds a document while the President adds his signature."
+  },
+  "edith.jpg": {
+    "file": "File:Edith Wilson cropped 2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Edith_Wilson_cropped_2.jpg",
+    "licence": "Public domain",
+    "artist": "Genthe, Arnold, 1869-1942, photographer",
+    "date": "between 1915 and 1942date QS:P,+1950-00-",
+    "description": "Title Portrait photograph of Mrs. Woodrow Wilson Contributor Names Genthe, Arnold, 1869-1942, photographer Created / Published between 1915 and 1942; from a negative taken 1915 Feb. 16. Subject Headings - Wilson, Edith Bolling Galt,--1869-1"
+  },
+  "wilson-1919.jpg": {
+    "file": "File:Thomas Woodrow Wilson, Harris & Ewing bw photo portrait, 1919 (cropped) c.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Thomas_Woodrow_Wilson,_Harris_%26_Ewing_bw_photo_portrait,_1919_(cropped)_c.jpg",
+    "licence": "Public domain",
+    "artist": "Harris & Ewing",
+    "date": "1919",
+    "description": "Woodrow Wilson, c1919."
+  },
+  "lansing.jpg": {
+    "file": "File:Robert Lansing cph.3b47713 (3x4a).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Robert_Lansing_cph.3b47713_(3x4a).jpg",
+    "licence": "Public domain",
+    "artist": "Harris & Ewing",
+    "date": "1919",
+    "description": "Robert Lansing, 42nd U.S. Secretary of State"
+  },
+  "wilson-hat.jpg": {
+    "file": "File:President Woodrow Wilson - NH 18.jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:President_Woodrow_Wilson_-_NH_18.jpeg",
+    "licence": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "date": "8 July 1919date QS:P571,+1919-07-08T00:0",
+    "description": "President Woodrow Wilson (center) waves his top hat from the deck of USS George Washington (ID # 3018), as she steamed up New York Harbor upon the President's return to the U.S. from the World War I peace conference in France, 8 July 1919."
+  },
+  "grayson.jpg": {
+    "file": "File:Dr. Cary Travers Grayson, 1878-1938 LCCN2003653874.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dr._Cary_Travers_Grayson,_1878-1938_LCCN2003653874.jpg",
+    "licence": "Public domain",
+    "artist": "Miscellaneous Items in High Demand, PPOC, Library of Congress",
+    "date": "1920",
+    "description": "Title: Dr. Cary Travers Grayson, 1878-1938 Abstract/medium: 1 photographic print."
+  },
+  "film-garden.mp4": {
+    "file": "File:Woodrow Wilson video montage.ogv",
+    "page": "https://commons.wikimedia.org/wiki/File:Woodrow_Wilson_video_montage.ogv",
+    "licence": "Public Domain",
+    "artist": "",
+    "date": "",
+    "description": "",
+    "film": {
+      "at": 38.9,
+      "len": 4.5,
+      "fit": "band"
+    }
+  },
+  "film-tophat.mp4": {
+    "file": "File:Woodrow Wilson video montage.ogv",
+    "page": "https://commons.wikimedia.org/wiki/File:Woodrow_Wilson_video_montage.ogv",
+    "licence": "Public Domain",
+    "artist": "",
+    "date": "",
+    "description": "",
+    "film": {
+      "at": 7.6,
+      "len": 3,
+      "fit": "band"
+    }
+  },
+  "film-cap.mp4": {
+    "file": "File:Woodrow Wilson video montage.ogv",
+    "page": "https://commons.wikimedia.org/wiki/File:Woodrow_Wilson_video_montage.ogv",
+    "licence": "Public Domain",
+    "artist": "",
+    "date": "",
+    "description": "",
+    "film": {
+      "at": 18.2,
+      "len": 4.8,
+      "fit": "band"
+    }
+  },
+  "film-whitehouse.mp4": {
+    "file": "File:Video Clips of Woodrow Wilson (1917-1921, Part 1).webm",
+    "page": "https://commons.wikimedia.org/wiki/File:Video_Clips_of_Woodrow_Wilson_(1917-1921,_Part_1).webm",
+    "licence": "Public domain",
+    "artist": "National Archives and Records Administration",
+    "date": "circa 1917-1921",
+    "description": "Reel 1, Wilson watches sheep graze on the White House lawn; proclaims a declaration of war on April 6, 1917; and speaks to a crowd. Ex-Pres. Taft is present. Pres. and Mrs. Wilson and Post-master Gen. Burleson inspect an airmail plane as se",
+    "film": {
+      "at": 15.8,
+      "len": 4.77,
+      "fit": "band"
+    }
+  },
+  "film-desk.mp4": {
+    "file": "File:Video Clips of Woodrow Wilson (1917-1921, Part 1).webm",
+    "page": "https://commons.wikimedia.org/wiki/File:Video_Clips_of_Woodrow_Wilson_(1917-1921,_Part_1).webm",
+    "licence": "Public domain",
+    "artist": "National Archives and Records Administration",
+    "date": "circa 1917-1921",
+    "description": "Reel 1, Wilson watches sheep graze on the White House lawn; proclaims a declaration of war on April 6, 1917; and speaks to a crowd. Ex-Pres. Taft is present. Pres. and Mrs. Wilson and Post-master Gen. Burleson inspect an airmail plane as se",
+    "film": {
+      "at": 24,
+      "len": 4.8,
+      "fit": "band"
+    }
+  },
+  "film-window.mp4": {
+    "file": "File:Video Clips of Woodrow Wilson (1917-1921, Part 1).webm",
+    "page": "https://commons.wikimedia.org/wiki/File:Video_Clips_of_Woodrow_Wilson_(1917-1921,_Part_1).webm",
+    "licence": "Public domain",
+    "artist": "National Archives and Records Administration",
+    "date": "circa 1917-1921",
+    "description": "Reel 1, Wilson watches sheep graze on the White House lawn; proclaims a declaration of war on April 6, 1917; and speaks to a crowd. Ex-Pres. Taft is present. Pres. and Mrs. Wilson and Post-master Gen. Burleson inspect an airmail plane as se",
+    "film": {
+      "at": 52,
+      "len": 4.8,
+      "fit": "band"
+    }
+  }
+}

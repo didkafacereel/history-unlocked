@@ -86,5 +86,16 @@
     "video": "2026-10-01-model-t.mp4",
     "poster": "2026-10-01-model-t.jpg",
     "bytes": 3540863
+  },
+  {
+    "date": "2026-10-02",
+    "dateKey": "10-02",
+    "slug": "wilson-stroke",
+    "eventId": null,
+    "title": "Woodrow Wilson's stroke, 1919 — and Edith Wilson's 'stewardship'",
+    "seconds": 49.4,
+    "video": "2026-10-02-wilson-stroke.mp4",
+    "poster": "2026-10-02-wilson-stroke.jpg",
+    "bytes": 2852373
   }
 ]

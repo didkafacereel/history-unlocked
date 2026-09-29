@@ -1,0 +1,280 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-10-02",
+  "dateKey": "10-02",
+  "slug": "wilson-stroke",
+  "title": "Woodrow Wilson's stroke, 1919 — and Edith Wilson's 'stewardship'",
+  "eventId": null,
+  "category": "Politics & Power",
+  "sources": [
+    "Wikipedia: Woodrow Wilson — barnstormed the Western states to bolster support for ratification of the treaty and the League of Nations, returned to the White House in late September due to health problems; on October 2, 1919, suffered a serious stroke, paralyzed on his left side, with only partial vision in the right eye; his inner circle concealed the severity; awarded the 1919 Nobel Peace Prize on December 10, 1920 for his role as founder of the League of Nations; President Harding and the Republican Congress repudiated membership in the League",
+    "Wikipedia: Edith Wilson — Edith, his physician and a few close friends hid the true extent of his illness; she became the sole communication link between the President and his Cabinet and decided which matters were important enough to bring to him; her words: 'I, myself, never made a single decision... The only decision that was mine was what was important and what was not'; successfully pushed for the removal of Secretary of State Robert Lansing after he held Cabinet meetings without the President; historian Howard Markel: she 'was, essentially, the nation's chief executive' until March 1921",
+    "Wikipedia: Cary T. Grayson — the White House physician, involved in hiding the severity of the October 1919 stroke",
+    "Archive film (public domain, Wikimedia Commons): 'Woodrow Wilson video montage'; 'Video Clips of Woodrow Wilson (1917-1921, Part 1)' (US National Archives)",
+    "Photos (public domain): Woodrow and Edith Wilson at his desk, June 1920, Harris & Ewing — the first posed picture after his illness; Edith Wilson, Arnold Genthe; Wilson returning from Paris, July 1919; Robert Lansing, 1919; Dr. Cary Grayson, 1920"
+  ],
+  "music": {
+    "track": "satie-gnossienne-1"
+  },
+  "highlight": [
+    "STROKE",
+    "PARALYSED",
+    "WIFE",
+    "EDITH",
+    "HID",
+    "HER",
+    "SHE",
+    "NOBEL",
+    "NEVER",
+    "LEAGUE"
+  ],
+  "cover": {
+    "image": "edith-desk.jpg",
+    "focus": "50% 30%",
+    "date": "2 OCTOBER 1919",
+    "top": 1000,
+    "lines": [
+      "THE SECRET",
+      "*PRESIDENCY*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "A stroke left the American president paralysed. And his wife decided what reached him.",
+      "show": "A stroke left the American president paralysed. And his wife decided what reached him.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s2",
+      "say": "It struck on this day in nineteen nineteen.",
+      "show": "It struck on this day in 1919.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "Wilson had just toured the West, selling his League of Nations.",
+      "show": "Wilson had just toured the West, selling his League of Nations.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s4",
+      "say": "His health broke, and he came home.",
+      "show": "His health broke, and he came home.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s5",
+      "say": "Then the stroke. Left side paralysed. Right eye, half blind.",
+      "show": "Then the stroke. Left side paralysed. Right eye, half blind.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s6",
+      "say": "His wife Edith and his doctor hid how bad it was.",
+      "show": "His wife Edith and his doctor hid how bad it was.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s7",
+      "say": "Every paper now went through her.",
+      "show": "Every paper now went through her.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s8",
+      "say": "She chose what was important, and when he would see it.",
+      "show": "She chose what was important, and when he would see it.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s9",
+      "say": "The Secretary of State held cabinet meetings without him. Edith pushed him out.",
+      "show": "The Secretary of State held cabinet meetings without him. Edith pushed him out.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s10",
+      "say": "She said she never made a single decision.",
+      "show": "She said she never made a single decision.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s11",
+      "say": "One historian says she was, essentially, the nation's chief executive.",
+      "show": "One historian says she was, essentially, the nation's chief executive.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s12",
+      "say": "Wilson still won the Nobel Peace Prize, for the League.",
+      "show": "Wilson still won the Nobel Peace Prize, for the League.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s13",
+      "say": "His own country never joined it.",
+      "show": "His own country never joined it.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "scenes": [
+    {
+      "type": "film",
+      "note": "hook — the White House",
+      "clip": "film-whitehouse.mp4",
+      "credit": "The White House · archive film"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.55",
+      "enter": "cut",
+      "image": "edith-desk.jpg",
+      "focus": "50% 35%",
+      "move": "in"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "wilson-1919.jpg",
+      "focus": "50% 30%",
+      "date": "2 OCTOBER",
+      "year": "1919",
+      "place": "The White House"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "wilson-hat.jpg",
+      "focus": "55% 40%",
+      "move": "in",
+      "fact": "Back from Paris, July 1919"
+    },
+    {
+      "type": "film",
+      "from": "s3@0.55",
+      "enter": "cut",
+      "clip": "film-tophat.mp4",
+      "credit": "Woodrow Wilson · archive film"
+    },
+    {
+      "type": "film",
+      "from": "s4",
+      "enter": "cut",
+      "clip": "film-window.mp4",
+      "credit": "Woodrow Wilson at the White House · archive film"
+    },
+    {
+      "type": "statement",
+      "from": "s5",
+      "enter": "cut",
+      "image": "wilson-1919.jpg",
+      "focus": "50% 25%",
+      "ghost": "STROKE",
+      "kicker": "2 October 1919",
+      "main": {
+        "text": "Left side *paralysed*.",
+        "at": "s5@0.3"
+      },
+      "fact": {
+        "text": "Only partial sight in the right eye.",
+        "at": "s5@0.7"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s6",
+      "enter": "cut",
+      "image": "edith.jpg",
+      "focus": "50% 35%",
+      "move": "in",
+      "kicker": "Edith Wilson"
+    },
+    {
+      "type": "photo",
+      "from": "s6@0.6",
+      "enter": "cut",
+      "image": "grayson.jpg",
+      "focus": "38% 35%",
+      "move": "left",
+      "fact": "Dr. Cary Grayson, the president's physician"
+    },
+    {
+      "type": "photo",
+      "from": "s7",
+      "enter": "cut",
+      "image": "edith-desk.jpg",
+      "focus": "50% 70%",
+      "move": "in",
+      "kicker": "The only way in",
+      "fact": "June 1920"
+    },
+    {
+      "type": "quote",
+      "from": "s8",
+      "enter": "cut",
+      "image": "edith.jpg",
+      "focus": "50% 35%",
+      "kicker": "Edith Wilson, 1939",
+      "quote": {
+        "text": "The only decision that was mine was what was important and what was not.",
+        "at": "s8@0.1"
+      },
+      "by": {
+        "text": "My Memoir",
+        "at": "s8@0.7"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s9",
+      "enter": "cut",
+      "image": "lansing.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "kicker": "Secretary of State Robert Lansing"
+    },
+    {
+      "type": "film",
+      "from": "s10",
+      "enter": "cut",
+      "clip": "film-garden.mp4",
+      "credit": "Woodrow Wilson · archive film"
+    },
+    {
+      "type": "statement",
+      "from": "s11",
+      "enter": "cut",
+      "image": "edith-desk.jpg",
+      "focus": "50% 30%",
+      "kicker": "Historian Howard Markel",
+      "main": {
+        "text": "“Essentially, the nation’s *chief executive*.”",
+        "at": "s11@0.4"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s12",
+      "enter": "cut",
+      "kicker": "Nobel Peace Prize, 1919",
+      "clip": "film-cap.mp4",
+      "credit": "Woodrow Wilson · archive film"
+    },
+    {
+      "type": "film",
+      "from": "s13",
+      "enter": "cut",
+      "kicker": "The League of Nations",
+      "clip": "film-desk.mp4",
+      "credit": "Woodrow Wilson at his desk · archive film"
+    }
+  ],
+  "post": {
+    "tiktok": "A stroke left the president paralysed — and his wife decided what reached him. 🤫\n\nOn 2 October 1919, Woodrow Wilson suffered a serious stroke. Edith Wilson and his doctor hid how bad it was, and every paper for the president went through her.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #historytok #uspresidents #firstlady #1919 #woodrowwilson",
+    "facebook": "On this day in 1919, President Woodrow Wilson suffered a serious stroke.\n\nHe had just toured the Western states to win support for his League of Nations, and came home to the White House with his health broken. The stroke left him paralysed on his left side, with only partial sight in his right eye.\n\nHis wife Edith, his doctor Cary Grayson and a few close friends hid how bad it was. Edith became the only link between the president and his Cabinet: every pressing matter was sent to her, and she decided what was important enough to bring to him. When Secretary of State Robert Lansing held Cabinet meetings without the president, she pushed for his removal.\n\nShe later wrote that she never made a single decision herself. The historian Howard Markel disagrees: she \"was, essentially, the nation's chief executive\" until Wilson's term ended in March 1921.\n\nIn December 1920, Wilson was awarded the Nobel Peace Prize for founding the League of Nations. His own country never joined it.\n\nEvery day has a story like this. Follow the page to find out when our app comes out. 📜\n\n#OnThisDay #History #WoodrowWilson #FirstLady"
+  }
+}
