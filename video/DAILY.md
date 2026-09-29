@@ -282,6 +282,14 @@ Then:
    `Tomorrow's video is ready: Petrov, 1983 (58s). Captions in POST.md.`
 3. End with a 3–4 line summary in **Bulgarian** (the user writes Bulgarian):
    the story, why this one, anything uncertain.
+4. **Then the upload info, always, in the final message itself** (the user
+   asked on 29 Sep: after every clip, the TikTok and Facebook text ready to
+   copy — not only in POST.md). In English, exactly as in POST.md:
+   - `### TikTok`, then the whole `post.tiktok` in a fenced ``` block (one
+     block, so it copies in one go), then the cover note: "Cover: first
+     frame / cover.jpg".
+   - `### Facebook`, then the whole `post.facebook` in its own fenced block.
+   - One line naming the file to upload: `video/ready/<date>-<slug>/<date>-<slug>.mp4`.
 
 ## If something goes wrong
 
