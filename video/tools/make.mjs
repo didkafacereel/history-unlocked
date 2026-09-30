@@ -6,7 +6,7 @@
  *   node video/tools/make.mjs video/day-2026-09-26-petrov --render-only   frames already approved
  *   … --draft   a trial version: delivered to ready/, but not logged and no app clip
  *
- * "pace": "fast" in script.json (the v2 format): voice at 1.0, 30–55 s, a
+ * "pace": "fast" in script.json (the v2 format): voice at 1.0, 40–70 s (35–75 accepted), a
  * picture change every 2–3 s, lighter shades, 3-word captions, and only the
  * call-to-action line spoken over the end card.
  *
@@ -66,9 +66,9 @@ const channel = JSON.parse(readFileSync(path.join(videoDir, 'channel.json'), 'ut
 const library = JSON.parse(readFileSync(path.join(videoDir, 'music', 'library.json'), 'utf8'));
 if (script.format !== 2) fail('script.json is not format 2 — the hand-built days use build-*.mjs instead');
 const fast = script.pace === 'fast';
-const MIN_LEN = fast ? 30 : 45;
-const MAX_LEN = fast ? 55 : 62;
-const TARGET = fast ? 45 : 58;
+const MIN_LEN = fast ? 35 : 45;
+const MAX_LEN = fast ? 75 : 62;
+const TARGET = fast ? 58 : 58;
 
 const stage = channel.stages[channel.stage];
 if (!stage) fail(`channel.json stage "${channel.stage}" has no entry in "stages"`);

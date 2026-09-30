@@ -1,10 +1,11 @@
 # The nightly video — playbook
 
-Every evening at 20:00 a scheduled Claude session makes **tomorrow's** video
-by following this file, start to finish, without asking anything. The user
-reviews it in the morning and posts it themselves. This file is the whole
-brief: the voice, the look, the rules and the checks all live here or in the
-tools it names.
+Every evening at 20:00 a scheduled Claude session starts **tomorrow's** video
+by following this file. **The user picks the story** (their rule, 30 Sep):
+the session offers the day's best topics, the user chooses one, and only then
+is the clip made — start to finish, without asking anything else. The user
+posts it themselves. This file is the whole brief: the voice, the look, the
+rules and the checks all live here or in the tools it names.
 
 Every command below is `node D:/android/history-unlocked/video/tools/…` with
 **absolute paths, exactly as written** (Bash tool) — those are pre-approved,
@@ -43,7 +44,28 @@ node D:/android/history-unlocked/video/tools/research.mjs tomorrow
 If it prints `ALREADY MADE`, stop: notify the user that tomorrow's video
 already exists, and end.
 
-Read `video/.research/<MM-DD>/candidates.md`. Choose ONE event:
+Read `video/.research/<MM-DD>/candidates.md` and draw up a **shortlist of 3–5
+events** that pass the rules below.
+
+**The user chooses** (their standing rule since 30 Sep: "give me the topics
+every day before you start the clip, and I pick which one"). Never start a
+clip on a story the user has not picked. For each topic give, in Bulgarian:
+the year and title, the hook in one line (the twist), whether real archive
+film is likely (check with a quick `clips.mjs list` or the Commons search when
+unsure), whether it is in the app, and its category. Put your recommendation
+first. Then:
+
+- **In a session with the user** — ask with AskUserQuestion (one option per
+  topic, recommendation first) and wait for the answer.
+- **In the unattended nightly run** — write the shortlist to
+  `video/.research/<MM-DD>/SHORTLIST.md`, send it (SendUserFile, status
+  `proactive`), notify (PushNotification, e.g. `Теми за утрешния клип са
+  готови — избери една`), and **stop there**. The clip is made in the next
+  session, once the user has picked; it starts again from the fetch below.
+
+If the user picks something off the list (another event of the day), use that.
+
+The rules for the shortlist:
 
 1. **A story, not a fact.** It needs a turn: a twist, a decision, a reversal,
    an irony, a "one person / one moment" hinge. "X was founded" is not a story.
@@ -169,10 +191,11 @@ by itself; just run it again if it still fails.
 Model: `video/day-2026-09-29-brocklesby-v2/script.json` — copy its shape.
 
 **The pace** (decided with the user, 28 Sep): `"pace": "fast"` — always.
-Voice `am_michael` at 1.0, length **40–52 s** (`make.mjs` accepts 30–55):
-about **100–110 words of story** in 13–16 short sentences. A new picture
-every **2–4 s**: 14–18 scenes. `make.mjs` adds the one spoken end-card line
-itself — do not write it.
+Voice `am_michael` at 1.0, length **40–70 s** (the user, 30 Sep: "40 to 70,
+±5 s is no problem" — `make.mjs` accepts 35–75): about **100–160 words of
+story** in 13–20 short sentences — let the story set the length, do not pad
+it. A new picture every **2–4 s**: 14–22 scenes. `make.mjs` adds the one
+spoken end-card line itself — do not write it.
 
 **Sentences.** Each has `say` (for the voice) and `show` (for the captions):
 
