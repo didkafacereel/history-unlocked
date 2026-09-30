@@ -79,5 +79,14 @@
     "category": "Politics & Power",
     "music": "satie-gnossienne-1",
     "seconds": 53
+  },
+  {
+    "date": "2026-10-03",
+    "slug": "v2-rocket",
+    "title": "The V-2's first successful flight, 1942 — from vengeance weapon to the Moon",
+    "eventId": null,
+    "category": "Science & Technology",
+    "music": "mussorgsky-catacombs",
+    "seconds": 68
   }
 ]

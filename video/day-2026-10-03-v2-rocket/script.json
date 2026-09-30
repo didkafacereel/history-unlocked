@@ -1,0 +1,294 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-10-03",
+  "dateKey": "10-03",
+  "slug": "v2-rocket",
+  "title": "The V-2's first successful flight, 1942 — from vengeance weapon to the Moon",
+  "eventId": null,
+  "category": "Science & Technology",
+  "sources": [
+    "Wikipedia: V-2 rocket — the fourth flight was the first successful test flight, on 3 October 1942, reaching 84.5 km; Walter Dornberger at Peenemünde: 'This third day of October, 1942, is the first of a new era in transportation, that of space travel'; on 22 December 1942 Hitler signed the order for mass production; built at the Mittelwerk by prisoners from Mittelbau-Dora, a concentration camp where 20,000 prisoners died; beginning in September 1944 more than 3,000 V-2s were launched against Allied targets, first London and later Antwerp and Liège; faster than sound, no warning; an estimated 2,754 civilians killed in London; more people died manufacturing the V-2 than were killed by its deployment",
+    "Wikipedia: Wernher von Braun — 22 December 1942 Hitler ordered the A-4 into production as a 'vengeance weapon'; surrendered to the US military (Operation Paperclip); chief architect of the Saturn V that propelled the Apollo spacecraft to the Moon",
+    "Wikipedia: Mittelwerk — the underground factory's tunnel system",
+    "Archive film (public domain, Wikimedia Commons): 'V-2 Rocket Assembling and Launching 1947' (captured V-2s at White Sands); '1946-11-21 White Sands NM V-2 rocket' (incl. film of Earth from a V-2 camera); NASA 'Flight of AS-506 (Apollo 11)'",
+    "Photos (public domain): V-weapons in the Mittelwerk tunnels, May 1945; Mittelwerk tunnel entrance, 1945 (US Army); Dornberger and von Braun after their surrender, 3 May 1945; V-2 damage in London, March 1945 (RAF); ruined flats in Limehouse; von Braun and the Apollo 11 Saturn V, July 1969 (NASA); first photo from space, V-2, 24 October 1946 (US Army)"
+  ],
+  "music": {
+    "track": "mussorgsky-catacombs"
+  },
+  "highlight": [
+    "MOON",
+    "WEAPON",
+    "PRISONERS",
+    "SPACE",
+    "VENGEANCE",
+    "TUNNELS",
+    "WARNING",
+    "BUILDING",
+    "SATURN",
+    "APOLLO"
+  ],
+  "cover": {
+    "image": "first-photo.jpg",
+    "focus": "50% 50%",
+    "date": "3 OCTOBER 1942",
+    "lines": [
+      "*NAZI WEAPON*",
+      "TO THE",
+      "*MOON ROCKET*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "The rocket that led to the Moon began as a Nazi weapon, built by prisoners.",
+      "show": "The rocket that led to the Moon began as a Nazi weapon, built by prisoners.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "Its first successful flight was on this day in nineteen forty-two.",
+      "show": "Its first successful flight was on this day in 1942.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "The V two climbed eighty-four and a half kilometres into the sky.",
+      "show": "The V-2 climbed 84.5 kilometres into the sky.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "Its commander, Walter Dornberger, called it the first day of a new era: space travel.",
+      "show": "Its commander, Walter Dornberger, called it the first day of a new era: space travel.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s5",
+      "say": "Hitler saw something else. A weapon of vengeance.",
+      "show": "Hitler saw something else. A weapon of vengeance.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s6",
+      "say": "It was built in tunnels, by concentration camp prisoners.",
+      "show": "It was built in tunnels, by concentration camp prisoners.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s7",
+      "say": "Twenty thousand of them died.",
+      "show": "Twenty thousand of them died.",
+      "pauseAfter": 0.55
+    },
+    {
+      "id": "s8",
+      "say": "From September nineteen forty-four, more than three thousand were fired, first at London, then Antwerp and Liège.",
+      "show": "From September 1944, more than 3,000 were fired, first at London, then Antwerp and Liège.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s9",
+      "say": "It fell faster than sound. There was no warning.",
+      "show": "It fell faster than sound. There was no warning.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s10",
+      "say": "In London alone, it killed about two thousand seven hundred people.",
+      "show": "In London alone, it killed about 2,700 people.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s11",
+      "say": "Yet more people died building it than were killed by it.",
+      "show": "Yet more people died building it than were killed by it.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s12",
+      "say": "After the war, its designer, Wernher von Braun, surrendered to the Americans.",
+      "show": "After the war, its designer, Wernher von Braun, surrendered to the Americans.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s13",
+      "say": "In America, he became chief architect of the Saturn V.",
+      "show": "In America, he became chief architect of the Saturn V.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s14",
+      "say": "The rocket that carried Apollo to the Moon.",
+      "show": "The rocket that carried Apollo to the Moon.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "scenes": [
+    {
+      "type": "film",
+      "note": "hook — a V-2 lifts off (a captured one, US test, 1947)",
+      "clip": "film-liftoff.mp4",
+      "credit": "A captured V-2 lifts off, White Sands, 1947 · archive film"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.5",
+      "enter": "cut",
+      "image": "mittelwerk-rockets.jpg",
+      "focus": "45% 50%",
+      "move": "in",
+      "fact": "V-2 parts in the Mittelwerk tunnels, 1945"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "first-photo.jpg",
+      "focus": "50% 50%",
+      "date": "3 OCTOBER",
+      "year": "1942",
+      "place": "Peenemünde, Germany"
+    },
+    {
+      "type": "film",
+      "from": "s3",
+      "enter": "cut",
+      "clip": "film-launch46.mp4",
+      "credit": "A V-2 climbs, White Sands, 1946 · archive film"
+    },
+    {
+      "type": "film",
+      "from": "s3@0.6",
+      "enter": "cut",
+      "clip": "film-earth.mp4",
+      "credit": "Earth, filmed from a V-2 in 1946 · archive film"
+    },
+    {
+      "type": "quote",
+      "from": "s4",
+      "enter": "cut",
+      "image": "dornberger.jpg",
+      "focus": "30% 30%",
+      "kicker": "Walter Dornberger, 3 October 1942",
+      "quote": {
+        "text": "The first of a new era in transportation, that of space travel.",
+        "at": "s4@0.3"
+      },
+      "by": {
+        "text": "Dornberger, left, in 1945",
+        "at": "s4@0.75"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s5",
+      "enter": "cut",
+      "image": "london-damage.jpg",
+      "focus": "50% 50%",
+      "ghost": "V-2",
+      "kicker": "Hitler's order, December 1942",
+      "main": {
+        "text": "A *vengeance* weapon.",
+        "at": "s5@0.55"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s6",
+      "enter": "cut",
+      "image": "mittelwerk-tunnel.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The Mittelwerk, 1945"
+    },
+    {
+      "type": "statement",
+      "from": "s7",
+      "enter": "cut",
+      "image": "mittelwerk-rockets.jpg",
+      "focus": "30% 50%",
+      "kicker": "Mittelbau-Dora camp",
+      "main": {
+        "text": "*20,000* prisoners died.",
+        "at": "s7+0.1"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s8",
+      "enter": "cut",
+      "clip": "film-rising.mp4",
+      "credit": "A V-2 in flight, 1947 · archive film"
+    },
+    {
+      "type": "photo",
+      "from": "s8@0.4",
+      "enter": "cut",
+      "image": "london-damage.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "V-2 damage, London, March 1945"
+    },
+    {
+      "type": "film",
+      "from": "s9",
+      "enter": "cut",
+      "clip": "film-crater.mp4",
+      "credit": "A V-2 impact crater, 1947 · archive film"
+    },
+    {
+      "type": "photo",
+      "from": "s10",
+      "enter": "cut",
+      "image": "limehouse.jpg",
+      "focus": "50% 50%",
+      "move": "out",
+      "fact": "Limehouse, London, 1945"
+    },
+    {
+      "type": "statement",
+      "from": "s11",
+      "enter": "cut",
+      "image": "mittelwerk-tunnel.jpg",
+      "focus": "40% 50%",
+      "ghost": "DORA",
+      "kicker": "The cost",
+      "main": {
+        "text": "More died *building* it than were killed by it.",
+        "at": "s11@0.3"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s12",
+      "enter": "cut",
+      "image": "surrender.jpg",
+      "focus": "50% 35%",
+      "move": "in",
+      "kicker": "Wernher von Braun",
+      "fact": "Arm in a cast, after surrendering, May 1945"
+    },
+    {
+      "type": "photo",
+      "from": "s13",
+      "enter": "cut",
+      "image": "braun-saturn.jpg",
+      "focus": "40% 50%",
+      "move": "in",
+      "fact": "Von Braun and the Apollo 11 Saturn V, 1969"
+    },
+    {
+      "type": "film",
+      "from": "s14",
+      "enter": "cut",
+      "clip": "film-apollo.mp4",
+      "credit": "Apollo 11 lifts off · NASA film"
+    }
+  ],
+  "post": {
+    "tiktok": "The rocket that led to the Moon began as a Nazi weapon, built by prisoners. 🚀\n\nOn 3 October 1942, the V-2 made its first successful flight. Thousands were fired at London and Antwerp — and more people died building it than were killed by it. Its designer later built the Saturn V.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #historytok #space #ww2 #apollo #1942",
+    "facebook": "On this day in 1942, the V-2 rocket made its first successful flight, climbing 84.5 kilometres into the sky.\n\nIts commander, Walter Dornberger, called 3 October 1942 \"the first of a new era in transportation, that of space travel\". Hitler saw something else: in December he ordered the rocket into production as a vengeance weapon.\n\nV-2s were built in the tunnels of the Mittelwerk by prisoners from the Mittelbau-Dora concentration camp, where 20,000 prisoners died. From September 1944, more than 3,000 were fired — first at London, then at Antwerp and Liège. The rocket fell faster than sound, with no warning; in London alone it killed an estimated 2,754 people. More people died building the V-2 than were killed by it.\n\nAfter the war, its designer Wernher von Braun surrendered to the Americans. In the United States he became the chief architect of the Saturn V — the rocket that carried Apollo to the Moon.\n\nEvery day has a story like this. Follow the page to find out when our app comes out. 📜\n\n#OnThisDay #History #Space #WW2"
+  }
+}

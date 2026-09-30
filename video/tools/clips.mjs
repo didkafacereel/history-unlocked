@@ -66,11 +66,11 @@ const probe = (url) =>
   );
 const bare = (url) => url.replace(/\?.*$/, '');
 /*
- * A film under CACHE_MAX is downloaded once into .clips/cache and read from
+ * A film under CACHE_MAX (400 MB) is downloaded once into .clips/cache and read from
  * disk: seeking a small file over HTTP is where the 429s and the unreadable
  * frames came from (Berlin airlift.ogv, 29 Sep — only a flaky 240p copy).
  */
-const CACHE_MAX = 150e6;
+const CACHE_MAX = 400e6;
 async function cached(url) {
   const u = bare(url);
   const file = path.join(work, 'cache', decodeURIComponent(u.split('/').pop()));

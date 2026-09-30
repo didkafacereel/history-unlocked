@@ -1,0 +1,95 @@
+{
+  "total": 67.723,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "The rocket that led to the Moon began as a Nazi weapon, built by prisoners.",
+      "start": 0.4,
+      "end": 5.371
+    },
+    {
+      "id": "s2",
+      "show": "Its first successful flight was on this day in 1942.",
+      "start": 5.821,
+      "end": 10.109
+    },
+    {
+      "id": "s3",
+      "show": "The V-2 climbed 84.5 kilometres into the sky.",
+      "start": 10.509,
+      "end": 14.69
+    },
+    {
+      "id": "s4",
+      "show": "Its commander, Walter Dornberger, called it the first day of a new era: space travel.",
+      "start": 15.09,
+      "end": 20.509
+    },
+    {
+      "id": "s5",
+      "show": "Hitler saw something else. A weapon of vengeance.",
+      "start": 21.009,
+      "end": 24.187
+    },
+    {
+      "id": "s6",
+      "show": "It was built in tunnels, by concentration camp prisoners.",
+      "start": 24.637,
+      "end": 28.477
+    },
+    {
+      "id": "s7",
+      "show": "Twenty thousand of them died.",
+      "start": 28.827,
+      "end": 30.833
+    },
+    {
+      "id": "s8",
+      "show": "From September 1944, more than 3,000 were fired, first at London, then Antwerp and Liège.",
+      "start": 31.383,
+      "end": 38.999
+    },
+    {
+      "id": "s9",
+      "show": "It fell faster than sound. There was no warning.",
+      "start": 39.399,
+      "end": 42.599
+    },
+    {
+      "id": "s10",
+      "show": "In London alone, it killed about 2,700 people.",
+      "start": 42.999,
+      "end": 47.308
+    },
+    {
+      "id": "s11",
+      "show": "Yet more people died building it than were killed by it.",
+      "start": 47.758,
+      "end": 51.001
+    },
+    {
+      "id": "s12",
+      "show": "After the war, its designer, Wernher von Braun, surrendered to the Americans.",
+      "start": 51.601,
+      "end": 56.849
+    },
+    {
+      "id": "s13",
+      "show": "In America, he became chief architect of the Saturn V.",
+      "start": 57.249,
+      "end": 60.918
+    },
+    {
+      "id": "s14",
+      "show": "The rocket that carried Apollo to the Moon.",
+      "start": 61.268,
+      "end": 63.679
+    },
+    {
+      "id": "end2",
+      "show": "Subscribe, to find out when our app comes out.",
+      "start": 64.279,
+      "end": 67.223
+    }
+  ]
+}

@@ -97,5 +97,16 @@
     "video": "2026-10-02-wilson-stroke.mp4",
     "poster": "2026-10-02-wilson-stroke.jpg",
     "bytes": 2852373
+  },
+  {
+    "date": "2026-10-03",
+    "dateKey": "10-03",
+    "slug": "v2-rocket",
+    "eventId": null,
+    "title": "The V-2's first successful flight, 1942 — from vengeance weapon to the Moon",
+    "seconds": 63.9,
+    "video": "2026-10-03-v2-rocket.mp4",
+    "poster": "2026-10-03-v2-rocket.jpg",
+    "bytes": 3986863
   }
 ]
