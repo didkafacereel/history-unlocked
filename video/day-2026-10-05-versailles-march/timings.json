@@ -1,0 +1,95 @@
+{
+  "total": 64.203,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "Hungry women marched on a palace, and brought the king back with them.",
+      "start": 0.4,
+      "end": 4.389
+    },
+    {
+      "id": "s2",
+      "show": "It began on this day in 1789, in the markets of Paris.",
+      "start": 4.839,
+      "end": 9.533
+    },
+    {
+      "id": "s3",
+      "show": "Bread cost nearly half a worker's income, and there wasn't enough.",
+      "start": 9.933,
+      "end": 13.751
+    },
+    {
+      "id": "s4",
+      "show": "A young woman beat a drum. Market women grabbed kitchen knives.",
+      "start": 14.201,
+      "end": 18.425
+    },
+    {
+      "id": "s5",
+      "show": "They stormed the city hall, for bread and for weapons.",
+      "start": 18.775,
+      "end": 21.975
+    },
+    {
+      "id": "s6",
+      "show": "Then thousands marched to Versailles, dragging cannons through the rain.",
+      "start": 22.375,
+      "end": 26.621
+    },
+    {
+      "id": "s7",
+      "show": "The king met six of the women, and promised food.",
+      "start": 27.071,
+      "end": 30.036
+    },
+    {
+      "id": "s8",
+      "show": "Most of the crowd didn't believe him.",
+      "start": 30.386,
+      "end": 32.583
+    },
+    {
+      "id": "s9",
+      "show": "At dawn, rioters broke into the palace, hunting for the queen's bedroom.",
+      "start": 33.133,
+      "end": 37.507
+    },
+    {
+      "id": "s10",
+      "show": "Marie Antoinette ran barefoot to the king's room, and escaped.",
+      "start": 37.857,
+      "end": 41.611
+    },
+    {
+      "id": "s11",
+      "show": "The crowd wanted one thing: the king must come to Paris.",
+      "start": 42.111,
+      "end": 45.738
+    },
+    {
+      "id": "s12",
+      "show": "60,000 people took the royal family back, with loaves of bread on their bayonets.",
+      "start": 46.138,
+      "end": 52.005
+    },
+    {
+      "id": "s13",
+      "show": "In Paris, the king asked for a book: the history of Charles I of England.",
+      "start": 52.505,
+      "end": 57.561
+    },
+    {
+      "id": "s14",
+      "show": "An English king who was beheaded.",
+      "start": 58.011,
+      "end": 60.059
+    },
+    {
+      "id": "end2",
+      "show": "Subscribe, to find out when our app comes out.",
+      "start": 60.759,
+      "end": 63.703
+    }
+  ]
+}

@@ -97,5 +97,14 @@
     "category": "Science & Technology",
     "music": "beethoven-moonlight-1",
     "seconds": 62
+  },
+  {
+    "date": "2026-10-05",
+    "slug": "versailles-march",
+    "title": "The Women's March on Versailles, 1789 — bread, a palace and a king brought home",
+    "eventId": "evt-10-05-1789-french-revolution",
+    "category": "Politics & Power",
+    "music": "mussorgsky-bydlo",
+    "seconds": 64
   }
 ]

@@ -119,5 +119,16 @@
     "video": "2026-10-04-sputnik.mp4",
     "poster": "2026-10-04-sputnik.jpg",
     "bytes": 3162551
+  },
+  {
+    "date": "2026-10-05",
+    "dateKey": "10-05",
+    "slug": "versailles-march",
+    "eventId": "evt-10-05-1789-french-revolution",
+    "title": "The Women's March on Versailles, 1789 — bread, a palace and a king brought home",
+    "seconds": 60.4,
+    "video": "2026-10-05-versailles-march.mp4",
+    "poster": "2026-10-05-versailles-march.jpg",
+    "bytes": 4477164
   }
 ]

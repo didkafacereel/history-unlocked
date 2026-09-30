@@ -1,0 +1,284 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-10-05",
+  "dateKey": "10-05",
+  "slug": "versailles-march",
+  "title": "The Women's March on Versailles, 1789 — bread, a palace and a king brought home",
+  "eventId": "evt-10-05-1789-french-revolution",
+  "category": "Politics & Power",
+  "sources": [
+    "Wikipedia: Women's March on Versailles — began among market women of Paris on the morning of 5 October 1789, rioting over the high price of bread; most workers spent nearly half their income on bread; a young woman struck a marching drum; many bore kitchen blades; the crowd converged on the Hôtel de Ville demanding bread and arms and ransacked it; thousands marched to Versailles in about six hours in the autumn rain, dragging cannons; the king received six women and arranged food from the royal stores; most of the crowd was not satisfied; at about six in the morning protesters found an unguarded gate and searched for the queen's bedchamber; the queen ran barefoot to the king's bedchamber and escaped; guards were killed; the crowd insisted the king return to Paris; on 6 October the throng — over sixty thousand — escorted the royal family back, guardsmen hoisting loaves of bread on their bayonets; at the Tuileries the king asked that a history of the deposed Charles I of England be brought from the library",
+    "Wikipedia: Charles I of England — executed in 1649; beheaded",
+    "Images (public domain / CC0 via Wikimedia Commons): 'À Versailles, à Versailles, 5 octobre 1789' (contemporary print); Valentine Prinsep, 'To Versailles' (painting, c. 1895); Janinet, 'Troisième évènement du 5 octobre 1789' (Hôtel de Ville, 1790); Caresme, 'Bravoure des femmes parisiennes' (1790s); 'Retour des dames de la Halle de Versailles le 6 octobre 1789'; Lafayette and Marie Antoinette on the balcony (18th-c. engraving); Callet, Louis XVI (1779); Vigée Le Brun, Marie Antoinette (1783); Van Dyck, Charles I (1632); Pierre-Denis Martin, Versailles (1722)"
+  ],
+  "music": {
+    "track": "mussorgsky-bydlo"
+  },
+  "highlight": [
+    "BREAD",
+    "WOMEN",
+    "DRUM",
+    "KNIVES",
+    "VERSAILLES",
+    "CANNONS",
+    "BAREFOOT",
+    "PARIS",
+    "BAYONETS",
+    "BEHEADED"
+  ],
+  "cover": {
+    "image": "drum-prinsep.jpg",
+    "focus": "72% 45%",
+    "date": "5 OCTOBER 1789",
+    "top": 980,
+    "lines": [
+      "THEY CAME",
+      "FOR BREAD",
+      "*TOOK A KING*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "Hungry women marched on a palace, and brought the king back with them.",
+      "show": "Hungry women marched on a palace, and brought the king back with them.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "It began on this day in seventeen eighty-nine, in the markets of Paris.",
+      "show": "It began on this day in 1789, in the markets of Paris.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "Bread cost nearly half a worker's income, and there wasn't enough.",
+      "show": "Bread cost nearly half a worker's income, and there wasn't enough.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s4",
+      "say": "A young woman beat a drum. Market women grabbed kitchen knives.",
+      "show": "A young woman beat a drum. Market women grabbed kitchen knives.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s5",
+      "say": "They stormed the city hall, for bread and for weapons.",
+      "show": "They stormed the city hall, for bread and for weapons.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s6",
+      "say": "Then thousands marched to Versailles, dragging cannons through the rain.",
+      "show": "Then thousands marched to Versailles, dragging cannons through the rain.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s7",
+      "say": "The king met six of the women, and promised food.",
+      "show": "The king met six of the women, and promised food.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s8",
+      "say": "Most of the crowd didn't believe him.",
+      "show": "Most of the crowd didn't believe him.",
+      "pauseAfter": 0.55
+    },
+    {
+      "id": "s9",
+      "say": "At dawn, rioters broke into the palace, hunting for the queen's bedroom.",
+      "show": "At dawn, rioters broke into the palace, hunting for the queen's bedroom.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s10",
+      "say": "Marie Antoinette ran barefoot to the king's room, and escaped.",
+      "show": "Marie Antoinette ran barefoot to the king's room, and escaped.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s11",
+      "say": "The crowd wanted one thing: the king must come to Paris.",
+      "show": "The crowd wanted one thing: the king must come to Paris.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s12",
+      "say": "Sixty thousand people took the royal family back, with loaves of bread on their bayonets.",
+      "show": "60,000 people took the royal family back, with loaves of bread on their bayonets.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s13",
+      "say": "In Paris, the king asked for a book: the history of Charles the First of England.",
+      "show": "In Paris, the king asked for a book: the history of Charles I of England.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s14",
+      "say": "An English king who was beheaded.",
+      "show": "An English king who was beheaded.",
+      "pauseAfter": 0.7
+    }
+  ],
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook — the drum, the crowd",
+      "image": "drum-prinsep.jpg",
+      "focus": "60% 45%",
+      "move": "in",
+      "fact": "Painting by Valentine Prinsep, c. 1895"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.6",
+      "enter": "cut",
+      "image": "louis-xvi.jpg",
+      "focus": "50% 22%",
+      "move": "in"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "a-versailles.jpg",
+      "focus": "45% 55%",
+      "date": "5 OCTOBER",
+      "year": "1789",
+      "place": "Paris"
+    },
+    {
+      "type": "statement",
+      "from": "s3",
+      "enter": "cut",
+      "image": "depart-halle.jpg",
+      "focus": "50% 50%",
+      "ghost": "BREAD",
+      "kicker": "The price of bread",
+      "main": {
+        "text": "Half a worker's *income*.",
+        "at": "s3@0.25"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s4",
+      "enter": "cut",
+      "image": "drum-prinsep.jpg",
+      "focus": "88% 65%",
+      "move": "in",
+      "fact": "Painting, c. 1895"
+    },
+    {
+      "type": "photo",
+      "from": "s5",
+      "enter": "cut",
+      "image": "lafayette-hotel.jpg",
+      "focus": "50% 55%",
+      "move": "up",
+      "fact": "The Hôtel de Ville, 5 October 1789 · print, 1790"
+    },
+    {
+      "type": "photo",
+      "from": "s6",
+      "enter": "cut",
+      "image": "versailles-1722.jpg",
+      "focus": "50% 45%",
+      "move": "in",
+      "fact": "Versailles · painting, 1722"
+    },
+    {
+      "type": "photo",
+      "from": "s6@0.5",
+      "enter": "cut",
+      "image": "a-versailles.jpg",
+      "focus": "25% 60%",
+      "move": "left",
+      "fact": "A print from 1789"
+    },
+    {
+      "type": "photo",
+      "from": "s7",
+      "enter": "cut",
+      "image": "louis-xvi.jpg",
+      "focus": "50% 20%",
+      "move": "out",
+      "kicker": "Louis XVI"
+    },
+    {
+      "type": "photo",
+      "from": "s8",
+      "enter": "cut",
+      "image": "depart-halle.jpg",
+      "focus": "40% 55%",
+      "move": "in",
+      "fact": "The market women of Paris · 19th-century print"
+    },
+    {
+      "type": "photo",
+      "from": "s9",
+      "enter": "cut",
+      "image": "bravoure.jpg",
+      "focus": "55% 45%",
+      "move": "in",
+      "fact": "Versailles, 6 October · print, 1790s"
+    },
+    {
+      "type": "photo",
+      "from": "s10",
+      "enter": "cut",
+      "image": "marie-antoinette.jpg",
+      "focus": "50% 25%",
+      "move": "in",
+      "kicker": "Marie Antoinette"
+    },
+    {
+      "type": "photo",
+      "from": "s11",
+      "enter": "cut",
+      "image": "lafayette-balcony.jpg",
+      "focus": "63% 50%",
+      "move": "right",
+      "fact": "The palace balcony, 6 October 1789"
+    },
+    {
+      "type": "photo",
+      "from": "s12",
+      "enter": "cut",
+      "image": "retour.jpg",
+      "focus": "75% 88%",
+      "move": "left",
+      "fact": "The return to Paris · print, 1789"
+    },
+    {
+      "type": "photo",
+      "from": "s13",
+      "enter": "cut",
+      "image": "charles-i.jpg",
+      "focus": "50% 25%",
+      "move": "in",
+      "kicker": "Charles I of England"
+    },
+    {
+      "type": "statement",
+      "from": "s14",
+      "enter": "cut",
+      "image": "charles-i.jpg",
+      "focus": "50% 30%",
+      "ghost": "1649",
+      "kicker": "Executed in 1649",
+      "main": {
+        "text": "*Beheaded.*",
+        "at": "s14@0.4"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "They came for bread — and took a king. 🥖👑\n\nOn 5 October 1789, market women in Paris beat a drum, grabbed kitchen knives and marched to Versailles in the rain. The next day 60,000 people brought the royal family back to Paris, with loaves on their bayonets.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #historytok #frenchrevolution #marieantoinette #1789",
+    "facebook": "On this day in 1789, the Women's March on Versailles began.\n\nIn Paris, bread cost most workers nearly half their income, and there wasn't enough of it. On the morning of 5 October, a young woman beat a drum in the markets; women armed with kitchen knives stormed the city hall, demanding bread and weapons.\n\nThousands then marched to Versailles through the autumn rain, dragging cannons. The king met six of the women and promised food — but most of the crowd did not believe him. At dawn, rioters broke into the palace and searched for the queen's bedroom; Marie Antoinette ran barefoot to the king's room and escaped.\n\nThe crowd wanted one thing: the king must come to Paris. On 6 October more than sixty thousand people escorted the royal family back, loaves of bread stuck on their bayonets.\n\nIn Paris, the king asked for a book from the library: a history of Charles I of England — the English king who was beheaded.\n\nEvery day has a story like this. Follow the page to find out when our app comes out. 📜\n\n#OnThisDay #History #FrenchRevolution #Versailles"
+  }
+}
