@@ -1,0 +1,276 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-10-04",
+  "dateKey": "10-04",
+  "slug": "sputnik",
+  "title": "Sputnik 1, 1957 — the beep that frightened America",
+  "eventId": "evt-10-04-1957-sputnik-1",
+  "category": "Science & Technology",
+  "sources": [
+    "Wikipedia: Sputnik 1 — first artificial Earth satellite, launched by the Soviet Union on 4 October 1957 from the Tyuratam range in the Kazakh SSR (now Baikonur); a polished metal sphere 58 cm in diameter with four antennas; each orbit took 96.2 minutes; a one-watt radio transmitter; its 'beep-beep-beep' tones; radio signal easily detectable by amateur radio operators, 'anyone possessing a short wave receiver can hear' it; sent a signal for three weeks before its three silver-zinc batteries were depleted; fell back on 4 January 1958 after 1,440 orbits; public reaction to the Sputnik crisis led to the creation of NASA and increased spending on research and education; two American physicists, William Guier and George Weiffenbach, monitored its radio transmissions and realised through the Doppler effect they could pinpoint where it was — the seeds of modern satellite navigation",
+    "Wikipedia: Sputnik crisis — a period of public fear and anxiety in Western nations; the same rocket that launched Sputnik could send a nuclear warhead anywhere in the world in a matter of minutes; the failure of the first two Project Vanguard launch attempts",
+    "Archive film (public domain, Wikimedia Commons): Universal-International newsreels '1957-10-07 New Moon' (incl. its animation of the launch and orbit, and satellite tracking by computer) and '1958-02-06 Vanguard Fails in Second Launching'",
+    "Photos (public domain / CC0): Sputnik 1 replica (NASA NSSDC; Smithsonian); exploded view of Sputnik 1 (Memorial Museum of Cosmonautics); Vanguard rocket explodes, 6 December 1957 (US Navy); Soviet stamp of 5 November 1957; Caltech yearbook cartoon, 1958"
+  ],
+  "music": {
+    "track": "beethoven-moonlight-1"
+  },
+  "highlight": [
+    "SPUTNIK",
+    "AFRAID",
+    "BEEP",
+    "NUCLEAR",
+    "FAILED",
+    "AGAIN",
+    "NASA",
+    "NAVIGATION",
+    "THREE",
+    "WEEKS"
+  ],
+  "cover": {
+    "image": "sputnik-replica.jpg",
+    "focus": "60% 50%",
+    "date": "4 OCTOBER 1957",
+    "top": 900,
+    "lines": [
+      "THE BEEP",
+      "THAT SCARED",
+      "*AMERICA*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "A metal ball, fifty-eight centimetres wide, beeped from space. And America was afraid.",
+      "show": "A metal ball, 58 centimetres wide, beeped from space. And America was afraid.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "It launched on this day in nineteen fifty-seven: Sputnik one, the first artificial satellite.",
+      "show": "It launched on this day in 1957: Sputnik 1, the first artificial satellite.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "It circled the Earth every ninety-six minutes.",
+      "show": "It circled the Earth every 96 minutes.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s4",
+      "say": "Anyone with a shortwave radio could hear it.",
+      "show": "Anyone with a shortwave radio could hear it.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s5",
+      "say": "Beep. Beep. Beep.",
+      "show": "Beep. Beep. Beep.",
+      "pauseAfter": 0.55
+    },
+    {
+      "id": "s6",
+      "say": "But the rocket that carried it could also carry a nuclear warhead, anywhere in the world, in minutes.",
+      "show": "But the rocket that carried it could also carry a nuclear warhead, anywhere in the world, in minutes.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s7",
+      "say": "America's answer was the Vanguard rocket.",
+      "show": "America's answer was the Vanguard rocket.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s8",
+      "say": "It failed. Then it failed again.",
+      "show": "It failed. Then it failed again.",
+      "pauseAfter": 0.55
+    },
+    {
+      "id": "s9",
+      "say": "The fear created NASA, and poured money into science and schools.",
+      "show": "The fear created NASA, and poured money into science and schools.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s10",
+      "say": "Two American physicists listened to Sputnik's beeps, and realised they could tell exactly where it was.",
+      "show": "Two American physicists listened to Sputnik's beeps, and realised they could tell exactly where it was.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s11",
+      "say": "That idea grew into satellite navigation.",
+      "show": "That idea grew into satellite navigation.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s12",
+      "say": "Sputnik's batteries died after three weeks.",
+      "show": "Sputnik's batteries died after three weeks.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s13",
+      "say": "It fell back to Earth on the fourth of January, after one thousand four hundred and forty orbits.",
+      "show": "It fell back to Earth on 4 January, after 1,440 orbits.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook — the sphere itself",
+      "image": "sputnik-replica.jpg",
+      "focus": "60% 50%",
+      "move": "in",
+      "fact": "Sputnik 1 replica · NASA"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.62",
+      "enter": "cut",
+      "clip": "film-title.mp4",
+      "credit": "US newsreel, October 1957"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "stamp-1957.jpg",
+      "focus": "50% 40%",
+      "date": "4 OCTOBER",
+      "year": "1957",
+      "place": "Tyuratam, Kazakh SSR"
+    },
+    {
+      "type": "film",
+      "from": "s3",
+      "enter": "cut",
+      "clip": "film-orbit.mp4",
+      "credit": "Its orbit · newsreel animation, 1957"
+    },
+    {
+      "type": "photo",
+      "from": "s4",
+      "enter": "cut",
+      "image": "exploded-view.jpg",
+      "focus": "45% 50%",
+      "move": "in",
+      "fact": "Inside: a one-watt radio"
+    },
+    {
+      "type": "photo",
+      "from": "s5",
+      "enter": "cut",
+      "image": "caltech-beep.jpg",
+      "focus": "30% 50%",
+      "move": "right",
+      "fact": "Caltech yearbook, 1958"
+    },
+    {
+      "type": "film",
+      "from": "s6",
+      "enter": "cut",
+      "clip": "film-anim-rocket.mp4",
+      "credit": "The launch · newsreel animation, 1957"
+    },
+    {
+      "type": "film",
+      "from": "s7",
+      "enter": "cut",
+      "clip": "film-vg-pad.mp4",
+      "credit": "Vanguard on the pad, February 1958 · newsreel"
+    },
+    {
+      "type": "photo",
+      "from": "s8",
+      "enter": "cut",
+      "image": "vanguard-explodes.jpg",
+      "focus": "50% 60%",
+      "move": "in",
+      "fact": "6 December 1957"
+    },
+    {
+      "type": "film",
+      "from": "s8@0.5",
+      "enter": "cut",
+      "clip": "film-vg-launch.mp4",
+      "credit": "The second try, February 1958 · newsreel"
+    },
+    {
+      "type": "statement",
+      "from": "s9",
+      "enter": "cut",
+      "image": "sputnik-smithsonian.jpg",
+      "focus": "95% 30%",
+      "ghost": "NASA",
+      "kicker": "The answer to fear",
+      "main": {
+        "text": "*NASA*, and money for science and schools.",
+        "at": "s9@0.3"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s10",
+      "enter": "cut",
+      "clip": "film-ibm.mp4",
+      "credit": "Tracking Sputnik by computer, 1957 · newsreel"
+    },
+    {
+      "type": "film",
+      "from": "s10@0.3",
+      "enter": "cut",
+      "clip": "film-globe.mp4",
+      "credit": "Newsreel animation, 1957"
+    },
+    {
+      "type": "film",
+      "from": "s10@0.85",
+      "enter": "cut",
+      "clip": "film-anim-sep.mp4",
+      "credit": "Newsreel animation, 1957"
+    },
+    {
+      "type": "statement",
+      "from": "s11",
+      "enter": "cut",
+      "image": "exploded-view.jpg",
+      "focus": "70% 50%",
+      "kicker": "From its beeps",
+      "main": {
+        "text": "The seed of *satellite navigation*.",
+        "at": "s11@0.3"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s12",
+      "enter": "cut",
+      "image": "sputnik-smithsonian.jpg",
+      "focus": "95% 30%",
+      "move": "out",
+      "fact": "Replica, Smithsonian"
+    },
+    {
+      "type": "statement",
+      "from": "s13",
+      "enter": "cut",
+      "image": "stamp-1957.jpg",
+      "focus": "50% 45%",
+      "ghost": "1,440",
+      "kicker": "4 January 1958",
+      "main": {
+        "text": "*1,440* orbits. Then it fell.",
+        "at": "s13@0.5"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "A metal ball beeped from space — and America was afraid. 🛰️\n\nOn 4 October 1957, the Soviet Union launched Sputnik 1. Anyone with a shortwave radio could hear it. America's Vanguard failed twice, the fear created NASA — and its beeps planted the seed of satellite navigation.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #historytok #sputnik #space #coldwar #1957",
+    "facebook": "On this day in 1957, the Soviet Union launched Sputnik 1, the first artificial satellite.\n\nIt was a polished metal sphere 58 centimetres across, with four antennas and a one-watt radio. It circled the Earth every 96 minutes, and anyone with a shortwave receiver could hear its beep-beep-beep.\n\nIn the West, it brought fear: the rocket that had carried it could also carry a nuclear warhead anywhere in the world within minutes. America's answer, the Vanguard rocket, failed on its first two attempts. Public alarm led to the creation of NASA and to more money for science and education.\n\nTwo American physicists, William Guier and George Weiffenbach, listened to Sputnik's signal and realised they could work out exactly where it was from the Doppler shift — the seed of modern satellite navigation.\n\nSputnik's batteries died after three weeks. It fell back into the atmosphere on 4 January 1958, after 1,440 orbits.\n\nEvery day has a story like this. Follow the page to find out when our app comes out. 📜\n\n#OnThisDay #History #Sputnik #Space"
+  }
+}

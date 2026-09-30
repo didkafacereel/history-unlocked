@@ -108,5 +108,16 @@
     "video": "2026-10-03-v2-rocket.mp4",
     "poster": "2026-10-03-v2-rocket.jpg",
     "bytes": 3986863
+  },
+  {
+    "date": "2026-10-04",
+    "dateKey": "10-04",
+    "slug": "sputnik",
+    "eventId": "evt-10-04-1957-sputnik-1",
+    "title": "Sputnik 1, 1957 — the beep that frightened America",
+    "seconds": 57.9,
+    "video": "2026-10-04-sputnik.mp4",
+    "poster": "2026-10-04-sputnik.jpg",
+    "bytes": 3162551
   }
 ]

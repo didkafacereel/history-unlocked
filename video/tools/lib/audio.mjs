@@ -42,11 +42,21 @@ export function voice(dir, script) {
     if (existsSync(wav) && existsSync(stamp) && readFileSync(stamp, 'utf8') === want) continue;
     const txt = path.join(audio, `${s.id}.txt`);
     writeFileSync(txt, s.say);
-    execFileSync(
-      process.platform === 'win32' ? 'npx.cmd' : 'npx',
-      ['-y', HYPERFRAMES, 'tts', txt, '--voice', script.voice, '--speed', String(script.speed), '--output', wav],
-      { cwd: dir, env, stdio: ['ignore', 'ignore', 'inherit'], shell: process.platform === 'win32' },
-    );
+    // The first Kokoro run of a session sometimes dies on Windows with
+    // 0xC0000409 (3–4 Oct); the same call then works. Try up to three times.
+    for (let attempt = 1; ; attempt++) {
+      try {
+        execFileSync(
+          process.platform === 'win32' ? 'npx.cmd' : 'npx',
+          ['-y', HYPERFRAMES, 'tts', txt, '--voice', script.voice, '--speed', String(script.speed), '--output', wav],
+          { cwd: dir, env, stdio: ['ignore', 'ignore', 'inherit'], shell: process.platform === 'win32' },
+        );
+        break;
+      } catch (e) {
+        if (attempt >= 3) throw e;
+        console.warn(`  tts for ${s.id} failed (attempt ${attempt}), retrying`);
+      }
+    }
     writeFileSync(stamp, want);
     made++;
   }

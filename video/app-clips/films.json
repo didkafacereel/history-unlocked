@@ -80,6 +80,14 @@
       "seconds": 63.9,
       "video": "2026-10-03-v2-rocket.mp4?v=3986863",
       "poster": "2026-10-03-v2-rocket.jpg?v=64117"
+    },
+    "10-04": {
+      "date": "2026-10-04",
+      "eventId": "evt-10-04-1957-sputnik-1",
+      "title": "Sputnik 1, 1957 — the beep that frightened America",
+      "seconds": 57.9,
+      "video": "2026-10-04-sputnik.mp4?v=3162551",
+      "poster": "2026-10-04-sputnik.jpg?v=56550"
     }
   }
 }

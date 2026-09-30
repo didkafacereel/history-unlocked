@@ -1,0 +1,89 @@
+{
+  "total": 61.726,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "A metal ball, 58 centimetres wide, beeped from space. And America was afraid.",
+      "start": 0.4,
+      "end": 6.373
+    },
+    {
+      "id": "s2",
+      "show": "It launched on this day in 1957: Sputnik 1, the first artificial satellite.",
+      "start": 6.823,
+      "end": 13.031
+    },
+    {
+      "id": "s3",
+      "show": "It circled the Earth every 96 minutes.",
+      "start": 13.431,
+      "end": 16.162
+    },
+    {
+      "id": "s4",
+      "show": "Anyone with a shortwave radio could hear it.",
+      "start": 16.512,
+      "end": 19.264
+    },
+    {
+      "id": "s5",
+      "show": "Beep. Beep. Beep.",
+      "start": 19.664,
+      "end": 21.051
+    },
+    {
+      "id": "s6",
+      "show": "But the rocket that carried it could also carry a nuclear warhead, anywhere in the world, in minutes.",
+      "start": 21.601,
+      "end": 27.531
+    },
+    {
+      "id": "s7",
+      "show": "America's answer was the Vanguard rocket.",
+      "start": 28.031,
+      "end": 30.911
+    },
+    {
+      "id": "s8",
+      "show": "It failed. Then it failed again.",
+      "start": 31.261,
+      "end": 33.245
+    },
+    {
+      "id": "s9",
+      "show": "The fear created NASA, and poured money into science and schools.",
+      "start": 33.795,
+      "end": 38.041
+    },
+    {
+      "id": "s10",
+      "show": "Two American physicists listened to Sputnik's beeps, and realised they could tell exactly where it was.",
+      "start": 38.491,
+      "end": 44.976
+    },
+    {
+      "id": "s11",
+      "show": "That idea grew into satellite navigation.",
+      "start": 45.376,
+      "end": 48.32
+    },
+    {
+      "id": "s12",
+      "show": "Sputnik's batteries died after three weeks.",
+      "start": 48.82,
+      "end": 51.38
+    },
+    {
+      "id": "s13",
+      "show": "It fell back to Earth on 4 January, after 1,440 orbits.",
+      "start": 51.73,
+      "end": 57.682
+    },
+    {
+      "id": "end2",
+      "show": "Subscribe, to find out when our app comes out.",
+      "start": 58.282,
+      "end": 61.226
+    }
+  ]
+}

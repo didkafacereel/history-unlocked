@@ -88,5 +88,14 @@
     "category": "Science & Technology",
     "music": "mussorgsky-catacombs",
     "seconds": 68
+  },
+  {
+    "date": "2026-10-04",
+    "slug": "sputnik",
+    "title": "Sputnik 1, 1957 — the beep that frightened America",
+    "eventId": "evt-10-04-1957-sputnik-1",
+    "category": "Science & Technology",
+    "music": "beethoven-moonlight-1",
+    "seconds": 62
   }
 ]
