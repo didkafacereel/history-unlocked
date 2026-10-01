@@ -96,6 +96,14 @@
       "seconds": 60.4,
       "video": "2026-10-05-versailles-march.mp4?v=4477164",
       "poster": "2026-10-05-versailles-march.jpg?v=94425"
+    },
+    "10-06": {
+      "date": "2026-10-06",
+      "eventId": "evt-10-06-1981-anwar-sadat",
+      "title": "The assassination of Anwar Sadat, 1981 — the hero of war and peace",
+      "seconds": 62.2,
+      "video": "2026-10-06-sadat.mp4?v=3623385",
+      "poster": "2026-10-06-sadat.jpg?v=72215"
     }
   }
 }

@@ -1,0 +1,277 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-10-06",
+  "dateKey": "10-06",
+  "slug": "sadat",
+  "title": "The assassination of Anwar Sadat, 1981 — the hero of war and peace",
+  "eventId": "evt-10-06-1981-anwar-sadat",
+  "category": "Politics & Power",
+  "sources": [
+    "Wikipedia: Assassination of Anwar Sadat — 6 October 1981, during the annual victory parade in Cairo celebrating the crossing of the Suez Canal in the Yom Kippur War; likely stemmed from opposition to his peace initiative with Israel (Camp David Accords); Egyptian Islamic Jihad recruited military officers; as Air Force Mirage jets flew overhead, a truck stopped at the tribune; Sadat stood to receive the salute — his nephew: 'The president thought the killers were part of the show… so he stood saluting them'; Sadat and ten others were killed; his grave reads 'The hero of war and peace'; Egypt's Arab League membership was suspended after the 1979 treaty",
+    "Wikipedia: Anwar Sadat — on 6 October 1973 launched a surprise attack (October War) across the Suez Canal; known as the 'Hero of the Crossing'; 1977 visit to Jerusalem was the first time an Arab leader officially visited Israeli-controlled territory, speaking before the Knesset; the peace treaty with Menachem Begin signed on 26 March 1979 after the Camp David Accords; return of Sinai to Egypt; Egypt the first Arab country to officially recognise Israel; Sadat and Begin awarded the Nobel Peace Prize; the treaty extremely unpopular in most of the Arab world",
+    "Archive film (public domain, Wikimedia Commons): Jimmy Carter Library films of the Camp David Agreement, 17 September 1978; US National Archives film 'Sadat Egypt' (1972: Cairo crowds, an Egyptian parade flypast — shown as illustrative, not the 1981 parade)",
+    "Photos (public domain): Carter, Sadat and Begin shake hands at the treaty signing, 26 March 1979 (W. K. Leffler, USNWR); Sadat and Begin, 18 September 1978; Sadat in Jerusalem, November 1977; rally in Damascus against the agreement, 1978; Sadat, 1978 (DoD) and 1980; 6th of October Panorama, Cairo (painting of the crossing)"
+  ],
+  "music": {
+    "track": "chopin-nocturne-c-minor"
+  },
+  "highlight": [
+    "PEACE",
+    "LIFE",
+    "SADAT",
+    "CROSSING",
+    "JERUSALEM",
+    "NOBEL",
+    "BETRAYAL",
+    "ARMY",
+    "SALUTE",
+    "SHOW"
+  ],
+  "cover": {
+    "image": "sadat-portrait.jpg",
+    "focus": "50% 30%",
+    "date": "6 OCTOBER 1981",
+    "top": 1080,
+    "lines": [
+      "THE PRICE",
+      "OF *PEACE*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "He was the first Arab leader to make peace with Israel. It cost him his life.",
+      "show": "He was the first Arab leader to make peace with Israel. It cost him his life.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s2",
+      "say": "On this day in nineteen eighty-one, Anwar Sadat was killed at a military parade in Cairo.",
+      "show": "On this day in 1981, Anwar Sadat was killed at a military parade in Cairo.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s3",
+      "say": "In nineteen seventy-three, he had launched a surprise attack across the Suez Canal.",
+      "show": "In 1973, he had launched a surprise attack across the Suez Canal.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s4",
+      "say": "Egyptians called him the Hero of the Crossing.",
+      "show": "Egyptians called him the Hero of the Crossing.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s5",
+      "say": "Then he flew to Jerusalem, the first Arab leader to visit officially.",
+      "show": "Then he flew to Jerusalem, the first Arab leader to visit officially.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s6",
+      "say": "In nineteen seventy-nine, he signed a peace treaty with Israel's Menachem Begin.",
+      "show": "In 1979, he signed a peace treaty with Israel's Menachem Begin.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s7",
+      "say": "Egypt got the Sinai back. Both men won the Nobel Peace Prize.",
+      "show": "Egypt got the Sinai back. Both men won the Nobel Peace Prize.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s8",
+      "say": "But much of the Arab world called it betrayal. Egypt was suspended from the Arab League.",
+      "show": "But much of the Arab world called it betrayal. Egypt was suspended from the Arab League.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s9",
+      "say": "Militants recruited officers inside his own army.",
+      "show": "Militants recruited officers inside his own army.",
+      "pauseAfter": 0.55
+    },
+    {
+      "id": "s10",
+      "say": "At the parade, as jets flew overhead, a truck stopped in front of his stand.",
+      "show": "At the parade, as jets flew overhead, a truck stopped in front of his stand.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s11",
+      "say": "Sadat stood to salute. His nephew said he thought the men were part of the show.",
+      "show": "Sadat stood to salute. His nephew said he thought the men were part of the show.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s12",
+      "say": "Sadat and ten others were killed.",
+      "show": "Sadat and ten others were killed.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s13",
+      "say": "His grave reads: the hero of war and peace.",
+      "show": "His grave reads: the hero of war and peace.",
+      "pauseAfter": 0.7
+    }
+  ],
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook — the handshake of 26 March 1979",
+      "image": "handshake-1979.jpg",
+      "focus": "48% 45%",
+      "move": "in",
+      "fact": "Sadat, Carter and Begin, 26 March 1979"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.62",
+      "enter": "cut",
+      "image": "sadat-portrait.jpg",
+      "focus": "50% 30%",
+      "move": "in"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "sadat-waves.jpg",
+      "focus": "40% 35%",
+      "date": "6 OCTOBER",
+      "year": "1981",
+      "place": "Cairo, Egypt"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "crossing-panorama.jpg",
+      "focus": "50% 55%",
+      "move": "left",
+      "fact": "The crossing, as painted in Cairo's October War Panorama"
+    },
+    {
+      "type": "film",
+      "from": "s4",
+      "enter": "cut",
+      "clip": "film-crowd.mp4",
+      "credit": "Cairo crowds, 1972 · US government film"
+    },
+    {
+      "type": "film",
+      "from": "s4@0.55",
+      "enter": "cut",
+      "clip": "film-portrait.mp4",
+      "credit": "His portrait in the crowd, 1972 · US government film"
+    },
+    {
+      "type": "photo",
+      "from": "s5",
+      "enter": "cut",
+      "image": "knesset-1977.jpg",
+      "focus": "30% 45%",
+      "move": "in",
+      "fact": "Jerusalem, November 1977"
+    },
+    {
+      "type": "film",
+      "from": "s6",
+      "enter": "cut",
+      "clip": "film-cd-wide.mp4",
+      "credit": "Sadat, Carter and Begin, Camp David Accords, 1978 · Carter Library film"
+    },
+    {
+      "type": "photo",
+      "from": "s6@0.6",
+      "enter": "cut",
+      "image": "handshake-1979.jpg",
+      "focus": "52% 40%",
+      "move": "out",
+      "fact": "The treaty, 26 March 1979"
+    },
+    {
+      "type": "film",
+      "from": "s7",
+      "enter": "cut",
+      "clip": "film-cd-applause.mp4",
+      "credit": "Camp David, September 1978 · Carter Library film"
+    },
+    {
+      "type": "photo",
+      "from": "s8",
+      "enter": "cut",
+      "image": "damascus-protest.jpg",
+      "focus": "45% 50%",
+      "move": "in",
+      "fact": "Damascus, 1978: a rally against the agreement"
+    },
+    {
+      "type": "statement",
+      "from": "s9",
+      "enter": "cut",
+      "image": "crossing-panorama.jpg",
+      "focus": "70% 50%",
+      "ghost": "PLOT",
+      "kicker": "The plot",
+      "main": {
+        "text": "Recruits inside his own *army*.",
+        "at": "s9@0.4"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s10",
+      "enter": "cut",
+      "clip": "film-jets.mp4",
+      "credit": "An Egyptian parade flypast, 1972 · illustrative"
+    },
+    {
+      "type": "film",
+      "from": "s10@0.5",
+      "enter": "cut",
+      "clip": "film-trucks.mp4",
+      "credit": "Military vehicles in an Egyptian parade, 1972 · illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s11",
+      "enter": "cut",
+      "image": "sadat-waves.jpg",
+      "focus": "38% 35%",
+      "move": "in",
+      "fact": "Sadat in 1978"
+    },
+    {
+      "type": "statement",
+      "from": "s12",
+      "enter": "cut",
+      "image": "sadat-portrait.jpg",
+      "focus": "50% 30%",
+      "kicker": "6 October 1981",
+      "main": {
+        "text": "Sadat and *ten others* were killed.",
+        "at": "s12@0.3"
+      }
+    },
+    {
+      "type": "quote",
+      "from": "s13",
+      "enter": "fade",
+      "image": "sadat-begin.jpg",
+      "focus": "45% 45%",
+      "kicker": "His grave, Cairo",
+      "quote": {
+        "text": "The hero of war and peace.",
+        "at": "s13@0.3"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "He was the first Arab leader to make peace with Israel. It cost him his life. 🕊️\n\nOn 6 October 1981, Anwar Sadat was killed at a military parade in Cairo — the parade celebrating his own war. His nephew said he stood to salute the attackers, thinking they were part of the show.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #historytok #egypt #sadat #1981",
+    "facebook": "On this day in 1981, Egyptian president Anwar Sadat was assassinated.\n\nIn 1973 he had launched a surprise attack across the Suez Canal, and Egyptians called him \"the Hero of the Crossing\". Then he flew to Jerusalem — the first Arab leader to visit officially — and in 1979, after the Camp David Accords, he signed a peace treaty with Israel's Menachem Begin. Egypt got the Sinai back, and both men won the Nobel Peace Prize.\n\nMuch of the Arab world called it betrayal, and Egypt was suspended from the Arab League. Militants recruited officers inside his own army.\n\nOn 6 October 1981, at the parade marking the anniversary of the crossing, Air Force jets flew overhead as a truck stopped in front of the stand. Sadat stood to salute; his nephew later said he thought the men were part of the show. Sadat and ten others were killed.\n\nHis grave in Cairo reads: \"The hero of war and peace.\"\n\nEvery day has a story like this. Follow the page to find out when our app comes out. 📜\n\n#OnThisDay #History #Egypt #Sadat"
+  }
+}

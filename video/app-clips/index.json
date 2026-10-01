@@ -130,5 +130,16 @@
     "video": "2026-10-05-versailles-march.mp4",
     "poster": "2026-10-05-versailles-march.jpg",
     "bytes": 4477164
+  },
+  {
+    "date": "2026-10-06",
+    "dateKey": "10-06",
+    "slug": "sadat",
+    "eventId": "evt-10-06-1981-anwar-sadat",
+    "title": "The assassination of Anwar Sadat, 1981 — the hero of war and peace",
+    "seconds": 62.2,
+    "video": "2026-10-06-sadat.mp4",
+    "poster": "2026-10-06-sadat.jpg",
+    "bytes": 3623385
   }
 ]

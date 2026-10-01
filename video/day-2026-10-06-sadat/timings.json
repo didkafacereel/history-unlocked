@@ -1,0 +1,89 @@
+{
+  "total": 66.073,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "He was the first Arab leader to make peace with Israel. It cost him his life.",
+      "start": 0.4,
+      "end": 5.136
+    },
+    {
+      "id": "s2",
+      "show": "On this day in 1981, Anwar Sadat was killed at a military parade in Cairo.",
+      "start": 5.636,
+      "end": 11.844
+    },
+    {
+      "id": "s3",
+      "show": "In 1973, he had launched a surprise attack across the Suez Canal.",
+      "start": 12.294,
+      "end": 17.691
+    },
+    {
+      "id": "s4",
+      "show": "Egyptians called him the Hero of the Crossing.",
+      "start": 18.041,
+      "end": 20.729
+    },
+    {
+      "id": "s5",
+      "show": "Then he flew to Jerusalem, the first Arab leader to visit officially.",
+      "start": 21.179,
+      "end": 25.467
+    },
+    {
+      "id": "s6",
+      "show": "In 1979, he signed a peace treaty with Israel's Menachem Begin.",
+      "start": 25.867,
+      "end": 30.966
+    },
+    {
+      "id": "s7",
+      "show": "Egypt got the Sinai back. Both men won the Nobel Peace Prize.",
+      "start": 31.316,
+      "end": 35.647
+    },
+    {
+      "id": "s8",
+      "show": "But much of the Arab world called it betrayal. Egypt was suspended from the Arab League.",
+      "start": 36.147,
+      "end": 41.651
+    },
+    {
+      "id": "s9",
+      "show": "Militants recruited officers inside his own army.",
+      "start": 42.051,
+      "end": 45.4
+    },
+    {
+      "id": "s10",
+      "show": "At the parade, as jets flew overhead, a truck stopped in front of his stand.",
+      "start": 45.95,
+      "end": 50.601
+    },
+    {
+      "id": "s11",
+      "show": "Sadat stood to salute. His nephew said he thought the men were part of the show.",
+      "start": 51.001,
+      "end": 55.566
+    },
+    {
+      "id": "s12",
+      "show": "Sadat and ten others were killed.",
+      "start": 56.166,
+      "end": 58.129
+    },
+    {
+      "id": "s13",
+      "show": "His grave reads: the hero of war and peace.",
+      "start": 58.729,
+      "end": 61.929
+    },
+    {
+      "id": "end2",
+      "show": "Subscribe, to find out when our app comes out.",
+      "start": 62.629,
+      "end": 65.573
+    }
+  ]
+}

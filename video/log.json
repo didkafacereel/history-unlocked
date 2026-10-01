@@ -106,5 +106,14 @@
     "category": "Politics & Power",
     "music": "mussorgsky-bydlo",
     "seconds": 64
+  },
+  {
+    "date": "2026-10-06",
+    "slug": "sadat",
+    "title": "The assassination of Anwar Sadat, 1981 — the hero of war and peace",
+    "eventId": "evt-10-06-1981-anwar-sadat",
+    "category": "Politics & Power",
+    "music": "chopin-nocturne-c-minor",
+    "seconds": 66
   }
 ]
