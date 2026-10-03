@@ -1,0 +1,302 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-10-10",
+  "dateKey": "10-10",
+  "slug": "wuchang-1911",
+  "title": "The Wuchang Uprising, 1911 — the accidental bomb that ended imperial China",
+  "eventId": "evt-10-10-1911-1911-revolution",
+  "category": "Politics & Power",
+  "sources": [
+    "Wikipedia: 1911 Revolution — revolutionaries intent on overthrowing the Qing dynasty had built bombs, and on 9 October one of them accidentally exploded; the Qing Viceroy tried to track down and arrest the revolutionaries; they decided not to delay and launched the revolt; the revolution ended China's last imperial dynasty",
+    "Wikipedia: Wuchang Uprising — with their identities revealed, revolutionaries in the New Army faced imminent arrest; on the evening of 10 October they mutinied and captured the Viceroy's residence; the Viceroy fled; Sun Yat-sen was in the United States raising money, received a telegram he could not decipher and learned of the uprising from a newspaper the next morning; eighteen provinces seceded by the end of December; on 1 January 1912 the Republic of China was declared with Sun as first president; on 12 February 1912 the abdication of the Qing throne was announced on behalf of Puyi",
+    "Wikipedia: Puyi — became emperor at the age of two; the abdication edict was signed on his behalf in 1912",
+    "Wikipedia: Sun Yat-sen — the revolution 'ended over 2000 years of imperial rule in China'",
+    "Also on this day (candidates.md, in the app): 1846 William Lassell discovers Triton, Neptune's largest moon; 1903 Emmeline Pankhurst founds the Women's Social and Political Union",
+    "Archive film (public domain, Wikimedia Commons): 'China: The Roots of Madness' (1967 US documentary; its early-20th-century shots are labelled illustrative); 'Wanrong and Puyi in 1924'",
+    "Photos (public domain): revolutionary soldiers prepare to attack Hankow, 1911; Hubei Military Government; imperial troops on the way to Hankow, 1911; Sun Yat-sen, 1911; Puyi with his father and brother, 1909; Puyi in the Forbidden City; the abdication edict, 12 February 1912"
+  ],
+  "music": {
+    "track": "mussorgsky-old-castle"
+  },
+  "highlight": [
+    "BOMB",
+    "ACCIDENT",
+    "EMPEROR",
+    "NEWSPAPER",
+    "SIX",
+    "2000",
+    "REPUBLIC",
+    "EIGHTEEN"
+  ],
+  "cover": {
+    "image": "puyi-1909.jpg",
+    "focus": "50% 40%",
+    "date": "10 OCTOBER 1911",
+    "top": 1040,
+    "lines": [
+      "ONE MISTAKE",
+      "ENDED AN",
+      "*EMPIRE*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "A bomb went off by accident, and two thousand years of emperors came to an end.",
+      "show": "A bomb went off by accident, and 2,000 years of emperors came to an end.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "The uprising began on this day in nineteen eleven, in Wuchang, China.",
+      "show": "The uprising began on this day in 1911, in Wuchang, China.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "Revolutionaries were secretly building bombs to overthrow the Qing dynasty.",
+      "show": "Revolutionaries were secretly building bombs to overthrow the Qing dynasty.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s4",
+      "say": "On the ninth of October, one of them exploded by mistake.",
+      "show": "On 9 October, one of them exploded by mistake.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s5",
+      "say": "The police came looking. Their names were exposed.",
+      "show": "The police came looking. Their names were exposed.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s6",
+      "say": "Facing arrest, the soldiers in the plot struck first.",
+      "show": "Facing arrest, the soldiers in the plot struck first.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s7",
+      "say": "By morning, the governor had fled, and Wuchang was theirs.",
+      "show": "By morning, the governor had fled, and Wuchang was theirs.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s8",
+      "say": "The revolution's leader, Sun Yat-sen, was in America, raising money.",
+      "show": "The revolution's leader, Sun Yat-sen, was in America, raising money.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s9",
+      "say": "He couldn't decode the telegram. He read about the uprising in a newspaper.",
+      "show": "He couldn't decode the telegram. He read about the uprising in a newspaper.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s10",
+      "say": "Within weeks, province after province broke away.",
+      "show": "Within weeks, province after province broke away.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s11",
+      "say": "On New Year's Day, Sun became the first president of the Republic of China.",
+      "show": "On New Year's Day, Sun became the first president of the Republic of China.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s12",
+      "say": "Weeks later, the last emperor gave up the throne. He was six years old.",
+      "show": "Weeks later, the last emperor gave up the throne. He was six years old.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "also": {
+    "say": "Also on this day: Neptune's largest moon was discovered, and Emmeline Pankhurst founded the suffragettes' union.",
+    "items": [
+      {
+        "year": "1846",
+        "text": "Triton, Neptune's largest moon, is discovered"
+      },
+      {
+        "year": "1903",
+        "text": "Emmeline Pankhurst founds the WSPU"
+      }
+    ],
+    "image": "fleet-1911.jpg",
+    "focus": "40% 50%"
+  },
+  "cta": {
+    "story": "Small sparks. Big stories.",
+    "say": "History turns on accidents like this one. Subscribe, so you don't miss the next one, or our app's launch.",
+    "pill": "LIGHT THE FUSE",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook — the soldiers of 1911",
+      "image": "rev-soldiers.jpg",
+      "focus": "40% 50%",
+      "move": "in",
+      "fact": "Revolutionary soldiers, Hankow, 1911"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.6",
+      "enter": "cut",
+      "image": "puyi-1909.jpg",
+      "focus": "85% 70%",
+      "move": "in",
+      "fact": "The emperor, aged three, 1909"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "hubei-gov.jpg",
+      "focus": "50% 50%",
+      "date": "10 OCTOBER",
+      "year": "1911",
+      "place": "Wuchang, China"
+    },
+    {
+      "type": "film",
+      "from": "s3",
+      "enter": "cut",
+      "clip": "film-queues.mp4",
+      "credit": "China, early 20th century · archive film, illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s3@0.6",
+      "enter": "cut",
+      "image": "rev-soldiers.jpg",
+      "focus": "70% 50%",
+      "move": "right",
+      "fact": "Revolutionary soldiers, 1911"
+    },
+    {
+      "type": "statement",
+      "from": "s4",
+      "enter": "cut",
+      "image": "hankou.jpg",
+      "focus": "50% 50%",
+      "ghost": "BOOM",
+      "kicker": "9 October 1911",
+      "main": {
+        "text": "A bomb goes off — *by mistake*.",
+        "at": "s4@0.35"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s5",
+      "enter": "cut",
+      "image": "hankou.jpg",
+      "focus": "30% 55%",
+      "move": "left",
+      "fact": "Imperial troops on the way to Hankow, 1911"
+    },
+    {
+      "type": "film",
+      "from": "s6",
+      "enter": "cut",
+      "clip": "film-flags.mp4",
+      "credit": "Chinese soldiers, early 20th century · archive film, illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s7",
+      "enter": "cut",
+      "image": "hubei-gov.jpg",
+      "focus": "50% 45%",
+      "move": "in",
+      "fact": "The revolutionaries' military government, Wuchang"
+    },
+    {
+      "type": "photo",
+      "from": "s8",
+      "enter": "cut",
+      "image": "sun-1911.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "kicker": "Sun Yat-sen",
+      "fact": "Photographed in 1911"
+    },
+    {
+      "type": "statement",
+      "from": "s9",
+      "enter": "cut",
+      "image": "sun-1911.jpg",
+      "focus": "50% 30%",
+      "ghost": "NEWS",
+      "kicker": "In America",
+      "main": {
+        "text": "He learned of it from a *newspaper*.",
+        "at": "s9@0.55"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s10",
+      "enter": "cut",
+      "clip": "film-march.mp4",
+      "credit": "Chinese troops, early 20th century · archive film, illustrative"
+    },
+    {
+      "type": "film",
+      "from": "s11",
+      "enter": "cut",
+      "clip": "film-sun.mp4",
+      "credit": "Sun Yat-sen, and crowds in China, 1910s–20s · archive film"
+    },
+    {
+      "type": "photo",
+      "from": "s12",
+      "enter": "cut",
+      "image": "edict.jpg",
+      "focus": "50% 50%",
+      "move": "left",
+      "fact": "The abdication edict, 12 February 1912"
+    },
+    {
+      "type": "statement",
+      "from": "s12@0.55",
+      "enter": "cut",
+      "image": "puyi-1917.jpg",
+      "focus": "60% 60%",
+      "ghost": "SIX",
+      "kicker": "The last emperor, Puyi",
+      "main": {
+        "text": "He was *six* years old.",
+        "at": "s12@0.65"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "A bomb went off by accident — and 2,000 years of emperors came to an end. 💥\n\nOn 10 October 1911, revolutionaries in Wuchang, exposed after their bomb exploded by mistake, rose up before they could be arrested. Their leader read about it in an American newspaper. The last emperor was six.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #historytok #china #1911",
+    "facebook": "On this day in 1911, the Wuchang Uprising began — and with it the revolution that ended China's last imperial dynasty.\n\nRevolutionaries had been secretly building bombs to overthrow the Qing. On 9 October one of them exploded by accident; the authorities came looking, and the plotters' names were exposed. Facing arrest, the soldiers in the plot struck first on the evening of 10 October. The governor fled, and Wuchang was theirs.\n\nThe revolution's leader, Sun Yat-sen, was in the United States raising money. He couldn't decipher the telegram about it, and read the news in a newspaper the next morning. Within weeks, province after province broke away. On 1 January 1912 Sun became the first president of the Republic of China, and on 12 February the abdication was announced on behalf of the last emperor, Puyi — who was six years old.\n\nAlso on 10 October: Triton, Neptune's largest moon, was discovered (1846), and Emmeline Pankhurst founded the WSPU (1903).\n\nHistory turns on accidents like this. Follow the page to find out when our app comes out. 📜\n\n#OnThisDay #History #China #1911Revolution",
+    "youtube": {
+      "title": "The Accidental Bomb That Ended 2,000 Years Of Chinese Emperors #Shorts",
+      "description": "On 9 October 1911, a revolutionaries' bomb exploded by mistake in Wuchang, China. Exposed and facing arrest, the soldiers in the plot rose up the next day — 10 October — and took the city. Their leader, Sun Yat-sen, was in America and read about it in a newspaper. Within months the Republic of China was declared, and the last emperor, Puyi, gave up the throne at the age of six.\n\nAlso on 10 October: Triton is discovered (1846), Emmeline Pankhurst founds the WSPU (1903).\n\nSubscribe — our history app, with a story for every date, is on its way.\n\nImages and film: public domain via Wikimedia Commons. Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #China #1911",
+      "tags": [
+        "history",
+        "on this day",
+        "1911 Revolution",
+        "Xinhai Revolution",
+        "Wuchang Uprising",
+        "Sun Yat-sen",
+        "Puyi",
+        "last emperor",
+        "Qing dynasty",
+        "Chinese history",
+        "Double Ten",
+        "history shorts"
+      ]
+    }
+  }
+}

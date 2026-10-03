@@ -3,7 +3,7 @@
     "date": "2026-09-24",
     "slug": "black-friday",
     "title": "Black Friday 1869 — Gould and Fisk corner the gold market",
-    "eventId": null,
+    "eventId": "evt-09-24-1869-jay-gould",
     "category": "Politics & Power",
     "music": "satie-gnossienne-1",
     "seconds": 57
@@ -57,7 +57,7 @@
     "date": "2026-09-30",
     "slug": "berlin-airlift",
     "title": "The Berlin Airlift ends, 1949 — and the Candy Bomber, Gail Halvorsen",
-    "eventId": null,
+    "eventId": "evt-09-30-1949-berlin-blockade",
     "category": "Politics & Power",
     "music": "chopin-nocturne-10",
     "seconds": 55
@@ -75,7 +75,7 @@
     "date": "2026-10-02",
     "slug": "wilson-stroke",
     "title": "Woodrow Wilson's stroke, 1919 — and Edith Wilson's 'stewardship'",
-    "eventId": null,
+    "eventId": "evt-10-02-1919-woodrow-wilson",
     "category": "Politics & Power",
     "music": "satie-gnossienne-1",
     "seconds": 53
@@ -84,7 +84,7 @@
     "date": "2026-10-03",
     "slug": "v2-rocket",
     "title": "The V-2's first successful flight, 1942 — from vengeance weapon to the Moon",
-    "eventId": null,
+    "eventId": "evt-10-03-1942-v-2-rocket",
     "category": "Science & Technology",
     "music": "mussorgsky-catacombs",
     "seconds": 68
@@ -140,10 +140,20 @@
     "date": "2026-10-09",
     "slug": "marseille-1934",
     "title": "The Marseille assassination, 1934 — the king who feared Tuesdays",
-    "eventId": null,
+    "eventId": "evt-10-09-1934-alexander-i-of-yugoslavia",
     "category": "Politics & Power",
     "music": "mussorgsky-catacombs",
     "seconds": 72,
     "cta": "Every day has a story, even Tuesday. Subscribe, and our app will tell you all of them."
+  },
+  {
+    "date": "2026-10-10",
+    "slug": "wuchang-1911",
+    "title": "The Wuchang Uprising, 1911 — the accidental bomb that ended imperial China",
+    "eventId": "evt-10-10-1911-1911-revolution",
+    "category": "Politics & Power",
+    "music": "mussorgsky-old-castle",
+    "seconds": 71,
+    "cta": "History turns on accidents like this one. Subscribe, so you don't miss the next one, or our app's launch."
   }
 ]

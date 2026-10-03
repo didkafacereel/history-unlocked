@@ -1,0 +1,89 @@
+{
+  "total": 71.183,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "A bomb went off by accident, and 2,000 years of emperors came to an end.",
+      "start": 0.4,
+      "end": 5.584
+    },
+    {
+      "id": "s2",
+      "show": "The uprising began on this day in 1911, in Wuchang, China.",
+      "start": 6.034,
+      "end": 10.727
+    },
+    {
+      "id": "s3",
+      "show": "Revolutionaries were secretly building bombs to overthrow the Qing dynasty.",
+      "start": 11.127,
+      "end": 16.141
+    },
+    {
+      "id": "s4",
+      "show": "On 9 October, one of them exploded by mistake.",
+      "start": 16.491,
+      "end": 20.224
+    },
+    {
+      "id": "s5",
+      "show": "The police came looking. Their names were exposed.",
+      "start": 20.674,
+      "end": 23.81
+    },
+    {
+      "id": "s6",
+      "show": "Facing arrest, the soldiers in the plot struck first.",
+      "start": 24.16,
+      "end": 27.552
+    },
+    {
+      "id": "s7",
+      "show": "By morning, the governor had fled, and Wuchang was theirs.",
+      "start": 27.952,
+      "end": 31.344
+    },
+    {
+      "id": "s8",
+      "show": "The revolution's leader, Sun Yat-sen, was in America, raising money.",
+      "start": 31.844,
+      "end": 36.004
+    },
+    {
+      "id": "s9",
+      "show": "He couldn't decode the telegram. He read about the uprising in a newspaper.",
+      "start": 36.354,
+      "end": 40.962
+    },
+    {
+      "id": "s10",
+      "show": "Within weeks, province after province broke away.",
+      "start": 41.462,
+      "end": 44.726
+    },
+    {
+      "id": "s11",
+      "show": "On New Year's Day, Sun became the first president of the Republic of China.",
+      "start": 45.076,
+      "end": 49.876
+    },
+    {
+      "id": "s12",
+      "show": "Weeks later, the last emperor gave up the throne. He was six years old.",
+      "start": 50.326,
+      "end": 55.062
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: Neptune's largest moon was discovered, and Emmeline Pankhurst founded the suffragettes' union.",
+      "start": 55.662,
+      "end": 63.278
+    },
+    {
+      "id": "end2",
+      "show": "History turns on accidents like this one. Subscribe, so you don't miss the next one, or our app's launch.",
+      "start": 63.728,
+      "end": 70.683
+    }
+  ]
+}

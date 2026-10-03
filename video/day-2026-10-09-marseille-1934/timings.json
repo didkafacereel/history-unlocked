@@ -1,5 +1,5 @@
 {
-  "total": 71.665,
+  "total": 71.409,
   "sentences": [
     {
       "id": "s1",
@@ -33,57 +33,57 @@
     },
     {
       "id": "s6",
-      "show": "A newsreel camera filmed it all, from just metres away.",
+      "show": "A newsreel camera was rolling, just metres away.",
       "start": 24.302,
-      "end": 27.993
+      "end": 27.737
     },
     {
       "id": "s7",
       "show": "A gunman leapt onto the car and shot the king and his driver.",
-      "start": 28.443,
-      "end": 32.453
+      "start": 28.187,
+      "end": 32.197
     },
     {
       "id": "s8",
       "show": "He was Vlado Chernozemski, a Bulgarian revolutionary of the IMRO, allied with the Ustaše.",
-      "start": 32.803,
-      "end": 40.014
+      "start": 32.547,
+      "end": 39.758
     },
     {
       "id": "s9",
       "show": "The king died in the car, one of the first assassinations caught on film.",
-      "start": 40.414,
-      "end": 45.065
+      "start": 40.158,
+      "end": 44.809
     },
     {
       "id": "s10",
       "show": "Barthou was hit in the arm, and bled to death.",
-      "start": 45.515,
-      "end": 48.245
+      "start": 45.259,
+      "end": 47.989
     },
     {
       "id": "s11",
       "show": "A ballistic report, hidden until 1974, revealed the truth.",
-      "start": 48.695,
-      "end": 53.709
+      "start": 48.439,
+      "end": 53.453
     },
     {
       "id": "s12",
       "show": "The bullet that killed him came from a French police gun.",
-      "start": 54.159,
-      "end": 57.316
+      "start": 53.903,
+      "end": 57.06
     },
     {
       "id": "also",
       "show": "Also on this day: Leeuwenhoek first described microscopic life, and the Washington Monument opened.",
-      "start": 57.766,
-      "end": 64.87
+      "start": 57.51,
+      "end": 64.614
     },
     {
       "id": "end2",
       "show": "Every day has a story, even Tuesday. Subscribe, and our app will tell you all of them.",
-      "start": 65.32,
-      "end": 71.165
+      "start": 65.064,
+      "end": 70.909
     }
   ]
 }

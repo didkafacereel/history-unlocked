@@ -71,7 +71,13 @@ The rules for the shortlist:
    an irony, a "one person / one moment" hinge. "X was founded" is not a story.
 2. **Pictures.** At least 5 usable public-domain images across its articles
    (the count is shown). Under 4 → pick another.
-3. **Prefer events in the app** (listed first) — the video advertises it.
+3. **Only events in the app** (the user, 3 Oct: "everything you offer me must
+   be in the app"). Shortlist only candidates WITHOUT the `_(not in app)_`
+   mark — the video advertises the app, so its story must be in it. The same
+   goes for the "Also on this day" items. A strong story that is not in the
+   app is not offered: send it instead to the app session (SendMessage, the
+   History Unlocked app chat) to be added, with date, year, one line and the
+   Wikipedia articles.
 4. **Variety.** Check "Last videos": not the same category three days running;
    not the same music two days running.
 5. **Skip:** mass shootings, terror attacks, kidnappings, and any tragedy

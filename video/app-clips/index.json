@@ -69,7 +69,7 @@
     "date": "2026-09-30",
     "dateKey": "09-30",
     "slug": "berlin-airlift",
-    "eventId": null,
+    "eventId": "evt-09-30-1949-berlin-blockade",
     "title": "The Berlin Airlift ends, 1949 — and the Candy Bomber, Gail Halvorsen",
     "seconds": 50.8,
     "video": "2026-09-30-berlin-airlift.mp4",
@@ -91,7 +91,7 @@
     "date": "2026-10-02",
     "dateKey": "10-02",
     "slug": "wilson-stroke",
-    "eventId": null,
+    "eventId": "evt-10-02-1919-woodrow-wilson",
     "title": "Woodrow Wilson's stroke, 1919 — and Edith Wilson's 'stewardship'",
     "seconds": 49.4,
     "video": "2026-10-02-wilson-stroke.mp4",
@@ -102,7 +102,7 @@
     "date": "2026-10-03",
     "dateKey": "10-03",
     "slug": "v2-rocket",
-    "eventId": null,
+    "eventId": "evt-10-03-1942-v-2-rocket",
     "title": "The V-2's first successful flight, 1942 — from vengeance weapon to the Moon",
     "seconds": 63.9,
     "video": "2026-10-03-v2-rocket.mp4",
@@ -168,11 +168,22 @@
     "date": "2026-10-09",
     "dateKey": "10-09",
     "slug": "marseille-1934",
-    "eventId": null,
+    "eventId": "evt-10-09-1934-alexander-i-of-yugoslavia",
     "title": "The Marseille assassination, 1934 — the king who feared Tuesdays",
-    "seconds": 64.9,
+    "seconds": 64.7,
     "video": "2026-10-09-marseille-1934.mp4",
     "poster": "2026-10-09-marseille-1934.jpg",
-    "bytes": 4151385
+    "bytes": 4113800
+  },
+  {
+    "date": "2026-10-10",
+    "dateKey": "10-10",
+    "slug": "wuchang-1911",
+    "eventId": "evt-10-10-1911-1911-revolution",
+    "title": "The Wuchang Uprising, 1911 — the accidental bomb that ended imperial China",
+    "seconds": 63.3,
+    "video": "2026-10-10-wuchang-1911.mp4",
+    "poster": "2026-10-10-wuchang-1911.jpg",
+    "bytes": 4730076
   }
 ]
