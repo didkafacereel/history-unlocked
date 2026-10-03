@@ -229,6 +229,32 @@ Examples of the spirit (do not reuse): Berlin Airlift → "Our app is being
 airlifted in. Subscribe, so you're at the fence when it lands."; V-2 →
 "Subscribe, and count down with us to our app's launch."
 
+**Also on this day** (the user, 3 Oct: "bring the day's other moments into
+the clip — even towards the CTA"). Just before the call to action, two or
+three of the day's OTHER events, as a teaser that every date holds more —
+which is exactly what the app is. `make.mjs` turns it into one spoken
+sentence and its own card ("Also on 7 October"):
+
+```json
+"also": {
+  "say": "Also on this day: Edgar Allan Poe died in mystery, and a football team lost two hundred and twenty-two to nothing.",
+  "items": [
+    { "year": "1849", "text": "Edgar Allan Poe dies, a mystery to this day" },
+    { "year": "1916", "text": "Georgia Tech beats Cumberland 222–0" }
+  ],
+  "image": "optional-dimmed-background.jpg"
+}
+```
+
+- Pick from the day's `candidates.md`: the most surprising lines, other
+  stories than the main one, never a tragedy under 30 years old or anything
+  the shortlist rules skip. Facts only as the candidates/feed state them.
+- `say`: one sentence, ≤ 28 words, numbers spelled out; `items[].text` ≤ 50
+  characters, digits fine.
+- Let the CTA pick it up (the app holds every story of every date — "Three
+  stories, one date. Our app has them all…") — but keep it a new line each
+  day.
+
 **Sentences.** Each has `say` (for the voice) and `show` (for the captions):
 
 - `say`: numbers spelled out ("nineteen eighty-three", "a hundred and

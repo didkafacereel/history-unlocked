@@ -85,12 +85,12 @@ const { ctas: _variants, '//ctas': _note, ...stageFields } = stageBase;
 const stage = { story: channel.story, ...stageFields, ...(custom ?? ctas[ctaIndex] ?? {}) };
 if (custom) {
   for (const k of ['story', 'say', 'pill', 'note']) if (!custom[k]) fail(`script.json "cta" needs "${k}"`);
-  if (/d/.test(custom.say)) fail('cta.say has digits — spell numbers out for the voice');
-  if (!/subscri/i.test(custom.say) || !/app/i.test(custom.say + ' ' + custom.note)) {
+  if (/\d/.test(custom.say)) fail('cta.say has digits — spell numbers out for the voice');
+  if (!/subscri/i.test(custom.say) || !/\bapp\b/i.test(custom.say + ' ' + custom.note)) {
     fail('cta must still ask to subscribe (in "say") and mention the coming app (in "say" or "note")');
   }
   if (custom.pill.length > 16) fail(`cta.pill "${custom.pill}" is over 16 characters — it must fit the button`);
-  if (custom.say.split(/s+/).length > 22) fail('cta.say is over 22 words — keep the end card short');
+  if (custom.say.split(/\s+/).length > 22) fail('cta.say is over 22 words — keep the end card short');
   const prior = (existsSync(path.join(videoDir, 'log.json')) ? JSON.parse(readFileSync(path.join(videoDir, 'log.json'), 'utf8')) : [])
     .filter((l) => l.date !== script.date && l.cta);
   if (prior.some((l) => l.cta.toLowerCase() === custom.say.toLowerCase())) fail('this cta.say was already used on an earlier day — write a new one');
@@ -126,6 +126,7 @@ const usedImages = new Set(
     script.cover?.image,
     script.endImage,
     ...script.scenes.flatMap((sc) => [sc.image, sc.a?.image, sc.b?.image, sc.clip]),
+    script.also?.image,
   ].filter(Boolean),
 );
 const artists = [
@@ -150,6 +151,17 @@ const creditLine =
   (films.length ? `Film: ${films.join('; ')} · public domain. ` : '') +
   `Music: ${track.credit}. Sources: Wikipedia.`;
 
+// "Also on this day" (the user, 3 Oct): the day's other events, spoken in one
+// sentence and listed on their own card just before the call to action.
+const also = script.also ?? null;
+if (also) {
+  if (!also.say || !Array.isArray(also.items) || !also.items.length) fail('script.json "also" needs "say" and 1–3 "items" ({ year, text })');
+  if (/\d/.test(also.say)) fail(`also.say has digits — spell numbers out for the voice ("${also.say}")`);
+  if (also.items.length > 3) fail('"also" takes at most 3 items');
+  for (const it of also.items) if (!it.year || !it.text) fail('every "also" item needs "year" and "text"');
+}
+const dayLabel = new Date(`${script.date}T12:00:00Z`).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', timeZone: 'UTC' });
+
 // The end card and its two spoken lines come from the channel settings, so a
 // stage change (pre-launch → closed test → launch) reaches every video.
 const resolved = {
@@ -161,11 +173,26 @@ const resolved = {
   // is a second viewers swipe away in, and completion is what TikTok counts.
   sentences: [
     ...script.sentences,
+    ...(also ? [{ id: 'also', say: also.say, show: also.show ?? also.say, pauseAfter: also.pauseAfter ?? 0.45 }] : []),
     ...(fast ? [] : [{ id: 'end1', say: stage.story, show: stage.story, pauseAfter: 0.35 }]),
     { id: 'end2', say: stage.say, show: stage.say, pauseAfter: 0.5 },
   ],
   scenes: [
     ...script.scenes,
+    ...(also
+      ? [{
+          id: 'alsocard',
+          type: 'also',
+          from: 'also',
+          enter: 'cut',
+          kicker: also.kicker ?? `Also on ${dayLabel}`,
+          items: also.items,
+          image: also.image,
+          focus: also.focus,
+          itemsFrom: also.itemsFrom ?? 'also@0.12',
+          itemsTo: also.itemsTo ?? 'also@0.75',
+        }]
+      : []),
     {
       id: 'endcard',
       type: 'endcard',

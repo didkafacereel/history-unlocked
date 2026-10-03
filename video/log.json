@@ -115,5 +115,15 @@
     "category": "Politics & Power",
     "music": "chopin-nocturne-c-minor",
     "seconds": 66
+  },
+  {
+    "date": "2026-10-07",
+    "slug": "lepanto",
+    "title": "The Battle of Lepanto, 1571 — and the wounded soldier who wrote Don Quixote",
+    "eventId": "evt-10-07-1571-battle-of-lepanto",
+    "category": "Military & Conflict",
+    "music": "mussorgsky-old-castle",
+    "seconds": 65,
+    "cta": "Every date has stories like these. Subscribe, and our app will bring them all to you."
   }
 ]

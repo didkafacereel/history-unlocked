@@ -135,6 +135,12 @@ html, body { margin: 0; overflow: hidden; background: var(--void); }
 .c-date { font-family: "Anton", sans-serif; font-size: 60px; letter-spacing: 0.08em; color: var(--text); background: rgba(6, 7, 10, 0.55); padding: 6px 26px; border: 3px solid var(--gold); }
 .c-hook { font-family: "Anton", sans-serif; line-height: 0.98; text-transform: uppercase; color: var(--text); text-shadow: 0 6px 30px rgba(0, 0, 0, 0.85); }
 
+/* also on this day — the day's other events, just before the end card */
+.a-list { display: flex; flex-direction: column; gap: 34px; margin-top: 30px; max-width: 858px; }
+.a-item { display: flex; flex-direction: column; gap: 6px; }
+.a-year { font-family: "Anton", sans-serif; font-size: 72px; line-height: 1; color: var(--gold); letter-spacing: 0.02em; }
+.a-text { font-size: 48px; line-height: 1.12; color: var(--text); }
+
 /* film — the <video> sits at the root (see compose.mjs); this is its overlay */
 .film { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
 .f-credit { position: absolute; left: 72px; right: 150px; top: 250px; text-align: center; font-size: 32px; color: var(--text-2); text-shadow: 0 2px 12px rgba(0, 0, 0, 0.9); }
@@ -367,6 +373,34 @@ export const renderers = {
     if (sc.kicker) a.ft(`#${id}-kicker`, { opacity: 0, y: -24 }, { opacity: 1, y: 0, duration: 0.45, ease: 'power3.out' }, ctx.base + 0.1);
     if (line) a.ft(`#${id}-line`, { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 0.8, ease: 'expo.out' }, line.at);
     if (fact) a.ft(`#${id}-fact`, { opacity: 0, x: -30 }, { opacity: 1, x: 0, duration: 0.6, ease: 'sine.out' }, fact.at);
+    return { html, anim: a.lines };
+  },
+
+  /* The day's other events (the user, 3 Oct: "bring the day's other moments
+     into the clip"): 2–3 items, each a year and a line, appearing one by one
+     while the "also" sentence is spoken. Built by make.mjs from script.also. */
+  also(sc, ctx) {
+    const { id, S } = ctx;
+    const a = animator();
+    const items = (sc.items ?? []).slice(0, 3);
+    if (!items.length) throw new Error(`${id}: "also" needs items`);
+    const html = `
+      <div class="layer solid"></div>
+      ${sc.image ? `<div id="${id}-kb" class="layer" data-layout-allow-overflow>${img(ctx.asset(sc.image), sc.focus)}</div><div class="layer dim"></div>` : '<div class="layer glow"></div>'}
+      <div class="content">
+        <div id="${id}-kicker" class="kicker">${md(sc.kicker)}</div>
+        <div class="a-list">
+          ${items.map((it, i) => `<div id="${id}-i${i}" class="a-item"><div class="a-year">${md(String(it.year))}</div><div class="serif a-text">${md(it.text)}</div></div>`).join('')}
+        </div>
+      </div>`;
+    if (sc.image) kenBurns(a, `#${id}-kb`, 'in', S);
+    a.ft(`#${id}-kicker`, { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.4, ease: 'power3.out' }, ctx.base);
+    const from = ctx.cue(sc.itemsFrom, S.start + 0.4);
+    const to = Math.max(from + 0.6, ctx.cue(sc.itemsTo, S.end - 1.0));
+    items.forEach((_, i) => {
+      const at = from + ((to - from) * i) / Math.max(1, items.length - 1);
+      a.ft(`#${id}-i${i}`, { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.5, ease: 'expo.out' }, at);
+    });
     return { html, anim: a.lines };
   },
 

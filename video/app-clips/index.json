@@ -141,5 +141,16 @@
     "video": "2026-10-06-sadat.mp4",
     "poster": "2026-10-06-sadat.jpg",
     "bytes": 3623385
+  },
+  {
+    "date": "2026-10-07",
+    "dateKey": "10-07",
+    "slug": "lepanto",
+    "eventId": "evt-10-07-1571-battle-of-lepanto",
+    "title": "The Battle of Lepanto, 1571 — and the wounded soldier who wrote Don Quixote",
+    "seconds": 58.1,
+    "video": "2026-10-07-lepanto.mp4",
+    "poster": "2026-10-07-lepanto.jpg",
+    "bytes": 4106630
   }
 ]

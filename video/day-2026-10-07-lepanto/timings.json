@@ -1,0 +1,83 @@
+{
+  "total": 64.453,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "In the biggest sea battle in centuries, one wounded soldier would later write Don Quixote.",
+      "start": 0.4,
+      "end": 6.139
+    },
+    {
+      "id": "s2",
+      "show": "It was fought on this day in 1571, at Lepanto, off Greece.",
+      "start": 6.589,
+      "end": 11.453
+    },
+    {
+      "id": "s3",
+      "show": "Spain, Venice and their allies, against the Ottoman fleet.",
+      "start": 11.853,
+      "end": 15.607
+    },
+    {
+      "id": "s4",
+      "show": "More than 450 warships, most rowed by hand.",
+      "start": 16.007,
+      "end": 20.125
+    },
+    {
+      "id": "s6",
+      "show": "The flagships crashed together. Soldiers fought hand to hand.",
+      "start": 20.575,
+      "end": 24.244
+    },
+    {
+      "id": "s7",
+      "show": "The Ottoman admiral was killed.",
+      "start": 24.644,
+      "end": 26.628
+    },
+    {
+      "id": "s8",
+      "show": "It is said some janissaries ran out of weapons, and threw oranges and lemons.",
+      "start": 27.028,
+      "end": 31.956
+    },
+    {
+      "id": "s9",
+      "show": "On the galley Marquesa, a young soldier sick with malaria fought anyway.",
+      "start": 32.406,
+      "end": 37.078
+    },
+    {
+      "id": "s10",
+      "show": "He was shot twice in the chest, and once in the left arm, which he never used again.",
+      "start": 37.478,
+      "end": 42.598
+    },
+    {
+      "id": "s11",
+      "show": "His name was Miguel de Cervantes.",
+      "start": 43.048,
+      "end": 45.459
+    },
+    {
+      "id": "s12",
+      "show": "34 years later, he published Don Quixote.",
+      "start": 45.859,
+      "end": 49.144
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: Edgar Allan Poe died in a mystery never solved, and a Soviet probe photographed the Moon's far side.",
+      "start": 49.594,
+      "end": 58.063
+    },
+    {
+      "id": "end2",
+      "show": "Every date has stories like these. Subscribe, and our app will bring them all to you.",
+      "start": 58.513,
+      "end": 63.953
+    }
+  ]
+}

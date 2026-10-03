@@ -1,0 +1,308 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-10-07",
+  "dateKey": "10-07",
+  "slug": "lepanto",
+  "title": "The Battle of Lepanto, 1571 — and the wounded soldier who wrote Don Quixote",
+  "eventId": "evt-10-07-1571-battle-of-lepanto",
+  "category": "Military & Conflict",
+  "sources": [
+    "Wikipedia: Battle of Lepanto — 7 October 1571, the Holy League (Spain, Venice and allies, arranged by Pope Pius V) against the Ottoman fleet in the Gulf of Patras; the largest naval battle in Western history since classical antiquity, more than 450 warships; the last major engagement in the Western world fought almost entirely between rowing vessels; an 'infantry battle on floating platforms'; John of Austria commanded; Ali Pasha's galley drove into the Real; Ali Pasha was killed; the Christians captured 117 galleys and sank or destroyed some 83; many thousands of Christian slaves were rescued; it is said janissaries ran out of weapons and threw oranges and lemons; the Ottomans rebuilt their fleet within about six months",
+    "Wikipedia: Miguel de Cervantes — sailed on the Marquesa; although suffering from malaria he was given command of a skiff; received three wounds, two in the chest and one that rendered his left arm useless; called 'El manco de Lepanto'; captured by Barbary pirates in 1575, five years in captivity; Don Quixote, Part One published 1605; no authenticated portrait exists — the one most often associated with him is attributed to Juan de Jáuregui",
+    "Also on this day (candidates.md / Wikipedia On This Day): 1849 Edgar Allan Poe died under mysterious circumstances; 1916 Georgia Tech beat Cumberland 222–0; 1959 Luna 3 transmitted the first photographs of the far side of the Moon",
+    "Images (public domain, Wikimedia Commons): Battle of Lepanto, unidentified painter, late 16th c.; Andrea Vicentino (1603, detail); Cornelis de Wael; Martin Rota engraving (1572); Ignazio Danti fresco map; Sánchez Coello, John of Austria (1567); Venetian galleass drawing; Don Quixote first edition title page (1605); portrait attributed to Jáuregui; Poe daguerreotype (1849); Luna 3 far side (1959)"
+  ],
+  "music": {
+    "track": "mussorgsky-old-castle"
+  },
+  "highlight": [
+    "LEPANTO",
+    "450",
+    "GALLEYS",
+    "ORANGES",
+    "LEMONS",
+    "CERVANTES",
+    "QUIXOTE",
+    "ARM",
+    "ONE-HANDED"
+  ],
+  "cover": {
+    "image": "lepanto-close.jpg",
+    "focus": "50% 50%",
+    "date": "7 OCTOBER 1571",
+    "lines": [
+      "450 WARSHIPS",
+      "AND ONE",
+      "*NOVELIST*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "In the biggest sea battle in centuries, one wounded soldier would later write Don Quixote.",
+      "show": "In the biggest sea battle in centuries, one wounded soldier would later write Don Quixote.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "It was fought on this day in fifteen seventy-one, at Lepanto, off Greece.",
+      "show": "It was fought on this day in 1571, at Lepanto, off Greece.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "Spain, Venice and their allies, against the Ottoman fleet.",
+      "show": "Spain, Venice and their allies, against the Ottoman fleet.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "More than four hundred and fifty warships, most rowed by hand.",
+      "show": "More than 450 warships, most rowed by hand.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s6",
+      "say": "The flagships crashed together. Soldiers fought hand to hand.",
+      "show": "The flagships crashed together. Soldiers fought hand to hand.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s7",
+      "say": "The Ottoman admiral was killed.",
+      "show": "The Ottoman admiral was killed.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s8",
+      "say": "It is said some janissaries ran out of weapons, and threw oranges and lemons.",
+      "show": "It is said some janissaries ran out of weapons, and threw oranges and lemons.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s9",
+      "say": "On the galley Marquesa, a young soldier sick with malaria fought anyway.",
+      "show": "On the galley Marquesa, a young soldier sick with malaria fought anyway.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s10",
+      "say": "He was shot twice in the chest, and once in the left arm, which he never used again.",
+      "show": "He was shot twice in the chest, and once in the left arm, which he never used again.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s11",
+      "say": "His name was Miguel de Cervantes.",
+      "show": "His name was Miguel de Cervantes.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s12",
+      "say": "Thirty-four years later, he published Don Quixote.",
+      "show": "34 years later, he published Don Quixote.",
+      "pauseAfter": 0.45
+    }
+  ],
+  "also": {
+    "say": "Also on this day: Edgar Allan Poe died in a mystery never solved, and a Soviet probe photographed the Moon's far side.",
+    "items": [
+      {
+        "year": "1849",
+        "text": "Edgar Allan Poe dies — a mystery to this day"
+      },
+      {
+        "year": "1959",
+        "text": "Luna 3 sends the first photos of the Moon's far side"
+      },
+      {
+        "year": "1916",
+        "text": "Georgia Tech beats Cumberland 222–0"
+      }
+    ],
+    "image": "luna3.jpg",
+    "focus": "50% 50%"
+  },
+  "cta": {
+    "story": "One date. Three stories. Every day.",
+    "say": "Every date has stories like these. Subscribe, and our app will bring them all to you.",
+    "pill": "HANDS ON DECK",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook — the battle",
+      "image": "lepanto-close.jpg",
+      "focus": "45% 50%",
+      "move": "in",
+      "fact": "Juan Luna, painted 1887"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.62",
+      "enter": "cut",
+      "image": "quixote-1605.jpg",
+      "focus": "50% 40%",
+      "move": "in"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "lepanto-1571.jpg",
+      "focus": "50% 50%",
+      "date": "7 OCTOBER",
+      "year": "1571",
+      "place": "Gulf of Patras, Greece"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "john-austria.jpg",
+      "focus": "50% 25%",
+      "move": "in",
+      "kicker": "John of Austria",
+      "fact": "Commander of the Holy League fleet"
+    },
+    {
+      "type": "photo",
+      "from": "s3@0.5",
+      "enter": "cut",
+      "image": "danti-map.jpg",
+      "focus": "50% 45%",
+      "move": "down",
+      "fact": "The two fleets · fresco, c. 1580"
+    },
+    {
+      "type": "number",
+      "from": "s4",
+      "enter": "cut",
+      "image": "rota-engraving.jpg",
+      "focus": "50% 50%",
+      "label": "Warships",
+      "value": 450,
+      "start": 0,
+      "suffix": "+",
+      "count": {
+        "from": "s4@0.05",
+        "to": "s4@0.4"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s4@0.62",
+      "enter": "cut",
+      "image": "galley-drawing.jpg",
+      "focus": "50% 50%",
+      "move": "right",
+      "fact": "A Venetian galleass at Lepanto"
+    },
+    {
+      "type": "photo",
+      "from": "s6",
+      "enter": "cut",
+      "image": "vicentino-detail.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Andrea Vicentino, 1603"
+    },
+    {
+      "type": "photo",
+      "from": "s7",
+      "enter": "cut",
+      "image": "de-wael.jpg",
+      "focus": "35% 55%",
+      "move": "left",
+      "fact": "Cornelis de Wael, 17th century"
+    },
+    {
+      "type": "statement",
+      "from": "s8",
+      "enter": "cut",
+      "image": "lepanto-1571.jpg",
+      "focus": "70% 60%",
+      "ghost": "LEMONS",
+      "kicker": "It is said",
+      "main": {
+        "text": "Out of weapons, they threw *oranges and lemons*.",
+        "at": "s8@0.45"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s9",
+      "enter": "cut",
+      "image": "lepanto-close.jpg",
+      "focus": "75% 45%",
+      "move": "in",
+      "kicker": "The galley Marquesa",
+      "fact": "Juan Luna, 1887 · illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s10",
+      "enter": "cut",
+      "image": "vicentino-detail.jpg",
+      "focus": "40% 60%",
+      "ghost": "WOUNDED",
+      "kicker": "Three wounds",
+      "main": {
+        "text": "Two in the chest. One in the *left arm*.",
+        "at": "s10@0.25"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s11",
+      "enter": "cut",
+      "image": "cervantes.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "kicker": "Miguel de Cervantes",
+      "fact": "Portrait traditionally said to be him · no authenticated portrait exists"
+    },
+    {
+      "type": "statement",
+      "from": "s12",
+      "enter": "cut",
+      "image": "cervantes.jpg",
+      "focus": "50% 40%",
+      "ghost": "1605",
+      "kicker": "Madrid, 1605",
+      "main": {
+        "text": "*Don Quixote*.",
+        "at": "s12@0.5"
+      },
+      "fact": {
+        "text": "Written by the one-handed man of Lepanto.",
+        "at": "s12@0.75"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "450 warships. One wounded soldier. And the most famous novel in Spanish. ⚔️📖\n\nAt Lepanto on 7 October 1571, Miguel de Cervantes fought with malaria, took two shots in the chest and lost the use of his left arm. 34 years later he published Don Quixote.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #historytok #lepanto #cervantes #donquixote #1571",
+    "facebook": "On this day in 1571, the Battle of Lepanto was fought off the coast of Greece.\n\nThe Holy League — Spain, Venice and their allies — met the Ottoman fleet in the largest naval battle in the West since antiquity: more than 450 warships, most of them rowed by hand. The flagships crashed together and soldiers fought hand to hand. The Ottoman admiral was killed and the League captured 117 galleys. It is said that some janissaries, out of weapons, threw oranges and lemons.\n\nOn the galley Marquesa, a young Spanish soldier sick with malaria fought anyway. He was wounded twice in the chest, and a third wound left his left arm useless for life. He became known as \"the one-handed man of Lepanto\". His name was Miguel de Cervantes — and 34 years later he published Don Quixote.\n\nAlso on 7 October: Edgar Allan Poe died in 1849 in circumstances still unexplained, and in 1959 Luna 3 sent back the first photographs of the far side of the Moon.\n\nEvery date has stories like these. Follow the page to find out when our app comes out. 📜\n\n#OnThisDay #History #Lepanto #Cervantes",
+    "youtube": {
+      "title": "The Soldier Shot At Lepanto Who Later Wrote Don Quixote #Shorts",
+      "description": "On 7 October 1571, more than 450 warships met at Lepanto — the largest naval battle in the West since antiquity. On the galley Marquesa, a young soldier sick with malaria was shot twice in the chest and lost the use of his left arm. His name was Miguel de Cervantes. 34 years later, he published Don Quixote.\n\nAlso on 7 October: Edgar Allan Poe's mysterious death (1849) and the first photos of the Moon's far side (1959).\n\nEvery date has stories like these — subscribe while our history app gets ready.\n\nImages: public domain via Wikimedia Commons. Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #Lepanto #Cervantes",
+      "tags": [
+        "history",
+        "on this day",
+        "Battle of Lepanto",
+        "1571",
+        "Cervantes",
+        "Don Quixote",
+        "naval battle",
+        "Ottoman Empire",
+        "Holy League",
+        "John of Austria",
+        "galleys",
+        "Spanish history",
+        "history shorts"
+      ]
+    }
+  }
+}
