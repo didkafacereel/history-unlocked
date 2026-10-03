@@ -328,4 +328,7 @@ export const WRITTEN_HEADLINES: Record<string, string> = {
   "evt-12-28-1958-1958-nfl-championship-game": "The Colts beat the Giants in the NFL's first sudden-death overtime — the Greatest Game",
   "evt-12-30-1906-all-india-muslim-league": "The All-India Muslim League was founded in Dhaka",
   "evt-12-31-2011-nasa": "NASA put the first of two GRAIL satellites in orbit around the Moon",
+  // 3 Oct: both are the subjects of daily films, and both cards were cut by "…".
+  "evt-09-24-1869-jay-gould": "Jay Gould and James Fisk's plot to corner the gold market collapsed on Black Friday",
+  "evt-10-08-1956-major-league-baseball": "Don Larsen of the Yankees pitched the only perfect game in World Series history",
 };
