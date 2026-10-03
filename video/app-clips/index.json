@@ -152,5 +152,16 @@
     "video": "2026-10-07-lepanto.mp4",
     "poster": "2026-10-07-lepanto.jpg",
     "bytes": 4106630
+  },
+  {
+    "date": "2026-10-08",
+    "dateKey": "10-08",
+    "slug": "sergeant-york",
+    "eventId": "evt-10-08-1918-world-war-i",
+    "title": "Sergeant York, 1918 — the man who didn't want to fight captured 132",
+    "seconds": 65.4,
+    "video": "2026-10-08-sergeant-york.mp4",
+    "poster": "2026-10-08-sergeant-york.jpg",
+    "bytes": 3725627
   }
 ]

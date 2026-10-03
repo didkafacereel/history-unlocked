@@ -125,5 +125,15 @@
     "music": "mussorgsky-old-castle",
     "seconds": 65,
     "cta": "Every date has stories like these. Subscribe, and our app will bring them all to you."
+  },
+  {
+    "date": "2026-10-08",
+    "slug": "sergeant-york",
+    "title": "Sergeant York, 1918 — the man who didn't want to fight captured 132",
+    "eventId": "evt-10-08-1918-world-war-i",
+    "category": "Military & Conflict",
+    "music": "mussorgsky-bydlo",
+    "seconds": 72,
+    "cta": "No sir, we haven't got them all yet. Subscribe, and our app will bring you every one."
   }
 ]

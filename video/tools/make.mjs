@@ -134,7 +134,7 @@ const artists = [
     Object.entries(credits)
       .filter(([file, c]) => usedImages.has(file) && !c.film)
       .map(([, c]) => c)
-      .map((c) => (c.artist ?? '').replace(/\s*\(.*?\)\s*/g, ' ').trim())
+      .map((c) => (c.artist ?? '').replace(/^\s*copyright\s+(by\s+)?/i, '').replace(/\s*\(.*?\)\s*/g, ' ').trim())
       .filter((a) => a && a.length <= 40 && !/unknown|anonymous|unidentified|^user:/i.test(a)),
   ),
 ].slice(0, 8);

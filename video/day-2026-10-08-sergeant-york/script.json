@@ -1,0 +1,310 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-10-08",
+  "dateKey": "10-08",
+  "slug": "sergeant-york",
+  "title": "Sergeant York, 1918 — the man who didn't want to fight captured 132",
+  "eventId": "evt-10-08-1918-world-war-i",
+  "category": "Military & Conflict",
+  "sources": [
+    "Wikipedia: Alvin York — Tennessee farmer and blacksmith; after a 1915 religious conversion, his church opposed all forms of violence; 'I didn't want to go and kill because I believed in my Bible'; on his draft registration he wrote 'Yes. Don't Want To Fight.'; his conscientious objector claim was denied and he was drafted; persuaded by his commanders through Bible passages; on 8 October 1918, in the Meuse–Argonne offensive near Hill 223 and Chatel-Chéhéry, 17 men were sent behind German lines to silence machine guns; machine-gun fire killed six Americans and wounded three; York fought the machine guns — 'I didn't want to kill any more than I had to. But it was they or I.'; a German officer emptied his pistol at York without hitting him, then offered to surrender; York and seven men marched back 132 prisoners; General Lindsey: 'Well York, I hear you have captured the whole German army.' York: 'No sir. I got only 132.'; promoted to sergeant, awarded the Medal of Honor; refused many offers to profit from his fame",
+    "Also on this day (candidates.md / Wikipedia On This Day): 1829 Stephenson's Rocket won the Rainhill Trials; 1871 the Great Chicago Fire began; 1956 Don Larsen threw the only perfect game in World Series history",
+    "Archive film (public domain / CC0, Wikimedia Commons): 'Draft and Mobilization Activities 1917-1918' (US draft lottery); 'Filming the American Attack at Château-Thierry' (US Signal Corps, July 1918 — illustrative of US troops in France, not York's own action)",
+    "Photos (public domain): York's conscientious objector claim of appeal; Sgt. York, 1919; York home in Tennessee, 1919; 328th Infantry line of advance, Hill 223, 7 October 1918 (Signal Corps); Frank Schoonover's 1919 painting of York's action; the valley near Chatel-Chéhéry"
+  ],
+  "music": {
+    "track": "mussorgsky-bydlo"
+  },
+  "highlight": [
+    "132",
+    "FIGHT",
+    "BIBLE",
+    "YORK",
+    "SEVENTEEN",
+    "PISTOL",
+    "SURRENDER",
+    "ARMY",
+    "HONOR"
+  ],
+  "cover": {
+    "image": "york-portrait.jpg",
+    "focus": "50% 30%",
+    "date": "8 OCTOBER 1918",
+    "top": 1020,
+    "lines": [
+      "HE DIDN'T",
+      "WANT TO FIGHT",
+      "*TOOK 132*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "He told the army he didn't want to fight. Then he captured a hundred and thirty-two men.",
+      "show": "He told the army he didn't want to fight. Then he captured 132 men.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "It happened on this day in nineteen eighteen, in France.",
+      "show": "It happened on this day in 1918, in France.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "Alvin York was a Tennessee farmer. His church opposed all violence.",
+      "show": "Alvin York was a Tennessee farmer. His church opposed all violence.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s4",
+      "say": "On his draft card he wrote: don't want to fight.",
+      "show": "On his draft card he wrote: \"Don't want to fight.\"",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s5",
+      "say": "He was drafted anyway. His officers argued with him, Bible in hand, until he agreed.",
+      "show": "He was drafted anyway. His officers argued with him, Bible in hand, until he agreed.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s6",
+      "say": "In the Argonne, German machine guns pinned down his battalion.",
+      "show": "In the Argonne, German machine guns pinned down his battalion.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s7",
+      "say": "Seventeen men were sent behind the German lines. Six were killed.",
+      "show": "17 men were sent behind the German lines. Six were killed.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s8",
+      "say": "York kept firing. He said later: I didn't want to kill any more than I had to.",
+      "show": "York kept firing. He said later: \"I didn't want to kill any more than I had to.\"",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s9",
+      "say": "A German officer emptied his pistol at him, missed, and surrendered.",
+      "show": "A German officer emptied his pistol at him, missed, and surrendered.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s10",
+      "say": "York and seven men marched back with a hundred and thirty-two prisoners.",
+      "show": "York and seven men marched back with 132 prisoners.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s11",
+      "say": "His general said: I hear you captured the whole German army.",
+      "show": "His general: \"I hear you captured the whole German army.\"",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s12",
+      "say": "York answered: no sir. I got only a hundred and thirty-two.",
+      "show": "York answered: \"No sir. I got only 132.\"",
+      "pauseAfter": 0.45
+    }
+  ],
+  "also": {
+    "say": "Also on this day: Stephenson's Rocket won the race that shaped railways, and the Great Chicago Fire began.",
+    "items": [
+      {
+        "year": "1829",
+        "text": "Stephenson's Rocket wins the Rainhill Trials"
+      },
+      {
+        "year": "1871",
+        "text": "The Great Chicago Fire begins"
+      },
+      {
+        "year": "1956",
+        "text": "The only perfect game in World Series history"
+      }
+    ],
+    "image": "no-mans-land.jpg"
+  },
+  "cta": {
+    "story": "Every date hides a hero.",
+    "say": "No sir, we haven't got them all yet. Subscribe, and our app will bring you every one.",
+    "pill": "ENLIST HERE",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook — York himself",
+      "image": "york-portrait.jpg",
+      "focus": "50% 28%",
+      "move": "in",
+      "fact": "Sgt. Alvin C. York, 1919"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.55",
+      "enter": "cut",
+      "clip": "film-march.mp4",
+      "credit": "US troops in France, 1918 · Signal Corps film"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "hill-223.jpg",
+      "focus": "50% 50%",
+      "date": "8 OCTOBER",
+      "year": "1918",
+      "place": "Argonne Forest, France"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "york-home.jpg",
+      "focus": "50% 40%",
+      "move": "in",
+      "fact": "York at home in Tennessee, 1919"
+    },
+    {
+      "type": "photo",
+      "from": "s4",
+      "enter": "cut",
+      "image": "draft-appeal.jpg",
+      "focus": "50% 40%",
+      "move": "in",
+      "fact": "His real claim to be excused from fighting"
+    },
+    {
+      "type": "film",
+      "from": "s5",
+      "enter": "cut",
+      "clip": "film-draft.mp4",
+      "credit": "The US draft lottery, 1917–18 · archive film"
+    },
+    {
+      "type": "film",
+      "from": "s5@0.55",
+      "enter": "cut",
+      "clip": "film-trench.mp4",
+      "credit": "US troops in France, 1918 · Signal Corps film"
+    },
+    {
+      "type": "photo",
+      "from": "s6",
+      "enter": "cut",
+      "image": "hill-223.jpg",
+      "focus": "40% 50%",
+      "move": "left",
+      "fact": "His regiment's line of advance, 7 October 1918"
+    },
+    {
+      "type": "film",
+      "from": "s7",
+      "enter": "cut",
+      "clip": "film-gunner.mp4",
+      "credit": "A US soldier in France, 1918 · illustrative"
+    },
+    {
+      "type": "film",
+      "from": "s7@0.6",
+      "enter": "cut",
+      "clip": "film-wreck.mp4",
+      "credit": "The Western Front, 1918 · illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s8",
+      "enter": "cut",
+      "image": "argonne-1918.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "York's fight, as painted by Frank Schoonover, 1919"
+    },
+    {
+      "type": "statement",
+      "from": "s8@0.4",
+      "enter": "cut",
+      "image": "york-portrait.jpg",
+      "focus": "50% 30%",
+      "kicker": "Alvin York",
+      "main": {
+        "text": "“I didn't want to kill any more than *I had to*.”",
+        "at": "s8@0.45"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s9",
+      "enter": "cut",
+      "clip": "film-smoke.mp4",
+      "credit": "Battlefield in France, 1918 · illustrative"
+    },
+    {
+      "type": "number",
+      "from": "s10",
+      "enter": "cut",
+      "image": "hill-223.jpg",
+      "focus": "70% 60%",
+      "label": "Prisoners",
+      "value": 132,
+      "start": 0,
+      "count": {
+        "from": "s10@0.2",
+        "to": "s10@0.85"
+      },
+      "sub": {
+        "text": "Taken by York and 7 men",
+        "at": "s10@0.6"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s11",
+      "enter": "cut",
+      "image": "york-smile.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "York, May 1919"
+    },
+    {
+      "type": "quote",
+      "from": "s12",
+      "enter": "cut",
+      "image": "york-portrait.jpg",
+      "focus": "50% 30%",
+      "kicker": "Sgt. York",
+      "quote": {
+        "text": "No sir. I got only 132.",
+        "at": "s12@0.2"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "He wrote \"Don't want to fight\" on his draft card. Then he captured 132 men. 🎖️\n\nOn 8 October 1918, Alvin York — a Tennessee farmer whose church opposed violence — silenced German machine guns in the Argonne. \"I hear you captured the whole German army.\" \"No sir. I got only 132.\"\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #historytok #ww1 #sergeantyork #1918",
+    "facebook": "On this day in 1918, Alvin York captured 132 German soldiers in the Argonne Forest.\n\nYork was a farmer and blacksmith from Tennessee, and his church opposed all violence. On his draft registration he wrote: \"Don't want to fight.\" He was drafted anyway, and his officers argued with him, Bible in hand, until he agreed to serve.\n\nOn 8 October 1918, German machine guns pinned down his battalion. Seventeen men were sent behind the German lines; six were killed. York kept firing — \"I didn't want to kill any more than I had to,\" he said later. A German officer emptied his pistol at him and missed, then offered to surrender. York and seven men marched back with 132 prisoners.\n\n\"Well York, I hear you have captured the whole German army,\" his general said. York replied: \"No sir. I got only 132.\" He received the Medal of Honor.\n\nAlso on 8 October: Stephenson's Rocket won the Rainhill Trials (1829), and the Great Chicago Fire began (1871).\n\nEvery date hides a story like this. Follow the page to find out when our app comes out. 📜\n\n#OnThisDay #History #WW1 #SergeantYork",
+    "youtube": {
+      "title": "He Didn't Want To Fight. Then He Captured 132 Soldiers. #Shorts",
+      "description": "On 8 October 1918, Alvin York — a Tennessee farmer who wrote \"Don't want to fight\" on his draft card — silenced German machine guns in the Argonne Forest. A German officer emptied his pistol at him and missed, then surrendered. York and seven men marched back with 132 prisoners.\n\n\"I hear you captured the whole German army.\" — \"No sir. I got only 132.\"\n\nAlso on 8 October: Stephenson's Rocket wins the Rainhill Trials (1829), the Great Chicago Fire begins (1871).\n\nSubscribe — our history app, with a story for every date, is on its way.\n\nImages and film: public domain via Wikimedia Commons (US Signal Corps, US National Archives). Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #WW1 #SergeantYork",
+      "tags": [
+        "history",
+        "on this day",
+        "Alvin York",
+        "Sergeant York",
+        "World War 1",
+        "WW1",
+        "Meuse-Argonne",
+        "Medal of Honor",
+        "1918",
+        "Argonne Forest",
+        "conscientious objector",
+        "history shorts"
+      ]
+    }
+  }
+}

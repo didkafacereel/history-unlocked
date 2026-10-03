@@ -1,0 +1,89 @@
+{
+  "total": 71.523,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "He told the army he didn't want to fight. Then he captured 132 men.",
+      "start": 0.4,
+      "end": 5.669
+    },
+    {
+      "id": "s2",
+      "show": "It happened on this day in 1918, in France.",
+      "start": 6.119,
+      "end": 9.362
+    },
+    {
+      "id": "s3",
+      "show": "Alvin York was a Tennessee farmer. His church opposed all violence.",
+      "start": 9.762,
+      "end": 14.647
+    },
+    {
+      "id": "s4",
+      "show": "On his draft card he wrote: \"Don't want to fight.\"",
+      "start": 14.997,
+      "end": 17.984
+    },
+    {
+      "id": "s5",
+      "show": "He was drafted anyway. His officers argued with him, Bible in hand, until he agreed.",
+      "start": 18.434,
+      "end": 24.706
+    },
+    {
+      "id": "s6",
+      "show": "In the Argonne, German machine guns pinned down his battalion.",
+      "start": 25.156,
+      "end": 29.167
+    },
+    {
+      "id": "s7",
+      "show": "17 men were sent behind the German lines. Six were killed.",
+      "start": 29.517,
+      "end": 33.719
+    },
+    {
+      "id": "s8",
+      "show": "York kept firing. He said later: \"I didn't want to kill any more than I had to.\"",
+      "start": 34.119,
+      "end": 39.047
+    },
+    {
+      "id": "s9",
+      "show": "A German officer emptied his pistol at him, missed, and surrendered.",
+      "start": 39.497,
+      "end": 43.913
+    },
+    {
+      "id": "s10",
+      "show": "York and seven men marched back with 132 prisoners.",
+      "start": 44.363,
+      "end": 48.651
+    },
+    {
+      "id": "s11",
+      "show": "His general: \"I hear you captured the whole German army.\"",
+      "start": 49.101,
+      "end": 53.048
+    },
+    {
+      "id": "s12",
+      "show": "York answered: \"No sir. I got only 132.\"",
+      "start": 53.398,
+      "end": 57.515
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: Stephenson's Rocket won the race that shaped railways, and the Great Chicago Fire began.",
+      "start": 57.965,
+      "end": 65.368
+    },
+    {
+      "id": "end2",
+      "show": "No sir, we haven't got them all yet. Subscribe, and our app will bring you every one.",
+      "start": 65.818,
+      "end": 71.023
+    }
+  ]
+}
