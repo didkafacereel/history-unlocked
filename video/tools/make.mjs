@@ -70,8 +70,31 @@ const MIN_LEN = fast ? 35 : 45;
 const MAX_LEN = fast ? 75 : 62;
 const TARGET = fast ? 58 : 58;
 
-const stage = channel.stages[channel.stage];
-if (!stage) fail(`channel.json stage "${channel.stage}" has no entry in "stages"`);
+const stageBase = channel.stages[channel.stage];
+if (!stageBase) fail(`channel.json stage "${channel.stage}" has no entry in "stages"`);
+// A new call to action for every video (the user, 3 Oct: "be super
+// innovative and creative with the CTA" — the clips also go to YouTube).
+// script.json "cta": { story, say, pill, note } is written for the day's
+// story; it must still ask to subscribe and point at the coming app. The
+// stage's "ctas" list is only a fallback, rotated by date.
+const ctas = stageBase.ctas ?? [];
+const dayNumber = Math.round((Date.parse(script.date) - Date.parse('2026-01-01')) / 864e5);
+const custom = script.cta && typeof script.cta === 'object' ? script.cta : null;
+const ctaIndex = custom ? -1 : ctas.length ? ((Number.isInteger(script.cta) ? script.cta : dayNumber) % ctas.length + ctas.length) % ctas.length : -1;
+const { ctas: _variants, '//ctas': _note, ...stageFields } = stageBase;
+const stage = { story: channel.story, ...stageFields, ...(custom ?? ctas[ctaIndex] ?? {}) };
+if (custom) {
+  for (const k of ['story', 'say', 'pill', 'note']) if (!custom[k]) fail(`script.json "cta" needs "${k}"`);
+  if (/d/.test(custom.say)) fail('cta.say has digits — spell numbers out for the voice');
+  if (!/subscri/i.test(custom.say) || !/app/i.test(custom.say + ' ' + custom.note)) {
+    fail('cta must still ask to subscribe (in "say") and mention the coming app (in "say" or "note")');
+  }
+  if (custom.pill.length > 16) fail(`cta.pill "${custom.pill}" is over 16 characters — it must fit the button`);
+  if (custom.say.split(/s+/).length > 22) fail('cta.say is over 22 words — keep the end card short');
+  const prior = (existsSync(path.join(videoDir, 'log.json')) ? JSON.parse(readFileSync(path.join(videoDir, 'log.json'), 'utf8')) : [])
+    .filter((l) => l.date !== script.date && l.cta);
+  if (prior.some((l) => l.cta.toLowerCase() === custom.say.toLowerCase())) fail('this cta.say was already used on an earlier day — write a new one');
+}
 const track = library.tracks.find((t) => t.id === script.music?.track);
 if (!track) fail(`music.track "${script.music?.track}" is not in music/library.json`);
 const musicFile = path.join(videoDir, 'music', track.file);
@@ -138,7 +161,7 @@ const resolved = {
   // is a second viewers swipe away in, and completion is what TikTok counts.
   sentences: [
     ...script.sentences,
-    ...(fast ? [] : [{ id: 'end1', say: channel.story, show: channel.story, pauseAfter: 0.35 }]),
+    ...(fast ? [] : [{ id: 'end1', say: stage.story, show: stage.story, pauseAfter: 0.35 }]),
     { id: 'end2', say: stage.say, show: stage.say, pauseAfter: 0.5 },
   ],
   scenes: [
@@ -149,7 +172,7 @@ const resolved = {
       from: fast ? 'end2' : 'end1',
       enter: 'fade',
       image: script.endImage,
-      card: { story: channel.story, ...stage },
+      card: stage,
       credits: creditLine,
       storyAt: fast ? 'end2+0.05' : 'end1+0.05',
       ctaAt: fast ? 'end2+0.3' : 'end2',
@@ -158,7 +181,7 @@ const resolved = {
   captionsUntil: fast ? 'end2' : 'end1',
 };
 const words = resolved.sentences.reduce((n, s) => n + s.say.split(/\s+/).length, 0);
-console.log(`${script.sentences.length} story sentences + end card · ${words} words · ${script.scenes.length + 1} scenes · music ${track.id} · stage ${channel.stage}`);
+console.log(`${script.sentences.length} story sentences + end card · ${words} words · ${script.scenes.length + 1} scenes · music ${track.id} · stage ${channel.stage}${custom ? ` · cta (custom): "${stage.say}"` : ctaIndex >= 0 ? ` · cta ${ctaIndex}: "${stage.say}"` : ''}`);
 
 // ── 2–4. audio ────────────────────────────────────────────────────────────
 let timings;
@@ -277,6 +300,19 @@ writeFileSync(
     '',
     post.facebook ?? '(missing — write "post.facebook" in script.json)',
     '',
+    // YouTube Shorts (the user, 3 Oct): title, description, tags, settings.
+    '## YouTube',
+    '',
+    `Title: ${post.youtube?.title ?? '(missing — write "post.youtube.title" in script.json)'}`,
+    '',
+    'Description:',
+    '',
+    post.youtube?.description ?? '(missing — write "post.youtube.description" in script.json)',
+    '',
+    `Tags: ${(post.youtube?.tags ?? []).join(', ') || '(missing — write "post.youtube.tags")'}`,
+    '',
+    'Settings: upload as a Short (vertical, under 3 minutes) · Audience: No, not made for kids · Category: Education · Altered or synthetic content: No (the narrator is a synthetic voice but imitates no real person; archive footage is not altered) · Thumbnail: cover.jpg (or the first frame)',
+    '',
     '## Sources',
     '',
     ...(script.sources ?? []).map((s) => `- ${s}`),
@@ -298,6 +334,7 @@ const entry = {
   category: script.category ?? null,
   music: track.id,
   seconds: Math.round(dur),
+  cta: stage.say,
 };
 const at = log.findIndex((l) => l.date === script.date);
 if (at === -1) log.push(entry);
@@ -307,5 +344,5 @@ writeFileSync(logFile, JSON.stringify(log, null, 2) + '\n');
 // The in-app version (app update 1.1): cut before the TikTok end card, 720p.
 const clip = makeAppClip(dir, mp4, entry);
 console.log(`app-clips/${clip.video} — ${clip.seconds}s, ${(clip.bytes / 1e6).toFixed(1)} MB for the app`);
-if (!post.tiktok || !post.facebook) console.log('⚠ POST.md is missing a caption — add "post" to script.json');
+if (!post.tiktok || !post.facebook || !post.youtube?.title) console.log('⚠ POST.md is missing a caption — add "post.tiktok", "post.facebook" and "post.youtube" to script.json');
 console.log(`ready → ${path.relative(path.resolve(videoDir, '..'), ready)}`);

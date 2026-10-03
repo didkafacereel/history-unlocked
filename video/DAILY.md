@@ -194,8 +194,40 @@ Model: `video/day-2026-09-29-brocklesby-v2/script.json` — copy its shape.
 Voice `am_michael` at 1.0, length **40–70 s** (the user, 30 Sep: "40 to 70,
 ±5 s is no problem" — `make.mjs` accepts 35–75): about **100–160 words of
 story** in 13–20 short sentences — let the story set the length, do not pad
-it. A new picture every **2–4 s**: 14–22 scenes. `make.mjs` adds the one
-spoken end-card line itself — do not write it.
+it. A new picture every **2–4 s**: 14–22 scenes. The end card's spoken line
+is NOT a sentence in `sentences` — it comes from `cta` below.
+
+**The call to action — new and creative every time** (the user, 3 Oct:
+"every time the final CTA should be different — still saying subscribe while
+waiting for the app — and I want you super innovative and creative with it";
+the clips go to TikTok, Facebook and YouTube, and no channel is named like
+the app). Write `cta` for each video, born from that day's story — its hook,
+its twist, its last line — never a stock phrase:
+
+```json
+"cta": {
+  "story": "Every rocket starts on a launch pad.",
+  "say": "Subscribe, and count down with us to the launch of our app.",
+  "pill": "COUNTDOWN ON",
+  "note": "our history app is on its way"
+}
+```
+
+- `story`: the big serif line on the end card (≤ 40 characters) — a wink at
+  the day's story.
+- `say`: the one spoken line, ≤ 22 words, numbers spelled out. It must ask to
+  subscribe and point at the coming app (`make.mjs` refuses it otherwise, and
+  refuses a line already used on an earlier day — `log.json` keeps each day's).
+- `pill`: the button text, ≤ 16 characters, caps.
+- `note`: one short line under the button (mention the app here if `say`
+  doesn't).
+- Never name a channel. Never promise a date or a feature the app does not
+  have. Vary the shape too: a question, a countdown, a dare, a callback to the
+  story's last line.
+
+Examples of the spirit (do not reuse): Berlin Airlift → "Our app is being
+airlifted in. Subscribe, so you're at the fence when it lands."; V-2 →
+"Subscribe, and count down with us to our app's launch."
 
 **Sentences.** Each has `say` (for the voice) and `show` (for the captions):
 
@@ -256,6 +288,20 @@ out when our app comes out 📜", 6–8 hashtags incl. #history #onthisday
 #historytok) and `post.facebook` (a 4–6 short-paragraph retelling ending
 "Every day has a story like this. Follow the page to find out when our app
 comes out. 📜" + 3–4 hashtags). Same facts as the video, nothing more.
+
+`post.youtube` (the user, 3 Oct — the clips also go to YouTube Shorts):
+
+```json
+"youtube": {
+  "title": "The Rocket That Reached The Moon Began As A Nazi Weapon #Shorts",
+  "description": "2–4 short paragraphs: the story, a line inviting to subscribe while our app gets ready, then 3–5 hashtags incl. #Shorts #History #OnThisDay",
+  "tags": ["history", "on this day", "V-2 rocket", "space race", "..."]
+}
+```
+
+Title ≤ 100 characters, the hook first, ending `#Shorts`; tags 8–15, ≤ 450
+characters together. `make.mjs` writes them into POST.md with the upload
+settings (Short, not made for kids, Education).
 
 `sources`: one line per article, listing the facts used.
 
@@ -326,6 +372,10 @@ Then:
      block, so it copies in one go), then the cover note: "Cover: first
      frame / cover.jpg".
    - `### Facebook`, then the whole `post.facebook` in its own fenced block.
+   - `### YouTube` (the user, 3 Oct): the title in its own fenced block, the
+     description in its own fenced block, the tags comma-separated in their
+     own fenced block, then one line of settings: Short · not made for kids ·
+     Education · thumbnail cover.jpg.
    - One line naming the file to upload: `video/ready/<date>-<slug>/<date>-<slug>.mp4`.
 
 ## If something goes wrong

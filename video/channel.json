@@ -12,7 +12,18 @@
       "name": "HISTORY UNLOCKED",
       "tag": "coming soon to Google Play",
       "pill": "SUBSCRIBE",
-      "note": "and find out when the app comes out"
+      "note": "and find out when the app comes out",
+      "//ctas": "The user, 3 Oct: a different call to action at the end of every video (the clips also go to YouTube), always 'subscribe while you wait for the app'. make.mjs rotates through these by date, so two days running never repeat; a variant's fields replace the ones above. Never name a channel.",
+      "ctas": [
+        { "story": "Every day has a story like this.", "say": "Subscribe, to find out when our app comes out.", "pill": "SUBSCRIBE", "note": "and find out when the app comes out" },
+        { "story": "Tomorrow has a story too.", "say": "Subscribe, and be the first to know when our app is out.", "pill": "SUBSCRIBE", "note": "be the first to know when it's out" },
+        { "story": "Every date has a story.", "say": "Hit subscribe. Our app is coming, with a story for every day of the year.", "pill": "HIT SUBSCRIBE", "note": "a story for every day of the year" },
+        { "story": "History happened today, too.", "say": "Subscribe for a new story every day, while our app gets ready.", "pill": "SUBSCRIBE", "note": "a new story every day until launch" },
+        { "story": "There is more where this came from.", "say": "Stay subscribed. Our history app is on its way.", "pill": "STAY SUBSCRIBED", "note": "our history app is on its way" },
+        { "story": "Liked this story?", "say": "If you liked this one, subscribe. Our app is coming soon.", "pill": "SUBSCRIBE", "note": "our app is coming soon" },
+        { "story": "Thousands of stories. One app.", "say": "Subscribe now, and find out first when our app arrives.", "pill": "SUBSCRIBE NOW", "note": "find out first when it arrives" },
+        { "story": "One day. One story. Every day.", "say": "Subscribe, so you don't miss tomorrow's story, or our app's launch.", "pill": "DON'T MISS IT", "note": "tomorrow's story, and our launch" }
+      ]
     },
     "closed-test": {
       "say": "Our app is almost here. Subscribe, and be the first to know.",
