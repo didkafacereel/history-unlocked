@@ -1,0 +1,291 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-10-09",
+  "dateKey": "10-09",
+  "slug": "marseille-1934",
+  "title": "The Marseille assassination, 1934 — the king who feared Tuesdays",
+  "eventId": null,
+  "category": "Politics & Power",
+  "sources": [
+    "Wikipedia: Alexander I of Yugoslavia — after the deaths of three family members on Tuesdays, Alexander refused public functions on that day of the week; on Tuesday 9 October 1934 he had no choice, arriving in Marseille for a state visit to France; driven slowly through the streets with French foreign minister Louis Barthou; Vlado Chernozemski, a member of the pro-Bulgarian Internal Macedonian Revolutionary Organization (IMRO), which worked with the Croat Ustaše of Ante Pavelić, stepped into the street and shot the king and the chauffeur; Alexander died in the car; it was one of the first assassinations captured on film — the newsreel cameraman was only metres away; the exact moment was not filmed, the events before and the aftermath were; Barthou was killed by a stray bullet fired by French police — a 1935 ballistic report, kept from the public until 1974, showed he was hit by a round of the type carried by French police; about 500,000 people attended his funeral in Belgrade",
+    "Wikipedia: Vlado Chernozemski — born Velichko Kerin in Kamenitsa (now Velingrad), Bulgaria; IMRO member; trained a group of Ustaše in camps in Italy and Hungary; on 9 October the motorcade drove at 8 km/h; he leapt onto the car's running board; died after the attack",
+    "Wikipedia: Louis Barthou — French foreign minister; a bullet struck his arm and severed an artery; the ballistic report showed a French police revolver round",
+    "Also on this day (candidates.md / Wikipedia On This Day): 1676 Antonie van Leeuwenhoek wrote to the Royal Society describing 'animalcules'; 1888 the Washington Monument opened, then the world's tallest building; 1604 Kepler's Supernova, the most recent observed in the Milky Way",
+    "Archive film (public domain): Universal Newsreel '1934-10-17 King Alexander Assassination' — the arrival on the destroyer Dubrovnik, the king and Barthou in the car, the crowd; the scenes of the dead king are not used",
+    "Photos (public domain): King Alexander portrait; Louis Barthou (Bain); L'Illustration album 'La tragédie du 9 octobre'; Mundo Gráfico, 17 October 1934; the funeral in Belgrade; Marseille, La Canebière (1930s postcard); TIME cover, 1929"
+  ],
+  "music": {
+    "track": "mussorgsky-catacombs"
+  },
+  "highlight": [
+    "TUESDAY",
+    "TUESDAYS",
+    "FILM",
+    "CAMERA",
+    "POLICE",
+    "BARTHOU",
+    "MARSEILLE",
+    "1974"
+  ],
+  "cover": {
+    "image": "illustration.jpg",
+    "focus": "50% 40%",
+    "date": "9 OCTOBER 1934",
+    "top": 1020,
+    "lines": [
+      "THE KING WHO",
+      "FEARED",
+      "*TUESDAYS*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "This king never appeared in public on a Tuesday. Then he had to.",
+      "show": "This king never appeared in public on a Tuesday. Then he had to.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "It was Tuesday, the ninth of October, nineteen thirty-four.",
+      "show": "It was Tuesday, 9 October 1934.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "King Alexander of Yugoslavia had lost three relatives on Tuesdays, and avoided them.",
+      "show": "King Alexander of Yugoslavia had lost three relatives on Tuesdays, and avoided them.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "But his visit to France began on a Tuesday, in Marseille.",
+      "show": "But his visit to France began on a Tuesday, in Marseille.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s5",
+      "say": "He rode slowly through the streets with France's foreign minister, Louis Barthou.",
+      "show": "He rode slowly through the streets with France's foreign minister, Louis Barthou.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s6",
+      "say": "A newsreel camera filmed it all, from just metres away.",
+      "show": "A newsreel camera filmed it all, from just metres away.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s7",
+      "say": "A gunman leapt onto the car and shot the king and his driver.",
+      "show": "A gunman leapt onto the car and shot the king and his driver.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s8",
+      "say": "He was Vlado Chernozemski, a Bulgarian revolutionary of the I M R O, allied with the Ustaše.",
+      "show": "He was Vlado Chernozemski, a Bulgarian revolutionary of the IMRO, allied with the Ustaše.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s9",
+      "say": "The king died in the car, one of the first assassinations caught on film.",
+      "show": "The king died in the car, one of the first assassinations caught on film.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s10",
+      "say": "Barthou was hit in the arm, and bled to death.",
+      "show": "Barthou was hit in the arm, and bled to death.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s11",
+      "say": "A ballistic report, hidden until nineteen seventy-four, revealed the truth.",
+      "show": "A ballistic report, hidden until 1974, revealed the truth.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s12",
+      "say": "The bullet that killed him came from a French police gun.",
+      "show": "The bullet that killed him came from a French police gun.",
+      "pauseAfter": 0.45
+    }
+  ],
+  "also": {
+    "say": "Also on this day: Leeuwenhoek first described microscopic life, and the Washington Monument opened.",
+    "items": [
+      {
+        "year": "1676",
+        "text": "Leeuwenhoek describes tiny 'animalcules'"
+      },
+      {
+        "year": "1888",
+        "text": "Washington Monument opens — world's tallest"
+      },
+      {
+        "year": "1604",
+        "text": "Kepler's supernova lights up the sky"
+      }
+    ],
+    "image": "canebiere.jpg"
+  },
+  "cta": {
+    "story": "Some days rewrite history.",
+    "say": "Every day has a story, even Tuesday. Subscribe, and our app will tell you all of them.",
+    "pill": "EVEN ON TUESDAYS",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook — the king",
+      "image": "king-portrait.jpg",
+      "focus": "50% 25%",
+      "move": "in",
+      "fact": "King Alexander I of Yugoslavia"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.6",
+      "enter": "cut",
+      "clip": "film-title.mp4",
+      "credit": "Universal Newsreel, October 1934"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "canebiere.jpg",
+      "focus": "50% 50%",
+      "date": "9 OCTOBER",
+      "year": "1934",
+      "place": "Marseille, France"
+    },
+    {
+      "type": "statement",
+      "from": "s3",
+      "enter": "cut",
+      "image": "time-cover.jpg",
+      "focus": "50% 55%",
+      "ghost": "TUESDAY",
+      "kicker": "A king's superstition",
+      "main": {
+        "text": "Three relatives lost — all on *Tuesdays*.",
+        "at": "s3@0.25"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s4",
+      "enter": "cut",
+      "clip": "film-ship.mp4",
+      "credit": "The king's ship arrives, Marseille, 9 October 1934 · newsreel"
+    },
+    {
+      "type": "film",
+      "from": "s4@0.55",
+      "enter": "cut",
+      "clip": "film-launch.mp4",
+      "credit": "King Alexander comes ashore · newsreel, 1934"
+    },
+    {
+      "type": "film",
+      "from": "s5",
+      "enter": "cut",
+      "clip": "film-car-close.mp4",
+      "credit": "The king and Barthou in the car · newsreel, 1934"
+    },
+    {
+      "type": "film",
+      "from": "s6",
+      "enter": "cut",
+      "clip": "film-street.mp4",
+      "credit": "The motorcade · newsreel, 1934"
+    },
+    {
+      "type": "photo",
+      "from": "s7",
+      "enter": "cut",
+      "image": "scuffle.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Seconds after the shots · Mundo Gráfico, 17 October 1934"
+    },
+    {
+      "type": "photo",
+      "from": "s8",
+      "enter": "cut",
+      "image": "chernozemski.jpg",
+      "focus": "50% 25%",
+      "move": "in",
+      "kicker": "Vlado Chernozemski",
+      "fact": "Photographed c. 1934"
+    },
+    {
+      "type": "film",
+      "from": "s9",
+      "enter": "cut",
+      "clip": "film-crowd.mp4",
+      "credit": "The crowds in Marseille that day · newsreel, 1934"
+    },
+    {
+      "type": "photo",
+      "from": "s10",
+      "enter": "cut",
+      "image": "barthou.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "kicker": "Louis Barthou",
+      "fact": "France's foreign minister"
+    },
+    {
+      "type": "statement",
+      "from": "s11",
+      "enter": "cut",
+      "image": "illustration.jpg",
+      "focus": "50% 45%",
+      "ghost": "1974",
+      "kicker": "Kept secret until 1974",
+      "main": {
+        "text": "A ballistic report.",
+        "at": "s11@0.3"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s12",
+      "enter": "cut",
+      "image": "barthou.jpg",
+      "focus": "50% 30%",
+      "kicker": "The truth",
+      "main": {
+        "text": "The bullet came from a *French police* gun.",
+        "at": "s12@0.4"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "This king never appeared in public on a Tuesday. Then he had to. 📽️\n\nOn Tuesday 9 October 1934, King Alexander of Yugoslavia was shot in Marseille — in front of a newsreel camera. France's foreign minister died too. A hidden report showed his bullet came from a French police gun.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #historytok #1934 #yugoslavia #marseille",
+    "facebook": "On this day in 1934, King Alexander I of Yugoslavia was assassinated in Marseille.\n\nAlexander had lost three relatives on Tuesdays, and avoided public duties on that day of the week. But his state visit to France began on Tuesday, 9 October 1934.\n\nAs he rode slowly through the streets beside French foreign minister Louis Barthou, a newsreel cameraman filmed from just metres away. A gunman leapt onto the car and shot the king and his driver. He was Vlado Chernozemski, a Bulgarian revolutionary of the IMRO, working with the Croat Ustaše. The king died in the car — one of the first assassinations caught on film.\n\nBarthou was hit in the arm and bled to death. A ballistic report, kept from the public until 1974, showed the bullet that killed him came from a French police gun.\n\nAlso on 9 October: Leeuwenhoek first described microscopic \"animalcules\" (1676), and the Washington Monument opened (1888).\n\nEvery day of the week has a story. Follow the page to find out when our app comes out. 📜\n\n#OnThisDay #History #1934 #Yugoslavia",
+    "youtube": {
+      "title": "The King Who Never Went Out On Tuesdays #Shorts",
+      "description": "King Alexander I of Yugoslavia had lost three relatives on Tuesdays, and avoided public duties on that day. On Tuesday 9 October 1934, his state visit to France began in Marseille — and a newsreel camera filmed his car from metres away as a gunman leapt onto it. The king was killed; so was France's foreign minister Louis Barthou. A ballistic report hidden until 1974 showed Barthou's fatal bullet came from a French police gun.\n\nAlso on 9 October: Leeuwenhoek's 'animalcules' (1676), the Washington Monument opens (1888).\n\nSubscribe — our history app, with a story for every day, is on its way.\n\nFilm: Universal Newsreel, 1934 (public domain). Images: public domain via Wikimedia Commons. Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #Yugoslavia #Marseille",
+      "tags": [
+        "history",
+        "on this day",
+        "King Alexander",
+        "Yugoslavia",
+        "Marseille 1934",
+        "assassination",
+        "Louis Barthou",
+        "newsreel",
+        "1934",
+        "Balkan history",
+        "IMRO",
+        "history shorts"
+      ]
+    }
+  }
+}

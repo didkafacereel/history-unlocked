@@ -163,5 +163,16 @@
     "video": "2026-10-08-sergeant-york.mp4",
     "poster": "2026-10-08-sergeant-york.jpg",
     "bytes": 3725627
+  },
+  {
+    "date": "2026-10-09",
+    "dateKey": "10-09",
+    "slug": "marseille-1934",
+    "eventId": null,
+    "title": "The Marseille assassination, 1934 — the king who feared Tuesdays",
+    "seconds": 64.9,
+    "video": "2026-10-09-marseille-1934.mp4",
+    "poster": "2026-10-09-marseille-1934.jpg",
+    "bytes": 4151385
   }
 ]

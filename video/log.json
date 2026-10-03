@@ -135,5 +135,15 @@
     "music": "mussorgsky-bydlo",
     "seconds": 72,
     "cta": "No sir, we haven't got them all yet. Subscribe, and our app will bring you every one."
+  },
+  {
+    "date": "2026-10-09",
+    "slug": "marseille-1934",
+    "title": "The Marseille assassination, 1934 — the king who feared Tuesdays",
+    "eventId": null,
+    "category": "Politics & Power",
+    "music": "mussorgsky-catacombs",
+    "seconds": 72,
+    "cta": "Every day has a story, even Tuesday. Subscribe, and our app will tell you all of them."
   }
 ]

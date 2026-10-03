@@ -135,7 +135,7 @@ const artists = [
       .filter(([file, c]) => usedImages.has(file) && !c.film)
       .map(([, c]) => c)
       .map((c) => (c.artist ?? '').replace(/^\s*copyright\s+(by\s+)?/i, '').replace(/\s*\(.*?\)\s*/g, ' ').trim())
-      .filter((a) => a && a.length <= 40 && !/unknown|anonymous|unidentified|^user:/i.test(a)),
+      .filter((a) => a && a.length <= 40 && !/unknown|anonymous|unidentified|^user:|scann|uploader/i.test(a)),
   ),
 ].slice(0, 8);
 // Archive film is credited by its title ("How To Fly The B-26"), once per film.
