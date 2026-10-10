@@ -1,0 +1,74 @@
+{
+  "columbus.jpg": {
+    "file": "File:Portrait of a Man, Said to be Christopher Columbus.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_Man,_Said_to_be_Christopher_Columbus.jpg",
+    "licence": "Public domain",
+    "artist": "Sebastiano del Piombo",
+    "date": "before 1519date QS:P,+1519-00-00T00:00:0",
+    "description": ""
+  },
+  "landing.jpg": {
+    "file": "File:Landing of Columbus (2) (cropped).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Landing_of_Columbus_(2)_(cropped).jpg",
+    "licence": "Public domain",
+    "artist": "John Vanderlyn",
+    "date": "1847date QS:P571,+1847-00-00T00:00:00Z/9",
+    "description": "Christopher Columbus is depicted landing in the West Indies, on an island that the natives called Guanahani and he named San Salvador, on October 12, 1492. He raises the royal banner, claiming the land for his Spanish patrons, and stands ba"
+  },
+  "landing-puebla.jpg": {
+    "file": "File:Desembarco de Colón de Dióscoro Puebla.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Desembarco_de_Col%C3%B3n_de_Di%C3%B3scoro_Puebla.jpg",
+    "licence": "Public domain",
+    "artist": "Dióscoro Puebla",
+    "date": "1862date QS:P571,+1862-00-00T00:00:00Z/9",
+    "description": ""
+  },
+  "queen.jpg": {
+    "file": "File:Emanuel Gottlieb Leutze - Columbus Before the Queen.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Emanuel_Gottlieb_Leutze_-_Columbus_Before_the_Queen.JPG",
+    "licence": "Public domain",
+    "artist": "Emanuel Leutze",
+    "date": "1843date QS:P571,+1843-00-00T00:00:00Z/9",
+    "description": ""
+  },
+  "ships-1893.jpg": {
+    "file": "File:1893 Nina Pinta Santa Maria replicas.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:1893_Nina_Pinta_Santa_Maria_replicas.jpg",
+    "licence": "Public domain",
+    "artist": "E. Benjamin Andrews",
+    "date": "1912",
+    "description": "Replicas of the Caravels Pinta, Niña and the carrack Santa Maria. Lying in the North River, New York. The two caravels and the carrack which crossed from Spain to be present at the World's Fair at Chicago."
+  },
+  "america-map.jpg": {
+    "file": "File:Waldseemuller map closeup with America.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Waldseemuller_map_closeup_with_America.jpg",
+    "licence": "Public domain",
+    "artist": "Martin Waldseemüller",
+    "date": "original map: 1507",
+    "description": "Closeup of the Martin Waldseemüller map showing South America and the word \"AMERICA\""
+  },
+  "toscanelli.jpg": {
+    "file": "File:Atlantic Ocean, Toscanelli, 1474.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Atlantic_Ocean,_Toscanelli,_1474.jpg",
+    "licence": "Public domain",
+    "artist": "John George Bartholomew",
+    "date": "1884",
+    "description": "The map of the Atlantic Ocean according to Paolo dal Pozzo Toscanelli in 1474, overlaid on top of a current map."
+  },
+  "death.jpg": {
+    "file": "File:The death of Columbus.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:The_death_of_Columbus.jpg",
+    "licence": "Public domain",
+    "artist": "L. Prang & Co.",
+    "date": "1893date QS:P571,+1893-00-00T00:00:00Z/9",
+    "description": "The death of Columbus. Lithograph by L. Prang & Co., 1893."
+  },
+  "inspiration.jpg": {
+    "file": "File:Inspiración de Cristóbal Colón, por José María Obregón.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Inspiraci%C3%B3n_de_Crist%C3%B3bal_Col%C3%B3n,_por_Jos%C3%A9_Mar%C3%ADa_Obreg%C3%B3n.jpg",
+    "licence": "Public domain",
+    "artist": "Jose Maria Obregon",
+    "date": "1856date QS:P571,+1856-00-00T00:00:00Z/9",
+    "description": "Inspiration of Christopher Columbus.label QS:Les,\"Inspiracion de Cristobal Colon.\"label QS:Len,\"Inspiration of Christopher Columbus.\""
+  }
+}

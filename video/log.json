@@ -165,5 +165,15 @@
     "music": "grieg-morning",
     "seconds": 71,
     "cta": "Every day has a launch like this one. Subscribe, and count down with us to our app."
+  },
+  {
+    "date": "2026-10-12",
+    "slug": "columbus",
+    "title": "Columbus, 1492 — the sailor who saw land first, and the reward he never got",
+    "eventId": "evt-10-12-1492-voyages-of-christopher-columbus",
+    "category": "Exploration & Discovery",
+    "music": "beethoven-moonlight-1",
+    "seconds": 72,
+    "cta": "Be the lookout. Subscribe, and shout land the day our history app comes into view."
   }
 ]

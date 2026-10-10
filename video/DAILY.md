@@ -29,7 +29,10 @@ that instead. Never wait.
   `video/ready/` and to the user; they post it.
 - Never commit, push, install packages, or touch anything outside `video/`.
 - Never use an image that `images.mjs get` did not fetch — it is the licence
-  gate (public domain / CC0 only). Never draw, generate or "recreate" an image.
+  gate (public domain / CC0 only). Never draw, generate or "recreate" an image
+  or a clip — no AI images or AI video (the user, 10 Oct: "I don't want us to
+  generate these pictures or clips — take free ones"). The one other source
+  is free stock footage, step 3c.
 - Never name the TikTok channel (it is called something else than the app).
 - Never state a fact that is not in the fetched sources. No invented numbers,
   quotes, dialogue or motives. "May have", "is credited with" where the
@@ -191,6 +194,36 @@ read as "this is the event"):
 
 `upload.wikimedia.org` answers bursts with 429 — the tool waits and retries
 by itself; just run it again if it still fails.
+
+## 3c. Free stock footage — for motion (since 12 Oct, a test)
+
+The user (10 Oct): "add suitable clips to make the videos more lively — not
+generated, take free ones". When a story has no film of its own (anything
+before ~1900), 3–6 short stock shots of the *kind of thing* — sea, a ship
+under sail, birds, a candle, a beach, fire, snow — keep the picture moving
+between the paintings.
+
+- Source: **Pexels** videos (Pexels licence: free, may be cut and edited, no
+  attribution needed — we credit it anyway). Commons first if it has the shot
+  (`clips.mjs list`), but its sea and ship footage is thin. Never footage
+  marked AI-generated (Commons has Sora clips — skip them).
+- Find: Pexels search pages, portrait orientation; the page HTML lists each
+  video's files (`videos.pexels.com/video-files/<id>/…_1080_1920_….mp4`).
+  The user approves each download batch (name, source, size) — ask once,
+  for all the shots of the day. In the unattended nightly run, skip 3c.
+- **Nothing modern in frame**: no skylines, cars, people in modern clothes,
+  power lines, logos. Crop them out — cut a band of the clean part (e.g. the
+  sails above a city horizon) and lay it over a blurred copy, as the archive
+  film does:
+  ```
+  ffmpeg -ss <s> -i <clip> -t <len> -an -filter_complex "[0]crop=1080:<h>:0:<y>,split[a][b];[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:2,eq=brightness=-0.18[bg];[b]scale=1080:-2[fg];[bg][fg]overlay=0:(H-h)/2,fps=30,format=yuv420p" -c:v libx264 -crf 20 -movflags +faststart assets/stock-<name>.mp4
+  ```
+  If it cannot be cropped clean, do not use it.
+- Use it as a `film` scene. Its `credit` says what it is and ends
+  `· illustrative · Pexels` ("A galleon replica · illustrative · Pexels").
+  Never over a sentence that names a person; never as "the event itself".
+- List the shots in `sources` ("Illustrative stock footage (Pexels…)") and
+  say so in the YouTube description.
 
 ## 4. Write script.json
 

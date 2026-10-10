@@ -1,0 +1,348 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-10-12",
+  "dateKey": "10-12",
+  "slug": "columbus",
+  "title": "Columbus, 1492 — the sailor who saw land first, and the reward he never got",
+  "eventId": "evt-10-12-1492-voyages-of-christopher-columbus",
+  "category": "Exploration & Discovery",
+  "sources": [
+    "Wikipedia: Voyages of Christopher Columbus — sailed west in search of a route to India, China, Japan and the Spice Islands; three ships, the carrack Santa María and the caravels Pinta and Niña; on 10 October Columbus quelled a mutiny by sailors who wanted to abandon the search and return to Spain; at around 10 PM on 11 October Columbus thought he saw a light 'like a little wax candle rising and falling'; four hours later land was sighted by a sailor named Rodrigo de Triana; Columbus called the island San Salvador, its Indigenous name was Guanahani; he insisted he had reached Asia; Columbus died in 1506, and the next year the New World was named 'America' after Amerigo Vespucci; Columbus later participated in the beginning of the Spanish conquest of the Americas",
+    "Wikipedia: Christopher Columbus — left Palos on 3 August 1492; a five-week voyage across the ocean from La Gomera; on 7 October 'immense flocks of birds'; at around 02:00 a lookout on the Pinta, Rodrigo de Triana, spotted land; Columbus later maintained he had already seen a light hours earlier, thereby claiming for himself the lifetime pension promised by Ferdinand and Isabella to the first person to sight land; he called the inhabitants Los Indios; over his later voyages he refused to acknowledge that the lands were not part of Asia",
+    "Wikipedia: Rodrigo de Triana — on the Pinta, sighted land at about two in the morning on 12 October 1492; is reported to have shouted '¡Tierra! ¡Tierra!'",
+    "Also on this day (candidates.md, in the app): 1799 Jeanne Geneviève Garnerin becomes the first woman to make a parachute descent; 1960 Nikita Khrushchev pounds his shoe on a desk at the United Nations",
+    "Paintings and maps (public domain, Wikimedia Commons): portrait said to be Columbus (Sebastiano del Piombo); Landing of Columbus (John Vanderlyn, 1847); Desembarco de Colón (Dióscoro Puebla, 1862); Columbus Before the Queen (Emanuel Leutze, 1843); the Atlantic after Toscanelli, 1474; replicas of the Niña, Pinta and Santa María (photo, 1893); The death of Columbus (L. Prang & Co., 1893); Waldseemüller map, 1507",
+    "Illustrative stock footage (Pexels, free licence; not of the event): a galleon replica under sail, a ship at sunset, gulls over the sea, moonlight on the sea, a candle, a tropical beach"
+  ],
+  "music": {
+    "track": "beethoven-moonlight-1"
+  },
+  "highlight": [
+    "LAND",
+    "TRIANA",
+    "CANDLE",
+    "PENSION",
+    "ASIA",
+    "AMERICA",
+    "COLUMBUS",
+    "1492"
+  ],
+  "cover": {
+    "image": "landing.jpg",
+    "focus": "55% 40%",
+    "date": "12 OCTOBER 1492",
+    "lines": [
+      "THE SAILOR",
+      "WHO SAW",
+      "*AMERICA*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "A sailor saw the New World first. Columbus took his reward.",
+      "show": "A sailor saw the New World first. Columbus took his reward.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "It happened on this day in fourteen ninety-two.",
+      "show": "It happened on this day in 1492.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "Columbus had sailed west with three ships, looking for a shortcut to Asia.",
+      "show": "Columbus had sailed west with three ships, looking for a shortcut to Asia.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s4",
+      "say": "After five weeks of open ocean, his sailors wanted to go home.",
+      "show": "After five weeks of open ocean, his sailors wanted to go home.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s5",
+      "say": "Then came flocks of birds.",
+      "show": "Then came flocks of birds.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s6",
+      "say": "The king and queen had promised a pension for life to whoever saw land first.",
+      "show": "The king and queen had promised a pension for life to whoever saw land first.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s7",
+      "say": "At two in the morning, a lookout on the Pinta shouted: Land! Land!",
+      "show": "At 2 in the morning, a lookout on the Pinta shouted: \"Land! Land!\"",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s8",
+      "say": "His name was Rodrigo de Triana.",
+      "show": "His name was Rodrigo de Triana.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s9",
+      "say": "But Columbus said he had seen a light four hours earlier, like a little wax candle.",
+      "show": "But Columbus said he had seen a light 4 hours earlier, \"like a little wax candle\".",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s10",
+      "say": "The pension went to Columbus.",
+      "show": "The pension went to Columbus.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s11",
+      "say": "The island was Guanahani. He named it San Salvador.",
+      "show": "The island was Guanahani. He named it San Salvador.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s12",
+      "say": "He was sure he had reached Asia, and called its people Indians.",
+      "show": "He was sure he had reached Asia, and called its people \"Indians\".",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s13",
+      "say": "For them, it was the start of a conquest.",
+      "show": "For them, it was the start of a conquest.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s14",
+      "say": "And the year after Columbus died, the New World was named after another man.",
+      "show": "And the year after Columbus died, the New World was named after another man.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s15",
+      "say": "Amerigo Vespucci.",
+      "show": "Amerigo Vespucci.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "also": {
+    "say": "Also on this day: the first woman parachuted from a balloon, and Khrushchev banged his shoe at the UN.",
+    "items": [
+      {
+        "year": "1799",
+        "text": "First woman's parachute jump, from a balloon"
+      },
+      {
+        "year": "1960",
+        "text": "Khrushchev pounds his shoe at the UN"
+      }
+    ],
+    "image": "ships-1893.jpg"
+  },
+  "cta": {
+    "story": "Someone always sees it first.",
+    "say": "Be the lookout. Subscribe, and shout land the day our history app comes into view.",
+    "pill": "LAND HO!",
+    "note": "our history app is on the horizon"
+  },
+  "scenes": [
+    {
+      "type": "film",
+      "note": "hook — a ship under sail",
+      "clip": "stock-galleon.mp4",
+      "credit": "A galleon replica · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.55",
+      "enter": "cut",
+      "image": "columbus.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "Portrait said to be Columbus, before 1519"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "landing.jpg",
+      "focus": "55% 40%",
+      "date": "12 OCTOBER",
+      "year": "1492",
+      "place": "Guanahani, the Bahamas"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "toscanelli.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Asia, just across the Atlantic: the map Columbus trusted"
+    },
+    {
+      "type": "photo",
+      "from": "s3@0.5",
+      "enter": "cut",
+      "image": "ships-1893.jpg",
+      "focus": "40% 50%",
+      "move": "in",
+      "fact": "Replicas of the Santa María, Pinta and Niña, 1893"
+    },
+    {
+      "type": "film",
+      "from": "s4",
+      "enter": "cut",
+      "clip": "stock-sunset-ship.mp4",
+      "credit": "A replica ship at sea · illustrative · Pexels"
+    },
+    {
+      "type": "film",
+      "from": "s5",
+      "enter": "cut",
+      "clip": "stock-gulls.mp4",
+      "credit": "Birds over the sea · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s6",
+      "enter": "cut",
+      "image": "queen.jpg",
+      "focus": "60% 40%",
+      "move": "in",
+      "fact": "Columbus before Queen Isabella, painted 1843"
+    },
+    {
+      "type": "film",
+      "from": "s7",
+      "enter": "cut",
+      "clip": "stock-moon-sea.mp4",
+      "credit": "Night at sea · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s8",
+      "enter": "cut",
+      "image": "ships-1893.jpg",
+      "focus": "60% 50%",
+      "kicker": "Lookout on the Pinta",
+      "main": {
+        "text": "Rodrigo de *Triana*",
+        "at": "s8@0.4"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s9",
+      "enter": "cut",
+      "image": "inspiration.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "Columbus, painted by José María Obregón, 1856"
+    },
+    {
+      "type": "film",
+      "from": "s9@0.42",
+      "enter": "cut",
+      "clip": "stock-candle.mp4",
+      "credit": "A candle · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s10",
+      "enter": "cut",
+      "image": "columbus.jpg",
+      "focus": "50% 30%",
+      "ghost": "PENSION",
+      "kicker": "For life",
+      "main": {
+        "text": "The pension went to *Columbus*.",
+        "at": "s10@0.3"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s11",
+      "enter": "cut",
+      "clip": "stock-beach.mp4",
+      "credit": "Palms on a tropical shore · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s11@0.5",
+      "enter": "cut",
+      "image": "landing-puebla.jpg",
+      "focus": "45% 50%",
+      "move": "in",
+      "fact": "The landing, painted by Dióscoro Puebla, 1862"
+    },
+    {
+      "type": "photo",
+      "from": "s12",
+      "enter": "cut",
+      "image": "toscanelli.jpg",
+      "focus": "30% 50%",
+      "move": "in",
+      "fact": "Columbus believed Asia lay just here"
+    },
+    {
+      "type": "photo",
+      "from": "s13",
+      "enter": "cut",
+      "image": "landing.jpg",
+      "focus": "15% 55%",
+      "move": "in",
+      "fact": "Landing of Columbus, John Vanderlyn, 1847 (detail)"
+    },
+    {
+      "type": "photo",
+      "from": "s14",
+      "enter": "cut",
+      "image": "death.jpg",
+      "focus": "50% 45%",
+      "move": "in",
+      "fact": "The death of Columbus, 1506 · lithograph, 1893"
+    },
+    {
+      "type": "statement",
+      "from": "s14@0.6",
+      "enter": "cut",
+      "image": "america-map.jpg",
+      "focus": "50% 60%",
+      "ghost": "AMERICA",
+      "kicker": "Waldseemüller map, 1507",
+      "main": {
+        "text": "Named after *Amerigo Vespucci*.",
+        "at": "s15"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "A sailor spotted the New World first — and Columbus took his reward. ⚓🕯️\n\n12 October 1492: at 2 a.m. a lookout on the Pinta, Rodrigo de Triana, shouted \"Land!\" But Columbus claimed he'd seen a light hours earlier — and the lifetime pension went to him. He died sure it was Asia.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #historytok #columbus #1492 #explorers",
+    "facebook": "On this day in 1492, Christopher Columbus's ships reached an island in the Bahamas: Guanahani to its people, San Salvador to Columbus.\n\nThe voyage had nearly ended two days earlier, when sailors who wanted to turn back rose against him. Then came \"immense flocks of birds\", and debris floating on the sea.\n\nKing Ferdinand and Queen Isabella had promised a lifetime pension to the first person to sight land. At about two in the morning, a lookout on the Pinta, Rodrigo de Triana, did — and is said to have shouted \"¡Tierra! ¡Tierra!\" But Columbus maintained that four hours earlier he had seen a light \"like a little wax candle rising and falling\". The pension went to Columbus.\n\nHe was sure he had reached Asia, and called the people he met \"Indians\". For them, it was the beginning of the Spanish conquest. Columbus never accepted that the lands were not Asia — and the year after he died in 1506, the New World was named after another explorer: Amerigo Vespucci.\n\nAlso on 12 October: Jeanne Geneviève Garnerin became the first woman to make a parachute jump (1799), and Khrushchev pounded his shoe at the UN (1960).\n\nBe the lookout. Follow the page and be first to spot our history app. 📜\n\n#OnThisDay #History #Columbus #1492",
+    "youtube": {
+      "title": "The Sailor Who Saw America First (Columbus Took His Reward) #Shorts",
+      "description": "12 October 1492: after five weeks at sea and a near-mutiny, a lookout on the Pinta, Rodrigo de Triana, spotted land at two in the morning. The king and queen had promised a lifetime pension to the first to see land — but Columbus said he had seen a light hours earlier, \"like a little wax candle\", and took the reward himself. He was sure he had reached Asia. The year after he died, the New World was named after another man: Amerigo Vespucci.\n\nAlso on 12 October: the first woman's parachute jump (1799) and Khrushchev's shoe at the UN (1960).\n\nSubscribe — our history app, with a story for every date, is on the horizon.\n\nPaintings and maps: public domain (Wikimedia Commons). Sea, ship, candle and beach shots: illustrative stock footage (Pexels), not of the event. Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #Columbus #1492",
+      "tags": [
+        "history",
+        "on this day",
+        "Christopher Columbus",
+        "1492",
+        "Rodrigo de Triana",
+        "Age of Discovery",
+        "Pinta",
+        "Santa Maria",
+        "Amerigo Vespucci",
+        "explorers",
+        "history facts",
+        "history shorts"
+      ]
+    },
+    "pinned": "Columbus claimed he saw a light before Triana saw land. Honest mistake — or did he steal the sailor's reward? 👇"
+  }
+}

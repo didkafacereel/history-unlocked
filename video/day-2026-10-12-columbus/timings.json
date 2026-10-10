@@ -1,0 +1,107 @@
+{
+  "total": 71.672,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "A sailor saw the New World first. Columbus took his reward.",
+      "start": 0.4,
+      "end": 4.325
+    },
+    {
+      "id": "s2",
+      "show": "It happened on this day in 1492.",
+      "start": 4.775,
+      "end": 7.719
+    },
+    {
+      "id": "s3",
+      "show": "Columbus had sailed west with three ships, looking for a shortcut to Asia.",
+      "start": 8.119,
+      "end": 12.642
+    },
+    {
+      "id": "s4",
+      "show": "After five weeks of open ocean, his sailors wanted to go home.",
+      "start": 12.992,
+      "end": 17.429
+    },
+    {
+      "id": "s5",
+      "show": "Then came flocks of birds.",
+      "start": 17.829,
+      "end": 19.643
+    },
+    {
+      "id": "s6",
+      "show": "The king and queen had promised a pension for life to whoever saw land first.",
+      "start": 19.993,
+      "end": 24.729
+    },
+    {
+      "id": "s7",
+      "show": "At 2 in the morning, a lookout on the Pinta shouted: \"Land! Land!\"",
+      "start": 25.179,
+      "end": 29.36
+    },
+    {
+      "id": "s8",
+      "show": "His name was Rodrigo de Triana.",
+      "start": 29.76,
+      "end": 32.235
+    },
+    {
+      "id": "s9",
+      "show": "But Columbus said he had seen a light 4 hours earlier, \"like a little wax candle\".",
+      "start": 32.735,
+      "end": 37.535
+    },
+    {
+      "id": "s10",
+      "show": "The pension went to Columbus.",
+      "start": 37.985,
+      "end": 39.777
+    },
+    {
+      "id": "s11",
+      "show": "The island was Guanahani. He named it San Salvador.",
+      "start": 40.377,
+      "end": 44.067
+    },
+    {
+      "id": "s12",
+      "show": "He was sure he had reached Asia, and called its people \"Indians\".",
+      "start": 44.417,
+      "end": 48.151
+    },
+    {
+      "id": "s13",
+      "show": "For them, it was the start of a conquest.",
+      "start": 48.501,
+      "end": 51.061
+    },
+    {
+      "id": "s14",
+      "show": "And the year after Columbus died, the New World was named after another man.",
+      "start": 51.511,
+      "end": 56.375
+    },
+    {
+      "id": "s15",
+      "show": "Amerigo Vespucci.",
+      "start": 56.725,
+      "end": 58.346
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: the first woman parachuted from a balloon, and Khrushchev banged his shoe at the UN.",
+      "start": 58.946,
+      "end": 65.623
+    },
+    {
+      "id": "end2",
+      "show": "Be the lookout. Subscribe, and shout land the day our history app comes into view.",
+      "start": 66.073,
+      "end": 71.172
+    }
+  ]
+}
