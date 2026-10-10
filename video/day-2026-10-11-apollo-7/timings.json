@@ -1,0 +1,89 @@
+{
+  "total": 70.435,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "Three astronauts caught colds in space, and started arguing with Mission Control.",
+      "start": 0.4,
+      "end": 5.733
+    },
+    {
+      "id": "s2",
+      "show": "Apollo 7 launched on this day in 1968.",
+      "start": 6.183,
+      "end": 9.895
+    },
+    {
+      "id": "s3",
+      "show": "The first Apollo flight with a crew, after the fire that killed the crew of Apollo 1.",
+      "start": 10.295,
+      "end": 15.735
+    },
+    {
+      "id": "s4",
+      "show": "Commander Wally Schirra brought instant coffee, against doctors' orders.",
+      "start": 16.185,
+      "end": 20.793
+    },
+    {
+      "id": "s5",
+      "show": "By the end of day one, he had a cold. Soon all three did.",
+      "start": 21.143,
+      "end": 24.813
+    },
+    {
+      "id": "s6",
+      "show": "They still made the first live TV broadcast from an American spacecraft.",
+      "start": 25.263,
+      "end": 29.764
+    },
+    {
+      "id": "s7",
+      "show": "Tempers ran short. One astronaut said: \"Somebody down there screwed up royally.\"",
+      "start": 30.114,
+      "end": 35.426
+    },
+    {
+      "id": "s8",
+      "show": "For re-entry, Houston wanted helmets on.",
+      "start": 35.876,
+      "end": 38.735
+    },
+    {
+      "id": "s9",
+      "show": "Schirra feared their blocked ears might burst. \"I'm on board,\" he said. \"I'm commanding.\"",
+      "start": 39.085,
+      "end": 44.525
+    },
+    {
+      "id": "s10",
+      "show": "They landed without helmets. The mission met 101 percent of its goals.",
+      "start": 44.975,
+      "end": 49.945
+    },
+    {
+      "id": "s11",
+      "show": "Two months later, Apollo 8 flew around the Moon.",
+      "start": 50.395,
+      "end": 53.553
+    },
+    {
+      "id": "s12",
+      "show": "But none of the three ever flew in space again.",
+      "start": 53.953,
+      "end": 56.619
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: the first American woman walked in space, and Reagan met Gorbachev in Iceland.",
+      "start": 57.069,
+      "end": 63.939
+    },
+    {
+      "id": "end2",
+      "show": "Every day has a launch like this one. Subscribe, and count down with us to our app.",
+      "start": 64.389,
+      "end": 69.935
+    }
+  ]
+}

@@ -185,5 +185,16 @@
     "video": "2026-10-10-wuchang-1911.mp4",
     "poster": "2026-10-10-wuchang-1911.jpg",
     "bytes": 4730076
+  },
+  {
+    "date": "2026-10-11",
+    "dateKey": "10-11",
+    "slug": "apollo-7",
+    "eventId": "evt-10-11-1968-apollo-7",
+    "title": "Apollo 7, 1968 — the crew with colds who argued with Mission Control",
+    "seconds": 64,
+    "video": "2026-10-11-apollo-7.mp4",
+    "poster": "2026-10-11-apollo-7.jpg",
+    "bytes": 4664996
   }
 ]

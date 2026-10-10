@@ -155,5 +155,15 @@
     "music": "mussorgsky-old-castle",
     "seconds": 71,
     "cta": "History turns on accidents like this one. Subscribe, so you don't miss the next one, or our app's launch."
+  },
+  {
+    "date": "2026-10-11",
+    "slug": "apollo-7",
+    "title": "Apollo 7, 1968 — the crew with colds who argued with Mission Control",
+    "eventId": "evt-10-11-1968-apollo-7",
+    "category": "Science & Technology",
+    "music": "grieg-morning",
+    "seconds": 71,
+    "cta": "Every day has a launch like this one. Subscribe, and count down with us to our app."
   }
 ]

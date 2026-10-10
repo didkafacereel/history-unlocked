@@ -136,6 +136,14 @@
       "seconds": 63.3,
       "video": "2026-10-10-wuchang-1911.mp4?v=4730076",
       "poster": "2026-10-10-wuchang-1911.jpg?v=104956"
+    },
+    "10-11": {
+      "date": "2026-10-11",
+      "eventId": "evt-10-11-1968-apollo-7",
+      "title": "Apollo 7, 1968 — the crew with colds who argued with Mission Control",
+      "seconds": 64,
+      "video": "2026-10-11-apollo-7.mp4?v=4664996",
+      "poster": "2026-10-11-apollo-7.jpg?v=105041"
     }
   }
 }

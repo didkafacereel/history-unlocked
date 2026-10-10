@@ -1,0 +1,298 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-10-11",
+  "dateKey": "10-11",
+  "slug": "apollo-7",
+  "title": "Apollo 7, 1968 — the crew with colds who argued with Mission Control",
+  "eventId": "evt-10-11-1968-apollo-7",
+  "category": "Science & Technology",
+  "sources": [
+    "Wikipedia: Apollo 7 — first crewed flight of the Apollo program, launched 11 October 1968, resuming crewed flights after the Apollo 1 fire killed three astronauts in a launch rehearsal on 27 January 1967; crew Walter Schirra (45, the oldest person to that point to enter space, the only astronaut to fly Mercury, Gemini and Apollo), Donn Eisele, Walter Cunningham; Saturn IB; first hot meal prepared on an American spacecraft; Schirra brought instant coffee over the opposition of NASA doctors; by the end of the first day Schirra reported a cold; the first live television broadcast from an American spacecraft on 14 October, opening with a card 'From the Lovely Apollo Room high atop everything'; tension with ground controllers; Eisele: 'somebody down there screwed up royally'; Schirra refused advice to wear helmets for reentry, fearing their eardrums might burst with their colds — 'I'm on board, I'm commanding'; no helmets were worn; splashdown 22 October; General Sam Phillips: '101 percent of our objectives'; Apollo 8 flew to the Moon two months later; none of the crew flew in space again; they were the only Apollo crew not given the Distinguished Service Medal after their mission — awarded in October 2008, when only Cunningham was alive; Schirra turned his cold into an Actifed advertising contract",
+    "Also on this day (candidates.md, in the app): 1984 Kathryn D. Sullivan becomes the first American woman to walk in space; 1986 Reagan and Gorbachev meet at the Reykjavík Summit",
+    "Archive film (public domain): NASA, 'The Flight of Apollo 7' (1968)",
+    "Photos (public domain, NASA): Apollo 7 prime crew, May 1968; Apollo 1 prime crew, 1966; walk-out on launch day; Apollo 7 in flight (ALOTS); the first live TV transmission, 14 October 1968; the crew aboard USS Essex, 22 October 1968"
+  ],
+  "music": {
+    "track": "grieg-morning"
+  },
+  "highlight": [
+    "COLDS",
+    "COLD",
+    "HELMETS",
+    "COFFEE",
+    "TV",
+    "101",
+    "NEVER",
+    "APOLLO",
+    "2008"
+  ],
+  "cover": {
+    "image": "crew-1968.jpg",
+    "focus": "50% 30%",
+    "date": "11 OCTOBER 1968",
+    "top": 1060,
+    "lines": [
+      "3 ASTRONAUTS",
+      "WITH *COLDS*",
+      "VS *NASA*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "Three astronauts caught colds in space, and started arguing with Mission Control.",
+      "show": "Three astronauts caught colds in space, and started arguing with Mission Control.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "Apollo seven launched on this day in nineteen sixty-eight.",
+      "show": "Apollo 7 launched on this day in 1968.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "The first Apollo flight with a crew, after the fire that killed the crew of Apollo one.",
+      "show": "The first Apollo flight with a crew, after the fire that killed the crew of Apollo 1.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s4",
+      "say": "Commander Wally Schirra brought instant coffee, against doctors' orders.",
+      "show": "Commander Wally Schirra brought instant coffee, against doctors' orders.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s5",
+      "say": "By the end of day one, he had a cold. Soon all three did.",
+      "show": "By the end of day one, he had a cold. Soon all three did.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s6",
+      "say": "They still made the first live TV broadcast from an American spacecraft.",
+      "show": "They still made the first live TV broadcast from an American spacecraft.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s7",
+      "say": "Tempers ran short. One astronaut said: somebody down there screwed up royally.",
+      "show": "Tempers ran short. One astronaut said: \"Somebody down there screwed up royally.\"",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s8",
+      "say": "For re-entry, Houston wanted helmets on.",
+      "show": "For re-entry, Houston wanted helmets on.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s9",
+      "say": "Schirra feared their blocked ears might burst. I'm on board, he said. I'm commanding.",
+      "show": "Schirra feared their blocked ears might burst. \"I'm on board,\" he said. \"I'm commanding.\"",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s10",
+      "say": "They landed without helmets. The mission met a hundred and one percent of its goals.",
+      "show": "They landed without helmets. The mission met 101 percent of its goals.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s11",
+      "say": "Two months later, Apollo eight flew around the Moon.",
+      "show": "Two months later, Apollo 8 flew around the Moon.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s12",
+      "say": "But none of the three ever flew in space again.",
+      "show": "But none of the three ever flew in space again.",
+      "pauseAfter": 0.45
+    }
+  ],
+  "also": {
+    "say": "Also on this day: the first American woman walked in space, and Reagan met Gorbachev in Iceland.",
+    "items": [
+      {
+        "year": "1984",
+        "text": "First American woman walks in space"
+      },
+      {
+        "year": "1986",
+        "text": "Reagan and Gorbachev meet in Reykjavík"
+      }
+    ],
+    "image": "launch-photo.jpg"
+  },
+  "cta": {
+    "story": "Houston, we have a story.",
+    "say": "Every day has a launch like this one. Subscribe, and count down with us to our app.",
+    "pill": "T-MINUS ZERO",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook — the crew",
+      "image": "crew-1968.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "Eisele, Schirra, Cunningham, 1968"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.72",
+      "enter": "cut",
+      "clip": "film-control.mp4",
+      "credit": "Mission Control, 1968 · NASA film"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "launch-photo.jpg",
+      "focus": "60% 40%",
+      "date": "11 OCTOBER",
+      "year": "1968",
+      "place": "Cape Kennedy, Florida"
+    },
+    {
+      "type": "film",
+      "from": "s2@0.5",
+      "enter": "cut",
+      "clip": "film-launch.mp4",
+      "credit": "Apollo 7 lifts off · NASA film"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "apollo1-crew.jpg",
+      "focus": "50% 35%",
+      "move": "in",
+      "fact": "The Apollo 1 crew: Grissom, White, Chaffee"
+    },
+    {
+      "type": "film",
+      "from": "s4",
+      "enter": "cut",
+      "clip": "film-suits.mp4",
+      "credit": "The crew suits up, 11 October 1968 · NASA film"
+    },
+    {
+      "type": "film",
+      "from": "s5",
+      "enter": "cut",
+      "clip": "film-cabin.mp4",
+      "credit": "Inside Apollo 7 · NASA film"
+    },
+    {
+      "type": "photo",
+      "from": "s6",
+      "enter": "cut",
+      "image": "tv-1968.jpg",
+      "focus": "50% 45%",
+      "move": "in",
+      "fact": "The first live TV from Apollo 7, 14 October 1968"
+    },
+    {
+      "type": "statement",
+      "from": "s7",
+      "enter": "cut",
+      "image": "slayton.jpg",
+      "focus": "50% 40%",
+      "kicker": "Donn Eisele, day 8",
+      "main": {
+        "text": "“Somebody down there *screwed up royally*.”",
+        "at": "s7@0.5"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s8",
+      "enter": "cut",
+      "clip": "film-panel.mp4",
+      "credit": "Inside Apollo 7 · NASA film"
+    },
+    {
+      "type": "quote",
+      "from": "s9",
+      "enter": "cut",
+      "image": "crew-1968.jpg",
+      "focus": "45% 30%",
+      "kicker": "Wally Schirra",
+      "quote": {
+        "text": "I'm on board. I'm commanding.",
+        "at": "s9@0.55"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s10",
+      "enter": "cut",
+      "clip": "film-reentry.mp4",
+      "credit": "Re-entry · NASA film"
+    },
+    {
+      "type": "film",
+      "from": "s10@0.45",
+      "enter": "cut",
+      "clip": "film-splash.mp4",
+      "credit": "Splashdown, 22 October 1968 · NASA film"
+    },
+    {
+      "type": "film",
+      "from": "s11",
+      "enter": "cut",
+      "clip": "film-earth.mp4",
+      "credit": "Earth from Apollo 7 · NASA film"
+    },
+    {
+      "type": "photo",
+      "from": "s12",
+      "enter": "cut",
+      "image": "essex.jpg",
+      "focus": "50% 45%",
+      "move": "in",
+      "fact": "Aboard USS Essex, 22 October 1968"
+    },
+    {
+      "type": "statement",
+      "from": "s12@0.5",
+      "enter": "cut",
+      "image": "debrief.jpg",
+      "focus": "50% 40%",
+      "ghost": "NEVER",
+      "kicker": "Cunningham · Eisele · Schirra",
+      "main": {
+        "text": "None of them flew in space *again*.",
+        "at": "s12@0.55"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "Three astronauts caught colds in space — and started arguing with Mission Control. 🚀🤧\n\nApollo 7 launched on 11 October 1968, the first crewed Apollo after the Apollo 1 fire. The commander refused to wear his helmet for re-entry. The mission was a success — but none of the three ever flew again.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #historytok #apollo #nasa #space #1968",
+    "facebook": "On this day in 1968, Apollo 7 launched: the first Apollo flight with a crew, after the fire that killed the three astronauts of Apollo 1.\n\nCommander Wally Schirra brought instant coffee, against his doctors' advice. By the end of the first day he had a cold. The crew still made the first live TV broadcast from an American spacecraft, opening with a card: \"From the Lovely Apollo Room high atop everything.\"\n\nBut tempers ran short. \"Somebody down there screwed up royally,\" Donn Eisele told the ground. For re-entry, Houston wanted helmets on; Schirra, afraid their blocked ears might burst, refused: \"I'm on board, I'm commanding.\" They came home without helmets, and the mission met \"101 percent\" of its objectives. Two months later, Apollo 8 flew around the Moon.\n\nNone of the three ever flew in space again. They were the only Apollo crew not given NASA's Distinguished Service Medal after their mission — it came in 2008, when only Walter Cunningham was still alive.\n\nAlso on 11 October: Kathryn Sullivan became the first American woman to walk in space (1984).\n\nEvery day has a launch like this one. Follow the page to find out when our app comes out. 📜\n\n#OnThisDay #History #Apollo7 #NASA",
+    "youtube": {
+      "title": "The Astronauts Who Caught Colds And Fought Mission Control #Shorts",
+      "description": "Apollo 7 launched on 11 October 1968 — the first crewed Apollo flight, after the Apollo 1 fire. Commander Wally Schirra brought instant coffee against his doctors' advice, caught a cold on day one, and the crew's tempers ran short. For re-entry he refused to wear his helmet: \"I'm on board, I'm commanding.\" The mission met 101 percent of its goals and opened the way to the Moon — but none of the three ever flew in space again. Their medals came 40 years later.\n\nAlso on 11 October: Kathryn Sullivan, the first American woman to walk in space (1984).\n\nSubscribe — our history app, with a story for every date, is on its way.\n\nFilm and photos: NASA, public domain. Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #Apollo #NASA",
+      "tags": [
+        "history",
+        "on this day",
+        "Apollo 7",
+        "Wally Schirra",
+        "NASA",
+        "space race",
+        "Apollo program",
+        "1968",
+        "Mission Control",
+        "astronauts",
+        "space history",
+        "history shorts"
+      ]
+    },
+    "pinned": "Schirra refused to wear his helmet against Mission Control's orders. Was he right to put his crew first — or should the commander always follow the ground? 👇"
+  }
+}
