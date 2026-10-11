@@ -1,0 +1,331 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-10-14",
+  "dateKey": "10-14",
+  "slug": "yeager",
+  "title": "Chuck Yeager, 1947 — faster than sound, with two broken ribs",
+  "eventId": "evt-10-14-1947-chuck-yeager",
+  "category": "Science & Technology",
+  "sources": [
+    "Wikipedia: Chuck Yeager — first human to officially break the sound barrier, 14 October 1947, in the Bell X-1 at 45,000 ft; two nights before, he went horseback riding with his wife and fell, breaking two ribs under his right arm; worried the injury would remove him from the mission, he had a civilian doctor in nearby Rosamond tape his ribs; to seal the hatch the pilot had to slam down a heavy lever with the right arm, so he secretly asked his friend and fellow project pilot Jack Ridley, who sawed off the end of a broom handle for him to use as a lever; flown over the Rogers Dry Lake, Mojave Desert; the X-1 named Glamorous Glennis after his wife Glennis; the success was not announced to the public for nearly eight months (10 June 1948); on 14 October 1997, the 50th anniversary, he flew an F-15D past Mach 1 (born 13 February 1923)",
+    "Wikipedia: Bell X-1 — a rocket plane, in principle a 'bullet with wings', its shape closely resembling a Browning .50-calibre machine-gun bullet; drop-launched from the bomb bay of a B-29",
+    "Also on this day (candidates.md, in the app): 1066 the Battle of Hastings; 1926 the first Winnie-the-Pooh book is published",
+    "Archive film (public domain): US Air Force, 'Chuck Yeager Breaking The Sound Barrier 1947' (Air Photographic and Charting Service)",
+    "Photos (public domain / CC0): Yeager in the X-1 cockpit; Captain Charles E. Yeager; Yeager beside Glamorous Glennis; the X-1's nose art and hatch (Bell Aircraft, 1946); Yeager, Gus Lundquist and James Fitzgerald, 1947; the X-1 in the belly of a B-29; the X-1 in flight",
+    "Illustrative stock footage (Pexels, free licence; not of the event): a rider and horse at sunset",
+    "Photo (public domain, USAF): Yeager prepares to board an F-15D, 14 October 2012"
+  ],
+  "music": {
+    "track": "grieg-concerto-adagio"
+  },
+  "highlight": [
+    "RIBS",
+    "BROKEN",
+    "BROOM",
+    "SOUND",
+    "SECRET",
+    "GLENNIS",
+    "AGAIN",
+    "74"
+  ],
+  "cover": {
+    "image": "cockpit.jpg",
+    "focus": "35% 45%",
+    "date": "14 OCTOBER 1947",
+    "lines": [
+      "SUPERSONIC",
+      "WITH *BROKEN*",
+      "*RIBS*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "The first man to fly faster than sound did it with two broken ribs.",
+      "show": "The first man to fly faster than sound did it with two broken ribs.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "It happened on this day in nineteen forty-seven.",
+      "show": "It happened on this day in 1947.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "The plane was the Bell X-one, a rocket shaped like a machine-gun bullet.",
+      "show": "The plane was the Bell X-1, a rocket shaped like a machine-gun bullet.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "Two nights before the flight, test pilot Chuck Yeager fell off a horse.",
+      "show": "Two nights before the flight, test pilot Chuck Yeager fell off a horse.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s5",
+      "say": "Afraid he'd be grounded, he had a civilian doctor tape up his ribs.",
+      "show": "Afraid he'd be grounded, he had a civilian doctor tape up his ribs.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s6",
+      "say": "But with those ribs, he couldn't slam the hatch shut.",
+      "show": "But with those ribs, he couldn't slam the hatch shut.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s7",
+      "say": "His friend Jack Ridley sawed off a broom handle, to use as a lever.",
+      "show": "His friend Jack Ridley sawed off a broom handle, to use as a lever.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s8",
+      "say": "A B-twenty-nine bomber carried the X-one up, and dropped it.",
+      "show": "A B-29 bomber carried the X-1 up, and dropped it.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s9",
+      "say": "Yeager had named it Glamorous Glennis, after his wife.",
+      "show": "Yeager had named it Glamorous Glennis, after his wife.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s10",
+      "say": "Forty-five thousand feet over the Mojave Desert, he flew faster than sound.",
+      "show": "45,000 feet over the Mojave Desert, he flew faster than sound.",
+      "pauseAfter": 0.55
+    },
+    {
+      "id": "s11",
+      "say": "The world wasn't told for nearly eight months.",
+      "show": "The world wasn't told for nearly eight months.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s12",
+      "say": "Fifty years later, to the day, he did it again. He was seventy-four.",
+      "show": "Fifty years later, to the day, he did it again. He was 74.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "also": {
+    "say": "Also on this day: the Battle of Hastings changed England, and Winnie-the-Pooh first appeared in a book.",
+    "items": [
+      {
+        "year": "1066",
+        "text": "The Battle of Hastings"
+      },
+      {
+        "year": "1926",
+        "text": "The first Winnie-the-Pooh book"
+      }
+    ],
+    "image": "x1-flight.jpg"
+  },
+  "cta": {
+    "story": "Some barriers are made to break.",
+    "say": "Our app is still waiting on the runway. Subscribe, and be on board when it breaks through.",
+    "pill": "MACH 1 SOON",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook — Yeager in the cockpit, same picture as the cover",
+      "image": "cockpit.jpg",
+      "focus": "35% 45%",
+      "move": "in"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.4",
+      "enter": "cut",
+      "clip": "film-trail.mp4",
+      "credit": "An X-1 under rocket power, 1947 · US Air Force film"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "x1-flight.jpg",
+      "focus": "50% 50%",
+      "date": "14 OCTOBER",
+      "year": "1947",
+      "place": "Mojave Desert, California"
+    },
+    {
+      "type": "film",
+      "from": "s3",
+      "enter": "cut",
+      "clip": "film-engine.mp4",
+      "credit": "The X-1's rocket engine on test · US Air Force film"
+    },
+    {
+      "type": "photo",
+      "from": "s4",
+      "enter": "cut",
+      "image": "yeager.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "Captain Charles \"Chuck\" Yeager"
+    },
+    {
+      "type": "film",
+      "from": "s4@0.6",
+      "enter": "cut",
+      "clip": "stock-horse.mp4",
+      "credit": "A rider at dusk · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s5",
+      "enter": "cut",
+      "image": "yeager-x1.jpg",
+      "focus": "45% 40%",
+      "ghost": "RIBS",
+      "kicker": "Rosamond, California",
+      "main": {
+        "text": "A *civilian* doctor taped them.",
+        "at": "s5@0.6"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s6",
+      "enter": "cut",
+      "image": "hatch.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The X-1's hatch, 1946"
+    },
+    {
+      "type": "film",
+      "from": "s6@0.55",
+      "enter": "cut",
+      "clip": "film-climb.mp4",
+      "credit": "Climbing into the X-1 from the B-29 · US Air Force film"
+    },
+    {
+      "type": "statement",
+      "from": "s7",
+      "enter": "cut",
+      "image": "hatch.jpg",
+      "focus": "50% 50%",
+      "ghost": "BROOM",
+      "kicker": "Jack Ridley's fix",
+      "main": {
+        "text": "A sawed-off *broom handle*.",
+        "at": "s7@0.45"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s8",
+      "enter": "cut",
+      "clip": "film-mothership.mp4",
+      "credit": "The B-29 carries the X-1 · US Air Force film"
+    },
+    {
+      "type": "film",
+      "from": "s8@0.6",
+      "enter": "cut",
+      "clip": "film-drop.mp4",
+      "credit": "The drop · US Air Force film"
+    },
+    {
+      "type": "photo",
+      "from": "s9",
+      "enter": "cut",
+      "image": "glennis.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Glamorous Glennis"
+    },
+    {
+      "type": "film",
+      "from": "s10",
+      "enter": "cut",
+      "clip": "film-flight.mp4",
+      "credit": "The X-1 in flight · US Air Force film"
+    },
+    {
+      "type": "statement",
+      "from": "s10@0.6",
+      "enter": "cut",
+      "image": "x1-flight.jpg",
+      "focus": "50% 50%",
+      "ghost": "MACH 1",
+      "kicker": "14 October 1947",
+      "main": {
+        "text": "Faster than *sound*.",
+        "at": "s10@0.8"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s11",
+      "enter": "cut",
+      "image": "team.jpg",
+      "focus": "30% 40%",
+      "move": "in",
+      "fact": "Yeager (left) with Gus Lundquist and James Fitzgerald, 1947"
+    },
+    {
+      "type": "film",
+      "from": "s11@0.55",
+      "enter": "cut",
+      "clip": "film-landing.mp4",
+      "credit": "The X-1 lands on the dry lake · US Air Force film"
+    },
+    {
+      "type": "photo",
+      "from": "s12",
+      "enter": "cut",
+      "image": "yeager-2012.jpg",
+      "focus": "45% 40%",
+      "move": "in",
+      "fact": "Yeager boards an F-15D, 14 October 2012"
+    },
+    {
+      "type": "statement",
+      "from": "s12@0.5",
+      "enter": "cut",
+      "image": "yeager-2012.jpg",
+      "focus": "45% 40%",
+      "ghost": "1997",
+      "kicker": "14 October 1997",
+      "main": {
+        "text": "He did it *again*, at 74.",
+        "at": "s12@0.6"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "The first man to fly faster than sound did it with two broken ribs. ✈️💥\n\n14 October 1947: Chuck Yeager fell off a horse two nights before the flight, hid it, and closed the X-1's hatch with a sawed-off broom handle. Then he broke the sound barrier — and the world wasn't told for months.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #historytok #aviation #soundbarrier #1947",
+    "facebook": "On this day in 1947, Captain Chuck Yeager became the first person to officially fly faster than sound.\n\nTwo nights before the flight, he went riding with his wife, fell off a horse and broke two ribs. Worried he would be taken off the mission, he had a civilian doctor in nearby Rosamond tape them up. But to seal the hatch of the Bell X-1, the pilot had to slam down a heavy lever with his right arm — so his friend and fellow pilot Jack Ridley sawed off the end of a broom handle for him to use as a lever.\n\nA B-29 carried the X-1 — a rocket plane shaped like a .50-calibre bullet, named Glamorous Glennis after Yeager's wife — and dropped it over the Mojave Desert. At 45,000 feet, Yeager went supersonic. The success was kept from the public for nearly eight months.\n\nFifty years later, on 14 October 1997, he flew past Mach 1 again, in an F-15. He was 74.\n\nAlso on 14 October: the Battle of Hastings (1066), and the first Winnie-the-Pooh book (1926).\n\nOur app is still on the runway. Follow the page and be on board when it breaks through. 📜\n\n#OnThisDay #History #ChuckYeager #Aviation",
+    "youtube": {
+      "title": "He Broke The Sound Barrier With Two Broken Ribs #Shorts",
+      "description": "14 October 1947: two nights before the flight, test pilot Chuck Yeager fell off a horse and broke two ribs. He hid it, had a civilian doctor tape him up, and closed the Bell X-1's hatch with a sawed-off broom handle his friend Jack Ridley made for him. Dropped from a B-29 over the Mojave Desert, he became the first man to fly faster than sound — and the world wasn't told for nearly eight months. Fifty years later to the day, at 74, he did it again.\n\nAlso on 14 October: the Battle of Hastings (1066) and the first Winnie-the-Pooh book (1926).\n\nSubscribe — our history app, with a story for every date, is on its way.\n\nFilm: US Air Force, 1947, public domain. Photos: USAF / Bell Aircraft, public domain (Wikimedia Commons). Horse shot: illustrative stock footage (Pexels), not of the event. Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #ChuckYeager #Aviation",
+      "tags": [
+        "history",
+        "on this day",
+        "Chuck Yeager",
+        "sound barrier",
+        "Bell X-1",
+        "1947",
+        "aviation history",
+        "test pilot",
+        "Glamorous Glennis",
+        "Mach 1",
+        "history facts",
+        "history shorts"
+      ]
+    },
+    "pinned": "Yeager hid two broken ribs to keep his seat on the flight. Brave — or reckless? Would you have told the doctors? 👇"
+  }
+}

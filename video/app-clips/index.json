@@ -218,5 +218,16 @@
     "video": "2026-10-13-templars.mp4",
     "poster": "2026-10-13-templars.jpg",
     "bytes": 4704782
+  },
+  {
+    "date": "2026-10-14",
+    "dateKey": "10-14",
+    "slug": "yeager",
+    "eventId": "evt-10-14-1947-chuck-yeager",
+    "title": "Chuck Yeager, 1947 — faster than sound, with two broken ribs",
+    "seconds": 59.4,
+    "video": "2026-10-14-yeager.mp4",
+    "poster": "2026-10-14-yeager.jpg",
+    "bytes": 3729823
   }
 ]

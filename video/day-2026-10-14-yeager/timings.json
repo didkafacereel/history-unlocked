@@ -1,0 +1,89 @@
+{
+  "total": 65.829,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "The first man to fly faster than sound did it with two broken ribs.",
+      "start": 0.4,
+      "end": 4.965
+    },
+    {
+      "id": "s2",
+      "show": "It happened on this day in 1947.",
+      "start": 5.415,
+      "end": 8.423
+    },
+    {
+      "id": "s3",
+      "show": "The plane was the Bell X-1, a rocket shaped like a machine-gun bullet.",
+      "start": 8.823,
+      "end": 13.474
+    },
+    {
+      "id": "s4",
+      "show": "Two nights before the flight, test pilot Chuck Yeager fell off a horse.",
+      "start": 13.874,
+      "end": 18.119
+    },
+    {
+      "id": "s5",
+      "show": "Afraid he'd be grounded, he had a civilian doctor tape up his ribs.",
+      "start": 18.519,
+      "end": 22.935
+    },
+    {
+      "id": "s6",
+      "show": "But with those ribs, he couldn't slam the hatch shut.",
+      "start": 23.385,
+      "end": 26.265
+    },
+    {
+      "id": "s7",
+      "show": "His friend Jack Ridley sawed off a broom handle, to use as a lever.",
+      "start": 26.615,
+      "end": 30.925
+    },
+    {
+      "id": "s8",
+      "show": "A B-29 bomber carried the X-1 up, and dropped it.",
+      "start": 31.425,
+      "end": 35.307
+    },
+    {
+      "id": "s9",
+      "show": "Yeager had named it Glamorous Glennis, after his wife.",
+      "start": 35.657,
+      "end": 39.113
+    },
+    {
+      "id": "s10",
+      "show": "45,000 feet over the Mojave Desert, he flew faster than sound.",
+      "start": 39.513,
+      "end": 44.676
+    },
+    {
+      "id": "s11",
+      "show": "The world wasn't told for nearly eight months.",
+      "start": 45.226,
+      "end": 47.615
+    },
+    {
+      "id": "s12",
+      "show": "Fifty years later, to the day, he did it again. He was 74.",
+      "start": 48.065,
+      "end": 52.332
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: the Battle of Hastings changed England, and Winnie-the-Pooh first appeared in a book.",
+      "start": 52.932,
+      "end": 59.332
+    },
+    {
+      "id": "end2",
+      "show": "Our app is still waiting on the runway. Subscribe, and be on board when it breaks through.",
+      "start": 59.782,
+      "end": 65.329
+    }
+  ]
+}

@@ -185,5 +185,15 @@
     "music": "mussorgsky-catacombs",
     "seconds": 72,
     "cta": "Like those sealed orders, our app awaits its dawn. Subscribe, and be there when it opens."
+  },
+  {
+    "date": "2026-10-14",
+    "slug": "yeager",
+    "title": "Chuck Yeager, 1947 — faster than sound, with two broken ribs",
+    "eventId": "evt-10-14-1947-chuck-yeager",
+    "category": "Science & Technology",
+    "music": "grieg-concerto-adagio",
+    "seconds": 66,
+    "cta": "Our app is still waiting on the runway. Subscribe, and be on board when it breaks through."
   }
 ]
