@@ -1,0 +1,95 @@
+{
+  "total": 71.989,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "On a Friday the 13th, at dawn, a king arrested an order of knights \"as rich as kings\".",
+      "start": 0.4,
+      "end": 6.395
+    },
+    {
+      "id": "s2",
+      "show": "It happened on this day in 1307.",
+      "start": 6.845,
+      "end": 9.575
+    },
+    {
+      "id": "s3",
+      "show": "King Philip IV of France was deeply in debt to the Knights Templar.",
+      "start": 9.975,
+      "end": 14.178
+    },
+    {
+      "id": "s4",
+      "show": "A month earlier, he had sent secret orders across his kingdom.",
+      "start": 14.528,
+      "end": 18.411
+    },
+    {
+      "id": "s5",
+      "show": "At dawn, his soldiers seized every Templar they could find, all at once.",
+      "start": 18.811,
+      "end": 23.696
+    },
+    {
+      "id": "s6",
+      "show": "The charges: spitting on the cross, and worshipping a bearded head.",
+      "start": 24.146,
+      "end": 28.135
+    },
+    {
+      "id": "s7",
+      "show": "In Paris, under torture, almost all of them confessed.",
+      "start": 28.535,
+      "end": 32.098
+    },
+    {
+      "id": "s8",
+      "show": "In 1312, the Pope dissolved the order.",
+      "start": 32.548,
+      "end": 35.599
+    },
+    {
+      "id": "s9",
+      "show": "In 1314, Grand Master Jacques de Molay took back his confession.",
+      "start": 35.999,
+      "end": 40.82
+    },
+    {
+      "id": "s10",
+      "show": "He was burned on an island in the Seine.",
+      "start": 41.22,
+      "end": 43.481
+    },
+    {
+      "id": "s11",
+      "show": "A witness said he told the crowd that God would avenge them.",
+      "start": 43.981,
+      "end": 47.715
+    },
+    {
+      "id": "s12",
+      "show": "Within a year, the Pope and the King were both dead.",
+      "start": 48.165,
+      "end": 51.023
+    },
+    {
+      "id": "s13",
+      "show": "Some say this is where the fear of Friday the 13th began. The truth is murkier.",
+      "start": 51.623,
+      "end": 57.106
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: the Miracle of the Sun at Fátima, and thirty-three miners rescued after sixty-nine days.",
+      "start": 57.706,
+      "end": 64.981
+    },
+    {
+      "id": "end2",
+      "show": "Like those sealed orders, our app awaits its dawn. Subscribe, and be there when it opens.",
+      "start": 65.431,
+      "end": 71.489
+    }
+  ]
+}

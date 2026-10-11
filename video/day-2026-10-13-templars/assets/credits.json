@@ -1,0 +1,74 @@
+{
+  "arrest.jpg": {
+    "file": "File:Arrest of the Templars - Chroniques de France ou de St. Denis (end 14th C), f.42v - BL Royal MS 20 C VII.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Arrest_of_the_Templars_-_Chroniques_de_France_ou_de_St._Denis_(end_14th_C),_f.42v_-_BL_Royal_MS_20_C_VII.jpg",
+    "licence": "CC0",
+    "artist": "",
+    "date": "late 14th centurydate QS:P571,+1350-00-0",
+    "description": "Arrest of the Templars (Miniature and text) The arrest of the Templars in 1308. Text beginning with decorated initial 'E'"
+  },
+  "burning.jpg": {
+    "file": "File:Templars Burning.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Templars_Burning.jpg",
+    "licence": "Public domain",
+    "artist": "Workshop of Virgil Master",
+    "date": "after 1380date QS:P571,+1380-00-00T00:00",
+    "description": "Detail of a miniature of the burning of the Grand Master of the Templars and another Templar. From the Chroniques de France ou de St Denis, BL Royal MS 20 C vii f. 48r"
+  },
+  "molay.jpg": {
+    "file": "File:JacquesdeMolay.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:JacquesdeMolay.jpg",
+    "licence": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "date": "19th centurydate QS:P,+1850-00-00T00:00:",
+    "description": "Jacques de Molay"
+  },
+  "interrogation.jpg": {
+    "file": "File:InterrogationOfJacquesDeMolay.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:InterrogationOfJacquesDeMolay.JPG",
+    "licence": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "date": "19th centurydate QS:P,+1850-00-00T00:00:",
+    "description": "Interrogation Of Jacques De Molay"
+  },
+  "philip.jpg": {
+    "file": "File:Philippe IV le Bel.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Philippe_IV_le_Bel.jpg",
+    "licence": "Public domain",
+    "artist": "anonymous",
+    "date": "16th centurydate QS:P571,+1550-00-00T00:",
+    "description": "Peinture réalisée d'après l'image gravée sur le grand sceau du roi. Un médaillon, au milieu de la partie inférieure de la bordure, présente l'image du contre-sceau royal"
+  },
+  "clement.jpg": {
+    "file": "File:Hayton of Corycus before Pope Clement V.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Hayton_of_Corycus_before_Pope_Clement_V.jpg",
+    "licence": "Public domain",
+    "artist": "Maître du Couronnement de la Vierge",
+    "date": "vers 1400",
+    "description": "Hayton of Corycus remits his report on the Mongols to Pope Clement V (1307)"
+  },
+  "seal.jpg": {
+    "file": "File:Templari Paris.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Templari_Paris.jpg",
+    "licence": "Public domain",
+    "artist": "Matthew Paris",
+    "date": "13th centurydate QS:P,+1250-00-00T00:00:",
+    "description": "Drawing of two knights on a horse, the emblem of the Knights Templar, from the Historia Anglorum of Matthew Paris."
+  },
+  "battle.jpg": {
+    "file": "File:Battle of Cresson.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Battle_of_Cresson.jpg",
+    "licence": "Public domain",
+    "artist": "Jean Colombe",
+    "date": "circa 1474date QS:P,+1474-00-00T00:00:00",
+    "description": "Miniature of the Battle of Cresson Bibliothèque Nationale FR. 5594 Fol. 197, Sebastian Mamerot, Les Passages fait Outremer, vers 1490"
+  },
+  "charter.jpg": {
+    "file": "File:Donation faite par le roi de France Philippe IV Le Bel aux chapelains et marguilliers de la Sainte-Chapelle du palais à Paris - Archives Nationales - AE-II-293.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Donation_faite_par_le_roi_de_France_Philippe_IV_Le_Bel_aux_chapelains_et_marguilliers_de_la_Sainte-Chapelle_du_palais_%C3%A0_Paris_-_Archives_Nationales_-_AE-II-293.jpg",
+    "licence": "Public domain",
+    "artist": "",
+    "date": "February 1286date QS:P571,+1286-02-00T00",
+    "description": "Donation faite par le roi de France Philippe IV Le Bel aux chapelains et marguilliers de la Sainte-Chapelle du palais à Paris. Paris, février 1286"
+  }
+}

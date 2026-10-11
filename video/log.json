@@ -175,5 +175,15 @@
     "music": "beethoven-moonlight-1",
     "seconds": 72,
     "cta": "Be the lookout. Subscribe, and shout land the day our history app comes into view."
+  },
+  {
+    "date": "2026-10-13",
+    "slug": "templars",
+    "title": "The fall of the Knights Templar, 1307 — the original Friday the 13th?",
+    "eventId": "evt-10-13-1307-philip-iv-of-france",
+    "category": "Politics & Power",
+    "music": "mussorgsky-catacombs",
+    "seconds": 72,
+    "cta": "Like those sealed orders, our app awaits its dawn. Subscribe, and be there when it opens."
   }
 ]

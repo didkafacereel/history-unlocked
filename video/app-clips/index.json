@@ -207,5 +207,16 @@
     "video": "2026-10-12-columbus.mp4",
     "poster": "2026-10-12-columbus.jpg",
     "bytes": 6520093
+  },
+  {
+    "date": "2026-10-13",
+    "dateKey": "10-13",
+    "slug": "templars",
+    "eventId": "evt-10-13-1307-philip-iv-of-france",
+    "title": "The fall of the Knights Templar, 1307 — the original Friday the 13th?",
+    "seconds": 65,
+    "video": "2026-10-13-templars.mp4",
+    "poster": "2026-10-13-templars.jpg",
+    "bytes": 4704782
   }
 ]

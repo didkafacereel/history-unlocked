@@ -152,6 +152,14 @@
       "seconds": 65.7,
       "video": "2026-10-12-columbus.mp4?v=6520093",
       "poster": "2026-10-12-columbus.jpg?v=90552"
+    },
+    "10-13": {
+      "date": "2026-10-13",
+      "eventId": "evt-10-13-1307-philip-iv-of-france",
+      "title": "The fall of the Knights Templar, 1307 — the original Friday the 13th?",
+      "seconds": 65,
+      "video": "2026-10-13-templars.mp4?v=4704782",
+      "poster": "2026-10-13-templars.jpg?v=122875"
     }
   }
 }

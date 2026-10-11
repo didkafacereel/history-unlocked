@@ -1,0 +1,361 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-10-13",
+  "dateKey": "10-13",
+  "slug": "templars",
+  "title": "The fall of the Knights Templar, 1307 — the original Friday the 13th?",
+  "eventId": "evt-10-13-1307-philip-iv-of-france",
+  "category": "Politics & Power",
+  "sources": [
+    "Wikipedia: Trials of the Knights Templar — Philip IV, heavily in debt, saw eliminating the Templars as a way of easing his finances and removing a powerful rival; on 14 September 1307 secret orders went to all bailiffs and seneschals, the arrests to be made a month later; at dawn on Friday 13 October 1307 his soldiers captured all Templars found in France, simultaneously; charges: denying Christ, spitting on the Cross, an idol like a human head with a long beard; under torture, of 138 prisoners in Paris almost all admitted guilt to one or more charges; 1312, Council of Vienne, the bull Vox in excelso dissolved the order; 18 March 1314 de Molay and de Charney recanted and were found guilty as relapsed heretics",
+    "Wikipedia: Jacques de Molay — Philip IV, deeply in debt to the Templars; tortured into false confessions; burned on a scaffold on an island in the Seine in March 1314; an eyewitness said Molay showed no fear and told those present that God would avenge their deaths; Clement V died on 20 April 1314 and Philip died of a stroke while hunting, both within a year of the execution",
+    "Wikipedia: Knights Templar — resentment of their privileges and of their being 'rich as kings'",
+    "Wikipedia: Friday the 13th — some cite the arrest of the Templars on Friday 13 October 1307 as the origin of the superstition, but it is agreed the origins remain murky",
+    "Also on this day (candidates.md, in the app): 1917 the 'Miracle of the Sun' witnessed by tens of thousands at Cova da Iria, Fátima; 2010 the 33 miners trapped at Copiapó, Chile, reach the surface after 69 days underground",
+    "Pictures (public domain / CC0, Wikimedia Commons): the arrest of the Templars, Chroniques de France ou de St Denis (end of the 14th c.), British Library Royal MS 20 C VII; Templars burned; Jacques de Molay (19th-c. portrait); the interrogation of Jacques de Molay (19th-c. engraving); Philip IV 'le Bel'; Hayton of Corycus before Pope Clement V; Matthew Paris's drawing of two Templars on one horse; the Battle of Cresson; a charter of Philip IV",
+    "Illustrative stock footage (Pexels, free licence; not of the event): a torch at night, a church tower at dawn, a castle above the fog, fire"
+  ],
+  "music": {
+    "track": "mussorgsky-catacombs"
+  },
+  "highlight": [
+    "FRIDAY",
+    "13TH",
+    "DAWN",
+    "DEBT",
+    "TORTURE",
+    "BURNED",
+    "AVENGE",
+    "DEAD",
+    "TEMPLAR"
+  ],
+  "cover": {
+    "image": "arrest.jpg",
+    "focus": "50% 45%",
+    "date": "13 OCTOBER 1307",
+    "lines": [
+      "FRIDAY",
+      "THE *13TH*",
+      "AT DAWN"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "On a Friday the thirteenth, at dawn, a king arrested an order of knights as rich as kings.",
+      "show": "On a Friday the 13th, at dawn, a king arrested an order of knights \"as rich as kings\".",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "It happened on this day in thirteen oh-seven.",
+      "show": "It happened on this day in 1307.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "King Philip the Fourth of France was deeply in debt to the Knights Templar.",
+      "show": "King Philip IV of France was deeply in debt to the Knights Templar.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s4",
+      "say": "A month earlier, he had sent secret orders across his kingdom.",
+      "show": "A month earlier, he had sent secret orders across his kingdom.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s5",
+      "say": "At dawn, his soldiers seized every Templar they could find, all at once.",
+      "show": "At dawn, his soldiers seized every Templar they could find, all at once.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s6",
+      "say": "The charges: spitting on the cross, and worshipping a bearded head.",
+      "show": "The charges: spitting on the cross, and worshipping a bearded head.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s7",
+      "say": "In Paris, under torture, almost all of them confessed.",
+      "show": "In Paris, under torture, almost all of them confessed.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s8",
+      "say": "In thirteen twelve, the Pope dissolved the order.",
+      "show": "In 1312, the Pope dissolved the order.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s9",
+      "say": "In thirteen fourteen, Grand Master Jacques de Molay took back his confession.",
+      "show": "In 1314, Grand Master Jacques de Molay took back his confession.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s10",
+      "say": "He was burned on an island in the Seine.",
+      "show": "He was burned on an island in the Seine.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s11",
+      "say": "A witness said he told the crowd that God would avenge them.",
+      "show": "A witness said he told the crowd that God would avenge them.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s12",
+      "say": "Within a year, the Pope and the King were both dead.",
+      "show": "Within a year, the Pope and the King were both dead.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s13",
+      "say": "Some say this is where the fear of Friday the thirteenth began. The truth is murkier.",
+      "show": "Some say this is where the fear of Friday the 13th began. The truth is murkier.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "also": {
+    "say": "Also on this day: the Miracle of the Sun at Fátima, and thirty-three miners rescued after sixty-nine days.",
+    "items": [
+      {
+        "year": "1917",
+        "text": "The \"Miracle of the Sun\" at Fátima"
+      },
+      {
+        "year": "2010",
+        "text": "33 Chilean miners rescued after 69 days"
+      }
+    ],
+    "image": "seal.jpg"
+  },
+  "cta": {
+    "story": "Some orders wait for dawn.",
+    "say": "Like those sealed orders, our app awaits its dawn. Subscribe, and be there when it opens.",
+    "pill": "OPEN AT DAWN",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook — the arrest, same picture as the cover",
+      "image": "arrest.jpg",
+      "focus": "50% 45%",
+      "move": "in"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.3",
+      "enter": "cut",
+      "clip": "stock-torch.mp4",
+      "credit": "A torch in the night · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.62",
+      "enter": "cut",
+      "image": "seal.jpg",
+      "focus": "45% 55%",
+      "move": "in",
+      "fact": "Two Templars on one horse, drawn by Matthew Paris"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "arrest.jpg",
+      "focus": "50% 40%",
+      "date": "13 OCTOBER",
+      "year": "1307",
+      "place": "Kingdom of France"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "philip.jpg",
+      "focus": "50% 35%",
+      "move": "in",
+      "fact": "King Philip IV, \"the Fair\""
+    },
+    {
+      "type": "photo",
+      "from": "s3@0.6",
+      "enter": "cut",
+      "image": "battle.jpg",
+      "focus": "50% 60%",
+      "move": "in",
+      "fact": "Templar knights in battle, Cresson, 1187"
+    },
+    {
+      "type": "photo",
+      "from": "s4",
+      "enter": "cut",
+      "image": "charter.jpg",
+      "focus": "50% 60%",
+      "move": "in",
+      "fact": "A charter sealed by Philip IV"
+    },
+    {
+      "type": "film",
+      "from": "s4@0.5",
+      "enter": "cut",
+      "clip": "stock-castle-fog.mp4",
+      "credit": "A castle at dawn · illustrative · Pexels"
+    },
+    {
+      "type": "film",
+      "from": "s5",
+      "enter": "cut",
+      "clip": "stock-tower-dawn.mp4",
+      "credit": "Dawn · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s5@0.5",
+      "enter": "cut",
+      "image": "arrest.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "The arrest, in a chronicle of the late 1300s"
+    },
+    {
+      "type": "statement",
+      "from": "s6",
+      "enter": "cut",
+      "image": "seal.jpg",
+      "focus": "50% 50%",
+      "ghost": "HERESY",
+      "kicker": "The charges",
+      "main": {
+        "text": "Spitting on the *cross*.",
+        "at": "s6@0.45"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s7",
+      "enter": "cut",
+      "image": "interrogation.jpg",
+      "focus": "60% 45%",
+      "move": "in",
+      "fact": "The interrogation of Jacques de Molay, 19th-century engraving"
+    },
+    {
+      "type": "photo",
+      "from": "s8",
+      "enter": "cut",
+      "image": "clement.jpg",
+      "focus": "45% 45%",
+      "move": "in",
+      "fact": "Pope Clement V, on the throne"
+    },
+    {
+      "type": "photo",
+      "from": "s9",
+      "enter": "cut",
+      "image": "molay.jpg",
+      "focus": "50% 25%",
+      "move": "in",
+      "fact": "Jacques de Molay, the last Grand Master"
+    },
+    {
+      "type": "photo",
+      "from": "s9@0.5",
+      "enter": "cut",
+      "image": "interrogation.jpg",
+      "focus": "35% 50%",
+      "move": "in",
+      "fact": "De Molay before his judges, 19th-century engraving"
+    },
+    {
+      "type": "photo",
+      "from": "s10",
+      "enter": "cut",
+      "image": "burning.jpg",
+      "focus": "50% 55%",
+      "move": "in",
+      "fact": "Templars at the stake, in a 14th-century chronicle"
+    },
+    {
+      "type": "film",
+      "from": "s10@0.55",
+      "enter": "cut",
+      "clip": "stock-fire.mp4",
+      "credit": "Fire · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s11",
+      "enter": "cut",
+      "image": "molay.jpg",
+      "focus": "50% 25%",
+      "kicker": "As an eyewitness told it",
+      "main": {
+        "text": "God would *avenge* them.",
+        "at": "s11@0.6"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s12",
+      "enter": "cut",
+      "image": "philip.jpg",
+      "focus": "50% 35%",
+      "ghost": "1314",
+      "kicker": "Clement V · Philip IV",
+      "main": {
+        "text": "Both *dead* within a year.",
+        "at": "s12@0.5"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s13",
+      "enter": "cut",
+      "image": "arrest.jpg",
+      "focus": "50% 45%",
+      "ghost": "13",
+      "kicker": "The origins remain murky",
+      "main": {
+        "text": "Friday the *13th*?",
+        "at": "s13@0.3"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s13@0.62",
+      "enter": "cut",
+      "clip": "stock-torch.mp4",
+      "credit": "A torch in the night · illustrative · Pexels"
+    }
+  ],
+  "post": {
+    "tiktok": "Friday the 13th, 1307: at dawn, the King of France arrested the Knights Templar — everywhere at once. ⚔️🔥\n\nPhilip IV owed them a fortune. Tortured confessions, a dissolved order, and a Grand Master burned in Paris — who, a witness said, promised God would avenge them. Within a year, the Pope and the King were dead.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #historytok #templars #friday13th #medieval",
+    "facebook": "On Friday 13 October 1307, at dawn, the soldiers of King Philip IV of France seized every Knight Templar they could find — all at the same moment.\n\nPhilip was deeply in debt to the order, whose members were resented as \"rich as kings\". A month earlier he had sent secret orders to every bailiff and seneschal in France. The charges were monstrous: denying Christ, spitting on the cross, worshipping an idol shaped like a bearded head. In Paris, under torture, almost all of the 138 prisoners confessed.\n\nIn 1312 Pope Clement V dissolved the order. In 1314 the Grand Master, Jacques de Molay, took back his confession — and was burned on an island in the Seine. An eyewitness said he showed no fear and told the crowd that God would avenge their deaths. Within a year, both Pope Clement and King Philip were dead.\n\nSome trace the fear of Friday the 13th to that dawn in 1307. Historians agree the origins remain murky.\n\nAlso on 13 October: the \"Miracle of the Sun\" at Fátima (1917), and the rescue of 33 Chilean miners after 69 days underground (2010).\n\nLike the king's sealed orders, our app is waiting for its dawn. Follow the page and be there when it opens. 📜\n\n#OnThisDay #History #KnightsTemplar #Friday13th",
+    "youtube": {
+      "title": "Friday the 13th, 1307: The Dawn the Templars Fell #Shorts",
+      "description": "At dawn on Friday 13 October 1307, King Philip IV of France — deeply in debt to the Knights Templar — had every Templar in France arrested at once, on secret orders sent a month earlier. Under torture, almost all confessed. In 1312 the Pope dissolved the order; in 1314 the Grand Master, Jacques de Molay, took back his confession and was burned on an island in the Seine. A witness said he told the crowd God would avenge them — and within a year, the Pope and the King were both dead. Is this where the fear of Friday the 13th began? The origins remain murky.\n\nAlso on 13 October: the Miracle of the Sun at Fátima (1917) and the rescue of 33 Chilean miners (2010).\n\nSubscribe — our history app, with a story for every date, is on its way.\n\nPictures: medieval manuscripts and 19th-century prints, public domain (Wikimedia Commons). Torch, tower, castle and fire shots: illustrative stock footage (Pexels), not of the event. Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #KnightsTemplar #Friday13th",
+      "tags": [
+        "history",
+        "on this day",
+        "Knights Templar",
+        "Friday the 13th",
+        "1307",
+        "Jacques de Molay",
+        "Philip IV",
+        "Templars",
+        "medieval history",
+        "crusades",
+        "history facts",
+        "history shorts"
+      ]
+    },
+    "pinned": "Philip IV owed the Templars a fortune — then accused them of heresy. Real heresy trial, or the biggest debt write-off in history? 👇"
+  }
+}
