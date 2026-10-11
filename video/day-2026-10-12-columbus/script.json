@@ -152,10 +152,18 @@
   },
   "scenes": [
     {
+      "type": "photo",
+      "note": "hook — the landing, same picture as the cover",
+      "image": "landing.jpg",
+      "focus": "55% 40%",
+      "move": "in"
+    },
+    {
       "type": "film",
-      "note": "hook — a ship under sail",
       "clip": "stock-galleon.mp4",
-      "credit": "A galleon replica · illustrative · Pexels"
+      "credit": "A galleon replica · illustrative · Pexels",
+      "from": "s1@0.14",
+      "enter": "cut"
     },
     {
       "type": "photo",

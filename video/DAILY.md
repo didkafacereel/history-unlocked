@@ -216,8 +216,20 @@ between the paintings.
   sails above a city horizon) and lay it over a blurred copy, as the archive
   film does:
   ```
-  ffmpeg -ss <s> -i <clip> -t <len> -an -filter_complex "[0]crop=1080:<h>:0:<y>,split[a][b];[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:2,eq=brightness=-0.18[bg];[b]scale=1080:-2[fg];[bg][fg]overlay=0:(H-h)/2,fps=30,format=yuv420p" -c:v libx264 -crf 20 -movflags +faststart assets/stock-<name>.mp4
+  ffmpeg -ss <s> -i <clip> -t <len> -an -filter_complex "[0]crop=1080:<h>:0:<y>,split[a][b];[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:2,eq=brightness=-0.18[bg];[b]scale=1080:-2[fg];[bg][fg]overlay=0:(H-h)/2,fps=30,format=yuv420p" -c:v libx264 -crf 20 -g 30 -keyint_min 30 -movflags +faststart assets/stock-<name>.mp4
   ```
+  **HDR phone clips must be tone-mapped to SDR.** Check
+  `ffprobe -v error -select_streams v:0 -show_entries stream=color_transfer -of csv=p=0 <clip>`:
+  `arib-std-b67` (HLG) or `smpte2084` (PQ) is HDR — put
+  `zscale=t=linear:npl=100,format=gbrpf32le,zscale=p=bt709,tonemap=hable:desat=0,zscale=t=bt709:m=bt709:r=tv,format=yuv420p,`
+  at the start of the filter and add `-color_primaries bt709 -color_trc bt709 -colorspace bt709`.
+  One HDR clip (the gulls, 12 Oct) switched the renderer into its HDR mode,
+  which held the cover over the first 18 s and took an hour; `make.mjs` now
+  refuses to render one.
+  `-g 30 -keyint_min 30` is not optional either: without a keyframe every second the
+  renderer cannot seek the clip, and on 12 Oct it froze the cover over the
+  first 18 s (its log says "sparse keyframes … causes seek failures and frame
+  freezing").
   If it cannot be cropped clean, do not use it.
 - Use it as a `film` scene. Its `credit` says what it is and ends
   `· illustrative · Pexels` ("A galleon replica · illustrative · Pexels").
@@ -410,6 +422,24 @@ node D:/android/history-unlocked/video/tools/make.mjs D:/android/history-unlocke
 changed since; otherwise run without flags.) It renders, verifies length and
 loudness, cuts `cover.jpg`, writes `video/ready/<date>-<slug>/` with the mp4,
 cover and `POST.md`, and logs the day in `video/log.json`.
+
+**Look at the rendered mp4 itself before delivering** — the snapshots are not
+the render. On 12 Oct the cover sat over the first 18 s of the video although
+every snapshot was right (the user: "the first ~15 s are one static
+picture") — one stock clip was HDR, which switches the renderer into a mode
+that misbehaves (see 3c). Tile one frame a second of the final
+file and Read it:
+
+```bash
+node D:/android/history-unlocked/video/tools/make.mjs D:/android/history-unlocked/video/day-<date>-<slug> --render-only
+```
+is followed by Read of a sheet made with
+`ffmpeg -i <ready mp4> -vf "fps=1,scale=180:-1,tile=8x9" -frames:v 1 sheet.jpg`
+(`make.mjs` now also refuses a render where a scene's middle still looks like
+the cover, but a sheet catches other freezes too). Every second must
+show the scene the script puts there — the cover only in the first 0.4 s. If a
+stretch is frozen, render again with nothing else rendering, and with
+`PRODUCER_PLAYER_READY_TIMEOUT_MS=120000` set.
 
 It also cuts the in-app version into `video/app-clips/`. Put it in the app:
 

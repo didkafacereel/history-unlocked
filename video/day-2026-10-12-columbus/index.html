@@ -130,7 +130,7 @@ html, body { margin: 0; overflow: hidden; background: var(--void); }
     <div id="root" class="fast" data-composition-id="main" data-start="0" data-duration="71.772" data-width="1080" data-height="1920">
       <div id="cover" class="clip" data-start="0" data-duration="0.4" data-track-index="20" style="position: absolute; inset: 0; z-index: 40">
         <div class="layer solid"></div>
-        <img class="cover" src="assets/landing--3.jpg" alt="" style="object-position: 55% 40%" />
+        <img class="cover" src="assets/landing--4.jpg" alt="" style="object-position: 55% 40%" />
         <div class="layer c-shade"></div>
         <div class="c-box">
           <div class="c-kicker">ON THIS DAY</div>
@@ -139,256 +139,270 @@ html, body { margin: 0; overflow: hidden; background: var(--void); }
         </div>
       </div>
 
-      <video id="scene1-film" class="clip film" src="assets/stock-galleon.mp4" data-start="0" data-duration="2.559" data-track-index="1" style="z-index: 1" muted playsinline></video>
-
-      <!-- 1 ── film · hook — a ship under sail -->
-      <div id="scene1" class="scene clip" data-start="0" data-duration="2.559" data-track-index="1" style="z-index: 1">
+      <!-- 1 ── photo · hook — the landing, same picture as the cover -->
+      <div id="scene1" class="scene clip" data-start="0" data-duration="0.95" data-track-index="1" style="z-index: 1">
         <div id="scene1-in" class="layer">
-      
-      <div id="scene1-credit" class="italic f-credit">A galleon replica · illustrative · Pexels</div>
+      <div class="layer solid"></div>
+      <div id="scene1-kb" class="layer" data-layout-allow-overflow><img class="cover" src="assets/landing.jpg" alt="" style="object-position: 55% 40%" /></div>
+      <div class="layer bare"></div>
+      <div class="content p-text">
+        
+        
+        
+      </div>
         </div>
       </div>
 
-      <!-- 2 ── photo -->
-      <div id="scene2" class="scene clip" data-start="2.559" data-duration="2.216" data-track-index="2" style="z-index: 2">
+      <video id="scene2-film" class="clip film" src="assets/stock-galleon.mp4" data-start="0.95" data-duration="1.609" data-track-index="2" style="z-index: 2" muted playsinline></video>
+
+      <!-- 2 ── film -->
+      <div id="scene2" class="scene clip" data-start="0.95" data-duration="1.609" data-track-index="2" style="z-index: 2">
         <div id="scene2-in" class="layer">
+      
+      <div id="scene2-credit" class="italic f-credit">A galleon replica · illustrative · Pexels</div>
+        </div>
+      </div>
+
+      <!-- 3 ── photo -->
+      <div id="scene3" class="scene clip" data-start="2.559" data-duration="2.216" data-track-index="3" style="z-index: 3">
+        <div id="scene3-in" class="layer">
       <div class="layer solid"></div>
-      <div id="scene2-kb" class="layer" data-layout-allow-overflow><img class="cover" src="assets/columbus.jpg" alt="" style="object-position: 50% 30%" /></div>
+      <div id="scene3-kb" class="layer" data-layout-allow-overflow><img class="cover" src="assets/columbus.jpg" alt="" style="object-position: 50% 30%" /></div>
       <div class="layer shade-top"></div>
       <div class="content p-text">
         
         
-        <div id="scene2-fact" class="italic p-fact">Portrait said to be Columbus, before 1519</div>
+        <div id="scene3-fact" class="italic p-fact">Portrait said to be Columbus, before 1519</div>
       </div>
         </div>
       </div>
 
-      <!-- 3 ── title -->
-      <div id="scene3" class="scene clip" data-start="4.775" data-duration="3.344" data-track-index="3" style="z-index: 3">
-        <div id="scene3-in" class="layer">
+      <!-- 4 ── title -->
+      <div id="scene4" class="scene clip" data-start="4.775" data-duration="3.344" data-track-index="4" style="z-index: 4">
+        <div id="scene4-in" class="layer">
       <div class="layer solid"></div>
-      <div id="scene3-kb" class="layer" data-layout-allow-overflow><img class="cover" src="assets/landing.jpg" alt="" style="object-position: 55% 40%" /></div>
+      <div id="scene4-kb" class="layer" data-layout-allow-overflow><img class="cover" src="assets/landing--2.jpg" alt="" style="object-position: 55% 40%" /></div>
       <div class="layer shade"></div>
       <div class="layer glow"></div>
       <div class="content">
-        <div id="scene3-kicker" class="kicker">On this day</div>
-        <div id="scene3-date" class="t-date">12 OCTOBER</div>
-        <div id="scene3-year" class="t-year" style="font-size: 330px">1492</div>
-        <div id="scene3-rule" class="rule"></div>
-        <div id="scene3-place" class="italic t-place">Guanahani, the Bahamas</div>
-      </div>
-        </div>
-      </div>
-
-      <!-- 4 ── photo -->
-      <div id="scene4" class="scene clip" data-start="8.119" data-duration="2.262" data-track-index="4" style="z-index: 4">
-        <div id="scene4-in" class="layer">
-      <div class="layer solid"></div>
-      <div id="scene4-kb" class="layer" data-layout-allow-overflow><img class="cover" src="assets/toscanelli.jpg" alt="" style="object-position: 50% 50%" /></div>
-      <div class="layer shade-top"></div>
-      <div class="content p-text">
-        
-        
-        <div id="scene4-fact" class="italic p-fact">Asia, just across the Atlantic: the map Columbus trusted</div>
+        <div id="scene4-kicker" class="kicker">On this day</div>
+        <div id="scene4-date" class="t-date">12 OCTOBER</div>
+        <div id="scene4-year" class="t-year" style="font-size: 330px">1492</div>
+        <div id="scene4-rule" class="rule"></div>
+        <div id="scene4-place" class="italic t-place">Guanahani, the Bahamas</div>
       </div>
         </div>
       </div>
 
       <!-- 5 ── photo -->
-      <div id="scene5" class="scene clip" data-start="10.381" data-duration="2.611" data-track-index="5" style="z-index: 5">
+      <div id="scene5" class="scene clip" data-start="8.119" data-duration="2.262" data-track-index="5" style="z-index: 5">
         <div id="scene5-in" class="layer">
       <div class="layer solid"></div>
-      <div id="scene5-kb" class="layer" data-layout-allow-overflow><img class="cover" src="assets/ships-1893.jpg" alt="" style="object-position: 40% 50%" /></div>
+      <div id="scene5-kb" class="layer" data-layout-allow-overflow><img class="cover" src="assets/toscanelli.jpg" alt="" style="object-position: 50% 50%" /></div>
       <div class="layer shade-top"></div>
       <div class="content p-text">
         
         
-        <div id="scene5-fact" class="italic p-fact">Replicas of the Santa María, Pinta and Niña, 1893</div>
+        <div id="scene5-fact" class="italic p-fact">Asia, just across the Atlantic: the map Columbus trusted</div>
       </div>
         </div>
       </div>
 
-      <video id="scene6-film" class="clip film" src="assets/stock-sunset-ship.mp4" data-start="12.992" data-duration="4.837" data-track-index="6" style="z-index: 6" muted playsinline></video>
-
-      <!-- 6 ── film -->
-      <div id="scene6" class="scene clip" data-start="12.992" data-duration="4.837" data-track-index="6" style="z-index: 6">
+      <!-- 6 ── photo -->
+      <div id="scene6" class="scene clip" data-start="10.381" data-duration="2.611" data-track-index="6" style="z-index: 6">
         <div id="scene6-in" class="layer">
-      
-      <div id="scene6-credit" class="italic f-credit">A replica ship at sea · illustrative · Pexels</div>
+      <div class="layer solid"></div>
+      <div id="scene6-kb" class="layer" data-layout-allow-overflow><img class="cover" src="assets/ships-1893.jpg" alt="" style="object-position: 40% 50%" /></div>
+      <div class="layer shade-top"></div>
+      <div class="content p-text">
+        
+        
+        <div id="scene6-fact" class="italic p-fact">Replicas of the Santa María, Pinta and Niña, 1893</div>
+      </div>
         </div>
       </div>
 
-      <video id="scene7-film" class="clip film" src="assets/stock-gulls.mp4" data-start="17.829" data-duration="2.164" data-track-index="7" style="z-index: 7" muted playsinline></video>
+      <video id="scene7-film" class="clip film" src="assets/stock-sunset-ship.mp4" data-start="12.992" data-duration="4.837" data-track-index="7" style="z-index: 7" muted playsinline></video>
 
       <!-- 7 ── film -->
-      <div id="scene7" class="scene clip" data-start="17.829" data-duration="2.164" data-track-index="7" style="z-index: 7">
+      <div id="scene7" class="scene clip" data-start="12.992" data-duration="4.837" data-track-index="7" style="z-index: 7">
         <div id="scene7-in" class="layer">
       
-      <div id="scene7-credit" class="italic f-credit">Birds over the sea · illustrative · Pexels</div>
+      <div id="scene7-credit" class="italic f-credit">A replica ship at sea · illustrative · Pexels</div>
         </div>
       </div>
 
-      <!-- 8 ── photo -->
-      <div id="scene8" class="scene clip" data-start="19.993" data-duration="5.186" data-track-index="8" style="z-index: 8">
+      <video id="scene8-film" class="clip film" src="assets/stock-gulls.mp4" data-start="17.829" data-duration="2.164" data-track-index="8" style="z-index: 8" muted playsinline></video>
+
+      <!-- 8 ── film -->
+      <div id="scene8" class="scene clip" data-start="17.829" data-duration="2.164" data-track-index="8" style="z-index: 8">
         <div id="scene8-in" class="layer">
+      
+      <div id="scene8-credit" class="italic f-credit">Birds over the sea · illustrative · Pexels</div>
+        </div>
+      </div>
+
+      <!-- 9 ── photo -->
+      <div id="scene9" class="scene clip" data-start="19.993" data-duration="5.186" data-track-index="9" style="z-index: 9">
+        <div id="scene9-in" class="layer">
       <div class="layer solid"></div>
-      <div id="scene8-kb" class="layer" data-layout-allow-overflow><img class="cover" src="assets/queen.jpg" alt="" style="object-position: 60% 40%" /></div>
+      <div id="scene9-kb" class="layer" data-layout-allow-overflow><img class="cover" src="assets/queen.jpg" alt="" style="object-position: 60% 40%" /></div>
       <div class="layer shade-top"></div>
       <div class="content p-text">
         
         
-        <div id="scene8-fact" class="italic p-fact">Columbus before Queen Isabella, painted 1843</div>
+        <div id="scene9-fact" class="italic p-fact">Columbus before Queen Isabella, painted 1843</div>
       </div>
         </div>
       </div>
 
-      <video id="scene9-film" class="clip film" src="assets/stock-moon-sea.mp4" data-start="25.179" data-duration="4.581" data-track-index="9" style="z-index: 9" muted playsinline></video>
+      <video id="scene10-film" class="clip film" src="assets/stock-moon-sea.mp4" data-start="25.179" data-duration="4.581" data-track-index="10" style="z-index: 10" muted playsinline></video>
 
-      <!-- 9 ── film -->
-      <div id="scene9" class="scene clip" data-start="25.179" data-duration="4.581" data-track-index="9" style="z-index: 9">
-        <div id="scene9-in" class="layer">
-      
-      <div id="scene9-credit" class="italic f-credit">Night at sea · illustrative · Pexels</div>
-        </div>
-      </div>
-
-      <!-- 10 ── statement -->
-      <div id="scene10" class="scene clip" data-start="29.76" data-duration="2.975" data-track-index="10" style="z-index: 10">
+      <!-- 10 ── film -->
+      <div id="scene10" class="scene clip" data-start="25.179" data-duration="4.581" data-track-index="10" style="z-index: 10">
         <div id="scene10-in" class="layer">
-      <div class="layer solid"></div>
-      <div id="scene10-kb" class="layer" data-layout-allow-overflow><img class="cover" src="assets/ships-1893--2.jpg" alt="" style="object-position: 60% 50%" /></div><div class="layer dim"></div>
       
-      <div class="content">
-        <div id="scene10-kicker" class="kicker">Lookout on the Pinta</div>
-        <div id="scene10-main" class="serif s-main" style="font-size: 120px">Rodrigo de <span class="hl">Triana</span></div>
-        
-        
-      </div>
+      <div id="scene10-credit" class="italic f-credit">Night at sea · illustrative · Pexels</div>
         </div>
       </div>
 
-      <!-- 11 ── photo -->
-      <div id="scene11" class="scene clip" data-start="32.735" data-duration="2.016" data-track-index="11" style="z-index: 11">
+      <!-- 11 ── statement -->
+      <div id="scene11" class="scene clip" data-start="29.76" data-duration="2.975" data-track-index="11" style="z-index: 11">
         <div id="scene11-in" class="layer">
       <div class="layer solid"></div>
-      <div id="scene11-kb" class="layer" data-layout-allow-overflow><img class="cover" src="assets/inspiration.jpg" alt="" style="object-position: 50% 30%" /></div>
-      <div class="layer shade-top"></div>
-      <div class="content p-text">
-        
-        
-        <div id="scene11-fact" class="italic p-fact">Columbus, painted by José María Obregón, 1856</div>
-      </div>
-        </div>
-      </div>
-
-      <video id="scene12-film" class="clip film" src="assets/stock-candle.mp4" data-start="34.751" data-duration="3.234" data-track-index="12" style="z-index: 12" muted playsinline></video>
-
-      <!-- 12 ── film -->
-      <div id="scene12" class="scene clip" data-start="34.751" data-duration="3.234" data-track-index="12" style="z-index: 12">
-        <div id="scene12-in" class="layer">
+      <div id="scene11-kb" class="layer" data-layout-allow-overflow><img class="cover" src="assets/ships-1893--2.jpg" alt="" style="object-position: 60% 50%" /></div><div class="layer dim"></div>
       
-      <div id="scene12-credit" class="italic f-credit">A candle · illustrative · Pexels</div>
-        </div>
-      </div>
-
-      <!-- 13 ── statement -->
-      <div id="scene13" class="scene clip" data-start="37.985" data-duration="2.392" data-track-index="13" style="z-index: 13">
-        <div id="scene13-in" class="layer">
-      <div class="layer solid"></div>
-      <div id="scene13-kb" class="layer" data-layout-allow-overflow><img class="cover" src="assets/columbus--2.jpg" alt="" style="object-position: 50% 30%" /></div><div class="layer dim"></div>
-      <div id="scene13-ghost" class="ghost" data-layout-ignore>PENSION</div>
       <div class="content">
-        <div id="scene13-kicker" class="kicker">For life</div>
-        <div id="scene13-main" class="serif s-main" style="font-size: 104px">The pension went to <span class="hl">Columbus</span>.</div>
+        <div id="scene11-kicker" class="kicker">Lookout on the Pinta</div>
+        <div id="scene11-main" class="serif s-main" style="font-size: 120px">Rodrigo de <span class="hl">Triana</span></div>
         
         
       </div>
         </div>
       </div>
 
-      <video id="scene14-film" class="clip film" src="assets/stock-beach.mp4" data-start="40.377" data-duration="1.845" data-track-index="14" style="z-index: 14" muted playsinline></video>
-
-      <!-- 14 ── film -->
-      <div id="scene14" class="scene clip" data-start="40.377" data-duration="1.845" data-track-index="14" style="z-index: 14">
-        <div id="scene14-in" class="layer">
-      
-      <div id="scene14-credit" class="italic f-credit">Palms on a tropical shore · illustrative · Pexels</div>
-        </div>
-      </div>
-
-      <!-- 15 ── photo -->
-      <div id="scene15" class="scene clip" data-start="42.222" data-duration="2.195" data-track-index="15" style="z-index: 15">
-        <div id="scene15-in" class="layer">
+      <!-- 12 ── photo -->
+      <div id="scene12" class="scene clip" data-start="32.735" data-duration="2.016" data-track-index="12" style="z-index: 12">
+        <div id="scene12-in" class="layer">
       <div class="layer solid"></div>
-      <div id="scene15-kb" class="layer" data-layout-allow-overflow><img class="cover" src="assets/landing-puebla.jpg" alt="" style="object-position: 45% 50%" /></div>
+      <div id="scene12-kb" class="layer" data-layout-allow-overflow><img class="cover" src="assets/inspiration.jpg" alt="" style="object-position: 50% 30%" /></div>
       <div class="layer shade-top"></div>
       <div class="content p-text">
         
         
-        <div id="scene15-fact" class="italic p-fact">The landing, painted by Dióscoro Puebla, 1862</div>
+        <div id="scene12-fact" class="italic p-fact">Columbus, painted by José María Obregón, 1856</div>
       </div>
+        </div>
+      </div>
+
+      <video id="scene13-film" class="clip film" src="assets/stock-candle.mp4" data-start="34.751" data-duration="3.234" data-track-index="13" style="z-index: 13" muted playsinline></video>
+
+      <!-- 13 ── film -->
+      <div id="scene13" class="scene clip" data-start="34.751" data-duration="3.234" data-track-index="13" style="z-index: 13">
+        <div id="scene13-in" class="layer">
+      
+      <div id="scene13-credit" class="italic f-credit">A candle · illustrative · Pexels</div>
+        </div>
+      </div>
+
+      <!-- 14 ── statement -->
+      <div id="scene14" class="scene clip" data-start="37.985" data-duration="2.392" data-track-index="14" style="z-index: 14">
+        <div id="scene14-in" class="layer">
+      <div class="layer solid"></div>
+      <div id="scene14-kb" class="layer" data-layout-allow-overflow><img class="cover" src="assets/columbus--2.jpg" alt="" style="object-position: 50% 30%" /></div><div class="layer dim"></div>
+      <div id="scene14-ghost" class="ghost" data-layout-ignore>PENSION</div>
+      <div class="content">
+        <div id="scene14-kicker" class="kicker">For life</div>
+        <div id="scene14-main" class="serif s-main" style="font-size: 104px">The pension went to <span class="hl">Columbus</span>.</div>
+        
+        
+      </div>
+        </div>
+      </div>
+
+      <video id="scene15-film" class="clip film" src="assets/stock-beach.mp4" data-start="40.377" data-duration="1.845" data-track-index="15" style="z-index: 15" muted playsinline></video>
+
+      <!-- 15 ── film -->
+      <div id="scene15" class="scene clip" data-start="40.377" data-duration="1.845" data-track-index="15" style="z-index: 15">
+        <div id="scene15-in" class="layer">
+      
+      <div id="scene15-credit" class="italic f-credit">Palms on a tropical shore · illustrative · Pexels</div>
         </div>
       </div>
 
       <!-- 16 ── photo -->
-      <div id="scene16" class="scene clip" data-start="44.417" data-duration="4.084" data-track-index="16" style="z-index: 16">
+      <div id="scene16" class="scene clip" data-start="42.222" data-duration="2.195" data-track-index="16" style="z-index: 16">
         <div id="scene16-in" class="layer">
       <div class="layer solid"></div>
-      <div id="scene16-kb" class="layer" data-layout-allow-overflow><img class="cover" src="assets/toscanelli--2.jpg" alt="" style="object-position: 30% 50%" /></div>
+      <div id="scene16-kb" class="layer" data-layout-allow-overflow><img class="cover" src="assets/landing-puebla.jpg" alt="" style="object-position: 45% 50%" /></div>
       <div class="layer shade-top"></div>
       <div class="content p-text">
         
         
-        <div id="scene16-fact" class="italic p-fact">Columbus believed Asia lay just here</div>
+        <div id="scene16-fact" class="italic p-fact">The landing, painted by Dióscoro Puebla, 1862</div>
       </div>
         </div>
       </div>
 
       <!-- 17 ── photo -->
-      <div id="scene17" class="scene clip" data-start="48.501" data-duration="3.01" data-track-index="17" style="z-index: 17">
+      <div id="scene17" class="scene clip" data-start="44.417" data-duration="4.084" data-track-index="17" style="z-index: 17">
         <div id="scene17-in" class="layer">
       <div class="layer solid"></div>
-      <div id="scene17-kb" class="layer" data-layout-allow-overflow><img class="cover" src="assets/landing--2.jpg" alt="" style="object-position: 15% 55%" /></div>
+      <div id="scene17-kb" class="layer" data-layout-allow-overflow><img class="cover" src="assets/toscanelli--2.jpg" alt="" style="object-position: 30% 50%" /></div>
       <div class="layer shade-top"></div>
       <div class="content p-text">
         
         
-        <div id="scene17-fact" class="italic p-fact">Landing of Columbus, John Vanderlyn, 1847 (detail)</div>
+        <div id="scene17-fact" class="italic p-fact">Columbus believed Asia lay just here</div>
       </div>
         </div>
       </div>
 
       <!-- 18 ── photo -->
-      <div id="scene18" class="scene clip" data-start="51.511" data-duration="2.918" data-track-index="18" style="z-index: 18">
+      <div id="scene18" class="scene clip" data-start="48.501" data-duration="3.01" data-track-index="18" style="z-index: 18">
         <div id="scene18-in" class="layer">
       <div class="layer solid"></div>
-      <div id="scene18-kb" class="layer" data-layout-allow-overflow><img class="cover" src="assets/death.jpg" alt="" style="object-position: 50% 45%" /></div>
+      <div id="scene18-kb" class="layer" data-layout-allow-overflow><img class="cover" src="assets/landing--3.jpg" alt="" style="object-position: 15% 55%" /></div>
       <div class="layer shade-top"></div>
       <div class="content p-text">
         
         
-        <div id="scene18-fact" class="italic p-fact">The death of Columbus, 1506 · lithograph, 1893</div>
+        <div id="scene18-fact" class="italic p-fact">Landing of Columbus, John Vanderlyn, 1847 (detail)</div>
       </div>
         </div>
       </div>
 
-      <!-- 19 ── statement -->
-      <div id="scene19" class="scene clip" data-start="54.429" data-duration="4.517" data-track-index="19" style="z-index: 19">
+      <!-- 19 ── photo -->
+      <div id="scene19" class="scene clip" data-start="51.511" data-duration="2.918" data-track-index="19" style="z-index: 19">
         <div id="scene19-in" class="layer">
       <div class="layer solid"></div>
-      <div id="scene19-kb" class="layer" data-layout-allow-overflow><img class="cover" src="assets/america-map.jpg" alt="" style="object-position: 50% 60%" /></div><div class="layer dim"></div>
-      <div id="scene19-ghost" class="ghost" data-layout-ignore>AMERICA</div>
+      <div id="scene19-kb" class="layer" data-layout-allow-overflow><img class="cover" src="assets/death.jpg" alt="" style="object-position: 50% 45%" /></div>
+      <div class="layer shade-top"></div>
+      <div class="content p-text">
+        
+        
+        <div id="scene19-fact" class="italic p-fact">The death of Columbus, 1506 · lithograph, 1893</div>
+      </div>
+        </div>
+      </div>
+
+      <!-- 20 ── statement -->
+      <div id="scene20" class="scene clip" data-start="54.429" data-duration="4.517" data-track-index="20" style="z-index: 20">
+        <div id="scene20-in" class="layer">
+      <div class="layer solid"></div>
+      <div id="scene20-kb" class="layer" data-layout-allow-overflow><img class="cover" src="assets/america-map.jpg" alt="" style="object-position: 50% 60%" /></div><div class="layer dim"></div>
+      <div id="scene20-ghost" class="ghost" data-layout-ignore>AMERICA</div>
       <div class="content">
-        <div id="scene19-kicker" class="kicker">Waldseemüller map, 1507</div>
-        <div id="scene19-main" class="serif s-main" style="font-size: 104px">Named after <span class="hl">Amerigo Vespucci</span>.</div>
+        <div id="scene20-kicker" class="kicker">Waldseemüller map, 1507</div>
+        <div id="scene20-main" class="serif s-main" style="font-size: 104px">Named after <span class="hl">Amerigo Vespucci</span>.</div>
         
         
       </div>
         </div>
       </div>
 
-      <!-- 20 ── also -->
-      <div id="alsocard" class="scene clip" data-start="58.946" data-duration="7.367" data-track-index="20" style="z-index: 20">
+      <!-- 21 ── also -->
+      <div id="alsocard" class="scene clip" data-start="58.946" data-duration="7.367" data-track-index="21" style="z-index: 21">
         <div id="alsocard-in" class="layer">
       <div class="layer solid"></div>
       <div id="alsocard-kb" class="layer" data-layout-allow-overflow><img class="cover" src="assets/ships-1893--3.jpg" alt="" style="object-position: 50% 50%" /></div><div class="layer dim"></div>
@@ -401,8 +415,8 @@ html, body { margin: 0; overflow: hidden; background: var(--void); }
         </div>
       </div>
 
-      <!-- 21 ── endcard -->
-      <div id="endcard" class="scene clip" data-start="66.013" data-duration="5.759" data-track-index="21" style="z-index: 21">
+      <!-- 22 ── endcard -->
+      <div id="endcard" class="scene clip" data-start="66.013" data-duration="5.759" data-track-index="22" style="z-index: 22">
         <div id="endcard-in" class="layer">
       <div class="layer solid"></div>
       
@@ -469,47 +483,48 @@ html, body { margin: 0; overflow: hidden; background: var(--void); }
       });
 
       var tl = gsap.timeline({ paused: true });
-      tl.fromTo("#scene1-credit", {"opacity":0}, {"opacity":1,"duration":0.4,"ease":"sine.out"}, 0.55);
-      tl.fromTo("#scene2-kb", {"scale":1}, {"scale":1.12,"duration":2.216,"ease":"none"}, 2.559);
-      tl.fromTo("#scene2-fact", {"opacity":0,"x":-30}, {"opacity":1,"x":0,"duration":0.6,"ease":"sine.out"}, 3.667);
-      tl.fromTo("#scene3-kb", {"scale":1.16}, {"scale":1,"duration":3.344,"ease":"none"}, 4.775);
-      tl.fromTo("#scene3-kicker", {"opacity":0,"x":-50}, {"opacity":1,"x":0,"duration":0.45,"ease":"power3.out"}, 4.805);
-      tl.fromTo("#scene3-date", {"opacity":0,"scale":1.18}, {"opacity":1,"scale":1,"duration":0.7,"ease":"expo.out","transformOrigin":"0% 50%"}, 4.925);
-      tl.fromTo("#scene3-year", {"opacity":0,"scale":1.3}, {"opacity":1,"scale":1,"duration":0.55,"ease":"back.out(1.6)","transformOrigin":"0% 60%"}, 5.085);
-      tl.fromTo("#scene3-rule", {"scaleX":0}, {"scaleX":1,"duration":0.8,"ease":"power4.out","transformOrigin":"0% 50%"}, 5.455);
-      tl.fromTo("#scene3-place", {"opacity":0,"y":24}, {"opacity":1,"y":0,"duration":0.6,"ease":"sine.out"}, 5.755);
-      tl.fromTo("#scene4-kb", {"scale":1}, {"scale":1.12,"duration":2.262,"ease":"none"}, 8.119);
-      tl.fromTo("#scene4-fact", {"opacity":0,"x":-30}, {"opacity":1,"x":0,"duration":0.6,"ease":"sine.out"}, 9.25);
-      tl.fromTo("#scene5-kb", {"scale":1}, {"scale":1.12,"duration":2.611,"ease":"none"}, 10.381);
-      tl.fromTo("#scene5-fact", {"opacity":0,"x":-30}, {"opacity":1,"x":0,"duration":0.6,"ease":"sine.out"}, 11.687);
-      tl.fromTo("#scene6-credit", {"opacity":0}, {"opacity":1,"duration":0.4,"ease":"sine.out"}, 13.122);
-      tl.fromTo("#scene7-credit", {"opacity":0}, {"opacity":1,"duration":0.4,"ease":"sine.out"}, 17.959);
-      tl.fromTo("#scene8-kb", {"scale":1}, {"scale":1.12,"duration":5.186,"ease":"none"}, 19.993);
-      tl.fromTo("#scene8-fact", {"opacity":0,"x":-30}, {"opacity":1,"x":0,"duration":0.6,"ease":"sine.out"}, 22.586);
-      tl.fromTo("#scene9-credit", {"opacity":0}, {"opacity":1,"duration":0.4,"ease":"sine.out"}, 25.309);
-      tl.fromTo("#scene10-kb", {"scale":1}, {"scale":1.12,"duration":2.975,"ease":"none"}, 29.76);
-      tl.fromTo("#scene10-kicker", {"opacity":0}, {"opacity":1,"duration":0.25,"ease":"power2.out"}, 29.84);
-      tl.fromTo("#scene10-main", {"opacity":0,"y":70}, {"opacity":1,"y":0,"duration":0.8,"ease":"expo.out"}, 30.75);
-      tl.fromTo("#scene11-kb", {"scale":1}, {"scale":1.12,"duration":2.016,"ease":"none"}, 32.735);
-      tl.fromTo("#scene11-fact", {"opacity":0,"x":-30}, {"opacity":1,"x":0,"duration":0.6,"ease":"sine.out"}, 33.743);
-      tl.fromTo("#scene12-credit", {"opacity":0}, {"opacity":1,"duration":0.4,"ease":"sine.out"}, 34.881);
-      tl.fromTo("#scene13-kb", {"scale":1}, {"scale":1.12,"duration":2.392,"ease":"none"}, 37.985);
-      tl.fromTo("#scene13-ghost", {"x":0}, {"x":-240,"duration":2.392,"ease":"none"}, 37.985);
-      tl.fromTo("#scene13-kicker", {"opacity":0}, {"opacity":1,"duration":0.25,"ease":"power2.out"}, 38.065);
-      tl.fromTo("#scene13-main", {"opacity":0,"y":70}, {"opacity":1,"y":0,"duration":0.8,"ease":"expo.out"}, 38.523);
-      tl.fromTo("#scene14-credit", {"opacity":0}, {"opacity":1,"duration":0.4,"ease":"sine.out"}, 40.507);
-      tl.fromTo("#scene15-kb", {"scale":1}, {"scale":1.12,"duration":2.195,"ease":"none"}, 42.222);
-      tl.fromTo("#scene15-fact", {"opacity":0,"x":-30}, {"opacity":1,"x":0,"duration":0.6,"ease":"sine.out"}, 43.32);
-      tl.fromTo("#scene16-kb", {"scale":1}, {"scale":1.12,"duration":4.084,"ease":"none"}, 44.417);
-      tl.fromTo("#scene16-fact", {"opacity":0,"x":-30}, {"opacity":1,"x":0,"duration":0.6,"ease":"sine.out"}, 46.459);
-      tl.fromTo("#scene17-kb", {"scale":1}, {"scale":1.12,"duration":3.01,"ease":"none"}, 48.501);
-      tl.fromTo("#scene17-fact", {"opacity":0,"x":-30}, {"opacity":1,"x":0,"duration":0.6,"ease":"sine.out"}, 50.006);
-      tl.fromTo("#scene18-kb", {"scale":1}, {"scale":1.12,"duration":2.918,"ease":"none"}, 51.511);
-      tl.fromTo("#scene18-fact", {"opacity":0,"x":-30}, {"opacity":1,"x":0,"duration":0.6,"ease":"sine.out"}, 52.97);
-      tl.fromTo("#scene19-kb", {"scale":1}, {"scale":1.12,"duration":4.517,"ease":"none"}, 54.429);
-      tl.fromTo("#scene19-ghost", {"x":0}, {"x":-240,"duration":4.517,"ease":"none"}, 54.429);
-      tl.fromTo("#scene19-kicker", {"opacity":0}, {"opacity":1,"duration":0.25,"ease":"power2.out"}, 54.509);
-      tl.fromTo("#scene19-main", {"opacity":0,"y":70}, {"opacity":1,"y":0,"duration":0.8,"ease":"expo.out"}, 56.725);
+      tl.fromTo("#scene1-kb", {"scale":1}, {"scale":1.12,"duration":0.95,"ease":"none"}, 0);
+      tl.fromTo("#scene2-credit", {"opacity":0}, {"opacity":1,"duration":0.4,"ease":"sine.out"}, 1.08);
+      tl.fromTo("#scene3-kb", {"scale":1}, {"scale":1.12,"duration":2.216,"ease":"none"}, 2.559);
+      tl.fromTo("#scene3-fact", {"opacity":0,"x":-30}, {"opacity":1,"x":0,"duration":0.6,"ease":"sine.out"}, 3.667);
+      tl.fromTo("#scene4-kb", {"scale":1.16}, {"scale":1,"duration":3.344,"ease":"none"}, 4.775);
+      tl.fromTo("#scene4-kicker", {"opacity":0,"x":-50}, {"opacity":1,"x":0,"duration":0.45,"ease":"power3.out"}, 4.805);
+      tl.fromTo("#scene4-date", {"opacity":0,"scale":1.18}, {"opacity":1,"scale":1,"duration":0.7,"ease":"expo.out","transformOrigin":"0% 50%"}, 4.925);
+      tl.fromTo("#scene4-year", {"opacity":0,"scale":1.3}, {"opacity":1,"scale":1,"duration":0.55,"ease":"back.out(1.6)","transformOrigin":"0% 60%"}, 5.085);
+      tl.fromTo("#scene4-rule", {"scaleX":0}, {"scaleX":1,"duration":0.8,"ease":"power4.out","transformOrigin":"0% 50%"}, 5.455);
+      tl.fromTo("#scene4-place", {"opacity":0,"y":24}, {"opacity":1,"y":0,"duration":0.6,"ease":"sine.out"}, 5.755);
+      tl.fromTo("#scene5-kb", {"scale":1}, {"scale":1.12,"duration":2.262,"ease":"none"}, 8.119);
+      tl.fromTo("#scene5-fact", {"opacity":0,"x":-30}, {"opacity":1,"x":0,"duration":0.6,"ease":"sine.out"}, 9.25);
+      tl.fromTo("#scene6-kb", {"scale":1}, {"scale":1.12,"duration":2.611,"ease":"none"}, 10.381);
+      tl.fromTo("#scene6-fact", {"opacity":0,"x":-30}, {"opacity":1,"x":0,"duration":0.6,"ease":"sine.out"}, 11.687);
+      tl.fromTo("#scene7-credit", {"opacity":0}, {"opacity":1,"duration":0.4,"ease":"sine.out"}, 13.122);
+      tl.fromTo("#scene8-credit", {"opacity":0}, {"opacity":1,"duration":0.4,"ease":"sine.out"}, 17.959);
+      tl.fromTo("#scene9-kb", {"scale":1}, {"scale":1.12,"duration":5.186,"ease":"none"}, 19.993);
+      tl.fromTo("#scene9-fact", {"opacity":0,"x":-30}, {"opacity":1,"x":0,"duration":0.6,"ease":"sine.out"}, 22.586);
+      tl.fromTo("#scene10-credit", {"opacity":0}, {"opacity":1,"duration":0.4,"ease":"sine.out"}, 25.309);
+      tl.fromTo("#scene11-kb", {"scale":1}, {"scale":1.12,"duration":2.975,"ease":"none"}, 29.76);
+      tl.fromTo("#scene11-kicker", {"opacity":0}, {"opacity":1,"duration":0.25,"ease":"power2.out"}, 29.84);
+      tl.fromTo("#scene11-main", {"opacity":0,"y":70}, {"opacity":1,"y":0,"duration":0.8,"ease":"expo.out"}, 30.75);
+      tl.fromTo("#scene12-kb", {"scale":1}, {"scale":1.12,"duration":2.016,"ease":"none"}, 32.735);
+      tl.fromTo("#scene12-fact", {"opacity":0,"x":-30}, {"opacity":1,"x":0,"duration":0.6,"ease":"sine.out"}, 33.743);
+      tl.fromTo("#scene13-credit", {"opacity":0}, {"opacity":1,"duration":0.4,"ease":"sine.out"}, 34.881);
+      tl.fromTo("#scene14-kb", {"scale":1}, {"scale":1.12,"duration":2.392,"ease":"none"}, 37.985);
+      tl.fromTo("#scene14-ghost", {"x":0}, {"x":-240,"duration":2.392,"ease":"none"}, 37.985);
+      tl.fromTo("#scene14-kicker", {"opacity":0}, {"opacity":1,"duration":0.25,"ease":"power2.out"}, 38.065);
+      tl.fromTo("#scene14-main", {"opacity":0,"y":70}, {"opacity":1,"y":0,"duration":0.8,"ease":"expo.out"}, 38.523);
+      tl.fromTo("#scene15-credit", {"opacity":0}, {"opacity":1,"duration":0.4,"ease":"sine.out"}, 40.507);
+      tl.fromTo("#scene16-kb", {"scale":1}, {"scale":1.12,"duration":2.195,"ease":"none"}, 42.222);
+      tl.fromTo("#scene16-fact", {"opacity":0,"x":-30}, {"opacity":1,"x":0,"duration":0.6,"ease":"sine.out"}, 43.32);
+      tl.fromTo("#scene17-kb", {"scale":1}, {"scale":1.12,"duration":4.084,"ease":"none"}, 44.417);
+      tl.fromTo("#scene17-fact", {"opacity":0,"x":-30}, {"opacity":1,"x":0,"duration":0.6,"ease":"sine.out"}, 46.459);
+      tl.fromTo("#scene18-kb", {"scale":1}, {"scale":1.12,"duration":3.01,"ease":"none"}, 48.501);
+      tl.fromTo("#scene18-fact", {"opacity":0,"x":-30}, {"opacity":1,"x":0,"duration":0.6,"ease":"sine.out"}, 50.006);
+      tl.fromTo("#scene19-kb", {"scale":1}, {"scale":1.12,"duration":2.918,"ease":"none"}, 51.511);
+      tl.fromTo("#scene19-fact", {"opacity":0,"x":-30}, {"opacity":1,"x":0,"duration":0.6,"ease":"sine.out"}, 52.97);
+      tl.fromTo("#scene20-kb", {"scale":1}, {"scale":1.12,"duration":4.517,"ease":"none"}, 54.429);
+      tl.fromTo("#scene20-ghost", {"x":0}, {"x":-240,"duration":4.517,"ease":"none"}, 54.429);
+      tl.fromTo("#scene20-kicker", {"opacity":0}, {"opacity":1,"duration":0.25,"ease":"power2.out"}, 54.509);
+      tl.fromTo("#scene20-main", {"opacity":0,"y":70}, {"opacity":1,"y":0,"duration":0.8,"ease":"expo.out"}, 56.725);
       tl.fromTo("#alsocard-kb", {"scale":1}, {"scale":1.12,"duration":7.367,"ease":"none"}, 58.946);
       tl.fromTo("#alsocard-kicker", {"opacity":0,"x":-40}, {"opacity":1,"x":0,"duration":0.4,"ease":"power3.out"}, 58.976);
       tl.fromTo("#alsocard-i0", {"opacity":0,"y":40}, {"opacity":1,"y":0,"duration":0.5,"ease":"expo.out"}, 59.747);
