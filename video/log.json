@@ -195,5 +195,25 @@
     "music": "grieg-concerto-adagio",
     "seconds": 66,
     "cta": "Our app is still waiting on the runway. Subscribe, and be on board when it breaks through."
+  },
+  {
+    "date": "2026-10-15",
+    "slug": "cassini",
+    "title": "Cassini, 1997 — the probe that found an ocean, then dived into Saturn to protect it",
+    "eventId": "evt-10-15-1997-cassini-huygens",
+    "category": "Science & Technology",
+    "music": "bach-air-1920",
+    "seconds": 72,
+    "cta": "Our app is still in orbit, but it's coming in to land. Subscribe, and be there for the signal."
+  },
+  {
+    "date": "2026-10-16",
+    "slug": "cuban-missiles",
+    "title": "The Cuban Missile Crisis, 1962 — thirteen days, and the officer who said no",
+    "eventId": "evt-10-16-1962-cuban-missile-crisis",
+    "category": "Politics & Power",
+    "music": "satie-gnossienne-1",
+    "seconds": 73,
+    "cta": "Our app is the one launch worth waiting for. Subscribe, and be there when it goes."
   }
 ]

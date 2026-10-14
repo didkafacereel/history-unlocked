@@ -1,0 +1,334 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-10-16",
+  "dateKey": "10-16",
+  "slug": "cuban-missiles",
+  "title": "The Cuban Missile Crisis, 1962 — thirteen days, and the officer who said no",
+  "eventId": "evt-10-16-1962-cuban-missile-crisis",
+  "category": "Politics & Power",
+  "sources": [
+    "Wikipedia: Cuban Missile Crisis — a 13-day confrontation (16–28 October 1962), widely considered the closest the Cold War came to full-scale nuclear war; on 14 October a U-2 flown by Major Richard Heyser took 928 pictures over Cuba; on 15 October analysts identified objects that appeared to be medium-range ballistic missiles; the next morning (16 October) Bundy showed Kennedy the U-2 photographs; the Joint Chiefs unanimously agreed a full-scale attack and invasion was the only solution; Kennedy chose a naval blockade, called a 'quarantine'; on 27 October Major Rudolf Anderson's U-2 was shot down over Cuba; on 28 October Khrushchev announced the dismantling of the weapons; the US secretly agreed to remove its Jupiter missiles from Turkey (and Italy)",
+    "Wikipedia: Richard S. Heyser — his U-2 photographs revealed Soviet medium-range ballistic missiles in Cuba, 14 October 1962",
+    "Wikipedia: Vasily Arkhipov — on 27 October 1962 US destroyers detected submarine B-59 near Cuba and dropped practice depth charges; its captain and political officer believed war had begun and prepared to launch a nuclear torpedo; Arkhipov, the executive officer, refused, and his decision prevented the use of nuclear weapons",
+    "Wikipedia: Rudolf Anderson — killed when his U-2 was shot down over Cuba",
+    "Also on this day (candidates.md, in the app): 1834 fire destroys most of the Palace of Westminster; 1923 Walt and Roy Disney found the Disney Brothers Cartoon Studio",
+    "Photos (public domain, US government / NARA): U-2 in flight; U-2 reconnaissance photos of San Cristóbal, 14 and 25 October 1962; Kennedy and McNamara; Kennedy with the Joint Chiefs; Kennedy signs the quarantine proclamation, 23 October 1962; a US Navy Neptune over a Soviet ship; Major Rudolf Anderson; submarine B-59; Kennedy and Khrushchev, 1961; a Jupiter missile; the missiles' ranges",
+    "Illustrative stock footage (Pexels, free licence; not of the event): clouds from high altitude, a clock, the sea at night, water"
+  ],
+  "music": {
+    "track": "satie-gnossienne-1"
+  },
+  "highlight": [
+    "13",
+    "MISSILES",
+    "NUCLEAR",
+    "BLOCKADE",
+    "QUARANTINE",
+    "REFUSED",
+    "ARKHIPOV",
+    "SECRET",
+    "TURKEY"
+  ],
+  "cover": {
+    "image": "u2.jpg",
+    "focus": "40% 50%",
+    "date": "16 OCTOBER 1962",
+    "lines": [
+      "13 DAYS",
+      "TO THE *END*",
+      "OF THE *WORLD*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "A spy plane's photos began thirteen days that nearly ended the world.",
+      "show": "A spy plane's photos began 13 days that nearly ended the world.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "On this day in nineteen sixty-two, President Kennedy was shown the pictures.",
+      "show": "On this day in 1962, President Kennedy was shown the pictures.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "Two days earlier, a U-two pilot had taken nine hundred and twenty-eight photos over Cuba.",
+      "show": "Two days earlier, a U-2 pilot had taken 928 photos over Cuba.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "In them: Soviet nuclear missile sites, a short flight from America.",
+      "show": "In them: Soviet nuclear missile sites, a short flight from America.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s5",
+      "say": "His military chiefs wanted an attack, and an invasion.",
+      "show": "His military chiefs wanted an attack, and an invasion.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s6",
+      "say": "Kennedy chose a naval blockade instead, and called it a quarantine.",
+      "show": "Kennedy chose a naval blockade instead, and called it a \"quarantine\".",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s7",
+      "say": "On October twenty-seventh, an American spy plane was shot down over Cuba.",
+      "show": "On October 27th, an American spy plane was shot down over Cuba.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s8",
+      "say": "That same day, U.S. destroyers dropped practice depth charges on a Soviet submarine.",
+      "show": "That same day, U.S. destroyers dropped practice depth charges on a Soviet submarine.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s9",
+      "say": "Its captain believed the war had begun, and prepared a nuclear torpedo.",
+      "show": "Its captain believed the war had begun, and prepared a nuclear torpedo.",
+      "pauseAfter": 0.55
+    },
+    {
+      "id": "s10",
+      "say": "One officer refused. His name was Vasily Arkhipov.",
+      "show": "One officer refused. His name was Vasily Arkhipov.",
+      "pauseAfter": 0.55
+    },
+    {
+      "id": "s11",
+      "say": "The next day, Khrushchev agreed to take the missiles away.",
+      "show": "The next day, Khrushchev agreed to take the missiles away.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s12",
+      "say": "In secret, America agreed to remove its own, from Turkey.",
+      "show": "In secret, America agreed to remove its own — from Turkey.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "also": {
+    "say": "Also on this day: London's Parliament burned down, and the Disney brothers opened their studio.",
+    "items": [
+      {
+        "year": "1834",
+        "text": "Fire destroys the Palace of Westminster"
+      },
+      {
+        "year": "1923",
+        "text": "Walt and Roy Disney found their studio"
+      }
+    ],
+    "image": "neptune.jpg"
+  },
+  "cta": {
+    "story": "Thirteen days. One \"no\".",
+    "say": "Our app is the one launch worth waiting for. Subscribe, and be there when it goes.",
+    "pill": "LAUNCH IS GO",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook — the U-2, same picture as the cover",
+      "image": "u2.jpg",
+      "focus": "40% 50%",
+      "move": "in"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.45",
+      "enter": "cut",
+      "clip": "stock-clouds.mp4",
+      "credit": "High above the clouds · illustrative · Pexels"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "site-oct14.jpg",
+      "focus": "50% 50%",
+      "date": "16 OCTOBER",
+      "year": "1962",
+      "place": "The White House"
+    },
+    {
+      "type": "photo",
+      "from": "s2@0.5",
+      "enter": "cut",
+      "image": "excomm.jpg",
+      "focus": "45% 45%",
+      "move": "in",
+      "fact": "President Kennedy and Defense Secretary McNamara"
+    },
+    {
+      "type": "film",
+      "from": "s3",
+      "enter": "cut",
+      "clip": "stock-clouds2.mp4",
+      "credit": "Clouds from high altitude · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s3@0.5",
+      "enter": "cut",
+      "image": "site2-oct14.jpg",
+      "focus": "50% 50%",
+      "ghost": "928",
+      "kicker": "Major Richard Heyser, 14 October 1962",
+      "main": {
+        "text": "*928* photos over Cuba.",
+        "at": "s3@0.6"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s4",
+      "enter": "cut",
+      "image": "site-oct25.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Missile launch site, San Cristóbal, Cuba · U-2 photo"
+    },
+    {
+      "type": "photo",
+      "from": "s4@0.55",
+      "enter": "cut",
+      "image": "ranges.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "How far the missiles in Cuba could reach"
+    },
+    {
+      "type": "photo",
+      "from": "s5",
+      "enter": "cut",
+      "image": "lemay.jpg",
+      "focus": "45% 55%",
+      "move": "in",
+      "fact": "Kennedy with his military chiefs, October 1962"
+    },
+    {
+      "type": "photo",
+      "from": "s6",
+      "enter": "cut",
+      "image": "kennedy-signs.jpg",
+      "focus": "50% 45%",
+      "move": "in",
+      "fact": "Kennedy signs the quarantine order, 23 October 1962"
+    },
+    {
+      "type": "photo",
+      "from": "s6@0.55",
+      "enter": "cut",
+      "image": "neptune.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "A US Navy plane over a Soviet ship, 1962"
+    },
+    {
+      "type": "photo",
+      "from": "s7",
+      "enter": "cut",
+      "image": "anderson.jpg",
+      "focus": "50% 35%",
+      "move": "in",
+      "fact": "Major Rudolf Anderson, the pilot, was killed"
+    },
+    {
+      "type": "film",
+      "from": "s7@0.6",
+      "enter": "cut",
+      "clip": "stock-clock.mp4",
+      "credit": "The clock runs down · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s8",
+      "enter": "cut",
+      "image": "b59.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Soviet submarine B-59, October 1962"
+    },
+    {
+      "type": "film",
+      "from": "s8@0.55",
+      "enter": "cut",
+      "clip": "stock-depth.mp4",
+      "credit": "Under water · illustrative · Pexels"
+    },
+    {
+      "type": "film",
+      "from": "s9",
+      "enter": "cut",
+      "clip": "stock-ocean-night.mp4",
+      "credit": "The sea at night · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s10",
+      "enter": "cut",
+      "image": "b59.jpg",
+      "focus": "50% 50%",
+      "ghost": "NO",
+      "kicker": "Executive officer, submarine B-59",
+      "main": {
+        "text": "Vasily *Arkhipov* refused.",
+        "at": "s10@0.5"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s11",
+      "enter": "cut",
+      "image": "jfk-nk.jpg",
+      "focus": "80% 35%",
+      "move": "in",
+      "fact": "Khrushchev (right) with Kennedy, Vienna, 1961"
+    },
+    {
+      "type": "statement",
+      "from": "s12",
+      "enter": "cut",
+      "image": "jupiter.jpg",
+      "focus": "40% 50%",
+      "ghost": "SECRET",
+      "kicker": "US Jupiter missiles in Turkey",
+      "main": {
+        "text": "Removed, *in secret*.",
+        "at": "s12@0.5"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "A spy plane's photos started 13 days that nearly ended the world. ☢️\n\n16 October 1962: Kennedy saw the pictures — Soviet nuclear missiles in Cuba. His generals wanted war. He chose a blockade. On the worst day, a Soviet submarine prepared a nuclear torpedo… and one officer, Vasily Arkhipov, said no.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #historytok #coldwar #cubanmissilecrisis #1962",
+    "facebook": "On this day in 1962, President Kennedy was shown the photographs that began the Cuban Missile Crisis — the closest the Cold War came to full-scale nuclear war.\n\nTwo days earlier, U-2 pilot Major Richard Heyser had taken 928 pictures over Cuba. Analysts found Soviet medium-range ballistic missile sites. Kennedy's Joint Chiefs wanted an attack and an invasion; he chose a naval blockade instead, and called it a \"quarantine\".\n\nOn 27 October, the most dangerous day, Major Rudolf Anderson's U-2 was shot down over Cuba, and he was killed. The same day, US destroyers dropped practice depth charges on the Soviet submarine B-59. Its captain believed war had begun and prepared a nuclear torpedo. The executive officer, Vasily Arkhipov, refused — and his decision prevented the use of nuclear weapons.\n\nThe next day Khrushchev agreed to remove the missiles. In secret, the United States agreed to remove its own Jupiter missiles from Turkey.\n\nAlso on 16 October: fire destroyed most of the Palace of Westminster (1834), and Walt and Roy Disney founded their cartoon studio (1923).\n\nOur app is the one launch worth waiting for. Follow the page and be there when it goes. 📜\n\n#OnThisDay #History #ColdWar #CubanMissileCrisis",
+    "youtube": {
+      "title": "The Man Who Said No To Nuclear War #Shorts",
+      "description": "16 October 1962: President Kennedy is shown U-2 photographs of Soviet nuclear missile sites in Cuba, taken two days earlier by Major Richard Heyser. His military chiefs want an invasion; he chooses a naval \"quarantine\". Thirteen days follow — the closest the Cold War came to nuclear war. On 27 October a U-2 is shot down, and a Soviet submarine under practice depth charges prepares a nuclear torpedo — until its executive officer, Vasily Arkhipov, refuses. Khrushchev withdraws the missiles; in secret, the US removes its own from Turkey.\n\nAlso on 16 October: the burning of the Palace of Westminster (1834) and the founding of the Disney Brothers Cartoon Studio (1923).\n\nSubscribe — our history app, with a story for every date, is on its way.\n\nPhotos: US government / NARA, public domain (Wikimedia Commons). Clouds, clock, sea and water shots: illustrative stock footage (Pexels), not of the event. Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #ColdWar #CubanMissileCrisis",
+      "tags": [
+        "history",
+        "on this day",
+        "Cuban Missile Crisis",
+        "Vasily Arkhipov",
+        "JFK",
+        "Khrushchev",
+        "Cold War",
+        "1962",
+        "nuclear war",
+        "U-2",
+        "history facts",
+        "history shorts"
+      ]
+    },
+    "pinned": "One officer's \"no\" prevented the use of nuclear weapons. Should Vasily Arkhipov be as famous as Kennedy? 👇"
+  }
+}

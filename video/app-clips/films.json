@@ -168,6 +168,22 @@
       "seconds": 59.4,
       "video": "2026-10-14-yeager.mp4?v=3729823",
       "poster": "2026-10-14-yeager.jpg?v=71355"
+    },
+    "10-15": {
+      "date": "2026-10-15",
+      "eventId": "evt-10-15-1997-cassini-huygens",
+      "title": "Cassini, 1997 — the probe that found an ocean, then dived into Saturn to protect it",
+      "seconds": 65.3,
+      "video": "2026-10-15-cassini.mp4?v=3981575",
+      "poster": "2026-10-15-cassini.jpg?v=49559"
+    },
+    "10-16": {
+      "date": "2026-10-16",
+      "eventId": "evt-10-16-1962-cuban-missile-crisis",
+      "title": "The Cuban Missile Crisis, 1962 — thirteen days, and the officer who said no",
+      "seconds": 66.8,
+      "video": "2026-10-16-cuban-missiles.mp4?v=4714998",
+      "poster": "2026-10-16-cuban-missiles.jpg?v=73592"
     }
   }
 }

@@ -1,0 +1,89 @@
+{
+  "total": 73.053,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "A spy plane's photos began 13 days that nearly ended the world.",
+      "start": 0.4,
+      "end": 5.2
+    },
+    {
+      "id": "s2",
+      "show": "On this day in 1962, President Kennedy was shown the pictures.",
+      "start": 5.65,
+      "end": 10.407
+    },
+    {
+      "id": "s3",
+      "show": "Two days earlier, a U-2 pilot had taken 928 photos over Cuba.",
+      "start": 10.807,
+      "end": 16.631
+    },
+    {
+      "id": "s4",
+      "show": "In them: Soviet nuclear missile sites, a short flight from America.",
+      "start": 17.031,
+      "end": 21.426
+    },
+    {
+      "id": "s5",
+      "show": "His military chiefs wanted an attack, and an invasion.",
+      "start": 21.876,
+      "end": 25.503
+    },
+    {
+      "id": "s6",
+      "show": "Kennedy chose a naval blockade instead, and called it a \"quarantine\".",
+      "start": 25.853,
+      "end": 30.247
+    },
+    {
+      "id": "s7",
+      "show": "On October 27th, an American spy plane was shot down over Cuba.",
+      "start": 30.697,
+      "end": 35.711
+    },
+    {
+      "id": "s8",
+      "show": "That same day, U.S. destroyers dropped practice depth charges on a Soviet submarine.",
+      "start": 36.061,
+      "end": 41.842
+    },
+    {
+      "id": "s9",
+      "show": "Its captain believed the war had begun, and prepared a nuclear torpedo.",
+      "start": 42.192,
+      "end": 46.907
+    },
+    {
+      "id": "s10",
+      "show": "One officer refused. His name was Vasily Arkhipov.",
+      "start": 47.457,
+      "end": 51.51
+    },
+    {
+      "id": "s11",
+      "show": "The next day, Khrushchev agreed to take the missiles away.",
+      "start": 52.06,
+      "end": 55.537
+    },
+    {
+      "id": "s12",
+      "show": "In secret, America agreed to remove its own — from Turkey.",
+      "start": 55.887,
+      "end": 59.898
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: London's Parliament burned down, and the Disney brothers opened their studio.",
+      "start": 60.498,
+      "end": 66.791
+    },
+    {
+      "id": "end2",
+      "show": "Our app is the one launch worth waiting for. Subscribe, and be there when it goes.",
+      "start": 67.241,
+      "end": 72.553
+    }
+  ]
+}

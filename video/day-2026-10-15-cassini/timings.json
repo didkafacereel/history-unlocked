@@ -1,0 +1,89 @@
+{
+  "total": 71.766,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "This spacecraft found an ocean on a moon of Saturn, then destroyed itself to protect it.",
+      "start": 0.4,
+      "end": 5.904
+    },
+    {
+      "id": "s2",
+      "show": "Cassini launched on this day in 1997.",
+      "start": 6.354,
+      "end": 9.81
+    },
+    {
+      "id": "s3",
+      "show": "It ran on plutonium, because out at Saturn, sunlight is too weak for solar panels.",
+      "start": 10.21,
+      "end": 15.863
+    },
+    {
+      "id": "s4",
+      "show": "Seven years later, it reached Saturn.",
+      "start": 16.263,
+      "end": 18.546
+    },
+    {
+      "id": "s5",
+      "show": "It dropped a probe onto the moon Titan — the farthest landing ever made.",
+      "start": 18.896,
+      "end": 23.461
+    },
+    {
+      "id": "s6",
+      "show": "Then it found geysers of ice, shooting from a tiny moon called Enceladus.",
+      "start": 23.861,
+      "end": 28.661
+    },
+    {
+      "id": "s7",
+      "show": "Beneath the ice: a salty ocean, one of the likeliest places to find alien life.",
+      "start": 29.011,
+      "end": 34.75
+    },
+    {
+      "id": "s8",
+      "show": "In 2013, it turned to photograph Earth, and asked us to look up and smile.",
+      "start": 35.25,
+      "end": 40.583
+    },
+    {
+      "id": "s9",
+      "show": "We were a single dot of light.",
+      "start": 40.933,
+      "end": 42.939
+    },
+    {
+      "id": "s10",
+      "show": "But soon it could no longer be steered, and a crash could carry Earth microbes to those moons.",
+      "start": 43.489,
+      "end": 49.227
+    },
+    {
+      "id": "s11",
+      "show": "So in 2017, Cassini dived into Saturn — on purpose.",
+      "start": 49.627,
+      "end": 53.958
+    },
+    {
+      "id": "s12",
+      "show": "It burned up about 45 seconds after its last signal.",
+      "start": 54.408,
+      "end": 58.163
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: Napoleon's exile on Saint Helena began, and the From Hell letter arrived.",
+      "start": 58.763,
+      "end": 65.248
+    },
+    {
+      "id": "end2",
+      "show": "Our app is still in orbit, but it's coming in to land. Subscribe, and be there for the signal.",
+      "start": 65.698,
+      "end": 71.266
+    }
+  ]
+}

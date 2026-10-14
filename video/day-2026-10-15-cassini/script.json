@@ -1,0 +1,324 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-10-15",
+  "dateKey": "10-15",
+  "slug": "cassini",
+  "title": "Cassini, 1997 — the probe that found an ocean, then dived into Saturn to protect it",
+  "eventId": "evt-10-15-1997-cassini-huygens",
+  "category": "Science & Technology",
+  "sources": [
+    "Wikipedia: Cassini–Huygens — launched on a Titan IVB/Centaur on 15 October 1997 from Cape Canaveral; nearly 20 years in space, almost 7 in transit, 13 orbiting Saturn (orbit from 1 July 2004); powered by plutonium RTGs because, at Saturn's distance from the Sun, solar arrays were not feasible; Huygens entered Titan's atmosphere on 14 January 2005 and landed; Cassini observed water-ice geysers at the south pole of Enceladus; in 2014 NASA reported evidence of a large salty internal ocean there, 'among the most likely places in the Solar System to host alien microbial life'; on 15 September 2017 it was sent into Saturn's atmosphere and burned up, to prevent contaminating moons that might offer habitable environments to stowaway terrestrial microbes, once it could no longer be manoeuvred; it burned up about 45 seconds after its last transmission",
+    "Wikipedia: Huygens (spacecraft) — the first spacecraft to land on Titan and the farthest landing from Earth a spacecraft has ever made",
+    "Wikipedia: The Day the Earth Smiled — composite photograph taken by Cassini on 19 July 2013; Carolyn Porco's idea that people look up and smile; NASA's related 'Wave at Saturn' event",
+    "Also on this day (candidates.md, in the app): 1815 Napoleon begins his exile on Saint Helena; 1888 the 'From Hell' letter, allegedly from Jack the Ripper, is received",
+    "Film (public domain, NASA): 'Kennedy Marks 20th Anniversary of Cassini Arrival' (1997 footage: assembly, RTGs, the launch); NASA/JPL animation 'Cassini's Grand Finale' (2017)",
+    "Pictures (public domain, NASA/JPL): Titan IVB on Launch Complex 40; Saturn from Cassini, 2004; Saturn's rings, 2013; Enceladus; The Day the Earth Smiled, 2013; A Farewell to Saturn, 2017",
+    "Illustrative stock footage (Pexels, free licence; not of the event): a night sky"
+  ],
+  "music": {
+    "track": "bach-air-1920"
+  },
+  "highlight": [
+    "OCEAN",
+    "PLUTONIUM",
+    "TITAN",
+    "LIFE",
+    "WAVE",
+    "SATURN",
+    "PURPOSE",
+    "45"
+  ],
+  "cover": {
+    "image": "saturn.jpg",
+    "focus": "50% 50%",
+    "date": "15 OCTOBER 1997",
+    "lines": [
+      "IT DIVED",
+      "INTO *SATURN*",
+      "ON *PURPOSE*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "This spacecraft found an ocean on a moon of Saturn, then destroyed itself to protect it.",
+      "show": "This spacecraft found an ocean on a moon of Saturn, then destroyed itself to protect it.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "Cassini launched on this day in nineteen ninety-seven.",
+      "show": "Cassini launched on this day in 1997.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "It ran on plutonium, because out at Saturn, sunlight is too weak for solar panels.",
+      "show": "It ran on plutonium, because out at Saturn, sunlight is too weak for solar panels.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "Seven years later, it reached Saturn.",
+      "show": "Seven years later, it reached Saturn.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s5",
+      "say": "It dropped a probe onto the moon Titan, the farthest landing ever made.",
+      "show": "It dropped a probe onto the moon Titan — the farthest landing ever made.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s6",
+      "say": "Then it found geysers of ice, shooting from a tiny moon called Enceladus.",
+      "show": "Then it found geysers of ice, shooting from a tiny moon called Enceladus.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s7",
+      "say": "Beneath the ice: a salty ocean, one of the likeliest places to find alien life.",
+      "show": "Beneath the ice: a salty ocean, one of the likeliest places to find alien life.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s8",
+      "say": "In twenty thirteen, it turned to photograph Earth, and asked us to look up and smile.",
+      "show": "In 2013, it turned to photograph Earth, and asked us to look up and smile.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s9",
+      "say": "We were a single dot of light.",
+      "show": "We were a single dot of light.",
+      "pauseAfter": 0.55
+    },
+    {
+      "id": "s10",
+      "say": "But soon it could no longer be steered, and a crash could carry Earth microbes to those moons.",
+      "show": "But soon it could no longer be steered, and a crash could carry Earth microbes to those moons.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s11",
+      "say": "So in twenty seventeen, Cassini dived into Saturn, on purpose.",
+      "show": "So in 2017, Cassini dived into Saturn — on purpose.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s12",
+      "say": "It burned up about forty-five seconds after its last signal.",
+      "show": "It burned up about 45 seconds after its last signal.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "also": {
+    "say": "Also on this day: Napoleon's exile on Saint Helena began, and the From Hell letter arrived.",
+    "items": [
+      {
+        "year": "1815",
+        "text": "Napoleon's exile on Saint Helena begins"
+      },
+      {
+        "year": "1888",
+        "text": "The \"From Hell\" letter is received"
+      }
+    ],
+    "image": "rings.jpg"
+  },
+  "cta": {
+    "story": "Twenty years, one last signal.",
+    "say": "Our app is still in orbit, but it's coming in to land. Subscribe, and be there for the signal.",
+    "pill": "SIGNAL INCOMING",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook — Saturn, same picture as the cover",
+      "image": "saturn.jpg",
+      "focus": "50% 50%",
+      "move": "in"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.4",
+      "enter": "cut",
+      "clip": "anim-plumes.mp4",
+      "credit": "Enceladus' plumes · NASA/JPL animation"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.72",
+      "enter": "cut",
+      "clip": "anim-dive.mp4",
+      "credit": "Cassini's final plunge · NASA/JPL animation"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "rocket.jpg",
+      "focus": "50% 40%",
+      "date": "15 OCTOBER",
+      "year": "1997",
+      "place": "Cape Canaveral, Florida"
+    },
+    {
+      "type": "film",
+      "from": "s2@0.55",
+      "enter": "cut",
+      "clip": "film-launch.mp4",
+      "credit": "Launch footage from NASA's Cassini film"
+    },
+    {
+      "type": "film",
+      "from": "s3",
+      "enter": "cut",
+      "clip": "film-rtg.mp4",
+      "credit": "Cassini's plutonium generators · NASA film"
+    },
+    {
+      "type": "film",
+      "from": "s3@0.55",
+      "enter": "cut",
+      "clip": "film-cleanroom.mp4",
+      "credit": "Preparing Cassini, 1997 · NASA film"
+    },
+    {
+      "type": "film",
+      "from": "s4",
+      "enter": "cut",
+      "clip": "anim-saturn.mp4",
+      "credit": "Cassini at Saturn · NASA/JPL animation"
+    },
+    {
+      "type": "film",
+      "from": "s5",
+      "enter": "cut",
+      "clip": "anim-huygens.mp4",
+      "credit": "Huygens lands on Titan, 2005 · NASA/JPL animation"
+    },
+    {
+      "type": "photo",
+      "from": "s6",
+      "enter": "cut",
+      "image": "enceladus.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Enceladus, photographed by Cassini"
+    },
+    {
+      "type": "film",
+      "from": "s6@0.5",
+      "enter": "cut",
+      "clip": "anim-plumefly.mp4",
+      "credit": "Flying through the plumes · NASA/JPL animation"
+    },
+    {
+      "type": "statement",
+      "from": "s7",
+      "enter": "cut",
+      "image": "enceladus.jpg",
+      "focus": "50% 70%",
+      "ghost": "OCEAN",
+      "kicker": "Under the ice of Enceladus",
+      "main": {
+        "text": "A hidden salty *ocean*.",
+        "at": "s7@0.35"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s7@0.6",
+      "enter": "cut",
+      "clip": "anim-plumes.mp4",
+      "credit": "Enceladus' plumes · NASA/JPL animation"
+    },
+    {
+      "type": "photo",
+      "from": "s8",
+      "enter": "cut",
+      "image": "smiled.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The Day the Earth Smiled, 19 July 2013"
+    },
+    {
+      "type": "film",
+      "from": "s8@0.5",
+      "enter": "cut",
+      "clip": "stock-milkyway.mp4",
+      "credit": "A night sky · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s9",
+      "enter": "cut",
+      "image": "earth-dot.jpg",
+      "focus": "50% 75%",
+      "move": "in",
+      "fact": "Earth: the dot below Saturn's rings"
+    },
+    {
+      "type": "film",
+      "from": "s10",
+      "enter": "cut",
+      "clip": "anim-rings.mp4",
+      "credit": "The Grand Finale, 2017 · NASA/JPL animation"
+    },
+    {
+      "type": "photo",
+      "from": "s10@0.5",
+      "enter": "cut",
+      "image": "enceladus.jpg",
+      "focus": "50% 85%",
+      "move": "in",
+      "fact": "Enceladus, the moon it had to protect"
+    },
+    {
+      "type": "film",
+      "from": "s11",
+      "enter": "cut",
+      "clip": "anim-end.mp4",
+      "credit": "Into Saturn, 15 September 2017 · NASA/JPL animation"
+    },
+    {
+      "type": "statement",
+      "from": "s12",
+      "enter": "cut",
+      "image": "farewell.jpg",
+      "focus": "50% 50%",
+      "ghost": "45 s",
+      "kicker": "15 September 2017",
+      "main": {
+        "text": "Gone *45 seconds* after its last signal.",
+        "at": "s12@0.5"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "This spacecraft found an ocean on a moon of Saturn — then destroyed itself to protect it. 🪐🌊\n\nCassini launched on 15 October 1997, ran on plutonium, landed a probe on Titan, found ice geysers on Enceladus and a hidden salty ocean. In 2017 it dived into Saturn on purpose, so it could never crash into those moons.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #space #nasa #saturn #cassini",
+    "facebook": "On this day in 1997, the Cassini spacecraft launched from Cape Canaveral on a Titan IV rocket, bound for Saturn.\n\nSo far from the Sun that solar panels would not work, it ran on plutonium. It reached Saturn seven years later, and dropped the Huygens probe onto the moon Titan — still the farthest landing ever made from Earth. Then, at a tiny moon called Enceladus, it found geysers of ice — and evidence of a salty ocean beneath, one of the likeliest places in the Solar System to host alien life.\n\nIn 2013 Cassini turned to photograph Earth, and people were asked to look up and smile. We were a single dot of light under Saturn's rings.\n\nWhen it could soon no longer be steered, NASA chose not to risk a crash that might carry Earth microbes to those moons. On 15 September 2017, Cassini dived into Saturn, on purpose, and burned up about 45 seconds after its last signal.\n\nAlso on 15 October: Napoleon's exile on Saint Helena began (1815), and the \"From Hell\" letter was received (1888).\n\nOur app is still in orbit, but it's coming in to land. Follow the page and be there for the signal. 📜\n\n#OnThisDay #History #Cassini #NASA",
+    "youtube": {
+      "title": "The Spacecraft That Destroyed Itself To Protect Alien Life #Shorts",
+      "description": "Cassini launched on 15 October 1997. Powered by plutonium, it reached Saturn seven years later, landed the Huygens probe on Titan — the farthest landing ever made — and found ice geysers and a hidden salty ocean on the moon Enceladus, one of the likeliest places to find alien life. In 2013 it photographed Earth as a single dot of light. Then, before it could no longer be steered, it was sent into Saturn on purpose so it could never contaminate those moons — burning up about 45 seconds after its last signal.\n\nAlso on 15 October: Napoleon's exile on Saint Helena (1815) and the \"From Hell\" letter (1888).\n\nSubscribe — our history app, with a story for every date, is on its way.\n\nFilm and pictures: NASA / JPL, public domain; animations marked as NASA/JPL animation. Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #Cassini #NASA",
+      "tags": [
+        "history",
+        "on this day",
+        "Cassini",
+        "Saturn",
+        "NASA",
+        "Enceladus",
+        "Titan",
+        "Huygens",
+        "space history",
+        "1997",
+        "alien life",
+        "history shorts"
+      ]
+    },
+    "pinned": "NASA destroyed a working spacecraft to protect a moon that MIGHT have life. Right call — or should it have kept exploring? 👇"
+  }
+}
