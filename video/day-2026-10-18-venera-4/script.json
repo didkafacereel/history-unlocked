@@ -1,0 +1,324 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-10-18",
+  "dateKey": "10-18",
+  "slug": "venera-4",
+  "title": "Venera 4, 1967 — the probe built to float on Venus, with a lock made of sugar",
+  "eventId": "evt-10-18-1967-venera-4",
+  "category": "Science & Technology",
+  "sources": [
+    "Wikipedia: Venera 4 — Soviet probe; in 1967 the first successful probe to analyse the environment of another planet in place, and the first spacecraft to survive entry into another planet's atmosphere; its capsule could float in case of a water landing, and its lock was made of sugar, meant to dissolve in liquid water and release the transmitter antennas; during entry the heat shield reached 11,000 °C and deceleration 300 g; the parachute opened at about 52 km; the atmosphere measured 90–93% carbon dioxide; at the end of a 26 km descent the temperature reached 262 °C and the pressure 22 atmospheres, and the signal ended; because of a radar altimeter ambiguity the Soviet team initially announced the probe had reached the surface, a claim quickly dismissed; the probes Venera 3–6 were not built to withstand the surface pressure; the first soft landing on Venus was Venera 7 in 1970",
+    "Wikipedia: Atmosphere of Venus — surface temperature about 467 °C and pressure about 93 bar",
+    "Also on this day (candidates.md, in the app): 1945 Juan Perón marries Eva Duarte; 1356 the Basel earthquake",
+    "Pictures: Venera 4 at the Memorial Museum of Astronautics (CC0); Soviet stamp, 1968; Venus from Mariner 10 (NASA); Venus clouds, Galileo (NASA); Maat Mons, Magellan radar (NASA/JPL); a cut-away Venera lander (later design); artist's views of a Venus descent (NASA) and of a Venera on the surface (CC0)",
+    "Illustrative stock footage (Pexels, free licence; not of the event): sugar, flames, TV static"
+  ],
+  "music": {
+    "track": "chopin-nocturne-10"
+  },
+  "highlight": [
+    "SUGAR",
+    "FLOAT",
+    "VENUS",
+    "11,000",
+    "CARBON",
+    "262",
+    "STOPPED",
+    "SURFACE"
+  ],
+  "cover": {
+    "image": "venus.jpg",
+    "focus": "50% 50%",
+    "date": "18 OCTOBER 1967",
+    "lines": [
+      "A LOCK",
+      "MADE OF",
+      "*SUGAR*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "This probe was built to float, in case Venus had water. Its lock was made of sugar.",
+      "show": "This probe was built to float, in case Venus had water. Its lock was made of sugar.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "Venera four reached Venus on this day in nineteen sixty-seven.",
+      "show": "Venera 4 reached Venus on this day in 1967.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "No one knew what lay under the clouds, so its designers allowed for a landing in water.",
+      "show": "No one knew what lay under the clouds, so its designers allowed for a landing in water.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s4",
+      "say": "The sugar would dissolve, and release the antennas.",
+      "show": "The sugar would dissolve, and release the antennas.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s5",
+      "say": "It hit the atmosphere so hard, its heat shield reached eleven thousand degrees.",
+      "show": "It hit the atmosphere so hard, its heat shield reached 11,000 degrees.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s6",
+      "say": "Then the parachute opened, and for the first time, a probe tasted the air of another planet.",
+      "show": "Then the parachute opened, and for the first time, a probe tasted the air of another planet.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s7",
+      "say": "It was almost all carbon dioxide.",
+      "show": "It was almost all carbon dioxide.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s8",
+      "say": "As it fell, the heat rose to two hundred and sixty-two degrees, the pressure to twenty-two atmospheres.",
+      "show": "As it fell, the heat rose to 262 degrees, the pressure to 22 atmospheres.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s9",
+      "say": "Then the signal stopped.",
+      "show": "Then the signal stopped.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s10",
+      "say": "Moscow first announced it had reached the surface. A radar quirk had fooled them.",
+      "show": "Moscow first announced it had reached the surface. A radar quirk had fooled them.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s11",
+      "say": "There was no water. At the ground, Venus is hotter than an oven, four hundred and sixty-seven degrees.",
+      "show": "There was no water. At the ground, Venus is hotter than an oven — 467 degrees.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s12",
+      "say": "Three years later, Venera seven finally touched down.",
+      "show": "Three years later, Venera 7 finally touched down.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "also": {
+    "say": "Also on this day: Perón married Evita, and an earthquake destroyed Basel.",
+    "items": [
+      {
+        "year": "1945",
+        "text": "Juan Perón marries Eva Duarte"
+      },
+      {
+        "year": "1356",
+        "text": "The Basel earthquake"
+      }
+    ],
+    "image": "venus-clouds.jpg"
+  },
+  "cta": {
+    "story": "Sweet things are worth the wait.",
+    "say": "Our app is still on its way down. Subscribe, and be there the moment it lands.",
+    "pill": "TOUCHDOWN SOON",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook — Venus, same picture as the cover",
+      "image": "venus.jpg",
+      "focus": "50% 50%",
+      "move": "in"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.62",
+      "enter": "cut",
+      "clip": "stock-sugar.mp4",
+      "credit": "Sugar · illustrative · Pexels"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "venera4.jpg",
+      "focus": "50% 40%",
+      "date": "18 OCTOBER",
+      "year": "1967",
+      "place": "Venus"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "venus-clouds.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The clouds of Venus, seen by Galileo, 1990"
+    },
+    {
+      "type": "photo",
+      "from": "s3@0.55",
+      "enter": "cut",
+      "image": "venera4.jpg",
+      "focus": "50% 70%",
+      "move": "in",
+      "fact": "Venera 4, Memorial Museum of Astronautics, Moscow"
+    },
+    {
+      "type": "statement",
+      "from": "s4",
+      "enter": "cut",
+      "image": "stamp.jpg",
+      "focus": "50% 50%",
+      "ghost": "SUGAR",
+      "kicker": "The antenna lock",
+      "main": {
+        "text": "Made to *dissolve* in water.",
+        "at": "s4@0.3"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s5",
+      "enter": "cut",
+      "clip": "stock-flames.mp4",
+      "credit": "Fire · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s6",
+      "enter": "cut",
+      "image": "descent.jpg",
+      "focus": "50% 40%",
+      "move": "in",
+      "fact": "A descent through Venus' clouds · NASA illustration"
+    },
+    {
+      "type": "photo",
+      "from": "s6@0.55",
+      "enter": "cut",
+      "image": "venus-uv.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Venus' atmosphere, seen by Mariner 10"
+    },
+    {
+      "type": "statement",
+      "from": "s7",
+      "enter": "cut",
+      "image": "venus-clouds.jpg",
+      "focus": "50% 50%",
+      "ghost": "CO₂",
+      "kicker": "The first air from another planet",
+      "main": {
+        "text": "Almost all *carbon dioxide*.",
+        "at": "s7@0.4"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s8",
+      "enter": "cut",
+      "image": "lander.jpg",
+      "focus": "50% 45%",
+      "move": "in",
+      "fact": "Inside a later Venera lander"
+    },
+    {
+      "type": "film",
+      "from": "s8@0.5",
+      "enter": "cut",
+      "clip": "stock-flames2.mp4",
+      "credit": "Heat · illustrative · Pexels"
+    },
+    {
+      "type": "film",
+      "from": "s9",
+      "enter": "cut",
+      "clip": "stock-static.mp4",
+      "credit": "Static · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s10",
+      "enter": "cut",
+      "image": "stamp.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Soviet stamp celebrating Venera 4, 1968"
+    },
+    {
+      "type": "photo",
+      "from": "s10@0.5",
+      "enter": "cut",
+      "image": "venus.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Venus from Mariner 10, 1974"
+    },
+    {
+      "type": "photo",
+      "from": "s11",
+      "enter": "cut",
+      "image": "maatmons.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The surface of Venus, mapped by radar · NASA"
+    },
+    {
+      "type": "statement",
+      "from": "s11@0.55",
+      "enter": "cut",
+      "image": "maatmons.jpg",
+      "focus": "40% 60%",
+      "ghost": "467°",
+      "kicker": "Venus, at the surface",
+      "main": {
+        "text": "Hotter than an *oven*.",
+        "at": "s11@0.7"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s12",
+      "enter": "cut",
+      "image": "surface-art.jpg",
+      "focus": "30% 50%",
+      "move": "in",
+      "fact": "A Venera on Venus · artist's impression"
+    }
+  ],
+  "post": {
+    "tiktok": "This probe was built to float, in case Venus had water. Its lock was made of sugar. 🍬🪐\n\n18 October 1967: Venera 4 became the first probe to taste another planet's air — almost all carbon dioxide. Then, at 262°C and 22 atmospheres, its signal stopped. There was no water.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #space #venus #ussr #1967",
+    "facebook": "On this day in 1967, the Soviet probe Venera 4 reached Venus — and became the first spacecraft to analyse the atmosphere of another planet from inside it.\n\nNobody knew what lay beneath the clouds, so its capsule was built to float in case it came down in water. Its antenna lock was made of sugar, meant to dissolve in liquid water and free the antennas.\n\nIt hit the atmosphere so hard that its heat shield reached 11,000 °C. Then the parachute opened, and the probe began sending back the air of Venus: 90–93% carbon dioxide. As it fell, the temperature climbed to 262 °C and the pressure to 22 atmospheres — and the signal stopped.\n\nThe Soviet team first announced it had reached the surface; a radar quirk had fooled them, and the claim was quickly dropped. There was no water: at the ground, Venus is about 467 °C. Three years later, Venera 7 made the first landing.\n\nAlso on 18 October: Juan Perón married Eva Duarte (1945), and an earthquake destroyed Basel (1356).\n\nOur app is still on its way down. Follow the page and be there the moment it lands. 📜\n\n#OnThisDay #History #Venus #SpaceHistory",
+    "youtube": {
+      "title": "The Venus Probe With A Lock Made Of Sugar #Shorts",
+      "description": "18 October 1967: Venera 4 reached Venus. Built to float in case it landed in water, its antenna lock was made of sugar, designed to dissolve. It survived an 11,000-degree entry, opened its parachute and became the first probe to measure another planet's atmosphere — almost all carbon dioxide. At 262 °C and 22 atmospheres, the signal stopped. Moscow first announced it had reached the surface — a radar quirk had fooled them. There was no water; Venus' surface is about 467 °C. Venera 7 landed three years later.\n\nAlso on 18 October: Perón marries Eva Duarte (1945) and the Basel earthquake (1356).\n\nSubscribe — our history app, with a story for every date, is on its way.\n\nPictures: NASA, public domain; Venera 4 photo and artist's impression CC0 (Wikimedia Commons); illustrations marked as such. Sugar, fire and static shots: illustrative stock footage (Pexels), not of the event. Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #Venus #SpaceHistory",
+      "tags": [
+        "history",
+        "on this day",
+        "Venera 4",
+        "Venus",
+        "Soviet space program",
+        "space race",
+        "1967",
+        "space history",
+        "planets",
+        "USSR",
+        "history facts",
+        "history shorts"
+      ]
+    },
+    "pinned": "In 1967, scientists still allowed for oceans on Venus. What's a 'fact' today that you think will look just as wrong in 50 years? 👇"
+  }
+}

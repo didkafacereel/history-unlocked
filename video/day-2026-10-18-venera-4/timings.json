@@ -1,0 +1,89 @@
+{
+  "total": 71.987,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "This probe was built to float, in case Venus had water. Its lock was made of sugar.",
+      "start": 0.4,
+      "end": 5.968
+    },
+    {
+      "id": "s2",
+      "show": "Venera 4 reached Venus on this day in 1967.",
+      "start": 6.418,
+      "end": 10.791
+    },
+    {
+      "id": "s3",
+      "show": "No one knew what lay under the clouds, so its designers allowed for a landing in water.",
+      "start": 11.191,
+      "end": 16.653
+    },
+    {
+      "id": "s4",
+      "show": "The sugar would dissolve, and release the antennas.",
+      "start": 17.003,
+      "end": 20.011
+    },
+    {
+      "id": "s5",
+      "show": "It hit the atmosphere so hard, its heat shield reached 11,000 degrees.",
+      "start": 20.461,
+      "end": 25.666
+    },
+    {
+      "id": "s6",
+      "show": "Then the parachute opened, and for the first time, a probe tasted the air of another planet.",
+      "start": 26.016,
+      "end": 31.563
+    },
+    {
+      "id": "s7",
+      "show": "It was almost all carbon dioxide.",
+      "start": 31.913,
+      "end": 34.409
+    },
+    {
+      "id": "s8",
+      "show": "As it fell, the heat rose to 262 degrees, the pressure to 22 atmospheres.",
+      "start": 34.859,
+      "end": 41.536
+    },
+    {
+      "id": "s9",
+      "show": "Then the signal stopped.",
+      "start": 41.936,
+      "end": 43.515
+    },
+    {
+      "id": "s10",
+      "show": "Moscow first announced it had reached the surface. A radar quirk had fooled them.",
+      "start": 44.115,
+      "end": 49.021
+    },
+    {
+      "id": "s11",
+      "show": "There was no water. At the ground, Venus is hotter than an oven — 467 degrees.",
+      "start": 49.421,
+      "end": 56.227
+    },
+    {
+      "id": "s12",
+      "show": "Three years later, Venera 7 finally touched down.",
+      "start": 56.677,
+      "end": 60.197
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: Perón married Evita, and an earthquake destroyed Basel.",
+      "start": 60.797,
+      "end": 66.151
+    },
+    {
+      "id": "end2",
+      "show": "Our app is still on its way down. Subscribe, and be there the moment it lands.",
+      "start": 66.601,
+      "end": 71.487
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-10-17",
+  "dateKey": "10-17",
+  "slug": "capone",
+  "title": "Al Capone, 1931 — the gangster brought down by his taxes",
+  "eventId": "evt-10-17-1931-al-capone",
+  "category": "Culture & Ideas",
+  "sources": [
+    "Wikipedia: Al Capone — boss of the Chicago Outfit during Prohibition; widely assumed responsible for ordering the 1929 Saint Valentine's Day Massacre, despite being at his Florida home at the time; in 1927 the Supreme Court ruled in United States v. Sullivan that illegally earned income was subject to income tax; the key to his conviction was proving his income, and the most valuable evidence came from his own offer to pay tax — his lawyer admitted income for various years; his defence claimed his income was lost to gambling; the judge allowed his spending to be presented at very great length; convicted on five counts of income tax evasion on 17 October 1931 and sentenced to 11 years in federal prison; at Alcatraz he played banjo in the prison band, the Rock Islanders; he sponsored a soup kitchen in Chicago during the Depression",
+    "Wikipedia: Frank J. Wilson — in the fall of 1930 he discovered a ledger of a large gambling operation, with net income divided among individuals referred to as A, R and J",
+    "Also on this day (candidates.md, in the app): 1814 the London Beer Flood; 1777 Burgoyne surrenders at Saratoga",
+    "Photos (public domain): Al Capone, 1930; Chicago police mugshot; Miami police photo; the soup kitchen, 1931 (NARA); Capone's criminal record, 1932; his Alcatraz transfer record; diagram of the Saint Valentine's Day Massacre; Detroit police with seized brewing equipment; Frank J. Wilson, 1940 (Harris & Ewing); the Alcatraz cellblock",
+    "Illustrative stock footage (Pexels, free licence; not of the event): a typewriter, a night street, turning pages"
+  ],
+  "music": {
+    "track": "mussorgsky-bydlo"
+  },
+  "highlight": [
+    "TAXES",
+    "TAX",
+    "MASSACRE",
+    "FLORIDA",
+    "LEDGER",
+    "LAWYER",
+    "GAMBLING",
+    "GUILTY",
+    "BANJO"
+  ],
+  "cover": {
+    "image": "capone.jpg",
+    "focus": "50% 25%",
+    "date": "17 OCTOBER 1931",
+    "top": 1000,
+    "lines": [
+      "BROUGHT DOWN",
+      "BY HIS",
+      "*TAXES*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "America's most notorious gangster wasn't brought down for murder. It was his taxes.",
+      "show": "America's most notorious gangster wasn't brought down for murder. It was his taxes.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "Al Capone was convicted on this day in nineteen thirty-one.",
+      "show": "Al Capone was convicted on this day in 1931.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "He ran Chicago's bootlegging empire during Prohibition.",
+      "show": "He ran Chicago's bootlegging empire during Prohibition.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s4",
+      "say": "He was widely blamed for the Saint Valentine's Day Massacre. But that day, he was in Florida.",
+      "show": "He was widely blamed for the St. Valentine's Day Massacre. But that day, he was in Florida.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s5",
+      "say": "So the government went after his money.",
+      "show": "So the government went after his money.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s6",
+      "say": "The Supreme Court had ruled that even illegal income could be taxed.",
+      "show": "The Supreme Court had ruled that even illegal income could be taxed.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s7",
+      "say": "Agent Frank Wilson found a ledger, with profits paid to someone called A.",
+      "show": "Agent Frank Wilson found a ledger, with profits paid to someone called \"A\".",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s8",
+      "say": "Worse, Capone's own lawyer had already admitted his income, while offering to pay the tax.",
+      "show": "Worse, Capone's own lawyer had already admitted his income, while offering to pay the tax.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s9",
+      "say": "In court, his defence claimed he'd lost it all gambling.",
+      "show": "In court, his defence claimed he'd lost it all gambling.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s10",
+      "say": "The court heard, at great length, about his spending.",
+      "show": "The court heard, at great length, about his spending.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s11",
+      "say": "Guilty on five counts. Eleven years in federal prison.",
+      "show": "Guilty on five counts. Eleven years in federal prison.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s12",
+      "say": "At Alcatraz, the boss of Chicago played banjo in the prison band.",
+      "show": "At Alcatraz, the boss of Chicago played banjo in the prison band.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "also": {
+    "say": "Also on this day: a wave of beer flooded a London street, and a British army surrendered at Saratoga.",
+    "items": [
+      {
+        "year": "1814",
+        "text": "The London Beer Flood"
+      },
+      {
+        "year": "1777",
+        "text": "Burgoyne surrenders at Saratoga"
+      }
+    ],
+    "image": "soupkitchen.jpg"
+  },
+  "cta": {
+    "story": "Every empire leaves a paper trail.",
+    "say": "Our app keeps the files on every day in history. Subscribe, and be first to open them.",
+    "pill": "OPEN THE FILE",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook — Capone, same picture as the cover",
+      "image": "capone.jpg",
+      "focus": "50% 25%",
+      "move": "in"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.62",
+      "enter": "cut",
+      "clip": "stock-typewriter.mp4",
+      "credit": "A typewriter · illustrative · Pexels"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "mugshot.jpg",
+      "focus": "70% 40%",
+      "date": "17 OCTOBER",
+      "year": "1931",
+      "place": "Chicago"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "brewery.jpg",
+      "focus": "50% 45%",
+      "move": "in",
+      "fact": "Police with a seized brewery, Prohibition era"
+    },
+    {
+      "type": "film",
+      "from": "s3@0.55",
+      "enter": "cut",
+      "clip": "stock-night.mp4",
+      "credit": "A street at night · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s4",
+      "enter": "cut",
+      "image": "diagram.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "A newspaper diagram of the massacre, 1929"
+    },
+    {
+      "type": "photo",
+      "from": "s4@0.62",
+      "enter": "cut",
+      "image": "florida.jpg",
+      "focus": "70% 40%",
+      "move": "in",
+      "fact": "Capone, photographed by Miami police"
+    },
+    {
+      "type": "photo",
+      "from": "s5",
+      "enter": "cut",
+      "image": "soupkitchen.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "A soup kitchen Capone opened in Chicago, 1931"
+    },
+    {
+      "type": "statement",
+      "from": "s6",
+      "enter": "cut",
+      "image": "record.jpg",
+      "focus": "50% 50%",
+      "ghost": "TAX",
+      "kicker": "US Supreme Court, 1927",
+      "main": {
+        "text": "Even *illegal* income is taxable.",
+        "at": "s6@0.5"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s7",
+      "enter": "cut",
+      "image": "wilson.jpg",
+      "focus": "50% 35%",
+      "move": "in",
+      "fact": "Frank J. Wilson, later chief of the Secret Service"
+    },
+    {
+      "type": "film",
+      "from": "s7@0.55",
+      "enter": "cut",
+      "clip": "stock-pages.mp4",
+      "credit": "Pages · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s8",
+      "enter": "cut",
+      "image": "capone.jpg",
+      "focus": "50% 40%",
+      "ghost": "LAWYER",
+      "kicker": "Capone's own lawyer",
+      "main": {
+        "text": "He *admitted* the income.",
+        "at": "s8@0.3"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s8@0.55",
+      "enter": "cut",
+      "clip": "stock-typewriter.mp4",
+      "credit": "A typewriter · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s9",
+      "enter": "cut",
+      "image": "record.jpg",
+      "focus": "50% 40%",
+      "move": "in",
+      "fact": "Capone's criminal record, 1932"
+    },
+    {
+      "type": "photo",
+      "from": "s10",
+      "enter": "cut",
+      "image": "capone.jpg",
+      "focus": "50% 70%",
+      "move": "in",
+      "fact": "Al Capone, 1930"
+    },
+    {
+      "type": "statement",
+      "from": "s11",
+      "enter": "cut",
+      "image": "alcatraz-record.jpg",
+      "focus": "50% 30%",
+      "ghost": "11",
+      "kicker": "17 October 1931",
+      "main": {
+        "text": "Guilty. *Eleven years*.",
+        "at": "s11@0.3"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s12",
+      "enter": "cut",
+      "image": "cellblock.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The Alcatraz cellblock today"
+    },
+    {
+      "type": "photo",
+      "from": "s12@0.55",
+      "enter": "cut",
+      "image": "alcatraz-record.jpg",
+      "focus": "80% 15%",
+      "move": "in",
+      "fact": "Capone's Alcatraz record"
+    }
+  ],
+  "post": {
+    "tiktok": "America's most notorious gangster wasn't brought down for murder. It was his taxes. 💰⚖️\n\n17 October 1931: Al Capone was convicted of tax evasion. A ledger paid profits to someone called \"A\" — and his own lawyer had already admitted his income. Eleven years. At Alcatraz, he played banjo in the prison band.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #historytok #alcapone #truecrime #1931",
+    "facebook": "On this day in 1931, Al Capone — boss of Chicago's bootlegging empire — was convicted. Not of murder, but of income tax evasion.\n\nHe was widely blamed for the 1929 Saint Valentine's Day Massacre, but he was at his Florida home that day. So federal authorities went after his money. In 1927 the Supreme Court had ruled that even illegal income was subject to tax.\n\nTreasury agent Frank Wilson found a ledger from a huge gambling operation, with profits divided among people called only \"A\", \"R\" and \"J\". But the most valuable evidence came from Capone himself: trying to settle with the government, his lawyer had already admitted his income. In court, the defence claimed he had lost it all gambling — while the court heard, at great length, about his spending.\n\nGuilty on five counts. Eleven years in federal prison. At Alcatraz, the former boss of Chicago played banjo in the prison band.\n\nAlso on 17 October: the London Beer Flood (1814), and Burgoyne's surrender at Saratoga (1777).\n\nEvery empire leaves a paper trail. Our app keeps the files on every day in history — follow the page and be first to open them. 📜\n\n#OnThisDay #History #AlCapone #TrueCrime",
+    "youtube": {
+      "title": "The Gangster Brought Down By His Taxes #Shorts",
+      "description": "17 October 1931: Al Capone, boss of Chicago's bootlegging empire, was convicted — not of murder, but of income tax evasion. Blamed for the Saint Valentine's Day Massacre while he was in Florida, he was finally caught by his money: a Supreme Court ruling that illegal income is taxable, a ledger paying profits to someone called \"A\", and his own lawyer's admission of his income. His defence said he'd lost it all gambling. Guilty on five counts, eleven years — and at Alcatraz, he played banjo in the prison band.\n\nAlso on 17 October: the London Beer Flood (1814) and the surrender at Saratoga (1777).\n\nSubscribe — our history app, with a story for every date, is on its way.\n\nPhotos: public domain (Wikimedia Commons, NARA, Library of Congress). Typewriter, street and pages shots: illustrative stock footage (Pexels), not of the event. Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #AlCapone #TrueCrime",
+      "tags": [
+        "history",
+        "on this day",
+        "Al Capone",
+        "tax evasion",
+        "Prohibition",
+        "Chicago",
+        "gangster",
+        "Alcatraz",
+        "1931",
+        "true crime",
+        "history facts",
+        "history shorts"
+      ]
+    },
+    "pinned": "Capone went to prison for his taxes, not his violence. Justice served — or did the system fail? 👇"
+  }
+}

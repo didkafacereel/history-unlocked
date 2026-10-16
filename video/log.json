@@ -215,5 +215,25 @@
     "music": "satie-gnossienne-1",
     "seconds": 73,
     "cta": "Our app is the one launch worth waiting for. Subscribe, and be there when it goes."
+  },
+  {
+    "date": "2026-10-17",
+    "slug": "capone",
+    "title": "Al Capone, 1931 — the gangster brought down by his taxes",
+    "eventId": "evt-10-17-1931-al-capone",
+    "category": "Culture & Ideas",
+    "music": "mussorgsky-bydlo",
+    "seconds": 71,
+    "cta": "Our app keeps the files on every day in history. Subscribe, and be first to open them."
+  },
+  {
+    "date": "2026-10-18",
+    "slug": "venera-4",
+    "title": "Venera 4, 1967 — the probe built to float on Venus, with a lock made of sugar",
+    "eventId": "evt-10-18-1967-venera-4",
+    "category": "Science & Technology",
+    "music": "chopin-nocturne-10",
+    "seconds": 72,
+    "cta": "Our app is still on its way down. Subscribe, and be there the moment it lands."
   }
 ]

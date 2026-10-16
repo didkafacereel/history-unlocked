@@ -1,0 +1,89 @@
+{
+  "total": 70.429,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "America's most notorious gangster wasn't brought down for murder. It was his taxes.",
+      "start": 0.4,
+      "end": 5.883
+    },
+    {
+      "id": "s2",
+      "show": "Al Capone was convicted on this day in 1931.",
+      "start": 6.333,
+      "end": 10.343
+    },
+    {
+      "id": "s3",
+      "show": "He ran Chicago's bootlegging empire during Prohibition.",
+      "start": 10.743,
+      "end": 14.498
+    },
+    {
+      "id": "s4",
+      "show": "He was widely blamed for the St. Valentine's Day Massacre. But that day, he was in Florida.",
+      "start": 14.848,
+      "end": 20.971
+    },
+    {
+      "id": "s5",
+      "show": "So the government went after his money.",
+      "start": 21.421,
+      "end": 23.49
+    },
+    {
+      "id": "s6",
+      "show": "The Supreme Court had ruled that even illegal income could be taxed.",
+      "start": 23.84,
+      "end": 28.021
+    },
+    {
+      "id": "s7",
+      "show": "Agent Frank Wilson found a ledger, with profits paid to someone called \"A\".",
+      "start": 28.371,
+      "end": 33.214
+    },
+    {
+      "id": "s8",
+      "show": "Worse, Capone's own lawyer had already admitted his income, while offering to pay the tax.",
+      "start": 33.614,
+      "end": 39.374
+    },
+    {
+      "id": "s9",
+      "show": "In court, his defence claimed he'd lost it all gambling.",
+      "start": 39.824,
+      "end": 43.067
+    },
+    {
+      "id": "s10",
+      "show": "The court heard, at great length, about his spending.",
+      "start": 43.417,
+      "end": 46.425
+    },
+    {
+      "id": "s11",
+      "show": "Guilty on five counts. Eleven years in federal prison.",
+      "start": 46.875,
+      "end": 50.736
+    },
+    {
+      "id": "s12",
+      "show": "At Alcatraz, the boss of Chicago played banjo in the prison band.",
+      "start": 51.236,
+      "end": 55.823
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: a wave of beer flooded a London street, and a British army surrendered at Saratoga.",
+      "start": 56.423,
+      "end": 63.548
+    },
+    {
+      "id": "end2",
+      "show": "Our app keeps the files on every day in history. Subscribe, and be first to open them.",
+      "start": 63.998,
+      "end": 69.929
+    }
+  ]
+}

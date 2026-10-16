@@ -184,6 +184,22 @@
       "seconds": 66.8,
       "video": "2026-10-16-cuban-missiles.mp4?v=4714998",
       "poster": "2026-10-16-cuban-missiles.jpg?v=73592"
+    },
+    "10-17": {
+      "date": "2026-10-17",
+      "eventId": "evt-10-17-1931-al-capone",
+      "title": "Al Capone, 1931 — the gangster brought down by his taxes",
+      "seconds": 63.6,
+      "video": "2026-10-17-capone.mp4?v=3952966",
+      "poster": "2026-10-17-capone.jpg?v=60951"
+    },
+    "10-18": {
+      "date": "2026-10-18",
+      "eventId": "evt-10-18-1967-venera-4",
+      "title": "Venera 4, 1967 — the probe built to float on Venus, with a lock made of sugar",
+      "seconds": 66.2,
+      "video": "2026-10-18-venera-4.mp4?v=4802155",
+      "poster": "2026-10-18-venera-4.jpg?v=40890"
     }
   }
 }
