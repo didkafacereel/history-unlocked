@@ -25,7 +25,7 @@
  * Exits non-zero with the reason on anything that would ship a broken video.
  */
 import { execFileSync, spawnSync } from 'node:child_process';
-import { copyFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { copyFileSync, existsSync, mkdirSync, readFileSync, renameSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { HYPERFRAMES, mix, narration, videoLength, voice } from './lib/audio.mjs';
@@ -66,11 +66,18 @@ const channel = JSON.parse(readFileSync(path.join(videoDir, 'channel.json'), 'ut
 const library = JSON.parse(readFileSync(path.join(videoDir, 'music', 'library.json'), 'utf8'));
 if (script.format !== 2) fail('script.json is not format 2 — the hand-built days use build-*.mjs instead');
 const fast = script.pace === 'fast';
-const MIN_LEN = fast ? 35 : 45;
-const MAX_LEN = fast ? 75 : 62;
-const TARGET = fast ? 58 : 58;
+// "mode": "channel" — a video for the YouTube channel The Old History (the
+// user, 5 Oct): no "on this day", no app. Its best Shorts ran 1:40–2:18, so
+// it may run to 100 s. The end card is the channel's (old-history/channel.json),
+// the CTA still new every time, and it goes to old-history/ready/, never the
+// app's log or film storage.
+const channelMode = script.mode === 'channel';
+const ohDir = path.join(videoDir, 'old-history');
+const MIN_LEN = channelMode ? 45 : fast ? 35 : 45;
+const MAX_LEN = channelMode ? 100 : fast ? 75 : 62;
+const TARGET = channelMode ? 85 : 58;
 
-const stageBase = channel.stages[channel.stage];
+const stageBase = channelMode ? JSON.parse(readFileSync(path.join(ohDir, 'channel.json'), 'utf8')).card : channel.stages[channel.stage];
 if (!stageBase) fail(`channel.json stage "${channel.stage}" has no entry in "stages"`);
 // A new call to action for every video (the user, 3 Oct: "be super
 // innovative and creative with the CTA" — the clips also go to YouTube).
@@ -86,15 +93,19 @@ const stage = { story: channel.story, ...stageFields, ...(custom ?? ctas[ctaInde
 if (custom) {
   for (const k of ['story', 'say', 'pill', 'note']) if (!custom[k]) fail(`script.json "cta" needs "${k}"`);
   if (/\d/.test(custom.say)) fail('cta.say has digits — spell numbers out for the voice');
-  if (!/subscri/i.test(custom.say) || !/\bapp\b/i.test(custom.say + ' ' + custom.note)) {
+  if (channelMode) {
+    if (!/subscri/i.test(custom.say)) fail('cta must still ask to subscribe (in "say")');
+    if (/\bapp\b/i.test(custom.say + ' ' + custom.note + ' ' + custom.story)) fail('a channel video never mentions the app');
+  } else if (!/subscri/i.test(custom.say) || !/\bapp\b/i.test(custom.say + ' ' + custom.note)) {
     fail('cta must still ask to subscribe (in "say") and mention the coming app (in "say" or "note")');
   }
   if (custom.pill.length > 16) fail(`cta.pill "${custom.pill}" is over 16 characters — it must fit the button`);
   if (custom.say.split(/\s+/).length > 22) fail('cta.say is over 22 words — keep the end card short');
-  const prior = (existsSync(path.join(videoDir, 'log.json')) ? JSON.parse(readFileSync(path.join(videoDir, 'log.json'), 'utf8')) : [])
-    .filter((l) => l.date !== script.date && l.cta);
+  const ctaLog = channelMode ? path.join(ohDir, 'log.json') : path.join(videoDir, 'log.json');
+  const prior = (existsSync(ctaLog) ? JSON.parse(readFileSync(ctaLog, 'utf8')) : [])
+    .filter((l) => (channelMode ? l.slug !== script.slug : l.date !== script.date) && l.cta);
   if (prior.some((l) => l.cta.toLowerCase() === custom.say.toLowerCase())) fail('this cta.say was already used on an earlier day — write a new one');
-}
+} else if (channelMode) fail('a channel video needs its own "cta" { story, say, pill, note } — new every time');
 const track = library.tracks.find((t) => t.id === script.music?.track);
 if (!track) fail(`music.track "${script.music?.track}" is not in music/library.json`);
 const musicFile = path.join(videoDir, 'music', track.file);
@@ -149,6 +160,8 @@ const films = [
 const creditLine =
   `Images: ${script.imageCredit ?? (artists.length ? `${artists.join('; ')} via Wikimedia Commons` : 'Wikimedia Commons')} · public domain. ` +
   (films.length ? `Film: ${films.join('; ')} · public domain. ` : '') +
+  // Stock footage is not public domain — it gets its own line (DAILY 3c).
+  (script.stockCredit ? `${script.stockCredit}. ` : '') +
   `Music: ${track.credit}. Sources: Wikipedia.`;
 
 // "Also on this day" (the user, 3 Oct): the day's other events, spoken in one
@@ -288,10 +301,29 @@ if (noRender) {
 
 // ── 8. render + verify ────────────────────────────────────────────────────
 step('render');
-const name = `${script.date}-${script.slug}${draft ? '-v2' : ''}`;
+// One HDR clip (a phone's HLG/PQ video) switches the renderer into its layered
+// HDR capture, which held the cover over everything before that clip (12 Oct)
+// and took an hour. Stock clips must be tone-mapped to bt709 first (DAILY 3c).
+const hdr = resolved.scenes
+  .filter((sc) => sc.clip)
+  .filter((sc) => {
+    const trc = execFileSync('ffprobe', ['-v', 'error', '-select_streams', 'v:0', '-show_entries', 'stream=color_transfer', '-of', 'default=nw=1:nk=1', path.join(dir, 'assets', sc.clip)], { encoding: 'utf8' }).trim();
+    return /arib-std-b67|smpte2084|bt2020/.test(trc);
+  })
+  .map((sc) => sc.clip);
+if (hdr.length) fail(`HDR video in ${[...new Set(hdr)].join(', ')} — tone-map it to bt709 (DAILY.md 3c) before rendering`);
+const name = channelMode ? `${script.slug}${draft ? '-draft' : ''}` : `${script.date}-${script.slug}${draft ? '-v2' : ''}`;
 const mp4 = path.join(dir, 'renders', `${name}.mp4`);
 mkdirSync(path.dirname(mp4), { recursive: true });
 npx(['render', '--quality', 'high', '--output', path.relative(dir, mp4)], { stdio: ['ignore', 'pipe', 'pipe'] });
+// The renderer re-encodes the soundtrack, and on 18 Oct it came out 2.7 dB
+// quieter than mix.wav (-16.8 vs -14 LUFS). mix.wav is already measured, so
+// put it back as the audio, untouched; the video stream is copied.
+{
+  const remux = mp4.replace(/\.mp4$/, '.remux.mp4');
+  execFileSync('ffmpeg', ['-v', 'error', '-y', '-i', mp4, '-i', path.join(dir, 'mix.wav'), '-map', '0:v:0', '-map', '1:a:0', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '256k', '-ar', '48000', '-shortest', '-movflags', '+faststart', remux]);
+  renameSync(remux, mp4);
+}
 const dur = Number(execFileSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'default=nw=1:nk=1', mp4], { encoding: 'utf8' }).trim());
 // loudnorm prints its measurement on stderr.
 const loud = spawnSync('ffmpeg', ['-hide_banner', '-i', mp4, '-af', 'loudnorm=print_format=summary', '-f', 'null', '-'], {
@@ -301,13 +333,34 @@ const loud = spawnSync('ffmpeg', ['-hide_banner', '-i', mp4, '-af', 'loudnorm=pr
 const lufs = Number(/Input Integrated:\s*(-?[\d.]+)/.exec(loud)?.[1]);
 if (Math.abs(dur - total) > 0.3) fail(`rendered ${dur.toFixed(2)}s but the timeline is ${total}s`);
 if (!(lufs > -16 && lufs < -12)) fail(`loudness ${lufs} LUFS — expected about -14`);
+// A render that goes wrong can freeze the page in its start state (12 Oct:
+// the cover over the first 18 s, from an HDR clip). The
+// snapshots cannot show that, only the mp4 can. Each scene's middle must
+// differ from the cover frame.
+const frozen = Object.entries(composed.scene)
+  .map(([id, s]) => [id, s.start + s.duration / 2])
+  .filter(([, t]) => t > 1)
+  .filter(([, t]) => {
+    const out = spawnSync(
+      'ffmpeg',
+      ['-hide_banner', '-ss', '0.1', '-i', mp4, '-ss', t.toFixed(2), '-i', mp4, '-filter_complex', '[0:v][1:v]psnr', '-frames:v', '1', '-f', 'null', '-'],
+      { encoding: 'utf8', maxBuffer: 16 * 1024 * 1024 },
+    ).stderr;
+    const psnr = /average:(inf|[\d.]+)/.exec(out)?.[1];
+    // Same picture under different captions measures ~27 dB; a real scene
+    // change ~14 dB.
+    return psnr === 'inf' || Number(psnr) > 22;
+  });
+if (frozen.length) {
+  fail(`the cover is still on screen in ${frozen.map(([id, t]) => `${id} (${t.toFixed(1)}s)`).join(', ')} — the render froze; look for HDR clips or "sparse keyframes" in the render log`);
+}
 const cover = path.join(dir, 'renders', 'cover.jpg');
 execFileSync('ffmpeg', ['-v', 'error', '-y', '-ss', '0.1', '-i', mp4, '-frames:v', '1', '-q:v', '2', cover]);
 console.log(`${path.relative(videoDir, mp4)} — ${dur.toFixed(1)}s · ${lufs} LUFS · cover.jpg`);
 
 // ── 9. deliver ────────────────────────────────────────────────────────────
 step('deliver');
-const ready = path.join(videoDir, 'ready', name);
+const ready = path.join(channelMode ? ohDir : videoDir, 'ready', name);
 mkdirSync(ready, { recursive: true });
 copyFileSync(mp4, path.join(ready, `${name}.mp4`));
 copyFileSync(cover, path.join(ready, 'cover.jpg'));
@@ -315,7 +368,7 @@ const post = script.post ?? {};
 writeFileSync(
   path.join(ready, 'POST.md'),
   [
-    `# ${script.date} — ${script.title ?? script.slug}`,
+    channelMode ? `# The Old History — ${script.title ?? script.slug}` : `# ${script.date} — ${script.title ?? script.slug}`,
     '',
     `Video: ${name}.mp4 (${dur.toFixed(0)}s) · cover: cover.jpg (also the first frame)`,
     '',
@@ -340,12 +393,27 @@ writeFileSync(
     '',
     'Settings: upload as a Short (vertical, under 3 minutes) · Audience: No, not made for kids · Category: Education · Altered or synthetic content: No (the narrator is a synthetic voice but imitates no real person; archive footage is not altered) · Thumbnail: cover.jpg (or the first frame)',
     '',
+    ...(post.pinned ? ['## Pinned comment', '', post.pinned, ''] : []),
     '## Sources',
     '',
     ...(script.sources ?? []).map((s) => `- ${s}`),
     '',
   ].join('\n'),
 );
+if (channelMode && !draft) {
+  // The channel's own log: keeps each CTA so none is ever said twice.
+  const ohLog = path.join(ohDir, 'log.json');
+  const log = existsSync(ohLog) ? JSON.parse(readFileSync(ohLog, 'utf8')) : [];
+  const entry = { slug: script.slug, made: script.date, title: script.title ?? script.slug, music: track.id, seconds: Math.round(dur), cta: stage.say };
+  const at = log.findIndex((l) => l.slug === script.slug);
+  if (at === -1) log.push(entry);
+  else log[at] = entry;
+  writeFileSync(ohLog, JSON.stringify(log, null, 2) + '\n');
+}
+if (channelMode) {
+  console.log(`channel video: no app clip, not in the app's log\nready → ${path.relative(path.resolve(videoDir, '..'), ready)}`);
+  process.exit(0);
+}
 if (draft) {
   console.log(`draft: not logged, no app clip
 ready → ${path.relative(path.resolve(videoDir, '..'), ready)}`);

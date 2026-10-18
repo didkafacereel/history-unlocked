@@ -1,0 +1,83 @@
+{
+  "total": 73.108,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "Britain's greatest admiral won its greatest sea battle, and came home in a barrel of brandy.",
+      "start": 0.4,
+      "end": 6.032
+    },
+    {
+      "id": "s2",
+      "show": "The Battle of Trafalgar was fought on this day in 1805.",
+      "start": 6.482,
+      "end": 10.493
+    },
+    {
+      "id": "s3",
+      "show": "Horatio Nelson had 27 ships. France and Spain had 33.",
+      "start": 10.893,
+      "end": 15.735
+    },
+    {
+      "id": "s4",
+      "show": "Instead of lining up, he drove straight into their line, in two columns.",
+      "start": 16.085,
+      "end": 20.373
+    },
+    {
+      "id": "s5",
+      "show": "First, a signal: \"England confides that every man will do his duty.\"",
+      "start": 20.823,
+      "end": 25.474
+    },
+    {
+      "id": "s6",
+      "show": "His signal officer suggested \"expects\". It was in the code book. \"Confides\" would have to be spelt out.",
+      "start": 25.824,
+      "end": 32.565
+    },
+    {
+      "id": "s7",
+      "show": "In the fighting, a French musket ball struck Nelson in the shoulder, and lodged near his spine.",
+      "start": 33.015,
+      "end": 38.818
+    },
+    {
+      "id": "s8",
+      "show": "18 enemy ships were captured or destroyed. Britain lost none.",
+      "start": 39.218,
+      "end": 43.57
+    },
+    {
+      "id": "s9",
+      "show": "Below deck, Nelson murmured: \"Thank God I have done my duty.\"",
+      "start": 44.02,
+      "end": 48.031
+    },
+    {
+      "id": "s10",
+      "show": "He died three hours after he was hit.",
+      "start": 48.431,
+      "end": 50.713
+    },
+    {
+      "id": "s11",
+      "show": "For the voyage home, his body was kept in a cask of brandy, for a hero's funeral in London.",
+      "start": 51.163,
+      "end": 57.542
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: Florence Nightingale set off for the Crimean War, and New York's Guggenheim Museum opened.",
+      "start": 58.142,
+      "end": 65.822
+    },
+    {
+      "id": "end2",
+      "show": "Our app expects every day to tell its story. Subscribe, and do your duty: be first aboard.",
+      "start": 66.272,
+      "end": 72.608
+    }
+  ]
+}

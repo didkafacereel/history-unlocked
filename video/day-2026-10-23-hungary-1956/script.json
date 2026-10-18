@@ -1,0 +1,296 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-10-23",
+  "dateKey": "10-23",
+  "slug": "hungary-1956",
+  "title": "The Hungarian Revolution, 1956 — students, a radio station, and Stalin's boots",
+  "eventId": "evt-10-23-1956-hungarian-revolution-of-1956",
+  "category": "Society & Rights",
+  "sources": [
+    "Wikipedia: Hungarian Revolution of 1956 — began 23 October 1956 in Budapest when university students called on the public to join them at the Parliament to protest Soviet domination; a delegation of students entered the Magyar Rádió building to broadcast their sixteen demands but was detained; when protesters outside demanded their release, ÁVH secret police shot several students; the crowd sang the banned National Song; protesters demolished the eight-metre Stalin Monument; the uprising was crushed by Soviet tanks and troops from 4 November; about 200,000 fled Hungary as refugees",
+    "Wikipedia: Stalin Monument (Budapest) — demonstrators demolished the Stalin statue, leaving only his boots, in which they planted a Hungarian flag",
+    "Wikipedia: Imre Nagy — the reformist prime minister of the revolution",
+    "Also on this day (candidates.md, in the app): 1906 Alberto Santos-Dumont flies his 14-bis for 50 metres; 1641 Irish rebels try to seize Dublin Castle",
+    "Photos (public domain / CC0): Erika Szeles, a 15-year-old fighter, Budapest 1956 (two photos); collage of the revolution (CC0); a Soviet tank in Budapest, 1956; Imre Nagy; the Hungarian Parliament",
+    "Illustrative stock footage (Pexels, free licence; not of the event): a Hungarian flag on a historic building"
+  ],
+  "music": {
+    "track": "grieg-aase-death"
+  },
+  "highlight": [
+    "STUDENTS",
+    "RADIO",
+    "STALIN",
+    "BOOTS",
+    "TANKS",
+    "200,000",
+    "FREEDOM"
+  ],
+  "cover": {
+    "image": "girl.jpg",
+    "focus": "50% 30%",
+    "date": "23 OCTOBER 1956",
+    "top": 1050,
+    "lines": [
+      "ONLY HIS",
+      "*BOOTS*",
+      "WERE LEFT"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "Students asked to read their demands on the radio. That night, Stalin's statue had fallen, and only his boots were left.",
+      "show": "Students asked to read their demands on the radio. That night, Stalin's statue had fallen, and only his boots were left.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "The Hungarian Revolution began on this day in nineteen fifty-six.",
+      "show": "The Hungarian Revolution began on this day in 1956.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "University students in Budapest called people to march for freedom from Soviet control.",
+      "show": "University students in Budapest called people to march for freedom from Soviet control.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s4",
+      "say": "The crowd sang a banned patriotic poem.",
+      "show": "The crowd sang a banned patriotic poem.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s5",
+      "say": "Students went into the state radio building to broadcast sixteen demands. They were detained.",
+      "show": "Students went into the state radio building to broadcast 16 demands. They were detained.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s6",
+      "say": "Outside, the secret police opened fire.",
+      "show": "Outside, the secret police opened fire.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s7",
+      "say": "Across the city, the crowd pulled down an eight-metre statue of Stalin.",
+      "show": "Across the city, the crowd pulled down an 8-metre statue of Stalin.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s8",
+      "say": "Only the boots stayed on the plinth. They planted a Hungarian flag in them.",
+      "show": "Only the boots stayed on the plinth. They planted a Hungarian flag in them.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s9",
+      "say": "For a few days, the revolution seemed to win.",
+      "show": "For a few days, the revolution seemed to win.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s10",
+      "say": "Then, on November fourth, Soviet tanks rolled in.",
+      "show": "Then, on November 4th, Soviet tanks rolled in.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s11",
+      "say": "About two hundred thousand Hungarians fled the country.",
+      "show": "About 200,000 Hungarians fled the country.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "also": {
+    "say": "Also on this day: Santos-Dumont flew his fourteen-bis, and Irish rebels tried to seize Dublin Castle.",
+    "items": [
+      {
+        "year": "1906",
+        "text": "Santos-Dumont flies the 14-bis"
+      },
+      {
+        "year": "1641",
+        "text": "Irish rebels try to seize Dublin Castle"
+      }
+    ],
+    "image": "parliament.jpg"
+  },
+  "cta": {
+    "story": "Some voices can't be switched off.",
+    "say": "Our app gives every day in history its broadcast. Subscribe, and be tuned in when it goes live.",
+    "pill": "STAY TUNED",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook — same picture as the cover",
+      "image": "girl.jpg",
+      "focus": "50% 30%",
+      "move": "in"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.5",
+      "enter": "cut",
+      "image": "collage--crowd.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Crowds in Budapest, October 1956"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "collage--crowd.jpg",
+      "focus": "50% 50%",
+      "date": "23 OCTOBER",
+      "year": "1956",
+      "place": "Budapest"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "parliament.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The Hungarian Parliament, where the march led"
+    },
+    {
+      "type": "photo",
+      "from": "s3@0.55",
+      "enter": "cut",
+      "image": "girl2.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "A young insurgent, Budapest 1956"
+    },
+    {
+      "type": "film",
+      "from": "s4",
+      "enter": "cut",
+      "clip": "stock-flag.mp4",
+      "credit": "The Hungarian flag · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s5",
+      "enter": "cut",
+      "image": "collage--running.jpg",
+      "focus": "50% 50%",
+      "ghost": "16",
+      "kicker": "Magyar Rádió, 23 October",
+      "main": {
+        "text": "*Sixteen* demands.",
+        "at": "s5@0.45"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s5@0.6",
+      "enter": "cut",
+      "image": "collage--boy.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "A young insurgent, Budapest 1956"
+    },
+    {
+      "type": "photo",
+      "from": "s6",
+      "enter": "cut",
+      "image": "girl2.jpg",
+      "focus": "50% 35%",
+      "move": "in",
+      "fact": "Erika Szeles, 15, an insurgent in Budapest, 1956"
+    },
+    {
+      "type": "photo",
+      "from": "s7",
+      "enter": "cut",
+      "image": "collage--stalin.jpg",
+      "focus": "40% 60%",
+      "move": "in",
+      "fact": "Stalin's toppled head, Budapest 1956"
+    },
+    {
+      "type": "statement",
+      "from": "s8",
+      "enter": "cut",
+      "image": "collage--stalin.jpg",
+      "focus": "40% 60%",
+      "ghost": "BOOTS",
+      "kicker": "The Stalin Monument",
+      "main": {
+        "text": "Only the *boots* remained.",
+        "at": "s8@0.3"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s8@0.55",
+      "enter": "cut",
+      "clip": "stock-flag.mp4",
+      "credit": "The Hungarian flag · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s9",
+      "enter": "cut",
+      "image": "nagy.jpg",
+      "focus": "50% 35%",
+      "move": "in",
+      "fact": "Imre Nagy, prime minister of the revolution"
+    },
+    {
+      "type": "photo",
+      "from": "s10",
+      "enter": "cut",
+      "image": "tank.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "A Soviet tank in Budapest, 1956"
+    },
+    {
+      "type": "statement",
+      "from": "s11",
+      "enter": "cut",
+      "image": "girl.jpg",
+      "focus": "50% 40%",
+      "ghost": "200,000",
+      "kicker": "After November 1956",
+      "main": {
+        "text": "*200,000* fled the country.",
+        "at": "s11@0.4"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "Students asked to read their demands on the radio. That night, Stalin's statue had fallen — only his boots were left. 🇭🇺\n\n23 October 1956: the Hungarian Revolution began in Budapest. For a few days it seemed to win. Then Soviet tanks rolled in, and about 200,000 Hungarians fled.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #historytok #hungary #1956 #coldwar",
+    "facebook": "On this day in 1956, university students in Budapest called on Hungarians to march for freedom from Soviet control — and began a revolution.\n\nThe crowd sang a banned patriotic poem. A delegation of students went into the state radio building to broadcast their sixteen demands, and was detained; when the crowd outside demanded their release, the secret police opened fire. Across the city, protesters pulled down the eight-metre statue of Stalin. Only the boots stayed on the plinth — and they planted a Hungarian flag in them.\n\nFor a few days, the revolution seemed to win. Then, on 4 November, Soviet tanks rolled into Budapest. About 200,000 Hungarians fled the country.\n\nAlso on 23 October: Santos-Dumont flew his 14-bis (1906), and Irish rebels tried to seize Dublin Castle (1641).\n\nSome voices can't be switched off. Our app gives every day in history its broadcast — follow the page and be tuned in when it goes live. 📜\n\n#OnThisDay #History #Hungary1956 #ColdWar",
+    "youtube": {
+      "title": "The Night Stalin's Statue Fell — Only His Boots Were Left #Shorts",
+      "description": "23 October 1956: students in Budapest marched for freedom from Soviet control. They tried to broadcast sixteen demands from the state radio and were detained; the secret police fired on the crowd outside. That night protesters pulled down the 8-metre Stalin Monument — only the boots were left, with a Hungarian flag planted in them. The revolution seemed to win for a few days, until Soviet tanks rolled in on 4 November. About 200,000 Hungarians fled.\n\nAlso on 23 October: Santos-Dumont's 14-bis flight (1906) and the Irish rising at Dublin Castle (1641).\n\nSubscribe — our history app, with a story for every date, is on its way.\n\nPhotos: public domain / CC0 (Wikimedia Commons). Flag shot: illustrative stock footage (Pexels), not of the event. Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #Hungary1956 #ColdWar",
+      "tags": [
+        "history",
+        "on this day",
+        "Hungarian Revolution",
+        "1956",
+        "Budapest",
+        "Stalin statue",
+        "Imre Nagy",
+        "Cold War",
+        "Soviet Union",
+        "revolution",
+        "history facts",
+        "history shorts"
+      ]
+    },
+    "pinned": "The revolution lasted less than two weeks — but people still remember it. Is a revolt that fails ever really a failure? 👇"
+  }
+}

@@ -273,5 +273,71 @@
     "video": "2026-10-18-venera-4.mp4",
     "poster": "2026-10-18-venera-4.jpg",
     "bytes": 4802155
+  },
+  {
+    "date": "2026-10-19",
+    "dateKey": "10-19",
+    "slug": "yorktown",
+    "eventId": "evt-10-19-1781-siege-of-yorktown",
+    "title": "Yorktown, 1781 — the general who missed his own surrender, and the sword turned down twice",
+    "seconds": 65,
+    "video": "2026-10-19-yorktown.mp4",
+    "poster": "2026-10-19-yorktown.jpg",
+    "bytes": 3362059
+  },
+  {
+    "date": "2026-10-20",
+    "dateKey": "10-20",
+    "slug": "saturday-night",
+    "eventId": "evt-10-20-1973-watergate-scandal",
+    "title": "The Saturday Night Massacre, 1973 — two men who resigned rather than obey",
+    "seconds": 58.9,
+    "video": "2026-10-20-saturday-night.mp4",
+    "poster": "2026-10-20-saturday-night.jpg",
+    "bytes": 3225529
+  },
+  {
+    "date": "2026-10-21",
+    "dateKey": "10-21",
+    "slug": "trafalgar",
+    "eventId": "evt-10-21-1805-battle-of-trafalgar",
+    "title": "Trafalgar, 1805 — Nelson's last signal, and the barrel of brandy",
+    "seconds": 65.9,
+    "video": "2026-10-21-trafalgar.mp4",
+    "poster": "2026-10-21-trafalgar.jpg",
+    "bytes": 4230183
+  },
+  {
+    "date": "2026-10-22",
+    "dateKey": "10-22",
+    "slug": "cutlass",
+    "eventId": "evt-10-22-1936-royal-navy-cutlasses",
+    "title": "The Royal Navy retires the cutlass, 1936 — and the boarding that came after",
+    "seconds": 61.1,
+    "video": "2026-10-22-cutlass.mp4",
+    "poster": "2026-10-22-cutlass.jpg",
+    "bytes": 7302196
+  },
+  {
+    "date": "2026-10-23",
+    "dateKey": "10-23",
+    "slug": "hungary-1956",
+    "eventId": "evt-10-23-1956-hungarian-revolution-of-1956",
+    "title": "The Hungarian Revolution, 1956 — students, a radio station, and Stalin's boots",
+    "seconds": 60.7,
+    "video": "2026-10-23-hungary-1956.mp4",
+    "poster": "2026-10-23-hungary-1956.jpg",
+    "bytes": 2828377
+  },
+  {
+    "date": "2026-10-24",
+    "dateKey": "10-24",
+    "slug": "black-thursday",
+    "eventId": "evt-10-24-1929-wall-street-crash-of-1929",
+    "title": "Black Thursday, 1929 — the crash, and the 'White Knight' who tried to stop it",
+    "seconds": 60.2,
+    "video": "2026-10-24-black-thursday.mp4",
+    "poster": "2026-10-24-black-thursday.jpg",
+    "bytes": 3871989
   }
 ]

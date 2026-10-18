@@ -1,0 +1,89 @@
+{
+  "total": 65.487,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "A president ordered his top lawyer to fire a prosecutor. He resigned instead. So did his deputy.",
+      "start": 0.4,
+      "end": 7.184
+    },
+    {
+      "id": "s2",
+      "show": "It happened on this night in 1973.",
+      "start": 7.634,
+      "end": 10.834
+    },
+    {
+      "id": "s3",
+      "show": "Special prosecutor Archibald Cox was investigating Watergate.",
+      "start": 11.234,
+      "end": 15.821
+    },
+    {
+      "id": "s4",
+      "show": "He wanted the secret tapes Richard Nixon had recorded in the White House.",
+      "start": 16.171,
+      "end": 20.928
+    },
+    {
+      "id": "s5",
+      "show": "Nixon ordered Attorney General Elliot Richardson to fire him.",
+      "start": 21.328,
+      "end": 25.36
+    },
+    {
+      "id": "s6",
+      "show": "Richardson refused, and resigned.",
+      "start": 25.71,
+      "end": 27.929
+    },
+    {
+      "id": "s7",
+      "show": "Nixon gave the same order to his deputy, William Ruckelshaus.",
+      "start": 28.429,
+      "end": 32.525
+    },
+    {
+      "id": "s8",
+      "show": "He refused too, and resigned.",
+      "start": 32.875,
+      "end": 35.072
+    },
+    {
+      "id": "s9",
+      "show": "The third man in line, Robert Bork, carried out the order.",
+      "start": 35.572,
+      "end": 39.071
+    },
+    {
+      "id": "s10",
+      "show": "America called it the Saturday Night Massacre.",
+      "start": 39.471,
+      "end": 42.308
+    },
+    {
+      "id": "s11",
+      "show": "Ten days later, the impeachment process began.",
+      "start": 42.758,
+      "end": 45.873
+    },
+    {
+      "id": "s12",
+      "show": "Less than ten months later, Nixon himself resigned.",
+      "start": 46.273,
+      "end": 49.665
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: the Sydney Opera House opened after fourteen years of building, and Maria Theresa took the Habsburg throne.",
+      "start": 50.265,
+      "end": 58.862
+    },
+    {
+      "id": "end2",
+      "show": "Our app keeps every day of history on the record. Subscribe, and be there when it opens.",
+      "start": 59.312,
+      "end": 64.987
+    }
+  ]
+}

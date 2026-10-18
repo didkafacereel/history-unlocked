@@ -1,0 +1,285 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-10-24",
+  "dateKey": "10-24",
+  "slug": "black-thursday",
+  "title": "Black Thursday, 1929 — the crash, and the 'White Knight' who tried to stop it",
+  "eventId": "evt-10-24-1929-wall-street-crash-of-1929",
+  "category": "Culture & Ideas",
+  "sources": [
+    "Wikipedia: Wall Street crash of 1929 — on 24 October 1929, 'Black Thursday', the market lost 11% of its value at the opening bell; a record 12.9 million shares were traded; the volume left the ticker tape in brokerage offices hours behind, so investors had no idea what most stocks were trading for; on 29 October, 'Black Tuesday', some 16 million shares were traded; the crash cascaded into the worldwide Great Depression, though scholars disagree about its role",
+    "Wikipedia: Richard Whitney (financier) — on Black Thursday leading bankers (including Thomas Lamont of Morgan and Albert Wiggin of Chase) chose Whitney, vice-president of the Exchange, to act for them; he went onto the floor and ostentatiously bid for 25,000 shares of U.S. Steel at $205, well above the market, then made similar bids for other blue chips; it halted the slide that day, and earned him the name 'White Knight of Wall Street'; the respite was temporary; in 1938 he was charged with embezzlement, pleaded guilty and was sentenced to five to ten years in Sing Sing",
+    "Also on this day (candidates.md, in the app): 2003 Concorde makes its last commercial flight; 1945 the United Nations comes into existence",
+    "Photos (public domain): crowds outside the New York Stock Exchange, 24 October 1929; brokers at the Exchange, 25 October 1929; a crowd after the crash, 29 October 1929; the trading floor after the crash, 1929; The New York Times, 30 October 1929; Richard Whitney before a Senate committee, 1937 (Harris & Ewing)",
+    "Illustrative stock footage (Pexels, free licence; not of the event): a rotary telephone, turning pages"
+  ],
+  "music": {
+    "track": "mussorgsky-catacombs"
+  },
+  "highlight": [
+    "11%",
+    "12.9",
+    "TICKER",
+    "WHITNEY",
+    "U.S. STEEL",
+    "205",
+    "TUESDAY",
+    "SING SING"
+  ],
+  "cover": {
+    "image": "crowd2.jpg",
+    "focus": "50% 50%",
+    "date": "24 OCTOBER 1929",
+    "lines": [
+      "BLACK",
+      "*THURSDAY*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "The stock market lost eleven percent at the opening bell. One man walked onto the trading floor to stop it.",
+      "show": "The stock market lost 11 percent at the opening bell. One man walked onto the trading floor to stop it.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "It was Black Thursday, on this day in nineteen twenty-nine.",
+      "show": "It was Black Thursday, on this day in 1929.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "Panic selling had been building all week.",
+      "show": "Panic selling had been building all week.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s4",
+      "say": "A record twelve point nine million shares changed hands.",
+      "show": "A record 12.9 million shares changed hands.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s5",
+      "say": "The ticker tape fell hours behind. Nobody knew what anything was worth.",
+      "show": "The ticker tape fell hours behind. Nobody knew what anything was worth.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s6",
+      "say": "Crowds filled Wall Street.",
+      "show": "Crowds filled Wall Street.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s7",
+      "say": "The biggest bankers met, and sent in Richard Whitney, the Exchange's vice-president.",
+      "show": "The biggest bankers met, and sent in Richard Whitney, the Exchange's vice-president.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s8",
+      "say": "In front of everyone, he bid for twenty-five thousand shares of U.S. Steel, far above the market price.",
+      "show": "In front of everyone, he bid for 25,000 shares of U.S. Steel, far above the market price.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s9",
+      "say": "The slide stopped. They called him the White Knight of Wall Street.",
+      "show": "The slide stopped. They called him the White Knight of Wall Street.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s10",
+      "say": "It didn't last. On Black Tuesday, the market collapsed.",
+      "show": "It didn't last. On Black Tuesday, the market collapsed.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s11",
+      "say": "As for the White Knight: nine years later, he went to Sing Sing prison, for embezzlement.",
+      "show": "As for the White Knight: nine years later, he went to Sing Sing prison, for embezzlement.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "also": {
+    "say": "Also on this day: Concorde made its last passenger flight, and the United Nations came into existence.",
+    "items": [
+      {
+        "year": "2003",
+        "text": "Concorde's last commercial flight"
+      },
+      {
+        "year": "1945",
+        "text": "The United Nations comes into existence"
+      }
+    ],
+    "image": "floor.jpg"
+  },
+  "cta": {
+    "story": "History never crashes.",
+    "say": "Our app is one stock that only goes up: a story for every day. Subscribe, and buy in early.",
+    "pill": "BUY IN EARLY",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook — the crowds, same picture as the cover",
+      "image": "crowd2.jpg",
+      "focus": "50% 50%",
+      "move": "in"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.5",
+      "enter": "cut",
+      "image": "brokers.jpg",
+      "focus": "50% 45%",
+      "move": "in",
+      "fact": "Brokers at the Exchange, 25 October 1929"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "crowd4.jpg",
+      "focus": "50% 50%",
+      "date": "24 OCTOBER",
+      "year": "1929",
+      "place": "Wall Street, New York"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "crowd3.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Wall Street, 24 October 1929"
+    },
+    {
+      "type": "film",
+      "from": "s4",
+      "enter": "cut",
+      "clip": "stock-phone.mp4",
+      "credit": "A telephone · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s5",
+      "enter": "cut",
+      "image": "brokers.jpg",
+      "focus": "40% 40%",
+      "ghost": "TICKER",
+      "kicker": "Black Thursday",
+      "main": {
+        "text": "Prices running *hours* late.",
+        "at": "s5@0.3"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s6",
+      "enter": "cut",
+      "image": "crowd4.jpg",
+      "focus": "60% 50%",
+      "move": "in",
+      "fact": "On the Sub-Treasury steps, 24 October 1929"
+    },
+    {
+      "type": "photo",
+      "from": "s7",
+      "enter": "cut",
+      "image": "whitney.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "Richard Whitney, photographed in 1937"
+    },
+    {
+      "type": "statement",
+      "from": "s8",
+      "enter": "cut",
+      "image": "brokers.jpg",
+      "focus": "70% 40%",
+      "ghost": "$205",
+      "kicker": "Richard Whitney's bid",
+      "main": {
+        "text": "*25,000* shares of U.S. Steel.",
+        "at": "s8@0.45"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s9",
+      "enter": "cut",
+      "image": "whitney.jpg",
+      "focus": "50% 45%",
+      "move": "in",
+      "fact": "\"The White Knight of Wall Street\""
+    },
+    {
+      "type": "photo",
+      "from": "s10",
+      "enter": "cut",
+      "image": "crowd.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Outside the Exchange, 29 October 1929"
+    },
+    {
+      "type": "photo",
+      "from": "s10@0.55",
+      "enter": "cut",
+      "image": "nyt.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "The New York Times, 30 October 1929"
+    },
+    {
+      "type": "film",
+      "from": "s11",
+      "enter": "cut",
+      "clip": "stock-pages.mp4",
+      "credit": "Pages · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s11@0.5",
+      "enter": "cut",
+      "image": "floor.jpg",
+      "focus": "50% 50%",
+      "ghost": "1938",
+      "kicker": "The White Knight",
+      "main": {
+        "text": "Sing Sing, for *embezzlement*.",
+        "at": "s11@0.7"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "The stock market lost 11% at the opening bell. One man walked onto the trading floor to stop it. 📉🛡️\n\nBlack Thursday, 24 October 1929: Richard Whitney bid for 25,000 shares of U.S. Steel far above the market — and the slide stopped. They called him the White Knight. It didn't last. Nine years later, he went to Sing Sing.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #historytok #wallstreet #1929 #stockmarket",
+    "facebook": "On this day in 1929 — Black Thursday — the New York Stock Exchange lost 11 percent of its value at the opening bell.\n\nA record 12.9 million shares changed hands. The ticker tape fell hours behind, so investors across the country had no idea what their stocks were worth. Crowds filled Wall Street.\n\nThe leading bankers met and sent in Richard Whitney, vice-president of the Exchange. In front of the traders, he bid for 25,000 shares of U.S. Steel at $205 — well above the market — then did the same with other blue-chip stocks. The slide stopped, and the papers called him the \"White Knight of Wall Street\".\n\nIt didn't last. On Black Tuesday, 29 October, the market collapsed. And the White Knight? In 1938 he was convicted of embezzlement and sent to Sing Sing.\n\nAlso on 24 October: Concorde's last commercial flight (2003), and the founding of the United Nations (1945).\n\nHistory never crashes. Our app is one stock that only goes up — a story for every day. Follow the page and buy in early. 📜\n\n#OnThisDay #History #WallStreet #1929",
+    "youtube": {
+      "title": "The 'White Knight' Who Tried To Stop The 1929 Crash #Shorts",
+      "description": "Black Thursday, 24 October 1929: the New York Stock Exchange lost 11% at the opening bell, a record 12.9 million shares traded, and the ticker tape fell hours behind. The bankers sent Richard Whitney onto the floor, where he bid for 25,000 shares of U.S. Steel far above the market price — and the slide stopped. He became the \"White Knight of Wall Street\". It didn't last: then came Black Tuesday. Nine years later, Whitney went to Sing Sing for embezzlement.\n\nAlso on 24 October: Concorde's last commercial flight (2003) and the founding of the UN (1945).\n\nSubscribe — our history app, with a story for every date, is on its way.\n\nPhotos: public domain (Wikimedia Commons, Library of Congress). Telephone and pages shots: illustrative stock footage (Pexels), not of the event. Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #WallStreet #1929",
+      "tags": [
+        "history",
+        "on this day",
+        "Black Thursday",
+        "Wall Street crash",
+        "1929",
+        "stock market crash",
+        "Great Depression",
+        "Richard Whitney",
+        "New York Stock Exchange",
+        "financial history",
+        "history facts",
+        "history shorts"
+      ]
+    },
+    "pinned": "One man's bid stopped a crash — only for a moment. Could anything have saved the market in 1929? 👇"
+  }
+}

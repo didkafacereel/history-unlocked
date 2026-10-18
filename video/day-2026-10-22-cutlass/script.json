@@ -1,0 +1,301 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-10-22",
+  "dateKey": "10-22",
+  "slug": "cutlass",
+  "title": "The Royal Navy retires the cutlass, 1936 — and the boarding that came after",
+  "eventId": "evt-10-22-1936-royal-navy-cutlasses",
+  "category": "Culture & Ideas",
+  "sources": [
+    "Wikipedia: Cutlass — a short, broad sabre, a common naval weapon in the Age of Sail; robust enough to cut through heavy ropes and canvas, short enough for close combat in boarding actions, in the rigging or below decks; simple to use; famous as a pirate weapon (William Kidd, Stede Bonnet); in 1936 the Royal Navy announced cutlasses would be carried only for ceremonial duties and not used in landing parties; the last recorded use is often said to be 16 February 1940 in the Altmark incident, but this is disputed — the HMS Cossack Association and the authors of British Naval Swords and Swordsmanship disbelieve it, and think the last use was by a shore party in China in 1900; cutlasses are still worn by Chief Petty Officers escorting the White Ensign",
+    "Wikipedia: Altmark incident — in February 1940 the German tanker Altmark carried 299 captured British sailors; HMS Cossack, under Philip Vian, followed her into Jøssingfjord, boarded her and liberated the prisoners",
+    "Also on this day (candidates.md, in the app): 1907 a bank run forces the Knickerbocker Trust Company to suspend operations; 2008 India launches Chandrayaan-1, its first lunar probe",
+    "Pictures (public domain): boys at cutlass drill aboard HMS Wolverine, 1882; British sailors boarding an Algerine pirate ship; François l'Olonnais (1678); HMS Cossack; the Altmark in Jøssingfjord; RAF photo of the Altmark; HMS Cossack returns to Leith, 17 February 1940",
+    "Illustrative stock footage (Pexels, free licence; not of the event): rough sea, a sailing ship's masts"
+  ],
+  "music": {
+    "track": "mussorgsky-old-castle"
+  },
+  "highlight": [
+    "CUTLASS",
+    "SWORD",
+    "1936",
+    "CEREMONY",
+    "PIRATES",
+    "299",
+    "ALTMARK",
+    "1900"
+  ],
+  "cover": {
+    "image": "boarding.jpg",
+    "focus": "50% 45%",
+    "date": "1936",
+    "lines": [
+      "THE NAVY'S",
+      "LAST *SWORD*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "For three centuries, the sailor's sword was the cutlass. In nineteen thirty-six, the Royal Navy retired it.",
+      "show": "For three centuries, the sailor's sword was the cutlass. In 1936, the Royal Navy retired it.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "From then on, cutlasses were for ceremony, not for fighting.",
+      "show": "From then on, cutlasses were for ceremony, not for fighting.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "Short enough to swing below decks, strong enough to cut through rope.",
+      "show": "Short enough to swing below decks, strong enough to cut through rope.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "Boys in the navy drilled with it. Pirates swore by it.",
+      "show": "Boys in the navy drilled with it. Pirates swore by it.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s5",
+      "say": "It was the weapon of the boarding party.",
+      "show": "It was the weapon of the boarding party.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s6",
+      "say": "But the story didn't quite end there.",
+      "show": "But the story didn't quite end there.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s7",
+      "say": "In nineteen forty, the German ship Altmark hid in a Norwegian fjord, with two hundred and ninety-nine British prisoners.",
+      "show": "In 1940, the German ship Altmark hid in a Norwegian fjord, with 299 British prisoners.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s8",
+      "say": "The destroyer Cossack went in, boarded her, and set them free.",
+      "show": "The destroyer Cossack went in, boarded her, and set them free.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s9",
+      "say": "Legend says it was the last time British sailors boarded with cutlasses.",
+      "show": "Legend says it was the last time British sailors boarded with cutlasses.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s10",
+      "say": "Many historians doubt it. They point to China, in nineteen hundred.",
+      "show": "Many historians doubt it. They point to China, in 1900.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s11",
+      "say": "Today, chief petty officers still carry one, when they escort the flag.",
+      "show": "Today, chief petty officers still carry one, when they escort the flag.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "also": {
+    "say": "Also on this day: a New York bank run set off the Panic of nineteen oh-seven, and India sent a probe to the Moon.",
+    "items": [
+      {
+        "year": "1907",
+        "text": "A bank run at the Knickerbocker Trust"
+      },
+      {
+        "year": "2008",
+        "text": "India launches Chandrayaan-1 to the Moon"
+      }
+    ],
+    "image": "drill.jpg"
+  },
+  "cta": {
+    "story": "Some blades only go ceremonial.",
+    "say": "Our app is sharpening every day of history. Subscribe, and be in the boarding party when it lands.",
+    "pill": "BOARD IT",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook — boarding, same picture as the cover",
+      "image": "boarding.jpg",
+      "focus": "50% 45%",
+      "move": "in"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.55",
+      "enter": "cut",
+      "clip": "stock-waves.mp4",
+      "credit": "Rough sea · illustrative · Pexels"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "drill.jpg",
+      "focus": "50% 50%",
+      "date": "22 OCTOBER",
+      "year": "1936",
+      "place": "The Royal Navy"
+    },
+    {
+      "type": "film",
+      "from": "s3",
+      "enter": "cut",
+      "clip": "stock-mast.mp4",
+      "credit": "A sailing ship's rigging · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s3@0.55",
+      "enter": "cut",
+      "image": "boarding.jpg",
+      "focus": "30% 50%",
+      "move": "in",
+      "fact": "British sailors boarding an Algerine pirate ship"
+    },
+    {
+      "type": "photo",
+      "from": "s4",
+      "enter": "cut",
+      "image": "drill.jpg",
+      "focus": "40% 50%",
+      "move": "in",
+      "fact": "Boys at cutlass drill, HMS Wolverine, 1882"
+    },
+    {
+      "type": "photo",
+      "from": "s4@0.5",
+      "enter": "cut",
+      "image": "pirate.jpg",
+      "focus": "50% 35%",
+      "move": "in",
+      "fact": "The pirate François l'Olonnais, 1678"
+    },
+    {
+      "type": "photo",
+      "from": "s5",
+      "enter": "cut",
+      "image": "boarding.jpg",
+      "focus": "70% 50%",
+      "move": "in",
+      "fact": "A boarding party, Age of Sail"
+    },
+    {
+      "type": "statement",
+      "from": "s6",
+      "enter": "cut",
+      "image": "drill.jpg",
+      "focus": "60% 50%",
+      "ghost": "1940",
+      "kicker": "Not quite the end",
+      "main": {
+        "text": "One more *boarding*.",
+        "at": "s6@0.4"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s7",
+      "enter": "cut",
+      "image": "altmark.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The Altmark in Jøssingfjord, February 1940"
+    },
+    {
+      "type": "photo",
+      "from": "s7@0.55",
+      "enter": "cut",
+      "image": "altmark-air.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The Altmark, photographed by the RAF"
+    },
+    {
+      "type": "photo",
+      "from": "s8",
+      "enter": "cut",
+      "image": "cossack.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Aboard the destroyer HMS Cossack"
+    },
+    {
+      "type": "photo",
+      "from": "s8@0.55",
+      "enter": "cut",
+      "image": "cossack-leith.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Cossack returns to Leith, 17 February 1940"
+    },
+    {
+      "type": "statement",
+      "from": "s9",
+      "enter": "cut",
+      "image": "cossack-leith.jpg",
+      "focus": "40% 50%",
+      "ghost": "?",
+      "kicker": "The legend",
+      "main": {
+        "text": "The last *cutlass* boarding?",
+        "at": "s9@0.5"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s10",
+      "enter": "cut",
+      "clip": "stock-waves.mp4",
+      "credit": "Rough sea · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s11",
+      "enter": "cut",
+      "image": "drill.jpg",
+      "focus": "50% 50%",
+      "ghost": "TODAY",
+      "kicker": "Royal Navy, today",
+      "main": {
+        "text": "Only for *ceremony*.",
+        "at": "s11@0.4"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "For three centuries the sailor's sword was the cutlass. In 1936, the Royal Navy retired it. ⚔️⚓\n\nShort enough to swing below decks, strong enough to cut rope — the weapon of every boarding party and pirate. Legend says it was used one last time in 1940, freeing 299 prisoners from the Altmark. Historians aren't so sure.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #historytok #navy #pirates #sword",
+    "facebook": "In 1936, the Royal Navy announced that its sailors' cutlasses would be carried only for ceremonial duties — never again in landing parties.\n\nThe cutlass was a short, broad sabre: short enough for close fighting below decks or in the rigging, strong enough to hack through heavy rope and canvas, and simple to use. Boys in the navy drilled with it, and pirates were famous for it. It was the weapon of the boarding party.\n\nBut the story has a famous postscript. In February 1940 the German ship Altmark hid in a Norwegian fjord with 299 captured British sailors aboard. The destroyer HMS Cossack went in, boarded her, and set them free — and legend says it was the last time the Royal Navy boarded with cutlasses. Many historians doubt it: they think the last real use was by a shore party in China in 1900.\n\nToday, chief petty officers still carry a cutlass when they escort the White Ensign.\n\nAlso on 22 October: a run on the Knickerbocker Trust set off the Panic of 1907, and India launched Chandrayaan-1, its first Moon probe (2008).\n\nOur app is sharpening every day of history — follow the page and be in the boarding party when it lands. 📜\n\n#OnThisDay #History #RoyalNavy #NavalHistory",
+    "youtube": {
+      "title": "The Day The Navy Retired Its Sword #Shorts",
+      "description": "In 1936 the Royal Navy retired the cutlass from fighting — from then on, it was for ceremony only. Short, broad and simple, it was the sailor's sword for three centuries: the weapon of boarding parties and pirates. Legend says it was used one last time in February 1940, when HMS Cossack boarded the German ship Altmark in a Norwegian fjord and freed 299 British prisoners — but many historians believe the real last use was by a shore party in China in 1900.\n\nAlso on 22 October: the Knickerbocker Trust bank run (1907) and India's Chandrayaan-1 (2008).\n\nSubscribe — our history app, with a story for every date, is on its way.\n\nPictures: public domain (Wikimedia Commons). Sea and rigging shots: illustrative stock footage (Pexels), not of the event. Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #RoyalNavy #NavalHistory",
+      "tags": [
+        "history",
+        "on this day",
+        "cutlass",
+        "Royal Navy",
+        "naval history",
+        "Altmark incident",
+        "HMS Cossack",
+        "pirates",
+        "1936",
+        "swords",
+        "history facts",
+        "history shorts"
+      ]
+    },
+    "pinned": "Was the Altmark really the last cutlass boarding — or is it too good a legend to be true? 👇"
+  }
+}

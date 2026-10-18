@@ -1,0 +1,324 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-10-21",
+  "dateKey": "10-21",
+  "slug": "trafalgar",
+  "title": "Trafalgar, 1805 — Nelson's last signal, and the barrel of brandy",
+  "eventId": "evt-10-21-1805-battle-of-trafalgar",
+  "category": "Military & Conflict",
+  "sources": [
+    "Wikipedia: Battle of Trafalgar — 21 October 1805; Nelson's fleet of 27 ships of the line against Villeneuve's 33; Nelson sailed at the allied line in two columns to break it; 18 allied ships were captured or destroyed while the British lost none; Victory locked masts with Redoutable, and a musket ball fired from Redoutable's mizzentop struck Nelson in the left shoulder and lodged near his spine; at 11:45 Nelson sent the signal 'England expects that every man will do his duty'",
+    "Wikipedia: England expects that every man will do his duty — Nelson asked signal officer Pasco to signal 'England confides that every man will do his duty'; Pasco suggested 'expects', which was in the signal vocabulary, while 'confides' had to be spelt out; Nelson agreed",
+    "Wikipedia: Horatio Nelson, 1st Viscount Nelson — surgeon Beatty heard him murmur 'Thank God I have done my duty'; he died at half past four, three hours after being hit; his body was preserved in a cask of brandy mixed with camphor and myrrh for the trip home to a grand state funeral",
+    "Also on this day (candidates.md, in the app): 1854 Florence Nightingale and 38 nurses are sent to the Crimean War; 1959 the Guggenheim Museum opens in New York",
+    "Paintings (public domain): J. M. W. Turner, The Battle of Trafalgar (1822–24); The Fall of Nelson (Denis Dighton); William Clarkson Stanfield and other battle paintings; Lemuel Francis Abbott's portrait of Nelson; Daniel Maclise, The Death of Nelson; Nelson's state funeral at St Paul's; HMS Victory at Portsmouth, c. 1900",
+    "Illustrative stock footage (Pexels, free licence; not of the event): a stormy sea, the masts of a sailing ship"
+  ],
+  "music": {
+    "track": "grieg-concerto-adagio"
+  },
+  "highlight": [
+    "BRANDY",
+    "27",
+    "33",
+    "EXPECTS",
+    "CONFIDES",
+    "NONE",
+    "DUTY",
+    "NELSON"
+  ],
+  "cover": {
+    "image": "nelson.jpg",
+    "focus": "50% 25%",
+    "date": "21 OCTOBER 1805",
+    "top": 1000,
+    "lines": [
+      "HE CAME HOME",
+      "IN A BARREL",
+      "OF *BRANDY*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "Britain's greatest admiral won its greatest sea battle, and came home in a barrel of brandy.",
+      "show": "Britain's greatest admiral won its greatest sea battle, and came home in a barrel of brandy.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "The Battle of Trafalgar was fought on this day in eighteen oh-five.",
+      "show": "The Battle of Trafalgar was fought on this day in 1805.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "Horatio Nelson had twenty-seven ships. France and Spain had thirty-three.",
+      "show": "Horatio Nelson had 27 ships. France and Spain had 33.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s4",
+      "say": "Instead of lining up, he drove straight into their line, in two columns.",
+      "show": "Instead of lining up, he drove straight into their line, in two columns.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s5",
+      "say": "First, a signal: England confides that every man will do his duty.",
+      "show": "First, a signal: \"England confides that every man will do his duty.\"",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s6",
+      "say": "His signal officer suggested expects. It was in the code book. Confides would have to be spelt out.",
+      "show": "His signal officer suggested \"expects\". It was in the code book. \"Confides\" would have to be spelt out.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s7",
+      "say": "In the fighting, a French musket ball struck Nelson in the shoulder, and lodged near his spine.",
+      "show": "In the fighting, a French musket ball struck Nelson in the shoulder, and lodged near his spine.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s8",
+      "say": "Eighteen enemy ships were captured or destroyed. Britain lost none.",
+      "show": "18 enemy ships were captured or destroyed. Britain lost none.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s9",
+      "say": "Below deck, Nelson murmured: Thank God I have done my duty.",
+      "show": "Below deck, Nelson murmured: \"Thank God I have done my duty.\"",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s10",
+      "say": "He died three hours after he was hit.",
+      "show": "He died three hours after he was hit.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s11",
+      "say": "For the voyage home, his body was kept in a cask of brandy, for a hero's funeral in London.",
+      "show": "For the voyage home, his body was kept in a cask of brandy, for a hero's funeral in London.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "also": {
+    "say": "Also on this day: Florence Nightingale set off for the Crimean War, and New York's Guggenheim Museum opened.",
+    "items": [
+      {
+        "year": "1854",
+        "text": "Florence Nightingale sets off for Crimea"
+      },
+      {
+        "year": "1959",
+        "text": "The Guggenheim Museum opens"
+      }
+    ],
+    "image": "fleet.jpg"
+  },
+  "cta": {
+    "story": "History expects.",
+    "say": "Our app expects every day to tell its story. Subscribe, and do your duty: be first aboard.",
+    "pill": "ALL HANDS",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook — Nelson, same picture as the cover",
+      "image": "nelson.jpg",
+      "focus": "50% 25%",
+      "move": "in"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.55",
+      "enter": "cut",
+      "clip": "stock-storm.mp4",
+      "credit": "A stormy sea · illustrative · Pexels"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "turner.jpg",
+      "focus": "45% 45%",
+      "date": "21 OCTOBER",
+      "year": "1805",
+      "place": "Cape Trafalgar, off Spain"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "fleet.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The fleets at Trafalgar, painted after the battle"
+    },
+    {
+      "type": "photo",
+      "from": "s3@0.55",
+      "enter": "cut",
+      "image": "turner.jpg",
+      "focus": "75% 40%",
+      "move": "in",
+      "fact": "Turner, The Battle of Trafalgar (detail)"
+    },
+    {
+      "type": "photo",
+      "from": "s4",
+      "enter": "cut",
+      "image": "ships.jpg",
+      "focus": "45% 50%",
+      "move": "in",
+      "fact": "The opening of the battle, John Wilson Carmichael"
+    },
+    {
+      "type": "film",
+      "from": "s4@0.55",
+      "enter": "cut",
+      "clip": "stock-mast.mp4",
+      "credit": "A sailing ship's masts · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s5",
+      "enter": "cut",
+      "image": "battle.jpg",
+      "focus": "50% 50%",
+      "ghost": "11:45",
+      "kicker": "Nelson's first wording",
+      "main": {
+        "text": "England *confides*…",
+        "at": "s5@0.4"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s6",
+      "enter": "cut",
+      "image": "victory.jpg",
+      "focus": "50% 40%",
+      "ghost": "EXPECTS",
+      "kicker": "The signal that was sent",
+      "main": {
+        "text": "England *expects* that every man will do his duty.",
+        "at": "s6@0.35"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s6@0.55",
+      "enter": "cut",
+      "clip": "stock-mast.mp4",
+      "credit": "A sailing ship's masts · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s7",
+      "enter": "cut",
+      "image": "nelson-shot.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The Fall of Nelson, Denis Dighton"
+    },
+    {
+      "type": "photo",
+      "from": "s7@0.55",
+      "enter": "cut",
+      "image": "fleet.jpg",
+      "focus": "80% 50%",
+      "move": "in",
+      "fact": "The fleets at Trafalgar (detail)"
+    },
+    {
+      "type": "photo",
+      "from": "s8",
+      "enter": "cut",
+      "image": "battle.jpg",
+      "focus": "60% 50%",
+      "move": "in",
+      "fact": "The Battle of Trafalgar, Clarkson Stanfield"
+    },
+    {
+      "type": "film",
+      "from": "s8@0.55",
+      "enter": "cut",
+      "clip": "stock-storm.mp4",
+      "credit": "A stormy sea · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s9",
+      "enter": "cut",
+      "image": "death-panorama.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The Death of Nelson, Daniel Maclise (detail)"
+    },
+    {
+      "type": "statement",
+      "from": "s10",
+      "enter": "cut",
+      "image": "nelson.jpg",
+      "focus": "50% 30%",
+      "ghost": "16:30",
+      "kicker": "Horatio Nelson, 1758–1805",
+      "main": {
+        "text": "Three hours after the *shot*.",
+        "at": "s10@0.4"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s11",
+      "enter": "cut",
+      "image": "victory.jpg",
+      "focus": "50% 60%",
+      "ghost": "BRANDY",
+      "kicker": "Aboard HMS Victory",
+      "main": {
+        "text": "Home in a cask of *brandy*.",
+        "at": "s11@0.3"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s11@0.6",
+      "enter": "cut",
+      "image": "funeral.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Nelson's state funeral, St Paul's Cathedral, 1806"
+    }
+  ],
+  "post": {
+    "tiktok": "Britain's greatest admiral won its greatest sea battle — and came home in a barrel of brandy. ⚓🥃\n\nTrafalgar, 21 October 1805: 27 ships against 33. Nelson's famous signal almost read \"England confides\". Eighteen enemy ships taken or destroyed, none lost — but a French musket ball killed Nelson.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #historytok #trafalgar #nelson #navy",
+    "facebook": "On this day in 1805, Horatio Nelson's fleet met the combined French and Spanish fleets off Cape Trafalgar.\n\nNelson had 27 ships of the line against 33. Instead of forming a line of battle, he drove into the enemy's line in two columns to break it apart. Before the fighting he asked for a signal: \"England confides that every man will do his duty.\" His signal officer suggested \"expects\" — it was in the code book, while \"confides\" would have to be spelt out letter by letter. Nelson agreed.\n\nAs HMS Victory fought the French Redoutable, a musket ball from her rigging struck Nelson in the shoulder and lodged near his spine. Eighteen allied ships were captured or destroyed; the British lost none. Below deck, the surgeon heard Nelson murmur, \"Thank God I have done my duty.\" He died three hours after he was hit — and his body was kept in a cask of brandy for the voyage home to a state funeral.\n\nAlso on 21 October: Florence Nightingale set off for the Crimean War (1854), and the Guggenheim Museum opened (1959).\n\nHistory expects. Our app expects every day to tell its story — follow the page and be first aboard. 📜\n\n#OnThisDay #History #Trafalgar #Nelson",
+    "youtube": {
+      "title": "The Admiral Who Came Home In A Barrel Of Brandy #Shorts",
+      "description": "21 October 1805 — the Battle of Trafalgar. Horatio Nelson's 27 ships faced 33 French and Spanish ships and broke their line in two columns. His famous signal almost read \"England confides that every man will do his duty\" — until his signal officer suggested \"expects\", a word already in the code book. Eighteen enemy ships were captured or destroyed and Britain lost none, but a French musket ball killed Nelson. \"Thank God I have done my duty.\" His body came home in a cask of brandy.\n\nAlso on 21 October: Florence Nightingale sets off for Crimea (1854) and the Guggenheim Museum opens (1959).\n\nSubscribe — our history app, with a story for every date, is on its way.\n\nPaintings: public domain (Wikimedia Commons). Sea and mast shots: illustrative stock footage (Pexels), not of the event. Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #Trafalgar #Nelson",
+      "tags": [
+        "history",
+        "on this day",
+        "Battle of Trafalgar",
+        "Horatio Nelson",
+        "Royal Navy",
+        "England expects",
+        "HMS Victory",
+        "Napoleonic Wars",
+        "1805",
+        "naval history",
+        "history facts",
+        "history shorts"
+      ]
+    },
+    "pinned": "\"England confides\" or \"England expects\" — one word changed history's most famous signal. Which sounds better to you? 👇"
+  }
+}

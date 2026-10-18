@@ -200,6 +200,54 @@
       "seconds": 66.2,
       "video": "2026-10-18-venera-4.mp4?v=4802155",
       "poster": "2026-10-18-venera-4.jpg?v=40890"
+    },
+    "10-19": {
+      "date": "2026-10-19",
+      "eventId": "evt-10-19-1781-siege-of-yorktown",
+      "title": "Yorktown, 1781 — the general who missed his own surrender, and the sword turned down twice",
+      "seconds": 65,
+      "video": "2026-10-19-yorktown.mp4?v=3362059",
+      "poster": "2026-10-19-yorktown.jpg?v=102987"
+    },
+    "10-20": {
+      "date": "2026-10-20",
+      "eventId": "evt-10-20-1973-watergate-scandal",
+      "title": "The Saturday Night Massacre, 1973 — two men who resigned rather than obey",
+      "seconds": 58.9,
+      "video": "2026-10-20-saturday-night.mp4?v=3225529",
+      "poster": "2026-10-20-saturday-night.jpg?v=91986"
+    },
+    "10-21": {
+      "date": "2026-10-21",
+      "eventId": "evt-10-21-1805-battle-of-trafalgar",
+      "title": "Trafalgar, 1805 — Nelson's last signal, and the barrel of brandy",
+      "seconds": 65.9,
+      "video": "2026-10-21-trafalgar.mp4?v=4230183",
+      "poster": "2026-10-21-trafalgar.jpg?v=88996"
+    },
+    "10-22": {
+      "date": "2026-10-22",
+      "eventId": "evt-10-22-1936-royal-navy-cutlasses",
+      "title": "The Royal Navy retires the cutlass, 1936 — and the boarding that came after",
+      "seconds": 61.1,
+      "video": "2026-10-22-cutlass.mp4?v=7302196",
+      "poster": "2026-10-22-cutlass.jpg?v=103232"
+    },
+    "10-23": {
+      "date": "2026-10-23",
+      "eventId": "evt-10-23-1956-hungarian-revolution-of-1956",
+      "title": "The Hungarian Revolution, 1956 — students, a radio station, and Stalin's boots",
+      "seconds": 60.7,
+      "video": "2026-10-23-hungary-1956.mp4?v=2828377",
+      "poster": "2026-10-23-hungary-1956.jpg?v=76726"
+    },
+    "10-24": {
+      "date": "2026-10-24",
+      "eventId": "evt-10-24-1929-wall-street-crash-of-1929",
+      "title": "Black Thursday, 1929 — the crash, and the 'White Knight' who tried to stop it",
+      "seconds": 60.2,
+      "video": "2026-10-24-black-thursday.mp4?v=3871989",
+      "poster": "2026-10-24-black-thursday.jpg?v=100033"
     }
   }
 }

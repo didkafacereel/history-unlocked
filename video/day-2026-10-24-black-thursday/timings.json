@@ -1,0 +1,83 @@
+{
+  "total": 67.789,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "The stock market lost 11 percent at the opening bell. One man walked onto the trading floor to stop it.",
+      "start": 0.4,
+      "end": 7.291
+    },
+    {
+      "id": "s2",
+      "show": "It was Black Thursday, on this day in 1929.",
+      "start": 7.741,
+      "end": 11.581
+    },
+    {
+      "id": "s3",
+      "show": "Panic selling had been building all week.",
+      "start": 11.981,
+      "end": 14.37
+    },
+    {
+      "id": "s4",
+      "show": "A record 12.9 million shares changed hands.",
+      "start": 14.72,
+      "end": 17.963
+    },
+    {
+      "id": "s5",
+      "show": "The ticker tape fell hours behind. Nobody knew what anything was worth.",
+      "start": 18.313,
+      "end": 22.942
+    },
+    {
+      "id": "s6",
+      "show": "Crowds filled Wall Street.",
+      "start": 23.392,
+      "end": 25.163
+    },
+    {
+      "id": "s7",
+      "show": "The biggest bankers met, and sent in Richard Whitney, the Exchange's vice-president.",
+      "start": 25.563,
+      "end": 31.045
+    },
+    {
+      "id": "s8",
+      "show": "In front of everyone, he bid for 25,000 shares of U.S. Steel, far above the market price.",
+      "start": 31.395,
+      "end": 38.563
+    },
+    {
+      "id": "s9",
+      "show": "The slide stopped. They called him the White Knight of Wall Street.",
+      "start": 38.963,
+      "end": 42.675
+    },
+    {
+      "id": "s10",
+      "show": "It didn't last. On Black Tuesday, the market collapsed.",
+      "start": 43.175,
+      "end": 46.653
+    },
+    {
+      "id": "s11",
+      "show": "As for the White Knight: nine years later, he went to Sing Sing prison, for embezzlement.",
+      "start": 47.103,
+      "end": 52.5
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: Concorde made its last passenger flight, and the United Nations came into existence.",
+      "start": 53.1,
+      "end": 60.183
+    },
+    {
+      "id": "end2",
+      "show": "Our app is one stock that only goes up: a story for every day. Subscribe, and buy in early.",
+      "start": 60.633,
+      "end": 67.289
+    }
+  ]
+}

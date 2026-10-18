@@ -1,0 +1,58 @@
+{
+  "drill.jpg": {
+    "file": "File:HMS Wolverine (1863) cutlass drill.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:HMS_Wolverine_(1863)_cutlass_drill.jpg",
+    "licence": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "date": "1882",
+    "description": "HMS Wolverine: boys at cutlass drill"
+  },
+  "pirate.jpg": {
+    "file": "File:Francoislollonais.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Francoislollonais.JPG",
+    "licence": "Public domain",
+    "artist": "Unknown, book by Alexandre Olivier Exquemelin",
+    "date": "1678",
+    "description": "François l'Olonnais from \"De Americaensche Zeerovers\""
+  },
+  "cossack-leith.jpg": {
+    "file": "File:HMS-Cossack-returns-to-Leith-17-February-1940.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:HMS-Cossack-returns-to-Leith-17-February-1940.jpg",
+    "licence": "Public domain",
+    "artist": "Royal Navy official photographer",
+    "date": "1940-02-17",
+    "description": "HMS Cossack returns to Leith 17 February 1940 after rescuing the British prisoners held in Graf Spees'ssupply ship Altmark. See Altmark Incident"
+  },
+  "cossack.jpg": {
+    "file": "File:On Board the Destroyer HMS Cossack during Torpedo and Anti-submarine Exercises. 1940. A1595.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:On_Board_the_Destroyer_HMS_Cossack_during_Torpedo_and_Anti-submarine_Exercises._1940._A1595.jpg",
+    "licence": "Public domain",
+    "artist": "Beadell, S J (Lt)",
+    "date": "between 1939 and 1945date QS:P571,+1950-",
+    "description": "On Board the Destroyer HMS Cossack during Torpedo and Anti-submarine Exercises. 1940. Captain Vian (in centre) on the bridge during exercises."
+  },
+  "altmark.jpg": {
+    "file": "File:Altmark in Jøssingfjord.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Altmark_in_J%C3%B8ssingfjord.jpg",
+    "licence": "Public domain",
+    "artist": "Royal Air Force official photographer",
+    "date": "1940-02",
+    "description": "Aerial reconnaissance photo of the German supply ship Altmark moored in Jossing Fjord, Norway, photographed by a Lockheed Hudson of No. 18 Group prior to the Altmark Incident by HMS Cossack (F03) on 16 February 1940."
+  },
+  "altmark-air.jpg": {
+    "file": "File:Norway, Altmark - Royal Air Force Coastal Command, 1939-1945. C2573.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Norway,_Altmark_-_Royal_Air_Force_Coastal_Command,_1939-1945._C2573.jpg",
+    "licence": "Public domain",
+    "artist": "Royal Air Force official photographer",
+    "date": "between 1939 and 1945date QS:P571,+1950-",
+    "description": "Royal Air Force Coastal Command, 1939-1945. The German supply- and prison-ship ALTMARK, moored in Josingfjord, Norway; photographed by a Lockheed Hudson of No. 18 Group prior to the raid by HMS COSSACK on 16 February 1940."
+  },
+  "boarding.jpg": {
+    "file": "File:British sailors boarding an Algerine pirate ship.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:British_sailors_boarding_an_Algerine_pirate_ship.jpg",
+    "licence": "Public domain",
+    "artist": "John Fairburn",
+    "date": "",
+    "description": "Hand to hand fighting between British sailors and Algerian pirates"
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-10-20",
+  "dateKey": "10-20",
+  "slug": "saturday-night",
+  "title": "The Saturday Night Massacre, 1973 — two men who resigned rather than obey",
+  "eventId": "evt-10-20-1973-watergate-scandal",
+  "category": "Politics & Power",
+  "sources": [
+    "Wikipedia: Saturday Night Massacre — on Saturday 20 October 1973, Nixon ordered Attorney General Elliot Richardson to fire special prosecutor Archibald Cox, who was investigating Watergate and had refused to drop a subpoena for the White House tapes; Richardson refused and resigned; Deputy Attorney General William Ruckelshaus also refused and resigned; Solicitor General Robert Bork carried out the dismissal (he said he intended to resign afterwards but was persuaded to stay); public opinion turned against Nixon; the impeachment process began ten days later, on 30 October; Nixon resigned 9 months and 20 days later, on 9 August 1974",
+    "Also on this day (candidates.md, in the app): 1973 Elizabeth II opens the Sydney Opera House after 14 years of construction; 1740 Maria Theresa ascends the Habsburg throne",
+    "Photos (public domain, US government / Library of Congress / NARA): Richard Nixon; Nixon with his Cabinet, 1972; Archibald Cox, June 1973 and 20 October 1973; Elliot Richardson; William Ruckelshaus sworn in as EPA administrator; Robert Bork; the Watergate complex",
+    "Illustrative stock footage (Pexels, free licence; not of the event): a rotary telephone, a typewriter"
+  ],
+  "music": {
+    "track": "satie-gymnopedie-1"
+  },
+  "highlight": [
+    "FIRE",
+    "RESIGNED",
+    "REFUSED",
+    "TAPES",
+    "MASSACRE",
+    "IMPEACHMENT",
+    "NIXON"
+  ],
+  "cover": {
+    "image": "nixon.jpg",
+    "focus": "50% 30%",
+    "date": "20 OCTOBER 1973",
+    "top": 1000,
+    "lines": [
+      "FIRE HIM.",
+      "*NO.*",
+      "I *RESIGN*."
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "A president ordered his top lawyer to fire a prosecutor. He resigned instead. So did his deputy.",
+      "show": "A president ordered his top lawyer to fire a prosecutor. He resigned instead. So did his deputy.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "It happened on this night in nineteen seventy-three.",
+      "show": "It happened on this night in 1973.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "Special prosecutor Archibald Cox was investigating Watergate.",
+      "show": "Special prosecutor Archibald Cox was investigating Watergate.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s4",
+      "say": "He wanted the secret tapes Richard Nixon had recorded in the White House.",
+      "show": "He wanted the secret tapes Richard Nixon had recorded in the White House.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s5",
+      "say": "Nixon ordered Attorney General Elliot Richardson to fire him.",
+      "show": "Nixon ordered Attorney General Elliot Richardson to fire him.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s6",
+      "say": "Richardson refused, and resigned.",
+      "show": "Richardson refused, and resigned.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s7",
+      "say": "Nixon gave the same order to his deputy, William Ruckelshaus.",
+      "show": "Nixon gave the same order to his deputy, William Ruckelshaus.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s8",
+      "say": "He refused too, and resigned.",
+      "show": "He refused too, and resigned.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s9",
+      "say": "The third man in line, Robert Bork, carried out the order.",
+      "show": "The third man in line, Robert Bork, carried out the order.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s10",
+      "say": "America called it the Saturday Night Massacre.",
+      "show": "America called it the Saturday Night Massacre.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s11",
+      "say": "Ten days later, the impeachment process began.",
+      "show": "Ten days later, the impeachment process began.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s12",
+      "say": "Less than ten months later, Nixon himself resigned.",
+      "show": "Less than ten months later, Nixon himself resigned.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "also": {
+    "say": "Also on this day: the Sydney Opera House opened after fourteen years of building, and Maria Theresa took the Habsburg throne.",
+    "items": [
+      {
+        "year": "1973",
+        "text": "The Sydney Opera House opens"
+      },
+      {
+        "year": "1740",
+        "text": "Maria Theresa takes the Habsburg throne"
+      }
+    ],
+    "image": "watergate.jpg"
+  },
+  "cta": {
+    "story": "Some stories can't be fired.",
+    "say": "Our app keeps every day of history on the record. Subscribe, and be there when it opens.",
+    "pill": "ON THE RECORD",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook — Nixon, same picture as the cover",
+      "image": "nixon.jpg",
+      "focus": "50% 30%",
+      "move": "in"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.5",
+      "enter": "cut",
+      "clip": "stock-phone.mp4",
+      "credit": "A telephone · illustrative · Pexels"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "watergate.jpg",
+      "focus": "50% 50%",
+      "date": "20 OCTOBER",
+      "year": "1973",
+      "place": "Washington, D.C."
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "cox.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "Archibald Cox, June 1973"
+    },
+    {
+      "type": "photo",
+      "from": "s3@0.55",
+      "enter": "cut",
+      "image": "cox-oct20.jpg",
+      "focus": "50% 40%",
+      "move": "in",
+      "fact": "Cox at the National Press Club, 20 October 1973"
+    },
+    {
+      "type": "photo",
+      "from": "s4",
+      "enter": "cut",
+      "image": "cabinet.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Nixon with his Cabinet at the White House, 1972"
+    },
+    {
+      "type": "film",
+      "from": "s4@0.55",
+      "enter": "cut",
+      "clip": "stock-phone.mp4",
+      "credit": "A telephone · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s5",
+      "enter": "cut",
+      "image": "richardson.jpg",
+      "focus": "50% 35%",
+      "move": "in",
+      "fact": "Attorney General Elliot Richardson"
+    },
+    {
+      "type": "statement",
+      "from": "s6",
+      "enter": "cut",
+      "image": "richardson.jpg",
+      "focus": "50% 35%",
+      "ghost": "NO",
+      "kicker": "Elliot Richardson",
+      "main": {
+        "text": "Refused, and *resigned*.",
+        "at": "s6@0.3"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s7",
+      "enter": "cut",
+      "image": "ruckelshaus.jpg",
+      "focus": "40% 40%",
+      "move": "in",
+      "fact": "William Ruckelshaus sworn in as head of the EPA, 1970"
+    },
+    {
+      "type": "statement",
+      "from": "s8",
+      "enter": "cut",
+      "image": "ruckelshaus.jpg",
+      "focus": "40% 40%",
+      "ghost": "NO",
+      "kicker": "William Ruckelshaus",
+      "main": {
+        "text": "Refused too, and *resigned*.",
+        "at": "s8@0.3"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s9",
+      "enter": "cut",
+      "image": "bork.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "Robert Bork, the Solicitor General"
+    },
+    {
+      "type": "statement",
+      "from": "s10",
+      "enter": "cut",
+      "image": "cox-oct20.jpg",
+      "focus": "50% 40%",
+      "ghost": "20.10",
+      "kicker": "Archibald Cox, 20 October 1973",
+      "main": {
+        "text": "The Saturday Night *Massacre*.",
+        "at": "s10@0.4"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s11",
+      "enter": "cut",
+      "clip": "stock-typewriter.mp4",
+      "credit": "A typewriter · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s12",
+      "enter": "cut",
+      "image": "nixon.jpg",
+      "focus": "50% 45%",
+      "move": "in",
+      "fact": "Richard Nixon resigned on 9 August 1974"
+    }
+  ],
+  "post": {
+    "tiktok": "A president ordered his top lawyer to fire a prosecutor. He resigned instead. So did his deputy. ⚖️📞\n\n20 October 1973: Nixon wanted Watergate prosecutor Archibald Cox gone. Elliot Richardson said no. William Ruckelshaus said no. The third man, Robert Bork, did it. Ten months later, Nixon resigned.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #historytok #watergate #nixon #1973",
+    "facebook": "On the night of Saturday 20 October 1973, Richard Nixon tried to stop the Watergate investigation — and lost two of his top law officers in the process.\n\nSpecial prosecutor Archibald Cox had refused to drop his subpoena for the tapes Nixon had secretly recorded in the White House. Nixon ordered Attorney General Elliot Richardson to fire him. Richardson refused, and resigned. Nixon gave the same order to Deputy Attorney General William Ruckelshaus. He refused too, and resigned. The third man in line, Solicitor General Robert Bork, carried it out.\n\nThe country called it the Saturday Night Massacre. Public opinion turned sharply against the president; ten days later the impeachment process began. On 9 August 1974, Nixon resigned.\n\nAlso on 20 October: the Sydney Opera House opened after 14 years of construction (1973), and Maria Theresa took the Habsburg throne (1740).\n\nSome stories can't be fired. Our app keeps every day of history on the record — follow the page and be there when it opens. 📜\n\n#OnThisDay #History #Watergate #Nixon",
+    "youtube": {
+      "title": "Two Men Who Quit Rather Than Obey The President #Shorts",
+      "description": "20 October 1973 — the Saturday Night Massacre. Nixon ordered Attorney General Elliot Richardson to fire Watergate special prosecutor Archibald Cox, who wanted the secret White House tapes. Richardson refused and resigned. Deputy William Ruckelshaus refused and resigned. The third in line, Robert Bork, carried out the order. Ten days later the impeachment process began; less than ten months later, Nixon resigned.\n\nAlso on 20 October: the Sydney Opera House opens (1973) and Maria Theresa takes the Habsburg throne (1740).\n\nSubscribe — our history app, with a story for every date, is on its way.\n\nPhotos: US government / Library of Congress / NARA, public domain (Wikimedia Commons). Telephone and typewriter shots: illustrative stock footage (Pexels), not of the event. Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #Watergate #Nixon",
+      "tags": [
+        "history",
+        "on this day",
+        "Saturday Night Massacre",
+        "Watergate",
+        "Richard Nixon",
+        "Elliot Richardson",
+        "Archibald Cox",
+        "Robert Bork",
+        "1973",
+        "American politics",
+        "history facts",
+        "history shorts"
+      ]
+    },
+    "pinned": "Richardson and Ruckelshaus quit rather than obey. Would you have resigned — or followed the order? 👇"
+  }
+}

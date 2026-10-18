@@ -1,0 +1,83 @@
+{
+  "total": 68.166,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "Students asked to read their demands on the radio. That night, Stalin's statue had fallen, and only his boots were left.",
+      "start": 0.4,
+      "end": 8.357
+    },
+    {
+      "id": "s2",
+      "show": "The Hungarian Revolution began on this day in 1956.",
+      "start": 8.807,
+      "end": 13.415
+    },
+    {
+      "id": "s3",
+      "show": "University students in Budapest called people to march for freedom from Soviet control.",
+      "start": 13.815,
+      "end": 19.895
+    },
+    {
+      "id": "s4",
+      "show": "The crowd sang a banned patriotic poem.",
+      "start": 20.245,
+      "end": 22.699
+    },
+    {
+      "id": "s5",
+      "show": "Students went into the state radio building to broadcast 16 demands. They were detained.",
+      "start": 23.099,
+      "end": 28.88
+    },
+    {
+      "id": "s6",
+      "show": "Outside, the secret police opened fire.",
+      "start": 29.28,
+      "end": 32.011
+    },
+    {
+      "id": "s7",
+      "show": "Across the city, the crowd pulled down an 8-metre statue of Stalin.",
+      "start": 32.511,
+      "end": 36.948
+    },
+    {
+      "id": "s8",
+      "show": "Only the boots stayed on the plinth. They planted a Hungarian flag in them.",
+      "start": 37.298,
+      "end": 41.97
+    },
+    {
+      "id": "s9",
+      "show": "For a few days, the revolution seemed to win.",
+      "start": 42.47,
+      "end": 45.286
+    },
+    {
+      "id": "s10",
+      "show": "Then, on November 4th, Soviet tanks rolled in.",
+      "start": 45.686,
+      "end": 49.057
+    },
+    {
+      "id": "s11",
+      "show": "About 200,000 Hungarians fled the country.",
+      "start": 49.507,
+      "end": 52.728
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: Santos-Dumont flew his fourteen-bis, and Irish rebels tried to seize Dublin Castle.",
+      "start": 53.328,
+      "end": 60.603
+    },
+    {
+      "id": "end2",
+      "show": "Our app gives every day in history its broadcast. Subscribe, and be tuned in when it goes live.",
+      "start": 61.053,
+      "end": 67.666
+    }
+  ]
+}

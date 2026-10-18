@@ -84,9 +84,13 @@ async function cached(url) {
 }
 /** Where to read a film from: the local copy if it is small, else a small transcode to look at, else the original. */
 async function lookUrl(url, { cache = true } = {}) {
-  const local = cache ? await cached(url) : null;
-  if (local) return local;
   const u = bare(url);
+  // A copy already in .clips/cache wins even without `cache` — a film over
+  // CACHE_MAX can be put there by hand (a Commons transcode at the original
+  // resolution: San Pietro, 432 MB, 5 Oct).
+  const have = path.join(work, 'cache', decodeURIComponent(u.split('/').pop()));
+  const local = existsSync(have) ? have : cache ? await cached(url) : null;
+  if (local) return local;
   const m =/^(https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\/)([0-9a-f]\/[0-9a-f]{2}\/)([^/]+)$/.exec(u);
   if (m) {
     for (const r of ['360p.vp9.webm', '360p.webm', '240p.vp9.webm', '480p.vp9.webm']) {
@@ -264,7 +268,9 @@ const out = path.join(assets, `${name}.mp4`);
 ff([
   '-ss', at.toFixed(2), ...src((await cached(info.url)) ?? bare(info.url)), '-t', len.toFixed(2),
   '-filter_complex', filter, '-map', '[v]', '-an',
-  '-c:v', 'libx264', '-preset', 'slow', '-crf', '18', '-pix_fmt', 'yuv420p', '-movflags', '+faststart',
+  // A keyframe every second: the renderer seeks every frame, and a 5 s GOP
+  // froze the first 18 s of the 12 Oct video ("sparse keyframes" warning).
+  '-c:v', 'libx264', '-preset', 'slow', '-crf', '18', '-g', '30', '-keyint_min', '30', '-pix_fmt', 'yuv420p', '-movflags', '+faststart',
   out,
 ]);
 const got = Number.parseFloat(execFileSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'default=nw=1:nk=1', out], { encoding: 'utf8' }));

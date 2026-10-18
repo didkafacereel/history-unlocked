@@ -1,0 +1,83 @@
+{
+  "total": 68.295,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "For three centuries, the sailor's sword was the cutlass. In 1936, the Royal Navy retired it.",
+      "start": 0.4,
+      "end": 7.504
+    },
+    {
+      "id": "s2",
+      "show": "From then on, cutlasses were for ceremony, not for fighting.",
+      "start": 7.954,
+      "end": 11.645
+    },
+    {
+      "id": "s3",
+      "show": "Short enough to swing below decks, strong enough to cut through rope.",
+      "start": 12.045,
+      "end": 16.162
+    },
+    {
+      "id": "s4",
+      "show": "Boys in the navy drilled with it. Pirates swore by it.",
+      "start": 16.562,
+      "end": 20.082
+    },
+    {
+      "id": "s5",
+      "show": "It was the weapon of the boarding party.",
+      "start": 20.532,
+      "end": 22.879
+    },
+    {
+      "id": "s6",
+      "show": "But the story didn't quite end there.",
+      "start": 23.329,
+      "end": 25.249
+    },
+    {
+      "id": "s7",
+      "show": "In 1940, the German ship Altmark hid in a Norwegian fjord, with 299 British prisoners.",
+      "start": 25.749,
+      "end": 34.005
+    },
+    {
+      "id": "s8",
+      "show": "The destroyer Cossack went in, boarded her, and set them free.",
+      "start": 34.405,
+      "end": 38.117
+    },
+    {
+      "id": "s9",
+      "show": "Legend says it was the last time British sailors boarded with cutlasses.",
+      "start": 38.567,
+      "end": 43.132
+    },
+    {
+      "id": "s10",
+      "show": "Many historians doubt it. They point to China, in 1900.",
+      "start": 43.532,
+      "end": 47.777
+    },
+    {
+      "id": "s11",
+      "show": "Today, chief petty officers still carry one, when they escort the flag.",
+      "start": 48.227,
+      "end": 52.451
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: a New York bank run set off the Panic of nineteen oh-seven, and India sent a probe to the Moon.",
+      "start": 53.051,
+      "end": 61.051
+    },
+    {
+      "id": "end2",
+      "show": "Our app is sharpening every day of history. Subscribe, and be in the boarding party when it lands.",
+      "start": 61.501,
+      "end": 67.795
+    }
+  ]
+}

@@ -235,5 +235,65 @@
     "music": "chopin-nocturne-10",
     "seconds": 72,
     "cta": "Our app is still on its way down. Subscribe, and be there the moment it lands."
+  },
+  {
+    "date": "2026-10-19",
+    "slug": "yorktown",
+    "title": "Yorktown, 1781 — the general who missed his own surrender, and the sword turned down twice",
+    "eventId": "evt-10-19-1781-siege-of-yorktown",
+    "category": "Military & Conflict",
+    "music": "grieg-concerto-adagio",
+    "seconds": 71,
+    "cta": "The sword went down the line. Subscribe, and our coming app reaches you first."
+  },
+  {
+    "date": "2026-10-20",
+    "slug": "saturday-night",
+    "title": "The Saturday Night Massacre, 1973 — two men who resigned rather than obey",
+    "eventId": "evt-10-20-1973-watergate-scandal",
+    "category": "Politics & Power",
+    "music": "satie-gymnopedie-1",
+    "seconds": 66,
+    "cta": "Our app keeps every day of history on the record. Subscribe, and be there when it opens."
+  },
+  {
+    "date": "2026-10-21",
+    "slug": "trafalgar",
+    "title": "Trafalgar, 1805 — Nelson's last signal, and the barrel of brandy",
+    "eventId": "evt-10-21-1805-battle-of-trafalgar",
+    "category": "Military & Conflict",
+    "music": "grieg-concerto-adagio",
+    "seconds": 73,
+    "cta": "Our app expects every day to tell its story. Subscribe, and do your duty: be first aboard."
+  },
+  {
+    "date": "2026-10-22",
+    "slug": "cutlass",
+    "title": "The Royal Navy retires the cutlass, 1936 — and the boarding that came after",
+    "eventId": "evt-10-22-1936-royal-navy-cutlasses",
+    "category": "Culture & Ideas",
+    "music": "mussorgsky-old-castle",
+    "seconds": 68,
+    "cta": "Our app is sharpening every day of history. Subscribe, and be in the boarding party when it lands."
+  },
+  {
+    "date": "2026-10-23",
+    "slug": "hungary-1956",
+    "title": "The Hungarian Revolution, 1956 — students, a radio station, and Stalin's boots",
+    "eventId": "evt-10-23-1956-hungarian-revolution-of-1956",
+    "category": "Society & Rights",
+    "music": "grieg-aase-death",
+    "seconds": 68,
+    "cta": "Our app gives every day in history its broadcast. Subscribe, and be tuned in when it goes live."
+  },
+  {
+    "date": "2026-10-24",
+    "slug": "black-thursday",
+    "title": "Black Thursday, 1929 — the crash, and the 'White Knight' who tried to stop it",
+    "eventId": "evt-10-24-1929-wall-street-crash-of-1929",
+    "category": "Culture & Ideas",
+    "music": "mussorgsky-catacombs",
+    "seconds": 68,
+    "cta": "Our app is one stock that only goes up: a story for every day. Subscribe, and buy in early."
   }
 ]
