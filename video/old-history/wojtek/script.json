@@ -1,0 +1,94 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "mode": "channel",
+  "date": "2026-10-05",
+  "slug": "wojtek",
+  "title": "Wojtek — the bear the Polish army enlisted",
+  "category": "Military & Conflict",
+  "sources": [
+    "Wikipedia: Wojtek — Syrian brown bear (1942 – 2 December 1963); on 8 April 1942, on the journey from Pahlavi to Tehran, Polish soldiers of Anders' Army met a young Iranian boy who had found a bear cub whose mother had been shot by hunters; 18-year-old refugee Irena (Inka) Bokiewicz prompted Lieutenant Anatol Tarnowiecki to buy him; donated to the 2nd Transport Company (later 22nd Artillery Supply Company), named Wojtek by the soldiers; fed condensed milk from an old vodka bottle; often rewarded with beer, his favourite drink; wrestled with the soldiers, was taught to salute, slept with soldiers if they were cold at night; British transport ship regulations to Italy forbade mascots and pets, so he was officially drafted as a private of the 22nd Artillery Supply Company, with his own paybook, rank and serial number; during the Battle of Monte Cassino he carried 100-pound (45 kg) crates of artillery shells, never dropping any — the story's accuracy is debated, but at least one account exists of a British soldier recalling a bear carrying crates of ammunition; he copied the men lifting crates; promoted to corporal; the company adopted a bear carrying an artillery shell as its emblem; after the war went to Scotland with the company, then on 15 November 1947 to Edinburgh Zoo, visited by former Polish soldiers; he still responded to being spoken to in Polish",
+    "Wikipedia: Battle of Monte Cassino — final capture cost over 43,000 Allied casualties; the first flag raised over the ruins of the monastery, on 18 May 1944 at 10.20, was the Polish flag",
+    "Photos (public domain, Wikimedia Commons / Imperial War Museum / Polish National Digital Archive): Wojtek with a Polish soldier; Wojtek as a cub in Iran; Wojtek wrestling soldiers of the 22nd Company; Wojtek at Winfield, Berwickshire, after the war; the 22nd Company badge; Polish II Corps unloading artillery shells at Monte Cassino, May 1944; Polish and British flags over the monastery ruins; the ruined monastery, 19 May 1944",
+    "Archive film (public domain): 'The Battle of San Pietro' (US Army Pictorial Service, 1945) — Allied trucks, guns and shellfire in the Italian mountains, 1943 — illustrative only, not Wojtek's unit"
+  ],
+  "music": {
+    "track": "satie-gymnopedie-1"
+  },
+  "highlight": ["WOJTEK", "BEAR", "PRIVATE", "CORPORAL", "BEER", "CASSINO", "POLISH", "SHELLS", "NO PETS", "POLISH."],
+  "cover": {
+    "image": "wojtek-soldier.jpg",
+    "focus": "50% 60%",
+    "kicker": "TRUE STORY",
+    "date": "WORLD WAR II",
+    "top": 1120,
+    "lines": ["THE ARMY", "ENLISTED", "*A BEAR*"]
+  },
+  "sentences": [
+    { "id": "s1", "say": "The Polish army gave him a paybook, a rank, and a serial number. He was a bear.", "show": "The Polish army gave him a paybook, a rank and a serial number. He was a bear.", "pauseAfter": 0.6 },
+    { "id": "s2", "say": "In April nineteen forty-two, Polish soldiers in Iran met a boy with an orphaned bear cub.", "show": "In April 1942, Polish soldiers in Iran met a boy with an orphaned bear cub.", "pauseAfter": 0.4 },
+    { "id": "s4", "say": "A young refugee named Irena talked an officer into buying him.", "show": "A young refugee named Irena talked an officer into buying him.", "pauseAfter": 0.35 },
+    { "id": "s5", "say": "The soldiers called him Wojtek.", "show": "The soldiers called him Wojtek.", "pauseAfter": 0.45 },
+    { "id": "s6", "say": "He drank condensed milk from an old vodka bottle.", "show": "He drank condensed milk from an old vodka bottle.", "pauseAfter": 0.35 },
+    { "id": "s7", "say": "As he grew, they rewarded him with beer. It became his favourite drink.", "show": "As he grew, they rewarded him with beer. It became his favourite drink.", "pauseAfter": 0.4 },
+    { "id": "s8", "say": "He wrestled the men, learned to salute, and slept beside them on cold nights.", "show": "He wrestled the men, learned to salute, and slept beside them on cold nights.", "pauseAfter": 0.5 },
+    { "id": "s9", "say": "Then the army sailed for Italy, on a British ship with one rule. No pets.", "show": "Then the army sailed for Italy, on a British ship with one rule. No pets.", "pauseAfter": 0.6 },
+    { "id": "s10", "say": "So the Poles enlisted him.", "show": "So the Poles enlisted him.", "pauseAfter": 0.35 },
+    { "id": "s11", "say": "Private Wojtek. Twenty-second Artillery Supply Company.", "show": "Private Wojtek. 22nd Artillery Supply Company.", "pauseAfter": 0.5 },
+    { "id": "s12", "say": "In nineteen forty-four, at Monte Cassino, his company hauled shells to the guns.", "show": "In 1944, at Monte Cassino, his company hauled shells to the guns.", "pauseAfter": 0.35 },
+    { "id": "s13", "say": "Wojtek watched the men lift the crates. Then he copied them.", "show": "Wojtek watched the men lift the crates. Then he copied them.", "pauseAfter": 0.5 },
+    { "id": "s14", "say": "Crates of artillery shells, forty-five kilos each. He never dropped one.", "show": "Crates of artillery shells, 45 kilos each. He never dropped one.", "pauseAfter": 0.5 },
+    { "id": "s15", "say": "Historians still argue. But one British soldier remembered a bear carrying ammunition.", "show": "Historians still argue. But one British soldier remembered a bear carrying ammunition.", "pauseAfter": 0.45 },
+    { "id": "s17", "say": "On the eighteenth of May, the first flag raised over the ruined monastery was Polish.", "show": "On 18 May, the first flag raised over the ruined monastery was Polish.", "pauseAfter": 0.5 },
+    { "id": "s18", "say": "Wojtek was made a corporal. His company's new badge was a bear carrying a shell.", "show": "Wojtek was made a corporal. His company's new badge: a bear carrying a shell.", "pauseAfter": 0.5 },
+    { "id": "s19", "say": "After the war, he retired to Edinburgh Zoo.", "show": "After the war, he retired to Edinburgh Zoo.", "pauseAfter": 0.35 },
+    { "id": "s20", "say": "His old comrades came to visit, and spoke to him in Polish.", "show": "His old comrades came to visit, and spoke to him in Polish.", "pauseAfter": 0.6 },
+    { "id": "s21", "say": "And he still answered.", "show": "And he still answered.", "pauseAfter": 0.6 }
+  ],
+  "cta": {
+    "story": "History that sounds made up.",
+    "say": "Wojtek never dropped a crate. Don't drop us. Subscribe, and join the company.",
+    "pill": "ENLIST NOW",
+    "note": "more true stories like this one"
+  },
+  "endImage": "wojtek-big.jpg",
+  "imageCredit": "Imperial War Museum; Polish National Digital Archive (NAC) via Wikimedia Commons",
+  "scenes": [
+    { "type": "photo", "note": "hook", "image": "wojtek-soldier.jpg", "focus": "50% 55%", "move": "in" },
+    { "type": "photo", "from": "s1@0.62", "enter": "cut", "image": "wojtek-big.jpg", "focus": "50% 40%", "move": "in", "fact": "Wojtek, after the war" },
+    { "type": "title", "from": "s2", "enter": "cut", "image": "wojtek-cub.jpg", "focus": "50% 45%", "kicker": "Where it began", "date": "8 APRIL", "year": "1942", "place": "On the road to Tehran, Iran" },
+    { "type": "photo", "from": "s2@0.6", "enter": "cut", "image": "wojtek-cub.jpg", "focus": "60% 60%", "move": "in", "fact": "Wojtek as a cub, with a Polish soldier in Iran" },
+    { "type": "statement", "from": "s4", "enter": "cut", "image": "wojtek-cub.jpg", "focus": "50% 40%", "kicker": "Irena Bokiewicz, 18", "main": { "text": "She talked an officer into *buying him*.", "at": "s4@0.3" } },
+    { "type": "photo", "from": "s5", "enter": "cut", "image": "wojtek-dog.jpg", "focus": "70% 60%", "move": "left", "line": { "text": "*Wojtek*", "at": "s5@0.6" } },
+    { "type": "statement", "from": "s6", "enter": "cut", "image": "wojtek-dog.jpg", "focus": "30% 50%", "ghost": "MILK", "main": { "text": "Condensed milk, from an old *vodka bottle*.", "at": "s6@0.3" } },
+    { "type": "photo", "from": "s7", "enter": "cut", "image": "wojtek-big.jpg", "focus": "50% 30%", "move": "in", "fact": "Fully grown" },
+    { "type": "photo", "from": "s8", "enter": "cut", "image": "wojtek-wrestle.jpg", "focus": "45% 60%", "move": "in", "fact": "Wrestling the men of the 22nd Company" },
+    { "type": "photo", "from": "s8@0.55", "enter": "cut", "image": "wojtek-box.jpg", "focus": "45% 55%", "move": "right" },
+    { "type": "statement", "from": "s9", "enter": "cut", "image": "wojtek-wrestle.jpg", "focus": "50% 50%", "kicker": "British transport ship rules", "main": { "text": "*No pets.*", "at": "s9@0.8" } },
+    { "type": "photo", "from": "s10", "enter": "cut", "image": "wojtek-soldier.jpg", "focus": "50% 40%", "move": "in" },
+    { "type": "statement", "from": "s11", "enter": "cut", "image": "wojtek-soldier.jpg", "focus": "60% 75%", "kicker": "22nd Artillery Supply Company", "main": { "text": "Private *Wojtek*", "at": "s11@0.1" }, "fact": { "text": "His own paybook, rank and serial number", "at": "s11@0.6" } },
+    { "type": "film", "from": "s12", "enter": "cut", "clip": "film-truck.mp4", "credit": "Allied supply trucks, Italy 1943 · archive film, illustrative" },
+    { "type": "film", "from": "s12@0.55", "enter": "cut", "clip": "film-gun.mp4", "credit": "Allied guns and armour, Italy 1943 · archive film, illustrative" },
+    { "type": "photo", "from": "s13", "enter": "cut", "image": "shells.jpg", "focus": "50% 50%", "move": "in", "fact": "Polish soldiers unloading shells, Monte Cassino, May 1944" },
+    { "type": "number", "from": "s14", "enter": "cut", "image": "shells.jpg", "focus": "50% 70%", "label": "Each crate", "value": 45, "start": 0, "suffix": " kg", "count": { "from": "s14@0.15", "to": "s14@0.5" }, "sub": { "text": "He never dropped one.", "at": "s14@0.7" } },
+    { "type": "statement", "from": "s15", "enter": "cut", "image": "wojtek-box.jpg", "focus": "50% 50%", "main": { "text": "Historians still argue.", "at": "s15+0.1" }, "fact": { "text": "A British soldier recalled seeing a bear carry ammunition", "at": "s15@0.5" } },
+    { "type": "film", "from": "s17", "enter": "cut", "clip": "film-hills.mp4", "credit": "Shellfire in the Italian mountains, 1943 · archive film, illustrative" },
+    { "type": "photo", "from": "s17@0.3", "enter": "cut", "image": "monastery.jpg", "focus": "40% 50%", "move": "in", "fact": "The ruined monastery, 19 May 1944" },
+    { "type": "photo", "from": "s17@0.65", "enter": "cut", "image": "flags.jpg", "focus": "45% 40%", "move": "in", "fact": "Polish and British flags over the ruins, May 1944" },
+    { "type": "statement", "from": "s18", "enter": "cut", "image": "wojtek-big.jpg", "focus": "50% 35%", "kicker": "Promoted", "main": { "text": "Corporal *Wojtek*", "at": "s18@0.15" } },
+    { "type": "portrait", "from": "s18@0.5", "enter": "cut", "image": "badge.jpg", "focus": "50% 50%", "fit": "contain", "kicker": "22nd Company badge", "line": { "text": "A bear carrying a *shell*", "at": "s18@0.65" } },
+    { "type": "photo", "from": "s19", "enter": "fade", "image": "wojtek-big.jpg", "focus": "50% 45%", "move": "out", "fact": "Wojtek in Scotland, after the war" },
+    { "type": "photo", "from": "s20", "enter": "cut", "image": "wojtek-wrestle.jpg", "focus": "35% 50%", "move": "left", "fact": "With the men of the 22nd Company" },
+    { "type": "portrait", "from": "s21", "enter": "fade", "image": "wojtek-soldier.jpg", "focus": "50% 50%", "kicker": "Corporal Wojtek", "date": "1942 – 1963", "line": { "text": "He still *answered*.", "at": "s21+0.1" } }
+  ],
+  "post": {
+    "tiktok": "The Polish army gave him a paybook, a rank and a serial number. He was a bear. 🐻\n\nAdopted as a cub in Iran in 1942, Wojtek was enlisted as a private so he could sail to Italy — and at Monte Cassino, he's said to have carried crates of artillery shells. Real hero or army legend?\n\nFollow for more history that sounds made up ⚔️\n\n#history #ww2 #wojtek #soldierbear #montecassino #poland #historytok #truestory",
+    "facebook": "The Polish army gave him a paybook, a rank and a serial number. He was a bear.\n\nIn April 1942, Polish soldiers on the road to Tehran met a boy with a bear cub whose mother had been shot by hunters. An 18-year-old refugee, Irena Bokiewicz, talked an officer into buying him. The soldiers named him Wojtek. He drank condensed milk from an old vodka bottle — and, as he grew, beer became his favourite drink.\n\nWhen the 2nd Polish Corps sailed for Italy, the British transport ship allowed no pets. So the Poles enlisted him: Private Wojtek, 22nd Artillery Supply Company.\n\nAt Monte Cassino in 1944 his company hauled shells to the guns — and Wojtek, copying the men, is said to have carried 45-kilo crates of artillery shells without dropping one. Historians still argue about it, but at least one British soldier remembered seeing a bear carry ammunition. He was promoted to corporal, and his company's badge became a bear carrying a shell.\n\nAfter the war he lived out his life at Edinburgh Zoo. Old comrades came to visit and spoke to him in Polish — and he still answered.\n\nWould you believe it? 🐻\n\n#History #WW2 #Wojtek #MonteCassino",
+    "youtube": {
+      "title": "The Polish Army Enlisted a Bear — Then He Carried Shells at Monte Cassino | Wojtek #Shorts",
+      "description": "The Polish army gave him a paybook, a rank and a serial number. He was a bear.\n\nWojtek was adopted as a cub in Iran in 1942. To get him onto a British ship to Italy — no pets allowed — the 2nd Polish Corps enlisted him as a private of the 22nd Artillery Supply Company. At Monte Cassino in 1944 he is said to have carried crates of artillery shells, copying the men around him. Promoted to corporal, he became his company's badge, and ended his days at Edinburgh Zoo, where old comrades still spoke to him in Polish.\n\nSubscribe for more history that sounds made up.\n\nImages: public domain via Wikimedia Commons (Imperial War Museum, Polish National Digital Archive). Film: The Battle of San Pietro (US Army, 1945), public domain — illustrative. Music: Satie, Gymnopédie No. 1, public domain. Sources: Wikipedia.\n\n#Shorts #History #WW2 #Wojtek #MonteCassino",
+      "tags": ["history", "ww2", "Wojtek", "Wojtek the bear", "soldier bear", "Monte Cassino", "Polish army", "2nd Polish Corps", "World War 2", "true story", "history shorts", "animals in war", "Edinburgh Zoo"]
+    },
+    "pinned": "Real war hero or the best army legend ever? Would YOU have believed a bear carried shells at Monte Cassino? 🐻🤔"
+  }
+}

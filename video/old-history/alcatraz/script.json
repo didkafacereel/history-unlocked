@@ -1,0 +1,428 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "mode": "channel",
+  "date": "2026-10-14",
+  "slug": "alcatraz",
+  "title": "The 1962 Alcatraz escape — three men who vanished",
+  "category": "Crime & Mystery",
+  "sources": [
+    "Wikipedia: June 1962 Alcatraz escape — on the night of 11 June 1962 Frank Morris and brothers John and Clarence Anglin escaped from Alcatraz; over six months they widened the ventilation ducts beneath their sinks with discarded saw blades, mess-hall spoons and a drill improvised from a vacuum-cleaner motor, hid the work with painted cardboard and masked the noise with Morris's accordion during music hour; on the vacant top level of the cellblock they built life preservers and a raft from more than fifty raincoats; dummy heads of soap, toothpaste, concrete dust and toilet paper, painted and topped with hair from the barbershop floor, lay in their beds; a fourth man, Allen West, was left behind when his vent opening had hardened too narrow; the three climbed a ventilation shaft to the roof, slid 50 ft down a kitchen vent pipe, climbed two barbed-wire fences and launched the raft at about 10 pm; the escape was discovered at 7 am on 12 June when Clarence Anglin's dummy head fell to the floor as guards tried to rouse him; a paddle, a plastic-wrapped wallet with Anglin family photos and life vests were found; the FBI concluded in 1979 that they most likely drowned; family members presented evidence they reached Brazil; in 2013 San Francisco police received a letter claiming to be from John Anglin, whose authenticity was deemed inconclusive; in November 2025 a team rebuilt the raft from the same plans and showed the crossing was plausible",
+    "Photos (public domain, Wikimedia Commons / FBI / US Bureau of Prisons / Historic American Buildings Survey / Library of Congress, Carol M. Highsmith): the dummy head from Frank Morris's cell (FBI, 1962); John Anglin's Alcatraz mugshot; the Alcatraz cell house and cells; aerial views of Alcatraz Island; the Golden Gate and Angel Island",
+    "Archive film (public domain): Golden Gate Bridge opening (1936); US Navy footage of night at sea (1943) — illustrative",
+    "Music: Grieg, In the Hall of the Mountain King — Musopen Symphony, public domain"
+  ],
+  "music": {
+    "track": "mountain-king"
+  },
+  "highlight": [
+    "FAKE.",
+    "SPOONS,",
+    "ACCORDION",
+    "FIFTY",
+    "VANISHED.",
+    "NEVER",
+    "BRAZIL.",
+    "LETTER,",
+    "DROWN",
+    "ESCAPE?"
+  ],
+  "cover": {
+    "image": "dummy-head.jpg",
+    "focus": "50% 40%",
+    "kicker": "UNSOLVED",
+    "date": "ALCATRAZ, 1962",
+    "top": 1120,
+    "lines": [
+      "3 MEN ESCAPED",
+      "*ALCATRAZ.*",
+      "NEVER FOUND."
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "On the morning of June the twelfth, nineteen sixty-two, a guard at Alcatraz tried to wake a prisoner. His head rolled onto the floor.",
+      "show": "On the morning of 12 June 1962, a guard at Alcatraz tried to wake a prisoner. His head rolled onto the floor.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s2",
+      "say": "It was fake. Soap, toilet paper, and real hair from the prison barbershop.",
+      "show": "It was fake. Soap, toilet paper, and real hair from the prison barbershop.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s3",
+      "say": "Three men were gone. Frank Morris, and the brothers John and Clarence Anglin.",
+      "show": "Three men were gone. Frank Morris, and the brothers John and Clarence Anglin.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s4",
+      "say": "Alcatraz was meant to be escape-proof. A rock, in the freezing currents of San Francisco Bay.",
+      "show": "Alcatraz was meant to be escape-proof. A rock, in the freezing currents of San Francisco Bay.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s5",
+      "say": "For six months, they dug through the walls under their sinks, with spoons, and a drill made from a vacuum cleaner.",
+      "show": "For six months, they dug through the walls under their sinks, with spoons, and a drill made from a vacuum cleaner.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s6",
+      "say": "Morris played the accordion during music hour, to cover the noise.",
+      "show": "Morris played the accordion during music hour, to cover the noise.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s7",
+      "say": "On the empty top floor of the cell block, they built a raft from more than fifty stolen raincoats.",
+      "show": "On the empty top floor of the cell block, they built a raft from more than fifty stolen raincoats.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s8",
+      "say": "On the night of June the eleventh, they climbed to the roof, slid down a pipe, and got over two fences.",
+      "show": "On the night of 11 June, they climbed to the roof, slid down a pipe, and got over two fences.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s9",
+      "say": "A fourth man was left behind. His hole was too small.",
+      "show": "A fourth man was left behind. His hole was too small.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s10",
+      "say": "At about ten at night, the three pushed their raft into the dark bay. And vanished.",
+      "show": "At about 10 p.m., the three pushed their raft into the dark bay. And vanished.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s11",
+      "say": "Searchers found a paddle, a life vest, and a wallet wrapped in plastic. Never the men.",
+      "show": "Searchers found a paddle, a life vest, and a wallet wrapped in plastic. Never the men.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s12",
+      "say": "The FBI decided they drowned. Their family says they made it to Brazil.",
+      "show": "The FBI decided they drowned. Their family says they made it to Brazil.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s13",
+      "say": "In twenty thirteen, police got a letter signed John Anglin, saying he was still alive. It was never proven.",
+      "show": "In 2013, police got a letter signed \"John Anglin\", saying he was still alive. It was never proven.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s14",
+      "say": "And in twenty twenty-five, a team rebuilt their raft from the same plans, and made it across.",
+      "show": "And in 2025, a team rebuilt their raft from the same plans, and made it across.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s15",
+      "say": "So did they drown in the bay? Or pull off the perfect escape?",
+      "show": "So did they drown in the bay? Or pull off the perfect escape?",
+      "pauseAfter": 0.6
+    }
+  ],
+  "cta": {
+    "story": "The Rock couldn't hold them.",
+    "say": "Three men vanished. Don't you vanish. Subscribe for the next escape.",
+    "pill": "DON'T VANISH",
+    "note": "more true stories that sound made up"
+  },
+  "endImage": "aerial-sf.jpg",
+  "imageCredit": "FBI; US Bureau of Prisons; Historic American Buildings Survey; Library of Congress (Carol M. Highsmith) via Wikimedia Commons",
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook",
+      "image": "dummy-head.jpg",
+      "focus": "50% 40%",
+      "move": "in",
+      "fact": "Found in Frank Morris's bed, 12 June 1962 (FBI photo)"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.4",
+      "enter": "cut",
+      "image": "broadway.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Alcatraz cell house"
+    },
+    {
+      "type": "statement",
+      "from": "s1@0.75",
+      "enter": "cut",
+      "image": "dummy-head.jpg",
+      "focus": "40% 50%",
+      "main": {
+        "text": "His head *rolled onto the floor*.",
+        "at": "s1@0.8"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s2",
+      "enter": "cut",
+      "image": "dummy-head.jpg",
+      "focus": "60% 35%",
+      "move": "in",
+      "fact": "Soap, toothpaste, toilet paper, paint — and real hair"
+    },
+    {
+      "type": "title",
+      "from": "s3",
+      "enter": "cut",
+      "image": "broadway.jpg",
+      "focus": "50% 50%",
+      "kicker": "The escape",
+      "date": "MORRIS · ANGLIN · ANGLIN",
+      "year": "1962",
+      "place": "Alcatraz Federal Penitentiary"
+    },
+    {
+      "type": "photo",
+      "from": "s3@0.68",
+      "enter": "cut",
+      "image": "john-anglin.jpg",
+      "focus": "50% 40%",
+      "move": "in",
+      "fact": "John Anglin, Alcatraz inmate 1476"
+    },
+    {
+      "type": "photo",
+      "from": "s4",
+      "enter": "cut",
+      "image": "aerial-1.jpg",
+      "focus": "35% 55%",
+      "move": "in",
+      "fact": "Alcatraz Island, San Francisco Bay"
+    },
+    {
+      "type": "photo",
+      "from": "s4@0.55",
+      "enter": "cut",
+      "image": "guard-house.jpg",
+      "focus": "50% 50%",
+      "move": "left",
+      "fact": "Guard post over the yard"
+    },
+    {
+      "type": "photo",
+      "from": "s5",
+      "enter": "cut",
+      "image": "cell-typical.jpg",
+      "focus": "50% 60%",
+      "move": "in",
+      "fact": "An Alcatraz cell"
+    },
+    {
+      "type": "photo",
+      "from": "s5@0.5",
+      "enter": "cut",
+      "image": "cell-vent.jpg",
+      "focus": "40% 50%",
+      "move": "in",
+      "fact": "The vent under the sink — recreated cell, Alcatraz today"
+    },
+    {
+      "type": "statement",
+      "from": "s6",
+      "enter": "cut",
+      "image": "cells-149.jpg",
+      "focus": "50% 50%",
+      "kicker": "Music hour",
+      "main": {
+        "text": "An *accordion* covered the noise.",
+        "at": "s6@0.5"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s7",
+      "enter": "cut",
+      "image": "block-a.jpg",
+      "focus": "50% 40%",
+      "move": "in",
+      "fact": "Inside the cell house"
+    },
+    {
+      "type": "number",
+      "from": "s7@0.5",
+      "enter": "cut",
+      "image": "broadway.jpg",
+      "focus": "50% 30%",
+      "label": "Stolen raincoats, glued into a raft",
+      "value": 50,
+      "start": 0,
+      "suffix": "+",
+      "count": {
+        "from": "s7@0.55",
+        "to": "s7@0.9"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s8",
+      "enter": "cut",
+      "image": "rec-yard.jpg",
+      "focus": "60% 40%",
+      "move": "in",
+      "fact": "The cell house and the yard walls"
+    },
+    {
+      "type": "statement",
+      "from": "s9",
+      "enter": "cut",
+      "image": "cell-typical.jpg",
+      "focus": "50% 75%",
+      "kicker": "Allen West",
+      "main": {
+        "text": "Left *behind*.",
+        "at": "s9@0.5"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s10",
+      "enter": "cut",
+      "clip": "film-dusk.mp4",
+      "credit": "Night on the water · archive film, illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s10@0.65",
+      "enter": "cut",
+      "image": "aerial-2.jpg",
+      "focus": "50% 50%",
+      "move": "out",
+      "fact": "San Francisco Bay"
+    },
+    {
+      "type": "statement",
+      "from": "s11",
+      "enter": "cut",
+      "image": "aerial-sf.jpg",
+      "focus": "50% 50%",
+      "kicker": "The search, June 1962",
+      "main": {
+        "text": "A paddle. A vest. A wallet. *Never the men.*",
+        "at": "s11@0.55"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s12",
+      "enter": "cut",
+      "image": "golden-gate-angel.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Angel Island and the Golden Gate (photo c. 1900)"
+    },
+    {
+      "type": "statement",
+      "from": "s12@0.5",
+      "enter": "cut",
+      "image": "john-anglin.jpg",
+      "focus": "50% 60%",
+      "kicker": "The Anglin family",
+      "main": {
+        "text": "*Brazil?*",
+        "at": "s12@0.75"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s13",
+      "enter": "cut",
+      "image": "cells-149.jpg",
+      "focus": "30% 50%",
+      "kicker": "San Francisco police, 2013",
+      "main": {
+        "text": "A letter from *John Anglin*?",
+        "at": "s13@0.4"
+      },
+      "fact": {
+        "text": "Its authenticity: inconclusive",
+        "at": "s13@0.8"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s14",
+      "enter": "cut",
+      "clip": "film-bridge.mp4",
+      "credit": "The Golden Gate Bridge, 1936 · archive film, illustrative"
+    },
+    {
+      "type": "film",
+      "from": "s14@0.55",
+      "enter": "cut",
+      "clip": "film-bridge-2.mp4",
+      "credit": "The Golden Gate Bridge, 1936 · archive film, illustrative"
+    },
+    {
+      "type": "portrait",
+      "from": "s15",
+      "enter": "fade",
+      "image": "dummy-head.jpg",
+      "focus": "50% 40%",
+      "kicker": "Morris & the Anglins",
+      "date": "missing since 1962",
+      "line": {
+        "text": "Drowned — or *free*?",
+        "at": "s15@0.6"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "A guard tried to wake a prisoner at Alcatraz. His head rolled onto the floor. 🌊\n\nIt was fake — soap, toilet paper and real hair. Three men had dug out with spoons, built a raft from 50 raincoats and vanished into San Francisco Bay in 1962. They were never found.\n\nDrowned… or free? 👇\n\n#history #alcatraz #truestory #mystery #unsolved #historytok #escape #crime",
+    "facebook": "On the morning of 12 June 1962, a guard at Alcatraz tried to wake a prisoner. His head rolled onto the floor.\n\nIt was fake — soap, toilet paper and real hair from the prison barbershop. Three men were gone: Frank Morris and the brothers John and Clarence Anglin.\n\nFor six months they had dug through the walls under their sinks with spoons and a drill made from a vacuum cleaner, while Morris played the accordion during music hour to cover the noise. On the empty top floor of the cell block they built a raft from more than fifty stolen raincoats. On the night of 11 June they climbed to the roof, slid down a pipe, got over two fences and pushed their raft into the dark bay. A fourth man was left behind — his hole was too small.\n\nSearchers found a paddle, a life vest and a wallet wrapped in plastic — never the men. The FBI decided they drowned; their family says they made it to Brazil. In 2013 police received a letter signed \"John Anglin\" saying he was alive — never proven. And in 2025 a team rebuilt their raft from the same plans and made it across.\n\nDrowned in the bay — or the perfect escape? 👇\n\n#History #Alcatraz #Mystery #Unsolved",
+    "youtube": {
+      "title": "His Head Rolled Onto the Floor — The Alcatraz Escape Nobody Solved #Shorts",
+      "description": "On 12 June 1962, a guard at Alcatraz tried to wake a prisoner — and his head rolled onto the floor. It was a dummy made of soap, toilet paper and real hair.\n\nFrank Morris and John and Clarence Anglin had spent six months digging out with spoons and a vacuum-cleaner drill, built a raft from more than fifty raincoats, and vanished into San Francisco Bay. The FBI concluded they drowned; their family believes they reached Brazil; a 2013 letter claiming to be from John Anglin was never proven; and in 2025 a team showed the crossing was possible.\n\nSubscribe for more history that sounds made up.\n\nImages: public domain via Wikimedia Commons (FBI, US Bureau of Prisons, Historic American Buildings Survey, Library of Congress — Carol M. Highsmith). Film: Golden Gate Bridge opening (1936) and US Navy footage (1943), public domain — illustrative. Music: Grieg, In the Hall of the Mountain King — Musopen Symphony, public domain. Sources: Wikipedia.\n\n#Shorts #History #Alcatraz #Mystery #Unsolved\n\nKeywords: escape from alcatraz, alcatraz prison escape, unsolved mysteries.",
+      "tags": [
+        "escape from alcatraz",
+        "alcatraz escape",
+        "alcatraz prison escape",
+        "alcatraz",
+        "alcatraz prison",
+        "alcatraz island",
+        "alcatraz mystery",
+        "alcatraz documentary",
+        "frank morris",
+        "anglin brothers",
+        "john anglin",
+        "clarence anglin",
+        "prison break",
+        "prison escape",
+        "1962 escape",
+        "unsolved mysteries",
+        "unsolved mystery",
+        "true crime",
+        "fbi",
+        "san francisco bay",
+        "mystery",
+        "history",
+        "history shorts",
+        "true story",
+        "history documentary",
+        "history explained",
+        "world history",
+        "weird history",
+        "history facts",
+        "1962",
+        "san francisco"
+      ]
+    },
+    "pinned": "Drowned in the bay — or the perfect escape? What do YOU think happened? 🌊👇"
+  }
+}

@@ -1,0 +1,490 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "mode": "channel",
+  "date": "2026-10-07",
+  "slug": "hayha",
+  "title": "Simo Häyhä — the White Death of the Winter War",
+  "category": "Military & Conflict",
+  "sources": [
+    "Wikipedia: Simo Häyhä (17 December 1905 – 1 April 2002) — Finnish farmer and hunter from Rautjärvi, 160 cm tall, Civil Guard marksman; sniper in the 6th Company of JR 34 at the Battle of Kollaa in the Winter War; temperatures −40 to −20 °C; wore all-white camouflage while most Soviet troops had none; used an iron-sighted M/28-30 rifle rather than a scope (a scope means raising the head, fogs in the cold and can glint); kept snow in his mouth so his breath would not show and packed snow in front of his position to stop the muzzle blast stirring up snow; moved to his position before daybreak and stayed until after sunset; all kills in under 100 days; 25 kills on 21 December 1939; Finnish Army records: 259 sniper kills by 7 March 1940; his private memoir, written in 1940 and discovered in 2017, calls itself a 'sin list' and estimates around 500; historian Risto Marjomaa credits 'more than two hundred'; the nickname 'White Death' may come from Finnish propaganda; on 6 March 1940 an explosive bullet shattered his lower left jaw, he appeared dead and was placed on a pile of corpses until someone noticed his foot moving; regained consciousness on 13 March, the day peace was declared; read about his own death in a newspaper and wrote to correct it; asked in 1998 how he became so good, he answered 'Practice'; died 1 April 2002, aged 96",
+    "Wikipedia: Winter War — the Soviet Union invaded Finland on 30 November 1939; Battle of Kollaa, 7 December 1939 – 13 March 1940",
+    "Photos (public domain / CC0, Wikimedia Commons / Finnish Wartime Photograph Archive SA-kuva / Imperial War Museum): Simo Häyhä as a young soldier, in white camouflage with his honorary rifle (February 1940), in 1942; the M/28-30 'Pystykorva' rifle; the Kollaa front; Finnish ski patrols and soldiers in the snow; a Swedish newspaper on Häyhä, 1940",
+    "Archive film (public domain): Why We Fight: The Battle of Russia (US War Department, 1943) — Soviet troops and fighting in winter, 1941–42 — illustrative, not the Winter War itself"
+  ],
+  "music": {
+    "track": "mussorgsky-old-castle"
+  },
+  "highlight": [
+    "WHITE DEATH",
+    "HAYHA",
+    "SCOPE.",
+    "SNOW",
+    "FIVE HUNDRED",
+    "SIN LIST",
+    "DEAD,",
+    "FOOT",
+    "PRACTICE.",
+    "MINUS FORTY"
+  ],
+  "cover": {
+    "image": "hayha-full.jpg",
+    "focus": "50% 25%",
+    "kicker": "TRUE STORY",
+    "date": "WINTER WAR, 1939",
+    "top": 1120,
+    "lines": [
+      "THEY CALLED HIM",
+      "*THE WHITE*",
+      "*DEATH*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "In under a hundred days, a quiet Finnish farmer became, by most counts, the deadliest sniper in history.",
+      "show": "In under 100 days, a quiet Finnish farmer became, by most counts, the deadliest sniper in history.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s2",
+      "say": "His name was Simo Hayha. Legend calls him the White Death.",
+      "show": "His name was Simo Häyhä. Legend calls him the White Death.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s3",
+      "say": "He stood five foot three, and grew up hunting in the forests on the Russian border.",
+      "show": "He stood 5 foot 3, and grew up hunting in the forests on the Russian border.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "In November nineteen thirty-nine, the Soviet Union invaded Finland.",
+      "show": "In November 1939, the Soviet Union invaded Finland.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s5",
+      "say": "Hayha was sent to Kollaa, where the cold fell to minus forty.",
+      "show": "Häyhä was sent to Kollaa, where the cold fell to minus forty.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s6",
+      "say": "He dressed all in white. Most Soviet soldiers had no winter camouflage at all.",
+      "show": "He dressed all in white. Most Soviet soldiers had no winter camouflage at all.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s7",
+      "say": "His rifle had iron sights. No scope.",
+      "show": "His rifle had iron sights. No scope.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s8",
+      "say": "He kept snow in his mouth, so his breath wouldn't show.",
+      "show": "He kept snow in his mouth, so his breath wouldn't show.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s9",
+      "say": "He went out before dawn, and came back after dark.",
+      "show": "He went out before dawn, and came back after dark.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s10",
+      "say": "On one day in December, he is credited with twenty-five kills.",
+      "show": "On one day in December, he is credited with 25 kills.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s11",
+      "say": "The army confirmed two hundred and fifty-nine with his rifle.",
+      "show": "The army confirmed 259 with his rifle.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s12",
+      "say": "His secret memoir, found in twenty seventeen, says around five hundred. He called it his sin list.",
+      "show": "His secret memoir, found in 2017, says around five hundred. He called it his sin list.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s13",
+      "say": "Some historians doubt it, and say just over two hundred.",
+      "show": "Some historians doubt it, and say just over two hundred.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s14",
+      "say": "On the sixth of March, nineteen forty, an explosive bullet tore through his face.",
+      "show": "On 6 March 1940, an explosive bullet tore through his face.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s15",
+      "say": "They thought he was dead, and laid him on a pile of bodies.",
+      "show": "They thought he was dead, and laid him on a pile of bodies.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s16",
+      "say": "Then someone saw his foot move.",
+      "show": "Then someone saw his foot move.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s17",
+      "say": "He woke up a week later, on the day the war ended.",
+      "show": "He woke up a week later, on the day the war ended.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s18",
+      "say": "Then he read about his own death in the paper, and wrote in to correct it.",
+      "show": "Then he read about his own death in the paper, and wrote in to correct it.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s19",
+      "say": "He lived to ninety-six. Asked how he got so good, he said one word. Practice.",
+      "show": "He lived to 96. Asked how he got so good, he said one word. Practice.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "cta": {
+    "story": "Legends are made in the cold.",
+    "say": "Simo rarely missed. Don't miss the next story. Subscribe.",
+    "pill": "DON'T MISS",
+    "note": "more true stories that sound made up"
+  },
+  "endImage": "hayha-full.jpg",
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook",
+      "image": "hayha-smile.jpg",
+      "focus": "75% 40%",
+      "move": "in",
+      "fact": "Simo Häyhä, Winter War"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.55",
+      "enter": "cut",
+      "image": "hayha-full.jpg",
+      "focus": "50% 30%",
+      "move": "in"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "hayha-rifle-group.jpg",
+      "focus": "45% 40%",
+      "kicker": "The White Death",
+      "date": "SIMO HÄYHÄ",
+      "year": "1939",
+      "place": "Kollaa, Finland"
+    },
+    {
+      "type": "portrait",
+      "from": "s3",
+      "enter": "cut",
+      "image": "hayha-young.jpg",
+      "focus": "50% 35%",
+      "kicker": "Simo Häyhä",
+      "date": "born 1905",
+      "line": {
+        "text": "A farmer. A *hunter*.",
+        "at": "s3@0.5"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s4",
+      "enter": "cut",
+      "clip": "film-column.mp4",
+      "credit": "Soviet troops in winter, early 1940s · archive film, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s4@0.45",
+      "enter": "cut",
+      "image": "kollaa-1.jpg",
+      "focus": "50% 50%",
+      "kicker": "30 November 1939",
+      "main": {
+        "text": "The Soviet Union *invades*.",
+        "at": "s4@0.65"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s5",
+      "enter": "cut",
+      "image": "kollaa-33.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The Kollaa front, Winter War"
+    },
+    {
+      "type": "number",
+      "from": "s5@0.6",
+      "enter": "cut",
+      "image": "salla-guard.jpg",
+      "focus": "50% 40%",
+      "label": "Kollaa, winter 1939–40",
+      "value": 40,
+      "start": 0,
+      "prefix": "−",
+      "suffix": "°C",
+      "count": {
+        "from": "s5@0.65",
+        "to": "s5@0.95"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s6",
+      "enter": "cut",
+      "image": "ski-patrol.jpg",
+      "focus": "50% 50%",
+      "move": "left",
+      "fact": "Finnish ski patrol in white, January 1940"
+    },
+    {
+      "type": "photo",
+      "from": "s6@0.5",
+      "enter": "cut",
+      "image": "soviet-tracks.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "A Finnish soldier following Soviet tracks"
+    },
+    {
+      "type": "statement",
+      "from": "s7",
+      "enter": "cut",
+      "image": "hayha-full.jpg",
+      "focus": "40% 55%",
+      "kicker": "M/28-30 rifle",
+      "main": {
+        "text": "Iron sights. *No scope.*",
+        "at": "s7@0.3"
+      },
+      "fact": {
+        "text": "A scope can fog in the cold, or flash in the sun",
+        "at": "s7@0.6"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s8",
+      "enter": "cut",
+      "image": "soldier-ground.jpg",
+      "focus": "50% 50%",
+      "main": {
+        "text": "Snow in his *mouth*.",
+        "at": "s8@0.3"
+      },
+      "fact": {
+        "text": "So his breath wouldn't give him away",
+        "at": "s8@0.6"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s9",
+      "enter": "cut",
+      "clip": "film-forest.mp4",
+      "credit": "Winter forest front, early 1940s · archive film, illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s9@0.5",
+      "enter": "cut",
+      "image": "kollaa-22.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Finnish dugout at Kollaa"
+    },
+    {
+      "type": "number",
+      "from": "s10",
+      "enter": "cut",
+      "image": "soldier-winter.jpg",
+      "focus": "50% 40%",
+      "label": "21 December 1939",
+      "value": 25,
+      "start": 0,
+      "count": {
+        "from": "s10@0.4",
+        "to": "s10@0.85"
+      },
+      "sub": {
+        "text": "in a single day",
+        "at": "s10@0.85"
+      }
+    },
+    {
+      "type": "number",
+      "from": "s11",
+      "enter": "cut",
+      "image": "hayha-rifle-group.jpg",
+      "focus": "45% 40%",
+      "label": "Confirmed by the army",
+      "value": 259,
+      "start": 0,
+      "count": {
+        "from": "s11@0.2",
+        "to": "s11@0.7"
+      },
+      "sub": {
+        "text": "with his rifle, by 7 March 1940",
+        "at": "s11@0.75"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s12",
+      "enter": "cut",
+      "image": "hayha-full.jpg",
+      "focus": "50% 30%",
+      "kicker": "His memoir, found in 2017",
+      "main": {
+        "text": "Around *500*. His \"sin list\".",
+        "at": "s12@0.45"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s13",
+      "enter": "cut",
+      "image": "kollaa-1.jpg",
+      "focus": "30% 50%",
+      "main": {
+        "text": "Historians still *argue*.",
+        "at": "s13+0.1"
+      },
+      "fact": {
+        "text": "One count: \"more than two hundred\"",
+        "at": "s13@0.5"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s14",
+      "enter": "cut",
+      "clip": "film-blast.mp4",
+      "credit": "Fighting in the snow, early 1940s · archive film, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s14@0.4",
+      "enter": "cut",
+      "image": "kollaa-33.jpg",
+      "focus": "30% 50%",
+      "kicker": "6 March 1940",
+      "main": {
+        "text": "An explosive bullet. *His face.*",
+        "at": "s14@0.6"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s15",
+      "enter": "cut",
+      "image": "salla-guard.jpg",
+      "focus": "50% 60%",
+      "move": "in",
+      "fact": "Winter War, 1940"
+    },
+    {
+      "type": "statement",
+      "from": "s16",
+      "enter": "cut",
+      "image": "soldier-ground.jpg",
+      "focus": "40% 50%",
+      "main": {
+        "text": "His foot *moved*.",
+        "at": "s16@0.5"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s17",
+      "enter": "cut",
+      "image": "hayha-feb1940.jpg",
+      "focus": "40% 40%",
+      "kicker": "13 March 1940",
+      "main": {
+        "text": "He woke up. *The war was over.*",
+        "at": "s17@0.5"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s18",
+      "enter": "cut",
+      "image": "newspaper.jpg",
+      "focus": "20% 15%",
+      "move": "in",
+      "fact": "A Swedish newspaper on Häyhä, 1940"
+    },
+    {
+      "type": "photo",
+      "from": "s19",
+      "enter": "cut",
+      "image": "hayha-1942.jpg",
+      "focus": "40% 40%",
+      "move": "in",
+      "fact": "Simo Häyhä, 1942"
+    },
+    {
+      "type": "portrait",
+      "from": "s19@0.5",
+      "enter": "fade",
+      "image": "hayha-smile.jpg",
+      "focus": "75% 35%",
+      "kicker": "Simo Häyhä",
+      "date": "1905 – 2002",
+      "line": {
+        "text": "\"*Practice.*\"",
+        "at": "s19@0.85"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "In under 100 days, a quiet Finnish farmer became — by most counts — the deadliest sniper in history. ❄️\n\nSimo Häyhä fought at −40 °C with no scope, snow in his mouth so his breath wouldn't show. Then an explosive bullet hit his face, they laid him on a pile of bodies… and someone saw his foot move.\n\n259 confirmed, ~500 in his own \"sin list\" — legend or propaganda?\n\n#history #ww2 #winterwar #simohayha #whitedeath #finland #historytok #truestory",
+    "facebook": "In under 100 days, a quiet Finnish farmer became — by most counts — the deadliest sniper in history.\n\nSimo Häyhä stood 5 ft 3 and grew up hunting near the Russian border. When the Soviet Union invaded Finland in November 1939, he was sent to Kollaa, where the cold fell to −40 °C. He dressed in white, used a rifle with iron sights and no scope, kept snow in his mouth so his breath wouldn't show, and went out before dawn and came back after dark.\n\nThe Finnish Army confirmed 259 kills with his rifle. His private memoir, found in 2017, says around 500 — he called it his \"sin list\". Some historians doubt it and say just over 200.\n\nOn 6 March 1940 an explosive bullet tore through his face. Thought dead, he was laid on a pile of bodies until someone saw his foot move. He woke a week later — on the day the war ended — and later read about his own death in the paper.\n\nHe lived to 96. Asked how he got so good, he said one word: \"Practice.\"\n\nLegend or propaganda? ❄️\n\n#History #WinterWar #SimoHayha #WhiteDeath",
+    "youtube": {
+      "title": "The White Death: The Deadliest Sniper in History? | Simo Häyhä #Shorts",
+      "description": "In under 100 days, a quiet Finnish farmer became — by most counts — the deadliest sniper in history.\n\nSimo Häyhä fought at Kollaa in the Winter War of 1939–40 at −40 °C, with an iron-sighted rifle and no scope. The Finnish Army confirmed 259 kills with his rifle; his own memoir, found in 2017, estimates around 500 — his \"sin list\". Some historians say just over 200. On 6 March 1940 an explosive bullet shattered his jaw; he was laid among the dead until someone saw his foot move. He woke on the day the war ended, and lived to 96.\n\nSubscribe for more history that sounds made up.\n\nImages: public domain / CC0 via Wikimedia Commons (Finnish Wartime Photograph Archive SA-kuva, Imperial War Museum). Film: Why We Fight: The Battle of Russia (US War Department, 1943), public domain — illustrative. Music: Mussorgsky, public domain. Sources: Wikipedia.\n\n#Shorts #History #WinterWar #SimoHayha #WhiteDeath",
+      "tags": [
+        "history",
+        "ww2",
+        "Simo Häyhä",
+        "Simo Hayha",
+        "White Death",
+        "Winter War",
+        "Finland",
+        "deadliest sniper",
+        "ww2 tales",
+        "ww2 stories",
+        "military history",
+        "history documentary",
+        "history explained",
+        "world history",
+        "sniper",
+        "Kollaa",
+        "World War 2",
+        "true story"
+      ]
+    },
+    "pinned": "Legend or propaganda? 259 confirmed, 500 in his own \"sin list\" — which number do YOU believe? ❄️🎯"
+  }
+}

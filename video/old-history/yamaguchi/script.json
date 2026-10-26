@@ -1,0 +1,478 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "mode": "channel",
+  "date": "2026-10-06",
+  "slug": "yamaguchi",
+  "title": "Tsutomu Yamaguchi — the man who survived both atomic bombs",
+  "category": "Military & Conflict",
+  "sources": [
+    "Wikipedia: Tsutomu Yamaguchi (16 March 1916 – 4 January 2010) — Nagasaki-born draftsman for Mitsubishi Heavy Industries designing oil tankers; in summer 1945 on a three-month business trip to Hiroshima; on 6 August he was leaving with colleagues Akira Iwanaga and Kuniyoshi Sato, on his way to the station, when he realised he had forgotten his hanko and went back; at 8:15 he was walking towards the docks about 3 km from where Little Boy exploded; he recalled seeing the bomber and two small parachutes before 'a great flash in the sky, and I was blown over'; ruptured eardrums, temporary blindness, serious burns on the left side of his upper body; spent the night in an air-raid shelter, returned to Nagasaki the next day; reported for work heavily bandaged on 9 August; at about 11:00 he was describing the Hiroshima blast to his supervisor, who called him 'crazy', when Fat Man detonated, his workplace again about 3 km from ground zero; unhurt by the blast this time, but fever and vomiting for over a week; recognised as a hibakusha of Nagasaki in 1957; officially recognised as a survivor of both bombings on 24 March 2009, the only person so recognised, though at least 160 people are known to have been affected by both; later campaigned for nuclear disarmament, including at the United Nations in 2006; died of stomach cancer on 4 January 2010, aged 93",
+    "Photos (public domain, Wikimedia Commons / US National Archives / US Air Force / US Navy): the atomic clouds over Hiroshima and Nagasaki; Enola Gay; Bockscar; Hiroshima from the air, August 1945; Hiroshima Station after the bombing; Nagasaki before and after; Nagasaki ruins in the Urakami valley; the Mitsubishi Nagasaki dockyard (pre-war postcards)",
+    "Archive film (public domain): 'Tale of Two Cities' (US War Department, Army-Navy Screen Magazine no. 74, 1946) — B-29s, Hiroshima and Nagasaki after the bombings — illustrative, not Yamaguchi himself",
+    "Portrait photograph of Tsutomu Yamaguchi (not public domain; supplied by the user, used for identification) and an illustrated portrait (labelled on screen as an illustration)"
+  ],
+  "music": {
+    "track": "grieg-aase-death"
+  },
+  "highlight": [
+    "HIROSHIMA",
+    "NAGASAKI",
+    "TWICE",
+    "BOTH",
+    "CRAZY",
+    "STAMP",
+    "OFFICIALLY",
+    "SURVIVED",
+    "BOMB",
+    "WHITE."
+  ],
+  "cover": {
+    "image": "yamaguchi-photo.jpg",
+    "focus": "50% 30%",
+    "kicker": "TRUE STORY",
+    "date": "AUGUST 1945",
+    "top": 1120,
+    "lines": [
+      "HE SURVIVED",
+      "*BOTH*",
+      "ATOMIC BOMBS"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "He survived the first atomic bomb. Three days later, he was standing under the second.",
+      "show": "He survived the first atomic bomb. Three days later, he was standing under the second.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s2",
+      "say": "Tsutomu Yamaguchi was a Mitsubishi engineer from Nagasaki.",
+      "show": "Tsutomu Yamaguchi was a Mitsubishi engineer from Nagasaki.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "In the summer of nineteen forty-five, work sent him to Hiroshima.",
+      "show": "In the summer of 1945, work sent him to Hiroshima.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "On his last day, the sixth of August, he went back to the office for his forgotten stamp.",
+      "show": "On his last day, 6 August, he went back to the office for his forgotten stamp.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s6",
+      "say": "At eight fifteen, he looked up and saw a bomber, and two small parachutes.",
+      "show": "At 8:15, he looked up and saw a bomber, and two small parachutes.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s7",
+      "say": "Then a great flash. He was blown off his feet, three kilometres from the blast.",
+      "show": "Then a great flash. He was blown off his feet, 3 kilometres from the blast.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s8",
+      "say": "His eardrums burst. He was blinded for a while, and badly burned.",
+      "show": "His eardrums burst. He was blinded for a while, and badly burned.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s9",
+      "say": "He spent the night in a shelter, in a city that was gone.",
+      "show": "He spent the night in a shelter, in a city that was gone.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s10",
+      "say": "The next day, he took the train home. To Nagasaki.",
+      "show": "The next day, he took the train home. To Nagasaki.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s11",
+      "say": "On the ninth of August, wrapped in bandages, he went back to work.",
+      "show": "On 9 August, wrapped in bandages, he went back to work.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s12",
+      "say": "He was telling his boss how one bomb had wiped out a whole city.",
+      "show": "He was telling his boss how one bomb had wiped out a whole city.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s13",
+      "say": "His boss called him crazy.",
+      "show": "His boss called him crazy.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s14",
+      "say": "Then the room went white.",
+      "show": "Then the room went white.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s15",
+      "say": "Fat Man had exploded over Nagasaki. Once again, about three kilometres away.",
+      "show": "Fat Man had exploded over Nagasaki. Once again, about 3 kilometres away.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s16",
+      "say": "This time the blast didn't touch him. But for over a week, he burned with fever.",
+      "show": "This time the blast didn't touch him. But for over a week, he burned with fever.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s18",
+      "say": "In two thousand nine, he became the only person Japan officially recognised as surviving both.",
+      "show": "In 2009, he became the only person Japan officially recognised as surviving both.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s19",
+      "say": "At least a hundred and sixty people were caught in both bombings.",
+      "show": "At least 160 people were caught in both bombings.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s20",
+      "say": "He spent his last years asking the world to ban the bomb.",
+      "show": "He spent his last years asking the world to ban the bomb.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s21",
+      "say": "Tsutomu Yamaguchi died in twenty ten. He was ninety-three.",
+      "show": "Tsutomu Yamaguchi died in 2010. He was 93.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "cta": {
+    "story": "Some stories should never be forgotten.",
+    "say": "He survived two atomic bombs to tell this story. Subscribe, and keep it alive.",
+    "pill": "KEEP IT ALIVE",
+    "note": "more true stories that sound made up"
+  },
+  "endImage": "cloud-naga.jpg",
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook",
+      "image": "cloud-hiro.jpg",
+      "focus": "50% 35%",
+      "move": "in",
+      "fact": "Hiroshima, 6 August 1945"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.5",
+      "enter": "cut",
+      "image": "cloud-naga.jpg",
+      "focus": "50% 35%",
+      "move": "in",
+      "fact": "Nagasaki, 9 August 1945"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "yamaguchi-photo.jpg",
+      "focus": "50% 30%",
+      "kicker": "True story",
+      "date": "TSUTOMU YAMAGUCHI",
+      "year": "1945",
+      "place": "Mitsubishi engineer, Nagasaki"
+    },
+    {
+      "type": "photo",
+      "from": "s2@0.6",
+      "enter": "cut",
+      "image": "dock-nagasaki.jpg",
+      "focus": "45% 50%",
+      "move": "right",
+      "fact": "Mitsubishi dockyard, Nagasaki (pre-war postcard)"
+    },
+    {
+      "type": "statement",
+      "from": "s3",
+      "enter": "cut",
+      "image": "tanker-nagasaki.jpg",
+      "focus": "60% 50%",
+      "kicker": "Summer 1945",
+      "main": {
+        "text": "A business trip to *Hiroshima*.",
+        "at": "s3@0.5"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s4",
+      "enter": "cut",
+      "image": "hiro-station.jpg",
+      "focus": "40% 45%",
+      "move": "in",
+      "fact": "Hiroshima Station (photographed after the bombing)"
+    },
+    {
+      "type": "statement",
+      "from": "s4@0.45",
+      "enter": "cut",
+      "image": "hiro-station.jpg",
+      "focus": "60% 50%",
+      "kicker": "His hanko",
+      "main": {
+        "text": "He went back for *his stamp*.",
+        "at": "s4@0.7"
+      },
+      "fact": {
+        "text": "The personal seal every Japanese worker carried",
+        "at": "s4@0.85"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s6",
+      "enter": "cut",
+      "image": "enola-gay.jpg",
+      "focus": "50% 50%",
+      "move": "left",
+      "fact": "Enola Gay, the B-29 that dropped Little Boy"
+    },
+    {
+      "type": "film",
+      "from": "s6@0.55",
+      "enter": "cut",
+      "clip": "film-b29.mp4",
+      "credit": "B-29 in flight · archive film, illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s7",
+      "enter": "cut",
+      "image": "pyro-hiro.jpg",
+      "focus": "55% 40%",
+      "move": "in",
+      "fact": "Hiroshima, 6 August 1945"
+    },
+    {
+      "type": "number",
+      "from": "s7@0.5",
+      "enter": "cut",
+      "image": "cloud-hiro.jpg",
+      "focus": "50% 60%",
+      "label": "From the blast",
+      "value": 3,
+      "start": 0,
+      "suffix": " km",
+      "count": {
+        "from": "s7@0.55",
+        "to": "s7@0.85"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s8",
+      "enter": "cut",
+      "image": "hiro-hondori.jpg",
+      "focus": "40% 50%",
+      "main": {
+        "text": "Deafened. Blinded. *Burned.*",
+        "at": "s8@0.2"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s9",
+      "enter": "cut",
+      "clip": "film-hiro-street.mp4",
+      "credit": "Hiroshima after the bomb · archive film, 1945"
+    },
+    {
+      "type": "photo",
+      "from": "s9@0.55",
+      "enter": "cut",
+      "image": "hiro-aerial.jpg",
+      "focus": "50% 50%",
+      "move": "out",
+      "fact": "Hiroshima from the air, August 1945"
+    },
+    {
+      "type": "statement",
+      "from": "s10",
+      "enter": "cut",
+      "image": "dock-nagasaki.jpg",
+      "focus": "30% 50%",
+      "kicker": "7 August 1945",
+      "main": {
+        "text": "The train home. *Nagasaki.*",
+        "at": "s10@0.5"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s11",
+      "enter": "cut",
+      "image": "yamaguchi-painting.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "Tsutomu Yamaguchi (illustration, not a photo)"
+    },
+    {
+      "type": "film",
+      "from": "s12",
+      "enter": "cut",
+      "clip": "film-hiro-trees.mp4",
+      "credit": "Hiroshima after the bomb · archive film, 1945"
+    },
+    {
+      "type": "statement",
+      "from": "s13",
+      "enter": "cut",
+      "image": "dock-nagasaki.jpg",
+      "focus": "70% 50%",
+      "kicker": "His boss",
+      "main": {
+        "text": "\"You're *crazy*.\"",
+        "at": "s13@0.5"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s14",
+      "enter": "cut",
+      "image": "bockscar.jpg",
+      "focus": "40% 50%",
+      "move": "in",
+      "fact": "Bockscar, the B-29 that dropped Fat Man"
+    },
+    {
+      "type": "film",
+      "from": "s15",
+      "enter": "cut",
+      "clip": "film-cloud-naga.mp4",
+      "credit": "Nagasaki, 9 August 1945 · archive film"
+    },
+    {
+      "type": "number",
+      "from": "s15@0.55",
+      "enter": "cut",
+      "image": "cloud-naga-koyagi.jpg",
+      "focus": "50% 40%",
+      "label": "Again",
+      "value": 3,
+      "start": 0,
+      "suffix": " km",
+      "count": {
+        "from": "s15@0.6",
+        "to": "s15@0.9"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s16",
+      "enter": "cut",
+      "clip": "film-naga-ruins.mp4",
+      "credit": "Nagasaki after the bomb · archive film, 1945"
+    },
+    {
+      "type": "photo",
+      "from": "s16@0.5",
+      "enter": "cut",
+      "image": "naga-urakami.jpg",
+      "focus": "50% 50%",
+      "move": "left",
+      "fact": "Nagasaki, Urakami valley, 1945"
+    },
+    {
+      "type": "statement",
+      "from": "s18",
+      "enter": "cut",
+      "image": "yamaguchi-photo.jpg",
+      "focus": "50% 30%",
+      "kicker": "Japan, March 2009",
+      "main": {
+        "text": "The only one *officially* recognised.",
+        "at": "s18@0.5"
+      }
+    },
+    {
+      "type": "number",
+      "from": "s19",
+      "enter": "cut",
+      "image": "naga-temple.jpg",
+      "focus": "50% 50%",
+      "label": "Caught in both bombings",
+      "value": 160,
+      "start": 0,
+      "suffix": "+",
+      "count": {
+        "from": "s19@0.1",
+        "to": "s19@0.6"
+      },
+      "sub": {
+        "text": "Only he was officially recognised.",
+        "at": "s19@0.7"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s20",
+      "enter": "fade",
+      "image": "naga-after.jpg",
+      "focus": "50% 50%",
+      "move": "out",
+      "fact": "Nagasaki, 1945"
+    },
+    {
+      "type": "portrait",
+      "from": "s21",
+      "enter": "fade",
+      "image": "yamaguchi-photo.jpg",
+      "focus": "50% 30%",
+      "kicker": "Tsutomu Yamaguchi",
+      "date": "1916 – 2010",
+      "line": {
+        "text": "He survived *twice*.",
+        "at": "s21+0.1"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "He survived the atomic bomb on Hiroshima. Three days later, he was in Nagasaki. ☢️\n\nTsutomu Yamaguchi was blown off his feet 3 km from the first bomb, took the train home, went back to work in bandages… and was 3 km from the second. Luckiest man alive, or the unluckiest?\n\nFollow for more history that sounds made up ⚔️\n\n#history #ww2 #hiroshima #nagasaki #truestory #historytok #japan #survivor",
+    "facebook": "He survived the atomic bomb on Hiroshima. Three days later, he was standing under the second one.\n\nTsutomu Yamaguchi was a Mitsubishi engineer from Nagasaki, sent to Hiroshima for three months in the summer of 1945. On 6 August, his last day, he went back for his forgotten personal stamp. At 8:15 he saw a bomber and two small parachutes — then a great flash. About 3 km from the blast, his eardrums burst, he was blinded for a time and badly burned.\n\nThe next day he took the train home to Nagasaki. On 9 August, wrapped in bandages, he went back to work and was telling his boss how one bomb had destroyed a whole city. His boss called him crazy. Then Fat Man exploded over Nagasaki — again about 3 km away.\n\nFor decades Japan recognised him only as a Nagasaki survivor. In 2009 he became the only person officially recognised as surviving both bombings, though at least 160 people are known to have been caught in both. He spent his last years campaigning against nuclear weapons, and died in 2010, aged 93.\n\nLuckiest man alive, or the unluckiest? ☢️\n\n#History #WW2 #Hiroshima #Nagasaki",
+    "youtube": {
+      "title": "He Survived Hiroshima — Then Went Home to Nagasaki | Tsutomu Yamaguchi #Shorts",
+      "description": "He survived the first atomic bomb. Three days later, he was standing under the second.\n\nTsutomu Yamaguchi, a Mitsubishi engineer from Nagasaki, was on a business trip to Hiroshima on 6 August 1945 — about 3 km from the blast. Burned and half-deaf, he took the train home to Nagasaki, went back to work in bandages on 9 August, and was telling his boss about the bomb when Fat Man exploded, again about 3 km away. In 2009 he became the only person officially recognised by Japan as a survivor of both bombings. He died in 2010, aged 93, after years of campaigning against nuclear weapons.\n\nSubscribe for more history that sounds made up.\n\nImages: public domain via Wikimedia Commons (US National Archives, US Air Force, US Navy). Film: Tale of Two Cities (US War Department, 1946), public domain — illustrative. Portrait of Yamaguchi: archive photograph; the painted portrait is an illustration. Music: Grieg, public domain. Sources: Wikipedia.\n\n#Shorts #History #WW2 #Hiroshima #Nagasaki",
+      "tags": [
+        "history",
+        "ww2",
+        "Tsutomu Yamaguchi",
+        "Hiroshima",
+        "Nagasaki",
+        "atomic bomb",
+        "double atomic bomb survivor",
+        "hibakusha",
+        "ww2 tales",
+        "ww2 stories",
+        "military history",
+        "history documentary",
+        "history explained",
+        "world history",
+        "World War 2",
+        "true story",
+        "history shorts",
+        "unluckiest man"
+      ]
+    },
+    "pinned": "Luckiest man alive — or the unluckiest? Would YOU have gone back to work 3 days after Hiroshima? ☢️🤔"
+  },
+  "imageCredit": "US National Archives; US Air Force; US Navy; Charles Levy; George R. Caron via Wikimedia Commons"
+}

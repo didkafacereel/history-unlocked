@@ -1,0 +1,11 @@
+{
+  "//": "The YouTube channel The Old History - Battles & Rulers (@TheOldHistoryBattlesAndRulers). Videos made with \"mode\": \"channel\" end on this card. The app is never mentioned here; every video writes its own cta { story, say, pill, note } and make.mjs refuses one already used (old-history/log.json).",
+  "card": {
+    "story": "History is full of stories like this.",
+    "app": "",
+    "name": "THE OLD HISTORY",
+    "tag": "battles & rulers",
+    "pill": "SUBSCRIBE",
+    "note": "a new story every week"
+  }
+}

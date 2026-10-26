@@ -1,0 +1,414 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "mode": "channel",
+  "date": "2026-10-19",
+  "slug": "rasputin",
+  "title": "Rasputin — the man they couldn't kill (or could they?)",
+  "category": "Crime & Mystery",
+  "sources": [
+    "Wikipedia: Grigori Rasputin (21 January 1869 – 30 December 1916) — Siberian peasant, mystic and faith healer from Pokrovskoye; from late 1906 acted as healer for Tsarevich Alexei, who had haemophilia; in 1912 at Spała Alexei was near death and recovered after Rasputin's telegram (the cause is unclear); seen by some as a prophet and by others as a charlatan; his influence peaked in 1915 when Nicholas II left for the front. Nobles led by Prince Felix Yusupov, Grand Duke Dmitri Pavlovich and Vladimir Purishkevich decided to kill him. According to Yusupov's own account, on the night of 29–30 December 1916 Rasputin ate cakes and drank Madeira laced with cyanide without effect; Yusupov shot him in the chest; Rasputin later 'leaped up' and attacked him, ran into the courtyard and was shot again by Purishkevich; the body was thrown from the Petrovsky Bridge into the river. Modern analysis: his daughter said he avoided sweet food; the autopsy surgeon Kosorotov found three gunshot wounds, including one at close range to the forehead, no evidence of poisoning and no water in the lungs — he was dead before he hit the water. The body was found under the ice on 1 January 1917.",
+    "Photos (public domain, Wikimedia Commons): Rasputin (portraits c. 1910–1914, Karl Bulla); with the Empress and the imperial children (1908); with his admirers (1914); the village of Pokrovskoye (Prokudin-Gorsky, 1912); Prince Felix Yusupov (1914); the imperial family (1913); Tsarevich Alexei (1910)",
+    "Archive film (public domain): the Romanov tercentenary celebrations, 1912–1913, including Tsarevich Alexei carried by a Cossack, and Nicholas II at Yaroslavl, May 1913 — illustrative",
+    "Music: Mussorgsky, Pictures at an Exhibition — Catacombs, public domain"
+  ],
+  "music": {
+    "track": "mussorgsky-catacombs"
+  },
+  "highlight": [
+    "RASPUTIN",
+    "LEGEND",
+    "ICE",
+    "HEALER",
+    "AUTOPSY",
+    "YUSUPOV",
+    "ALEXEI",
+    "EMPRESS",
+    "UNKILLABLE",
+    "STORY?"
+  ],
+  "cover": {
+    "image": "rasputin-portrait.jpg",
+    "focus": "50% 25%",
+    "kicker": "LEGEND OR LIE?",
+    "date": "PETROGRAD, 1916",
+    "top": 1120,
+    "lines": [
+      "POISONED. SHOT.",
+      "*DROWNED.*",
+      "STILL STANDING?"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "They fed him enough poison to kill five men. They shot him. They threw him into an icy river. At least, that's the legend.",
+      "show": "They fed him enough poison to kill five men. They shot him. They threw him into an icy river. At least, that's the legend.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s2",
+      "say": "His name was Grigori Rasputin, a peasant from Siberia with wild eyes, who said he could heal with prayer.",
+      "show": "His name was Grigori Rasputin, a peasant from Siberia with wild eyes, who said he could heal with prayer.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "The Tsar's only son, Alexei, had haemophilia. The smallest cut could kill him.",
+      "show": "The Tsar's only son, Alexei, had haemophilia. The smallest cut could kill him.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "In nineteen twelve, the boy was dying. Rasputin sent a telegram, and Alexei recovered. No one knows why.",
+      "show": "In 1912, the boy was dying. Rasputin sent a telegram, and Alexei recovered. No one knows why.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s5",
+      "say": "From then on, the Empress believed he was sent by God. Half of Russia believed he was the devil.",
+      "show": "From then on, the Empress believed he was sent by God. Half of Russia believed he was the devil.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s6",
+      "say": "In December nineteen sixteen, a group of nobles led by Prince Felix Yusupov decided to kill him.",
+      "show": "In December 1916, a group of nobles led by Prince Felix Yusupov decided to kill him.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s7",
+      "say": "Yusupov's story: he gave Rasputin cakes and wine laced with cyanide. Nothing happened.",
+      "show": "Yusupov's story: he gave Rasputin cakes and wine laced with cyanide. Nothing happened.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s8",
+      "say": "So he shot him in the chest. Later, the body leapt up and attacked him.",
+      "show": "So he shot him in the chest. Later, the \"body\" leapt up and attacked him.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s9",
+      "say": "Rasputin ran into the snow. They shot him again, and threw him off a bridge into the frozen river.",
+      "show": "Rasputin ran into the snow. They shot him again, and threw him off a bridge into the frozen river.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s10",
+      "say": "Days later, police found his body under the ice.",
+      "show": "Days later, police found his body under the ice.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s11",
+      "say": "But the autopsy tells a different story. No poison. No water in his lungs.",
+      "show": "But the autopsy tells a different story. No poison. No water in his lungs.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s12",
+      "say": "He died from a single bullet to the forehead, fired at close range. Before he ever hit the water.",
+      "show": "He died from a bullet to the forehead, fired at close range. Before he ever hit the water.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s13",
+      "say": "His daughter said he never even ate sweets.",
+      "show": "His daughter said he never even ate sweets.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s14",
+      "say": "Fourteen months later, the Romanovs were gone. So was the Russian Empire.",
+      "show": "Fourteen months later, the Romanovs were gone. So was the Russian Empire.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s15",
+      "say": "So was Rasputin unkillable? Or did his killer just tell a better story?",
+      "show": "So was Rasputin unkillable? Or did his killer just tell a better story?",
+      "pauseAfter": 0.6
+    }
+  ],
+  "cta": {
+    "story": "Some legends refuse to die.",
+    "say": "Rasputin wouldn't stay down. Neither will we. Subscribe.",
+    "pill": "RISE AGAIN",
+    "note": "more true stories that sound made up"
+  },
+  "endImage": "rasputin-portrait.jpg",
+  "imageCredit": "Karl Bulla; Sergei Prokudin-Gorsky; Boissonnas & Eggler via Wikimedia Commons",
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook",
+      "image": "rasputin-portrait.jpg",
+      "focus": "50% 25%",
+      "move": "in",
+      "fact": "Grigori Rasputin"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.3",
+      "enter": "cut",
+      "clip": "film-river.mp4",
+      "credit": "Imperial Russia, 1913 · archive film, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s1@0.75",
+      "enter": "cut",
+      "image": "rasputin-1910.jpg",
+      "focus": "50% 35%",
+      "main": {
+        "text": "At least, *that's the legend*.",
+        "at": "s1@0.82"
+      }
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "rasputin-portrait.jpg",
+      "focus": "50% 22%",
+      "kicker": "The mad monk",
+      "date": "GRIGORI RASPUTIN",
+      "year": "1869",
+      "place": "Pokrovskoye, Siberia"
+    },
+    {
+      "type": "photo",
+      "from": "s2@0.45",
+      "enter": "cut",
+      "image": "pokrovskoe.jpg",
+      "focus": "50% 50%",
+      "move": "left",
+      "fact": "His village, Pokrovskoye, 1912 (Prokudin-Gorsky)"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "alexei.jpg",
+      "focus": "50% 25%",
+      "move": "in",
+      "fact": "Tsarevich Alexei, 1910"
+    },
+    {
+      "type": "film",
+      "from": "s3@0.5",
+      "enter": "cut",
+      "clip": "film-alexei.mp4",
+      "credit": "Alexei, unable to walk, carried by a Cossack, 1912 · archive film"
+    },
+    {
+      "type": "statement",
+      "from": "s4",
+      "enter": "cut",
+      "image": "imperial-family.jpg",
+      "focus": "60% 40%",
+      "kicker": "Spała, 1912",
+      "main": {
+        "text": "Alexei recovered. *No one knows why.*",
+        "at": "s4@0.7"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s5",
+      "enter": "cut",
+      "image": "with-tsarina.jpg",
+      "focus": "50% 40%",
+      "move": "in",
+      "fact": "Rasputin with the Empress and her children, 1908"
+    },
+    {
+      "type": "photo",
+      "from": "s5@0.55",
+      "enter": "cut",
+      "image": "admirers.jpg",
+      "focus": "45% 45%",
+      "move": "in",
+      "fact": "Rasputin and his admirers, 1914"
+    },
+    {
+      "type": "photo",
+      "from": "s6",
+      "enter": "cut",
+      "image": "yusupov.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "Prince Felix Yusupov"
+    },
+    {
+      "type": "film",
+      "from": "s6@0.55",
+      "enter": "cut",
+      "clip": "film-tsar.mp4",
+      "credit": "The Russian court, 1913 · archive film, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s7",
+      "enter": "cut",
+      "image": "yusupov.jpg",
+      "focus": "50% 60%",
+      "kicker": "Yusupov's own account",
+      "main": {
+        "text": "Cyanide. *Nothing happened.*",
+        "at": "s7@0.7"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s8",
+      "enter": "cut",
+      "image": "rasputin-1910.jpg",
+      "focus": "50% 30%",
+      "main": {
+        "text": "The \"body\" *leapt up*.",
+        "at": "s8@0.65"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s9",
+      "enter": "cut",
+      "clip": "film-crowds.mp4",
+      "credit": "Imperial Russia, 1913 · archive film, illustrative"
+    },
+    {
+      "type": "film",
+      "from": "s9@0.55",
+      "enter": "cut",
+      "clip": "film-pavilion.mp4",
+      "credit": "A Russian river, 1913 · archive film, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s10",
+      "enter": "cut",
+      "image": "rasputin-portrait.jpg",
+      "focus": "50% 70%",
+      "kicker": "1 January 1917",
+      "main": {
+        "text": "Found *under the ice*.",
+        "at": "s10@0.5"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s11",
+      "enter": "cut",
+      "image": "rasputin-1910.jpg",
+      "focus": "50% 60%",
+      "kicker": "The autopsy",
+      "main": {
+        "text": "No poison. *No water.*",
+        "at": "s11@0.6"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s12",
+      "enter": "cut",
+      "image": "rasputin-portrait.jpg",
+      "focus": "50% 25%",
+      "main": {
+        "text": "One bullet. *Close range.*",
+        "at": "s12@0.4"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s13",
+      "enter": "cut",
+      "image": "with-children.jpg",
+      "focus": "50% 40%",
+      "move": "in",
+      "fact": "Rasputin with his children"
+    },
+    {
+      "type": "film",
+      "from": "s14",
+      "enter": "cut",
+      "clip": "film-tsar2.mp4",
+      "credit": "Nicholas II, 1913 · archive film"
+    },
+    {
+      "type": "film",
+      "from": "s14@0.5",
+      "enter": "cut",
+      "clip": "film-priests.mp4",
+      "credit": "Imperial Russia, 1913 · archive film"
+    },
+    {
+      "type": "portrait",
+      "from": "s15",
+      "enter": "fade",
+      "image": "rasputin-portrait.jpg",
+      "focus": "50% 25%",
+      "kicker": "Grigori Rasputin",
+      "date": "1869 – 1916",
+      "line": {
+        "text": "Unkillable — or *a better story*?",
+        "at": "s15@0.6"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "They fed him enough poison to kill five men. They shot him. They threw him into an icy river. At least, that's the legend. 🧊\n\nRasputin's killer said the cyanide didn't work and the \"body\" leapt up and attacked him. The autopsy says: no poison, no water in the lungs — one bullet to the forehead.\n\nUnkillable… or a better story? 👇\n\n#history #rasputin #russia #romanov #mystery #truestory #historytok #legend",
+    "facebook": "They fed him enough poison to kill five men. They shot him. They threw him into an icy river. At least, that's the legend.\n\nGrigori Rasputin was a Siberian peasant who said he could heal with prayer. The Tsar's only son, Alexei, had haemophilia — the smallest cut could kill him. In 1912 the boy was dying; Rasputin sent a telegram and Alexei recovered. No one knows why. From then on the Empress believed he was sent by God; half of Russia believed he was the devil.\n\nIn December 1916, nobles led by Prince Felix Yusupov decided to kill him. Yusupov's story: he gave Rasputin cakes and wine laced with cyanide — nothing happened. He shot him in the chest; later the \"body\" leapt up and attacked him. Rasputin ran into the snow, was shot again and thrown off a bridge into the frozen river. Police found him under the ice days later.\n\nBut the autopsy tells a different story: no poison, no water in his lungs — a bullet to the forehead at close range, before he ever hit the water. His daughter said he never even ate sweets.\n\nFourteen months later the Romanovs were gone. Was Rasputin unkillable — or did his killer just tell a better story? 👇\n\n#History #Rasputin #Russia #Romanov",
+    "youtube": {
+      "title": "Poisoned, Shot, Drowned — Or Was He? The Real Death of Rasputin #Shorts",
+      "description": "They fed him enough poison to kill five men, shot him, and threw him into an icy river. At least, that's the legend.\n\nRasputin, the Siberian healer trusted by the Russian Empress because of her haemophiliac son Alexei, was murdered by nobles led by Prince Felix Yusupov in December 1916. Yusupov's own dramatic account — cyanide that didn't work, a corpse that leapt up — made Rasputin a legend. But the autopsy found no poison and no water in the lungs: he died from a close-range shot to the forehead.\n\nSubscribe for more history that sounds made up.\n\nImages: public domain via Wikimedia Commons (Karl Bulla, Sergei Prokudin-Gorsky, Boissonnas & Eggler). Film: Romanov tercentenary newsreels (1912–1913), public domain — illustrative. Music: Mussorgsky, Pictures at an Exhibition — Catacombs, public domain. Sources: Wikipedia.\n\n#Shorts #History #Rasputin #Russia #Romanov\n\nKeywords: Rasputin's death, the Rasputin assassination, Felix Yusupov, the Romanovs and Russian history.",
+      "tags": [
+        "rasputin",
+        "grigori rasputin",
+        "rasputin death",
+        "rasputin assassination",
+        "felix yusupov",
+        "tsar nicholas ii",
+        "romanovs",
+        "romanov family",
+        "russian history",
+        "russian revolution",
+        "russian empire",
+        "mad monk",
+        "historical mystery",
+        "history story",
+        "true crime",
+        "unsolved mysteries",
+        "world war 1",
+        "legend",
+        "history",
+        "history shorts",
+        "true story",
+        "history documentary",
+        "history explained",
+        "world history",
+        "weird history",
+        "history facts",
+        "romanov",
+        "russia",
+        "nicholas ii",
+        "unkillable",
+        "mystery"
+      ]
+    },
+    "pinned": "Unkillable monk — or the killer's tall tale? Which version do YOU believe? 🧊👇"
+  },
+  "alert": [
+    "POISON",
+    "SHOT",
+    "DEAD",
+    "DEVIL",
+    "KILL",
+    "KILLED",
+    "BULLET",
+    "DIED",
+    "CYANIDE",
+    "DROWNED"
+  ]
+}

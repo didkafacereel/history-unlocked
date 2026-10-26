@@ -134,7 +134,12 @@ export function compose(dir, script, timings, total) {
   const endScene = script.scenes.find((s) => s.from === script.captionsUntil);
   const captionsEnd = endScene ? scene[endScene.id].start : total;
   const captions = captioned.map((s) => ({ show: s.show, start: s.start, end: s.end }));
-  const highlight = Object.fromEntries((script.highlight ?? []).map((w) => [String(w).toUpperCase(), 1]));
+  // Caption emphasis (v2, 26 Oct 2026): "highlight" words turn gold, "alert" words
+  // (death, danger, the shock word) turn red, and numbers sit in a gold box.
+  const highlight = Object.fromEntries([
+    ...(script.highlight ?? []).map((w) => [String(w).toUpperCase(), 'hl']),
+    ...(script.alert ?? []).map((w) => [String(w).toUpperCase(), 'al']),
+  ]);
 
   const cover = script.cover ? renderCover(script.cover, asset, COVER) : '';
 
@@ -185,15 +190,16 @@ ${blocks.join('\n')}
         var el = document.createElement("div");
         el.className = "cg";
         el.id = "cg-" + i;
-        el.innerHTML = g.words.map(function (w) {
+        el.innerHTML = g.words.map(function (w, k) {
           var bare = w.toUpperCase().replace(/^[“"‘']+/, "").replace(/[.,?!;:’'”"]+$/, "").replace(/(’S|'S)$/, "");
           var safe = w.replace(/&/g, "&amp;").replace(/</g, "&lt;");
-          return KEY[bare] || /^\\d{3,4}$/.test(bare) ? '<span class="hl">' + safe + "</span>" : safe;
+          var cls = KEY[bare] || KEY[w.toUpperCase()] || (/^[$~]?[\\d,.:]+(%|\\+|KM|KG)?$/.test(bare) && /\\d/.test(bare) ? "num" : "");
+          return '<span class="w ' + cls + '" id="cg-' + i + '-' + k + '">' + safe + "</span>";
         }).join(" ");
         box.appendChild(el);
         if (window.__hyperframes && window.__hyperframes.fitTextFontSize) {
           var fit = window.__hyperframes.fitTextFontSize(g.words.join(" ").toUpperCase(), {
-            fontFamily: "Anton", fontWeight: 400, maxWidth: 860, baseFontSize: 80, minFontSize: 54,
+            fontFamily: "Anton", fontWeight: 400, maxWidth: 900, baseFontSize: 116, minFontSize: 74,
           });
           el.style.fontSize = fit.fontSize + "px";
         }
@@ -204,7 +210,13 @@ ${blocks.join('\n')}
 
       GROUPS.forEach(function (g, i) {
         var sel = "#cg-" + i;
-        tl.fromTo(sel, { opacity: 0, scale: 0.9 }, { opacity: 1, scale: 1, duration: 0.14, ease: "back.out(1.7)" }, g.start);
+        tl.set(sel, { opacity: 1, visibility: "visible" }, g.start);
+        // Words pop in one by one, in step with the voice; emphasised words land bigger.
+        var step = Math.min(0.22, (g.end - g.start) / (g.words.length + 0.5));
+        g.words.forEach(function (w, k) {
+          var ws = sel + "-" + k, em = document.getElementById("cg-" + i + "-" + k).className.length > 3;
+          tl.fromTo(ws, { opacity: 0, scale: em ? 1.6 : 1.25, y: 18 }, { opacity: 1, scale: 1, y: 0, duration: em ? 0.22 : 0.14, ease: em ? "back.out(3)" : "back.out(2)" }, g.start + k * step);
+        });
         tl.to(sel, { opacity: 0, duration: 0.1, ease: "power2.in" }, g.end - 0.1);
         tl.set(sel, { opacity: 0, visibility: "hidden" }, g.end);
       });

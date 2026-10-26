@@ -1,0 +1,125 @@
+{
+  "total": 93.296,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "In under 100 days, a quiet Finnish farmer became, by most counts, the deadliest sniper in history.",
+      "start": 0.4,
+      "end": 7.568
+    },
+    {
+      "id": "s2",
+      "show": "His name was Simo Häyhä. Legend calls him the White Death.",
+      "start": 8.168,
+      "end": 12.051
+    },
+    {
+      "id": "s3",
+      "show": "He stood 5 foot 3, and grew up hunting in the forests on the Russian border.",
+      "start": 12.501,
+      "end": 17.365
+    },
+    {
+      "id": "s4",
+      "show": "In November 1939, the Soviet Union invaded Finland.",
+      "start": 17.765,
+      "end": 22.629
+    },
+    {
+      "id": "s5",
+      "show": "Häyhä was sent to Kollaa, where the cold fell to minus forty.",
+      "start": 23.029,
+      "end": 26.975
+    },
+    {
+      "id": "s6",
+      "show": "He dressed all in white. Most Soviet soldiers had no winter camouflage at all.",
+      "start": 27.375,
+      "end": 32.837
+    },
+    {
+      "id": "s7",
+      "show": "His rifle had iron sights. No scope.",
+      "start": 33.237,
+      "end": 36.117
+    },
+    {
+      "id": "s8",
+      "show": "He kept snow in his mouth, so his breath wouldn't show.",
+      "start": 36.467,
+      "end": 39.731
+    },
+    {
+      "id": "s9",
+      "show": "He went out before dawn, and came back after dark.",
+      "start": 40.081,
+      "end": 43.323
+    },
+    {
+      "id": "s10",
+      "show": "On one day in December, he is credited with 25 kills.",
+      "start": 43.723,
+      "end": 47.777
+    },
+    {
+      "id": "s11",
+      "show": "The army confirmed 259 with his rifle.",
+      "start": 48.177,
+      "end": 52.017
+    },
+    {
+      "id": "s12",
+      "show": "His secret memoir, found in 2017, says around five hundred. He called it his sin list.",
+      "start": 52.367,
+      "end": 58.681
+    },
+    {
+      "id": "s13",
+      "show": "Some historians doubt it, and say just over two hundred.",
+      "start": 59.131,
+      "end": 62.737
+    },
+    {
+      "id": "s14",
+      "show": "On 6 March 1940, an explosive bullet tore through his face.",
+      "start": 63.237,
+      "end": 68.527
+    },
+    {
+      "id": "s15",
+      "show": "They thought he was dead, and laid him on a pile of bodies.",
+      "start": 68.977,
+      "end": 72.348
+    },
+    {
+      "id": "s16",
+      "show": "Then someone saw his foot move.",
+      "start": 72.748,
+      "end": 74.647
+    },
+    {
+      "id": "s17",
+      "show": "He woke up a week later, on the day the war ended.",
+      "start": 75.147,
+      "end": 78.219
+    },
+    {
+      "id": "s18",
+      "show": "Then he read about his own death in the paper, and wrote in to correct it.",
+      "start": 78.619,
+      "end": 82.715
+    },
+    {
+      "id": "s19",
+      "show": "He lived to 96. Asked how he got so good, he said one word. Practice.",
+      "start": 83.215,
+      "end": 88.441
+    },
+    {
+      "id": "end2",
+      "show": "Simo rarely missed. Don't miss the next story. Subscribe.",
+      "start": 89.041,
+      "end": 92.796
+    }
+  ]
+}

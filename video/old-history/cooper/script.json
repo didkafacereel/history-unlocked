@@ -1,0 +1,420 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "mode": "channel",
+  "date": "2026-10-16",
+  "slug": "cooper",
+  "title": "D. B. Cooper — the hijacker who jumped into the night and vanished",
+  "category": "Crime & Mystery",
+  "sources": [
+    "Wikipedia: D. B. Cooper — on 24 November 1971 (Thanksgiving Eve) a man paid cash at Portland for a one-way ticket on Northwest Orient Flight 305 to Seattle, a 30-minute trip, under the name 'Dan Cooper'; he wore a dark suit, white shirt, thin black tie and raincoat, sat in 18-E and ordered a bourbon and 7-Up; he handed a note to flight attendant Florence Schaffner, who put it unopened in her purse assuming it was a phone number; he leaned over: 'Miss, you'd better look at that note. I have a bomb.'; his briefcase showed a battery wired to red cylinders; he demanded $200,000 and four parachutes; the plane circled for about two hours; at Seattle he released the 36 passengers in exchange for the money (10,000 unmarked $20 bills) and the parachutes; he ordered a flight to Mexico City at minimum speed, below 10,000 ft, with the aft door open and the airstair down; two F-106 fighters followed out of sight; around 8 pm a warning light showed the airstair had been deployed; the plane landed in Reno at 11:02 pm with the stairs still down and Cooper gone; he had parachuted over the forests of southwest Washington; a reporter's error made him 'D. B. Cooper'; agents recovered his clip-on tie; on 10 February 1980, eight-year-old Brian Ingram, raking sand for a campfire on the Columbia River bank, found three packets of the ransom money (about $5,800); the FBI suspended its investigation in 2016; it remains the only unsolved air piracy in commercial aviation history",
+    "Photos (public domain, Wikimedia Commons / FBI / US Air Force): the FBI composite sketches; the original Flight 305 ticket; a Northwest Orient Boeing 727, 1970; a Boeing 727-100; the ransom money found in 1980; the 'Cooper vane' later fitted to 727s so the rear stairs could not be lowered in flight",
+    "Archive film (public domain): 'The Columbia' (Bonneville Power Administration, 1949) — the Columbia River and its gorge; 'USAF William Tell Gunnery Exhibition 1965' (US Air Force) — F-106 Delta Dart fighters — illustrative",
+    "Music: Beethoven, Moonlight Sonata (1st mvt) — Paul Pitman for Musopen, public domain"
+  ],
+  "music": {
+    "track": "beethoven-moonlight-1"
+  },
+  "highlight": [
+    "BOMB.",
+    "TWO HUNDRED THOUSAND",
+    "PARACHUTES.",
+    "GONE.",
+    "NEVER",
+    "DAN COOPER",
+    "EIGHT-YEAR-OLD",
+    "UNSOLVED",
+    "NIGHT."
+  ],
+  "cover": {
+    "image": "sketch.jpg",
+    "focus": "50% 35%",
+    "kicker": "UNSOLVED",
+    "date": "NOVEMBER 1971",
+    "top": 1120,
+    "lines": [
+      "$200,000.",
+      "*ONE JUMP.*",
+      "NEVER FOUND."
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "In nineteen seventy-one, a man hijacked a plane, took two hundred thousand dollars, and jumped out into the night. Nobody ever found him.",
+      "show": "In 1971, a man hijacked a plane, took $200,000, and jumped out into the night. Nobody ever found him.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s2",
+      "say": "The day before Thanksgiving, he paid cash for a ticket from Portland to Seattle, as Dan Cooper.",
+      "show": "The day before Thanksgiving, he paid cash for a ticket from Portland to Seattle, as \"Dan Cooper\".",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "Dark suit, black tie, raincoat. He ordered a bourbon, and handed a stewardess a note.",
+      "show": "Dark suit, black tie, raincoat. He ordered a bourbon, and handed a stewardess a note.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s4",
+      "say": "She thought it was his phone number, and dropped it in her purse.",
+      "show": "She thought it was his phone number, and dropped it in her purse.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s5",
+      "say": "He leaned over. Miss, you'd better look at that note. I have a bomb.",
+      "show": "He leaned over. \"Miss, you'd better look at that note. I have a bomb.\"",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s6",
+      "say": "His briefcase was full of wires and red cylinders. He wanted two hundred thousand dollars, and four parachutes.",
+      "show": "His briefcase was full of wires and red cylinders. He wanted $200,000, and four parachutes.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s7",
+      "say": "In Seattle, he swapped the passengers for the money, and ordered the plane back into the air.",
+      "show": "In Seattle, he swapped the passengers for the money, and ordered the plane back into the air.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s8",
+      "say": "Slow, low, with the rear stairs open. Two fighter jets followed, out of sight.",
+      "show": "Slow, low, with the rear stairs open. Two fighter jets followed, out of sight.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s9",
+      "say": "At about eight o'clock, a warning light came on. The stairs were down.",
+      "show": "At about 8 p.m., a warning light came on. The stairs were down.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s10",
+      "say": "When the plane landed in Reno, he was gone. Somewhere over the forests of Washington, he had jumped.",
+      "show": "When the plane landed in Reno, he was gone. Somewhere over the forests of Washington, he had jumped.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s11",
+      "say": "The FBI searched for years. They found nothing. Not a body, not a parachute.",
+      "show": "The FBI searched for years. They found nothing. Not a body, not a parachute.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s12",
+      "say": "Then, in nineteen eighty, an eight-year-old boy was building a campfire on the banks of the Columbia River.",
+      "show": "Then, in 1980, an eight-year-old boy was building a campfire on the banks of the Columbia River.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s13",
+      "say": "In the sand, he found rotting bundles of twenty-dollar bills. The serial numbers matched.",
+      "show": "In the sand, he found rotting bundles of $20 bills. The serial numbers matched.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s14",
+      "say": "The rest of the money has never been found. Neither has the man.",
+      "show": "The rest of the money has never been found. Neither has the man.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s15",
+      "say": "It is still the only unsolved hijacking in American aviation. So who was D. B. Cooper?",
+      "show": "It is still the only unsolved hijacking in American aviation. So who was D. B. Cooper?",
+      "pauseAfter": 0.6
+    }
+  ],
+  "cta": {
+    "story": "He jumped. History is still looking.",
+    "say": "Cooper vanished into the night. Don't vanish on us. Subscribe.",
+    "pill": "JUMP IN",
+    "note": "more true stories that sound made up"
+  },
+  "endImage": "sketch-2.jpg",
+  "imageCredit": "FBI; US Air Force via Wikimedia Commons",
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook",
+      "image": "sketch.jpg",
+      "focus": "50% 35%",
+      "move": "in",
+      "fact": "FBI composite sketch, 1971"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.3",
+      "enter": "cut",
+      "image": "nw-727.jpg",
+      "focus": "55% 55%",
+      "move": "left",
+      "fact": "A Northwest Orient Boeing 727, 1970"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.55",
+      "enter": "cut",
+      "image": "money.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Part of the ransom, found in 1980"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.75",
+      "enter": "cut",
+      "clip": "film-river-dusk.mp4",
+      "credit": "Southwest Washington · archive film, illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s2",
+      "enter": "cut",
+      "image": "ticket.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "His ticket: Flight 305, Portland to Seattle, 24 November 1971"
+    },
+    {
+      "type": "title",
+      "from": "s2@0.65",
+      "enter": "cut",
+      "image": "sketch-2.jpg",
+      "focus": "50% 30%",
+      "kicker": "Flight 305",
+      "date": "\"DAN COOPER\"",
+      "year": "1971",
+      "place": "Portland → Seattle"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "sketch-2.jpg",
+      "focus": "50% 55%",
+      "move": "in",
+      "fact": "Seat 18-E"
+    },
+    {
+      "type": "statement",
+      "from": "s4",
+      "enter": "cut",
+      "image": "c22-727.jpg",
+      "focus": "40% 50%",
+      "kicker": "Flight attendant Florence Schaffner",
+      "main": {
+        "text": "She thought it was *his number*.",
+        "at": "s4@0.4"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s5",
+      "enter": "cut",
+      "image": "sketch.jpg",
+      "focus": "50% 45%",
+      "main": {
+        "text": "\"I have *a bomb*.\"",
+        "at": "s5@0.7"
+      }
+    },
+    {
+      "type": "number",
+      "from": "s6",
+      "enter": "cut",
+      "image": "money.jpg",
+      "focus": "50% 50%",
+      "label": "His ransom, in $20 bills",
+      "value": 200000,
+      "start": 0,
+      "prefix": "$",
+      "count": {
+        "from": "s6@0.55",
+        "to": "s6@0.8"
+      },
+      "sub": {
+        "text": "and four parachutes",
+        "at": "s6@0.85"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s7",
+      "enter": "cut",
+      "image": "nw-727.jpg",
+      "focus": "30% 55%",
+      "move": "in",
+      "fact": "Boeing 727, Northwest Orient"
+    },
+    {
+      "type": "photo",
+      "from": "s7@0.55",
+      "enter": "cut",
+      "image": "c22-727.jpg",
+      "focus": "50% 50%",
+      "move": "right",
+      "fact": "A Boeing 727-100, the same type"
+    },
+    {
+      "type": "statement",
+      "from": "s8",
+      "enter": "cut",
+      "image": "c22-727.jpg",
+      "focus": "20% 50%",
+      "kicker": "His flight plan",
+      "main": {
+        "text": "Slow. Low. *Rear stairs open.*",
+        "at": "s8@0.1"
+      },
+      "fact": {
+        "text": "Two F-106 fighters followed, out of sight",
+        "at": "s8@0.3"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s8@0.5",
+      "enter": "cut",
+      "clip": "film-f106-pair.mp4",
+      "credit": "F-106 Delta Dart fighters, 1965 · archive film, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s9",
+      "enter": "cut",
+      "image": "cooper-vane.jpg",
+      "focus": "50% 50%",
+      "kicker": "About 8 p.m.",
+      "main": {
+        "text": "The stairs were *down*.",
+        "at": "s9@0.6"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s10",
+      "enter": "cut",
+      "clip": "film-overlook.mp4",
+      "credit": "Forests of the Pacific Northwest · archive film, illustrative"
+    },
+    {
+      "type": "film",
+      "from": "s10@0.5",
+      "enter": "cut",
+      "clip": "film-valley.mp4",
+      "credit": "Forests of the Pacific Northwest · archive film, illustrative"
+    },
+    {
+      "type": "film",
+      "from": "s11",
+      "enter": "cut",
+      "clip": "film-f106.mp4",
+      "credit": "F-106 Delta Dart, 1965 · archive film, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s11@0.5",
+      "enter": "cut",
+      "image": "sketch-2.jpg",
+      "focus": "50% 40%",
+      "main": {
+        "text": "No body. *No parachute.*",
+        "at": "s11@0.6"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s12",
+      "enter": "cut",
+      "clip": "film-gorge.mp4",
+      "credit": "The Columbia River · archive film, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s12@0.55",
+      "enter": "cut",
+      "image": "money.jpg",
+      "focus": "30% 50%",
+      "kicker": "Tena Bar, 10 February 1980",
+      "main": {
+        "text": "An *eight-year-old* boy.",
+        "at": "s12@0.6"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s13",
+      "enter": "cut",
+      "image": "money.jpg",
+      "focus": "60% 50%",
+      "move": "in",
+      "fact": "The bills found by Brian Ingram, 1980 (FBI)"
+    },
+    {
+      "type": "film",
+      "from": "s14",
+      "enter": "cut",
+      "clip": "film-river-dusk.mp4",
+      "credit": "The Columbia River · archive film, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s14@0.55",
+      "enter": "cut",
+      "image": "sketch.jpg",
+      "focus": "50% 60%",
+      "main": {
+        "text": "Neither has *the man*.",
+        "at": "s14@0.6"
+      }
+    },
+    {
+      "type": "portrait",
+      "from": "s15",
+      "enter": "fade",
+      "image": "sketch.jpg",
+      "focus": "50% 35%",
+      "kicker": "D. B. Cooper",
+      "date": "Unsolved since 1971",
+      "line": {
+        "text": "Who *was* he?",
+        "at": "s15@0.8"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "In 1971, a man hijacked a plane, took $200,000, and jumped out into the night. Nobody ever found him. 🪂\n\n\"Miss, you'd better look at that note. I have a bomb.\" D. B. Cooper swapped the passengers for cash and four parachutes, then leapt from the rear stairs over Washington's forests. In 1980 a boy found some of the money buried by a river.\n\nWho was he? 👇\n\n#history #dbcooper #mystery #unsolved #truestory #historytok #truecrime #fbi",
+    "facebook": "In 1971, a man hijacked a plane, took $200,000, and jumped out into the night. Nobody ever found him.\n\nThe day before Thanksgiving, he paid cash for a one-way ticket from Portland to Seattle under the name \"Dan Cooper\". Dark suit, black tie, raincoat. He ordered a bourbon and handed a stewardess a note — she thought it was his phone number and dropped it in her purse. He leaned over: \"Miss, you'd better look at that note. I have a bomb.\"\n\nHis briefcase was full of wires and red cylinders. He wanted $200,000 and four parachutes. In Seattle he swapped the passengers for the money, then ordered the plane back into the air towards Mexico — slow, low, with the rear stairs open, two fighter jets following out of sight. At about 8 p.m. a warning light came on: the stairs were down. When the plane landed in Reno, he was gone.\n\nThe FBI searched for years and found nothing. Then in 1980 an eight-year-old boy building a campfire on the Columbia River found rotting bundles of $20 bills — the serial numbers matched. The rest of the money, and the man, have never been found.\n\nIt is still the only unsolved hijacking in the history of commercial aviation. Who was D. B. Cooper? 👇\n\n#History #DBCooper #Mystery #Unsolved",
+    "youtube": {
+      "title": "He Hijacked a Plane, Took $200,000 and Jumped Into the Night | D. B. Cooper #Shorts",
+      "description": "In 1971, a man hijacked a plane, took $200,000, and jumped out into the night. Nobody ever found him.\n\n\"Dan Cooper\" boarded Northwest Orient Flight 305 in Portland, told a flight attendant he had a bomb, swapped the passengers for $200,000 and four parachutes in Seattle, and parachuted from the rear stairs over the forests of southwest Washington. In 1980 an eight-year-old found some of the ransom on the Columbia River. The rest — and the man — were never found. It remains the only unsolved hijacking in commercial aviation history.\n\nSubscribe for more history that sounds made up.\n\nImages: public domain via Wikimedia Commons (FBI, US Air Force). Film: The Columbia (Bonneville Power Administration, 1949) and USAF William Tell 1965 (F-106 fighters), public domain — illustrative. Music: Beethoven, Moonlight Sonata — Paul Pitman for Musopen, public domain. Sources: Wikipedia.\n\n#Shorts #History #DBCooper #Mystery #Unsolved",
+      "tags": [
+        "history",
+        "D. B. Cooper",
+        "DB Cooper",
+        "hijacking",
+        "Flight 305",
+        "unsolved mystery",
+        "FBI",
+        "parachute",
+        "true crime",
+        "unsolved mysteries",
+        "history documentary",
+        "history explained",
+        "weird history",
+        "mystery",
+        "1971",
+        "true story",
+        "history shorts",
+        "Columbia River"
+      ]
+    },
+    "pinned": "Who was D. B. Cooper — and did he survive the jump? Drop your theory 👇🪂"
+  }
+}

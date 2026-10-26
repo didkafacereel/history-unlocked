@@ -1,0 +1,434 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "mode": "channel",
+  "date": "2026-10-12",
+  "slug": "yang",
+  "title": "Yang Kyoungjong — the man who fought for three armies (or a legend?)",
+  "category": "Military & Conflict",
+  "sources": [
+    "Wikipedia: Yang Kyoungjong — 'purported' to have served in the Imperial Japanese Army, the Soviet Red Army and the German Wehrmacht; his existence and personal history are not substantiated by the historical record. Antony Beevor and Steven Zaloga present him as fact but give no sources. Zaloga's unsourced account: conscripted into Japan's Kwantung Army (Korea was then ruled by Japan), captured by the Soviets at Khalkhin Gol, sent to a Gulag labour camp and then the Eastern Front, captured by the Germans in 1943 near Kharkov and put into the 'Eastern Battalions'. Beevor: sent to Normandy with a battalion of former Soviet prisoners, captured by US paratroopers in June 1944. A photo taken after D-Day shows an unidentified man in Wehrmacht uniform; the official caption calls him a 'young Japanese'; the identity has never been verified. Stephen Ambrose recorded US officer Robert Brewer's account of capturing four Koreans in Wehrmacht uniforms who had been conscripted by Japan, captured by the Red Army and then by the Wehrmacht. A 2005 Korean SBS documentary found no convincing evidence of Yang's existence; historian Martin Morgan believes the man in the photo was a Georgian from the 795th Georgian Battalion.",
+    "Photos (public domain / CC0, Wikimedia Commons / US National Archives / Imperial War Museum / Polish National Digital Archive): the unidentified Asian prisoner in German uniform, Normandy, June 1944; the Kwantung Army in Mongolia, 1939; Khalkhin Gol, 1939; Eastern volunteers in German service; Utah Beach; German prisoners in Normandy",
+    "Archive film (public domain): '1939. Khalkhin Gol' (Soviet documentary, timecode cropped); 'Why We Fight: The Battle of Russia' (US War Department, 1943); 'D-Day 1944' (United News / Office of War Information) — all illustrative",
+    "Music: Arirang — US Army, public domain"
+  ],
+  "music": {
+    "track": "arirang-usas"
+  },
+  "highlight": [
+    "JAPAN,",
+    "SOVIET UNION,",
+    "NAZI GERMANY.",
+    "D-DAY.",
+    "LEGEND",
+    "JAPANESE.",
+    "SOURCE.",
+    "PROOF",
+    "FOUR KOREANS",
+    "REAL?"
+  ],
+  "cover": {
+    "image": "pow-crop.jpg",
+    "focus": "50% 30%",
+    "kicker": "REAL OR LEGEND?",
+    "date": "1939 – 1944",
+    "top": 1120,
+    "lines": [
+      "ONE MAN.",
+      "*THREE ARMIES.*",
+      "JAPAN · USSR · GERMANY"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "He fought for Japan, then for the Soviet Union, then for Nazi Germany. And the Americans captured him on D-Day.",
+      "show": "He fought for Japan, then for the Soviet Union, then for Nazi Germany. And the Americans captured him on D-Day.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s2",
+      "say": "At least, that's the legend of Yang Kyoungjong.",
+      "show": "At least, that's the legend of Yang Kyoungjong.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s3",
+      "say": "The story goes like this. A young Korean is drafted into the Japanese army. Korea was a Japanese colony.",
+      "show": "The story goes like this. A young Korean is drafted into the Japanese army. Korea was a Japanese colony.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "In nineteen thirty-nine, on the Mongolian border, the Soviets capture him, and send him to a labour camp.",
+      "show": "In 1939, on the Mongolian border, the Soviets capture him, and send him to a labour camp.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s5",
+      "say": "Then Hitler invades Russia. The Red Army needs men, so they hand him a rifle.",
+      "show": "Then Hitler invades Russia. The Red Army needs men, so they hand him a rifle.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s6",
+      "say": "In nineteen forty-three, near Kharkov, the Germans capture him.",
+      "show": "In 1943, near Kharkov, the Germans capture him.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s7",
+      "say": "And they put him in a German uniform, with a battalion of former Soviet prisoners.",
+      "show": "And they put him in a German uniform, with a battalion of former Soviet prisoners.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s8",
+      "say": "They send him to France, to guard the coast of Normandy.",
+      "show": "They send him to France, to guard the coast of Normandy.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s9",
+      "say": "On the sixth of June, nineteen forty-four, the Allies land.",
+      "show": "On 6 June 1944, the Allies land.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s10",
+      "say": "American paratroopers capture Asian men in German uniforms. No one can understand a word they say.",
+      "show": "American paratroopers capture Asian men in German uniforms. No one can understand a word they say.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s11",
+      "say": "And then there's this photo. A prisoner in Normandy. The Army caption calls him a young Japanese.",
+      "show": "And then there's this photo. A prisoner in Normandy. The Army caption calls him a \"young Japanese\".",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s12",
+      "say": "Famous historians have told Yang's story as fact. But none of them gave a source.",
+      "show": "Famous historians have told Yang's story as fact. But none of them gave a source.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s13",
+      "say": "A Korean documentary found no proof he ever existed. One historian thinks the man in the photo was from Georgia.",
+      "show": "A Korean documentary found no proof he ever existed. One historian thinks the man in the photo was from Georgia.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s14",
+      "say": "But an American officer did report capturing four Koreans in German uniforms, who had fought for Japan and Russia first.",
+      "show": "But an American officer did report capturing four Koreans in German uniforms, who had fought for Japan and Russia first.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s15",
+      "say": "So was Yang Kyoungjong real? Or did the war invent him?",
+      "show": "So was Yang Kyoungjong real? Or did the war invent him?",
+      "pauseAfter": 0.6
+    }
+  ],
+  "cta": {
+    "story": "Three armies. One man. Maybe.",
+    "say": "Real man or legend? Tell us below, and subscribe for the next one.",
+    "pill": "REAL OR LEGEND",
+    "note": "more true stories that sound made up"
+  },
+  "endImage": "pow-photo.jpg",
+  "imageCredit": "US National Archives; Imperial War Museum; Soviet and Polish archives via Wikimedia Commons",
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook",
+      "image": "pow-crop.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "Unidentified prisoner, Normandy, June 1944"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.22",
+      "enter": "cut",
+      "image": "kwantung.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Japan's Kwantung Army, 1939"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.38",
+      "enter": "cut",
+      "clip": "film-redarmy.mp4",
+      "credit": "Red Army · archive film, illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.54",
+      "enter": "cut",
+      "image": "osttruppen-oath.jpg",
+      "focus": "50% 40%",
+      "move": "in",
+      "fact": "Eastern volunteers in German uniform"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.72",
+      "enter": "cut",
+      "clip": "film-paras.mp4",
+      "credit": "D-Day, 6 June 1944 · archive film"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "pow-photo.jpg",
+      "focus": "50% 30%",
+      "kicker": "Real or legend?",
+      "date": "YANG KYOUNGJONG",
+      "year": "1944",
+      "place": "The man of three armies"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "kwantung.jpg",
+      "focus": "40% 50%",
+      "move": "left",
+      "fact": "Japan's Kwantung Army in Mongolia, 1939"
+    },
+    {
+      "type": "statement",
+      "from": "s3@0.7",
+      "enter": "cut",
+      "image": "kwantung.jpg",
+      "focus": "70% 60%",
+      "kicker": "Army no. 1",
+      "main": {
+        "text": "*Japan*.",
+        "at": "s3@0.75"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s4",
+      "enter": "cut",
+      "clip": "film-khalkhin-steppe.mp4",
+      "credit": "Khalkhin Gol, 1939 · Soviet archive film"
+    },
+    {
+      "type": "film",
+      "from": "s4@0.5",
+      "enter": "cut",
+      "clip": "film-khalkhin-march.mp4",
+      "credit": "Khalkhin Gol, 1939 · Soviet archive film"
+    },
+    {
+      "type": "film",
+      "from": "s5",
+      "enter": "cut",
+      "clip": "film-snow-column.mp4",
+      "credit": "Red Army in winter · archive film, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s5@0.6",
+      "enter": "cut",
+      "image": "khalkhin-tanks.jpg",
+      "focus": "50% 50%",
+      "kicker": "Army no. 2",
+      "main": {
+        "text": "The *Soviet Union*.",
+        "at": "s5@0.65"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s6",
+      "enter": "cut",
+      "clip": "film-snowfight.mp4",
+      "credit": "Eastern Front · archive film, illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s7",
+      "enter": "cut",
+      "image": "osttruppen-oath.jpg",
+      "focus": "50% 45%",
+      "move": "in",
+      "fact": "Eastern volunteers swear an oath in German uniform"
+    },
+    {
+      "type": "statement",
+      "from": "s7@0.55",
+      "enter": "cut",
+      "image": "ostlegion.jpg",
+      "focus": "50% 50%",
+      "kicker": "Army no. 3",
+      "main": {
+        "text": "*Nazi Germany*.",
+        "at": "s7@0.6"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s8",
+      "enter": "cut",
+      "clip": "film-atlanticwall.mp4",
+      "credit": "The Atlantic Wall, Normandy · archive film"
+    },
+    {
+      "type": "film",
+      "from": "s9",
+      "enter": "cut",
+      "clip": "film-armada.mp4",
+      "credit": "D-Day, 6 June 1944 · archive film"
+    },
+    {
+      "type": "film",
+      "from": "s9@0.5",
+      "enter": "cut",
+      "clip": "film-ramp.mp4",
+      "credit": "D-Day, 6 June 1944 · archive film"
+    },
+    {
+      "type": "film",
+      "from": "s10",
+      "enter": "cut",
+      "clip": "film-chutes.mp4",
+      "credit": "Paratroopers over Normandy · archive film"
+    },
+    {
+      "type": "photo",
+      "from": "s10@0.5",
+      "enter": "cut",
+      "image": "pows-normandy.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Prisoners in German uniform, Normandy, June 1944"
+    },
+    {
+      "type": "photo",
+      "from": "s11",
+      "enter": "cut",
+      "image": "pow-photo.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "Unidentified prisoner, Normandy, June 1944"
+    },
+    {
+      "type": "statement",
+      "from": "s11@0.6",
+      "enter": "cut",
+      "image": "pow-crop.jpg",
+      "focus": "50% 40%",
+      "kicker": "US Army caption",
+      "main": {
+        "text": "\"Young *Japanese*.\"",
+        "at": "s11@0.75"
+      },
+      "fact": {
+        "text": "His name was never recorded",
+        "at": "s11@0.9"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s12",
+      "enter": "cut",
+      "image": "pows-lst.jpg",
+      "focus": "50% 50%",
+      "main": {
+        "text": "Told as fact. *No source.*",
+        "at": "s12@0.6"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s13",
+      "enter": "cut",
+      "image": "utah-beach.jpg",
+      "focus": "50% 50%",
+      "kicker": "Korean SBS documentary, 2005",
+      "main": {
+        "text": "*No proof* he existed.",
+        "at": "s13@0.3"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s13@0.55",
+      "enter": "cut",
+      "image": "pow-crop.jpg",
+      "focus": "50% 60%",
+      "main": {
+        "text": "Or a man *from Georgia*?",
+        "at": "s13@0.7"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s14",
+      "enter": "cut",
+      "clip": "film-uphill.mp4",
+      "credit": "D-Day, 6 June 1944 · archive film"
+    },
+    {
+      "type": "statement",
+      "from": "s14@0.45",
+      "enter": "cut",
+      "image": "utah-landing.jpg",
+      "focus": "50% 50%",
+      "kicker": "US officer Robert Brewer",
+      "main": {
+        "text": "*Four Koreans* in German uniforms.",
+        "at": "s14@0.55"
+      }
+    },
+    {
+      "type": "portrait",
+      "from": "s15",
+      "enter": "fade",
+      "image": "pow-crop.jpg",
+      "focus": "50% 30%",
+      "kicker": "Yang Kyoungjong?",
+      "date": "Real, or a legend?",
+      "line": {
+        "text": "Three armies. *One man?*",
+        "at": "s15@0.6"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "He fought for Japan, then the Soviet Union, then Nazi Germany — and the Americans captured him on D-Day. 🪖\n\nThat's the legend of Yang Kyoungjong. Famous historians tell it as fact… but no one has ever shown a source, and the man in the famous photo was never identified.\n\nReal man or legend? 👇\n\n#history #ww2 #dday #truestory #historytok #mystery #korea #legend",
+    "facebook": "He fought for Japan, then for the Soviet Union, then for Nazi Germany. And the Americans captured him on D-Day.\n\nAt least, that's the legend of Yang Kyoungjong. A young Korean — Korea was then a Japanese colony — is drafted into the Japanese army. In 1939, on the Mongolian border, the Soviets capture him and send him to a labour camp. When Hitler invades, the Red Army hands him a rifle. In 1943, near Kharkov, the Germans capture him and put him in a German uniform, with a battalion of former Soviet prisoners, and send him to guard Normandy. On D-Day, American paratroopers capture Asian men in German uniforms that nobody can understand.\n\nAnd there's the famous photo: an unidentified prisoner in Normandy, captioned by the US Army as a \"young Japanese\".\n\nBut famous historians who told the story as fact gave no source. A 2005 Korean documentary found no proof Yang ever existed, and one historian believes the man in the photo was from Georgia. Yet a US officer, Robert Brewer, did report capturing four Koreans in German uniforms who had fought for Japan and Russia first.\n\nReal man — or did the war invent him? 👇\n\n#History #WW2 #DDay #YangKyoungjong",
+    "youtube": {
+      "title": "He Fought for Japan, the USSR AND Nazi Germany? | Yang Kyoungjong #Shorts",
+      "description": "He fought for Japan, then for the Soviet Union, then for Nazi Germany — and the Americans captured him on D-Day. At least, that's the legend of Yang Kyoungjong.\n\nHistorians like Beevor and Zaloga told the story as fact, but without sources; the famous photo of an Asian prisoner in German uniform in Normandy was never identified, a 2005 Korean documentary found no proof he existed, and one historian thinks the man was Georgian. Yet a US officer did report capturing four Koreans in German uniforms who had fought for Japan and Russia first. Real man or legend?\n\nSubscribe for more history that sounds made up.\n\nImages: public domain via Wikimedia Commons (US National Archives, Imperial War Museum). Film: 1939. Khalkhin Gol (Soviet documentary); Why We Fight: The Battle of Russia (1943); D-Day 1944 (United News) — all public domain, illustrative. Music: Arirang — US Army, public domain. Sources: Wikipedia.\n\n#Shorts #History #WW2 #DDay #YangKyoungjong",
+      "tags": [
+        "history",
+        "ww2",
+        "Yang Kyoungjong",
+        "D-Day",
+        "Normandy",
+        "three armies",
+        "Korean soldier",
+        "Wehrmacht",
+        "ww2 tales",
+        "ww2 stories",
+        "military history",
+        "history documentary",
+        "history explained",
+        "world history",
+        "Red Army",
+        "Khalkhin Gol",
+        "true story",
+        "history shorts"
+      ]
+    },
+    "pinned": "Real man or legend? Do you believe one soldier fought for Japan, the USSR AND Germany? 🤔👇"
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "mode": "channel",
+  "date": "2026-10-18",
+  "slug": "torni",
+  "title": "Lauri Törni — the soldier who fought for three countries",
+  "category": "Military & Conflict",
+  "sources": [
+    "Wikipedia: Lauri Törni (28 May 1919 – 18 October 1965), later Larry Alan Thorne — Finnish-born soldier who fought under three countries: as a Finnish Army officer in the Winter War and Continuation War; as a Waffen-SS officer against the Red Army; and as a US Army Special Forces officer in Vietnam. In the Winter War he fought at Lake Ladoga; in 1943 'Detachment Törni' operated deep behind Soviet lines; the Soviet Army put a bounty of 3,000,000 Finnish marks on his head; Mannerheim Cross, 9 July 1944. After Finland's armistice he joined the Waffen-SS in 1945 to fight Soviet troops near Schwerin, surrendered to the British, escaped a POW camp; in Finland he was convicted of treason in 1947 (six years), escaped prison, was recaptured and pardoned in 1948. In 1949 he went to Sweden, then Venezuela, stowed away on a ship to the US and jumped overboard in the Gulf of Mexico near Mobile, Alabama, and swam ashore. Granted residence by an Act of Congress in 1953; enlisted in the US Army in 1954 as Larry Thorne; joined the Special Forces, taught skiing and survival, served with the 10th Special Forces Group at Bad Tölz, appears in a 1962 'Big Picture' episode filmed in 1959. In Vietnam he won two Purple Hearts and a Bronze Star; on 18 October 1965 his CH-34 helicopter disappeared in bad weather during a covert MACV-SOG mission; his remains were found in 1999 and buried at Arlington in 2003.",
+    "Photos (public domain / CC0, Wikimedia Commons / Finnish Wartime Photograph Archive SA-kuva / US Army): Lauri Törni in 1944; Törni in 1951; the last known photo of Törni in Vietnam; Finnish soldiers in 1944; the Battle of Ilomantsi",
+    "Archive film (public domain): 'The Big Picture: Special Forces' (US Army, episode filmed with the 10th Special Forces Group); 'Why We Fight: The Battle of Russia' (1943); 'Operation San Angelo' (US Army, Vietnam 1968) — illustrative",
+    "Music: Sibelius, Valse triste — Judith Bokor (cello, 78 rpm recording), public domain"
+  ],
+  "music": {
+    "track": "valse-triste"
+  },
+  "highlight": [
+    "THREE",
+    "FINLAND",
+    "GERMANY",
+    "AMERICA",
+    "BOUNTY",
+    "TREASON",
+    "SWAM",
+    "LARRY THORNE",
+    "VANISHED.",
+    "1999"
+  ],
+  "cover": {
+    "image": "torni-1944.jpg",
+    "focus": "50% 30%",
+    "kicker": "TRUE STORY",
+    "date": "FINLAND · GERMANY · USA",
+    "top": 1120,
+    "lines": [
+      "ONE SOLDIER.",
+      "*THREE ARMIES.*",
+      "AND IT'S TRUE."
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "Remember the soldier who fought for three armies, and might be a legend? This one is real.",
+      "show": "Remember the soldier who fought for three armies, and might be a legend? This one is real.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s2",
+      "say": "Lauri Torni fought for Finland, for Nazi Germany, and for the United States.",
+      "show": "Lauri Törni fought for Finland, for Nazi Germany, and for the United States.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s3",
+      "say": "In nineteen thirty-nine, the Soviet Union invaded Finland. Torni was twenty.",
+      "show": "In 1939, the Soviet Union invaded Finland. Törni was 20.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "By nineteen forty-four, his unit was raiding deep behind Soviet lines. Moscow put a bounty on his head. Three million Finnish marks.",
+      "show": "By 1944, his unit was raiding deep behind Soviet lines. Moscow put a bounty on his head: 3,000,000 Finnish marks.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s5",
+      "say": "Then Finland made peace. Torni didn't. In nineteen forty-five, he joined the German SS, to keep fighting the Soviets.",
+      "show": "Then Finland made peace. Törni didn't. In 1945, he joined the German SS, to keep fighting the Soviets.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s6",
+      "say": "He surrendered to the British, escaped their prison camp, and went home. Finland convicted him of treason.",
+      "show": "He surrendered to the British, escaped their prison camp, and went home. Finland convicted him of treason.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s7",
+      "say": "He escaped from prison too. Then he was pardoned, and left the country.",
+      "show": "He escaped from prison too. Then he was pardoned, and left the country.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s8",
+      "say": "He stowed away on a ship to America, jumped overboard in the Gulf of Mexico, and swam ashore.",
+      "show": "He stowed away on a ship to America, jumped overboard in the Gulf of Mexico, and swam ashore.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s9",
+      "say": "In nineteen fifty-four, he joined the U.S. Army, as Larry Thorne.",
+      "show": "In 1954, he joined the U.S. Army, as \"Larry Thorne\".",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s10",
+      "say": "He became a Green Beret, and taught American soldiers to fight in the snow.",
+      "show": "He became a Green Beret, and taught American soldiers to fight in the snow.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s11",
+      "say": "Then came Vietnam. On the eighteenth of October, nineteen sixty-five, his helicopter flew into the clouds on a secret mission, and vanished.",
+      "show": "Then came Vietnam. On 18 October 1965, his helicopter flew into the clouds on a secret mission, and vanished.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s12",
+      "say": "His remains were found in nineteen ninety-nine. He's buried at Arlington.",
+      "show": "His remains were found in 1999. He's buried at Arlington.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s13",
+      "say": "A hero to some. A traitor to others. And a soldier of three flags.",
+      "show": "A hero to some. A traitor to others. And a soldier of three flags.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "cta": {
+    "story": "Three flags. One soldier.",
+    "say": "Hero or traitor? Tell us below, and subscribe for the next story.",
+    "pill": "YOU DECIDE",
+    "note": "more true stories that sound made up"
+  },
+  "endImage": "torni-1944.jpg",
+  "imageCredit": "Finnish Wartime Photograph Archive (SA-kuva); US Army via Wikimedia Commons",
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook",
+      "image": "torni-1944.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "Lauri Törni, Finland, July 1944"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "captain.jpg",
+      "focus": "50% 25%",
+      "kicker": "Three flags",
+      "date": "LAURI TÖRNI",
+      "year": "1919",
+      "place": "Finland · Germany · USA"
+    },
+    {
+      "type": "photo",
+      "from": "s2@0.45",
+      "enter": "cut",
+      "image": "lieutenant-1944.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "Finland, 1944"
+    },
+    {
+      "type": "photo",
+      "from": "s2@0.75",
+      "enter": "cut",
+      "image": "vietnam-last.jpg",
+      "focus": "50% 40%",
+      "move": "in",
+      "fact": "As Captain Larry Thorne, Vietnam, 1965"
+    },
+    {
+      "type": "film",
+      "from": "s3",
+      "enter": "cut",
+      "clip": "film-hayha-column.mp4",
+      "credit": "Soviet troops in winter · archive film, illustrative"
+    },
+    {
+      "type": "film",
+      "from": "s3@0.55",
+      "enter": "cut",
+      "clip": "film-hayha-forest.mp4",
+      "credit": "Winter front · archive film, illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s4",
+      "enter": "cut",
+      "image": "ihantala.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Finnish soldiers, July 1944"
+    },
+    {
+      "type": "photo",
+      "from": "s4@0.35",
+      "enter": "cut",
+      "image": "ilomantsi-t26.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "A destroyed Soviet tank, Ilomantsi, 1944"
+    },
+    {
+      "type": "number",
+      "from": "s4@0.6",
+      "enter": "cut",
+      "image": "torni-1944.jpg",
+      "focus": "50% 60%",
+      "label": "Soviet bounty on his head",
+      "value": 3000000,
+      "start": 0,
+      "suffix": " marks",
+      "count": {
+        "from": "s4@0.65",
+        "to": "s4@0.92"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s5",
+      "enter": "cut",
+      "image": "antitank.jpg",
+      "focus": "50% 50%",
+      "kicker": "September 1944",
+      "main": {
+        "text": "Finland made peace. *Törni didn't.*",
+        "at": "s5@0.3"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s5@0.55",
+      "enter": "cut",
+      "clip": "film-hayha-blast.mp4",
+      "credit": "Eastern Front · archive film, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s6",
+      "enter": "cut",
+      "image": "lieutenant-1944.jpg",
+      "focus": "50% 70%",
+      "kicker": "Finland, 1947",
+      "main": {
+        "text": "Convicted of *treason*.",
+        "at": "s6@0.8"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s7",
+      "enter": "cut",
+      "image": "torni-1951.jpg",
+      "focus": "50% 30%",
+      "main": {
+        "text": "Escaped. Pardoned. *Gone.*",
+        "at": "s7@0.4"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s8",
+      "enter": "cut",
+      "image": "torni-1951.jpg",
+      "focus": "50% 40%",
+      "move": "in",
+      "fact": "Lauri Törni, 1951"
+    },
+    {
+      "type": "statement",
+      "from": "s8@0.6",
+      "enter": "cut",
+      "image": "vyborg.jpg",
+      "focus": "50% 50%",
+      "kicker": "Gulf of Mexico, 1950",
+      "main": {
+        "text": "He *swam* to America.",
+        "at": "s8@0.7"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s9",
+      "enter": "cut",
+      "clip": "film-plane.mp4",
+      "credit": "US Army Special Forces, c. 1959 · archive film"
+    },
+    {
+      "type": "film",
+      "from": "s10",
+      "enter": "cut",
+      "clip": "film-ski-cabin.mp4",
+      "credit": "10th Special Forces Group, Bavaria, c. 1959 · archive film"
+    },
+    {
+      "type": "film",
+      "from": "s10@0.5",
+      "enter": "cut",
+      "clip": "film-snow-camo.mp4",
+      "credit": "Special Forces winter training, c. 1959 · archive film"
+    },
+    {
+      "type": "film",
+      "from": "s11",
+      "enter": "cut",
+      "clip": "film-benavidez-jungle.mp4",
+      "credit": "Vietnam · archive film, illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s11@0.3",
+      "enter": "cut",
+      "image": "vietnam-last.jpg",
+      "focus": "50% 40%",
+      "move": "in",
+      "fact": "The last known photo of Törni, Vietnam, 1965"
+    },
+    {
+      "type": "film",
+      "from": "s11@0.6",
+      "enter": "cut",
+      "clip": "film-benavidez-heli-sky.mp4",
+      "credit": "Helicopters over Vietnam · archive film, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s12",
+      "enter": "cut",
+      "image": "captain.jpg",
+      "focus": "50% 60%",
+      "kicker": "Found 1999",
+      "main": {
+        "text": "Buried at *Arlington*.",
+        "at": "s12@0.6"
+      }
+    },
+    {
+      "type": "portrait",
+      "from": "s13",
+      "enter": "fade",
+      "image": "torni-1944.jpg",
+      "focus": "50% 30%",
+      "kicker": "Lauri Törni / Larry Thorne",
+      "date": "1919 – 1965",
+      "line": {
+        "text": "A soldier of *three flags*.",
+        "at": "s13@0.7"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "Remember the soldier who fought for three armies — and might be a legend? This one is real. 🇫🇮🇺🇸\n\nLauri Törni fought the Soviets for Finland, then joined the German SS to keep fighting them, was convicted of treason, escaped prison, swam to America — and became a US Green Beret. He vanished over Vietnam in 1965.\n\nHero or traitor? 👇\n\n#history #ww2 #laurtorni #larrythorne #finland #greenberet #truestory #historytok",
+    "facebook": "Remember the soldier who fought for three armies — and might be a legend? This one is real.\n\nLauri Törni fought for Finland, for Nazi Germany, and for the United States. He was 20 when the Soviet Union invaded Finland in 1939. By 1944 his unit was raiding deep behind Soviet lines, and Moscow put a bounty of 3,000,000 Finnish marks on his head.\n\nThen Finland made peace. Törni didn't. In 1945 he joined the German SS to keep fighting the Soviets. He surrendered to the British, escaped their prison camp and went home — where Finland convicted him of treason. He escaped from prison too, was pardoned and left the country. He stowed away on a ship to America, jumped overboard in the Gulf of Mexico and swam ashore.\n\nIn 1954 he joined the US Army as \"Larry Thorne\", became a Green Beret and taught American soldiers to fight in the snow. On 18 October 1965, in Vietnam, his helicopter flew into the clouds on a secret mission and vanished. His remains were found in 1999; he is buried at Arlington.\n\nA hero to some, a traitor to others — and a soldier of three flags. 👇\n\n#History #WW2 #LauriTorni #GreenBeret",
+    "youtube": {
+      "title": "Soldier of 3 Armies: Finland, the SS AND the US Army — and It's True | Lauri Törni #Shorts",
+      "description": "Lauri Törni fought for three countries. A Finnish hero of the Winter and Continuation Wars with a Soviet bounty on his head, he joined the Waffen-SS in 1945 to keep fighting the Soviets, was convicted of treason in Finland, escaped prison, swam ashore in the US and, as \"Larry Thorne\", became a US Army Green Beret. He disappeared in a helicopter over Vietnam in 1965; his remains were found in 1999 and buried at Arlington.\n\nSubscribe for more history that sounds made up.\n\nImages: public domain / CC0 via Wikimedia Commons (Finnish Wartime Photograph Archive SA-kuva, US Army). Film: The Big Picture — Special Forces (US Army); Why We Fight: The Battle of Russia (1943); Operation San Angelo (1968) — public domain, illustrative. Music: Sibelius, Valse triste — Judith Bokor, public domain. Sources: Wikipedia.\n\n#Shorts #History #WW2 #LauriTorni #GreenBeret\n\nKeywords: the soldier of 3 armies, Lauri Törni (Larry Thorne), Winter War, Green Berets, Vietnam War.",
+      "tags": [
+        "soldier of 3 armies",
+        "lauri torni",
+        "lauri törni",
+        "larry thorne",
+        "sabaton soldier of 3 armies",
+        "winter war",
+        "finland",
+        "waffen ss",
+        "green berets",
+        "special forces",
+        "macv-sog",
+        "vietnam war",
+        "mannerheim",
+        "military history",
+        "military history shorts",
+        "ww2 tales",
+        "world war 2",
+        "soviet union",
+        "arlington cemetery",
+        "history",
+        "history shorts",
+        "true story",
+        "history documentary",
+        "history explained",
+        "world history",
+        "weird history",
+        "history facts",
+        "ww2",
+        "three armies",
+        "green beret",
+        "ww2 stories"
+      ]
+    },
+    "pinned": "Hero or traitor? Fighting for three flags — loyalty or survival? 🤔👇"
+  }
+}

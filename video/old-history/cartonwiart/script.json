@@ -1,0 +1,420 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "mode": "channel",
+  "date": "2026-10-17",
+  "slug": "cartonwiart",
+  "title": "Adrian Carton de Wiart — the unkillable soldier",
+  "category": "Military & Conflict",
+  "sources": [
+    "Wikipedia: Adrian Carton de Wiart (5 May 1880 – 5 June 1963) — British officer of Belgian and Irish descent; served in the Boer War, WWI and WWII; shot in the face, head, stomach, groin, ankle, leg, hip and ear; blinded in his left eye; survived two plane crashes; tunnelled out of a prisoner-of-war camp; ripped off his own injured fingers when a doctor declined to amputate them; wrote of WWI: 'Frankly, I had enjoyed the war.' Left Oxford for the Boer War under a false name, claiming to be 25, and was shot in the stomach and groin. In Somaliland in 1914 he was shot twice in the face, losing his eye and part of his ear. On the Western Front he lost his left hand in 1915, was shot through the skull and ankle at the Somme, the hip at Passchendaele, the leg at Cambrai and the ear at Arras. Victoria Cross for 2–3 July 1916 at La Boisselle, after three other battalion commanders became casualties. In April 1941 his Wellington bomber's engines failed off Libya; knocked unconscious, he came to in the water, swam ashore and was captured by the Italians; made five escape attempts including seven months of tunnelling, once evading capture for eight days aged 61–62 with an eye patch and one empty sleeve, unable to speak Italian. Oxford DNB: 'With his black eyepatch and empty sleeve, Carton de Wiart looked like an elegant pirate.' Died 1963 aged 83.",
+    "Photos (public domain, Wikimedia Commons / Imperial War Museum / National Portrait Gallery): Carton de Wiart as a young officer (1904), as a lieutenant-colonel, Sir William Orpen's 1919 portrait, WWII photographs; the Somme and Passchendaele; Vickers Wellington bombers",
+    "Archive film (public domain): 'The Battle of the Somme' (British official film, 1916) — illustrative, not Carton de Wiart himself",
+    "Music: It's a Long, Long Way to Tipperary (instrumental, 1910s recording) — public domain"
+  ],
+  "music": {
+    "track": "tipperary"
+  },
+  "highlight": [
+    "FACE,",
+    "EYE",
+    "HAND",
+    "FINGERS",
+    "ENJOYED",
+    "EIGHT",
+    "VICTORIA CROSS",
+    "TWO PLANE CRASHES",
+    "PIRATE"
+  ],
+  "cover": {
+    "image": "orpen.jpg",
+    "focus": "50% 22%",
+    "kicker": "TRUE STORY",
+    "date": "1880 – 1963",
+    "top": 1120,
+    "lines": [
+      "ONE EYE. ONE HAND.",
+      "*\"I ENJOYED*",
+      "*THE WAR.\"*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "He was shot in the face, the head, the stomach, the ankle, the leg, the hip and the ear. He wrote: frankly, I had enjoyed the war.",
+      "show": "He was shot in the face, the head, the stomach, the ankle, the leg, the hip and the ear. He wrote: \"Frankly, I had enjoyed the war.\"",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s2",
+      "say": "His name was Adrian Carton de Wiart. And he might be the hardest man in British history.",
+      "show": "His name was Adrian Carton de Wiart. And he might be the hardest man in British history.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s3",
+      "say": "At nineteen, he dropped out of Oxford, lied about his name and age, and went to fight in South Africa. He was shot in the stomach.",
+      "show": "At 19, he dropped out of Oxford, lied about his name and age, and went to fight in South Africa. He was shot in the stomach.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "In nineteen fourteen, in Somaliland, he was shot twice in the face. He lost his left eye.",
+      "show": "In 1914, in Somaliland, he was shot twice in the face. He lost his left eye.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s5",
+      "say": "Then he went to the Western Front.",
+      "show": "Then he went to the Western Front.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s6",
+      "say": "In nineteen fifteen, his left hand was shattered. When the doctor refused to cut off his fingers, he pulled them off himself.",
+      "show": "In 1915, his left hand was shattered. When the doctor refused to cut off his fingers, he pulled them off himself.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s7",
+      "say": "At the Somme, he was shot through the skull. At Passchendaele, the hip. Then the leg. Then the ear.",
+      "show": "At the Somme, he was shot through the skull. At Passchendaele, the hip. Then the leg. Then the ear.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s8",
+      "say": "In nineteen sixteen, when three other commanders went down, he took over all their men, and held the line. He won the Victoria Cross.",
+      "show": "In 1916, when three other commanders went down, he took over all their men, and held the line. He won the Victoria Cross.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s9",
+      "say": "In the next war, he was in his sixties. His bomber crashed into the sea off Libya.",
+      "show": "In the next war, he was in his sixties. His bomber crashed into the sea off Libya.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s10",
+      "say": "He swam ashore, and was captured by the Italians.",
+      "show": "He swam ashore, and was captured by the Italians.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s11",
+      "say": "He tried to escape five times, and once spent seven months digging a tunnel.",
+      "show": "He tried to escape five times, and once spent seven months digging a tunnel.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s12",
+      "say": "He stayed free for eight days, disguised as a peasant. With one eye, one hand, and not a word of Italian.",
+      "show": "He stayed free for eight days, disguised as a peasant. With one eye, one hand, and not a word of Italian.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s13",
+      "say": "He died peacefully in Ireland, at eighty-three.",
+      "show": "He died peacefully in Ireland, at 83.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s14",
+      "say": "One historian described him as an elegant pirate. With a black eye patch, and an empty sleeve.",
+      "show": "One historian described him as \"an elegant pirate\". With a black eye patch, and an empty sleeve.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "cta": {
+    "story": "Three wars. One eye. One hand.",
+    "say": "Adrian never gave up. Don't give up on history. Subscribe.",
+    "pill": "NEVER GIVE UP",
+    "note": "more true stories that sound made up"
+  },
+  "endImage": "orpen.jpg",
+  "imageCredit": "Imperial War Museum; National Portrait Gallery; Sir William Orpen via Wikimedia Commons",
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook",
+      "image": "orpen.jpg",
+      "focus": "50% 22%",
+      "move": "in",
+      "fact": "Sir William Orpen's portrait, 1919"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.2",
+      "enter": "cut",
+      "clip": "film-blast.mp4",
+      "credit": "The Somme, 1916 · archive film"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.42",
+      "enter": "cut",
+      "clip": "film-trench.mp4",
+      "credit": "The Somme, 1916 · archive film"
+    },
+    {
+      "type": "statement",
+      "from": "s1@0.7",
+      "enter": "cut",
+      "image": "general-1940s.jpg",
+      "focus": "50% 30%",
+      "main": {
+        "text": "\"Frankly, I had *enjoyed the war*.\"",
+        "at": "s1@0.75"
+      }
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "orpen.jpg",
+      "focus": "50% 20%",
+      "kicker": "The unkillable soldier",
+      "date": "CARTON DE WIART",
+      "year": "1880",
+      "place": "British Army, 1899 – 1947"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "young-1904.jpg",
+      "focus": "50% 25%",
+      "move": "in",
+      "fact": "Carton de Wiart as a young officer, 1904"
+    },
+    {
+      "type": "statement",
+      "from": "s3@0.65",
+      "enter": "cut",
+      "image": "young-1904.jpg",
+      "focus": "50% 60%",
+      "kicker": "Boer War, 1899",
+      "main": {
+        "text": "Wound no. 1: *the stomach*.",
+        "at": "s3@0.8"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s4",
+      "enter": "cut",
+      "image": "ltcol.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "Lieutenant-Colonel Carton de Wiart"
+    },
+    {
+      "type": "statement",
+      "from": "s4@0.6",
+      "enter": "cut",
+      "image": "orpen.jpg",
+      "focus": "50% 18%",
+      "kicker": "Somaliland, 1914",
+      "main": {
+        "text": "He lost his *left eye*.",
+        "at": "s4@0.7"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s5",
+      "enter": "cut",
+      "clip": "film-march.mp4",
+      "credit": "British troops march to the Somme, 1916 · archive film"
+    },
+    {
+      "type": "film",
+      "from": "s6",
+      "enter": "cut",
+      "clip": "film-dugout.mp4",
+      "credit": "The Western Front, 1916 · archive film, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s6@0.5",
+      "enter": "cut",
+      "image": "orpen.jpg",
+      "focus": "50% 75%",
+      "kicker": "1915",
+      "main": {
+        "text": "He pulled off his *own fingers*.",
+        "at": "s6@0.7"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s7",
+      "enter": "cut",
+      "clip": "film-noman.mp4",
+      "credit": "No man's land, the Somme, 1916 · archive film"
+    },
+    {
+      "type": "photo",
+      "from": "s7@0.35",
+      "enter": "cut",
+      "image": "passch-mud.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Passchendaele, 1917"
+    },
+    {
+      "type": "film",
+      "from": "s7@0.65",
+      "enter": "cut",
+      "clip": "film-trench2.mp4",
+      "credit": "The Western Front, 1916 · archive film"
+    },
+    {
+      "type": "film",
+      "from": "s8",
+      "enter": "cut",
+      "clip": "film-column.mp4",
+      "credit": "The Somme, July 1916 · archive film"
+    },
+    {
+      "type": "photo",
+      "from": "s8@0.4",
+      "enter": "cut",
+      "image": "somme-trench.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "La Boisselle sector, the Somme, July 1916"
+    },
+    {
+      "type": "statement",
+      "from": "s8@0.75",
+      "enter": "cut",
+      "image": "ltcol.jpg",
+      "focus": "50% 40%",
+      "kicker": "La Boisselle, 2–3 July 1916",
+      "main": {
+        "text": "The *Victoria Cross*.",
+        "at": "s8@0.8"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s9",
+      "enter": "cut",
+      "image": "general-1940s.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "Carton de Wiart in the Second World War"
+    },
+    {
+      "type": "photo",
+      "from": "s9@0.55",
+      "enter": "cut",
+      "image": "wellington.jpg",
+      "focus": "50% 50%",
+      "move": "left",
+      "fact": "Vickers Wellington bombers, 1940s"
+    },
+    {
+      "type": "statement",
+      "from": "s10",
+      "enter": "cut",
+      "image": "norway.jpg",
+      "focus": "40% 50%",
+      "kicker": "April 1941",
+      "main": {
+        "text": "Captured. *Aged sixty-one.*",
+        "at": "s10@0.6"
+      }
+    },
+    {
+      "type": "number",
+      "from": "s11",
+      "enter": "cut",
+      "image": "general-1940s.jpg",
+      "focus": "50% 60%",
+      "label": "Escape attempts",
+      "value": 5,
+      "start": 0,
+      "count": {
+        "from": "s11@0.2",
+        "to": "s11@0.45"
+      },
+      "sub": {
+        "text": "including seven months tunnelling",
+        "at": "s11@0.7"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s12",
+      "enter": "cut",
+      "image": "beaton.jpg",
+      "focus": "40% 30%",
+      "main": {
+        "text": "One eye. One hand. *No Italian.*",
+        "at": "s12@0.65"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s13",
+      "enter": "cut",
+      "image": "beaton.jpg",
+      "focus": "40% 30%",
+      "move": "in",
+      "fact": "Carton de Wiart, photographed by Cecil Beaton"
+    },
+    {
+      "type": "portrait",
+      "from": "s14",
+      "enter": "fade",
+      "image": "orpen.jpg",
+      "focus": "50% 22%",
+      "kicker": "Adrian Carton de Wiart",
+      "date": "1880 – 1963",
+      "line": {
+        "text": "\"An elegant *pirate*.\"",
+        "at": "s14@0.4"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "Shot in the face, head, stomach, ankle, leg, hip and ear. He wrote: \"Frankly, I had enjoyed the war.\" 🏴‍☠️\n\nAdrian Carton de Wiart lost an eye, tore off his own fingers when a doctor refused, won the Victoria Cross, survived two plane crashes — and at 61 tried to escape an Italian POW camp five times.\n\nHardest soldier who ever lived?\n\n#history #ww1 #ww2 #cartondewiart #truestory #historytok #soldier #legend",
+    "facebook": "He was shot in the face, the head, the stomach, the ankle, the leg, the hip and the ear. He wrote: \"Frankly, I had enjoyed the war.\"\n\nAdrian Carton de Wiart dropped out of Oxford at 19, lied about his name and age and went to fight in South Africa — shot in the stomach. In 1914, in Somaliland, he was shot twice in the face and lost his left eye. On the Western Front his left hand was shattered in 1915; when the doctor refused to cut off his fingers, he pulled them off himself. At the Somme he was shot through the skull, at Passchendaele through the hip, then the leg, then the ear. In 1916, when three other commanders went down, he took over all their men and held the line — the Victoria Cross.\n\nIn the next war, in his sixties, his bomber crashed into the sea off Libya. He swam ashore and was captured by the Italians. He tried to escape five times, once spent seven months digging a tunnel, and stayed free for eight days disguised as a peasant — with one eye, one hand and not a word of Italian.\n\nHe died peacefully in Ireland at 83. One historian called him \"an elegant pirate\".\n\n🏴‍☠️ #History #WW1 #WW2 #CartonDeWiart",
+    "youtube": {
+      "title": "The Unkillable Soldier: Lost an Eye, Tore Off His Own Fingers — \"I Enjoyed the War\" #Shorts",
+      "description": "He was shot in the face, the head, the stomach, the ankle, the leg, the hip and the ear. He wrote: \"Frankly, I had enjoyed the war.\"\n\nSir Adrian Carton de Wiart fought in the Boer War, both World Wars, lost his left eye and left hand (pulling off his own fingers when a doctor refused), won the Victoria Cross at the Somme in 1916, survived two plane crashes and, in his sixties, made five escape attempts from an Italian POW camp.\n\nSubscribe for more history that sounds made up.\n\nImages: public domain via Wikimedia Commons (Imperial War Museum, National Portrait Gallery, Sir William Orpen). Film: The Battle of the Somme (1916), public domain — illustrative. Music: It's a Long, Long Way to Tipperary, public domain. Sources: Wikipedia.\n\n#Shorts #History #WW1 #WW2 #CartonDeWiart\n\nKeywords: the unkillable soldier, Sir Adrian Carton de Wiart, Victoria Cross, WW1 and WW2 military history.",
+      "tags": [
+        "the unkillable soldier",
+        "unkillable soldier",
+        "adrian carton de wiart",
+        "sir adrian carton de wiart",
+        "carton de wiart",
+        "victoria cross",
+        "war hero",
+        "military history",
+        "war stories",
+        "ww1",
+        "world war 1",
+        "first world war",
+        "ww2",
+        "world war 2",
+        "boer war",
+        "british army",
+        "battle of the somme",
+        "toughest soldier",
+        "ww2 tales",
+        "history",
+        "history shorts",
+        "true story",
+        "history documentary",
+        "history explained",
+        "world history",
+        "weird history",
+        "history facts",
+        "legend"
+      ]
+    },
+    "pinned": "Hardest soldier who ever lived? Would YOU have gone back after losing an eye AND a hand? 🏴‍☠️🤔"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "total": 94.638,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "He was shot in the face, the head, the stomach, the ankle, the leg, the hip and the ear. He wrote: \"Frankly, I had enjoyed the war.\"",
+      "start": 0.4,
+      "end": 8.592
+    },
+    {
+      "id": "s2",
+      "show": "His name was Adrian Carton de Wiart. And he might be the hardest man in British history.",
+      "start": 9.192,
+      "end": 15.165
+    },
+    {
+      "id": "s3",
+      "show": "At 19, he dropped out of Oxford, lied about his name and age, and went to fight in South Africa. He was shot in the stomach.",
+      "start": 15.615,
+      "end": 24.533
+    },
+    {
+      "id": "s4",
+      "show": "In 1914, in Somaliland, he was shot twice in the face. He lost his left eye.",
+      "start": 24.933,
+      "end": 31.098
+    },
+    {
+      "id": "s5",
+      "show": "Then he went to the Western Front.",
+      "start": 31.498,
+      "end": 33.503
+    },
+    {
+      "id": "s6",
+      "show": "In 1915, his left hand was shattered. When the doctor refused to cut off his fingers, he pulled them off himself.",
+      "start": 33.853,
+      "end": 41.661
+    },
+    {
+      "id": "s7",
+      "show": "At the Somme, he was shot through the skull. At Passchendaele, the hip. Then the leg. Then the ear.",
+      "start": 42.161,
+      "end": 48.199
+    },
+    {
+      "id": "s8",
+      "show": "In 1916, when three other commanders went down, he took over all their men, and held the line. He won the Victoria Cross.",
+      "start": 48.649,
+      "end": 57.523
+    },
+    {
+      "id": "s9",
+      "show": "In the next war, he was in his sixties. His bomber crashed into the sea off Libya.",
+      "start": 58.023,
+      "end": 63.399
+    },
+    {
+      "id": "s10",
+      "show": "He swam ashore, and was captured by the Italians.",
+      "start": 63.749,
+      "end": 67.077
+    },
+    {
+      "id": "s11",
+      "show": "He tried to escape five times, and once spent seven months digging a tunnel.",
+      "start": 67.477,
+      "end": 72.171
+    },
+    {
+      "id": "s12",
+      "show": "He stayed free for eight days, disguised as a peasant. With one eye, one hand, and not a word of Italian.",
+      "start": 72.521,
+      "end": 79.369
+    },
+    {
+      "id": "s13",
+      "show": "He died peacefully in Ireland, at 83.",
+      "start": 79.869,
+      "end": 82.898
+    },
+    {
+      "id": "s14",
+      "show": "One historian described him as \"an elegant pirate\". With a black eye patch, and an empty sleeve.",
+      "start": 83.298,
+      "end": 89.591
+    },
+    {
+      "id": "end2",
+      "show": "Adrian never gave up. Don't give up on history. Subscribe.",
+      "start": 90.191,
+      "end": 94.138
+    }
+  ]
+}

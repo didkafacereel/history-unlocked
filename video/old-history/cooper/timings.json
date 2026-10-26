@@ -1,0 +1,101 @@
+{
+  "total": 97.265,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "In 1971, a man hijacked a plane, took $200,000, and jumped out into the night. Nobody ever found him.",
+      "start": 0.4,
+      "end": 9.829
+    },
+    {
+      "id": "s2",
+      "show": "The day before Thanksgiving, he paid cash for a ticket from Portland to Seattle, as \"Dan Cooper\".",
+      "start": 10.429,
+      "end": 16.68
+    },
+    {
+      "id": "s3",
+      "show": "Dark suit, black tie, raincoat. He ordered a bourbon, and handed a stewardess a note.",
+      "start": 17.08,
+      "end": 22.264
+    },
+    {
+      "id": "s4",
+      "show": "She thought it was his phone number, and dropped it in her purse.",
+      "start": 22.614,
+      "end": 26.027
+    },
+    {
+      "id": "s5",
+      "show": "He leaned over. \"Miss, you'd better look at that note. I have a bomb.\"",
+      "start": 26.427,
+      "end": 30.459
+    },
+    {
+      "id": "s6",
+      "show": "His briefcase was full of wires and red cylinders. He wanted $200,000, and four parachutes.",
+      "start": 31.059,
+      "end": 38.419
+    },
+    {
+      "id": "s7",
+      "show": "In Seattle, he swapped the passengers for the money, and ordered the plane back into the air.",
+      "start": 38.869,
+      "end": 44.523
+    },
+    {
+      "id": "s8",
+      "show": "Slow, low, with the rear stairs open. Two fighter jets followed, out of sight.",
+      "start": 44.923,
+      "end": 50.277
+    },
+    {
+      "id": "s9",
+      "show": "At about 8 p.m., a warning light came on. The stairs were down.",
+      "start": 50.727,
+      "end": 55.165
+    },
+    {
+      "id": "s10",
+      "show": "When the plane landed in Reno, he was gone. Somewhere over the forests of Washington, he had jumped.",
+      "start": 55.665,
+      "end": 62.129
+    },
+    {
+      "id": "s11",
+      "show": "The FBI searched for years. They found nothing. Not a body, not a parachute.",
+      "start": 62.629,
+      "end": 67.621
+    },
+    {
+      "id": "s12",
+      "show": "Then, in 1980, an eight-year-old boy was building a campfire on the banks of the Columbia River.",
+      "start": 68.071,
+      "end": 74.791
+    },
+    {
+      "id": "s13",
+      "show": "In the sand, he found rotting bundles of $20 bills. The serial numbers matched.",
+      "start": 75.141,
+      "end": 80.943
+    },
+    {
+      "id": "s14",
+      "show": "The rest of the money has never been found. Neither has the man.",
+      "start": 81.443,
+      "end": 85.198
+    },
+    {
+      "id": "s15",
+      "show": "It is still the only unsolved hijacking in American aviation. So who was D. B. Cooper?",
+      "start": 85.648,
+      "end": 92.325
+    },
+    {
+      "id": "end2",
+      "show": "Cooper vanished into the night. Don't vanish on us. Subscribe.",
+      "start": 92.925,
+      "end": 96.765
+    }
+  ]
+}

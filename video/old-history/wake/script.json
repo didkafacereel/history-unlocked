@@ -1,0 +1,396 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "mode": "channel",
+  "date": "2026-10-11",
+  "slug": "wake",
+  "title": "Nancy Wake — the White Mouse the Gestapo couldn't catch",
+  "category": "Military & Conflict",
+  "sources": [
+    "Wikipedia: Nancy Wake (30 August 1912 – 7 August 2011) — born in Wellington, New Zealand, grew up in Sydney; journalist in Europe in the 1930s; married French industrialist Henri Fiocca in 1939 and lived in Marseille; after the fall of France in 1940 she became a courier for the Pat O'Leary escape line, helping Allied airmen escape to Spain; the Gestapo called her the 'White Mouse' for her ability to elude capture, and tapped her telephone and intercepted her mail; her own words on passing German posts: 'Do you want to search me?'; when the network was betrayed she fled over the Pyrenees to Spain in 1943; her husband stayed behind and was captured, tortured and executed by the Gestapo — she only learned of it after the war and blamed herself; joined the SOE in Britain; parachuted into the Auvergne on 29–30 April 1944 and was found tangled in a tree; organised parachuted arms and money for the maquis, dropped nearly every other night; she said she cycled 500 km in 72 hours to reach a radio after her radio operator abandoned his codes; she said she killed an SS sentry with her bare hands; many stories about her come from her autobiography The White Mouse and are not verifiable from other sources; awarded the George Medal, the US Medal of Freedom, the Croix de Guerre three times and the Légion d'honneur; refused Australian medals for decades, saying the government 'could stick their medals where the monkey stuck his nuts'; died 2011 aged 98; her ashes were scattered near Montluçon in central France",
+    "Photos (public domain, Wikimedia Commons / Australian War Memorial / State Library of New South Wales / US National Archives / Imperial War Museum): Nancy Wake, 1945 and 1951; maquis fighters in France, 1944; a Frenchman weeping as German troops enter Paris, 14 June 1940; German troops in Paris, 1940; an RAF supply drop to the Resistance; the liberation of Paris, August 1944",
+    "Archive film (public domain): 'La Libération de Paris, 1944', filmed clandestinely by Resistance cameramen, 16–26 August 1944 (watermark blurred) — illustrative, not Wake herself",
+    "Music: La Marseillaise — United States Navy Band, public domain (played twice with a crossfade)"
+  ],
+  "music": {
+    "track": "marseillaise-navy"
+  },
+  "highlight": [
+    "WHITE MOUSE",
+    "GESTAPO",
+    "TREE.",
+    "BARE HANDS",
+    "SEARCH ME?",
+    "FIVE HUNDRED",
+    "PYRENEES",
+    "MEDALS",
+    "STICK"
+  ],
+  "cover": {
+    "image": "wake-1945.jpg",
+    "focus": "50% 30%",
+    "kicker": "TRUE STORY",
+    "date": "FRANCE, 1940–1944",
+    "top": 1120,
+    "lines": [
+      "THE GESTAPO",
+      "CALLED HER",
+      "*THE WHITE MOUSE*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "The Gestapo called her the White Mouse. Every time they closed in, she slipped away.",
+      "show": "The Gestapo called her the White Mouse. Every time they closed in, she slipped away.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s2",
+      "say": "Her name was Nancy Wake, a girl from New Zealand, married to a rich Frenchman in Marseille.",
+      "show": "Her name was Nancy Wake, a girl from New Zealand, married to a rich Frenchman in Marseille.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "When Germany took France in nineteen forty, she began smuggling Allied airmen out to Spain.",
+      "show": "When Germany took France in 1940, she began smuggling Allied airmen out to Spain.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "She flirted her way past German checkpoints. In her words: do you want to search me?",
+      "show": "She flirted her way past German checkpoints. In her words: \"Do you want to search me?\"",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s5",
+      "say": "By nineteen forty-three, the Gestapo was tapping her phone. She fled over the Pyrenees.",
+      "show": "By 1943, the Gestapo was tapping her phone. She fled over the Pyrenees.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s6",
+      "say": "Her husband stayed behind. The Gestapo tortured him, and killed him. She didn't find out until the war was over.",
+      "show": "Her husband stayed behind. The Gestapo tortured him, and killed him. She didn't find out until the war was over.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s7",
+      "say": "In Britain, she trained as a secret agent. In April nineteen forty-four, she parachuted back into France.",
+      "show": "In Britain, she trained as a secret agent. In April 1944, she parachuted back into France.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s8",
+      "say": "She landed tangled in a tree.",
+      "show": "She landed tangled in a tree.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s9",
+      "say": "Then she ran the money and weapons for the Resistance, dropped by plane almost every other night.",
+      "show": "Then she ran the money and weapons for the Resistance, dropped by plane almost every other night.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s10",
+      "say": "She said she once cycled five hundred kilometres in three days, to reach a radio.",
+      "show": "She said she once cycled 500 kilometres in three days, to reach a radio.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s11",
+      "say": "And she said she killed an SS sentry with her bare hands.",
+      "show": "And she said she killed an SS sentry with her bare hands.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s12",
+      "say": "Some of it only comes from her own memoir. But the medals are real.",
+      "show": "Some of it only comes from her own memoir. But the medals are real.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s13",
+      "say": "Britain, America and France all decorated her.",
+      "show": "Britain, America and France all decorated her.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s14",
+      "say": "When Australia offered medals decades later, she told them where they could stick them.",
+      "show": "When Australia offered medals decades later, she told them where they could stick them.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s15",
+      "say": "Nancy Wake died in twenty eleven, aged ninety-eight. Her ashes were scattered in the French hills where she fought.",
+      "show": "Nancy Wake died in 2011, aged 98. Her ashes were scattered in the French hills where she fought.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "cta": {
+    "story": "They never caught the White Mouse.",
+    "say": "The Gestapo never caught her. Don't let her story slip away. Subscribe.",
+    "pill": "CATCH THE NEXT",
+    "note": "more true stories that sound made up"
+  },
+  "endImage": "wake-1945.jpg",
+  "imageCredit": "Australian War Memorial; State Library of New South Wales; US National Archives; Imperial War Museum via Wikimedia Commons",
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook",
+      "image": "wake-1945.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "Nancy Wake, 1945"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.5",
+      "enter": "cut",
+      "clip": "film-ffi.mp4",
+      "credit": "Resistance fighters, Paris 1944 · archive film, illustrative"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "wake-1945.jpg",
+      "focus": "50% 25%",
+      "kicker": "The White Mouse",
+      "date": "NANCY WAKE",
+      "year": "1940",
+      "place": "Marseille, France"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "frenchman-weeps.jpg",
+      "focus": "45% 40%",
+      "move": "in",
+      "fact": "A Frenchman weeps as German troops enter Paris, 14 June 1940"
+    },
+    {
+      "type": "photo",
+      "from": "s3@0.55",
+      "enter": "cut",
+      "image": "paris-parade.jpg",
+      "focus": "50% 50%",
+      "move": "left",
+      "fact": "German troops in Paris, 1940"
+    },
+    {
+      "type": "statement",
+      "from": "s4",
+      "enter": "cut",
+      "image": "wake-1951.jpg",
+      "focus": "50% 30%",
+      "kicker": "At German checkpoints",
+      "main": {
+        "text": "\"Do you want to *search me?*\"",
+        "at": "s4@0.6"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s5",
+      "enter": "cut",
+      "image": "wake-1945.jpg",
+      "focus": "50% 85%",
+      "kicker": "1943",
+      "main": {
+        "text": "Over *the Pyrenees*.",
+        "at": "s5@0.7"
+      },
+      "fact": {
+        "text": "The Gestapo was tapping her phone",
+        "at": "s5@0.3"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s6",
+      "enter": "cut",
+      "image": "paris-parade.jpg",
+      "focus": "70% 50%",
+      "kicker": "Henri Fiocca, her husband",
+      "main": {
+        "text": "Tortured and *killed*.",
+        "at": "s6@0.4"
+      },
+      "fact": {
+        "text": "She only found out after the war",
+        "at": "s6@0.75"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s7",
+      "enter": "cut",
+      "image": "supply-drop.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Supplies parachuted to the Resistance, 1944"
+    },
+    {
+      "type": "statement",
+      "from": "s7@0.6",
+      "enter": "cut",
+      "image": "wake-1945.jpg",
+      "focus": "50% 60%",
+      "kicker": "SOE agent \"Hélène\"",
+      "main": {
+        "text": "Back into *France*.",
+        "at": "s7@0.75"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s8",
+      "enter": "cut",
+      "image": "maquis-savoie.jpg",
+      "focus": "50% 50%",
+      "kicker": "Auvergne, 29–30 April 1944",
+      "main": {
+        "text": "Tangled *in a tree*.",
+        "at": "s8@0.5"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s9",
+      "enter": "cut",
+      "image": "maquis-fighters.jpg",
+      "focus": "60% 45%",
+      "move": "in",
+      "fact": "Maquis Resistance fighters, France"
+    },
+    {
+      "type": "photo",
+      "from": "s9@0.55",
+      "enter": "cut",
+      "image": "maquis-group.jpg",
+      "focus": "50% 50%",
+      "move": "left",
+      "fact": "A maquis group, 1944"
+    },
+    {
+      "type": "number",
+      "from": "s10",
+      "enter": "cut",
+      "image": "maquis-paris.jpg",
+      "focus": "50% 50%",
+      "label": "By bicycle, in three days — her account",
+      "value": 500,
+      "start": 0,
+      "suffix": " km",
+      "count": {
+        "from": "s10@0.3",
+        "to": "s10@0.7"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s11",
+      "enter": "cut",
+      "clip": "film-streetfight.mp4",
+      "credit": "Street fighting, Paris 1944 · archive film, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s11@0.5",
+      "enter": "cut",
+      "image": "wake-1945.jpg",
+      "focus": "50% 40%",
+      "main": {
+        "text": "With her *bare hands*.",
+        "at": "s11@0.7"
+      },
+      "fact": {
+        "text": "Her own account",
+        "at": "s11@0.85"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s12",
+      "enter": "cut",
+      "clip": "film-tank.mp4",
+      "credit": "Liberation of Paris, August 1944 · archive film"
+    },
+    {
+      "type": "film",
+      "from": "s13",
+      "enter": "cut",
+      "clip": "film-joy.mp4",
+      "credit": "Liberation of Paris, August 1944 · archive film"
+    },
+    {
+      "type": "photo",
+      "from": "s13@0.55",
+      "enter": "cut",
+      "image": "champs-elysees.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The Champs-Élysées, 26 August 1944"
+    },
+    {
+      "type": "statement",
+      "from": "s14",
+      "enter": "cut",
+      "image": "wake-1951.jpg",
+      "focus": "50% 30%",
+      "kicker": "To the Australian government",
+      "main": {
+        "text": "\"Stick your *medals*...\"",
+        "at": "s14@0.75"
+      }
+    },
+    {
+      "type": "portrait",
+      "from": "s15",
+      "enter": "fade",
+      "image": "wake-1945.jpg",
+      "focus": "50% 30%",
+      "kicker": "Nancy Wake",
+      "date": "1912 – 2011",
+      "line": {
+        "text": "The *White Mouse*.",
+        "at": "s15@0.5"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "The Gestapo called her the White Mouse. Every time they closed in, she slipped away. 🇫🇷\n\nNancy Wake smuggled Allied airmen out of France, parachuted back in as a secret agent, landed in a tree — and said she killed an SS sentry with her bare hands. When Australia offered her medals, she told them where to stick them.\n\nGreatest spy of WWII?\n\n#history #ww2 #nancywake #whitemouse #frenchresistance #truestory #historytok #spy",
+    "facebook": "The Gestapo called her the White Mouse. Every time they closed in, she slipped away.\n\nNancy Wake, a girl from New Zealand, was married to a rich Frenchman in Marseille when Germany took France in 1940. She began smuggling Allied airmen out to Spain, flirting her way past German checkpoints — in her words: \"Do you want to search me?\"\n\nBy 1943 the Gestapo was tapping her phone, and she fled over the Pyrenees. Her husband stayed behind; the Gestapo tortured and killed him. She didn't find out until the war was over.\n\nIn Britain she trained as an SOE agent, and in April 1944 parachuted back into France — landing tangled in a tree. She ran the money and weapons for the Resistance, dropped by plane almost every other night. She said she once cycled 500 km in three days to reach a radio, and that she killed an SS sentry with her bare hands. Some of it comes only from her own memoir — but the medals are real: Britain, America and France all decorated her.\n\nWhen Australia offered medals decades later, she told them where they could stick them. She died in 2011, aged 98, and her ashes were scattered in the French hills where she fought.\n\n🇫🇷 #History #WW2 #NancyWake #FrenchResistance",
+    "youtube": {
+      "title": "The Gestapo Called Her the White Mouse | Nancy Wake #Shorts",
+      "description": "The Gestapo called her the White Mouse. Every time they closed in, she slipped away.\n\nNancy Wake smuggled Allied airmen out of occupied France, escaped over the Pyrenees, lost her husband to the Gestapo, and parachuted back in 1944 as an SOE agent — landing in a tree. She ran arms and money for the Resistance and, by her own account, cycled 500 km in three days and killed an SS sentry with her bare hands. Britain, the US and France decorated her; Australia's later offer she famously refused.\n\nSubscribe for more history that sounds made up.\n\nImages: public domain via Wikimedia Commons (Australian War Memorial, State Library of NSW, US National Archives, Imperial War Museum). Film: La Libération de Paris (1944), public domain — illustrative. Music: La Marseillaise — United States Navy Band, public domain. Sources: Wikipedia.\n\n#Shorts #History #WW2 #NancyWake #FrenchResistance",
+      "tags": [
+        "history",
+        "ww2",
+        "Nancy Wake",
+        "White Mouse",
+        "French Resistance",
+        "SOE",
+        "Gestapo",
+        "spy",
+        "ww2 tales",
+        "ww2 stories",
+        "military history",
+        "history documentary",
+        "history explained",
+        "world history",
+        "World War 2",
+        "true story",
+        "history shorts",
+        "women in history"
+      ]
+    },
+    "pinned": "Greatest spy of World War II? Do you believe the bare-hands story? 🇫🇷🤔"
+  }
+}

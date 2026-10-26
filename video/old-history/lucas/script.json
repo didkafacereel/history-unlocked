@@ -1,0 +1,427 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "mode": "channel",
+  "date": "2026-10-15",
+  "slug": "lucas",
+  "title": "Jack Lucas — the 14-year-old who threw himself on two grenades",
+  "category": "Military & Conflict",
+  "sources": [
+    "Wikipedia: Jacklyn H. 'Jack' Lucas (14 February 1928 – 5 June 2008) — enlisted in the Marine Corps Reserve on 8 August 1942 aged 14, forging his mother's signature on the consent form, claiming to be 17 and bribing a notary; he was 5 ft 8 and 180 lb; in January 1945 he walked out of camp at Pearl Harbor and stowed away on USS Deuel, carrying Marines to Iwo Jima; on 8 February, the day before he would have been listed as a deserter, he turned himself in and was assigned as a rifleman, reduced in rank to private; he turned 17 at sea on 14 February; landed on Iwo Jima on 19 February; on 20 February, in a trench with three Marines, two Japanese grenades landed among them; he jammed one into the volcanic ash with his rifle and covered it with his body, and pulled the other beneath him; one exploded, the other did not; his three comrades were unharmed and left, believing him dead; Marines from another unit found him and called corpsmen; he underwent 21 surgeries and carried about 200 pieces of metal in his body for life, which set off airport metal detectors; President Truman presented the Medal of Honor on 5 October 1945; youngest Marine and youngest serviceman of WWII to receive it; in 1961 he joined the Army as a paratrooper to conquer his fear of heights and reportedly survived a training jump in which both parachutes malfunctioned; died 2008; the destroyer USS Jack H. Lucas was commissioned in 2023",
+    "Photos (public domain, Wikimedia Commons / US Marine Corps / US Navy / Library of Congress): PFC Jack Lucas with the Medal of Honor; Marines training at Parris Island; the Iwo Jima landings, February 1945; Mount Suribachi; Raising the Flag on Iwo Jima (Joe Rosenthal); Lucas's funeral, 2008 (USMC)",
+    "Archive film (public domain): 'To the Shores of Iwo Jima' (US Navy, Marine Corps and Coast Guard, 1945, colour); Marines evacuated from Iwo Jima, February 1945; the flag raising on Mount Suribachi (colour) — illustrative, not Lucas himself",
+    "Music: Marines' Hymn (slow) — United States Marine Band, public domain"
+  ],
+  "music": {
+    "track": "marines-hymn"
+  },
+  "highlight": [
+    "FOURTEEN.",
+    "STOWED AWAY",
+    "TWO GRENADES",
+    "BOTH",
+    "DEAD.",
+    "TWO HUNDRED",
+    "SEVENTEEN.",
+    "YOUNGEST",
+    "MEDAL",
+    "BOTH PARACHUTES"
+  ],
+  "cover": {
+    "image": "lucas-portrait.jpg",
+    "focus": "50% 25%",
+    "kicker": "TRUE STORY",
+    "date": "IWO JIMA, 1945",
+    "top": 1120,
+    "lines": [
+      "AGE 17.",
+      "*TWO GRENADES.*",
+      "HE LIVED."
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "Two grenades landed in the trench. A seventeen-year-old Marine threw himself on both of them.",
+      "show": "Two grenades landed in the trench. A 17-year-old Marine threw himself on both of them.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s2",
+      "say": "His name was Jack Lucas. And he had been lying about his age since he was fourteen.",
+      "show": "His name was Jack Lucas. And he had been lying about his age since he was fourteen.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s3",
+      "say": "In nineteen forty-two, he forged his mother's signature, bribed a notary, and joined the Marines.",
+      "show": "In 1942, he forged his mother's signature, bribed a notary, and joined the Marines.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "They kept him far from the fighting, in Hawaii. So he stowed away on a ship heading for Iwo Jima.",
+      "show": "They kept him far from the fighting, in Hawaii. So he stowed away on a ship heading for Iwo Jima.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s5",
+      "say": "He turned himself in at sea, one day before he'd have been listed as a deserter. They handed him a rifle.",
+      "show": "He turned himself in at sea, one day before he'd have been listed as a deserter. They handed him a rifle.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s6",
+      "say": "He turned seventeen on the way. Five days later, he landed on Iwo Jima.",
+      "show": "He turned 17 on the way. Five days later, he landed on Iwo Jima.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s7",
+      "say": "On the second day, he and three Marines dived into a trench, under enemy fire.",
+      "show": "On the second day, he and three Marines dived into a trench, under enemy fire.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s8",
+      "say": "Two grenades landed at their feet.",
+      "show": "Two grenades landed at their feet.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s9",
+      "say": "Lucas shoved one into the volcanic ash, covered it with his body, and pulled the other one under him.",
+      "show": "Lucas shoved one into the volcanic ash, covered it with his body, and pulled the other one under him.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s10",
+      "say": "One exploded. The other never went off.",
+      "show": "One exploded. The other never went off.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s11",
+      "say": "His three friends walked away without a scratch. They thought he was dead.",
+      "show": "His three friends walked away without a scratch. They thought he was dead.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s12",
+      "say": "He wasn't. It took twenty-one operations, and about two hundred pieces of metal stayed in his body for life.",
+      "show": "He wasn't. It took 21 operations, and about 200 pieces of metal stayed in his body for life.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s13",
+      "say": "They set off airport metal detectors for the rest of his life.",
+      "show": "They set off airport metal detectors for the rest of his life.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s14",
+      "say": "In October nineteen forty-five, President Truman gave him the Medal of Honor. The youngest Marine to receive it in the war.",
+      "show": "In October 1945, President Truman gave him the Medal of Honor. The youngest Marine to receive it in the war.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s15",
+      "say": "Years later, he became a paratrooper. On one jump, both his parachutes reportedly failed. He survived that too.",
+      "show": "Years later, he became a paratrooper. On one jump, both his parachutes reportedly failed. He survived that too.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "cta": {
+    "story": "Some heroes are just kids.",
+    "say": "Jack never backed down. Don't scroll past the next one. Subscribe.",
+    "pill": "SEMPER FI",
+    "note": "more true stories that sound made up"
+  },
+  "endImage": "lucas-portrait.jpg",
+  "imageCredit": "US Marine Corps; US Navy; Library of Congress; Joe Rosenthal (Associated Press, public domain) via Wikimedia Commons",
+  "scenes": [
+    {
+      "type": "film",
+      "note": "hook",
+      "clip": "film-climb.mp4",
+      "credit": "Iwo Jima, February 1945 · archive film"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.35",
+      "enter": "cut",
+      "clip": "film-blast.mp4",
+      "credit": "Iwo Jima, February 1945 · archive film"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.6",
+      "enter": "cut",
+      "image": "lucas-portrait.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "Private First Class Jack Lucas"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "lucas-portrait.jpg",
+      "focus": "50% 20%",
+      "kicker": "The boy Marine",
+      "date": "JACK LUCAS",
+      "year": "1945",
+      "place": "US Marine Corps"
+    },
+    {
+      "type": "number",
+      "from": "s2@0.6",
+      "enter": "cut",
+      "image": "parris-island.jpg",
+      "focus": "50% 50%",
+      "label": "His age when he enlisted",
+      "value": 14,
+      "start": 0,
+      "count": {
+        "from": "s2@0.65",
+        "to": "s2@0.95"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "parris-island.jpg",
+      "focus": "40% 50%",
+      "move": "left",
+      "fact": "Marines training at Parris Island, c. 1942"
+    },
+    {
+      "type": "statement",
+      "from": "s3@0.5",
+      "enter": "cut",
+      "image": "lucas-portrait.jpg",
+      "focus": "50% 70%",
+      "kicker": "August 1942",
+      "main": {
+        "text": "A forged signature. *A bribe.*",
+        "at": "s3@0.55"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s4",
+      "enter": "cut",
+      "clip": "film-battleship.mp4",
+      "credit": "The fleet off Iwo Jima, 1945 · archive film"
+    },
+    {
+      "type": "film",
+      "from": "s4@0.55",
+      "enter": "cut",
+      "clip": "film-wakes.mp4",
+      "credit": "Landing craft head for Iwo Jima · archive film"
+    },
+    {
+      "type": "statement",
+      "from": "s5",
+      "enter": "cut",
+      "image": "suribachi.jpg",
+      "focus": "50% 40%",
+      "kicker": "USS Deuel, February 1945",
+      "main": {
+        "text": "A stowaway. *Then a rifleman.*",
+        "at": "s5@0.6"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s6",
+      "enter": "cut",
+      "clip": "film-young-marine.mp4",
+      "credit": "Marines on the way in · archive film"
+    },
+    {
+      "type": "film",
+      "from": "s6@0.5",
+      "enter": "cut",
+      "clip": "film-craft.mp4",
+      "credit": "Iwo Jima, 19 February 1945 · archive film"
+    },
+    {
+      "type": "photo",
+      "from": "s7",
+      "enter": "cut",
+      "image": "iwo-landing.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Marines landing on Iwo Jima, February 1945"
+    },
+    {
+      "type": "film",
+      "from": "s7@0.5",
+      "enter": "cut",
+      "clip": "film-sand.mp4",
+      "credit": "Marines pinned down in the volcanic ash · archive film"
+    },
+    {
+      "type": "statement",
+      "from": "s8",
+      "enter": "cut",
+      "image": "iwo-sand.jpg",
+      "focus": "50% 50%",
+      "main": {
+        "text": "*Two* grenades.",
+        "at": "s8@0.3"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s9",
+      "enter": "cut",
+      "clip": "film-foxhole.mp4",
+      "credit": "Iwo Jima, February 1945 · archive film, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s9@0.55",
+      "enter": "cut",
+      "image": "iwo-sand.jpg",
+      "focus": "70% 60%",
+      "main": {
+        "text": "He pulled *both* under him.",
+        "at": "s9@0.65"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s10",
+      "enter": "cut",
+      "clip": "film-smoke.mp4",
+      "credit": "Iwo Jima, February 1945 · archive film"
+    },
+    {
+      "type": "film",
+      "from": "s11",
+      "enter": "cut",
+      "clip": "film-wounded.mp4",
+      "credit": "Wounded Marines evacuated, Iwo Jima, February 1945 · archive film"
+    },
+    {
+      "type": "number",
+      "from": "s12",
+      "enter": "cut",
+      "image": "lucas-portrait.jpg",
+      "focus": "50% 60%",
+      "label": "Pieces of metal left in his body",
+      "value": 200,
+      "start": 0,
+      "prefix": "~",
+      "count": {
+        "from": "s12@0.5",
+        "to": "s12@0.9"
+      },
+      "sub": {
+        "text": "after 21 operations",
+        "at": "s12@0.9"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s13",
+      "enter": "cut",
+      "image": "iwo-landing.jpg",
+      "focus": "30% 50%",
+      "main": {
+        "text": "He set off *metal detectors*.",
+        "at": "s13@0.5"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s14",
+      "enter": "cut",
+      "clip": "film-flag.mp4",
+      "credit": "The flag on Mount Suribachi, February 1945 · archive film"
+    },
+    {
+      "type": "photo",
+      "from": "s14@0.4",
+      "enter": "cut",
+      "image": "lucas-portrait.jpg",
+      "focus": "50% 45%",
+      "move": "in",
+      "fact": "Jack Lucas with the Medal of Honor, 1945"
+    },
+    {
+      "type": "statement",
+      "from": "s14@0.7",
+      "enter": "cut",
+      "image": "flag-raising.jpg",
+      "focus": "40% 40%",
+      "kicker": "Medal of Honor, 5 October 1945",
+      "main": {
+        "text": "The *youngest* Marine.",
+        "at": "s14@0.75"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s15",
+      "enter": "cut",
+      "image": "parris-island.jpg",
+      "focus": "70% 50%",
+      "kicker": "US Army, 1960s",
+      "main": {
+        "text": "Both parachutes *failed*.",
+        "at": "s15@0.55"
+      },
+      "fact": {
+        "text": "as reported",
+        "at": "s15@0.7"
+      }
+    },
+    {
+      "type": "portrait",
+      "from": "s15@0.82",
+      "enter": "fade",
+      "image": "lucas-portrait.jpg",
+      "focus": "50% 30%",
+      "kicker": "Jack Lucas",
+      "date": "1928 – 2008",
+      "line": {
+        "text": "He survived *everything*.",
+        "at": "s15@0.9"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "Two grenades landed in the trench. A 17-year-old Marine threw himself on both. 💥\n\nJack Lucas lied his way into the Marines at 14, stowed away on a ship to Iwo Jima, and covered two grenades with his body. One exploded. He lived — with 200 pieces of metal inside him — and got the Medal of Honor.\n\nHero or madman?\n\n#history #ww2 #iwojima #marines #medalofhonor #truestory #historytok #hero",
+    "facebook": "Two grenades landed in the trench. A 17-year-old Marine threw himself on both of them.\n\nJack Lucas had been lying about his age since he was fourteen. In 1942 he forged his mother's signature, bribed a notary and joined the Marines. They kept him far from the fighting, in Hawaii — so he stowed away on a ship heading for Iwo Jima. He turned himself in at sea, one day before he'd have been listed as a deserter, and they handed him a rifle. He turned 17 on the way.\n\nOn his second day on Iwo Jima, he and three Marines dived into a trench under fire. Two grenades landed at their feet. Lucas shoved one into the volcanic ash, covered it with his body, and pulled the other under him. One exploded; the other never went off. His three friends walked away without a scratch — they thought he was dead.\n\nHe wasn't. It took 21 operations, and about 200 pieces of metal stayed in his body for life, setting off airport metal detectors. In October 1945 President Truman gave him the Medal of Honor — the youngest Marine to receive it in the war. Years later he became an Army paratrooper; on one jump, both his parachutes reportedly failed. He survived that too.\n\n💥 #History #WW2 #IwoJima #Marines",
+    "youtube": {
+      "title": "He Threw Himself on TWO Grenades at 17 — and Lived | Jack Lucas #Shorts",
+      "description": "Two grenades landed in the trench. A 17-year-old Marine threw himself on both of them.\n\nJack Lucas joined the Marines at 14 with a forged signature, stowed away on a ship to Iwo Jima, and on 20 February 1945 covered two Japanese grenades with his body to save three comrades. One exploded; he survived 21 operations with about 200 pieces of metal in his body, and President Truman gave him the Medal of Honor — the youngest Marine to receive it in WWII.\n\nSubscribe for more history that sounds made up.\n\nImages: public domain via Wikimedia Commons (US Marine Corps, US Navy, Library of Congress; Joe Rosenthal). Film: To the Shores of Iwo Jima (1945) and Iwo Jima footage, public domain — illustrative. Music: Marines' Hymn — United States Marine Band, public domain. Sources: Wikipedia.\n\n#Shorts #History #WW2 #IwoJima #Marines",
+      "tags": [
+        "history",
+        "ww2",
+        "Jack Lucas",
+        "Iwo Jima",
+        "Marines",
+        "Medal of Honor",
+        "grenade",
+        "youngest Marine",
+        "ww2 tales",
+        "ww2 stories",
+        "military history",
+        "history documentary",
+        "history explained",
+        "world history",
+        "true story",
+        "history shorts",
+        "hero",
+        "US Marine Corps"
+      ]
+    },
+    "pinned": "Hero or madman? Would YOU have jumped on those grenades at 17? 💥🤔"
+  }
+}

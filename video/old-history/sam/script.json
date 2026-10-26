@@ -1,0 +1,438 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "mode": "channel",
+  "date": "2026-10-20",
+  "slug": "sam",
+  "title": "Unsinkable Sam — the cat who survived three sinkings (or did he?)",
+  "category": "Military & Conflict",
+  "sources": [
+    "Wikipedia: Unsinkable Sam (Oscar/Oskar; before 1941 – 1955) — ship's cat who purportedly served with both the Kriegsmarine and the Royal Navy and survived the sinking of three ships in 1941: the battleship Bismarck, the destroyer HMS Cossack and the carrier HMS Ark Royal. Contemporary 1941 reports after Ark Royal's sinking (14 November 1941, one man killed) identify a black cat 'Oscar', found floating on a plank, said to be formerly the pet of Bismarck's crew; there is no firm evidence linking him to Bismarck or Cossack; pictures exist of two different cats identified as Oscar; Ludovic Kennedy's account of the Bismarck sinking does not mention him. The popular version: Bismarck sank on 27 May 1941 (only 115 of over 2,100 crew survived); Oscar was found on a board by HMS Cossack, whose crew named him from the signal flag 'O' for 'man overboard'; Cossack was torpedoed by U-563 on 24 October 1941 (159 killed) and sank; Ark Royal was torpedoed by U-81 and sank 30 miles from Gibraltar; Sam was found clinging to a plank, 'angry but quite unharmed'. He spent the rest of the war in a sailors' home in Belfast and died in 1955.",
+    "Photos (public domain, Wikimedia Commons / Imperial War Museum / Royal Navy): portrait of Oscar, 'cat from the German ship Bismarck'; Bismarck in Grimstadfjord, under fire and sinking, and her survivors, May 1941; HMS Rodney firing; HMS Cossack (F03); the sinking of HMS Ark Royal, November 1941",
+    "Archive film (public domain / CC0): 'Battle in Atlantic between British Navy and Bismarck' (1941); Universal Newsreel — a torpedoed tanker, 1942 — illustrative",
+    "Music: Rule, Britannia! — United States Army Strings, public domain"
+  ],
+  "music": {
+    "track": "rule-britannia"
+  },
+  "highlight": [
+    "THREE",
+    "BISMARCK",
+    "COSSACK",
+    "ARK ROYAL",
+    "CAT",
+    "PLANK",
+    "ANGRY",
+    "UNSINKABLE",
+    "LEGEND"
+  ],
+  "cover": {
+    "image": "oscar.jpg",
+    "focus": "50% 35%",
+    "kicker": "LEGEND OR TRUE?",
+    "date": "1941",
+    "top": 1120,
+    "lines": [
+      "3 SHIPS SANK.",
+      "*THE CAT*",
+      "DIDN'T."
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "In nineteen forty-one, three warships sank in six months. One sailor survived all three. He was a cat.",
+      "show": "In 1941, three warships sank in six months. One sailor survived all three. He was a cat.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s2",
+      "say": "At least, that's what the Royal Navy said. They called him Unsinkable Sam.",
+      "show": "At least, that's what the Royal Navy said. They called him Unsinkable Sam.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s3",
+      "say": "The story begins on the German battleship Bismarck, the most feared ship in the Atlantic.",
+      "show": "The story begins on the German battleship Bismarck, the most feared ship in the Atlantic.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "In May nineteen forty-one, the Royal Navy hunted her down and sank her. Of more than two thousand men, only a hundred and fifteen survived.",
+      "show": "In May 1941, the Royal Navy hunted her down and sank her. Of more than 2,000 men, only 115 survived.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s5",
+      "say": "Hours later, a British destroyer, HMS Cossack, found a black and white cat floating on a plank.",
+      "show": "Hours later, a British destroyer, HMS Cossack, found a black and white cat floating on a plank.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s6",
+      "say": "They named him Oscar, after the signal flag for man overboard.",
+      "show": "They named him Oscar, after the signal flag for \"man overboard\".",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s7",
+      "say": "Five months later, a German submarine torpedoed Cossack. A hundred and fifty-nine men died. The ship sank. The cat lived.",
+      "show": "Five months later, a German submarine torpedoed Cossack. 159 men died. The ship sank. The cat lived.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s8",
+      "say": "So they moved him to the aircraft carrier Ark Royal, the ship that had helped sink Bismarck.",
+      "show": "So they moved him to the aircraft carrier Ark Royal, the ship that had helped sink Bismarck.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s9",
+      "say": "Three weeks later, Ark Royal was torpedoed too.",
+      "show": "Three weeks later, Ark Royal was torpedoed too.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s10",
+      "say": "Rescuers found him clinging to a plank. Angry, but quite unharmed.",
+      "show": "Rescuers found him clinging to a plank. \"Angry, but quite unharmed.\"",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s11",
+      "say": "The Navy decided that was enough. Sam retired to a sailors' home in Belfast, and lived until nineteen fifty-five.",
+      "show": "The Navy decided that was enough. Sam retired to a sailors' home in Belfast, and lived until 1955.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s12",
+      "say": "But here's the catch. A cat named Oscar really was rescued from Ark Royal. The Bismarck part, nobody can prove.",
+      "show": "But here's the catch. A cat named Oscar really was rescued from Ark Royal. The Bismarck part, nobody can prove.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s13",
+      "say": "And there are photos of two different cats, both called Oscar.",
+      "show": "And there are photos of two different cats, both called Oscar.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s14",
+      "say": "So was he the luckiest cat in history? Or just the best sea story the Navy ever told?",
+      "show": "So was he the luckiest cat in history? Or just the best sea story the Navy ever told?",
+      "pauseAfter": 0.6
+    }
+  ],
+  "cta": {
+    "story": "Nine lives. Three ships.",
+    "say": "Sam always landed on his feet. Land on our channel. Subscribe.",
+    "pill": "ALL ABOARD",
+    "note": "more true stories that sound made up"
+  },
+  "endImage": "oscar.jpg",
+  "imageCredit": "Imperial War Museum; Royal Navy official photographers; National Maritime Museum via Wikimedia Commons",
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook",
+      "image": "oscar.jpg",
+      "focus": "50% 35%",
+      "move": "in",
+      "fact": "Oscar, 'the cat from the Bismarck' (portrait)"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.25",
+      "enter": "cut",
+      "image": "bismarck-fjord.jpg",
+      "focus": "55% 50%",
+      "move": "left",
+      "fact": "Bismarck, May 1941"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.42",
+      "enter": "cut",
+      "image": "cossack.jpg",
+      "focus": "50% 50%",
+      "move": "left",
+      "fact": "HMS Cossack"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.58",
+      "enter": "cut",
+      "image": "laforey.jpg",
+      "focus": "50% 50%",
+      "move": "left",
+      "fact": "HMS Ark Royal, November 1941"
+    },
+    {
+      "type": "statement",
+      "from": "s1@0.8",
+      "enter": "cut",
+      "image": "oscar.jpg",
+      "focus": "50% 40%",
+      "main": {
+        "text": "He was *a cat*.",
+        "at": "s1@0.85"
+      }
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "oscar.jpg",
+      "focus": "50% 30%",
+      "kicker": "Ship's cat",
+      "date": "UNSINKABLE SAM",
+      "year": "1941",
+      "place": "Kriegsmarine · Royal Navy"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "bismarck-fjord.jpg",
+      "focus": "60% 50%",
+      "move": "in",
+      "fact": "Bismarck in a Norwegian fjord, May 1941"
+    },
+    {
+      "type": "film",
+      "from": "s4",
+      "enter": "cut",
+      "clip": "film-battleship.mp4",
+      "credit": "The hunt for Bismarck, May 1941 · archive film"
+    },
+    {
+      "type": "photo",
+      "from": "s4@0.35",
+      "enter": "cut",
+      "image": "rodney.jpg",
+      "focus": "50% 50%",
+      "move": "left",
+      "fact": "HMS Rodney firing on Bismarck, 27 May 1941"
+    },
+    {
+      "type": "number",
+      "from": "s4@0.6",
+      "enter": "cut",
+      "image": "bismarck-sinking.jpg",
+      "focus": "60% 50%",
+      "label": "Bismarck survivors, out of 2,000+",
+      "value": 115,
+      "start": 0,
+      "count": {
+        "from": "s4@0.65",
+        "to": "s4@0.95"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s5",
+      "enter": "cut",
+      "image": "bismarck-survivors.jpg",
+      "focus": "50% 40%",
+      "move": "in",
+      "fact": "Bismarck survivors pulled from the sea, 27 May 1941"
+    },
+    {
+      "type": "photo",
+      "from": "s5@0.5",
+      "enter": "cut",
+      "image": "cossack.jpg",
+      "focus": "40% 50%",
+      "move": "in",
+      "fact": "HMS Cossack"
+    },
+    {
+      "type": "statement",
+      "from": "s6",
+      "enter": "cut",
+      "image": "oscar.jpg",
+      "focus": "50% 60%",
+      "kicker": "Signal flag O",
+      "main": {
+        "text": "\"*Man overboard*.\"",
+        "at": "s6@0.6"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s7",
+      "enter": "cut",
+      "clip": "film-burning.mp4",
+      "credit": "A torpedoed ship · archive film, illustrative"
+    },
+    {
+      "type": "film",
+      "from": "s7@0.5",
+      "enter": "cut",
+      "clip": "film-sinking.mp4",
+      "credit": "A torpedoed ship · archive film, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s7@0.85",
+      "enter": "cut",
+      "image": "oscar.jpg",
+      "focus": "50% 45%",
+      "main": {
+        "text": "*The cat lived.*",
+        "at": "s7@0.88"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s8",
+      "enter": "cut",
+      "clip": "film-carrier.mp4",
+      "credit": "Royal Navy carrier, 1941 · archive film, illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s8@0.65",
+      "enter": "cut",
+      "image": "laforey.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "HMS Ark Royal"
+    },
+    {
+      "type": "photo",
+      "from": "s9",
+      "enter": "cut",
+      "image": "arkroyal-sink2.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "HMS Ark Royal sinking, 14 November 1941"
+    },
+    {
+      "type": "photo",
+      "from": "s9@0.5",
+      "enter": "cut",
+      "image": "arkroyal-sink.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Ark Royal listing, off Gibraltar"
+    },
+    {
+      "type": "film",
+      "from": "s10",
+      "enter": "cut",
+      "clip": "film-debris.mp4",
+      "credit": "Wreckage at sea · archive film, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s10@0.5",
+      "enter": "cut",
+      "image": "oscar.jpg",
+      "focus": "50% 35%",
+      "main": {
+        "text": "\"Angry, but *quite unharmed*.\"",
+        "at": "s10@0.55"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s11",
+      "enter": "cut",
+      "clip": "film-crew.mp4",
+      "credit": "At sea, 1941 · archive film, illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s11@0.55",
+      "enter": "cut",
+      "image": "oscar.jpg",
+      "focus": "50% 30%",
+      "move": "out",
+      "fact": "Oscar spent the rest of the war in Belfast"
+    },
+    {
+      "type": "statement",
+      "from": "s12",
+      "enter": "cut",
+      "image": "laforey.jpg",
+      "focus": "50% 50%",
+      "kicker": "The catch",
+      "main": {
+        "text": "The Bismarck part? *Unproven.*",
+        "at": "s12@0.7"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s13",
+      "enter": "cut",
+      "image": "oscar.jpg",
+      "focus": "50% 70%",
+      "main": {
+        "text": "Two different cats. *Both \"Oscar\".*",
+        "at": "s13@0.6"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s14",
+      "enter": "cut",
+      "clip": "film-waves.mp4",
+      "credit": "The Atlantic, 1941 · archive film"
+    },
+    {
+      "type": "portrait",
+      "from": "s14@0.45",
+      "enter": "fade",
+      "image": "oscar.jpg",
+      "focus": "50% 35%",
+      "kicker": "Unsinkable Sam",
+      "date": "? – 1955",
+      "line": {
+        "text": "Luckiest cat — or *best sea story*?",
+        "at": "s14@0.7"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "In 1941, three warships sank in six months. One sailor survived all three. He was a cat. 🐈‍⬛⚓\n\nUnsinkable Sam was said to have survived the Bismarck, then HMS Cossack, then HMS Ark Royal — found on a plank, \"angry but quite unharmed\". But the Bismarck part has never been proven…\n\nLegend or true? 👇\n\n#history #ww2 #unsinkablesam #shipcat #bismarck #royalnavy #truestory #historytok",
+    "facebook": "In 1941, three warships sank in six months. One sailor survived all three. He was a cat.\n\nAt least, that's what the Royal Navy said. They called him Unsinkable Sam. The story begins on the German battleship Bismarck: in May 1941 the Royal Navy hunted her down and sank her — of more than 2,000 men, only 115 survived. Hours later, HMS Cossack found a black-and-white cat floating on a plank and named him Oscar, after the signal flag for \"man overboard\".\n\nFive months later a U-boat torpedoed Cossack; 159 men died and the ship sank. The cat lived. So they moved him to the carrier Ark Royal — the ship that had helped sink Bismarck. Three weeks later Ark Royal was torpedoed too. Rescuers found him clinging to a plank, \"angry but quite unharmed\". He retired to a sailors' home in Belfast and lived until 1955.\n\nBut here's the catch: a cat named Oscar really was rescued from Ark Royal — the Bismarck part nobody can prove, and there are photos of two different cats both called Oscar.\n\nLuckiest cat in history, or the best sea story the Navy ever told? 👇\n\n#History #WW2 #UnsinkableSam #RoyalNavy",
+    "youtube": {
+      "title": "The Cat Who Survived 3 Sinking Warships — Bismarck, Cossack, Ark Royal | Unsinkable Sam #Shorts",
+      "description": "In 1941, three warships sank in six months — and one sailor survived all three. He was a cat.\n\nUnsinkable Sam (Oscar) was said to have survived the German battleship Bismarck, then HMS Cossack, then HMS Ark Royal, where he was found clinging to a plank, \"angry but quite unharmed\". A cat named Oscar really was rescued from Ark Royal in November 1941 — but his Bismarck and Cossack days have never been proven.\n\nSubscribe for more history that sounds made up.\n\nImages: public domain via Wikimedia Commons (Imperial War Museum, Royal Navy, National Maritime Museum). Film: Battle in Atlantic between British Navy and Bismarck (1941) and Universal Newsreel (1942), public domain — illustrative. Music: Rule, Britannia! — United States Army Strings, public domain. Sources: Wikipedia.\n\n#Shorts #History #WW2 #UnsinkableSam #RoyalNavy\n\nKeywords: Unsinkable Sam, the cat that survived 3 shipwrecks, Bismarck, HMS Ark Royal, Royal Navy history.",
+      "tags": [
+        "unsinkable sam",
+        "sam the unsinkable cat",
+        "the cat that survived 3 shipwrecks",
+        "ship cat",
+        "bismarck",
+        "hms ark royal",
+        "hms cossack",
+        "royal navy",
+        "royal navy history",
+        "naval history",
+        "ww2",
+        "world war 2",
+        "ww2 history",
+        "ww2 tales",
+        "animals in war",
+        "cat",
+        "cat story",
+        "oscar the cat",
+        "history",
+        "history shorts",
+        "true story",
+        "history documentary",
+        "history explained",
+        "world history",
+        "weird history",
+        "history facts",
+        "ww2 stories",
+        "military history"
+      ]
+    },
+    "pinned": "Luckiest cat in history — or a sea story? Do YOU believe he survived the Bismarck? 🐈‍⬛👇"
+  }
+}

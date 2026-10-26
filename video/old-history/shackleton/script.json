@@ -1,0 +1,420 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "mode": "channel",
+  "date": "2026-10-21",
+  "slug": "shackleton",
+  "title": "Shackleton and the Endurance — 28 men, two years in the ice, nobody died",
+  "category": "Exploration",
+  "sources": [
+    "Wikipedia: Imperial Trans-Antarctic Expedition — Endurance left South Georgia on 5 December 1914 to cross Antarctica; by January 1915 she was beset in the pack ice of the Weddell Sea and drifted north through the Antarctic winter; on 27 October 1915, at −22 to −27 °C, Shackleton ordered 'abandon ship'; the ice crushed her and on 21 November 1915 she sank; the 28 men camped on drifting ice floes for months; on 9 April 1916 the floe split and they took to three lifeboats, reaching Elephant Island on 15 April — the first landing ever made there; on 24 April Shackleton and five men sailed the 22.5-foot James Caird about 800 miles (1,300 km) across the Southern Ocean to South Georgia; Shackleton, Worsley and Crean then crossed the unmapped mountains of South Georgia in 36 hours and reached the Stromness whaling station on 20 May 1916; it took four attempts to return for the men on Elephant Island; on 30 August 1916 the Chilean tug Yelcho rescued all of them. The famous 'men wanted' advertisement is generally regarded as apocryphal. Wikipedia: Endurance (1912 ship) — the wreck was found on 5 March 2022 at 3,008 m, in 'a brilliant state of preservation'.",
+    "Photos (public domain, Wikimedia Commons / State Library of New South Wales / Royal Geographical Society): photographs by Frank Hurley, 1914–1916 — Endurance under sail and trapped in the ice, the final sinking, Shackleton and Wild, the boats on Elephant Island, launching the James Caird, the rescue by the Yelcho; Shackleton portrait by Hurley, 1916",
+    "Archive film (public domain): 'The Great White Silence' (Herbert Ponting, 1924) — Antarctic expedition footage of the same era, illustrative, not the Endurance",
+    "Music: Grieg, Piano Concerto — Adagio, public domain"
+  ],
+  "music": {
+    "track": "grieg-concerto-adagio"
+  },
+  "highlight": [
+    "28",
+    "ICE",
+    "CRUSHED",
+    "ELEPHANT ISLAND",
+    "LIFEBOAT",
+    "SOUTH GEORGIA",
+    "EVERY",
+    "SINGLE",
+    "TWO YEARS",
+    "2022"
+  ],
+  "cover": {
+    "image": "endurance-glow.jpg",
+    "focus": "50% 45%",
+    "kicker": "TRUE STORY",
+    "date": "ANTARCTICA, 1915",
+    "top": 1120,
+    "lines": [
+      "28 MEN. 2 YEARS",
+      "*TRAPPED IN ICE.*",
+      "NOBODY DIED."
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "Twenty-eight men were trapped in the Antarctic ice for almost two years. Not one of them died.",
+      "show": "28 men were trapped in the Antarctic ice for almost two years. Not one of them died.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s2",
+      "say": "In December nineteen fourteen, Ernest Shackleton sailed for Antarctica on a ship called Endurance. The plan: be the first to cross it on foot.",
+      "show": "In December 1914, Ernest Shackleton sailed for Antarctica on a ship called Endurance. The plan: be the first to cross it on foot.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "They never even landed. The sea froze around the ship, and held her like a fist.",
+      "show": "They never even landed. The sea froze around the ship, and held her like a fist.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s4",
+      "say": "For ten months, they drifted with the ice, through the polar winter.",
+      "show": "For ten months, they drifted with the ice, through the polar winter.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s5",
+      "say": "Then the ice began to crush her. Shackleton gave the order: abandon ship.",
+      "show": "Then the ice began to crush her. Shackleton gave the order: abandon ship.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s6",
+      "say": "A month later, they watched Endurance sink beneath the ice.",
+      "show": "A month later, they watched Endurance sink beneath the ice.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s7",
+      "say": "They camped on floating ice for five months, eating seals and penguins.",
+      "show": "They camped on floating ice for five months, eating seals and penguins.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s8",
+      "say": "When the ice split under them, they rowed three lifeboats to a frozen rock called Elephant Island.",
+      "show": "When the ice split under them, they rowed three lifeboats to a frozen rock called Elephant Island.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s9",
+      "say": "No one would ever look for them there. So Shackleton took five men and a seven-metre lifeboat, and sailed for help.",
+      "show": "No one would ever look for them there. So Shackleton took five men and a seven-metre lifeboat, and sailed for help.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s10",
+      "say": "Thirteen hundred kilometres, across the worst ocean on Earth.",
+      "show": "1,300 kilometres, across the worst ocean on Earth.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s11",
+      "say": "They hit South Georgia, on the wrong side. So three of them climbed across unmapped mountains for thirty-six hours, to a whaling station.",
+      "show": "They hit South Georgia, on the wrong side. So three of them climbed across unmapped mountains for 36 hours, to a whaling station.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s12",
+      "say": "It took Shackleton four attempts to get back through the ice to Elephant Island.",
+      "show": "It took Shackleton four attempts to get back through the ice to Elephant Island.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s13",
+      "say": "On the thirtieth of August, nineteen sixteen, a Chilean tug reached them. Every single man was alive.",
+      "show": "On 30 August 1916, a Chilean tug reached them. Every single man was alive.",
+      "pauseAfter": 0.55
+    },
+    {
+      "id": "s14",
+      "say": "And in twenty twenty-two, Endurance was found, three kilometres down, almost perfectly preserved.",
+      "show": "And in 2022, Endurance was found, 3 kilometres down, almost perfectly preserved.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "cta": {
+    "story": "Endurance. Not just a ship's name.",
+    "say": "Shackleton never gave up on his men. Don't give up on history. Subscribe.",
+    "pill": "ENDURE",
+    "note": "more true stories that sound made up"
+  },
+  "endImage": "endurance-glow.jpg",
+  "imageCredit": "Frank Hurley (State Library of New South Wales; Royal Geographical Society) via Wikimedia Commons",
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook",
+      "image": "endurance-glow.jpg",
+      "focus": "50% 45%",
+      "move": "in",
+      "fact": "Endurance trapped in the ice, 1915 (Frank Hurley)"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.45",
+      "enter": "cut",
+      "image": "elephant-party.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The men on Elephant Island, 1916"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "shackleton-1916.jpg",
+      "focus": "50% 30%",
+      "kicker": "The Endurance",
+      "date": "ERNEST SHACKLETON",
+      "year": "1914",
+      "place": "Imperial Trans-Antarctic Expedition"
+    },
+    {
+      "type": "photo",
+      "from": "s2@0.5",
+      "enter": "cut",
+      "image": "endurance-sail.jpg",
+      "focus": "50% 45%",
+      "move": "in",
+      "fact": "Endurance under sail in the pack ice, 1915"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "cutting.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Trying to cut a way for the ship"
+    },
+    {
+      "type": "statement",
+      "from": "s3@0.55",
+      "enter": "cut",
+      "image": "endurance-glow.jpg",
+      "focus": "60% 50%",
+      "main": {
+        "text": "Held *like a fist*.",
+        "at": "s3@0.7"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s4",
+      "enter": "cut",
+      "clip": "film-ice1.mp4",
+      "credit": "Antarctic pack ice, 1910s · archive film, illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s4@0.5",
+      "enter": "cut",
+      "image": "hurley-bows.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Frank Hurley under the bows of Endurance, 1915"
+    },
+    {
+      "type": "photo",
+      "from": "s5",
+      "enter": "cut",
+      "image": "wild-shackleton.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Shackleton and Wild in the heavy pressure"
+    },
+    {
+      "type": "statement",
+      "from": "s5@0.6",
+      "enter": "cut",
+      "image": "shackleton-itae.jpg",
+      "focus": "50% 30%",
+      "kicker": "27 October 1915",
+      "main": {
+        "text": "\"*Abandon ship.*\"",
+        "at": "s5@0.75"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s6",
+      "enter": "cut",
+      "image": "endurance-sinking.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The final sinking of Endurance, November 1915"
+    },
+    {
+      "type": "film",
+      "from": "s7",
+      "enter": "cut",
+      "clip": "film-ice2.mp4",
+      "credit": "Antarctica, 1910s · archive film, illustrative"
+    },
+    {
+      "type": "film",
+      "from": "s7@0.5",
+      "enter": "cut",
+      "clip": "film-penguins.mp4",
+      "credit": "Antarctica, 1910s · archive film, illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s8",
+      "enter": "cut",
+      "image": "first-landing.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The first landing ever made on Elephant Island, 15 April 1916"
+    },
+    {
+      "type": "photo",
+      "from": "s8@0.55",
+      "enter": "cut",
+      "image": "boats-beach.jpg",
+      "focus": "50% 50%",
+      "move": "left",
+      "fact": "The three boats on Elephant Island"
+    },
+    {
+      "type": "photo",
+      "from": "s9",
+      "enter": "cut",
+      "image": "launch-caird.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Launching the James Caird, 24 April 1916"
+    },
+    {
+      "type": "photo",
+      "from": "s9@0.6",
+      "enter": "cut",
+      "image": "waving-caird.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The men left behind wave goodbye"
+    },
+    {
+      "type": "number",
+      "from": "s10",
+      "enter": "cut",
+      "image": "launch-caird.jpg",
+      "focus": "70% 50%",
+      "label": "In a 7-metre open boat",
+      "value": 1300,
+      "start": 0,
+      "suffix": " km",
+      "count": {
+        "from": "s10@0.1",
+        "to": "s10@0.6"
+      },
+      "sub": {
+        "text": "across the Southern Ocean",
+        "at": "s10@0.65"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s11",
+      "enter": "cut",
+      "clip": "film-mountains.mp4",
+      "credit": "Antarctic mountains, 1910s · archive film, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s11@0.55",
+      "enter": "cut",
+      "image": "shackleton-c1915.jpg",
+      "focus": "50% 30%",
+      "kicker": "South Georgia, May 1916",
+      "main": {
+        "text": "*36 hours* over the mountains.",
+        "at": "s11@0.65"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s12",
+      "enter": "cut",
+      "clip": "film-sledge.mp4",
+      "credit": "Antarctic blizzard, 1910s · archive film, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s12@0.45",
+      "enter": "cut",
+      "image": "elephant-party.jpg",
+      "focus": "30% 50%",
+      "main": {
+        "text": "Four attempts. *He kept coming.*",
+        "at": "s12@0.55"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s13",
+      "enter": "cut",
+      "image": "yelcho-rescue.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The Yelcho reaches Elephant Island, 30 August 1916"
+    },
+    {
+      "type": "statement",
+      "from": "s13@0.6",
+      "enter": "cut",
+      "image": "all-safe.jpg",
+      "focus": "50% 50%",
+      "main": {
+        "text": "*Every single man.*",
+        "at": "s13@0.7"
+      }
+    },
+    {
+      "type": "portrait",
+      "from": "s14",
+      "enter": "fade",
+      "image": "shackleton-1916.jpg",
+      "focus": "50% 30%",
+      "kicker": "Ernest Shackleton",
+      "date": "1874 – 1922",
+      "line": {
+        "text": "Found in 2022, *3 km down*.",
+        "at": "s14@0.5"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "28 men were trapped in the Antarctic ice for almost two years. Not one of them died. 🧊\n\nShackleton's ship Endurance was crushed by the ice. The crew camped on floating ice, rowed to Elephant Island, and Shackleton sailed 1,300 km in a tiny lifeboat to get help. He came back for every single man.\n\nGreatest leader in history?\n\n#history #shackleton #endurance #antarctica #survival #truestory #historytok #explorer",
+    "facebook": "28 men were trapped in the Antarctic ice for almost two years. Not one of them died.\n\nIn December 1914, Ernest Shackleton sailed for Antarctica on Endurance, planning to be the first to cross it on foot. They never even landed: the sea froze around the ship and held her like a fist. For ten months they drifted with the ice through the polar winter. Then the ice began to crush her — \"abandon ship\" — and a month later they watched Endurance sink.\n\nThey camped on floating ice for five months, eating seals and penguins. When the ice split under them, they rowed three lifeboats to a frozen rock called Elephant Island. No one would ever look for them there, so Shackleton took five men in a seven-metre lifeboat and sailed 1,300 km across the worst ocean on Earth to South Georgia — landing on the wrong side. Three of them then crossed unmapped mountains for 36 hours to reach a whaling station.\n\nIt took Shackleton four attempts to get back through the ice. On 30 August 1916, a Chilean tug reached Elephant Island: every single man was alive. And in 2022, Endurance was found 3 km down, almost perfectly preserved.\n\nGreatest leader in history? 🧊\n\n#History #Shackleton #Endurance #Antarctica",
+    "youtube": {
+      "title": "28 Men Trapped in Antarctic Ice for 2 Years — and Nobody Died | Shackleton's Endurance #Shorts",
+      "description": "28 men were trapped in the Antarctic ice for almost two years. Not one of them died.\n\nErnest Shackleton's ship Endurance was trapped and crushed by the Weddell Sea ice in 1915. The crew camped on drifting floes, reached Elephant Island in three lifeboats, and Shackleton sailed 1,300 km in the 7-metre James Caird to South Georgia, crossed its mountains on foot, and after four attempts rescued every man on 30 August 1916. The wreck was found in 2022, 3 km down.\n\nSubscribe for more history that sounds made up.\n\nImages: Frank Hurley, public domain via Wikimedia Commons (State Library of NSW, Royal Geographical Society). Film: The Great White Silence (Herbert Ponting, 1924), public domain — illustrative. Music: Grieg, Piano Concerto — Adagio, public domain. Sources: Wikipedia.\n\n#Shorts #History #Shackleton #Endurance #Antarctica\n\nKeywords: Shackleton's Endurance expedition, Ernest Shackleton, Antarctic survival stories.",
+      "tags": [
+        "shackleton endurance",
+        "ernest shackleton",
+        "shackleton",
+        "endurance",
+        "endurance expedition",
+        "shackleton expedition",
+        "endurance shipwreck",
+        "antarctica",
+        "antarctic exploration",
+        "antarctic survival",
+        "polar exploration",
+        "survival stories",
+        "survival story",
+        "south georgia",
+        "weddell sea",
+        "james caird",
+        "frank hurley",
+        "leadership",
+        "history",
+        "history shorts",
+        "true story",
+        "history documentary",
+        "history explained",
+        "world history",
+        "weird history",
+        "history facts",
+        "survival",
+        "elephant island",
+        "explorer"
+      ]
+    },
+    "pinned": "Greatest leader in history? Would YOU have gotten back in that tiny boat? 🧊🤔"
+  }
+}

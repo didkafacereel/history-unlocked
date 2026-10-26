@@ -1,0 +1,119 @@
+{
+  "total": 97.912,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "She was aboard three sister ships. One crashed, one hit an iceberg, one hit a mine. She survived all three.",
+      "start": 0.4,
+      "end": 7.675
+    },
+    {
+      "id": "s2",
+      "show": "Her name was Violet Jessop, an ocean liner stewardess.",
+      "start": 8.275,
+      "end": 12.093
+    },
+    {
+      "id": "s4",
+      "show": "In 1911, she was working on the Olympic, the biggest liner in the world.",
+      "start": 12.493,
+      "end": 17.784
+    },
+    {
+      "id": "s5",
+      "show": "Leaving Southampton, it collided with a Royal Navy cruiser.",
+      "start": 18.134,
+      "end": 22.123
+    },
+    {
+      "id": "s6",
+      "show": "The hull was torn open. Nobody died.",
+      "start": 22.473,
+      "end": 25.225
+    },
+    {
+      "id": "s7",
+      "show": "Seven months later, Violet joined Olympic's new sister ship. Titanic.",
+      "start": 25.725,
+      "end": 30.504
+    },
+    {
+      "id": "s8",
+      "show": "On the night of 14 April 1912, it struck an iceberg.",
+      "start": 31.104,
+      "end": 35.819
+    },
+    {
+      "id": "s9",
+      "show": "She was ordered on deck, to show the passengers how to stay calm.",
+      "start": 36.269,
+      "end": 40.322
+    },
+    {
+      "id": "s10",
+      "show": "As lifeboat 16 was lowered, an officer handed her a baby.",
+      "start": 40.672,
+      "end": 45.131
+    },
+    {
+      "id": "s11",
+      "show": "She later said she heard the band playing a hymn. Nearer, My God, to Thee. Others swore they didn't.",
+      "start": 45.581,
+      "end": 51.575
+    },
+    {
+      "id": "s12",
+      "show": "The Carpathia picked them up. There, a woman snatched the baby from her, and ran off without a word.",
+      "start": 52.125,
+      "end": 58.376
+    },
+    {
+      "id": "s13",
+      "show": "In the First World War, Violet became a nurse, on the third sister. The hospital ship Britannic.",
+      "start": 58.976,
+      "end": 65.611
+    },
+    {
+      "id": "s14",
+      "show": "In November 1916, Britannic hit a German mine off Greece.",
+      "start": 66.061,
+      "end": 70.669
+    },
+    {
+      "id": "s15",
+      "show": "It sank in 55 minutes.",
+      "start": 71.019,
+      "end": 72.96
+    },
+    {
+      "id": "s16",
+      "show": "Lifeboats were sucked into the ship's spinning propellers. Hers was next.",
+      "start": 73.46,
+      "end": 77.748
+    },
+    {
+      "id": "s17",
+      "show": "She jumped into the sea, and hit her head badly. She survived that too.",
+      "start": 78.198,
+      "end": 82.401
+    },
+    {
+      "id": "s18",
+      "show": "Then she went back to sea, for another thirty years.",
+      "start": 82.901,
+      "end": 86.037
+    },
+    {
+      "id": "s19",
+      "show": "Violet Jessop died in 1971, aged 83. They called her Miss Unsinkable.",
+      "start": 86.487,
+      "end": 92.823
+    },
+    {
+      "id": "end2",
+      "show": "Three ships couldn't sink her. Don't let her story sink. Subscribe.",
+      "start": 93.423,
+      "end": 97.412
+    }
+  ]
+}

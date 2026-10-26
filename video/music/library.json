@@ -84,6 +84,108 @@
       "commons": "File:Air (Bach).ogg",
       "mood": "old-time, dignified, crackly 1920 record — early 20th century, silent-film era, nostalgia",
       "credit": "Bach, Air · 1920 recording (Joel Belov) · public domain"
+    },
+    {
+      "id": "nearer-my-god",
+      "file": "nearer-my-god.mp3",
+      "commons": "File:Nearer My God to Thee - Concert Band - United States Air Force Band.mp3",
+      "mood": "solemn hymn — shipwrecks, the Titanic (the hymn the band is said to have played), memorials, farewells",
+      "credit": "Nearer, My God, to Thee · United States Air Force Band · public domain"
+    },
+    {
+      "id": "battle-hymn-slow",
+      "file": "battle-hymn-slow.mp3",
+      "commons": "File:Battle Hymn of the Republic (slow) - Concert Band - United States Air Forces in Europe Band.mp3",
+      "mood": "solemn American military hymn — US soldiers, Medal of Honor, sacrifice, Civil War to Vietnam",
+      "credit": "Battle Hymn of the Republic · United States Air Forces in Europe Band · public domain"
+    },
+    {
+      "id": "chopin-marche-funebre",
+      "file": "chopin-marche-funebre.ogg",
+      "commons": "File:Chopin Pitman sonata no 2 in b flat minor funeral march III marche funebre lento.ogg",
+      "mood": "Polish, funereal, defiant — Polish heroes, occupation, executions, martyrs",
+      "credit": "Chopin, Marche funèbre · Paul Pitman for Musopen · public domain"
+    },
+    {
+      "id": "marseillaise-navy",
+      "file": "marseillaise-navy-x2.ogg",
+      "commons": "File:La Marseillaise.ogg",
+      "mood": "French, patriotic, defiant — French Resistance, liberation of France, Napoleon era",
+      "credit": "La Marseillaise · United States Navy Band · public domain",
+      "note": "played twice with a 4 s crossfade (local edit, not on Commons) — fetch-music downloads the single take; rebuild with ffmpeg acrossfade if missing"
+    },
+    {
+      "id": "arirang-usas",
+      "file": "arirang-usas.ogg",
+      "commons": "File:Arirang (USAS).ogg",
+      "mood": "Korean folk song, longing, homesick — Korean stories, exiles, men far from home",
+      "credit": "Arirang · US Army (USAS) · public domain"
+    },
+    {
+      "id": "navy-hymn-src",
+      "file": "navy-hymn-src.ogg",
+      "commons": "File:Eternal Father - U.S. Navy Band.ogg",
+      "mood": "source for navy-hymn-x2",
+      "credit": "Eternal Father, Strong to Save · United States Navy Band · public domain"
+    },
+    {
+      "id": "mountain-king",
+      "file": "mountain-king.flac",
+      "commons": "File:Grieg - Peer Gynt Suite No. 1, Op. 46 - IV. In the Hall of the Mountain King (Musopen Symphony).flac",
+      "mood": "sneaking, building tension to a frantic climax — heists, escapes, schemes",
+      "credit": "Grieg, In the Hall of the Mountain King · Musopen Symphony · public domain"
+    },
+    {
+      "id": "marines-hymn-src",
+      "file": "marines-hymn-src.ogg",
+      "commons": "File:Marines' Hymn (slow) - U.S. Marine Band.ogg",
+      "mood": "source for marines-hymn-x2",
+      "credit": "Marines' Hymn (slow) · United States Marine Band · public domain"
+    },
+    {
+      "id": "navy-hymn",
+      "file": "navy-hymn-x2.ogg",
+      "commons": "File:Eternal Father - U.S. Navy Band.ogg",
+      "mood": "the sailors hymn — shipwrecks, sailors lost at sea, survival at sea",
+      "credit": "Eternal Father, Strong to Save · United States Navy Band · public domain",
+      "note": "played twice with a 3 s crossfade (local edit of navy-hymn-src)"
+    },
+    {
+      "id": "marines-hymn",
+      "file": "marines-hymn-x2.ogg",
+      "commons": "File:Marines' Hymn (slow) - U.S. Marine Band.ogg",
+      "mood": "slow funeral Marines Hymn — US Marines, Pacific war, sacrifice",
+      "credit": "Marines' Hymn (slow) · United States Marine Band · public domain",
+      "note": "played twice with a 3 s crossfade (local edit of marines-hymn-src)"
+    },
+    {
+      "id": "tipperary",
+      "file": "tipperary.oga",
+      "commons": "File:Jack Judge - Henry James Harry Williams - It's a Long, Long Way to Tipperary - instrumental.oga",
+      "mood": "WWI British marching song — British soldiers, the Western Front 1914-18",
+      "credit": "It's a Long, Long Way to Tipperary (instrumental, 1910s recording) · public domain"
+    },
+    {
+      "id": "valse-triste",
+      "file": "valse-triste.flac",
+      "commons": "File:Judith Bokor plays Valse triste by Sibelius.flac",
+      "mood": "Finnish, melancholy, haunting — Finland, Winter War, tragic soldiers",
+      "credit": "Sibelius, Valse triste · Judith Bokor (cello, Columbia 78rpm) · public domain"
+    },
+    {
+      "id": "rule-britannia-src",
+      "file": "rule-britannia-src.oga",
+      "commons": "File:'Rule, Britannia!' (United States Army Strings).oga",
+      "mood": "source for rule-britannia",
+      "credit": "Rule, Britannia! · United States Army Strings · public domain"
+    },
+    {
+      "id": "rule-britannia",
+      "file": "rule-britannia-x2.ogg",
+      "commons": "File:'Rule, Britannia!' (United States Army Strings).oga",
+      "mood": "British naval, proud — Royal Navy, British ships, sailors",
+      "credit": "Rule, Britannia! · United States Army Strings · public domain",
+      "note": "played twice with a 3 s crossfade (local edit)"
     }
   ]
 }

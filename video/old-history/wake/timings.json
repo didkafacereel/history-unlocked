@@ -1,0 +1,101 @@
+{
+  "total": 91.227,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "The Gestapo called her the White Mouse. Every time they closed in, she slipped away.",
+      "start": 0.4,
+      "end": 5.52
+    },
+    {
+      "id": "s2",
+      "show": "Her name was Nancy Wake, a girl from New Zealand, married to a rich Frenchman in Marseille.",
+      "start": 6.12,
+      "end": 12.136
+    },
+    {
+      "id": "s3",
+      "show": "When Germany took France in 1940, she began smuggling Allied airmen out to Spain.",
+      "start": 12.536,
+      "end": 18.339
+    },
+    {
+      "id": "s4",
+      "show": "She flirted her way past German checkpoints. In her words: \"Do you want to search me?\"",
+      "start": 18.739,
+      "end": 23.987
+    },
+    {
+      "id": "s5",
+      "show": "By 1943, the Gestapo was tapping her phone. She fled over the Pyrenees.",
+      "start": 24.487,
+      "end": 30.545
+    },
+    {
+      "id": "s6",
+      "show": "Her husband stayed behind. The Gestapo tortured him, and killed him. She didn't find out until the war was over.",
+      "start": 30.945,
+      "end": 38.263
+    },
+    {
+      "id": "s7",
+      "show": "In Britain, she trained as a secret agent. In April 1944, she parachuted back into France.",
+      "start": 38.863,
+      "end": 46.223
+    },
+    {
+      "id": "s8",
+      "show": "She landed tangled in a tree.",
+      "start": 46.573,
+      "end": 48.578
+    },
+    {
+      "id": "s9",
+      "show": "Then she ran the money and weapons for the Resistance, dropped by plane almost every other night.",
+      "start": 49.028,
+      "end": 55.023
+    },
+    {
+      "id": "s10",
+      "show": "She said she once cycled 500 kilometres in three days, to reach a radio.",
+      "start": 55.423,
+      "end": 60.585
+    },
+    {
+      "id": "s11",
+      "show": "And she said she killed an SS sentry with her bare hands.",
+      "start": 60.985,
+      "end": 64.399
+    },
+    {
+      "id": "s12",
+      "show": "Some of it only comes from her own memoir. But the medals are real.",
+      "start": 64.849,
+      "end": 69.201
+    },
+    {
+      "id": "s13",
+      "show": "Britain, America and France all decorated her.",
+      "start": 69.601,
+      "end": 72.545
+    },
+    {
+      "id": "s14",
+      "show": "When Australia offered medals decades later, she told them where they could stick them.",
+      "start": 72.945,
+      "end": 77.873
+    },
+    {
+      "id": "s15",
+      "show": "Nancy Wake died in 2011, aged 98. Her ashes were scattered in the French hills where she fought.",
+      "start": 78.373,
+      "end": 85.519
+    },
+    {
+      "id": "end2",
+      "show": "The Gestapo never caught her. Don't let her story slip away. Subscribe.",
+      "start": 86.119,
+      "end": 90.727
+    }
+  ]
+}

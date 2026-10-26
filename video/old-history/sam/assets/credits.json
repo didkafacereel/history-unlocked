@@ -1,0 +1,194 @@
+{
+  "oscar.jpg": {
+    "file": "File:Oscar, cat from the German ship 'Bismarck'.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Oscar,_cat_from_the_German_ship_%27Bismarck%27.jpg",
+    "licence": "Public domain",
+    "artist": "Georgina Shaw Baker",
+    "date": "Unknown date",
+    "description": ""
+  },
+  "bismarck-fjord.jpg": {
+    "file": "File:German Battleship Bismarck in the Grimstadfjord.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:German_Battleship_Bismarck_in_the_Grimstadfjord.jpg",
+    "licence": "Public domain",
+    "artist": "Paul S. Schmalenbach",
+    "date": "1941-05-21",
+    "description": "Bismarck in a Norwegian fjord, 21 May 1941, shortly before departing for her Atlantic sortie. Photographed from the heavy cruiser Prinz Eugen. Location is probably Grimstadfjord, just south of Bergen."
+  },
+  "bismarck-sinking.jpg": {
+    "file": "File:Battleship Bismarck burning and sinking 1941.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Battleship_Bismarck_burning_and_sinking_1941.jpg",
+    "licence": "Public domain",
+    "artist": "Lt. J.H. Smith, Royal Navy official photographer.",
+    "date": "1941-05-27",
+    "description": "The German battleship Bismarck on fire in the distance, surrounded by shell splashes. The photo was taken from one of the Royal Navy warships chasing."
+  },
+  "bismarck-burning.jpg": {
+    "file": "File:Battleship Bismarck under fire and burning 1941.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Battleship_Bismarck_under_fire_and_burning_1941.jpg",
+    "licence": "Public domain",
+    "artist": "Lt. J.H. Smith, Royal Navy official photographer",
+    "date": "1941-05-27",
+    "description": "The sinking German battleship Bismarck on fire in the distance, surrounded by shell splashes. The photo was taken from one of the Royal Navy warships chasing."
+  },
+  "bismarck-survivors.jpg": {
+    "file": "File:HMS Dorsetshire Bismarck survivors.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:HMS_Dorsetshire_Bismarck_survivors.jpg",
+    "licence": "Public domain",
+    "artist": "Royal Navy official photographer",
+    "date": "Taken on 27 May 1941",
+    "description": "Survivors from the Bismarck are pulled aboard HMS Dorsetshire (40) on 27 May 1941."
+  },
+  "rodney.jpg": {
+    "file": "File:Rodney firing on Bismarck.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Rodney_firing_on_Bismarck.png",
+    "licence": "Public domain",
+    "artist": "Royal Navy official photographer",
+    "date": "1941-05-27",
+    "description": "Rodney fires salvos at Bismarck."
+  },
+  "cossack.jpg": {
+    "file": "File:HMS Cossack.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:HMS_Cossack.jpg",
+    "licence": "Public domain",
+    "artist": "Royal Navy official photographer",
+    "date": "1938",
+    "description": "The Tribal class destroyer HMS Cossack (F03) underway on completion."
+  },
+  "cossack-towed.jpg": {
+    "file": "File:HMS Cossack R57 towed.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:HMS_Cossack_R57_towed.jpg",
+    "licence": "Public domain",
+    "artist": "Royal Navy official photographer",
+    "date": "1945-08-30",
+    "description": "Royal Navy C class destroyer HMS Cossack (R57) under tow"
+  },
+  "arkroyal-sink.jpg": {
+    "file": "File:The Sinking of HMS Ark Royal. 13 November 1941 A6327.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Sinking_of_HMS_Ark_Royal._13_November_1941_A6327.jpg",
+    "licence": "Public domain",
+    "artist": "Beadell, S J (Lt)",
+    "date": "13 November 1941",
+    "description": "The Sinking of HMS Ark Royal. 13 November 1941 View from HMS HERMIONE showing HMS ARK ROYAL after being hit by a torpedo, listing to starboard, while HMS LAFOREY closes the carrier."
+  },
+  "arkroyal-sink2.jpg": {
+    "file": "File:HMS Ark Royal sinking.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:HMS_Ark_Royal_sinking.jpg",
+    "licence": "Public domain",
+    "artist": "Beadell, S J (Lt) Royal Navy official photographer",
+    "date": "1941-11-13",
+    "description": "IWM caption : HMS LEGION moves alongside the damaged and listing HMS ARK ROYAL in order to take off survivors. The aircraft carrier was torpedoed by the German U-boat U 81 off Gibraltar. HMS ARK ROYAL sank the following day."
+  },
+  "laforey.jpg": {
+    "file": "File:HMS Laforey Ark Royal.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:HMS_Laforey_Ark_Royal.jpg",
+    "licence": "Public domain",
+    "artist": "Royal Navy official photographer, Beadell S J (Lt)",
+    "date": "13 November 1941",
+    "description": "The Battle of the Atlantic 1939-1945 Shipping losses: HMS ARK ROYAL sinking after being torpedoed by U 81. HMS LEGION is alongside to take off survivors. HMS LAFOREY is approaching to aid in providing water and power to the few remaining pe"
+  },
+  "film-battleship.mp4": {
+    "file": "File:Battle in Atlantic between British Navy and Bismarck.ogv",
+    "page": "https://commons.wikimedia.org/wiki/File:Battle_in_Atlantic_between_British_Navy_and_Bismarck.ogv",
+    "licence": "CC0",
+    "artist": "Movietone News",
+    "date": "2021-02-12",
+    "description": "A Bismarck elsüllyesztése korabeli filmhíradón.",
+    "film": {
+      "at": 14,
+      "len": 5.5,
+      "fit": "band"
+    }
+  },
+  "film-carrier.mp4": {
+    "file": "File:Battle in Atlantic between British Navy and Bismarck.ogv",
+    "page": "https://commons.wikimedia.org/wiki/File:Battle_in_Atlantic_between_British_Navy_and_Bismarck.ogv",
+    "licence": "CC0",
+    "artist": "Movietone News",
+    "date": "2021-02-12",
+    "description": "A Bismarck elsüllyesztése korabeli filmhíradón.",
+    "film": {
+      "at": 28,
+      "len": 5.5,
+      "fit": "band"
+    }
+  },
+  "film-swordfish.mp4": {
+    "file": "File:Battle in Atlantic between British Navy and Bismarck.ogv",
+    "page": "https://commons.wikimedia.org/wiki/File:Battle_in_Atlantic_between_British_Navy_and_Bismarck.ogv",
+    "licence": "CC0",
+    "artist": "Movietone News",
+    "date": "2021-02-12",
+    "description": "A Bismarck elsüllyesztése korabeli filmhíradón.",
+    "film": {
+      "at": 44,
+      "len": 5.5,
+      "fit": "band"
+    }
+  },
+  "film-waves.mp4": {
+    "file": "File:Battle in Atlantic between British Navy and Bismarck.ogv",
+    "page": "https://commons.wikimedia.org/wiki/File:Battle_in_Atlantic_between_British_Navy_and_Bismarck.ogv",
+    "licence": "CC0",
+    "artist": "Movietone News",
+    "date": "2021-02-12",
+    "description": "A Bismarck elsüllyesztése korabeli filmhíradón.",
+    "film": {
+      "at": 56,
+      "len": 5.5,
+      "fit": "band"
+    }
+  },
+  "film-crew.mp4": {
+    "file": "File:Battle in Atlantic between British Navy and Bismarck.ogv",
+    "page": "https://commons.wikimedia.org/wiki/File:Battle_in_Atlantic_between_British_Navy_and_Bismarck.ogv",
+    "licence": "CC0",
+    "artist": "Movietone News",
+    "date": "2021-02-12",
+    "description": "A Bismarck elsüllyesztése korabeli filmhíradón.",
+    "film": {
+      "at": 80,
+      "len": 5.5,
+      "fit": "band"
+    }
+  },
+  "film-burning.mp4": {
+    "file": "File:Wrecked and burning SS R. P. Resor.vp9.webm",
+    "page": "https://commons.wikimedia.org/wiki/File:Wrecked_and_burning_SS_R._P._Resor.vp9.webm",
+    "licence": "CC0",
+    "artist": "Graham McNamee",
+    "date": "1942-03-02",
+    "description": "Stock footage from Universal Newsreel focusing on the sinking of oil tanker SS R.P. Resor after it was attacked by German submarine U-578 on 28 February 1942. The first scene is the R.P. Resor with a broken back and adrift off the coast of ",
+    "film": {
+      "at": 8,
+      "len": 5.5,
+      "fit": "band"
+    }
+  },
+  "film-sinking.mp4": {
+    "file": "File:Wrecked and burning SS R. P. Resor.vp9.webm",
+    "page": "https://commons.wikimedia.org/wiki/File:Wrecked_and_burning_SS_R._P._Resor.vp9.webm",
+    "licence": "CC0",
+    "artist": "Graham McNamee",
+    "date": "1942-03-02",
+    "description": "Stock footage from Universal Newsreel focusing on the sinking of oil tanker SS R.P. Resor after it was attacked by German submarine U-578 on 28 February 1942. The first scene is the R.P. Resor with a broken back and adrift off the coast of ",
+    "film": {
+      "at": 17,
+      "len": 5.5,
+      "fit": "band"
+    }
+  },
+  "film-debris.mp4": {
+    "file": "File:Wrecked and burning SS R. P. Resor.vp9.webm",
+    "page": "https://commons.wikimedia.org/wiki/File:Wrecked_and_burning_SS_R._P._Resor.vp9.webm",
+    "licence": "CC0",
+    "artist": "Graham McNamee",
+    "date": "1942-03-02",
+    "description": "Stock footage from Universal Newsreel focusing on the sinking of oil tanker SS R.P. Resor after it was attacked by German submarine U-578 on 28 February 1942. The first scene is the R.P. Resor with a broken back and adrift off the coast of ",
+    "film": {
+      "at": 30,
+      "len": 5.5,
+      "fit": "band"
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "total": 94.785,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "The Polish army gave him a paybook, a rank and a serial number. He was a bear.",
+      "start": 0.4,
+      "end": 5.499
+    },
+    {
+      "id": "s2",
+      "show": "In April 1942, Polish soldiers in Iran met a boy with an orphaned bear cub.",
+      "start": 6.099,
+      "end": 12.285
+    },
+    {
+      "id": "s4",
+      "show": "A young refugee named Irena talked an officer into buying him.",
+      "start": 12.685,
+      "end": 17.059
+    },
+    {
+      "id": "s5",
+      "show": "The soldiers called him Wojtek.",
+      "start": 17.409,
+      "end": 19.393
+    },
+    {
+      "id": "s6",
+      "show": "He drank condensed milk from an old vodka bottle.",
+      "start": 19.843,
+      "end": 22.851
+    },
+    {
+      "id": "s7",
+      "show": "As he grew, they rewarded him with beer. It became his favourite drink.",
+      "start": 23.201,
+      "end": 27.51
+    },
+    {
+      "id": "s8",
+      "show": "He wrestled the men, learned to salute, and slept beside them on cold nights.",
+      "start": 27.91,
+      "end": 32.625
+    },
+    {
+      "id": "s9",
+      "show": "Then the army sailed for Italy, on a British ship with one rule. No pets.",
+      "start": 33.125,
+      "end": 37.967
+    },
+    {
+      "id": "s10",
+      "show": "So the Poles enlisted him.",
+      "start": 38.567,
+      "end": 40.338
+    },
+    {
+      "id": "s11",
+      "show": "Private Wojtek. 22nd Artillery Supply Company.",
+      "start": 40.688,
+      "end": 44.784
+    },
+    {
+      "id": "s12",
+      "show": "In 1944, at Monte Cassino, his company hauled shells to the guns.",
+      "start": 45.284,
+      "end": 51.023
+    },
+    {
+      "id": "s13",
+      "show": "Wojtek watched the men lift the crates. Then he copied them.",
+      "start": 51.373,
+      "end": 55.362
+    },
+    {
+      "id": "s14",
+      "show": "Crates of artillery shells, 45 kilos each. He never dropped one.",
+      "start": 55.862,
+      "end": 60.961
+    },
+    {
+      "id": "s15",
+      "show": "Historians still argue. But one British soldier remembered a bear carrying ammunition.",
+      "start": 61.461,
+      "end": 67.114
+    },
+    {
+      "id": "s17",
+      "show": "On 18 May, the first flag raised over the ruined monastery was Polish.",
+      "start": 67.564,
+      "end": 72.94
+    },
+    {
+      "id": "s18",
+      "show": "Wojtek was made a corporal. His company's new badge: a bear carrying a shell.",
+      "start": 73.44,
+      "end": 78.645
+    },
+    {
+      "id": "s19",
+      "show": "After the war, he retired to Edinburgh Zoo.",
+      "start": 79.145,
+      "end": 82.047
+    },
+    {
+      "id": "s20",
+      "show": "His old comrades came to visit, and spoke to him in Polish.",
+      "start": 82.397,
+      "end": 86.194
+    },
+    {
+      "id": "s21",
+      "show": "And he still answered.",
+      "start": 86.794,
+      "end": 88.245
+    },
+    {
+      "id": "end2",
+      "show": "Wojtek never dropped a crate. Don't drop us. Subscribe, and join the company.",
+      "start": 88.845,
+      "end": 94.285
+    }
+  ]
+}

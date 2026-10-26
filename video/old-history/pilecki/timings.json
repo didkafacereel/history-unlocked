@@ -1,0 +1,107 @@
+{
+  "total": 95.51,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "In 1940, one man got himself arrested, so the Germans would send him to Auschwitz.",
+      "start": 0.4,
+      "end": 6.501
+    },
+    {
+      "id": "s2",
+      "show": "His name was Witold Pilecki, a Polish cavalry officer in the resistance.",
+      "start": 7.101,
+      "end": 12.008
+    },
+    {
+      "id": "s3",
+      "show": "Nobody knew what was really happening inside the new camp. A volunteer was needed. He said yes.",
+      "start": 12.408,
+      "end": 18.979
+    },
+    {
+      "id": "s4",
+      "show": "He let the Germans catch him in Warsaw, under a false name.",
+      "start": 19.429,
+      "end": 23.226
+    },
+    {
+      "id": "s5",
+      "show": "Days later, he was prisoner number 4859.",
+      "start": 23.576,
+      "end": 27.224
+    },
+    {
+      "id": "s6",
+      "show": "He survived slave labour and pneumonia. And he built a secret army, in cells of five.",
+      "start": 27.724,
+      "end": 33.633
+    },
+    {
+      "id": "s7",
+      "show": "His men smuggled out reports of the killings. They even built a radio, from smuggled parts.",
+      "start": 34.033,
+      "end": 40.071
+    },
+    {
+      "id": "s8",
+      "show": "His reports became a main source on Auschwitz for the Allies.",
+      "start": 40.471,
+      "end": 44.097
+    },
+    {
+      "id": "s9",
+      "show": "He hoped for an attack to free the camp. It never came.",
+      "start": 44.447,
+      "end": 47.818
+    },
+    {
+      "id": "s10",
+      "show": "So in April 1943, after two and a half years inside, he broke out through a bakery door.",
+      "start": 48.318,
+      "end": 55.315
+    },
+    {
+      "id": "s11",
+      "show": "Shot at and wounded, he made it back to the resistance.",
+      "start": 55.715,
+      "end": 59.171
+    },
+    {
+      "id": "s12",
+      "show": "A year later, he fought in the Warsaw Uprising.",
+      "start": 59.521,
+      "end": 62.508
+    },
+    {
+      "id": "s13",
+      "show": "After the war, Poland fell under communist rule. Pilecki stayed, and kept reporting to the government in exile.",
+      "start": 62.958,
+      "end": 70.787
+    },
+    {
+      "id": "s14",
+      "show": "In 1947, the secret police caught him. They tortured him. He gave up no one.",
+      "start": 71.187,
+      "end": 77.182
+    },
+    {
+      "id": "s15",
+      "show": "After a show trial, he was shot in the back of the head. His grave has never been found.",
+      "start": 77.682,
+      "end": 83.186
+    },
+    {
+      "id": "s16",
+      "show": "He walked into Auschwitz by choice, and came out alive. It was his own country that killed him.",
+      "start": 83.786,
+      "end": 89.823
+    },
+    {
+      "id": "end2",
+      "show": "For decades, they tried to erase his name. Subscribe, and help us say it.",
+      "start": 90.423,
+      "end": 95.01
+    }
+  ]
+}

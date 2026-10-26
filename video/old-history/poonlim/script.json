@@ -1,0 +1,426 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "mode": "channel",
+  "date": "2026-10-13",
+  "slug": "poonlim",
+  "title": "Poon Lim — 133 days alone on a raft",
+  "category": "Military & Conflict",
+  "sources": [
+    "Wikipedia: Poon Lim (8 March 1918 – 4 January 1991) — Chinese seafarer, Second Mess Steward on the British cargo ship SS Benlomond; on 23 November 1942 the German submarine U-172 hit her with two torpedoes about 400 km off Brazil and she sank in about two minutes; Poon was washed overboard; the U-boat crew saw him, laughed and waved him away; after about two hours he boarded an 8-ft (2.4 m) wooden life raft stocked with water, hardtack, chocolate, pemmican, milk and flares; the food ran out after about 55 days; he made a fish hook from the spring of a flashlight, caught fish and seabirds and dried the meat; with no rain, he caught a shark, beat it to death with a water container and drank blood from its liver; ships passed without stopping; a US Navy patrol plane saw him and dropped a marker, but a storm hid him; he counted days with knots, then counted full moons; on 5 April 1943 three Brazilian fishermen found him off Pará, after 133 days and about 1,210 km of drift; he was the sole survivor of Benlomond; he had lost 9 kg and walked again within days; King George VI awarded him the British Empire Medal and the Royal Navy put his story into its survival manuals; told no one had survived longer on a raft, he said: 'I hope no one will ever have to break that record.'",
+    "Photos (public domain, Wikimedia Commons / US Navy / US National Archives / Imperial War Museum): Poon Lim with US Navy officers, 1943; a reconstruction of his raft made for US Navy survival training; U-172 on the surface, 1943; a torpedoed Allied tanker; Allied survivors on life rafts",
+    "Archive film (public domain / CC0): Universal Newsreel — the tanker R. P. Resor torpedoed by a U-boat, 1942 (timecode cropped); 'Battle in Atlantic between British Navy and Bismarck' (1941); 'Life and Death of USS Hornet' (US Navy, 1943) — illustrative",
+    "Music: Eternal Father, Strong to Save (the Navy Hymn) — United States Navy Band, public domain"
+  ],
+  "music": {
+    "track": "navy-hymn"
+  },
+  "highlight": [
+    "133",
+    "ALONE",
+    "LAUGHED,",
+    "SHARK,",
+    "FULL MOONS.",
+    "ONLY SURVIVOR",
+    "RECORD.",
+    "TWO MINUTES."
+  ],
+  "cover": {
+    "image": "poon-raft.jpg",
+    "focus": "50% 40%",
+    "kicker": "TRUE STORY",
+    "date": "ATLANTIC, 1942–43",
+    "top": 1120,
+    "lines": [
+      "133 DAYS",
+      "*ALONE*",
+      "ON A RAFT"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "For a hundred and thirty-three days, he drifted alone across the Atlantic, on a raft smaller than a car.",
+      "show": "For 133 days, he drifted alone across the Atlantic, on a raft smaller than a car.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s2",
+      "say": "His name was Poon Lim, a young steward from China, on a British cargo ship.",
+      "show": "His name was Poon Lim, a young steward from China, on a British cargo ship.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "In November nineteen forty-two, a German submarine hit her with two torpedoes. She sank in two minutes.",
+      "show": "In November 1942, a German submarine hit her with two torpedoes. She sank in two minutes.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s4",
+      "say": "Poon was thrown into the sea. The U-boat crew saw him. They laughed, and waved him away.",
+      "show": "Poon was thrown into the sea. The U-boat crew saw him. They laughed, and waved him away.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s5",
+      "say": "After two hours in the water, he found an empty life raft.",
+      "show": "After two hours in the water, he found an empty life raft.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s6",
+      "say": "It had water and biscuits. Enough for weeks. Not months.",
+      "show": "It had water and biscuits. Enough for weeks. Not months.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s7",
+      "say": "When the food ran out, he made a fish hook from the spring of a flashlight.",
+      "show": "When the food ran out, he made a fish hook from the spring of a flashlight.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s8",
+      "say": "He caught fish and seabirds, and dried their meat in the sun.",
+      "show": "He caught fish and seabirds, and dried their meat in the sun.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s9",
+      "say": "When the rain stopped, he caught a shark, beat it to death, and drank the blood from its liver.",
+      "show": "When the rain stopped, he caught a shark, beat it to death, and drank the blood from its liver.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s10",
+      "say": "Ships passed him by. A Navy plane spotted him, then a storm hid him again.",
+      "show": "Ships passed him by. A Navy plane spotted him, then a storm hid him again.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s11",
+      "say": "He stopped counting days, and started counting full moons.",
+      "show": "He stopped counting days, and started counting full moons.",
+      "pauseAfter": 0.55
+    },
+    {
+      "id": "s12",
+      "say": "In April nineteen forty-three, three Brazilian fishermen found him, close to the shore.",
+      "show": "In April 1943, three Brazilian fishermen found him, close to the shore.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s13",
+      "say": "He was the only survivor of his ship.",
+      "show": "He was the only survivor of his ship.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s14",
+      "say": "The King gave him a medal, and the Royal Navy put his tricks into its survival manuals.",
+      "show": "The King gave him a medal, and the Royal Navy put his tricks into its survival manuals.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s15",
+      "say": "Told that no one had ever survived longer on a raft, he said: I hope no one will ever have to break that record.",
+      "show": "Told that no one had ever survived longer on a raft, he said: \"I hope no one will ever have to break that record.\"",
+      "pauseAfter": 0.6
+    }
+  ],
+  "cta": {
+    "story": "One raft. One man. One hundred and thirty-three days.",
+    "say": "Poon Lim kept counting the moons. Keep counting the stories with us. Subscribe.",
+    "pill": "STAY ABOARD",
+    "note": "more true stories that sound made up"
+  },
+  "endImage": "poon-raft.jpg",
+  "imageCredit": "US Navy; US National Archives; Imperial War Museum via Wikimedia Commons",
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook",
+      "image": "poon-raft.jpg",
+      "focus": "50% 45%",
+      "move": "in",
+      "fact": "Poon Lim's raft, rebuilt for US Navy survival training"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.45",
+      "enter": "cut",
+      "clip": "film-waves.mp4",
+      "credit": "The Atlantic · archive film, illustrative"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "poon-navy.jpg",
+      "focus": "70% 30%",
+      "kicker": "133 days",
+      "date": "POON LIM",
+      "year": "1942",
+      "place": "Steward, SS Benlomond"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "u172.jpg",
+      "focus": "60% 50%",
+      "move": "in",
+      "fact": "U-172, the submarine that sank his ship (photographed 1943)"
+    },
+    {
+      "type": "film",
+      "from": "s3@0.45",
+      "enter": "cut",
+      "clip": "film-burning.mp4",
+      "credit": "A tanker torpedoed by a U-boat, 1942 · archive film, illustrative"
+    },
+    {
+      "type": "film",
+      "from": "s3@0.75",
+      "enter": "cut",
+      "clip": "film-sinking.mp4",
+      "credit": "A tanker torpedoed by a U-boat, 1942 · archive film, illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s4",
+      "enter": "cut",
+      "image": "u172-fight.jpg",
+      "focus": "60% 50%",
+      "move": "in",
+      "fact": "U-172 on the surface, 1943"
+    },
+    {
+      "type": "statement",
+      "from": "s4@0.6",
+      "enter": "cut",
+      "image": "u172.jpg",
+      "focus": "40% 50%",
+      "kicker": "The U-boat crew",
+      "main": {
+        "text": "They *laughed*.",
+        "at": "s4@0.75"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s5",
+      "enter": "cut",
+      "clip": "film-debris.mp4",
+      "credit": "Wreckage at sea, 1942 · archive film, illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s5@0.6",
+      "enter": "cut",
+      "image": "poon-raft.jpg",
+      "focus": "50% 60%",
+      "move": "in",
+      "fact": "An 8-foot wooden raft"
+    },
+    {
+      "type": "statement",
+      "from": "s6",
+      "enter": "cut",
+      "image": "raft-poster.jpg",
+      "focus": "50% 25%",
+      "main": {
+        "text": "Enough for weeks. *Not months.*",
+        "at": "s6@0.55"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s7",
+      "enter": "cut",
+      "image": "poon-raft.jpg",
+      "focus": "60% 70%",
+      "kicker": "Day 55: the food runs out",
+      "main": {
+        "text": "A hook from a *flashlight spring*.",
+        "at": "s7@0.6"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s8",
+      "enter": "cut",
+      "clip": "film-heavysea.mp4",
+      "credit": "The Atlantic · archive film, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s9",
+      "enter": "cut",
+      "image": "raft-80g-2.jpg",
+      "focus": "50% 50%",
+      "main": {
+        "text": "He caught *a shark*.",
+        "at": "s9@0.3"
+      },
+      "fact": {
+        "text": "and drank the blood from its liver",
+        "at": "s9@0.7"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s10",
+      "enter": "cut",
+      "clip": "film-clouds.mp4",
+      "credit": "A ship on the horizon, 1942 · archive film, illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s10@0.45",
+      "enter": "cut",
+      "image": "survivors-raft.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "A Navy plane finds survivors on a raft, 1942 (illustrative)"
+    },
+    {
+      "type": "film",
+      "from": "s10@0.75",
+      "enter": "cut",
+      "clip": "film-heavysea.mp4",
+      "credit": "Storm at sea · archive film, illustrative"
+    },
+    {
+      "type": "film",
+      "from": "s11",
+      "enter": "cut",
+      "clip": "film-dusk.mp4",
+      "credit": "Night falls at sea · archive film, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s11@0.45",
+      "enter": "cut",
+      "image": "poon-raft.jpg",
+      "focus": "50% 20%",
+      "main": {
+        "text": "He counted *full moons*.",
+        "at": "s11@0.6"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s12",
+      "enter": "cut",
+      "clip": "film-horizon.mp4",
+      "credit": "Off the coast · archive film, illustrative"
+    },
+    {
+      "type": "number",
+      "from": "s12@0.45",
+      "enter": "cut",
+      "image": "poon-raft.jpg",
+      "focus": "50% 75%",
+      "label": "Days alone at sea",
+      "value": 133,
+      "start": 0,
+      "count": {
+        "from": "s12@0.5",
+        "to": "s12@0.85"
+      },
+      "sub": {
+        "text": "found off Brazil, 5 April 1943",
+        "at": "s12@0.85"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s13",
+      "enter": "cut",
+      "image": "tanker-torpedoed.jpg",
+      "focus": "50% 50%",
+      "kicker": "SS Benlomond",
+      "main": {
+        "text": "The *only* survivor.",
+        "at": "s13@0.5"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s14",
+      "enter": "cut",
+      "image": "poon-mirror.jpg",
+      "focus": "45% 35%",
+      "move": "in",
+      "fact": "Poon Lim with US Navy officers, August 1943"
+    },
+    {
+      "type": "photo",
+      "from": "s14@0.55",
+      "enter": "cut",
+      "image": "poon-navy.jpg",
+      "focus": "65% 35%",
+      "move": "in",
+      "fact": "Explaining how he survived, 1943"
+    },
+    {
+      "type": "portrait",
+      "from": "s15",
+      "enter": "fade",
+      "image": "poon-navy.jpg",
+      "focus": "70% 30%",
+      "kicker": "Poon Lim",
+      "date": "1918 – 1991",
+      "line": {
+        "text": "\"I hope no one will ever have to *break that record*.\"",
+        "at": "s15@0.6"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "133 days alone on a raft in the Atlantic. 🌊\n\nPoon Lim's ship was torpedoed in 1942 — the U-boat crew saw him in the water and laughed. He made a fish hook from a flashlight spring, caught a shark, and drank its blood to survive. He still holds the record.\n\nCould you have lasted a week?\n\n#history #ww2 #poonlim #survival #truestory #historytok #ocean #survivor",
+    "facebook": "For 133 days, he drifted alone across the Atlantic, on a raft smaller than a car.\n\nPoon Lim was a young steward from China on the British cargo ship Benlomond. In November 1942 a German submarine hit her with two torpedoes and she sank in two minutes. Poon was thrown into the sea; the U-boat crew saw him, laughed and waved him away. After two hours in the water he found an empty life raft, with water and biscuits for weeks — not months.\n\nWhen the food ran out, he made a fish hook from the spring of a flashlight. He caught fish and seabirds and dried their meat in the sun. When the rain stopped, he caught a shark, beat it to death and drank the blood from its liver. Ships passed him by; a Navy plane spotted him, then a storm hid him again. He stopped counting days and started counting full moons.\n\nIn April 1943, three Brazilian fishermen found him close to the shore — the only survivor of his ship. The King gave him a medal and the Royal Navy put his tricks into its survival manuals. Told no one had survived longer on a raft, he said: \"I hope no one will ever have to break that record.\"\n\n🌊 #History #WW2 #PoonLim #Survival",
+    "youtube": {
+      "title": "133 Days Alone at Sea on a Raft — He Drank Shark Blood to Survive | Poon Lim #Shorts",
+      "description": "For 133 days, he drifted alone across the Atlantic, on a raft smaller than a car.\n\nPoon Lim, a Chinese steward on the British ship Benlomond, survived the sinking by U-172 in November 1942 — the U-boat crew saw him and laughed. He fished with a hook made from a flashlight spring, caught seabirds and a shark, and drifted about 1,200 km until Brazilian fishermen found him in April 1943, the only survivor of his ship. He received the British Empire Medal and his methods went into Royal Navy survival manuals.\n\nSubscribe for more history that sounds made up.\n\nImages: public domain via Wikimedia Commons (US Navy, US National Archives, Imperial War Museum). Film: Universal Newsreel (1942) and British (1941) and US Navy (1943) footage, public domain — illustrative. Music: Eternal Father, Strong to Save — United States Navy Band, public domain. Sources: Wikipedia.\n\n#Shorts #History #WW2 #PoonLim #Survival\n\nKeywords: Poon Lim survival story, 133 days at sea, true survival stories, lost at sea.",
+      "tags": [
+        "poon lim",
+        "poon lim survival story",
+        "poon lim story",
+        "133 days at sea",
+        "survival story",
+        "survival stories",
+        "true survival story",
+        "true survival stories",
+        "incredible survival stories",
+        "survival at sea",
+        "lost at sea",
+        "stranded at sea",
+        "raft survival",
+        "castaway",
+        "shipwreck survivor",
+        "ocean survival",
+        "world war 2",
+        "ww2 tales",
+        "battle of the atlantic",
+        "history",
+        "history shorts",
+        "true story",
+        "history documentary",
+        "history explained",
+        "world history",
+        "weird history",
+        "history facts",
+        "ww2",
+        "survival",
+        "133 days",
+        "life raft",
+        "u-boat",
+        "ww2 stories"
+      ]
+    },
+    "pinned": "Could YOU survive 133 days alone at sea? What would you do first? 🌊🤔"
+  }
+}

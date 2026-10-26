@@ -1,0 +1,472 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "mode": "channel",
+  "date": "2026-10-08",
+  "slug": "jessop",
+  "title": "Violet Jessop — Miss Unsinkable, who survived Olympic, Titanic and Britannic",
+  "category": "Disasters",
+  "sources": [
+    "Wikipedia: Violet Jessop (2 October 1887 – 5 May 1971), 'Miss Unsinkable' — born in Argentina to Irish parents; very ill as a child with presumed tuberculosis, doctors predicted it would be fatal; stewardess from 1908; aboard RMS Olympic on 20 September 1911 when it left Southampton and collided with the cruiser HMS Hawke — no fatalities, the ship returned to port; transferred to Titanic in April 1912, aged 24; Titanic struck an iceberg on 14 April and sank about 2 h 40 min later; she was ordered on deck to set an example for passengers who could not follow the instructions; put in lifeboat 16, Sixth Officer Moody gave her a baby to look after; rescued by Carpathia, where a woman, presumably the mother, grabbed the baby and ran off without a word; WWI Voluntary Aid Detachment nurse; aboard hospital ship Britannic on 21 November 1916 when it hit a German mine in the Aegean and sank within 55 minutes, killing 30 of 1,066; lifeboats were drawn into the propellers, she jumped out of hers and suffered a traumatic head injury; returned to work at sea in 1920 and retired in 1950; died 1971 aged 83",
+    "Wikipedia: HMHS Britannic — mine laid by U-73 near Kea; two lifeboats launched early were drawn into the still-turning propellers and destroyed, killing 30; sank at 09:07, 55 minutes after the explosion",
+    "Wikipedia: RMS Olympic — the Hawke collision tore two large holes in Olympic's hull; no one was killed",
+    "Wikipedia: Nearer, My God, to Thee — Violet Jessop said in her 1934 account that she heard the hymn being played as Titanic sank; others, such as Archibald Gracie, denied it",
+    "Photos (public domain, Wikimedia Commons / Library of Congress / US National Archives): Violet Jessop in VAD uniform; surviving Titanic stewardesses at Plymouth, 1912; RMS Olympic, 1911; Olympic and HMS Hawke after the collision; Titanic at Southampton, April 1912; a suspected iceberg photographed near the site, 1912; Willy Stöwer's painting of the sinking (1912, illustration); Titanic lifeboats on Carpathia; survivors on Carpathia; Titanic's band; HMHS Britannic, 1916",
+    "Archive film (public domain): 'Titanic Disaster — Genuine Footage (1911–1912)', Gaumont newsreels — Titanic in port, icebergs, Carpathia (watermark blurred)",
+    "Music: Nearer, My God, to Thee — United States Air Force Band, public domain"
+  ],
+  "music": {
+    "track": "nearer-my-god"
+  },
+  "highlight": [
+    "OLYMPIC",
+    "TITANIC.",
+    "BRITANNIC.",
+    "ICEBERG.",
+    "BABY",
+    "MINE",
+    "THREE",
+    "UNSINKABLE.",
+    "PROPELLERS.",
+    "SURVIVED"
+  ],
+  "cover": {
+    "image": "violet-vad.jpg",
+    "focus": "50% 25%",
+    "kicker": "TRUE STORY",
+    "date": "1911 · 1912 · 1916",
+    "top": 1120,
+    "lines": [
+      "SHE SURVIVED",
+      "TITANIC.",
+      "*AND ITS SISTERS*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "She was aboard three sister ships. One crashed, one hit an iceberg, one hit a mine. She survived all three.",
+      "show": "She was aboard three sister ships. One crashed, one hit an iceberg, one hit a mine. She survived all three.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s2",
+      "say": "Her name was Violet Jessop, an ocean liner stewardess.",
+      "show": "Her name was Violet Jessop, an ocean liner stewardess.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "In nineteen eleven, she was working on the Olympic, the biggest liner in the world.",
+      "show": "In 1911, she was working on the Olympic, the biggest liner in the world.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s5",
+      "say": "Leaving Southampton, it collided with a Royal Navy cruiser.",
+      "show": "Leaving Southampton, it collided with a Royal Navy cruiser.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s6",
+      "say": "The hull was torn open. Nobody died.",
+      "show": "The hull was torn open. Nobody died.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s7",
+      "say": "Seven months later, Violet joined Olympic's new sister ship. Titanic.",
+      "show": "Seven months later, Violet joined Olympic's new sister ship. Titanic.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s8",
+      "say": "On the night of the fourteenth of April, nineteen twelve, it struck an iceberg.",
+      "show": "On the night of 14 April 1912, it struck an iceberg.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s9",
+      "say": "She was ordered on deck, to show the passengers how to stay calm.",
+      "show": "She was ordered on deck, to show the passengers how to stay calm.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s10",
+      "say": "As lifeboat sixteen was lowered, an officer handed her a baby.",
+      "show": "As lifeboat 16 was lowered, an officer handed her a baby.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s11",
+      "say": "She later said she heard the band playing a hymn. Nearer, My God, to Thee. Others swore they didn't.",
+      "show": "She later said she heard the band playing a hymn. Nearer, My God, to Thee. Others swore they didn't.",
+      "pauseAfter": 0.55
+    },
+    {
+      "id": "s12",
+      "say": "The Carpathia picked them up. There, a woman snatched the baby from her, and ran off without a word.",
+      "show": "The Carpathia picked them up. There, a woman snatched the baby from her, and ran off without a word.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s13",
+      "say": "In the First World War, Violet became a nurse, on the third sister. The hospital ship Britannic.",
+      "show": "In the First World War, Violet became a nurse, on the third sister. The hospital ship Britannic.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s14",
+      "say": "In November nineteen sixteen, Britannic hit a German mine off Greece.",
+      "show": "In November 1916, Britannic hit a German mine off Greece.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s15",
+      "say": "It sank in fifty-five minutes.",
+      "show": "It sank in 55 minutes.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s16",
+      "say": "Lifeboats were sucked into the ship's spinning propellers. Hers was next.",
+      "show": "Lifeboats were sucked into the ship's spinning propellers. Hers was next.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s17",
+      "say": "She jumped into the sea, and hit her head badly. She survived that too.",
+      "show": "She jumped into the sea, and hit her head badly. She survived that too.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s18",
+      "say": "Then she went back to sea, for another thirty years.",
+      "show": "Then she went back to sea, for another thirty years.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s19",
+      "say": "Violet Jessop died in nineteen seventy-one, aged eighty-three. They called her Miss Unsinkable.",
+      "show": "Violet Jessop died in 1971, aged 83. They called her Miss Unsinkable.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "cta": {
+    "story": "Three ships. One survivor.",
+    "say": "Three ships couldn't sink her. Don't let her story sink. Subscribe.",
+    "pill": "STAY AFLOAT",
+    "note": "more true stories that sound made up"
+  },
+  "endImage": "britannic.jpg",
+  "imageCredit": "Library of Congress; US National Archives; Willy Stöwer; Francis G. O. Stuart via Wikimedia Commons",
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook",
+      "image": "violet-vad.jpg",
+      "focus": "50% 25%",
+      "move": "in",
+      "fact": "Violet Jessop"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.3",
+      "enter": "cut",
+      "image": "hawke-olympic.jpg",
+      "focus": "25% 50%",
+      "move": "in",
+      "fact": "Olympic, 1911"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.45",
+      "enter": "cut",
+      "image": "stower.jpg",
+      "focus": "60% 40%",
+      "move": "in",
+      "fact": "Titanic, 1912 (painting by Willy Stöwer)"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.62",
+      "enter": "cut",
+      "image": "britannic.jpg",
+      "focus": "45% 50%",
+      "move": "left",
+      "fact": "Britannic, 1916"
+    },
+    {
+      "type": "statement",
+      "from": "s1@0.8",
+      "enter": "cut",
+      "image": "violet-vad.jpg",
+      "focus": "50% 30%",
+      "main": {
+        "text": "She survived *all three*.",
+        "at": "s1@0.82"
+      }
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "violet-vad.jpg",
+      "focus": "50% 20%",
+      "kicker": "Miss Unsinkable",
+      "date": "VIOLET JESSOP",
+      "year": "1911",
+      "place": "Ocean liner stewardess"
+    },
+    {
+      "type": "photo",
+      "from": "s4",
+      "enter": "cut",
+      "image": "olympic.jpg",
+      "focus": "55% 50%",
+      "move": "left",
+      "fact": "RMS Olympic leaving port, 1911"
+    },
+    {
+      "type": "photo",
+      "from": "s5",
+      "enter": "cut",
+      "image": "hawke-olympic.jpg",
+      "focus": "75% 50%",
+      "move": "in",
+      "fact": "The bow of HMS Hawke after the collision, 1911"
+    },
+    {
+      "type": "photo",
+      "from": "s6",
+      "enter": "cut",
+      "image": "hawke-damage.jpg",
+      "focus": "50% 45%",
+      "move": "in",
+      "fact": "The hole in Olympic's hull"
+    },
+    {
+      "type": "film",
+      "from": "s7",
+      "enter": "cut",
+      "clip": "film-titanic.mp4",
+      "credit": "Titanic in port, April 1912 · archive film"
+    },
+    {
+      "type": "photo",
+      "from": "s7@0.7",
+      "enter": "cut",
+      "image": "titanic-departing.jpg",
+      "focus": "45% 50%",
+      "move": "left",
+      "fact": "Titanic leaving Southampton, 10 April 1912"
+    },
+    {
+      "type": "film",
+      "from": "s8",
+      "enter": "cut",
+      "clip": "film-iceberg.mp4",
+      "credit": "Icebergs in the North Atlantic, 1912 · archive film, illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s8@0.6",
+      "enter": "cut",
+      "image": "iceberg.jpg",
+      "focus": "45% 45%",
+      "move": "in",
+      "fact": "An iceberg near the site, 1912 — suspected, not proven"
+    },
+    {
+      "type": "photo",
+      "from": "s9",
+      "enter": "cut",
+      "image": "stower.jpg",
+      "focus": "65% 45%",
+      "move": "in",
+      "fact": "The sinking, painted by Willy Stöwer, 1912 (illustration)"
+    },
+    {
+      "type": "statement",
+      "from": "s10",
+      "enter": "cut",
+      "image": "lifeboats-carpathia.jpg",
+      "focus": "50% 50%",
+      "kicker": "Lifeboat 16",
+      "main": {
+        "text": "An officer handed her *a baby*.",
+        "at": "s10@0.6"
+      }
+    },
+    {
+      "type": "portrait",
+      "from": "s11",
+      "enter": "cut",
+      "image": "band.jpg",
+      "focus": "50% 40%",
+      "kicker": "Titanic's band",
+      "line": {
+        "text": "\"*Nearer, My God, to Thee*\"",
+        "at": "s11@0.45"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s11@0.78",
+      "enter": "cut",
+      "image": "stower.jpg",
+      "focus": "30% 70%",
+      "main": {
+        "text": "Others swore *they didn't*.",
+        "at": "s11@0.8"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s12",
+      "enter": "cut",
+      "clip": "film-carpathia.mp4",
+      "credit": "RMS Carpathia, April 1912 · archive film"
+    },
+    {
+      "type": "photo",
+      "from": "s12@0.4",
+      "enter": "cut",
+      "image": "survivors.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Titanic survivors aboard Carpathia"
+    },
+    {
+      "type": "statement",
+      "from": "s12@0.65",
+      "enter": "cut",
+      "image": "survivors.jpg",
+      "focus": "70% 60%",
+      "main": {
+        "text": "...and ran off *without a word*.",
+        "at": "s12@0.75"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s13",
+      "enter": "cut",
+      "image": "violet-vad.jpg",
+      "focus": "50% 40%",
+      "move": "in",
+      "fact": "Violet Jessop, Voluntary Aid Detachment nurse"
+    },
+    {
+      "type": "photo",
+      "from": "s13@0.65",
+      "enter": "cut",
+      "image": "britannic.jpg",
+      "focus": "50% 50%",
+      "move": "left",
+      "fact": "HMHS Britannic, the third sister"
+    },
+    {
+      "type": "photo",
+      "from": "s14",
+      "enter": "cut",
+      "image": "britannic-moudros.jpg",
+      "focus": "60% 50%",
+      "move": "in",
+      "fact": "Britannic, October 1916 — a month before"
+    },
+    {
+      "type": "number",
+      "from": "s15",
+      "enter": "cut",
+      "image": "britannic-deck.jpg",
+      "focus": "50% 50%",
+      "label": "Time to sink",
+      "value": 55,
+      "start": 0,
+      "suffix": " min",
+      "count": {
+        "from": "s15@0.2",
+        "to": "s15@0.85"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s16",
+      "enter": "cut",
+      "image": "britannic-deck.jpg",
+      "focus": "30% 60%",
+      "kicker": "21 November 1916",
+      "main": {
+        "text": "Dragged toward *the propellers*.",
+        "at": "s16@0.4"
+      },
+      "fact": {
+        "text": "Two lifeboats were torn apart; 30 people died",
+        "at": "s16@0.7"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s17",
+      "enter": "cut",
+      "image": "britannic-moudros.jpg",
+      "focus": "30% 50%",
+      "main": {
+        "text": "She jumped. *She survived.*",
+        "at": "s17@0.5"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s18",
+      "enter": "cut",
+      "image": "stewardesses.jpg",
+      "focus": "40% 50%",
+      "move": "left",
+      "fact": "Surviving Titanic stewardesses, Plymouth, 1912 — Violet among them"
+    },
+    {
+      "type": "portrait",
+      "from": "s19",
+      "enter": "fade",
+      "image": "violet-vad.jpg",
+      "focus": "50% 30%",
+      "kicker": "Violet Jessop",
+      "date": "1887 – 1971",
+      "line": {
+        "text": "Miss *Unsinkable*.",
+        "at": "s19@0.7"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "She was aboard three sister ships. One crashed, one hit an iceberg, one hit a mine. She survived all three. 🚢\n\nViolet Jessop was on Olympic when it rammed a warship in 1911, on Titanic in 1912 — handed a baby as her lifeboat was lowered — and on Britannic in 1916, when lifeboats were sucked into the propellers. She jumped.\n\nLuckiest woman alive, or cursed?\n\n#history #titanic #violetjessop #missunsinkable #britannic #truestory #historytok #shipwreck",
+    "facebook": "She was aboard three sister ships. One crashed, one hit an iceberg, one hit a mine. She survived all three.\n\nViolet Jessop was a stewardess on RMS Olympic, the biggest liner in the world, when it collided with the cruiser HMS Hawke in September 1911. The hull was torn open — nobody died.\n\nSeven months later she joined Olympic's new sister: Titanic. On the night of 14 April 1912 it struck an iceberg. Violet was ordered on deck to show passengers how to stay calm, and as lifeboat 16 was lowered an officer handed her a baby. She later said she heard the band play \"Nearer, My God, to Thee\" — others swore they didn't. On the rescue ship Carpathia, a woman snatched the baby from her and ran off without a word.\n\nIn the First World War she became a nurse on the third sister, the hospital ship Britannic. On 21 November 1916 it hit a German mine off Greece and sank in 55 minutes. Lifeboats were sucked into the still-turning propellers; Violet jumped into the sea, hit her head badly — and survived that too.\n\nShe went back to sea for another 30 years, and died in 1971, aged 83. They called her Miss Unsinkable.\n\nLuckiest woman alive, or cursed? 🚢\n\n#History #Titanic #VioletJessop #Britannic",
+    "youtube": {
+      "title": "She Survived Titanic — and Both Its Sister Ships | Violet Jessop #Shorts",
+      "description": "She was aboard three sister ships. One crashed, one hit an iceberg, one hit a mine. She survived all three.\n\nViolet Jessop, a stewardess, was on RMS Olympic when it collided with HMS Hawke in 1911, on Titanic when it sank in 1912 — handed a baby as lifeboat 16 was lowered — and, as a wartime nurse, on HMHS Britannic when it hit a mine and sank in 55 minutes in 1916. She jumped from a lifeboat being dragged toward the propellers, and survived. They called her Miss Unsinkable.\n\nSubscribe for more history that sounds made up.\n\nImages: public domain via Wikimedia Commons (Library of Congress, US National Archives; painting by Willy Stöwer, 1912). Film: Gaumont newsreels, 1912, public domain. Music: Nearer, My God, to Thee — United States Air Force Band, public domain. Sources: Wikipedia.\n\n#Shorts #History #Titanic #VioletJessop #Britannic",
+      "tags": [
+        "history",
+        "Titanic",
+        "Violet Jessop",
+        "Miss Unsinkable",
+        "Britannic",
+        "HMHS Britannic",
+        "RMS Olympic",
+        "Titanic survivor",
+        "history documentary",
+        "history explained",
+        "world history",
+        "weird history",
+        "titanic",
+        "shipwreck",
+        "true story",
+        "history shorts",
+        "Nearer My God to Thee",
+        "unsinkable"
+      ]
+    },
+    "pinned": "Luckiest woman alive — or cursed? Would YOU have gone back to sea after the second sinking? 🚢🤔"
+  }
+}

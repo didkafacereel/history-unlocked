@@ -29,3 +29,22 @@ ready/
 # In-app clips (app update 1.1, uploaded to Cloudflare R2): regenerable outputs
 app-clips/*.mp4
 app-clips/*.jpg
+music/*.oga
+# The Old History channel clips (old-history/<slug>/): same rule, one level deeper
+old-history/*/renders/
+old-history/*/snapshots/
+old-history/*/audio/
+old-history/*/narration.wav
+old-history/*/mix.wav
+old-history/*/.candidates/
+old-history/*/.clips/
+old-history/*/.thumbs/
+old-history/*/.hyperframes/
+old-history/*/assets/*.jpg
+old-history/*/assets/*.jpeg
+old-history/*/assets/*.png
+old-history/*/assets/*.mp4
+old-history/ready/
+old-history/thumbnails/
+old-history/thumb-sources.json
+old-history/HANDOVER-LAPTOP.md

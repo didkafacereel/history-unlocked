@@ -1,0 +1,101 @@
+{
+  "total": 88.412,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "For 133 days, he drifted alone across the Atlantic, on a raft smaller than a car.",
+      "start": 0.4,
+      "end": 7.397
+    },
+    {
+      "id": "s2",
+      "show": "His name was Poon Lim, a young steward from China, on a British cargo ship.",
+      "start": 7.997,
+      "end": 13.075
+    },
+    {
+      "id": "s3",
+      "show": "In November 1942, a German submarine hit her with two torpedoes. She sank in two minutes.",
+      "start": 13.475,
+      "end": 20.749
+    },
+    {
+      "id": "s4",
+      "show": "Poon was thrown into the sea. The U-boat crew saw him. They laughed, and waved him away.",
+      "start": 21.199,
+      "end": 26.895
+    },
+    {
+      "id": "s5",
+      "show": "After two hours in the water, he found an empty life raft.",
+      "start": 27.395,
+      "end": 31.278
+    },
+    {
+      "id": "s6",
+      "show": "It had water and biscuits. Enough for weeks. Not months.",
+      "start": 31.678,
+      "end": 35.39
+    },
+    {
+      "id": "s7",
+      "show": "When the food ran out, he made a fish hook from the spring of a flashlight.",
+      "start": 35.84,
+      "end": 40.021
+    },
+    {
+      "id": "s8",
+      "show": "He caught fish and seabirds, and dried their meat in the sun.",
+      "start": 40.371,
+      "end": 44.019
+    },
+    {
+      "id": "s9",
+      "show": "When the rain stopped, he caught a shark, beat it to death, and drank the blood from its liver.",
+      "start": 44.419,
+      "end": 49.689
+    },
+    {
+      "id": "s10",
+      "show": "Ships passed him by. A Navy plane spotted him, then a storm hid him again.",
+      "start": 50.189,
+      "end": 55.351
+    },
+    {
+      "id": "s11",
+      "show": "He stopped counting days, and started counting full moons.",
+      "start": 55.801,
+      "end": 59.364
+    },
+    {
+      "id": "s12",
+      "show": "In April 1943, three Brazilian fishermen found him, close to the shore.",
+      "start": 59.914,
+      "end": 65.781
+    },
+    {
+      "id": "s13",
+      "show": "He was the only survivor of his ship.",
+      "start": 66.181,
+      "end": 68.421
+    },
+    {
+      "id": "s14",
+      "show": "The King gave him a medal, and the Royal Navy put his tricks into its survival manuals.",
+      "start": 68.921,
+      "end": 74.019
+    },
+    {
+      "id": "s15",
+      "show": "Told that no one had ever survived longer on a raft, he said: \"I hope no one will ever have to break that record.\"",
+      "start": 74.469,
+      "end": 81.957
+    },
+    {
+      "id": "end2",
+      "show": "Poon Lim kept counting the moons. Keep counting the stories with us. Subscribe.",
+      "start": 82.557,
+      "end": 87.912
+    }
+  ]
+}

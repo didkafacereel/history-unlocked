@@ -1,0 +1,418 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "mode": "channel",
+  "date": "2026-10-10",
+  "slug": "pilecki",
+  "title": "Witold Pilecki — the man who got himself sent to Auschwitz",
+  "category": "Military & Conflict",
+  "sources": [
+    "Wikipedia: Witold Pilecki (13 May 1901 – 25 May 1948) — Polish cavalry officer and resistance leader, co-founder of the Secret Polish Army; little was known about the new Auschwitz camp; it was proposed that he infiltrate it, presented as an invitation to volunteer, and he agreed; arrested on 19 September 1940 under the identity of Tomasz Serafiński, either in a Warsaw street round-up or during a building search (two versions exist); reached Auschwitz on 21–22 September 1940 as prisoner 4859; survived slave-labour details and pneumonia; organised the underground ZOW in secret five-man cells that eventually included hundreds of inmates; smuggled reports out with released or escaped inmates; built a radio transmitter from smuggled parts over seven months; his information was a principal source of intelligence on Auschwitz for the Western Allies; hoped for an Allied or Home Army attack on the camp, which never came; on the night of 26–27 April 1943 escaped through a bakery door outside the fence with two comrades; shot at and wounded while fleeing; fought in the Warsaw Uprising of 1944; after the war returned to communist Poland to report for the government-in-exile; arrested 8 May 1947, tortured, revealed nothing; show trial in March 1948; executed with a shot to the back of the head at Mokotów Prison on 25 May 1948; burial place never found; his story was suppressed by the communist authorities for decades",
+    "Photos (public domain, Wikimedia Commons): Pilecki as an officer; his Auschwitz prisoner photographs (no. 4859, 1940); his prison photographs (1947); at his trial (1948); the execution record (1948); the Auschwitz gate and camp at liberation, 1945 (Soviet photographers); the Warsaw Uprising, 1944",
+    "Archive film (public domain): 'Auschwitz (Oświęcim) Reel 1' (Soviet liberation film, 1945) — the camp as found in January 1945",
+    "Music: Chopin, Marche funèbre — Paul Pitman for Musopen, public domain"
+  ],
+  "music": {
+    "track": "chopin-marche-funebre"
+  },
+  "highlight": [
+    "AUSCHWITZ",
+    "AUSCHWITZ.",
+    "VOLUNTEER",
+    "FOUR THOUSAND",
+    "SECRET ARMY",
+    "RADIO",
+    "NEVER",
+    "NO ONE.",
+    "OWN COUNTRY",
+    "CHOICE"
+  ],
+  "cover": {
+    "image": "mugshot-front.jpg",
+    "focus": "50% 35%",
+    "kicker": "TRUE STORY",
+    "date": "PRISONER 4859",
+    "top": 1120,
+    "lines": [
+      "HE GOT HIMSELF",
+      "SENT TO",
+      "*AUSCHWITZ*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "In nineteen forty, one man got himself arrested, so the Germans would send him to Auschwitz.",
+      "show": "In 1940, one man got himself arrested, so the Germans would send him to Auschwitz.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s2",
+      "say": "His name was Witold Pilecki, a Polish cavalry officer in the resistance.",
+      "show": "His name was Witold Pilecki, a Polish cavalry officer in the resistance.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "Nobody knew what was really happening inside the new camp. A volunteer was needed. He said yes.",
+      "show": "Nobody knew what was really happening inside the new camp. A volunteer was needed. He said yes.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s4",
+      "say": "He let the Germans catch him in Warsaw, under a false name.",
+      "show": "He let the Germans catch him in Warsaw, under a false name.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s5",
+      "say": "Days later, he was prisoner number forty-eight fifty-nine.",
+      "show": "Days later, he was prisoner number 4859.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s6",
+      "say": "He survived slave labour and pneumonia. And he built a secret army, in cells of five.",
+      "show": "He survived slave labour and pneumonia. And he built a secret army, in cells of five.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s7",
+      "say": "His men smuggled out reports of the killings. They even built a radio, from smuggled parts.",
+      "show": "His men smuggled out reports of the killings. They even built a radio, from smuggled parts.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s8",
+      "say": "His reports became a main source on Auschwitz for the Allies.",
+      "show": "His reports became a main source on Auschwitz for the Allies.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s9",
+      "say": "He hoped for an attack to free the camp. It never came.",
+      "show": "He hoped for an attack to free the camp. It never came.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s10",
+      "say": "So in April nineteen forty-three, after two and a half years inside, he broke out through a bakery door.",
+      "show": "So in April 1943, after two and a half years inside, he broke out through a bakery door.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s11",
+      "say": "Shot at and wounded, he made it back to the resistance.",
+      "show": "Shot at and wounded, he made it back to the resistance.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s12",
+      "say": "A year later, he fought in the Warsaw Uprising.",
+      "show": "A year later, he fought in the Warsaw Uprising.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s13",
+      "say": "After the war, Poland fell under communist rule. Pilecki stayed, and kept reporting to the government in exile.",
+      "show": "After the war, Poland fell under communist rule. Pilecki stayed, and kept reporting to the government in exile.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s14",
+      "say": "In nineteen forty-seven, the secret police caught him. They tortured him. He gave up no one.",
+      "show": "In 1947, the secret police caught him. They tortured him. He gave up no one.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s15",
+      "say": "After a show trial, he was shot in the back of the head. His grave has never been found.",
+      "show": "After a show trial, he was shot in the back of the head. His grave has never been found.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s16",
+      "say": "He walked into Auschwitz by choice, and came out alive. It was his own country that killed him.",
+      "show": "He walked into Auschwitz by choice, and came out alive. It was his own country that killed him.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "cta": {
+    "story": "Some names were meant to be erased.",
+    "say": "For decades, they tried to erase his name. Subscribe, and help us say it.",
+    "pill": "REMEMBER HIM",
+    "note": "more true stories that sound made up"
+  },
+  "endImage": "pilecki-portrait.jpg",
+  "imageCredit": "Auschwitz-Birkenau State Museum; Polish Institute of National Remembrance; Soviet war photographers via Wikimedia Commons",
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook",
+      "image": "mugshot-front.jpg",
+      "focus": "50% 35%",
+      "move": "in",
+      "fact": "Prisoner 4859, Auschwitz, 1940"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.55",
+      "enter": "cut",
+      "clip": "film-snow-fence.mp4",
+      "credit": "Auschwitz, January 1945 · Soviet archive film"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "pilecki-portrait.jpg",
+      "focus": "50% 25%",
+      "kicker": "The volunteer",
+      "date": "WITOLD PILECKI",
+      "year": "1940",
+      "place": "Polish cavalry officer"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "auschwitz-entrance.jpg",
+      "focus": "50% 45%",
+      "move": "in",
+      "fact": "The gate of Auschwitz I"
+    },
+    {
+      "type": "statement",
+      "from": "s3@0.7",
+      "enter": "cut",
+      "image": "pilecki-officer.jpg",
+      "focus": "50% 30%",
+      "main": {
+        "text": "He said *yes*.",
+        "at": "s3@0.85"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s4",
+      "enter": "cut",
+      "image": "pilecki-portrait.jpg",
+      "focus": "50% 75%",
+      "kicker": "Warsaw, 19 September 1940",
+      "main": {
+        "text": "Arrested, *on purpose*.",
+        "at": "s4@0.4"
+      },
+      "fact": {
+        "text": "As \"Tomasz Serafiński\"",
+        "at": "s4@0.75"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s5",
+      "enter": "cut",
+      "image": "mugshot-cap.jpg",
+      "focus": "50% 40%",
+      "kicker": "Auschwitz, September 1940",
+      "main": {
+        "text": "Prisoner *4859*.",
+        "at": "s5@0.6"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s6",
+      "enter": "cut",
+      "clip": "film-bunks.mp4",
+      "credit": "Auschwitz barracks, January 1945 · Soviet archive film"
+    },
+    {
+      "type": "statement",
+      "from": "s6@0.5",
+      "enter": "cut",
+      "image": "mugshot-front.jpg",
+      "focus": "50% 45%",
+      "main": {
+        "text": "A secret army. *Cells of five.*",
+        "at": "s6@0.6"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s7",
+      "enter": "cut",
+      "clip": "film-barracks.mp4",
+      "credit": "Auschwitz-Birkenau from above, 1945 · Soviet archive film"
+    },
+    {
+      "type": "statement",
+      "from": "s7@0.55",
+      "enter": "cut",
+      "image": "auschwitz-wire.jpg",
+      "focus": "50% 40%",
+      "main": {
+        "text": "A radio, from *smuggled parts*.",
+        "at": "s7@0.7"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s8",
+      "enter": "cut",
+      "image": "auschwitz-liberated.jpg",
+      "focus": "50% 45%",
+      "move": "in",
+      "fact": "Auschwitz prisoners, January 1945"
+    },
+    {
+      "type": "statement",
+      "from": "s9",
+      "enter": "cut",
+      "image": "auschwitz-gate-1945.jpg",
+      "focus": "50% 50%",
+      "main": {
+        "text": "It *never came*.",
+        "at": "s9@0.75"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s10",
+      "enter": "cut",
+      "clip": "film-fence.mp4",
+      "credit": "Auschwitz fences, 1945 · Soviet archive film"
+    },
+    {
+      "type": "statement",
+      "from": "s10@0.55",
+      "enter": "cut",
+      "image": "pilecki-portrait.jpg",
+      "focus": "50% 30%",
+      "kicker": "26–27 April 1943",
+      "main": {
+        "text": "Out through *a bakery door*.",
+        "at": "s10@0.7"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s11",
+      "enter": "cut",
+      "image": "pilecki-officer.jpg",
+      "focus": "50% 35%",
+      "move": "in",
+      "fact": "Witold Pilecki"
+    },
+    {
+      "type": "photo",
+      "from": "s12",
+      "enter": "cut",
+      "image": "uprising-parasol.jpg",
+      "focus": "50% 45%",
+      "move": "in",
+      "fact": "Warsaw Uprising, 1944"
+    },
+    {
+      "type": "photo",
+      "from": "s12@0.55",
+      "enter": "cut",
+      "image": "uprising-flag.jpg",
+      "focus": "50% 40%",
+      "move": "in",
+      "fact": "The Polish flag over Warsaw, 1944"
+    },
+    {
+      "type": "statement",
+      "from": "s13",
+      "enter": "cut",
+      "image": "pilecki-prison.jpg",
+      "focus": "85% 40%",
+      "kicker": "Poland, 1945",
+      "main": {
+        "text": "He *stayed*.",
+        "at": "s13@0.65"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s14",
+      "enter": "cut",
+      "image": "prison-front.jpg",
+      "focus": "50% 40%",
+      "move": "in",
+      "fact": "Pilecki in communist prison, 1947"
+    },
+    {
+      "type": "statement",
+      "from": "s14@0.7",
+      "enter": "cut",
+      "image": "pilecki-prison.jpg",
+      "focus": "15% 40%",
+      "main": {
+        "text": "He gave up *no one*.",
+        "at": "s14@0.8"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s15",
+      "enter": "cut",
+      "image": "pilecki-trial.jpg",
+      "focus": "35% 40%",
+      "move": "in",
+      "fact": "Pilecki at his show trial, March 1948"
+    },
+    {
+      "type": "photo",
+      "from": "s15@0.45",
+      "enter": "cut",
+      "image": "execution-cert.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "The execution record, 25 May 1948"
+    },
+    {
+      "type": "portrait",
+      "from": "s16",
+      "enter": "fade",
+      "image": "pilecki-portrait.jpg",
+      "focus": "50% 30%",
+      "kicker": "Witold Pilecki",
+      "date": "1901 – 1948",
+      "line": {
+        "text": "Killed by *his own country*.",
+        "at": "s16@0.7"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "In 1940, one man got himself arrested — so the Germans would send him to Auschwitz. 🇵🇱\n\nWitold Pilecki built a secret army inside, smuggled out reports and even built a radio. He escaped after 2.5 years… and was executed by communist Poland in 1948. His grave has never been found.\n\nThe bravest man of WWII?\n\n#history #ww2 #pilecki #auschwitz #poland #truestory #historytok #hero",
+    "facebook": "In 1940, one man got himself arrested — so the Germans would send him to Auschwitz.\n\nWitold Pilecki was a Polish cavalry officer in the resistance. Nobody knew what was really happening inside the new camp, and a volunteer was needed. He said yes. He let the Germans catch him in Warsaw under a false name, and days later he was prisoner 4859.\n\nHe survived slave labour and pneumonia — and built a secret army inside, in cells of five. His men smuggled out reports of the killings and even built a radio from smuggled parts. His reports became a main source on Auschwitz for the Allies. He hoped for an attack to free the camp. It never came.\n\nIn April 1943, after two and a half years inside, he broke out through a bakery door. Shot at and wounded, he made it back to the resistance, and a year later fought in the Warsaw Uprising.\n\nAfter the war, Poland fell under communist rule. Pilecki stayed. In 1947 the secret police caught him and tortured him; he gave up no one. After a show trial he was shot in the back of the head. His grave has never been found.\n\nHe walked into Auschwitz by choice, and came out alive. It was his own country that killed him.\n\n🇵🇱 #History #WW2 #Pilecki #Auschwitz",
+    "youtube": {
+      "title": "He Got Himself Sent to Auschwitz — On Purpose | Witold Pilecki #Shorts",
+      "description": "In 1940, one man got himself arrested, so the Germans would send him to Auschwitz.\n\nWitold Pilecki, a Polish resistance officer, entered Auschwitz under a false name as prisoner 4859, built a secret underground army inside, smuggled out reports that became a main source on the camp for the Allies, and escaped in April 1943. He fought in the Warsaw Uprising — and in 1948 was executed after a show trial by communist Poland. His grave has never been found.\n\nSubscribe for more history that sounds made up.\n\nImages: public domain via Wikimedia Commons. Film: Auschwitz (Oświęcim), Soviet liberation film, 1945, public domain. Music: Chopin, Marche funèbre — Paul Pitman for Musopen, public domain. Sources: Wikipedia.\n\n#Shorts #History #WW2 #Pilecki #Auschwitz",
+      "tags": [
+        "history",
+        "ww2",
+        "Witold Pilecki",
+        "Pilecki",
+        "Auschwitz",
+        "Poland",
+        "Polish resistance",
+        "Home Army",
+        "ww2 tales",
+        "ww2 stories",
+        "military history",
+        "history documentary",
+        "history explained",
+        "world history",
+        "Warsaw Uprising",
+        "true story",
+        "history shorts",
+        "hero"
+      ]
+    },
+    "pinned": "Bravest man of World War II? Would YOU have walked into Auschwitz on purpose? 🇵🇱🤔"
+  }
+}

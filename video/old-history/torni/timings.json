@@ -1,0 +1,89 @@
+{
+  "total": 90.661,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "Remember the soldier who fought for three armies, and might be a legend? This one is real.",
+      "start": 0.4,
+      "end": 6.011
+    },
+    {
+      "id": "s2",
+      "show": "Lauri Törni fought for Finland, for Nazi Germany, and for the United States.",
+      "start": 6.511,
+      "end": 11.759
+    },
+    {
+      "id": "s3",
+      "show": "In 1939, the Soviet Union invaded Finland. Törni was 20.",
+      "start": 12.209,
+      "end": 17.883
+    },
+    {
+      "id": "s4",
+      "show": "By 1944, his unit was raiding deep behind Soviet lines. Moscow put a bounty on his head: 3,000,000 Finnish marks.",
+      "start": 18.283,
+      "end": 27.734
+    },
+    {
+      "id": "s5",
+      "show": "Then Finland made peace. Törni didn't. In 1945, he joined the German SS, to keep fighting the Soviets.",
+      "start": 28.184,
+      "end": 36.184
+    },
+    {
+      "id": "s6",
+      "show": "He surrendered to the British, escaped their prison camp, and went home. Finland convicted him of treason.",
+      "start": 36.634,
+      "end": 43.503
+    },
+    {
+      "id": "s7",
+      "show": "He escaped from prison too. Then he was pardoned, and left the country.",
+      "start": 43.903,
+      "end": 47.957
+    },
+    {
+      "id": "s8",
+      "show": "He stowed away on a ship to America, jumped overboard in the Gulf of Mexico, and swam ashore.",
+      "start": 48.407,
+      "end": 54.551
+    },
+    {
+      "id": "s9",
+      "show": "In 1954, he joined the U.S. Army, as \"Larry Thorne\".",
+      "start": 55.001,
+      "end": 59.438
+    },
+    {
+      "id": "s10",
+      "show": "He became a Green Beret, and taught American soldiers to fight in the snow.",
+      "start": 59.838,
+      "end": 64.681
+    },
+    {
+      "id": "s11",
+      "show": "Then came Vietnam. On 18 October 1965, his helicopter flew into the clouds on a secret mission, and vanished.",
+      "start": 65.081,
+      "end": 74.702
+    },
+    {
+      "id": "s12",
+      "show": "His remains were found in 1999. He's buried at Arlington.",
+      "start": 75.202,
+      "end": 80.002
+    },
+    {
+      "id": "s13",
+      "show": "A hero to some. A traitor to others. And a soldier of three flags.",
+      "start": 80.452,
+      "end": 85.103
+    },
+    {
+      "id": "end2",
+      "show": "Hero or traitor? Tell us below, and subscribe for the next story.",
+      "start": 85.703,
+      "end": 90.161
+    }
+  ]
+}

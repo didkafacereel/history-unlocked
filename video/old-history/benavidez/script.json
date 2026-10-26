@@ -1,0 +1,472 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "mode": "channel",
+  "date": "2026-10-09",
+  "slug": "benavidez",
+  "title": "Roy Benavidez — Six Hours in Hell",
+  "category": "Military & Conflict",
+  "sources": [
+    "Wikipedia: Roy Benavidez (5 August 1935 – 29 November 1998) — Texas-born son of a Mexican farmer and a Yaqui mother, orphaned young; Army Special Forces (5th Special Forces Group); in Vietnam in 1965 he stepped on a land mine and doctors said he would never walk again; at night, against doctors' orders, he crawled to the wall and taught himself to stand; walked out of hospital in July 1966 and returned to Vietnam in January 1968; on 2 May 1968 a 12-man Special Forces patrol west of Loc Ninh was surrounded by an NVA battalion; helicopters could not land; Benavidez voluntarily boarded one, jumped out armed only with a knife and carrying his medical bag, and ran about 75 m under fire; wounded in the leg, face and head; carried and dragged wounded men to the helicopter; the pilot was mortally wounded and the helicopter crashed; he pulled survivors from the wreck, handed out water and ammunition and called in air strikes; clubbed from behind, he killed his attacker in hand-to-hand combat; saved at least eight men; 37 bullet, bayonet and shrapnel wounds in a six-hour fight; thought dead and placed in a body bag, he spat in the doctor's face as it was being zipped up; the Medal of Honor was refused for lack of a living eyewitness; his radioman Brian O'Connor, whom he believed dead, read about him in a newspaper in Australia in 1980 and supplied the account; President Reagan presented the Medal of Honor on 24 February 1981, saying 'If the story of his heroism were a movie script, you would not believe it'",
+    "Photos (public domain, Wikimedia Commons / US Army / White House Photographic Office / US National Archives): Master Sergeant Roy Benavidez; the Medal of Honor ceremony at the Pentagon, 24 February 1981; 5th Special Forces Group in Vietnam; UH-1 Huey helicopters; US soldiers in Vietnam",
+    "Archive film (public domain): 'Operation San Angelo, 1st Brigade, 101st Airborne Division 1968' (US Army) — helicopters and jungle patrols in Vietnam, 1968 — illustrative, not Benavidez's mission",
+    "Music: Battle Hymn of the Republic — United States Air Forces in Europe Band, public domain"
+  ],
+  "music": {
+    "track": "battle-hymn-slow"
+  },
+  "highlight": [
+    "BODY BAG",
+    "THIRTY-SEVEN",
+    "KNIFE",
+    "WALK",
+    "SPAT",
+    "WITNESS",
+    "MEDAL",
+    "EIGHT",
+    "ALIVE.",
+    "BELIEVE"
+  ],
+  "cover": {
+    "image": "benavidez-portrait.jpg",
+    "focus": "50% 25%",
+    "kicker": "TRUE STORY",
+    "date": "VIETNAM, 1968",
+    "top": 1120,
+    "lines": [
+      "37 WOUNDS.",
+      "*BODY BAG.*",
+      "STILL ALIVE."
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "He had thirty-seven wounds, and they zipped him into a body bag. He was still alive.",
+      "show": "He had 37 wounds, and they zipped him into a body bag. He was still alive.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s2",
+      "say": "His name was Roy Benavidez, a Green Beret from Texas.",
+      "show": "His name was Roy Benavidez, a Green Beret from Texas.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "In Vietnam, in nineteen sixty-five, he stepped on a land mine. Doctors said he'd never walk again.",
+      "show": "In Vietnam, in 1965, he stepped on a land mine. Doctors said he'd never walk again.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "At night, against orders, he crawled out of bed and taught himself to stand.",
+      "show": "At night, against orders, he crawled out of bed and taught himself to stand.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s5",
+      "say": "He walked out of the hospital, and went straight back to Vietnam.",
+      "show": "He walked out of the hospital, and went straight back to Vietnam.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s6",
+      "say": "On the second of May, nineteen sixty-eight, a twelve-man team was trapped by an enemy battalion.",
+      "show": "On 2 May 1968, a 12-man team was trapped by an enemy battalion.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s7",
+      "say": "Helicopters couldn't land. Benavidez jumped aboard one anyway.",
+      "show": "Helicopters couldn't land. Benavidez jumped aboard one anyway.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s8",
+      "say": "He leapt out with a knife and a medical bag, and ran into the gunfire.",
+      "show": "He leapt out with a knife and a medical bag, and ran into the gunfire.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s9",
+      "say": "Shot in the leg, the face and the head, he kept dragging the wounded to the helicopter.",
+      "show": "Shot in the leg, the face and the head, he kept dragging the wounded to the helicopter.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s10",
+      "say": "Then the pilot was killed, and it crashed.",
+      "show": "Then the pilot was killed, and it crashed.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s11",
+      "say": "He pulled the survivors out, and called in air strikes.",
+      "show": "He pulled the survivors out, and called in air strikes.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s12",
+      "say": "An enemy soldier clubbed him from behind. He fought him hand to hand, and won.",
+      "show": "An enemy soldier clubbed him from behind. He fought him hand to hand, and won.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s13",
+      "say": "Six hours later, at least eight men were alive because of him.",
+      "show": "Six hours later, at least eight men were alive because of him.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s14",
+      "say": "Back at base, they thought he was dead. As the doctor zipped up the bag, Benavidez spat in his face.",
+      "show": "Back at base, they thought he was dead. As the doctor zipped up the bag, Benavidez spat in his face.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s15",
+      "say": "For years, the Army refused him the Medal of Honor. There was no living witness.",
+      "show": "For years, the Army refused him the Medal of Honor. There was no living witness.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s16",
+      "say": "Then his radioman, whom he believed dead, read about him in an Australian newspaper.",
+      "show": "Then his radioman, whom he believed dead, read about him in an Australian newspaper.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s17",
+      "say": "In nineteen eighty-one, President Reagan gave him the medal, and said: if this were a movie script, you would not believe it.",
+      "show": "In 1981, President Reagan gave him the medal, and said: if this were a movie script, you would not believe it.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "cta": {
+    "story": "History you would not believe.",
+    "say": "Roy never left a man behind. Don't leave this channel behind. Subscribe.",
+    "pill": "NO ONE LEFT",
+    "note": "more true stories that sound made up"
+  },
+  "endImage": "moh-ceremony.jpg",
+  "imageCredit": "US Army; White House Photographic Office; US National Archives via Wikimedia Commons",
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook",
+      "image": "benavidez-portrait.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "Master Sergeant Roy Benavidez"
+    },
+    {
+      "type": "number",
+      "from": "s1@0.1",
+      "enter": "cut",
+      "image": "jungle-move.jpg",
+      "focus": "50% 50%",
+      "label": "Bullet, bayonet and shrapnel wounds",
+      "value": 37,
+      "start": 0,
+      "count": {
+        "from": "s1@0.12",
+        "to": "s1@0.4"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s1@0.75",
+      "enter": "cut",
+      "image": "benavidez-portrait.jpg",
+      "focus": "50% 35%",
+      "main": {
+        "text": "He was *still alive*.",
+        "at": "s1@0.8"
+      }
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "benavidez-portrait.jpg",
+      "focus": "50% 25%",
+      "kicker": "Six Hours in Hell",
+      "date": "ROY BENAVIDEZ",
+      "year": "1968",
+      "place": "Green Beret, from Texas"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "stream-cross.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "US soldiers in Vietnam (illustrative)"
+    },
+    {
+      "type": "statement",
+      "from": "s3@0.55",
+      "enter": "cut",
+      "image": "sf-hq.jpg",
+      "focus": "50% 50%",
+      "kicker": "The doctors' verdict",
+      "main": {
+        "text": "He'd *never walk* again.",
+        "at": "s3@0.7"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s4",
+      "enter": "cut",
+      "image": "benavidez-portrait.jpg",
+      "focus": "30% 70%",
+      "main": {
+        "text": "He taught himself *to stand*.",
+        "at": "s4@0.6"
+      },
+      "fact": {
+        "text": "Crawling to the wall at night, against orders",
+        "at": "s4@0.3"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s5",
+      "enter": "cut",
+      "image": "sf-colorguard.jpg",
+      "focus": "50% 50%",
+      "move": "left",
+      "fact": "5th Special Forces Group, Vietnam"
+    },
+    {
+      "type": "film",
+      "from": "s6",
+      "enter": "cut",
+      "clip": "film-jungle.mp4",
+      "credit": "US soldiers in the jungle, Vietnam 1968 · archive film, illustrative"
+    },
+    {
+      "type": "number",
+      "from": "s6@0.55",
+      "enter": "cut",
+      "image": "jungle-move.jpg",
+      "focus": "50% 40%",
+      "label": "Trapped west of Loc Ninh",
+      "value": 12,
+      "start": 0,
+      "suffix": " men",
+      "count": {
+        "from": "s6@0.6",
+        "to": "s6@0.8"
+      },
+      "sub": {
+        "text": "against an enemy battalion",
+        "at": "s6@0.85"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s7",
+      "enter": "cut",
+      "clip": "film-heli-sky.mp4",
+      "credit": "Helicopters over Vietnam, 1968 · archive film, illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s7@0.55",
+      "enter": "cut",
+      "image": "huey-duclap.jpg",
+      "focus": "40% 50%",
+      "move": "in",
+      "fact": "A UH-1 Huey in Vietnam"
+    },
+    {
+      "type": "film",
+      "from": "s8",
+      "enter": "cut",
+      "clip": "film-heli-door.mp4",
+      "credit": "From a helicopter door, Vietnam 1968 · archive film, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s8@0.45",
+      "enter": "cut",
+      "image": "huey-mekong.jpg",
+      "focus": "50% 50%",
+      "main": {
+        "text": "A knife. A medical bag. *Gunfire.*",
+        "at": "s8@0.5"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s9",
+      "enter": "cut",
+      "clip": "film-soldiers.mp4",
+      "credit": "Vietnam, 1968 · archive film, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s9@0.5",
+      "enter": "cut",
+      "image": "jungle-move.jpg",
+      "focus": "50% 60%",
+      "main": {
+        "text": "Leg. Face. Head. *He kept going.*",
+        "at": "s9@0.5"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s10",
+      "enter": "cut",
+      "clip": "film-huey-smoke.mp4",
+      "credit": "A Huey in the smoke, Vietnam 1968 · archive film, illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s11",
+      "enter": "cut",
+      "image": "stream-cross.jpg",
+      "focus": "60% 50%",
+      "move": "in",
+      "fact": "US soldiers in Vietnam (illustrative)"
+    },
+    {
+      "type": "statement",
+      "from": "s12",
+      "enter": "cut",
+      "image": "jungle-move.jpg",
+      "focus": "40% 40%",
+      "main": {
+        "text": "Hand to hand. *He won.*",
+        "at": "s12@0.65"
+      }
+    },
+    {
+      "type": "number",
+      "from": "s13",
+      "enter": "cut",
+      "image": "huey-duclap.jpg",
+      "focus": "60% 50%",
+      "label": "Saved, in six hours",
+      "value": 8,
+      "start": 0,
+      "suffix": "+",
+      "count": {
+        "from": "s13@0.3",
+        "to": "s13@0.7"
+      },
+      "sub": {
+        "text": "men",
+        "at": "s13@0.75"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s14",
+      "enter": "cut",
+      "image": "sf-hq.jpg",
+      "focus": "60% 50%",
+      "kicker": "Thought dead",
+      "main": {
+        "text": "He spat *in the doctor's face*.",
+        "at": "s14@0.8"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s15",
+      "enter": "cut",
+      "image": "benavidez-portrait.jpg",
+      "focus": "50% 60%",
+      "move": "in",
+      "fact": "The Medal of Honor"
+    },
+    {
+      "type": "statement",
+      "from": "s15@0.6",
+      "enter": "cut",
+      "image": "sf-colorguard.jpg",
+      "focus": "30% 50%",
+      "main": {
+        "text": "No *living witness*.",
+        "at": "s15@0.7"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s16",
+      "enter": "cut",
+      "image": "huey-mekong.jpg",
+      "focus": "60% 50%",
+      "kicker": "Brian O'Connor, his radioman",
+      "main": {
+        "text": "Alive. *In Australia.*",
+        "at": "s16@0.6"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s17",
+      "enter": "cut",
+      "image": "reagan-medal-2.jpg",
+      "focus": "60% 30%",
+      "move": "in",
+      "fact": "Reagan presents the Medal of Honor, Pentagon, 24 February 1981"
+    },
+    {
+      "type": "photo",
+      "from": "s17@0.35",
+      "enter": "cut",
+      "image": "reagan-weinberger.jpg",
+      "focus": "45% 40%",
+      "move": "in"
+    },
+    {
+      "type": "portrait",
+      "from": "s17@0.6",
+      "enter": "fade",
+      "image": "benavidez-portrait.jpg",
+      "focus": "50% 30%",
+      "kicker": "Roy Benavidez",
+      "date": "1935 – 1998",
+      "line": {
+        "text": "\"You would *not believe it*.\"",
+        "at": "s17@0.85"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "He had 37 wounds, and they zipped him into a body bag. He was still alive. 🪖\n\nRoy Benavidez was told he'd never walk again — then jumped from a helicopter in Vietnam with a knife and a medical bag, and saved at least eight men in six hours. When the doctor zipped the bag, he spat in his face.\n\nBravest man of the war?\n\n#history #vietnamwar #roybenavidez #medalofhonor #greenberet #truestory #historytok #hero",
+    "facebook": "He had 37 wounds, and they zipped him into a body bag. He was still alive.\n\nRoy Benavidez, a Green Beret from Texas, stepped on a land mine in Vietnam in 1965. Doctors said he'd never walk again — so at night, against orders, he crawled out of bed and taught himself to stand. He walked out of the hospital and went straight back to Vietnam.\n\nOn 2 May 1968 a 12-man team was trapped in the jungle by an enemy battalion. Helicopters couldn't land. Benavidez jumped aboard one anyway, leapt out with a knife and a medical bag, and ran into the gunfire. Shot in the leg, the face and the head, he kept dragging the wounded to the helicopter. Then the pilot was killed and it crashed. He pulled the survivors out, called in air strikes, handed out water and ammunition, and won a hand-to-hand fight. Six hours later, at least eight men were alive because of him.\n\nBack at base they thought he was dead. As the doctor zipped up the body bag, Benavidez spat in his face.\n\nThe Army refused him the Medal of Honor for years — there was no living witness. Then his radioman, whom he believed dead, read about him in a newspaper in Australia. In 1981 President Reagan gave him the medal: \"If the story of his heroism were a movie script, you would not believe it.\"\n\n🪖 #History #VietnamWar #RoyBenavidez #MedalOfHonor",
+    "youtube": {
+      "title": "37 Wounds, a Body Bag — and He Spat in the Doctor's Face | Roy Benavidez #Shorts",
+      "description": "He had 37 wounds, and they zipped him into a body bag. He was still alive.\n\nGreen Beret Roy Benavidez was told he would never walk again after a land mine in 1965. On 2 May 1968 he jumped from a helicopter west of Loc Ninh, Vietnam, armed with a knife and a medical bag, and in six hours of fighting saved at least eight men. Thought dead, he spat in the doctor's face as the body bag was zipped. A radioman he believed dead later read about him in Australia and became the witness that won him the Medal of Honor, presented by President Reagan in 1981.\n\nSubscribe for more history that sounds made up.\n\nImages: public domain via Wikimedia Commons (US Army, White House Photographic Office, US National Archives). Film: Operation San Angelo (US Army, 1968), public domain — illustrative. Music: Battle Hymn of the Republic — United States Air Forces in Europe Band, public domain. Sources: Wikipedia.\n\n#Shorts #History #VietnamWar #RoyBenavidez #MedalOfHonor",
+      "tags": [
+        "history",
+        "Vietnam War",
+        "Roy Benavidez",
+        "Medal of Honor",
+        "Green Beret",
+        "Special Forces",
+        "Six Hours in Hell",
+        "Reagan",
+        "military history",
+        "war stories",
+        "history documentary",
+        "history explained",
+        "vietnam war",
+        "true story",
+        "history shorts",
+        "war hero",
+        "US Army",
+        "body bag"
+      ]
+    },
+    "pinned": "Bravest soldier of the Vietnam War? Could YOU have kept going with 37 wounds? 🪖🤔"
+  }
+}

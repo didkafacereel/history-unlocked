@@ -1,0 +1,125 @@
+{
+  "total": 94.734,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "He survived the first atomic bomb. Three days later, he was standing under the second.",
+      "start": 0.4,
+      "end": 5.947
+    },
+    {
+      "id": "s2",
+      "show": "Tsutomu Yamaguchi was a Mitsubishi engineer from Nagasaki.",
+      "start": 6.547,
+      "end": 11.005
+    },
+    {
+      "id": "s3",
+      "show": "In the summer of 1945, work sent him to Hiroshima.",
+      "start": 11.405,
+      "end": 15.501
+    },
+    {
+      "id": "s4",
+      "show": "On his last day, 6 August, he went back to the office for his forgotten stamp.",
+      "start": 15.901,
+      "end": 21.341
+    },
+    {
+      "id": "s6",
+      "show": "At 8:15, he looked up and saw a bomber, and two small parachutes.",
+      "start": 21.691,
+      "end": 26.214
+    },
+    {
+      "id": "s7",
+      "show": "Then a great flash. He was blown off his feet, 3 kilometres from the blast.",
+      "start": 26.614,
+      "end": 31.435
+    },
+    {
+      "id": "s8",
+      "show": "His eardrums burst. He was blinded for a while, and badly burned.",
+      "start": 31.885,
+      "end": 36.173
+    },
+    {
+      "id": "s9",
+      "show": "He spent the night in a shelter, in a city that was gone.",
+      "start": 36.573,
+      "end": 40.008
+    },
+    {
+      "id": "s10",
+      "show": "The next day, he took the train home. To Nagasaki.",
+      "start": 40.458,
+      "end": 43.935
+    },
+    {
+      "id": "s11",
+      "show": "On 9 August, wrapped in bandages, he went back to work.",
+      "start": 44.535,
+      "end": 48.674
+    },
+    {
+      "id": "s12",
+      "show": "He was telling his boss how one bomb had wiped out a whole city.",
+      "start": 49.024,
+      "end": 53.056
+    },
+    {
+      "id": "s13",
+      "show": "His boss called him crazy.",
+      "start": 53.406,
+      "end": 55.091
+    },
+    {
+      "id": "s14",
+      "show": "Then the room went white.",
+      "start": 55.591,
+      "end": 57.063
+    },
+    {
+      "id": "s15",
+      "show": "Fat Man had exploded over Nagasaki. Once again, about 3 kilometres away.",
+      "start": 57.663,
+      "end": 63.295
+    },
+    {
+      "id": "s16",
+      "show": "This time the blast didn't touch him. But for over a week, he burned with fever.",
+      "start": 63.745,
+      "end": 68.567
+    },
+    {
+      "id": "s18",
+      "show": "In 2009, he became the only person Japan officially recognised as surviving both.",
+      "start": 69.067,
+      "end": 75.573
+    },
+    {
+      "id": "s19",
+      "show": "At least 160 people were caught in both bombings.",
+      "start": 75.973,
+      "end": 79.707
+    },
+    {
+      "id": "s20",
+      "show": "He spent his last years asking the world to ban the bomb.",
+      "start": 80.157,
+      "end": 83.741
+    },
+    {
+      "id": "s21",
+      "show": "Tsutomu Yamaguchi died in 2010. He was 93.",
+      "start": 84.141,
+      "end": 88.237
+    },
+    {
+      "id": "end2",
+      "show": "He survived two atomic bombs to tell this story. Subscribe, and keep it alive.",
+      "start": 88.837,
+      "end": 94.234
+    }
+  ]
+}

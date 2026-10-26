@@ -1,0 +1,95 @@
+{
+  "total": 92.776,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "28 men were trapped in the Antarctic ice for almost two years. Not one of them died.",
+      "start": 0.4,
+      "end": 6.075
+    },
+    {
+      "id": "s2",
+      "show": "In December 1914, Ernest Shackleton sailed for Antarctica on a ship called Endurance. The plan: be the first to cross it on foot.",
+      "start": 6.675,
+      "end": 16.403
+    },
+    {
+      "id": "s3",
+      "show": "They never even landed. The sea froze around the ship, and held her like a fist.",
+      "start": 16.803,
+      "end": 21.603
+    },
+    {
+      "id": "s4",
+      "show": "For ten months, they drifted with the ice, through the polar winter.",
+      "start": 22.053,
+      "end": 26.021
+    },
+    {
+      "id": "s5",
+      "show": "Then the ice began to crush her. Shackleton gave the order: abandon ship.",
+      "start": 26.421,
+      "end": 31.093
+    },
+    {
+      "id": "s6",
+      "show": "A month later, they watched Endurance sink beneath the ice.",
+      "start": 31.543,
+      "end": 35.063
+    },
+    {
+      "id": "s7",
+      "show": "They camped on floating ice for five months, eating seals and penguins.",
+      "start": 35.563,
+      "end": 39.979
+    },
+    {
+      "id": "s8",
+      "show": "When the ice split under them, they rowed three lifeboats to a frozen rock called Elephant Island.",
+      "start": 40.379,
+      "end": 46.203
+    },
+    {
+      "id": "s9",
+      "show": "No one would ever look for them there. So Shackleton took five men and a seven-metre lifeboat, and sailed for help.",
+      "start": 46.653,
+      "end": 53.65
+    },
+    {
+      "id": "s10",
+      "show": "1,300 kilometres, across the worst ocean on Earth.",
+      "start": 54.05,
+      "end": 58.103
+    },
+    {
+      "id": "s11",
+      "show": "They hit South Georgia, on the wrong side. So three of them climbed across unmapped mountains for 36 hours, to a whaling station.",
+      "start": 58.553,
+      "end": 67.513
+    },
+    {
+      "id": "s12",
+      "show": "It took Shackleton four attempts to get back through the ice to Elephant Island.",
+      "start": 67.963,
+      "end": 72.507
+    },
+    {
+      "id": "s13",
+      "show": "On 30 August 1916, a Chilean tug reached them. Every single man was alive.",
+      "start": 72.907,
+      "end": 79.862
+    },
+    {
+      "id": "s14",
+      "show": "And in 2022, Endurance was found, 3 kilometres down, almost perfectly preserved.",
+      "start": 80.412,
+      "end": 86.983
+    },
+    {
+      "id": "end2",
+      "show": "Shackleton never gave up on his men. Don't give up on history. Subscribe.",
+      "start": 87.583,
+      "end": 92.276
+    }
+  ]
+}

@@ -73,6 +73,7 @@ const fast = script.pace === 'fast';
 // app's log or film storage.
 const channelMode = script.mode === 'channel';
 const ohDir = path.join(videoDir, 'old-history');
+const oldHistory = ohDir;
 const MIN_LEN = channelMode ? 45 : fast ? 35 : 45;
 const MAX_LEN = channelMode ? 100 : fast ? 75 : 62;
 const TARGET = channelMode ? 85 : 58;
@@ -364,6 +365,13 @@ const ready = path.join(channelMode ? ohDir : videoDir, 'ready', name);
 mkdirSync(ready, { recursive: true });
 copyFileSync(mp4, path.join(ready, `${name}.mp4`));
 copyFileSync(cover, path.join(ready, 'cover.jpg'));
+// Channel clips also get a designed 9:16 thumbnail (old-history/make_thumbs.py, 26 Oct 2026):
+// the real archive photo, dramatic grade, three huge lines, one in gold.
+if (channelMode) {
+  const py = process.env.HYPERFRAMES_PYTHON || 'python';
+  const r = spawnSync(py, [path.join(oldHistory, 'make_thumbs.py'), '--clip', dir, path.join(ready, 'thumbnail.jpg')], { encoding: 'utf8' });
+  console.log(r.status === 0 ? 'thumbnail.jpg — designed thumbnail' : '⚠ thumbnail failed: ' + (r.stderr || '').slice(-300));
+}
 const post = script.post ?? {};
 writeFileSync(
   path.join(ready, 'POST.md'),
@@ -391,7 +399,7 @@ writeFileSync(
     '',
     `Tags: ${(post.youtube?.tags ?? []).join(', ') || '(missing — write "post.youtube.tags")'}`,
     '',
-    'Settings: upload as a Short (vertical, under 3 minutes) · Audience: No, not made for kids · Category: Education · Altered or synthetic content: No (the narrator is a synthetic voice but imitates no real person; archive footage is not altered) · Thumbnail: cover.jpg (or the first frame)',
+    'Settings: upload as a Short (vertical, under 3 minutes) · Audience: No, not made for kids · Category: Education · Altered or synthetic content: No (the narrator is a synthetic voice but imitates no real person; archive footage is not altered) · Thumbnail: ' + (channelMode ? 'thumbnail.jpg (designed) — fallback cover.jpg' : 'cover.jpg (or the first frame)'),
     '',
     ...(post.pinned ? ['## Pinned comment', '', post.pinned, ''] : []),
     '## Sources',
@@ -417,6 +425,18 @@ if (channelMode) {
 if (draft) {
   console.log(`draft: not logged, no app clip
 ready → ${path.relative(path.resolve(videoDir, '..'), ready)}`);
+  process.exit(0);
+}
+if (channelMode) {
+  const logFile = path.join(oldHistory, 'log.json');
+  const log = existsSync(logFile) ? JSON.parse(readFileSync(logFile, 'utf8')) : [];
+  const entry = { slug: script.slug, made: script.date, title: script.title ?? script.slug, music: track.id, seconds: Math.round(dur), cta: stage.say };
+  const at = log.findIndex((l) => l.slug === script.slug);
+  if (at === -1) log.push(entry);
+  else log[at] = entry;
+  writeFileSync(logFile, JSON.stringify(log, null, 2) + '\n');
+  if (!post.tiktok || !post.facebook || !post.youtube?.title) console.log('⚠ POST.md is missing a caption — add "post.tiktok", "post.facebook" and "post.youtube" to script.json');
+  console.log(`ready → ${path.relative(path.resolve(videoDir, '..'), ready)}`);
   process.exit(0);
 }
 const logFile = path.join(videoDir, 'log.json');

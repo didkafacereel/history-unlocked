@@ -1,0 +1,101 @@
+{
+  "total": 96.717,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "They fed him enough poison to kill five men. They shot him. They threw him into an icy river. At least, that's the legend.",
+      "start": 0.4,
+      "end": 8.421
+    },
+    {
+      "id": "s2",
+      "show": "His name was Grigori Rasputin, a peasant from Siberia with wild eyes, who said he could heal with prayer.",
+      "start": 9.021,
+      "end": 16.467
+    },
+    {
+      "id": "s3",
+      "show": "The Tsar's only son, Alexei, had haemophilia. The smallest cut could kill him.",
+      "start": 16.867,
+      "end": 22.008
+    },
+    {
+      "id": "s4",
+      "show": "In 1912, the boy was dying. Rasputin sent a telegram, and Alexei recovered. No one knows why.",
+      "start": 22.408,
+      "end": 30.173
+    },
+    {
+      "id": "s5",
+      "show": "From then on, the Empress believed he was sent by God. Half of Russia believed he was the devil.",
+      "start": 30.623,
+      "end": 36.767
+    },
+    {
+      "id": "s6",
+      "show": "In December 1916, a group of nobles led by Prince Felix Yusupov decided to kill him.",
+      "start": 37.217,
+      "end": 43.895
+    },
+    {
+      "id": "s7",
+      "show": "Yusupov's story: he gave Rasputin cakes and wine laced with cyanide. Nothing happened.",
+      "start": 44.295,
+      "end": 50.503
+    },
+    {
+      "id": "s8",
+      "show": "So he shot him in the chest. Later, the \"body\" leapt up and attacked him.",
+      "start": 50.903,
+      "end": 55.297
+    },
+    {
+      "id": "s9",
+      "show": "Rasputin ran into the snow. They shot him again, and threw him off a bridge into the frozen river.",
+      "start": 55.697,
+      "end": 62.076
+    },
+    {
+      "id": "s10",
+      "show": "Days later, police found his body under the ice.",
+      "start": 62.576,
+      "end": 65.648
+    },
+    {
+      "id": "s11",
+      "show": "But the autopsy tells a different story. No poison. No water in his lungs.",
+      "start": 66.148,
+      "end": 71.311
+    },
+    {
+      "id": "s12",
+      "show": "He died from a bullet to the forehead, fired at close range. Before he ever hit the water.",
+      "start": 71.711,
+      "end": 78.153
+    },
+    {
+      "id": "s13",
+      "show": "His daughter said he never even ate sweets.",
+      "start": 78.653,
+      "end": 81.341
+    },
+    {
+      "id": "s14",
+      "show": "Fourteen months later, the Romanovs were gone. So was the Russian Empire.",
+      "start": 81.791,
+      "end": 86.506
+    },
+    {
+      "id": "s15",
+      "show": "So was Rasputin unkillable? Or did his killer just tell a better story?",
+      "start": 86.956,
+      "end": 91.777
+    },
+    {
+      "id": "end2",
+      "show": "Rasputin wouldn't stay down. Neither will we. Subscribe.",
+      "start": 92.377,
+      "end": 96.217
+    }
+  ]
+}

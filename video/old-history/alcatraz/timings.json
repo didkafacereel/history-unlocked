@@ -1,0 +1,101 @@
+{
+  "total": 97.079,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "On the morning of 12 June 1962, a guard at Alcatraz tried to wake a prisoner. His head rolled onto the floor.",
+      "start": 0.4,
+      "end": 9.68
+    },
+    {
+      "id": "s2",
+      "show": "It was fake. Soap, toilet paper, and real hair from the prison barbershop.",
+      "start": 10.28,
+      "end": 15.229
+    },
+    {
+      "id": "s3",
+      "show": "Three men were gone. Frank Morris, and the brothers John and Clarence Anglin.",
+      "start": 15.679,
+      "end": 20.373
+    },
+    {
+      "id": "s4",
+      "show": "Alcatraz was meant to be escape-proof. A rock, in the freezing currents of San Francisco Bay.",
+      "start": 20.823,
+      "end": 27.137
+    },
+    {
+      "id": "s5",
+      "show": "For six months, they dug through the walls under their sinks, with spoons, and a drill made from a vacuum cleaner.",
+      "start": 27.537,
+      "end": 34.727
+    },
+    {
+      "id": "s6",
+      "show": "Morris played the accordion during music hour, to cover the noise.",
+      "start": 35.077,
+      "end": 39.279
+    },
+    {
+      "id": "s7",
+      "show": "On the empty top floor of the cell block, they built a raft from more than fifty stolen raincoats.",
+      "start": 39.629,
+      "end": 45.795
+    },
+    {
+      "id": "s8",
+      "show": "On the night of 11 June, they climbed to the roof, slid down a pipe, and got over two fences.",
+      "start": 46.195,
+      "end": 52.509
+    },
+    {
+      "id": "s9",
+      "show": "A fourth man was left behind. His hole was too small.",
+      "start": 52.859,
+      "end": 56.614
+    },
+    {
+      "id": "s10",
+      "show": "At about 10 p.m., the three pushed their raft into the dark bay. And vanished.",
+      "start": 57.064,
+      "end": 61.907
+    },
+    {
+      "id": "s11",
+      "show": "Searchers found a paddle, a life vest, and a wallet wrapped in plastic. Never the men.",
+      "start": 62.507,
+      "end": 68.011
+    },
+    {
+      "id": "s12",
+      "show": "The FBI decided they drowned. Their family says they made it to Brazil.",
+      "start": 68.511,
+      "end": 73.631
+    },
+    {
+      "id": "s13",
+      "show": "In 2013, police got a letter signed \"John Anglin\", saying he was still alive. It was never proven.",
+      "start": 74.031,
+      "end": 81.113
+    },
+    {
+      "id": "s14",
+      "show": "And in 2025, a team rebuilt their raft from the same plans, and made it across.",
+      "start": 81.513,
+      "end": 87.529
+    },
+    {
+      "id": "s15",
+      "show": "So did they drown in the bay? Or pull off the perfect escape?",
+      "start": 87.979,
+      "end": 91.691
+    },
+    {
+      "id": "end2",
+      "show": "Three men vanished. Don't you vanish. Subscribe for the next escape.",
+      "start": 92.291,
+      "end": 96.579
+    }
+  ]
+}
