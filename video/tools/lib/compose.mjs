@@ -139,6 +139,8 @@ export function compose(dir, script, timings, total) {
   const highlight = Object.fromEntries([
     ...(script.highlight ?? []).map((w) => [String(w).toUpperCase(), 'hl']),
     ...(script.alert ?? []).map((w) => [String(w).toUpperCase(), 'al']),
+    // "names" (people, places, ships — 1 Nov 2026, the user: "different colours for the important things") turn sky blue.
+    ...(script.names ?? []).map((w) => [String(w).toUpperCase(), 'ky']),
   ]);
 
   const cover = script.cover ? renderCover(script.cover, asset, COVER) : '';
@@ -199,7 +201,7 @@ ${blocks.join('\n')}
         box.appendChild(el);
         if (window.__hyperframes && window.__hyperframes.fitTextFontSize) {
           var fit = window.__hyperframes.fitTextFontSize(g.words.join(" ").toUpperCase(), {
-            fontFamily: "Anton", fontWeight: 400, maxWidth: 900, baseFontSize: 116, minFontSize: 74,
+            fontFamily: "Anton", fontWeight: 400, maxWidth: 900, baseFontSize: 116, minFontSize: 58,
           });
           el.style.fontSize = fit.fontSize + "px";
         }
@@ -215,7 +217,7 @@ ${blocks.join('\n')}
         var step = Math.min(0.22, (g.end - g.start) / (g.words.length + 0.5));
         g.words.forEach(function (w, k) {
           var ws = sel + "-" + k, em = document.getElementById("cg-" + i + "-" + k).className.length > 3;
-          tl.fromTo(ws, { opacity: 0, scale: em ? 1.6 : 1.25, y: 18 }, { opacity: 1, scale: 1, y: 0, duration: em ? 0.22 : 0.14, ease: em ? "back.out(3)" : "back.out(2)" }, g.start + k * step);
+          tl.fromTo(ws, { opacity: 0, scale: em ? 1.3 : 1.0, y: 18 }, { opacity: 1, scale: 1, y: 0, duration: em ? 0.22 : 0.14, ease: em ? "back.out(3)" : "back.out(2)" }, g.start + k * step);
         });
         tl.to(sel, { opacity: 0, duration: 0.1, ease: "power2.in" }, g.end - 0.1);
         tl.set(sel, { opacity: 0, visibility: "hidden" }, g.end);

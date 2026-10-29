@@ -418,6 +418,28 @@
     "bytes": 3547223
   },
   {
+    "date": "2026-11-01",
+    "dateKey": "11-01",
+    "slug": "moonrise",
+    "eventId": "evt-11-01-1941-ansel-adams",
+    "title": "Moonrise, Hernandez, 1941 — one shot, no light meter, and seconds to spare",
+    "seconds": 63.8,
+    "video": "2026-11-01-moonrise.mp4",
+    "poster": "2026-11-01-moonrise.jpg",
+    "bytes": 3325175
+  },
+  {
+    "date": "2026-11-02",
+    "dateKey": "11-02",
+    "slug": "cubs-2016",
+    "eventId": "evt-11-02-2016-chicago-cubs",
+    "title": "The Cubs win the 2016 World Series — 108 years and a goat later",
+    "seconds": 67.3,
+    "video": "2026-11-02-cubs-2016.mp4",
+    "poster": "2026-11-02-cubs-2016.jpg",
+    "bytes": 3774551
+  },
+  {
     "date": "2026-11-03",
     "dateKey": "11-03",
     "slug": "napoleon-retreat",
@@ -426,6 +448,28 @@
     "seconds": 65.7,
     "video": "2026-11-03-napoleon-retreat.mp4",
     "poster": "2026-11-03-napoleon-retreat.jpg",
-    "bytes": 8624137
+    "bytes": 8737785
+  },
+  {
+    "date": "2026-11-04",
+    "dateKey": "11-04",
+    "slug": "tutankhamun",
+    "eventId": "evt-11-04-1922-tomb-of-tutankhamun",
+    "title": "Tutankhamun's tomb, 1922 — one last season, one step in the sand",
+    "seconds": 60.8,
+    "video": "2026-11-04-tutankhamun.mp4",
+    "poster": "2026-11-04-tutankhamun.jpg",
+    "bytes": 3971100
+  },
+  {
+    "date": "2026-11-05",
+    "dateKey": "11-05",
+    "slug": "gunpowder-plot",
+    "eventId": "evt-11-05-1605-gunpowder-plot",
+    "title": "The Gunpowder Plot, 1605 — 36 barrels, one letter, and a man called John Johnson",
+    "seconds": 62.8,
+    "video": "2026-11-05-gunpowder-plot.mp4",
+    "poster": "2026-11-05-gunpowder-plot.jpg",
+    "bytes": 5442396
   }
 ]

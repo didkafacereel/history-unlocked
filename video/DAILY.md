@@ -355,8 +355,15 @@ scene. Text: `*word*` = gold.
 | `portrait` | epilogue / a person | `image`, `focus`, `fit`, `kicker`, `date`, `line`, `line2` |
 | `quote` | words from the sources | `kicker`, `quote`, `by`, optional `image` |
 
-`highlight`: the story's key words in caps (names, the number, the twist
-word) — they turn gold in the captions. 3–4 digit numbers are gold anyway.
+**Caption colours** (the user, 1 Nov: "different colours on the important
+things — make the clips much more interesting"). Every clip uses all three:
+
+- `highlight` → **gold**: the key objects and the twist word ("SLED", "BRANDY").
+- `alert` → **red**: danger, death, defeat, the shock word ("DIED", "FIRE", "TRAPPED").
+- `names` → **sky blue**: people, places, ships ("NAPOLEON", "MOSCOW", "CARTER").
+- Numbers sit in a gold box by themselves.
+In headlines (`main`, `line`, kickers): `*gold*`, `!!red!!`, `++blue++`.
+Aim for one coloured word in most caption groups — not every word.
 
 `music.track`: pick by mood from `video/music/library.json`.
 
@@ -376,9 +383,30 @@ comes out. 📜" + 3–4 hashtags). Same facts as the video, nothing more.
 }
 ```
 
-Title ≤ 100 characters, the hook first, ending `#Shorts`; tags 8–15, ≤ 450
-characters together. `make.mjs` writes them into POST.md with the upload
-settings (Short, not made for kids, Education).
+Title ≤ 100 characters, the hook first, ending `#Shorts`. `make.mjs` writes
+them into POST.md with the upload settings (Short, not made for kids,
+Education).
+
+**YouTube tags — as many as fit, chosen with vidIQ** (the user, 25 Oct: "use
+vidIQ to put the maximum tags on YouTube"). Every clip, before the build:
+
+1. `vidiq_keyword_research` (mode `research`) on the story's main keyword
+   (the person, the event — "john glenn", "battle of beersheba"), and on one
+   broader one when the main one is thin. Optionally `matching_terms` for
+   long-tail phrases.
+2. Take, in order: the exact story keywords (even with low volume — they
+   match the searcher), then the related keywords vidIQ lists with the best
+   volume that are TRUE for this story, then the channel's staples
+   (`history`, `history shorts`, `on this day`, `history facts`,
+   `documentary`, the era: `ww1`/`ww2`/`1920s`…). Never a tag the video
+   does not cover (no "titanic" unless Titanic or her sister is in it, no
+   trending names that are off-topic) — misleading tags are spam.
+3. Fill the budget: YouTube allows **500 characters**, counting a comma
+   between tags and the quotes it adds around any tag with a space.
+   Aim for **480–495**. `make.mjs` refuses over 500 and warns under 430.
+4. Changing tags after delivery needs no render:
+   `node D:/android/history-unlocked/video/tools/retag.mjs <day folder>`
+   rewrites the Tags line in `ready/…/POST.md` and prints the budget.
 
 `sources`: one line per article, listing the facts used.
 

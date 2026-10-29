@@ -1,0 +1,381 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-11-02",
+  "dateKey": "11-02",
+  "slug": "cubs-2016",
+  "title": "The Cubs win the 2016 World Series — 108 years and a goat later",
+  "eventId": "evt-11-02-2016-chicago-cubs",
+  "category": "Sports & Games",
+  "sources": [
+    "Wikipedia: 2016 World Series — the Cubs defeated the Cleveland Indians in seven games to win their first World Series since 1908, ending the longest championship drought in North American professional sports; their first World Series since 1945; the two teams had a combined 176 seasons without a title; Game 7 went to extra innings and was the first Game 7 with a rain delay, as the 10th inning was about to start; Ben Zobrist's go-ahead double and Miguel Montero's RBI single gave the Cubs the cushion for an 8–7 win; Zobrist was World Series MVP; Game 7 had over 40 million viewers; the Cubs came back from a 3–1 series deficit (the Cavaliers 'also' did so in 2016)",
+    "Wikipedia: Curse of the Billy Goat — during Game 4 of the 1945 World Series at Wrigley Field, William Sianis's pet goat Murphy was bothering fans and the pair were asked to leave; Sianis allegedly declared 'Them Cubs, they ain't gonna win no more'; the Cubs did not play in another World Series for 71 years",
+    "Also on this day (candidates.md, in the app): 1959 the first section of Britain's M1 motorway opens; 2000 Expedition 1, the first crew, arrives at the International Space Station",
+    "Photos (public domain / CC0): the 2016 World Series (Cubs vs Indians); the Cubs at the White House, 2017; Wrigley Field panorama; the 1906 and 1913 Cubs; Joe Tinker and Mordecai Brown tobacco cards",
+    "Illustrative stock footage (Pexels, free licence; not of the event): a baseball diamond from the air, fireworks"
+  ],
+  "music": {
+    "track": "grieg-morning"
+  },
+  "highlight": [
+    "108",
+    "TITLE",
+    "CHAMPIONS",
+    "WON",
+    "WIN",
+    "MVP"
+  ],
+  "alert": [
+    "CURSE",
+    "GOAT",
+    "RAIN",
+    "NEVER",
+    "DROUGHT",
+    "LOST"
+  ],
+  "names": [
+    "CUBS",
+    "CHICAGO",
+    "CLEVELAND",
+    "WRIGLEY",
+    "ZOBRIST",
+    "SIANIS",
+    "MURPHY",
+    "INDIANS"
+  ],
+  "cover": {
+    "image": "game.jpg",
+    "focus": "50% 50%",
+    "date": "2 NOVEMBER 2016",
+    "lines": [
+      "*108* YEARS",
+      "AND A !!GOAT!!"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "A baseball team waited a hundred and eight years for a title, and blamed a goat.",
+      "show": "A baseball team waited 108 years for a title, and blamed a goat.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "On this night in twenty sixteen, the Chicago Cubs finally won the World Series.",
+      "show": "On this night in 2016, the Chicago Cubs finally won the World Series.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "Their last title had come in nineteen-oh-eight.",
+      "show": "Their last title had come in 1908.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "Then, in nineteen forty-five, a tavern owner brought his pet goat, Murphy, to a World Series game at Wrigley Field.",
+      "show": "Then, in 1945, a tavern owner brought his pet goat, Murphy, to a World Series game at Wrigley Field.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s5",
+      "say": "The goat was bothering fans. They were asked to leave.",
+      "show": "The goat was bothering fans. They were asked to leave.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s6",
+      "say": "He's said to have declared: Them Cubs, they ain't gonna win no more.",
+      "show": "He's said to have declared: \"Them Cubs, they ain't gonna win no more.\"",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s7",
+      "say": "The Cubs didn't reach another World Series for seventy-one years.",
+      "show": "The Cubs didn't reach another World Series for 71 years.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s8",
+      "say": "In twenty sixteen they did, against Cleveland, and fell behind three games to one.",
+      "show": "In 2016 they did, against Cleveland, and fell behind three games to one.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s9",
+      "say": "They fought back, to a Game Seven. It went to extra innings.",
+      "show": "They fought back, to a Game 7. It went to extra innings.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s10",
+      "say": "Then, of all things, it rained.",
+      "show": "Then, of all things, it rained.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s11",
+      "say": "After the delay, Ben Zobrist hit the go-ahead double. The Cubs won, eight to seven.",
+      "show": "After the delay, Ben Zobrist hit the go-ahead double. The Cubs won, 8 to 7.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s12",
+      "say": "More than forty million people watched the longest drought in American sports come to an end.",
+      "show": "More than 40 million people watched the longest drought in American sports come to an end.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "also": {
+    "say": "Also on this day: Britain opened its first motorway, and the first crew moved into the International Space Station.",
+    "items": [
+      {
+        "year": "1959",
+        "text": "Britain's first motorway, the M1, opens"
+      },
+      {
+        "year": "2000",
+        "text": "The first crew arrives at the ISS"
+      }
+    ],
+    "image": "wrigley.jpg"
+  },
+  "cta": {
+    "story": "Worth the wait.",
+    "say": "The Cubs waited a hundred and eight years. Our app won't take that long. Subscribe, and be in the stands.",
+    "pill": "PLAY BALL",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook — the 2016 World Series, same as the cover",
+      "image": "game.jpg",
+      "focus": "50% 50%",
+      "move": "in"
+    },
+    {
+      "type": "statement",
+      "from": "s1@0.6",
+      "enter": "cut",
+      "image": "team1906.jpg",
+      "focus": "50% 50%",
+      "ghost": "108",
+      "main": {
+        "text": "*108* years. One !!goat!!.",
+        "at": "s1@0.75"
+      }
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "game.jpg",
+      "focus": "40% 40%",
+      "date": "2 NOVEMBER",
+      "year": "2016",
+      "place": "Cleveland, Ohio"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "tinker.jpg",
+      "focus": "50% 40%",
+      "move": "in",
+      "fact": "Joe Tinker of the Cubs, c. 1909"
+    },
+    {
+      "type": "photo",
+      "from": "s3@0.5",
+      "enter": "cut",
+      "image": "team1906.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The Chicago Cubs, 1906"
+    },
+    {
+      "type": "photo",
+      "from": "s4",
+      "enter": "cut",
+      "image": "team1913.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The Chicago Cubs, 1913"
+    },
+    {
+      "type": "photo",
+      "from": "s4@0.6",
+      "enter": "cut",
+      "image": "wrigley.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Wrigley Field, Chicago"
+    },
+    {
+      "type": "statement",
+      "from": "s5",
+      "enter": "cut",
+      "image": "wrigley.jpg",
+      "focus": "30% 50%",
+      "ghost": "1945",
+      "kicker": "World Series, Game 4",
+      "main": {
+        "text": "The ++goat++ was asked to leave.",
+        "at": "s5@0.6"
+      }
+    },
+    {
+      "type": "quote",
+      "from": "s6",
+      "enter": "cut",
+      "image": "team1913.jpg",
+      "focus": "50% 50%",
+      "kicker": "William Sianis, 1945 (as told)",
+      "quote": {
+        "text": "Them Cubs, they ain't gonna win no more.",
+        "at": "s6@0.45"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s7",
+      "enter": "cut",
+      "image": "brown.jpg",
+      "focus": "50% 40%",
+      "ghost": "71",
+      "kicker": "The curse",
+      "main": {
+        "text": "!!71 years!! without a World Series.",
+        "at": "s7@0.5"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s8",
+      "enter": "cut",
+      "clip": "stock-field.mp4",
+      "credit": "A baseball diamond · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s8@0.6",
+      "enter": "cut",
+      "image": "game.jpg",
+      "focus": "60% 50%",
+      "ghost": "3–1",
+      "kicker": "2016 World Series",
+      "main": {
+        "text": "Down !!3 games to 1!!.",
+        "at": "s8@0.7"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s9",
+      "enter": "cut",
+      "image": "game.jpg",
+      "focus": "30% 60%",
+      "move": "in",
+      "fact": "Cubs vs Indians, 2016 World Series"
+    },
+    {
+      "type": "statement",
+      "from": "s10",
+      "enter": "cut",
+      "image": "game.jpg",
+      "focus": "50% 30%",
+      "ghost": "RAIN",
+      "kicker": "Game 7, before the 10th inning",
+      "main": {
+        "text": "Then it !!rained!!.",
+        "at": "s10@0.5"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s11",
+      "enter": "cut",
+      "image": "game.jpg",
+      "focus": "50% 50%",
+      "ghost": "8–7",
+      "kicker": "++Ben Zobrist++, series MVP",
+      "main": {
+        "text": "Cubs win, *8–7*.",
+        "at": "s11@0.7"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s11@0.85",
+      "enter": "cut",
+      "clip": "stock-fireworks.mp4",
+      "credit": "Fireworks · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s12",
+      "enter": "cut",
+      "image": "whitehouse.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The champions at the White House, January 2017"
+    },
+    {
+      "type": "statement",
+      "from": "s12@0.55",
+      "enter": "cut",
+      "image": "wrigley.jpg",
+      "focus": "50% 50%",
+      "ghost": "40M",
+      "kicker": "Game 7 audience",
+      "main": {
+        "text": "*40 million* watched it end.",
+        "at": "s12@0.65"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "A baseball team waited 108 years for a title — and blamed a goat. 🐐⚾\n\n2 November 2016: the Chicago Cubs, down 3–1 to Cleveland, forced Game 7, survived extra innings AND a rain delay, and won 8–7. The 'Curse of the Billy Goat' (1945) was over.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #cubs #worldseries #baseball #historytok",
+    "facebook": "On this night in 2016, the Chicago Cubs won the World Series — their first title since 1908.\n\nFor generations, fans blamed a goat. During Game 4 of the 1945 World Series at Wrigley Field, tavern owner William Sianis's pet goat, Murphy, was bothering fans, and the pair were asked to leave. Sianis is said to have declared: \"Them Cubs, they ain't gonna win no more.\" The Cubs did not reach another World Series for 71 years.\n\nIn 2016 they did — and fell behind Cleveland three games to one. They fought back to a Game 7, which went to extra innings, and then became the first Game 7 ever stopped by rain. After the delay, Ben Zobrist hit the go-ahead double and the Cubs won 8–7.\n\nMore than 40 million people watched the longest championship drought in North American sports come to an end.\n\nAlso on 2 November: Britain's first motorway, the M1, opened (1959), and the first crew moved into the International Space Station (2000).\n\nThe Cubs waited 108 years. Our app is much closer than that — follow the page and be in the stands when it lands. 📜\n\n#OnThisDay #History #Cubs #WorldSeries",
+    "youtube": {
+      "title": "108 Years, A Goat, And A Rain Delay: The Cubs Finally Win #Shorts",
+      "description": "2 November 2016: the Chicago Cubs won the World Series for the first time since 1908. Fans had blamed the Curse of the Billy Goat: in 1945 William Sianis and his goat Murphy were asked to leave Wrigley Field, and the Cubs didn't reach another World Series for 71 years. In 2016 they fell behind Cleveland 3–1, forced Game 7, went to extra innings — and then it rained. After the delay, Ben Zobrist's double won it 8–7, in front of more than 40 million viewers.\n\nAlso on 2 November: the M1 motorway opens (1959) and the first ISS crew arrives (2000).\n\nSubscribe — our history app, with a story for every date, is on its way.\n\nPhotos: public domain / CC0 (Wikimedia Commons). Field and fireworks shots: illustrative stock footage (Pexels), not of the event. Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #Cubs #WorldSeries",
+      "tags": [
+        "cubs 2016 world series",
+        "cubs world series",
+        "2016 world series",
+        "chicago cubs",
+        "curse of the billy goat",
+        "billy goat curse",
+        "world series",
+        "world series game 7",
+        "game 7",
+        "cubs",
+        "chicago",
+        "cleveland indians",
+        "ben zobrist",
+        "wrigley field",
+        "baseball",
+        "mlb",
+        "major league baseball",
+        "baseball history",
+        "go cubs go",
+        "sports history",
+        "2016",
+        "1908",
+        "history",
+        "on this day",
+        "history facts",
+        "history shorts",
+        "documentary",
+        "cubs 2016",
+        "cubs win world series",
+        "2016 world series game 7",
+        "cleveland",
+        "anthony rizzo"
+      ]
+    },
+    "pinned": "Real curse or just bad baseball? Do you believe in sports curses? 🐐 👇"
+  }
+}

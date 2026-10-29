@@ -1,0 +1,365 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-11-01",
+  "dateKey": "11-01",
+  "slug": "moonrise",
+  "title": "Moonrise, Hernandez, 1941 — one shot, no light meter, and seconds to spare",
+  "eventId": "evt-11-01-1941-ansel-adams",
+  "category": "Culture & Ideas",
+  "sources": [
+    "Wikipedia: Moonrise, Hernandez, New Mexico — taken by Ansel Adams late in the afternoon on 1 November 1941 from the shoulder of US 84/285 at Hernandez, New Mexico; in October 1941 Interior Secretary Harold Ickes had hired Adams for six months to photograph lands under the Department of the Interior; travelling through the Chama River valley toward Española, the party saw a church and cemetery and pulled to the side of the road; they scrambled to set up the tripod and camera with only moments of light left; Adams: 'I could not find my Weston exposure meter!'; he realised he knew the luminance of the moon, 250 candles per square foot, and worked out the exposure; he captured a single image with the sunset lighting the white crosses; reversing the film holder for a duplicate, the sunlight passed from the crosses — 'I was a few seconds too late!'; Adams personally made over 1,300 prints of it; a 1948 print sold for $609,600 at Sotheby's in 2006, and a mural-sized print for $930,000 at Christie's in 2021",
+    "Also on this day (candidates.md, in the app): 1914 the first contingent of the Australian Imperial Force departs Albany; 1993 the Maastricht Treaty takes effect, formally establishing the European Union",
+    "Photos (public domain): Moonrise, Hernandez, New Mexico; Ansel Adams's personnel file photograph; Adams's 1941–42 photographs for the Department of the Interior (Taos Pueblo, Old Faithful, Castle Geyser, Boulder Dam, Grand Canyon, Glacier, a leaf) — National Archives",
+    "Illustrative stock footage (Pexels, free licence; not of the event): the moon rising, a desert highway"
+  ],
+  "music": {
+    "track": "satie-gymnopedie-1"
+  },
+  "highlight": [
+    "ONE",
+    "MOON",
+    "SHOT",
+    "CROSSES",
+    "NEGATIVE",
+    "PRINTS",
+    "LIGHT"
+  ],
+  "alert": [
+    "DESPERATE",
+    "TOO",
+    "LATE",
+    "GONE",
+    "LOST"
+  ],
+  "names": [
+    "ANSEL",
+    "ADAMS",
+    "HERNANDEZ",
+    "MEXICO",
+    "MOONRISE",
+    "ESPAÑOLA",
+    "SOTHEBY'S",
+    "CHRISTIE'S"
+  ],
+  "cover": {
+    "image": "moonrise.jpg",
+    "focus": "40% 55%",
+    "date": "1 NOVEMBER 1941",
+    "lines": [
+      "ONE *SHOT*",
+      "$930,000"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "One of the most famous photos ever taken was a single shot, with no light meter.",
+      "show": "One of the most famous photos ever taken was a single shot, with no light meter.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "Ansel Adams took it on this day in nineteen forty-one.",
+      "show": "Ansel Adams took it on this day in 1941.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "The government had hired him to photograph its national lands.",
+      "show": "The government had hired him to photograph its national lands.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s4",
+      "say": "Late in the afternoon in New Mexico, he saw it: a village, white crosses, and the moon rising.",
+      "show": "Late in the afternoon in New Mexico, he saw it: a village, white crosses, and the moon rising.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s5",
+      "say": "He pulled off the road at Hernandez, and grabbed his camera.",
+      "show": "He pulled off the road at Hernandez, and grabbed his camera.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s6",
+      "say": "Then the problem. He couldn't find his light meter.",
+      "show": "Then the problem. He couldn't find his light meter.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s7",
+      "say": "The sun was slipping away. He was desperate.",
+      "show": "The sun was slipping away. He was desperate.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s8",
+      "say": "Then he remembered how bright the moon was: two hundred and fifty candles per square foot.",
+      "show": "Then he remembered how bright the moon was: 250 candles per square foot.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s9",
+      "say": "He worked out the exposure, and took one picture.",
+      "show": "He worked out the exposure, and took one picture.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s10",
+      "say": "He tried a second shot. The light had left the crosses. A few seconds too late.",
+      "show": "He tried a second shot. The light had left the crosses. A few seconds too late.",
+      "pauseAfter": 0.55
+    },
+    {
+      "id": "s11",
+      "say": "That lone negative became Moonrise. Adams printed it over thirteen hundred times.",
+      "show": "That lone negative became Moonrise. Adams printed it over 1,300 times.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s12",
+      "say": "In twenty twenty-one, one print sold for nine hundred and thirty thousand dollars.",
+      "show": "In 2021, one print sold for $930,000.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "also": {
+    "say": "Also on this day: Australia's first troops sailed to war, and the European Union was born.",
+    "items": [
+      {
+        "year": "1914",
+        "text": "First Australian troops sail from Albany"
+      },
+      {
+        "year": "1993",
+        "text": "The Maastricht Treaty creates the EU"
+      }
+    ],
+    "image": "lake.jpg"
+  },
+  "cta": {
+    "story": "Some moments only come once.",
+    "say": "Our app catches the moment of every day. Subscribe, so you don't miss the shot.",
+    "pill": "DON'T MISS IT",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook — the photograph itself",
+      "image": "moonrise.jpg",
+      "focus": "40% 55%",
+      "move": "in"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.55",
+      "enter": "cut",
+      "clip": "stock-moon.mp4",
+      "credit": "The moon rising · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s1@0.8",
+      "enter": "cut",
+      "image": "moonrise.jpg",
+      "focus": "30% 50%",
+      "main": {
+        "text": "No light meter. *One* shot.",
+        "at": "s1@0.85"
+      }
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "adams.jpg",
+      "focus": "50% 35%",
+      "date": "1 NOVEMBER",
+      "year": "1941",
+      "place": "Hernandez, New Mexico"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "geyser.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Adams for the Department of the Interior, 1941"
+    },
+    {
+      "type": "photo",
+      "from": "s3@0.55",
+      "enter": "cut",
+      "image": "canyon.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Grand Canyon — Ansel Adams, 1941"
+    },
+    {
+      "type": "film",
+      "from": "s4",
+      "enter": "cut",
+      "clip": "stock-road.mp4",
+      "credit": "A desert highway · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s4@0.45",
+      "enter": "cut",
+      "image": "taos.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "New Mexico — Ansel Adams, 1941"
+    },
+    {
+      "type": "photo",
+      "from": "s4@0.75",
+      "enter": "cut",
+      "image": "moonrise.jpg",
+      "focus": "70% 80%",
+      "move": "in",
+      "fact": "The church and the crosses"
+    },
+    {
+      "type": "photo",
+      "from": "s5",
+      "enter": "cut",
+      "image": "pueblo.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "New Mexico, 1941 — Ansel Adams"
+    },
+    {
+      "type": "statement",
+      "from": "s6",
+      "enter": "cut",
+      "image": "adams.jpg",
+      "focus": "50% 35%",
+      "ghost": "?",
+      "kicker": "Ansel Adams",
+      "main": {
+        "text": "“I could not find my !!exposure meter!!!”",
+        "at": "s6@0.4"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s7",
+      "enter": "cut",
+      "clip": "stock-moon.mp4",
+      "credit": "The moon rising · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s8",
+      "enter": "cut",
+      "image": "moonrise.jpg",
+      "focus": "45% 15%",
+      "ghost": "250",
+      "kicker": "The brightness of the moon",
+      "main": {
+        "text": "*250* candles per square foot.",
+        "at": "s8@0.55"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s9",
+      "enter": "cut",
+      "image": "moonrise.jpg",
+      "focus": "40% 55%",
+      "move": "out",
+      "fact": "Moonrise, Hernandez, New Mexico"
+    },
+    {
+      "type": "statement",
+      "from": "s10",
+      "enter": "cut",
+      "image": "moonrise.jpg",
+      "focus": "70% 85%",
+      "ghost": "TOO LATE",
+      "kicker": "The second shot",
+      "main": {
+        "text": "A few seconds !!too late!!.",
+        "at": "s10@0.8"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s11",
+      "enter": "cut",
+      "image": "leaf.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Ansel Adams for the National Park Service"
+    },
+    {
+      "type": "statement",
+      "from": "s11@0.55",
+      "enter": "cut",
+      "image": "moonrise.jpg",
+      "focus": "40% 55%",
+      "ghost": "1,300",
+      "kicker": "Printed by ++Adams++ himself",
+      "main": {
+        "text": "More than *1,300* prints.",
+        "at": "s11@0.7"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s12",
+      "enter": "cut",
+      "image": "moonrise.jpg",
+      "focus": "50% 30%",
+      "ghost": "$",
+      "kicker": "++Christie's++, New York, 2021",
+      "main": {
+        "text": "*$930,000* for one print.",
+        "at": "s12@0.55"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "One of the most famous photos ever was ONE shot — taken with no light meter, seconds before the light died. 🌕📷\n\n1 November 1941: Ansel Adams saw the moon over Hernandez, New Mexico, worked out the exposure from the moon's brightness, and fired once. His second try was seconds too late. A print later sold for $930,000.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #photography #anseladams #historytok #1941",
+    "facebook": "On this day in 1941, Ansel Adams made one of the most famous photographs in history — in a single shot, with no light meter.\n\nThe government had hired him to photograph America's national lands. Driving through New Mexico late in the afternoon, he saw it: a village, a church, white crosses, and the moon rising over the mountains. He pulled off the road at Hernandez and scrambled to set up his camera.\n\nThen he couldn't find his exposure meter. \"The situation was desperate,\" he wrote — the sun was slipping behind the clouds. Then he remembered he knew how bright the moon was: 250 candles per square foot. He worked out the exposure and took one picture. When he flipped the film holder for a second, the sunlight had left the crosses. \"I was a few seconds too late!\"\n\nThat lone negative became Moonrise, Hernandez, New Mexico. Adams printed it more than 1,300 times himself, and in 2021 a mural-sized print sold for $930,000.\n\nAlso on 1 November: Australia's first troops sailed for the Great War (1914), and the Maastricht Treaty created the EU (1993).\n\nSome moments only come once. Our app catches the moment of every single day — follow the page so you don't miss it when it launches. 📜\n\n#OnThisDay #History #AnselAdams #Photography",
+    "youtube": {
+      "title": "The Famous Photo Taken With No Light Meter In One Shot #Shorts",
+      "description": "1 November 1941: driving through New Mexico, Ansel Adams saw the moon rising over the village of Hernandez, its church and white crosses lit by the last sun. He couldn't find his light meter — so he worked out the exposure from the brightness of the moon, 250 candles per square foot, and took a single picture. His second shot was a few seconds too late. That lone negative became Moonrise, Hernandez, New Mexico; Adams printed it more than 1,300 times, and a print sold for $930,000 in 2021.\n\nAlso on 1 November: Australia's first troops sail for WW1 (1914) and the Maastricht Treaty (1993).\n\nSubscribe — our history app, with a story for every date, is on its way.\n\nPhotos: Ansel Adams, public domain (National Archives / Wikimedia Commons). Moon and road shots: illustrative stock footage (Pexels), not of the event. Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #AnselAdams #Photography",
+      "tags": [
+        "ansel adams moonrise",
+        "moonrise hernandez new mexico",
+        "moonrise hernandez",
+        "ansel adams",
+        "ansel adams photography",
+        "famous photographs",
+        "famous photos",
+        "black and white photography",
+        "landscape photography",
+        "photography history",
+        "history of photography",
+        "photography",
+        "photographer",
+        "new mexico",
+        "hernandez new mexico",
+        "1941",
+        "film photography",
+        "zone system",
+        "national archives",
+        "american history",
+        "history",
+        "on this day",
+        "history facts",
+        "history shorts",
+        "documentary",
+        "art history",
+        "landscape"
+      ]
+    },
+    "pinned": "Adams had one chance and no light meter. Would you have risked the shot — or packed up and driven on? 👇"
+  }
+}

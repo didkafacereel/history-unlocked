@@ -1,0 +1,89 @@
+{
+  "total": 67.187,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "After years of finding almost nothing, he got one last season. Then a worker found a step in the sand.",
+      "start": 0.4,
+      "end": 7.547
+    },
+    {
+      "id": "s2",
+      "show": "It happened on this day in 1922, in Egypt.",
+      "start": 7.997,
+      "end": 11.538
+    },
+    {
+      "id": "s3",
+      "show": "Howard Carter's patron, Lord Carnarvon, was about to stop paying.",
+      "start": 11.938,
+      "end": 16.333
+    },
+    {
+      "id": "s4",
+      "show": "He agreed to fund just one more season.",
+      "start": 16.683,
+      "end": 19.328
+    },
+    {
+      "id": "s5",
+      "show": "Under old huts, steps went down to a sealed doorway.",
+      "start": 19.778,
+      "end": 23.213
+    },
+    {
+      "id": "s6",
+      "show": "Carter covered them up, and sent a telegram.",
+      "start": 23.613,
+      "end": 26.429
+    },
+    {
+      "id": "s7",
+      "show": "Three weeks later, he chipped a hole in the door, with his grandmother's chisel.",
+      "start": 26.779,
+      "end": 31.301
+    },
+    {
+      "id": "s8",
+      "show": "He held up a candle, and looked in.",
+      "start": 31.701,
+      "end": 33.792
+    },
+    {
+      "id": "s9",
+      "show": "\"Can you see anything?\" Carnarvon asked. \"Yes,\" said Carter. \"Wonderful things.\"",
+      "start": 34.342,
+      "end": 39.27
+    },
+    {
+      "id": "s10",
+      "show": "It was the tomb of Tutankhamun, almost untouched, with over 5,000 objects.",
+      "start": 39.82,
+      "end": 45.367
+    },
+    {
+      "id": "s11",
+      "show": "Including a mask of solid gold.",
+      "start": 45.817,
+      "end": 48.014
+    },
+    {
+      "id": "s12",
+      "show": "Five months later, Lord Carnarvon was dead, of blood poisoning.",
+      "start": 48.464,
+      "end": 52.667
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: London opened the first deep electric tube line, and the Tehran hostage crisis began.",
+      "start": 53.267,
+      "end": 60.776
+    },
+    {
+      "id": "end2",
+      "show": "Every day of history hides a tomb like this. Subscribe, and be first through the door.",
+      "start": 61.226,
+      "end": 66.687
+    }
+  ]
+}

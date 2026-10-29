@@ -1,0 +1,74 @@
+{
+  "whitehouse.jpg": {
+    "file": "File:Cubs at the White House (01).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cubs_at_the_White_House_(01).jpg",
+    "licence": "Public domain",
+    "artist": "YouTube: The 2016 World Series Champion Chicago Cubs – View/save archived versions on archive.org",
+    "date": "Taken on 16 January 2017",
+    "description": "Chicago Cubs visit the White House after their win in the 2016 World Series"
+  },
+  "game.jpg": {
+    "file": "File:The Chicago Cubs and the Cleveland Indians play Game 7 of the World Series at Progressive Field in Cleveland, Ohio, Nov. 2, 2016. (K.Farabaugh-VOA).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Chicago_Cubs_and_the_Cleveland_Indians_play_Game_7_of_the_World_Series_at_Progressive_Field_in_Cleveland,_Ohio,_Nov._2,_2016._(K.Farabaugh-VOA).jpg",
+    "licence": "Public domain",
+    "artist": "(K.Farabaugh/VOA)",
+    "date": "2016-11-02",
+    "description": "The Chicago Cubs and the Cleveland Indians play Game 7 of the World Series at Progressive Field in Cleveland, Ohio, Nov. 2, 2016. (K.Farabaugh-VOA)"
+  },
+  "wrigley.jpg": {
+    "file": "File:Wrigley Field Panorama.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Wrigley_Field_Panorama.jpg",
+    "licence": "CC0",
+    "artist": "TaylorSteiner",
+    "date": "2015-08-08",
+    "description": "Panorama of Wrigley Field, taken on August 8, 2015 approximately 30 minutes before game three in the SF/CHC series in the MLB 2015 regular season."
+  },
+  "team1906.jpg": {
+    "file": "File:1906 Chicago Cubs.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:1906_Chicago_Cubs.jpg",
+    "licence": "Public domain",
+    "artist": "George Lawrence Company",
+    "date": "1906",
+    "description": "1906 Chicago Cubs baseball teamBack row, left to right: Mordecai Brown, Jack Pfiester, Solly Hofman, C. G. Williams, Orval Overall, Ed Reulbach, Johnny KlingMiddle row, left to right: Doc Gessler, Jack Taylor, Harry Steinfeldt, Jack McCormi"
+  },
+  "wrigley-air.jpg": {
+    "file": "File:Wrigley Field, Los Angeles, 1925.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Wrigley_Field,_Los_Angeles,_1925.jpg",
+    "licence": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "date": "1925-09-29",
+    "description": "Aerial view of Wrigley Field, Los Angeles, on its opening day. Photo from the Security Pacific National Bank Collection in the Los Angeles Public Library, order number 00054250."
+  },
+  "old-game.jpg": {
+    "file": "File:Wrigley Field (Los Angeles) 1942.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Wrigley_Field_(Los_Angeles)_1942.jpg",
+    "licence": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "date": "circa 1942date QS:P,+1942-00-00T00:00:00",
+    "description": "Wrigley Field in Los Angeles, California - THIS IS NOT WRIGLEY FIELD, IT IS YANKEE STADIUM"
+  },
+  "tinker.jpg": {
+    "file": "File:Tinker baseball card.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tinker_baseball_card.jpg",
+    "licence": "Public domain",
+    "artist": "American Tobacco Company",
+    "date": "between 1909 and 1911date QS:P,+1950-00-",
+    "description": "Baseball card title devised by Library staff. Issued by: American Tobacco Company. Forms part of: Baseball cards from the Benjamin K. Edwards Collection."
+  },
+  "brown.jpg": {
+    "file": "File:Mordecai Brown, Chicago Cubs, baseball card portrait LCCN2008677458.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mordecai_Brown,_Chicago_Cubs,_baseball_card_portrait_LCCN2008677458.jpg",
+    "licence": "Public domain",
+    "artist": "American Tobacco Company, sponsor",
+    "date": "1911",
+    "description": "Title: Mordecai Brown, Chicago Cubs, baseball card portrait Abstract/medium: 1 photomechanical print."
+  },
+  "team1913.jpg": {
+    "file": "File:1913 Chicago Cubs.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:1913_Chicago_Cubs.jpg",
+    "licence": "Public domain",
+    "artist": "Liggett & Myers Company.",
+    "date": "1913",
+    "description": "1913 Chicago Cubs, baseball card portrait"
+  }
+}

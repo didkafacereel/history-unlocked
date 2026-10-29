@@ -11,7 +11,7 @@
 @font-face { font-family: "DM Serif Display"; src: url("fonts/dmserif-italic.woff2") format("woff2"); font-weight: 400; font-style: italic; }
 :root {
   --void: #06070a; --ink-raised: #141826; --gold: #f5b73b; --gold-soft: rgba(245, 183, 59, 0.22);
-  --text: #f4f6fb; --text-2: rgba(244, 246, 251, 0.78);
+  --text: #f4f6fb; --text-2: rgba(244, 246, 251, 0.78); --red: #ff3b30; --sky: #4fd1ff;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html, body { margin: 0; overflow: hidden; background: var(--void); }
@@ -25,17 +25,20 @@ html, body { margin: 0; overflow: hidden; background: var(--void); }
 .dim { background: rgba(6, 7, 10, 0.82); }
 .glow { background: radial-gradient(ellipse 70% 45% at 50% 40%, var(--gold-soft), transparent 70%); }
 .content { position: absolute; inset: 0; display: flex; flex-direction: column; padding: 200px 150px 420px 72px; gap: 18px; }
-.kicker { font-family: "Anton", sans-serif; font-size: 46px; letter-spacing: 0.2em; color: var(--gold); text-transform: uppercase; line-height: 1.05; }
+.kicker { font-family: "Anton", sans-serif; font-size: 54px; text-shadow: 0 3px 14px rgba(0, 0, 0, 0.85); letter-spacing: 0.2em; color: var(--gold); text-transform: uppercase; line-height: 1.05; }
 .label { font-family: "Anton", sans-serif; font-size: 40px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text); line-height: 1.1; }
 .serif { font-family: "DM Serif Display", serif; font-weight: 400; text-wrap: balance; }
 .italic { font-family: "DM Serif Display", serif; font-style: italic; text-wrap: balance; }
-.hl { color: var(--gold); }
+.hl { color: var(--gold); text-shadow: 0 0 28px rgba(245, 183, 59, 0.45), 0 4px 18px rgba(0, 0, 0, 0.8); }
+.al { color: var(--red); text-shadow: 0 0 28px rgba(255, 59, 48, 0.45), 0 4px 18px rgba(0, 0, 0, 0.8); }
+.ky { color: var(--sky); text-shadow: 0 0 28px rgba(79, 209, 255, 0.45), 0 4px 18px rgba(0, 0, 0, 0.8); }
+.serif, .italic { text-shadow: 0 4px 20px rgba(0, 0, 0, 0.8); }
 .rule { width: 100%; max-width: 560px; height: 4px; background: var(--gold); }
 .frame { position: relative; width: 100%; overflow: hidden; border: 3px solid var(--gold); background: var(--ink-raised); }
 .frame img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
 .frame img.contain { object-fit: contain; }
 .ghost { position: absolute; left: -40px; top: 250px; font-family: "Anton", sans-serif; font-size: 330px; line-height: 0.9; color: rgba(245, 183, 59, 0.12); white-space: nowrap; }
-.fact { font-size: 46px; line-height: 1.2; color: var(--text); max-width: 820px; }
+.fact { font-size: 52px; line-height: 1.18; text-shadow: 0 3px 16px rgba(0, 0, 0, 0.9); color: var(--text); max-width: 820px; }
 .src { font-size: 32px; color: var(--text-2); }
 
 /* title */
@@ -66,7 +69,7 @@ html, body { margin: 0; overflow: hidden; background: var(--void); }
 /* photo */
 .p-text { gap: 20px; }
 .p-line { line-height: 1.05; max-width: 858px; }
-.p-fact { font-size: 44px; line-height: 1.2; color: var(--text); max-width: 840px; text-shadow: 0 2px 16px rgba(0, 0, 0, 0.8); }
+.p-fact { font-size: 48px; line-height: 1.2; color: var(--text); max-width: 840px; text-shadow: 0 2px 16px rgba(0, 0, 0, 0.8); }
 
 /* document */
 .d-band { position: absolute; left: 0; right: 0; top: 380px; height: 600px; overflow: hidden; border-top: 3px solid var(--gold); border-bottom: 3px solid var(--gold); }
@@ -121,9 +124,15 @@ html, body { margin: 0; overflow: hidden; background: var(--void); }
 .bare { background: linear-gradient(180deg, rgba(6, 7, 10, 0.45) 0%, rgba(6, 7, 10, 0.1) 30%, rgba(6, 7, 10, 0.1) 55%, rgba(6, 7, 10, 0.6) 100%); }
 
 /* captions */
-#captions { position: absolute; left: 60px; right: 140px; top: 1180px; height: 200px; z-index: 50; pointer-events: none; }
-.cg { position: absolute; left: 0; right: 0; top: 0; text-align: center; font-family: "Anton", sans-serif; font-size: 80px; line-height: 1.05; letter-spacing: 0.01em; text-transform: uppercase; color: var(--text); text-shadow: 0 4px 22px rgba(0, 0, 0, 0.9), 0 0 3px rgba(0, 0, 0, 0.9); opacity: 0; }
+/* captions v2 (26 Oct 2026): ~45% bigger, heavy outline, word-by-word pop,
+   gold = highlight, red = alert, numbers in a gold box */
+#captions { position: absolute; left: 40px; right: 120px; top: 1150px; height: 260px; z-index: 50; pointer-events: none; }
+.cg { position: absolute; left: 0; right: 0; top: 0; text-align: center; font-family: "Anton", sans-serif; font-size: 116px; line-height: 1.3; letter-spacing: 0.01em; text-transform: uppercase; color: #ffffff; -webkit-text-stroke: 12px #000; paint-order: stroke fill; text-shadow: 0 8px 26px rgba(0, 0, 0, 0.85); opacity: 0; }
+.cg .w { display: inline-block; transform-origin: 50% 70%; }
 .cg .hl { color: var(--gold); }
+.cg .al { color: var(--red); }
+.cg .ky { color: var(--sky); }
+.cg .num { color: var(--void); background: var(--gold); -webkit-text-stroke: 0; text-shadow: none; padding: 0 16px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6); }
 </style>
   </head>
   <body>
@@ -135,7 +144,7 @@ html, body { margin: 0; overflow: hidden; background: var(--void); }
         <div class="c-box">
           <div class="c-kicker">ON THIS DAY</div>
           <div class="c-date">3 NOVEMBER 1812</div>
-          <div class="c-hook" style="font-size: 132px">INTO RUSSIA<br />WITH <span class="hl">450,000</span><br />OUT ON A <span class="hl">SLED</span></div>
+          <div class="c-hook" style="font-size: 132px">INTO <span class="al">RUSSIA</span><br />WITH <span class="hl">450,000</span><br />OUT ON A <span class="hl">SLED</span></div>
         </div>
       </div>
 
@@ -316,7 +325,7 @@ html, body { margin: 0; overflow: hidden; background: var(--void); }
       <div id="scene14-ghost" class="ghost" data-layout-ignore>EBLÉ</div>
       <div class="content">
         <div id="scene14-kicker" class="kicker">General Jean-Baptiste Eblé</div>
-        <div id="scene14-main" class="serif s-main" style="font-size: 104px">He <span class="hl">disobeyed</span> — and saved them.</div>
+        <div id="scene14-main" class="serif s-main" style="font-size: 118px">He <span class="hl">disobeyed</span> — and saved them.</div>
         
         
       </div>
@@ -331,7 +340,7 @@ html, body { margin: 0; overflow: hidden; background: var(--void); }
       <div id="scene15-ghost" class="ghost" data-layout-ignore>49,000</div>
       <div class="content">
         <div id="scene15-kicker" class="kicker">Charles Minard’s chart of the losses, 1869</div>
-        <div id="scene15-main" class="serif s-main" style="font-size: 120px">About <span class="hl">49,000</span> left to fight.</div>
+        <div id="scene15-main" class="serif s-main" style="font-size: 138px">About <span class="hl">49,000</span> left to fight.</div>
         
         
       </div>
@@ -405,7 +414,7 @@ html, body { margin: 0; overflow: hidden; background: var(--void); }
 
     <script>
       var CAPTIONS = [{"show":"Napoleon marched into Russia with more than 450,000 men. He left it on a sled.","start":0.4,"end":7.099},{"show":"On this day in 1812, his retreating army was beaten at Vyazma.","start":7.549,"end":12.477},{"show":"He had taken Moscow in September, and found it empty, and on fire.","start":12.877,"end":17.314},{"show":"Now, with no peace and no supplies, the Grand Army turned for home.","start":17.714,"end":22.237},{"show":"Then came the snow, and the frost.","start":22.687,"end":24.799},{"show":"There was no winter clothing, no food, no fodder for the horses. Cossacks attacked the columns day and night.","start":25.199,"end":32.452},{"show":"When a horse fell, starving soldiers cut it up before it had even died.","start":32.852,"end":37.247},{"show":"At the Berezina river, full of drifting ice, the army was trapped.","start":37.747,"end":41.8},{"show":"It was saved by a general who had disobeyed Napoleon, and kept his bridge-building tools.","start":42.15,"end":47.931},{"show":"By then, only about 49,000 fighting men were left.","start":48.381,"end":52.392},{"show":"In December, Napoleon left his army behind, and rode for Paris in a sled.","start":52.892,"end":58.097},{"show":"Also on this day: the dog Laika went into orbit, and the writer Olympe de Gouges went to the guillotine.","start":58.697,"end":65.652}];
-      var KEY = {"450,000":1,"SLED":1,"MOSCOW":1,"SNOW":1,"BEREZINA":1,"DISOBEYED":1,"49,000":1,"PARIS":1};
+      var KEY = {"450,000":"hl","SLED":"hl","TOOLS":"hl","BRIDGE":"hl","49,000":"hl","HOME":"hl","FIRE":"al","SNOW":"al","FROST":"al","DIED":"al","TRAPPED":"al","BEATEN":"al","DISOBEYED":"al","STARVING":"al","COSSACKS":"al","NAPOLEON":"ky","RUSSIA":"ky","MOSCOW":"ky","VYAZMA":"ky","BEREZINA":"ky","PARIS":"ky","EBLÉ":"ky"};
       var MAXW = 3;
 
       // Captions come in balanced chunks of up to MAXW words (four; three at the fast pace), split at
@@ -433,15 +442,16 @@ html, body { margin: 0; overflow: hidden; background: var(--void); }
         var el = document.createElement("div");
         el.className = "cg";
         el.id = "cg-" + i;
-        el.innerHTML = g.words.map(function (w) {
+        el.innerHTML = g.words.map(function (w, k) {
           var bare = w.toUpperCase().replace(/^[“"‘']+/, "").replace(/[.,?!;:’'”"]+$/, "").replace(/(’S|'S)$/, "");
           var safe = w.replace(/&/g, "&amp;").replace(/</g, "&lt;");
-          return KEY[bare] || /^\d{3,4}$/.test(bare) ? '<span class="hl">' + safe + "</span>" : safe;
+          var cls = KEY[bare] || KEY[w.toUpperCase()] || (/^[$~]?[\d,.:]+(%|\+|KM|KG)?$/.test(bare) && /\d/.test(bare) ? "num" : "");
+          return '<span class="w ' + cls + '" id="cg-' + i + '-' + k + '">' + safe + "</span>";
         }).join(" ");
         box.appendChild(el);
         if (window.__hyperframes && window.__hyperframes.fitTextFontSize) {
           var fit = window.__hyperframes.fitTextFontSize(g.words.join(" ").toUpperCase(), {
-            fontFamily: "Anton", fontWeight: 400, maxWidth: 860, baseFontSize: 80, minFontSize: 54,
+            fontFamily: "Anton", fontWeight: 400, maxWidth: 900, baseFontSize: 116, minFontSize: 58,
           });
           el.style.fontSize = fit.fontSize + "px";
         }
@@ -503,7 +513,13 @@ html, body { margin: 0; overflow: hidden; background: var(--void); }
 
       GROUPS.forEach(function (g, i) {
         var sel = "#cg-" + i;
-        tl.fromTo(sel, { opacity: 0, scale: 0.9 }, { opacity: 1, scale: 1, duration: 0.14, ease: "back.out(1.7)" }, g.start);
+        tl.set(sel, { opacity: 1, visibility: "visible" }, g.start);
+        // Words pop in one by one, in step with the voice; emphasised words land bigger.
+        var step = Math.min(0.22, (g.end - g.start) / (g.words.length + 0.5));
+        g.words.forEach(function (w, k) {
+          var ws = sel + "-" + k, em = document.getElementById("cg-" + i + "-" + k).className.length > 3;
+          tl.fromTo(ws, { opacity: 0, scale: em ? 1.3 : 1.0, y: 18 }, { opacity: 1, scale: 1, y: 0, duration: em ? 0.22 : 0.14, ease: em ? "back.out(3)" : "back.out(2)" }, g.start + k * step);
+        });
         tl.to(sel, { opacity: 0, duration: 0.1, ease: "power2.in" }, g.end - 0.1);
         tl.set(sel, { opacity: 0, visibility: "hidden" }, g.end);
       });

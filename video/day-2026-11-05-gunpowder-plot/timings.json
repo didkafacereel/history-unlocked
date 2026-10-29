@@ -1,0 +1,89 @@
+{
+  "total": 69.363,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "36 barrels of gunpowder sat under Parliament. One letter gave them away.",
+      "start": 0.4,
+      "end": 5.627
+    },
+    {
+      "id": "s2",
+      "show": "The Gunpowder Plot was foiled on this day in 1605.",
+      "start": 6.077,
+      "end": 9.981
+    },
+    {
+      "id": "s3",
+      "show": "Catholic plotters, led by Robert Catesby, planned to blow up the king.",
+      "start": 10.381,
+      "end": 14.797
+    },
+    {
+      "id": "s4",
+      "show": "They took a cellar under the House of Lords, and filled it with gunpowder.",
+      "start": 15.147,
+      "end": 19.093
+    },
+    {
+      "id": "s5",
+      "show": "Guarding it: Guy Fawkes, posing as a servant called John Johnson.",
+      "start": 19.443,
+      "end": 23.945
+    },
+    {
+      "id": "s6",
+      "show": "Ten days before, a Catholic lord got an anonymous letter.",
+      "start": 24.395,
+      "end": 28.256
+    },
+    {
+      "id": "s7",
+      "show": "\"They shall receive a terrible blow this Parliament,\" it warned.",
+      "start": 28.606,
+      "end": 32.147
+    },
+    {
+      "id": "s8",
+      "show": "The plotters heard about it, and decided it was a hoax.",
+      "start": 32.597,
+      "end": 35.84
+    },
+    {
+      "id": "s9",
+      "show": "Late that night, guards searched the cellar, and found Fawkes, with a lantern, slow matches, and the barrels.",
+      "start": 36.29,
+      "end": 42.434
+    },
+    {
+      "id": "s10",
+      "show": "\"My name,\" he said, \"is John Johnson.\"",
+      "start": 42.884,
+      "end": 45.444
+    },
+    {
+      "id": "s11",
+      "show": "The king ordered him tortured. His signature shows what it did.",
+      "start": 45.944,
+      "end": 49.955
+    },
+    {
+      "id": "s12",
+      "show": "That night, London lit bonfires. Britain still does, every 5th of November.",
+      "start": 50.405,
+      "end": 55.61
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: the Battle of Inkerman was fought in fog, and India sent a probe to Mars.",
+      "start": 56.21,
+      "end": 62.781
+    },
+    {
+      "id": "end2",
+      "show": "Remember, remember: our history app is coming. Subscribe, and light the fuse with us.",
+      "start": 63.231,
+      "end": 68.863
+    }
+  ]
+}

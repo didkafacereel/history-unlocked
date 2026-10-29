@@ -24,9 +24,10 @@ export const md = (s) =>
   esc(s)
     .replace(/'/g, '’')
     .replace(/!!([^!]+)!!/g, '<span class="al">$1</span>')
+    .replace(/\+\+([^+]+)\+\+/g, '<span class="ky">$1</span>')
     .replace(/\*([^*]+)\*/g, '<span class="hl">$1</span>');
 
-const plainLen = (s) => String(s ?? '').replace(/\*|!!/g, '').length;
+const plainLen = (s) => String(s ?? '').replace(/\*|!!|\+\+/g, '').length;
 
 /** Size a headline by its length — long lines must still fit above the captions. */
 export function sizeFor(text, steps) {
@@ -45,7 +46,7 @@ export const CSS = `
 @font-face { font-family: "DM Serif Display"; src: url("fonts/dmserif-italic.woff2") format("woff2"); font-weight: 400; font-style: italic; }
 :root {
   --void: #06070a; --ink-raised: #141826; --gold: #f5b73b; --gold-soft: rgba(245, 183, 59, 0.22);
-  --text: #f4f6fb; --text-2: rgba(244, 246, 251, 0.78); --red: #ff3b30;
+  --text: #f4f6fb; --text-2: rgba(244, 246, 251, 0.78); --red: #ff3b30; --sky: #4fd1ff;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html, body { margin: 0; overflow: hidden; background: var(--void); }
@@ -65,6 +66,7 @@ html, body { margin: 0; overflow: hidden; background: var(--void); }
 .italic { font-family: "DM Serif Display", serif; font-style: italic; text-wrap: balance; }
 .hl { color: var(--gold); text-shadow: 0 0 28px rgba(245, 183, 59, 0.45), 0 4px 18px rgba(0, 0, 0, 0.8); }
 .al { color: var(--red); text-shadow: 0 0 28px rgba(255, 59, 48, 0.45), 0 4px 18px rgba(0, 0, 0, 0.8); }
+.ky { color: var(--sky); text-shadow: 0 0 28px rgba(79, 209, 255, 0.45), 0 4px 18px rgba(0, 0, 0, 0.8); }
 .serif, .italic { text-shadow: 0 4px 20px rgba(0, 0, 0, 0.8); }
 .rule { width: 100%; max-width: 560px; height: 4px; background: var(--gold); }
 .frame { position: relative; width: 100%; overflow: hidden; border: 3px solid var(--gold); background: var(--ink-raised); }
@@ -160,10 +162,11 @@ html, body { margin: 0; overflow: hidden; background: var(--void); }
 /* captions v2 (26 Oct 2026): ~45% bigger, heavy outline, word-by-word pop,
    gold = highlight, red = alert, numbers in a gold box */
 #captions { position: absolute; left: 40px; right: 120px; top: 1150px; height: 260px; z-index: 50; pointer-events: none; }
-.cg { position: absolute; left: 0; right: 0; top: 0; text-align: center; font-family: "Anton", sans-serif; font-size: 116px; line-height: 1.08; letter-spacing: 0.01em; text-transform: uppercase; color: #ffffff; -webkit-text-stroke: 12px #000; paint-order: stroke fill; text-shadow: 0 8px 26px rgba(0, 0, 0, 0.85); opacity: 0; }
+.cg { position: absolute; left: 0; right: 0; top: 0; text-align: center; font-family: "Anton", sans-serif; font-size: 116px; line-height: 1.3; letter-spacing: 0.01em; text-transform: uppercase; color: #ffffff; -webkit-text-stroke: 12px #000; paint-order: stroke fill; text-shadow: 0 8px 26px rgba(0, 0, 0, 0.85); opacity: 0; }
 .cg .w { display: inline-block; transform-origin: 50% 70%; }
 .cg .hl { color: var(--gold); }
 .cg .al { color: var(--red); }
+.cg .ky { color: var(--sky); }
 .cg .num { color: var(--void); background: var(--gold); -webkit-text-stroke: 0; text-shadow: none; padding: 0 16px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6); }
 `;
 

@@ -367,6 +367,26 @@
     "cta": "They had until nightfall. You have until our launch. Subscribe, and ride in with the first wave."
   },
   {
+    "date": "2026-11-01",
+    "slug": "moonrise",
+    "title": "Moonrise, Hernandez, 1941 — one shot, no light meter, and seconds to spare",
+    "eventId": "evt-11-01-1941-ansel-adams",
+    "category": "Culture & Ideas",
+    "music": "satie-gymnopedie-1",
+    "seconds": 70,
+    "cta": "Our app catches the moment of every day. Subscribe, so you don't miss the shot."
+  },
+  {
+    "date": "2026-11-02",
+    "slug": "cubs-2016",
+    "title": "The Cubs win the 2016 World Series — 108 years and a goat later",
+    "eventId": "evt-11-02-2016-chicago-cubs",
+    "category": "Sports & Games",
+    "music": "grieg-morning",
+    "seconds": 75,
+    "cta": "The Cubs waited a hundred and eight years. Our app won't take that long. Subscribe, and be in the stands."
+  },
+  {
     "date": "2026-11-03",
     "slug": "napoleon-retreat",
     "title": "Napoleon's retreat from Moscow, 1812 — he came with an empire's army and left on a sled",
@@ -375,5 +395,25 @@
     "music": "grieg-aase-death",
     "seconds": 73,
     "cta": "Our app has the whole road of history, day by day. Subscribe, and march with us until it arrives."
+  },
+  {
+    "date": "2026-11-04",
+    "slug": "tutankhamun",
+    "title": "Tutankhamun's tomb, 1922 — one last season, one step in the sand",
+    "eventId": "evt-11-04-1922-tomb-of-tutankhamun",
+    "category": "Science & Technology",
+    "music": "mussorgsky-old-castle",
+    "seconds": 67,
+    "cta": "Every day of history hides a tomb like this. Subscribe, and be first through the door."
+  },
+  {
+    "date": "2026-11-05",
+    "slug": "gunpowder-plot",
+    "title": "The Gunpowder Plot, 1605 — 36 barrels, one letter, and a man called John Johnson",
+    "eventId": "evt-11-05-1605-gunpowder-plot",
+    "category": "Politics & Power",
+    "music": "mussorgsky-catacombs",
+    "seconds": 69,
+    "cta": "Remember, remember: our history app is coming. Subscribe, and light the fuse with us."
   }
 ]

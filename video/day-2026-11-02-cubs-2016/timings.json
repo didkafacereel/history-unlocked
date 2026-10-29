@@ -1,0 +1,89 @@
+{
+  "total": 74.809,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "A baseball team waited 108 years for a title, and blamed a goat.",
+      "start": 0.4,
+      "end": 5.221
+    },
+    {
+      "id": "s2",
+      "show": "On this night in 2016, the Chicago Cubs finally won the World Series.",
+      "start": 5.671,
+      "end": 10.919
+    },
+    {
+      "id": "s3",
+      "show": "Their last title had come in 1908.",
+      "start": 11.319,
+      "end": 14.221
+    },
+    {
+      "id": "s4",
+      "show": "Then, in 1945, a tavern owner brought his pet goat, Murphy, to a World Series game at Wrigley Field.",
+      "start": 14.621,
+      "end": 22.365
+    },
+    {
+      "id": "s5",
+      "show": "The goat was bothering fans. They were asked to leave.",
+      "start": 22.715,
+      "end": 25.915
+    },
+    {
+      "id": "s6",
+      "show": "He's said to have declared: \"Them Cubs, they ain't gonna win no more.\"",
+      "start": 26.265,
+      "end": 30.126
+    },
+    {
+      "id": "s7",
+      "show": "The Cubs didn't reach another World Series for 71 years.",
+      "start": 30.626,
+      "end": 34.679
+    },
+    {
+      "id": "s8",
+      "show": "In 2016 they did, against Cleveland, and fell behind three games to one.",
+      "start": 35.129,
+      "end": 40.612
+    },
+    {
+      "id": "s9",
+      "show": "They fought back, to a Game 7. It went to extra innings.",
+      "start": 40.962,
+      "end": 44.674
+    },
+    {
+      "id": "s10",
+      "show": "Then, of all things, it rained.",
+      "start": 45.024,
+      "end": 46.773
+    },
+    {
+      "id": "s11",
+      "show": "After the delay, Ben Zobrist hit the go-ahead double. The Cubs won, 8 to 7.",
+      "start": 47.273,
+      "end": 52.756
+    },
+    {
+      "id": "s12",
+      "show": "More than 40 million people watched the longest drought in American sports come to an end.",
+      "start": 53.206,
+      "end": 59.073
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: Britain opened its first motorway, and the first crew moved into the International Space Station.",
+      "start": 59.673,
+      "end": 67.225
+    },
+    {
+      "id": "end2",
+      "show": "The Cubs waited a hundred and eight years. Our app won't take that long. Subscribe, and be in the stands.",
+      "start": 67.675,
+      "end": 74.309
+    }
+  ]
+}

@@ -305,13 +305,45 @@
       "video": "2026-10-31-beersheba.mp4?v=3547223",
       "poster": "2026-10-31-beersheba.jpg?v=104108"
     },
+    "11-01": {
+      "date": "2026-11-01",
+      "eventId": "evt-11-01-1941-ansel-adams",
+      "title": "Moonrise, Hernandez, 1941 — one shot, no light meter, and seconds to spare",
+      "seconds": 63.8,
+      "video": "2026-11-01-moonrise.mp4?v=3325175",
+      "poster": "2026-11-01-moonrise.jpg?v=62318"
+    },
+    "11-02": {
+      "date": "2026-11-02",
+      "eventId": "evt-11-02-2016-chicago-cubs",
+      "title": "The Cubs win the 2016 World Series — 108 years and a goat later",
+      "seconds": 67.3,
+      "video": "2026-11-02-cubs-2016.mp4?v=3774551",
+      "poster": "2026-11-02-cubs-2016.jpg?v=80572"
+    },
     "11-03": {
       "date": "2026-11-03",
       "eventId": "evt-11-03-1812-french-invasion-of-russia",
       "title": "Napoleon's retreat from Moscow, 1812 — he came with an empire's army and left on a sled",
       "seconds": 65.7,
-      "video": "2026-11-03-napoleon-retreat.mp4?v=8624137",
-      "poster": "2026-11-03-napoleon-retreat.jpg?v=63669"
+      "video": "2026-11-03-napoleon-retreat.mp4?v=8737785",
+      "poster": "2026-11-03-napoleon-retreat.jpg?v=62158"
+    },
+    "11-04": {
+      "date": "2026-11-04",
+      "eventId": "evt-11-04-1922-tomb-of-tutankhamun",
+      "title": "Tutankhamun's tomb, 1922 — one last season, one step in the sand",
+      "seconds": 60.8,
+      "video": "2026-11-04-tutankhamun.mp4?v=3971100",
+      "poster": "2026-11-04-tutankhamun.jpg?v=123711"
+    },
+    "11-05": {
+      "date": "2026-11-05",
+      "eventId": "evt-11-05-1605-gunpowder-plot",
+      "title": "The Gunpowder Plot, 1605 — 36 barrels, one letter, and a man called John Johnson",
+      "seconds": 62.8,
+      "video": "2026-11-05-gunpowder-plot.mp4?v=5442396",
+      "poster": "2026-11-05-gunpowder-plot.jpg?v=151216"
     }
   }
 }

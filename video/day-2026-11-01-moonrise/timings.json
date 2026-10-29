@@ -1,0 +1,89 @@
+{
+  "total": 69.753,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "One of the most famous photos ever taken was a single shot, with no light meter.",
+      "start": 0.4,
+      "end": 5.669
+    },
+    {
+      "id": "s2",
+      "show": "Ansel Adams took it on this day in 1941.",
+      "start": 6.119,
+      "end": 9.682
+    },
+    {
+      "id": "s3",
+      "show": "The government had hired him to photograph its national lands.",
+      "start": 10.082,
+      "end": 13.751
+    },
+    {
+      "id": "s4",
+      "show": "Late in the afternoon in New Mexico, he saw it: a village, white crosses, and the moon rising.",
+      "start": 14.101,
+      "end": 20.416
+    },
+    {
+      "id": "s5",
+      "show": "He pulled off the road at Hernandez, and grabbed his camera.",
+      "start": 20.816,
+      "end": 24.357
+    },
+    {
+      "id": "s6",
+      "show": "Then the problem. He couldn't find his light meter.",
+      "start": 24.707,
+      "end": 27.651
+    },
+    {
+      "id": "s7",
+      "show": "The sun was slipping away. He was desperate.",
+      "start": 28.101,
+      "end": 30.661
+    },
+    {
+      "id": "s8",
+      "show": "Then he remembered how bright the moon was: 250 candles per square foot.",
+      "start": 31.061,
+      "end": 36.309
+    },
+    {
+      "id": "s9",
+      "show": "He worked out the exposure, and took one picture.",
+      "start": 36.659,
+      "end": 39.582
+    },
+    {
+      "id": "s10",
+      "show": "He tried a second shot. The light had left the crosses. A few seconds too late.",
+      "start": 40.032,
+      "end": 45.237
+    },
+    {
+      "id": "s11",
+      "show": "That lone negative became Moonrise. Adams printed it over 1,300 times.",
+      "start": 45.787,
+      "end": 51.291
+    },
+    {
+      "id": "s12",
+      "show": "In 2021, one print sold for $930,000.",
+      "start": 51.691,
+      "end": 56.726
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: Australia's first troops sailed to war, and the European Union was born.",
+      "start": 57.326,
+      "end": 63.747
+    },
+    {
+      "id": "end2",
+      "show": "Our app catches the moment of every day. Subscribe, so you don't miss the shot.",
+      "start": 64.197,
+      "end": 69.253
+    }
+  ]
+}

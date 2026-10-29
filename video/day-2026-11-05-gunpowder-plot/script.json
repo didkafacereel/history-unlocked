@@ -1,0 +1,391 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-11-05",
+  "dateKey": "11-05",
+  "slug": "gunpowder-plot",
+  "title": "The Gunpowder Plot, 1605 — 36 barrels, one letter, and a man called John Johnson",
+  "eventId": "evt-11-05-1605-gunpowder-plot",
+  "category": "Politics & Power",
+  "sources": [
+    "Wikipedia: Gunpowder Plot — Robert Catesby proposed to kill the king and his government by blowing up 'the Parliament House with gunpowder'; Fawkes, using the pseudonym 'John Johnson', took charge of the building posing as Thomas Percy's servant; according to Fawkes, 20 barrels of gunpowder were brought in at first, then 16 more; on 26 October 1605 an anonymous letter was delivered to Lord Monteagle, a Catholic peer, warning: 'they shall receive a terrible blow this Parliament; and yet they shall not see who hurts them'; Monteagle showed it to the authorities; the conspirators thought it a hoax and carried on; in a search on the night of 4–5 November Fawkes was found guarding 36 barrels of gunpowder, enough to reduce the House of Lords to rubble; he gave his name as John Johnson; the king decided he would be tortured; people lit bonfires around London to celebrate the king's survival",
+    "Wikipedia: Guy Fawkes — he carried a lantern now in the Ashmolean Museum, Oxford, and a search revealed a pocket watch, slow matches and touchwood; his scrawled signature suggests what he suffered; weakened by torture, he jumped from the gallows and broke his neck",
+    "Wikipedia: Guy Fawkes Night — 5 November is commemorated in Britain with bonfires and fireworks",
+    "Also on this day (candidates.md, in the app): 1854 the Battle of Inkerman; 2013 India launches its Mars Orbiter Mission",
+    "Pictures (public domain): the conspirators, engraving by Crispijn van de Passe; the Monteagle letter; Fawkes's lantern; the undercroft beneath the House of Lords; Capon's plan of the old Palace of Westminster; Fawkes's signatures before and after torture; the execution of the plotters; a Guy Fawkes Night bonfire at Windsor; Punch, 1850",
+    "Illustrative stock footage (Pexels, free licence; not of the event): wooden barrels, an oil lantern, a bonfire, fireworks"
+  ],
+  "music": {
+    "track": "mussorgsky-catacombs"
+  },
+  "highlight": [
+    "36",
+    "BARRELS",
+    "LETTER",
+    "LANTERN",
+    "BONFIRES",
+    "MATCHES"
+  ],
+  "alert": [
+    "GUNPOWDER",
+    "BLOW",
+    "TORTURED",
+    "KILL",
+    "GALLOWS",
+    "HOAX"
+  ],
+  "names": [
+    "FAWKES",
+    "GUY",
+    "JOHNSON",
+    "MONTEAGLE",
+    "CATESBY",
+    "PARLIAMENT",
+    "LONDON",
+    "LORDS"
+  ],
+  "cover": {
+    "image": "plotters.jpg",
+    "focus": "60% 45%",
+    "date": "5 NOVEMBER 1605",
+    "lines": [
+      "*36* BARRELS",
+      "UNDER !!PARLIAMENT!!"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "Thirty-six barrels of gunpowder sat under Parliament. One letter gave them away.",
+      "show": "36 barrels of gunpowder sat under Parliament. One letter gave them away.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "The Gunpowder Plot was foiled on this day in sixteen-oh-five.",
+      "show": "The Gunpowder Plot was foiled on this day in 1605.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "Catholic plotters, led by Robert Catesby, planned to blow up the king.",
+      "show": "Catholic plotters, led by Robert Catesby, planned to blow up the king.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s4",
+      "say": "They took a cellar under the House of Lords, and filled it with gunpowder.",
+      "show": "They took a cellar under the House of Lords, and filled it with gunpowder.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s5",
+      "say": "Guarding it: Guy Fawkes, posing as a servant called John Johnson.",
+      "show": "Guarding it: Guy Fawkes, posing as a servant called John Johnson.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s6",
+      "say": "Ten days before, a Catholic lord got an anonymous letter.",
+      "show": "Ten days before, a Catholic lord got an anonymous letter.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s7",
+      "say": "They shall receive a terrible blow this Parliament, it warned.",
+      "show": "\"They shall receive a terrible blow this Parliament,\" it warned.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s8",
+      "say": "The plotters heard about it, and decided it was a hoax.",
+      "show": "The plotters heard about it, and decided it was a hoax.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s9",
+      "say": "Late that night, guards searched the cellar, and found Fawkes, with a lantern, slow matches, and the barrels.",
+      "show": "Late that night, guards searched the cellar, and found Fawkes, with a lantern, slow matches, and the barrels.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s10",
+      "say": "My name, he said, is John Johnson.",
+      "show": "\"My name,\" he said, \"is John Johnson.\"",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s11",
+      "say": "The king ordered him tortured. His signature shows what it did.",
+      "show": "The king ordered him tortured. His signature shows what it did.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s12",
+      "say": "That night, London lit bonfires. Britain still does, every fifth of November.",
+      "show": "That night, London lit bonfires. Britain still does, every 5th of November.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "also": {
+    "say": "Also on this day: the Battle of Inkerman was fought in fog, and India sent a probe to Mars.",
+    "items": [
+      {
+        "year": "1854",
+        "text": "The Battle of Inkerman, Crimean War"
+      },
+      {
+        "year": "2013",
+        "text": "India launches its Mars Orbiter Mission"
+      }
+    ],
+    "image": "bonfire.jpg"
+  },
+  "cta": {
+    "story": "Remember, remember.",
+    "say": "Remember, remember: our history app is coming. Subscribe, and light the fuse with us.",
+    "pill": "LIGHT THE FUSE",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook — the plotters, same as the cover",
+      "image": "plotters.jpg",
+      "focus": "60% 45%",
+      "move": "in"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.35",
+      "enter": "cut",
+      "clip": "stock-barrels.mp4",
+      "credit": "Wooden barrels · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.65",
+      "enter": "cut",
+      "image": "letter.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The Monteagle letter, 1605"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "plan.jpg",
+      "focus": "50% 50%",
+      "date": "5 NOVEMBER",
+      "year": "1605",
+      "place": "Westminster, London"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "plotters.jpg",
+      "focus": "30% 45%",
+      "move": "in",
+      "fact": "Eight of the conspirators, engraving, 1605"
+    },
+    {
+      "type": "statement",
+      "from": "s3@0.6",
+      "enter": "cut",
+      "image": "plotters.jpg",
+      "focus": "80% 45%",
+      "ghost": "KING",
+      "kicker": "++Robert Catesby++'s plan",
+      "main": {
+        "text": "!!Blow up!! the king.",
+        "at": "s3@0.75"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s4",
+      "enter": "cut",
+      "image": "undercroft.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The undercroft beneath the House of Lords"
+    },
+    {
+      "type": "film",
+      "from": "s4@0.6",
+      "enter": "cut",
+      "clip": "stock-barrels.mp4",
+      "credit": "Wooden barrels · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s5",
+      "enter": "cut",
+      "image": "plotters.jpg",
+      "focus": "62% 45%",
+      "ghost": "FAWKES",
+      "kicker": "The man in the cellar",
+      "main": {
+        "text": "++Guy Fawkes++, alias *John Johnson*.",
+        "at": "s5@0.6"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s6",
+      "enter": "cut",
+      "image": "letter.jpg",
+      "focus": "40% 40%",
+      "move": "in",
+      "fact": "Delivered to Lord Monteagle, 26 October 1605"
+    },
+    {
+      "type": "quote",
+      "from": "s7",
+      "enter": "cut",
+      "image": "letter.jpg",
+      "focus": "60% 60%",
+      "kicker": "The anonymous letter",
+      "quote": {
+        "text": "They shall receive a terrible blow this Parliament.",
+        "at": "s7@0.3"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s8",
+      "enter": "cut",
+      "image": "plotters.jpg",
+      "focus": "40% 45%",
+      "ghost": "HOAX",
+      "kicker": "The plotters' verdict",
+      "main": {
+        "text": "Just a !!hoax!!.",
+        "at": "s8@0.75"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s9",
+      "enter": "cut",
+      "clip": "stock-lantern.mp4",
+      "credit": "An oil lantern · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s9@0.5",
+      "enter": "cut",
+      "image": "lantern.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Fawkes's lantern — Ashmolean Museum, Oxford"
+    },
+    {
+      "type": "statement",
+      "from": "s9@0.8",
+      "enter": "cut",
+      "image": "undercroft.jpg",
+      "focus": "50% 50%",
+      "ghost": "36",
+      "kicker": "Night of 4–5 November",
+      "main": {
+        "text": "*36* barrels of !!gunpowder!!.",
+        "at": "s9@0.88"
+      }
+    },
+    {
+      "type": "quote",
+      "from": "s10",
+      "enter": "cut",
+      "image": "plotters.jpg",
+      "focus": "62% 45%",
+      "kicker": "Guy Fawkes, under arrest",
+      "quote": {
+        "text": "My name is John Johnson.",
+        "at": "s10@0.3"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s11",
+      "enter": "cut",
+      "image": "signature.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Fawkes's signatures, before and after torture"
+    },
+    {
+      "type": "photo",
+      "from": "s11@0.6",
+      "enter": "cut",
+      "image": "execution.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The execution of the plotters, 1606"
+    },
+    {
+      "type": "film",
+      "from": "s12",
+      "enter": "cut",
+      "clip": "stock-bonfire.mp4",
+      "credit": "A bonfire · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s12@0.45",
+      "enter": "cut",
+      "image": "bonfire.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Guy Fawkes Night at Windsor Castle"
+    },
+    {
+      "type": "film",
+      "from": "s12@0.75",
+      "enter": "cut",
+      "clip": "stock-fireworks.mp4",
+      "credit": "Fireworks · illustrative · Pexels"
+    }
+  ],
+  "post": {
+    "tiktok": "36 barrels of gunpowder sat under Parliament. One anonymous letter gave them away. 💥🕯️\n\n5 November 1605: late that night, guards found Guy Fawkes in the cellar with a lantern, slow matches and the gunpowder. \"My name is John Johnson,\" he said. London lit bonfires that night — and Britain still does.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #guyfawkes #bonfirenight #historytok #1605",
+    "facebook": "On this day in 1605, the Gunpowder Plot was foiled.\n\nA group of Catholic conspirators led by Robert Catesby planned to blow up King James and his government. They rented a cellar beneath the House of Lords and filled it with gunpowder, guarded by a soldier named Guy Fawkes, posing as a servant called John Johnson.\n\nTen days earlier, Lord Monteagle, a Catholic peer, had received an anonymous letter: \"They shall receive a terrible blow this Parliament; and yet they shall not see who hurts them.\" He took it to the authorities. The plotters heard about it — and decided it was a hoax.\n\nLate on the night of 4–5 November the cellar was searched. There was Fawkes, with a lantern, slow matches and 36 barrels of gunpowder — enough to reduce the House of Lords to rubble. He gave his name as John Johnson. The king ordered him tortured; his shaking signature shows what it did to him.\n\nThat night, Londoners lit bonfires to celebrate the king's survival. Britain still does, every 5th of November.\n\nAlso on 5 November: the Battle of Inkerman (1854), and India's Mars Orbiter Mission (2013).\n\nRemember, remember: our app is coming. Follow the page and light the fuse with us. 📜\n\n#OnThisDay #History #GuyFawkes #BonfireNight",
+    "youtube": {
+      "title": "36 Barrels Under Parliament — And The Letter That Stopped Them #Shorts",
+      "description": "5 November 1605: the Gunpowder Plot was foiled. Robert Catesby's conspirators had packed 36 barrels of gunpowder into a cellar under the House of Lords, guarded by Guy Fawkes posing as \"John Johnson\". An anonymous letter warned Lord Monteagle of \"a terrible blow this Parliament\" — the plotters thought it was a hoax. Late that night the cellar was searched and Fawkes was caught with a lantern and slow matches. The king ordered him tortured, and London lit bonfires — the start of Bonfire Night.\n\nAlso on 5 November: the Battle of Inkerman (1854) and India's Mars Orbiter Mission (2013).\n\nSubscribe — our history app, with a story for every date, is on its way.\n\nPictures: public domain (Wikimedia Commons). Barrels, lantern, bonfire and fireworks shots: illustrative stock footage (Pexels), not of the event. Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #GuyFawkes #BonfireNight",
+      "tags": [
+        "gunpowder plot",
+        "the gunpowder plot",
+        "guy fawkes",
+        "guy fawkes story",
+        "guido fawkes",
+        "bonfire night",
+        "guy fawkes night",
+        "remember remember the 5th of november",
+        "5th of november",
+        "november 5th",
+        "monteagle letter",
+        "robert catesby",
+        "house of lords",
+        "parliament",
+        "king james",
+        "1605",
+        "gunpowder",
+        "british history",
+        "english history",
+        "history of england",
+        "history documentary",
+        "history",
+        "on this day",
+        "history facts",
+        "history shorts",
+        "guy fawkes night history",
+        "gunpowder plot 1605",
+        "king james i"
+      ]
+    },
+    "pinned": "Who really wrote the Monteagle letter — a nervous plotter, or the government itself? 👇"
+  }
+}

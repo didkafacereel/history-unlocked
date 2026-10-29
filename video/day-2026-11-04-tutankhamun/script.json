@@ -1,0 +1,369 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-11-04",
+  "dateKey": "11-04",
+  "slug": "tutankhamun",
+  "title": "Tutankhamun's tomb, 1922 — one last season, one step in the sand",
+  "eventId": "evt-11-04-1922-tomb-of-tutankhamun",
+  "category": "Science & Technology",
+  "sources": [
+    "Wikipedia: Howard Carter — by 1922 Lord Carnarvon was dissatisfied with the lack of results after several years and considered withdrawing his funding, then agreed to fund one more season in the Valley of the Kings; on 4 November 1922 a worker uncovered a step in the rock (other accounts credit a boy digging outside the assigned area); Carter had the steps dug until a sealed, mud-plastered doorway appeared, refilled the staircase and telegraphed Carnarvon, who arrived on 23 November; on 26 November Carter made a tiny breach in the doorway with a chisel his grandmother had given him for his 17th birthday, and peered in by candlelight; Carnarvon asked 'Can you see anything?' and Carter replied 'Yes, wonderful things!' (his journal records 'Yes, it is wonderful'); the tomb was virtually intact and contained over 5,000 items, the best preserved pharaonic tomb ever found in the Valley; Carnarvon contracted blood poisoning and died in Cairo on 5 April 1923",
+    "Also on this day (candidates.md, in the app): 1890 the City and South London Railway opens; 1979 Iranian students seize the US embassy in Tehran, beginning a 444-day hostage crisis",
+    "Photos (public domain / CC0): Harry Burton's photographs of the tomb (antechamber, the Anubis shrine, the corridor, the excavation, carrying out the finds, Carter at the coffin); Carter, Carnarvon and Lady Evelyn at the tomb; Lord Carnarvon; the gold mask in Cairo and in Burton's photograph; the tomb sign, KV62",
+    "Illustrative stock footage (Pexels, free licence; not of the event): a candle in the dark, desert sand"
+  ],
+  "music": {
+    "track": "mussorgsky-old-castle"
+  },
+  "highlight": [
+    "STEP",
+    "GOLD",
+    "WONDERFUL",
+    "5,000",
+    "CANDLE",
+    "SEASON",
+    "INTACT",
+    "CHISEL"
+  ],
+  "alert": [
+    "SEALED",
+    "DEAD",
+    "DIED",
+    "NOTHING",
+    "LAST"
+  ],
+  "names": [
+    "TUTANKHAMUN",
+    "CARTER",
+    "CARNARVON",
+    "EGYPT",
+    "KINGS",
+    "CAIRO",
+    "HOWARD"
+  ],
+  "cover": {
+    "image": "mask.jpg",
+    "focus": "50% 35%",
+    "date": "4 NOVEMBER 1922",
+    "top": 1150,
+    "lines": [
+      "*WONDERFUL*",
+      "THINGS"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "After years of finding almost nothing, he got one last season. Then a worker found a step in the sand.",
+      "show": "After years of finding almost nothing, he got one last season. Then a worker found a step in the sand.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "It happened on this day in nineteen twenty-two, in Egypt.",
+      "show": "It happened on this day in 1922, in Egypt.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "Howard Carter's patron, Lord Carnarvon, was about to stop paying.",
+      "show": "Howard Carter's patron, Lord Carnarvon, was about to stop paying.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s4",
+      "say": "He agreed to fund just one more season.",
+      "show": "He agreed to fund just one more season.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s5",
+      "say": "Under old huts, steps went down to a sealed doorway.",
+      "show": "Under old huts, steps went down to a sealed doorway.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s6",
+      "say": "Carter covered them up, and sent a telegram.",
+      "show": "Carter covered them up, and sent a telegram.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s7",
+      "say": "Three weeks later, he chipped a hole in the door, with his grandmother's chisel.",
+      "show": "Three weeks later, he chipped a hole in the door, with his grandmother's chisel.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s8",
+      "say": "He held up a candle, and looked in.",
+      "show": "He held up a candle, and looked in.",
+      "pauseAfter": 0.55
+    },
+    {
+      "id": "s9",
+      "say": "Can you see anything, Carnarvon asked. Yes, said Carter. Wonderful things.",
+      "show": "\"Can you see anything?\" Carnarvon asked. \"Yes,\" said Carter. \"Wonderful things.\"",
+      "pauseAfter": 0.55
+    },
+    {
+      "id": "s10",
+      "say": "It was the tomb of Tutankhamun, almost untouched, with over five thousand objects.",
+      "show": "It was the tomb of Tutankhamun, almost untouched, with over 5,000 objects.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s11",
+      "say": "Including a mask of solid gold.",
+      "show": "Including a mask of solid gold.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s12",
+      "say": "Five months later, Lord Carnarvon was dead, of blood poisoning.",
+      "show": "Five months later, Lord Carnarvon was dead, of blood poisoning.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "also": {
+    "say": "Also on this day: London opened the first deep electric tube line, and the Tehran hostage crisis began.",
+    "items": [
+      {
+        "year": "1890",
+        "text": "The City and South London Railway opens"
+      },
+      {
+        "year": "1979",
+        "text": "The 444-day Tehran hostage crisis begins"
+      }
+    ],
+    "image": "valley.jpg"
+  },
+  "cta": {
+    "story": "Wonderful things, every day.",
+    "say": "Every day of history hides a tomb like this. Subscribe, and be first through the door.",
+    "pill": "OPEN THE DOOR",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook — the gold mask, same as the cover",
+      "image": "mask.jpg",
+      "focus": "50% 35%",
+      "move": "in"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.45",
+      "enter": "cut",
+      "clip": "stock-dunes.mp4",
+      "credit": "Desert sand · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s1@0.75",
+      "enter": "cut",
+      "image": "dig.jpg",
+      "focus": "50% 50%",
+      "main": {
+        "text": "One last season. One *step*.",
+        "at": "s1@0.82"
+      }
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "valley.jpg",
+      "focus": "50% 50%",
+      "date": "4 NOVEMBER",
+      "year": "1922",
+      "place": "Valley of the Kings, Egypt"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "carnarvon.jpg",
+      "focus": "50% 35%",
+      "move": "in",
+      "fact": "George Herbert, 5th Earl of Carnarvon"
+    },
+    {
+      "type": "statement",
+      "from": "s4",
+      "enter": "cut",
+      "image": "carnarvon.jpg",
+      "focus": "50% 55%",
+      "ghost": "1922",
+      "kicker": "++Lord Carnarvon++'s offer",
+      "main": {
+        "text": "One !!last!! season.",
+        "at": "s4@0.4"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s5",
+      "enter": "cut",
+      "image": "dig.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Digging out the tomb, 1922 — Harry Burton"
+    },
+    {
+      "type": "photo",
+      "from": "s5@0.5",
+      "enter": "cut",
+      "image": "corridor.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The descending corridor — Harry Burton"
+    },
+    {
+      "type": "photo",
+      "from": "s6",
+      "enter": "cut",
+      "image": "carnarvon-carter.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Carnarvon, Lady Evelyn and Carter at the tomb"
+    },
+    {
+      "type": "statement",
+      "from": "s7",
+      "enter": "cut",
+      "image": "corridor.jpg",
+      "focus": "50% 40%",
+      "ghost": "26.11",
+      "kicker": "26 November 1922",
+      "main": {
+        "text": "A tiny hole, a grandmother's *chisel*.",
+        "at": "s7@0.55"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s8",
+      "enter": "cut",
+      "clip": "stock-candle.mp4",
+      "credit": "A candle in the dark · illustrative · Pexels"
+    },
+    {
+      "type": "quote",
+      "from": "s9",
+      "enter": "cut",
+      "image": "antechamber.jpg",
+      "focus": "50% 50%",
+      "kicker": "Howard Carter",
+      "quote": {
+        "text": "Yes, wonderful things.",
+        "at": "s9@0.7"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s10",
+      "enter": "cut",
+      "image": "treasures.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The antechamber as Carter found it — Harry Burton"
+    },
+    {
+      "type": "statement",
+      "from": "s10@0.6",
+      "enter": "cut",
+      "image": "antechamber.jpg",
+      "focus": "50% 60%",
+      "ghost": "5,000",
+      "kicker": "Tomb KV62",
+      "main": {
+        "text": "More than *5,000* objects.",
+        "at": "s10@0.7"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s11",
+      "enter": "cut",
+      "image": "mask-bw.jpg",
+      "focus": "50% 35%",
+      "move": "in",
+      "fact": "The mask, photographed by Harry Burton"
+    },
+    {
+      "type": "photo",
+      "from": "s11@0.5",
+      "enter": "cut",
+      "image": "mask.jpg",
+      "focus": "50% 40%",
+      "move": "in",
+      "fact": "The gold mask of Tutankhamun, Cairo"
+    },
+    {
+      "type": "photo",
+      "from": "s12",
+      "enter": "cut",
+      "image": "coffin.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Carter at the coffin of Tutankhamun"
+    },
+    {
+      "type": "statement",
+      "from": "s12@0.5",
+      "enter": "cut",
+      "image": "carnarvon.jpg",
+      "focus": "50% 35%",
+      "ghost": "1923",
+      "kicker": "Cairo, 5 April 1923",
+      "main": {
+        "text": "++Carnarvon++ was !!dead!!.",
+        "at": "s12@0.6"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "After years of finding almost nothing, he was given ONE last season. Then a worker found a step in the sand. 🏺✨\n\n4 November 1922: the first step of Tutankhamun's tomb. Weeks later Howard Carter held up a candle: \"Can you see anything?\" \"Yes — wonderful things.\" 5,000+ treasures, a gold mask… and five months later his patron was dead.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #tutankhamun #egypt #historytok #archaeology",
+    "facebook": "On this day in 1922, a worker in Egypt's Valley of the Kings uncovered a single step in the rock.\n\nHoward Carter had been searching for years, and his patron, Lord Carnarvon, had nearly given up — he agreed to fund just one more season. Now the step led down to more steps, and to a sealed doorway. Carter filled the stairs back in and telegraphed Carnarvon in England.\n\nOn 26 November, with Carnarvon beside him, Carter made a tiny hole in the door with a chisel his grandmother had given him, held up a candle, and looked in. \"Can you see anything?\" Carnarvon asked. \"Yes,\" Carter answered, \"wonderful things.\"\n\nIt was the tomb of the boy-king Tutankhamun — almost untouched, with more than 5,000 objects inside, including his mask of solid gold. Five months later, Lord Carnarvon died of blood poisoning in Cairo.\n\nAlso on 4 November: London's City and South London Railway opened (1890), and the Tehran hostage crisis began (1979).\n\nEvery day of history hides a tomb like this one. Follow the page and be first through the door when our app opens. 📜\n\n#OnThisDay #History #Tutankhamun #Egypt",
+    "youtube": {
+      "title": "One Last Season, One Step: The Day They Found King Tut #Shorts",
+      "description": "4 November 1922: after years of finding almost nothing, Howard Carter was in his last funded season when a worker uncovered a step in the Valley of the Kings. It led down to a sealed doorway. Three weeks later Carter chipped a hole with his grandmother's chisel and looked in by candlelight. \"Can you see anything?\" asked Lord Carnarvon. \"Yes, wonderful things.\" It was Tutankhamun's tomb — almost intact, with more than 5,000 objects and a solid gold mask. Five months later, Carnarvon was dead.\n\nAlso on 4 November: the City and South London Railway (1890) and the Tehran hostage crisis (1979).\n\nSubscribe — our history app, with a story for every date, is on its way.\n\nPhotos: Harry Burton and others, public domain / CC0 (Wikimedia Commons). Candle and sand shots: illustrative stock footage (Pexels), not of the event. Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #Tutankhamun #Egypt",
+      "tags": [
+        "tutankhamun tomb discovery",
+        "tutankhamun tomb opening",
+        "tutankhamun",
+        "king tut",
+        "king tut tomb",
+        "howard carter",
+        "lord carnarvon",
+        "valley of the kings",
+        "valley of the kings egypt",
+        "tomb of tutankhamun",
+        "kv62",
+        "wonderful things",
+        "golden mask",
+        "ancient egypt",
+        "egypt",
+        "pharaoh",
+        "archaeology",
+        "ancient history",
+        "ancient egypt documentary",
+        "1922",
+        "history",
+        "on this day",
+        "history facts",
+        "history shorts",
+        "documentary",
+        "howard carter tutankhamun",
+        "tutankhamun discovery",
+        "egyptian history",
+        "archaeological discovery"
+      ]
+    },
+    "pinned": "Carnarvon died just five months after opening the tomb. Coincidence — or do you believe in the curse of the pharaohs? 👇"
+  }
+}

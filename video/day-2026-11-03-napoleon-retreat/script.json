@@ -21,19 +21,17 @@
   "highlight": [
     "450,000",
     "SLED",
-    "MOSCOW",
-    "SNOW",
-    "BEREZINA",
-    "DISOBEYED",
+    "TOOLS",
+    "BRIDGE",
     "49,000",
-    "PARIS"
+    "HOME"
   ],
   "cover": {
     "image": "retreat.jpg",
     "focus": "60% 45%",
     "date": "3 NOVEMBER 1812",
     "lines": [
-      "INTO RUSSIA",
+      "INTO !!RUSSIA!!",
       "WITH *450,000*",
       "OUT ON A *SLED*"
     ]
@@ -319,5 +317,25 @@
       ]
     },
     "pinned": "Was it the Russian winter that beat Napoleon — or had he lost long before the first snow? 👇"
-  }
+  },
+  "alert": [
+    "FIRE",
+    "SNOW",
+    "FROST",
+    "DIED",
+    "TRAPPED",
+    "BEATEN",
+    "DISOBEYED",
+    "STARVING",
+    "COSSACKS"
+  ],
+  "names": [
+    "NAPOLEON",
+    "RUSSIA",
+    "MOSCOW",
+    "VYAZMA",
+    "BEREZINA",
+    "PARIS",
+    "EBLÉ"
+  ]
 }
