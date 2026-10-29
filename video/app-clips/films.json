@@ -248,6 +248,70 @@
       "seconds": 60.2,
       "video": "2026-10-24-black-thursday.mp4?v=3871989",
       "poster": "2026-10-24-black-thursday.jpg?v=100033"
+    },
+    "10-25": {
+      "date": "2026-10-25",
+      "eventId": "evt-10-25-1854-crimean-war",
+      "title": "The Charge of the Light Brigade, 1854 — the wrong guns, and a champagne dinner",
+      "seconds": 61.8,
+      "video": "2026-10-25-light-brigade.mp4?v=3446740",
+      "poster": "2026-10-25-light-brigade.jpg?v=100901"
+    },
+    "10-26": {
+      "date": "2026-10-26",
+      "eventId": "evt-10-26-1892-ida-b-wells",
+      "title": "Ida B. Wells, 1892 — a mob wrecked her newspaper, she answered with facts",
+      "seconds": 60.8,
+      "video": "2026-10-26-ida-b-wells.mp4?v=2900833",
+      "poster": "2026-10-26-ida-b-wells.jpg?v=60214"
+    },
+    "10-27": {
+      "date": "2026-10-27",
+      "eventId": "evt-10-27-1914-world-war-i",
+      "title": "HMS Audacious, 1914 — the battleship Britain pretended hadn't sunk",
+      "seconds": 60.7,
+      "video": "2026-10-27-hms-audacious.mp4?v=2614622",
+      "poster": "2026-10-27-hms-audacious.jpg?v=78702"
+    },
+    "10-28": {
+      "date": "2026-10-28",
+      "eventId": "evt-10-28-1919-united-states-congress",
+      "title": "The Volstead Act, 1919 — America goes dry, and a hummingbird bet",
+      "seconds": 64.5,
+      "video": "2026-10-28-prohibition.mp4?v=4007880",
+      "poster": "2026-10-28-prohibition.jpg?v=91369"
+    },
+    "10-29": {
+      "date": "2026-10-29",
+      "eventId": "evt-10-29-1998-john-glenn",
+      "title": "John Glenn, 1998 — too valuable to fly again, so he went back at 77",
+      "seconds": 64.8,
+      "video": "2026-10-29-john-glenn.mp4?v=3533928",
+      "poster": "2026-10-29-john-glenn.jpg?v=84108"
+    },
+    "10-30": {
+      "date": "2026-10-30",
+      "eventId": "evt-10-30-2005-frauenkirche-dresden",
+      "title": "The Frauenkirche, 2005 — the church rebuilt from its own rubble, crowned by a bomber pilot's son",
+      "seconds": 61.7,
+      "video": "2026-10-30-frauenkirche.mp4?v=3401763",
+      "poster": "2026-10-30-frauenkirche.jpg?v=102443"
+    },
+    "10-31": {
+      "date": "2026-10-31",
+      "eventId": "evt-10-31-1917-world-war-i",
+      "title": "Beersheba, 1917 — the horsemen who charged trenches with bayonets in their hands",
+      "seconds": 63.5,
+      "video": "2026-10-31-beersheba.mp4?v=3547223",
+      "poster": "2026-10-31-beersheba.jpg?v=104108"
+    },
+    "11-03": {
+      "date": "2026-11-03",
+      "eventId": "evt-11-03-1812-french-invasion-of-russia",
+      "title": "Napoleon's retreat from Moscow, 1812 — he came with an empire's army and left on a sled",
+      "seconds": 65.7,
+      "video": "2026-11-03-napoleon-retreat.mp4?v=8624137",
+      "poster": "2026-11-03-napoleon-retreat.jpg?v=63669"
     }
   }
 }

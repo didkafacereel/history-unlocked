@@ -1,0 +1,323 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-11-03",
+  "dateKey": "11-03",
+  "slug": "napoleon-retreat",
+  "title": "Napoleon's retreat from Moscow, 1812 — he came with an empire's army and left on a sled",
+  "eventId": "evt-11-03-1812-french-invasion-of-russia",
+  "category": "Military & Conflict",
+  "sources": [
+    "Wikipedia: French invasion of Russia — Napoleon's initial force exceeded 450,000 men and 150,000 horses; on 14 September 1812 he entered Moscow and found it deserted and set ablaze by its military governor Rostopchin; as early November arrived, snowfall and frost complicated the retreat; shortages of food, winter clothing and fodder, and attacks by Russian peasants and Cossacks, caused huge losses; starving soldiers cut up horses that fell, even before they were dead; by the Berezina Napoleon commanded only around 49,000 troops alongside 40,000 stragglers; on 5 December he left the army at Smorgonie in a sled and returned to Paris; the army was beaten at Maloyaroslavets, Vyazma and Krasnoi on the way out",
+    "Wikipedia: Battle of Berezina — General Eblé, commander of the bridge builders, had disobeyed Napoleon's orders to destroy the bridging equipment and tools; the river was full of drifting ice and pontoon bridges had to be built; Napoleon ordered the bridges burned in the morning, and Eblé delayed the order",
+    "Wikipedia On This Day (11-03): 1812, Napoleon's armies are defeated at the Battle of Vyazma",
+    "Also on this day (candidates.md, in the app): 1957 Sputnik 2 carries the dog Laika into orbit; 1793 Olympe de Gouges is guillotined",
+    "Paintings and chart (public domain): Adolph Northen, Napoleon's Retreat from Moscow; Albrecht Adam, Napoleon in Burning Moscow (1841) and the Berezina crossing (1830); Lawrence Alma-Tadema, the Berezina; Christian Faber du Faur, Smarhoń, 3 December 1812; Zygmunt Rozwadowski, Napoleon at Smorgonie; Jerzy Kossak; Vereshchagin, Napoleon near Borodino; Alfred Wierusz-Kowalski; Charles Minard's 1869 chart of the army's losses",
+    "Illustrative stock footage (Pexels, free licence; not of the event): snowfall, a winter forest at night, a frozen river, a fire in the snow"
+  ],
+  "music": {
+    "track": "grieg-aase-death"
+  },
+  "highlight": [
+    "450,000",
+    "SLED",
+    "MOSCOW",
+    "SNOW",
+    "BEREZINA",
+    "DISOBEYED",
+    "49,000",
+    "PARIS"
+  ],
+  "cover": {
+    "image": "retreat.jpg",
+    "focus": "60% 45%",
+    "date": "3 NOVEMBER 1812",
+    "lines": [
+      "INTO RUSSIA",
+      "WITH *450,000*",
+      "OUT ON A *SLED*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "Napoleon marched into Russia with more than four hundred and fifty thousand men. He left it on a sled.",
+      "show": "Napoleon marched into Russia with more than 450,000 men. He left it on a sled.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "On this day in eighteen twelve, his retreating army was beaten at Vyazma.",
+      "show": "On this day in 1812, his retreating army was beaten at Vyazma.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "He had taken Moscow in September, and found it empty, and on fire.",
+      "show": "He had taken Moscow in September, and found it empty, and on fire.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "Now, with no peace and no supplies, the Grand Army turned for home.",
+      "show": "Now, with no peace and no supplies, the Grand Army turned for home.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s5",
+      "say": "Then came the snow, and the frost.",
+      "show": "Then came the snow, and the frost.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s6",
+      "say": "There was no winter clothing, no food, no fodder for the horses. Cossacks attacked the columns day and night.",
+      "show": "There was no winter clothing, no food, no fodder for the horses. Cossacks attacked the columns day and night.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s7",
+      "say": "When a horse fell, starving soldiers cut it up before it had even died.",
+      "show": "When a horse fell, starving soldiers cut it up before it had even died.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s8",
+      "say": "At the Berezina river, full of drifting ice, the army was trapped.",
+      "show": "At the Berezina river, full of drifting ice, the army was trapped.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s9",
+      "say": "It was saved by a general who had disobeyed Napoleon, and kept his bridge-building tools.",
+      "show": "It was saved by a general who had disobeyed Napoleon, and kept his bridge-building tools.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s10",
+      "say": "By then, only about forty-nine thousand fighting men were left.",
+      "show": "By then, only about 49,000 fighting men were left.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s11",
+      "say": "In December, Napoleon left his army behind, and rode for Paris in a sled.",
+      "show": "In December, Napoleon left his army behind, and rode for Paris in a sled.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "also": {
+    "say": "Also on this day: the dog Laika went into orbit, and the writer Olympe de Gouges went to the guillotine.",
+    "items": [
+      {
+        "year": "1957",
+        "text": "Laika rides Sputnik 2 into orbit"
+      },
+      {
+        "year": "1793",
+        "text": "Olympe de Gouges is guillotined"
+      }
+    ],
+    "image": "kossak.jpg"
+  },
+  "cta": {
+    "story": "Every march ends somewhere.",
+    "say": "Our app has the whole road of history, day by day. Subscribe, and march with us until it arrives.",
+    "pill": "FALL IN",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook — same picture as the cover",
+      "image": "retreat.jpg",
+      "focus": "60% 45%",
+      "move": "in"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.6",
+      "enter": "cut",
+      "image": "sled.jpg",
+      "focus": "40% 50%",
+      "move": "in",
+      "fact": "Napoleon leaves at Smorgonie, Zygmunt Rozwadowski"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "kossak.jpg",
+      "focus": "40% 45%",
+      "date": "3 NOVEMBER",
+      "year": "1812",
+      "place": "Vyazma, Russia"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "moscow-fire.jpg",
+      "focus": "45% 45%",
+      "move": "in",
+      "fact": "Napoleon in burning Moscow, Albrecht Adam, 1841"
+    },
+    {
+      "type": "film",
+      "from": "s3@0.6",
+      "enter": "cut",
+      "clip": "stock-fire.mp4",
+      "credit": "Fire in the snow · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s4",
+      "enter": "cut",
+      "image": "borodino.jpg",
+      "focus": "50% 45%",
+      "move": "in",
+      "fact": "Napoleon and his staff, Vasily Vereshchagin"
+    },
+    {
+      "type": "film",
+      "from": "s5",
+      "enter": "cut",
+      "clip": "stock-snow.mp4",
+      "credit": "Snowfall · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s6",
+      "enter": "cut",
+      "image": "retreat2.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The retreat from Moscow"
+    },
+    {
+      "type": "photo",
+      "from": "s6@0.55",
+      "enter": "cut",
+      "image": "sleigh.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Winter, the retreat — Alfred Wierusz-Kowalski"
+    },
+    {
+      "type": "photo",
+      "from": "s7",
+      "enter": "cut",
+      "image": "bivouac.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "A night bivouac of the Grand Army"
+    },
+    {
+      "type": "film",
+      "from": "s7@0.6",
+      "enter": "cut",
+      "clip": "stock-forest.mp4",
+      "credit": "A winter forest at night · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s8",
+      "enter": "cut",
+      "image": "berezina.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Crossing the Berezina, Albrecht Adam, 1830"
+    },
+    {
+      "type": "film",
+      "from": "s8@0.6",
+      "enter": "cut",
+      "clip": "stock-river.mp4",
+      "credit": "A frozen river · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s9",
+      "enter": "cut",
+      "image": "berezina-ice.jpg",
+      "focus": "45% 50%",
+      "ghost": "EBLÉ",
+      "kicker": "General Jean-Baptiste Eblé",
+      "main": {
+        "text": "He *disobeyed* — and saved them.",
+        "at": "s9@0.4"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s10",
+      "enter": "cut",
+      "image": "minard.jpg",
+      "focus": "40% 50%",
+      "ghost": "49,000",
+      "kicker": "Charles Minard's chart of the losses, 1869",
+      "main": {
+        "text": "About *49,000* left to fight.",
+        "at": "s10@0.4"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s11",
+      "enter": "cut",
+      "image": "smorgon.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Smorgonie, 3 December 1812 — Christian Faber du Faur"
+    },
+    {
+      "type": "photo",
+      "from": "s11@0.55",
+      "enter": "cut",
+      "image": "sled.jpg",
+      "focus": "60% 50%",
+      "move": "in",
+      "fact": "Napoleon leaves for Paris"
+    }
+  ],
+  "post": {
+    "tiktok": "Napoleon marched into Russia with more than 450,000 men. He left on a sled. ❄️🇫🇷\n\n3 November 1812: his retreating army was beaten at Vyazma. Moscow had burned, the snow came, the horses died — and at the icy Berezina, a general who had DISOBEYED him saved what was left.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #historytok #napoleon #1812 #russia",
+    "facebook": "On this day in 1812, Napoleon's retreating army was beaten at Vyazma.\n\nHe had invaded Russia with more than 450,000 men. In September he took Moscow — and found it deserted and on fire, set ablaze by its own governor. With no peace and no supplies, the Grand Army turned for home. Then, in early November, came the snow and the frost.\n\nThere was no winter clothing, no food, no fodder. Cossacks and peasants attacked the columns. When a horse fell, starving soldiers cut it up before it had even died. At the Berezina river, full of drifting ice, the army was trapped — and it was saved by General Eblé, who had disobeyed Napoleon's order to destroy his bridge-building tools.\n\nBy then only about 49,000 fighting men were left. On 5 December, Napoleon left the army behind and rode for Paris in a sled.\n\nAlso on 3 November: Laika went into orbit aboard Sputnik 2 (1957), and Olympe de Gouges was guillotined (1793).\n\nEvery march ends somewhere. Our app has the whole road of history — follow the page and march with us until it arrives. 📜\n\n#OnThisDay #History #Napoleon #1812",
+    "youtube": {
+      "title": "Napoleon Came With 450,000 Men — And Left On A Sled #Shorts",
+      "description": "3 November 1812: Napoleon's retreating Grand Army was beaten at Vyazma. He had invaded Russia with more than 450,000 men, found Moscow empty and burning, and turned for home with no supplies — straight into the snow and frost. Horses died, Cossacks attacked, and at the icy Berezina the army was saved only by General Eblé, who had disobeyed orders and kept his bridge-building tools. About 49,000 fighting men were left. In December, Napoleon rode for Paris in a sled.\n\nAlso on 3 November: Laika and Sputnik 2 (1957) and Olympe de Gouges (1793).\n\nSubscribe — our history app, with a story for every date, is on its way.\n\nPaintings and Minard's 1869 chart: public domain (Wikimedia Commons). Snow, forest, river and fire shots: illustrative stock footage (Pexels), not of the event. Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #Napoleon #1812",
+      "tags": [
+        "napoleon retreat from moscow",
+        "napoleon",
+        "napoleon bonaparte",
+        "french invasion of russia",
+        "napoleon russia",
+        "1812",
+        "napoleonic wars",
+        "russian winter",
+        "battle of berezina",
+        "berezina",
+        "battle of vyazma",
+        "grande armee",
+        "grand army",
+        "retreat from moscow",
+        "moscow 1812",
+        "minard map",
+        "general eble",
+        "napoleon in russia",
+        "military history",
+        "european history",
+        "history documentary",
+        "dark history",
+        "history",
+        "on this day",
+        "history facts",
+        "history shorts",
+        "documentary",
+        "19th century history",
+        "war history"
+      ]
+    },
+    "pinned": "Was it the Russian winter that beat Napoleon — or had he lost long before the first snow? 👇"
+  }
+}

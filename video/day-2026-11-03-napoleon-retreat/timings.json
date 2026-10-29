@@ -1,0 +1,83 @@
+{
+  "total": 73.045,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "Napoleon marched into Russia with more than 450,000 men. He left it on a sled.",
+      "start": 0.4,
+      "end": 7.099
+    },
+    {
+      "id": "s2",
+      "show": "On this day in 1812, his retreating army was beaten at Vyazma.",
+      "start": 7.549,
+      "end": 12.477
+    },
+    {
+      "id": "s3",
+      "show": "He had taken Moscow in September, and found it empty, and on fire.",
+      "start": 12.877,
+      "end": 17.314
+    },
+    {
+      "id": "s4",
+      "show": "Now, with no peace and no supplies, the Grand Army turned for home.",
+      "start": 17.714,
+      "end": 22.237
+    },
+    {
+      "id": "s5",
+      "show": "Then came the snow, and the frost.",
+      "start": 22.687,
+      "end": 24.799
+    },
+    {
+      "id": "s6",
+      "show": "There was no winter clothing, no food, no fodder for the horses. Cossacks attacked the columns day and night.",
+      "start": 25.199,
+      "end": 32.452
+    },
+    {
+      "id": "s7",
+      "show": "When a horse fell, starving soldiers cut it up before it had even died.",
+      "start": 32.852,
+      "end": 37.247
+    },
+    {
+      "id": "s8",
+      "show": "At the Berezina river, full of drifting ice, the army was trapped.",
+      "start": 37.747,
+      "end": 41.8
+    },
+    {
+      "id": "s9",
+      "show": "It was saved by a general who had disobeyed Napoleon, and kept his bridge-building tools.",
+      "start": 42.15,
+      "end": 47.931
+    },
+    {
+      "id": "s10",
+      "show": "By then, only about 49,000 fighting men were left.",
+      "start": 48.381,
+      "end": 52.392
+    },
+    {
+      "id": "s11",
+      "show": "In December, Napoleon left his army behind, and rode for Paris in a sled.",
+      "start": 52.892,
+      "end": 58.097
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: the dog Laika went into orbit, and the writer Olympe de Gouges went to the guillotine.",
+      "start": 58.697,
+      "end": 65.652
+    },
+    {
+      "id": "end2",
+      "show": "Our app has the whole road of history, day by day. Subscribe, and march with us until it arrives.",
+      "start": 66.102,
+      "end": 72.545
+    }
+  ]
+}

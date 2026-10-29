@@ -295,5 +295,85 @@
     "music": "mussorgsky-catacombs",
     "seconds": 68,
     "cta": "Our app is one stock that only goes up: a story for every day. Subscribe, and buy in early."
+  },
+  {
+    "date": "2026-10-25",
+    "slug": "light-brigade",
+    "title": "The Charge of the Light Brigade, 1854 — the wrong guns, and a champagne dinner",
+    "eventId": "evt-10-25-1854-crimean-war",
+    "category": "Military & Conflict",
+    "music": "chopin-nocturne-c-minor",
+    "seconds": 70,
+    "cta": "Into the valley rode the six hundred. Into every day of history rides our app. Subscribe, and charge in first."
+  },
+  {
+    "date": "2026-10-26",
+    "slug": "ida-b-wells",
+    "title": "Ida B. Wells, 1892 — a mob wrecked her newspaper, she answered with facts",
+    "eventId": "evt-10-26-1892-ida-b-wells",
+    "category": "Society & Rights",
+    "music": "grieg-aase-death",
+    "seconds": 68,
+    "cta": "She put the truth on paper. Our app puts a true story on every date. Subscribe, and read it first."
+  },
+  {
+    "date": "2026-10-27",
+    "slug": "hms-audacious",
+    "title": "HMS Audacious, 1914 — the battleship Britain pretended hadn't sunk",
+    "eventId": "evt-10-27-1914-world-war-i",
+    "category": "Military & Conflict",
+    "music": "beethoven-moonlight-1",
+    "seconds": 69,
+    "cta": "Britain hid a battleship for four years. We can't hide our app much longer. Subscribe, and be first to know."
+  },
+  {
+    "date": "2026-10-28",
+    "slug": "prohibition",
+    "title": "The Volstead Act, 1919 — America goes dry, and a hummingbird bet",
+    "eventId": "evt-10-28-1919-united-states-congress",
+    "category": "Politics & Power",
+    "music": "bach-air-1920",
+    "seconds": 72,
+    "cta": "Thirteen dry years, a story for every date. Our app pours them all. Subscribe for the first round."
+  },
+  {
+    "date": "2026-10-29",
+    "slug": "john-glenn",
+    "title": "John Glenn, 1998 — too valuable to fly again, so he went back at 77",
+    "eventId": "evt-10-29-1998-john-glenn",
+    "category": "Science & Technology",
+    "music": "grieg-morning",
+    "seconds": 73,
+    "cta": "Glenn went back to space at seventy-seven. It's never too late to subscribe. Our app is almost ready for liftoff."
+  },
+  {
+    "date": "2026-10-30",
+    "slug": "frauenkirche",
+    "title": "The Frauenkirche, 2005 — the church rebuilt from its own rubble, crowned by a bomber pilot's son",
+    "eventId": "evt-10-30-2005-frauenkirche-dresden",
+    "category": "Culture & Ideas",
+    "music": "grieg-aase-death",
+    "seconds": 69,
+    "cta": "They put history back, stone by stone. Our app does it day by day. Subscribe, and watch it rise."
+  },
+  {
+    "date": "2026-10-31",
+    "slug": "beersheba",
+    "title": "Beersheba, 1917 — the horsemen who charged trenches with bayonets in their hands",
+    "eventId": "evt-10-31-1917-world-war-i",
+    "category": "Military & Conflict",
+    "music": "grieg-concerto-adagio",
+    "seconds": 71,
+    "cta": "They had until nightfall. You have until our launch. Subscribe, and ride in with the first wave."
+  },
+  {
+    "date": "2026-11-03",
+    "slug": "napoleon-retreat",
+    "title": "Napoleon's retreat from Moscow, 1812 — he came with an empire's army and left on a sled",
+    "eventId": "evt-11-03-1812-french-invasion-of-russia",
+    "category": "Military & Conflict",
+    "music": "grieg-aase-death",
+    "seconds": 73,
+    "cta": "Our app has the whole road of history, day by day. Subscribe, and march with us until it arrives."
   }
 ]
