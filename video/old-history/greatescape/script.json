@@ -1,46 +1,507 @@
 {
   "format": 2,
   "pace": "fast",
+  "mode": "channel",
   "date": "2026-11-04",
   "dateKey": "11-04",
   "slug": "greatescape",
-  "title": "",
+  "title": "The real Great Escape — 76 men out of Stalag Luft III, only 3 made it",
   "eventId": "",
-  "category": "",
-  "sources": [],
+  "category": "War",
+  "sources": [
+    "Wikipedia: Stalag Luft III — a Luftwaffe camp for captured airmen near Sagan (now Żagań, Poland), sited on sandy soil to make tunnelling difficult, with huts raised about 60 cm off the ground so guards could detect tunnelling; Squadron Leader Roger Bushell planned a mass escape through three tunnels, Tom, Dick and Harry; about 600 prisoners worked on them; the tunnels were about 9 m (30 ft) deep and 0.6 m (2 ft) square, shored up with wood from bed boards (4,000 bed boards went missing); an air pump was built from bed parts, hockey sticks, knapsacks and Klim milk tins; sand was scattered from pouches hidden inside trousers; on the night of 24/25 March 1944, 76 men crawled out of Harry before the 77th was spotted at 4:55 a.m.; Leonard Trent VC, who had reached the tree line, surrendered; 73 were recaptured; Hitler wanted all of them shot, and 50 were executed; only three reached freedom — the Norwegians Per Bergsland and Jens Müller (to Sweden by boat) and the Dutchman Bram van der Stok (to Spain); only one American, Johnnie Dodge, took part, despite the 1963 Hollywood film.",
+    "Photos (public domain / CC0, Wikimedia Commons, Imperial War Museum): Allied prisoners of war in Germany; prisoners' drawings of Stalag Luft III; the memorial to the Fifty; the line of tunnel Harry at Żagań; Jens Müller with his Hurricane (1941); Leonard Trent (1943); Peter Butterworth's Stalag Luft III POW card",
+    "Archive film (public domain): 'Mining and Preparation of Anthracite Coal' (underground tunnels, illustrative); Universal Newsreel 1944-11-22 (RAF Lancaster, German countryside); US Army, 'The 82nd Anniversary of the Great Escape' (Żagań, 2026)",
+    "Music: Grieg, In the Hall of the Mountain King, Musopen, public domain"
+  ],
   "music": {
-    "track": ""
+    "track": "mountain-king"
   },
-  "highlight": [],
+  "highlight": [
+    "GREAT",
+    "ESCAPE",
+    "TUNNEL",
+    "HARRY",
+    "TOM",
+    "DICK",
+    "BUSHELL",
+    "FREEDOM",
+    "SWEDEN",
+    "SPAIN",
+    "STALAG"
+  ],
+  "alert": [
+    "NAZI",
+    "SHOT",
+    "GESTAPO",
+    "HITLER",
+    "CAUGHT",
+    "SPOTTED",
+    "DIED",
+    "FIFTY"
+  ],
   "cover": {
-    "image": "",
-    "focus": "50% 40%",
-    "date": "",
+    "image": "pows-left.jpg",
+    "focus": "50% 30%",
+    "kicker": "THE REAL GREAT ESCAPE",
+    "date": "MARCH 1944",
+    "top": 1120,
     "lines": [
-      "",
-      ""
+      "76 CRAWLED OUT",
+      "*ONLY 3*",
+      "MADE IT"
     ]
+  },
+  "thumb": {
+    "image": "pows-left.jpg",
+    "focus": 0.3,
+    "zoom": 1.1,
+    "lines": [
+      "76 ESCAPED",
+      "ONLY 3",
+      "MADE IT"
+    ],
+    "hi": 1,
+    "tint": [
+      120,
+      170,
+      90
+    ],
+    "kicker": "THE REAL GREAT ESCAPE"
   },
   "sentences": [
     {
       "id": "s1",
-      "say": "",
-      "show": "",
+      "say": "In March nineteen forty-four, seventy-six men crawled out of a Nazi prison camp, through a tunnel built from bed boards and tin cans. Only three made it home.",
+      "show": "In March 1944, 76 men crawled out of a Nazi prison camp, through a tunnel built from bed boards and tin cans. Only three made it home.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "This is the real Great Escape. Stalag Luft Three, a camp for captured airmen, built on sand, so nobody could tunnel out.",
+      "show": "This is the real Great Escape. Stalag Luft III, a camp for captured airmen, built on sand, so nobody could tunnel out.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s3",
+      "say": "Even the huts stood on stilts, so guards could spot a tunnel.",
+      "show": "Even the huts stood on stilts, so guards could spot a tunnel.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s4",
+      "say": "But Squadron Leader Roger Bushell planned three tunnels. Tom, Dick and Harry. Six hundred men worked on them.",
+      "show": "But Squadron Leader Roger Bushell planned three tunnels. Tom, Dick and Harry. 600 men worked on them.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s5",
+      "say": "Nine metres down, barely wide enough for a man, held up with four thousand boards stolen from their own beds.",
+      "show": "Nine metres down, barely wide enough for a man, held up with 4,000 boards stolen from their own beds.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s6",
+      "say": "Air came from a pump made of hockey sticks and milk tins. The sand went out in little bags, hidden inside their trousers.",
+      "show": "Air came from a pump made of hockey sticks and milk tins. The sand went out in little bags, hidden inside their trousers.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s7",
+      "say": "On a moonless night, the twenty-fourth of March, they went through Harry.",
+      "show": "On a moonless night, 24 March, they went through Harry.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s8",
+      "say": "One by one, seventy-six men crawled out into the forest. Then number seventy-seven was spotted by a guard.",
+      "show": "One by one, 76 men crawled out into the forest. Then number 77 was spotted by a guard.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s9",
+      "say": "Within days, seventy-three were caught.",
+      "show": "Within days, 73 were caught.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s10",
+      "say": "Hitler was furious. Fifty of them were shot by the Gestapo.",
+      "show": "Hitler was furious. Fifty of them were shot by the Gestapo.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s11",
+      "say": "Only three reached freedom. Two Norwegians escaped to Sweden. A Dutch pilot made it to Spain.",
+      "show": "Only three reached freedom. Two Norwegians escaped to Sweden. A Dutch pilot made it to Spain.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s12",
+      "say": "Hollywood later filled the tunnel with Americans. Only one American really took part.",
+      "show": "Hollywood later filled the tunnel with Americans. Only one American really took part.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s13",
+      "say": "But the tunnel was real. Today, a line of stones in a Polish forest marks exactly where Harry ran.",
+      "show": "But the tunnel was real. Today, a line of stones in a Polish forest marks exactly where Harry ran.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s14",
+      "say": "Fifty men died for a few days of freedom. Was it worth it?",
+      "show": "Fifty men died for a few days of freedom. Was it worth it?",
       "pauseAfter": 0.45
     }
   ],
+  "cta": {
+    "story": "Seventy-six got out.",
+    "say": "They dug for a year to get out. You only need one tap: subscribe.",
+    "pill": "DIG IN",
+    "note": "more true stories that sound made up"
+  },
+  "endImage": "memorial.jpg",
+  "imageCredit": "Imperial War Museum; prisoners' drawings; Wikimedia Commons (public domain / CC0)",
   "scenes": [
     {
-      "type": "title",
-      "image": "",
+      "type": "photo",
+      "note": "hook",
+      "image": "pows-left.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "Allied airmen in a German prison camp"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.3",
+      "enter": "cut",
+      "clip": "film-tunnel.mp4",
+      "credit": "A tunnel with rails · archive film, illustrative"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.55",
+      "enter": "cut",
+      "clip": "film-dig.mp4",
+      "credit": "Digging underground · archive film, illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.8",
+      "enter": "cut",
+      "image": "memorial.jpg",
       "focus": "50% 50%",
-      "date": "",
-      "year": "",
-      "place": ""
+      "move": "in",
+      "fact": "Memorial to the Fifty, Żagań"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "camp-drawing.jpg",
+      "focus": "50% 50%",
+      "kicker": "Impossible escapes",
+      "date": "THE GREAT ESCAPE",
+      "year": "1944",
+      "place": "Stalag Luft III, Sagan"
+    },
+    {
+      "type": "film",
+      "from": "s2@0.4",
+      "enter": "cut",
+      "clip": "film-forest.mp4",
+      "credit": "German countryside, 1944 · newsreel, illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s2@0.7",
+      "enter": "cut",
+      "image": "drawing.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Stalag Luft III, drawn by a prisoner"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "camp-drawing.jpg",
+      "focus": "40% 50%",
+      "move": "left",
+      "fact": "Block 129 — a prisoner's sketch"
+    },
+    {
+      "type": "statement",
+      "from": "s3@0.5",
+      "enter": "cut",
+      "image": "zagan.jpg",
+      "focus": "50% 60%",
+      "kicker": "Built on sand",
+      "main": {
+        "text": "No tunnel would *survive*.",
+        "at": "s3@0.55"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s4",
+      "enter": "cut",
+      "image": "pows.jpg",
+      "focus": "70% 40%",
+      "kicker": "Roger Bushell's plan",
+      "main": {
+        "text": "*Tom*. *Dick*. *Harry*.",
+        "at": "s4@0.45"
+      }
+    },
+    {
+      "type": "number",
+      "from": "s4@0.75",
+      "enter": "cut",
+      "image": "drawing.jpg",
+      "focus": "50% 50%",
+      "label": "Prisoners who worked on the tunnels",
+      "value": 600,
+      "start": 0,
+      "count": {
+        "from": "s4@0.78",
+        "to": "s4@0.97"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s5",
+      "enter": "cut",
+      "clip": "film-cart.mp4",
+      "credit": "Underground · archive film, illustrative"
+    },
+    {
+      "type": "number",
+      "from": "s5@0.55",
+      "enter": "cut",
+      "image": "harry1.jpg",
+      "focus": "50% 50%",
+      "label": "Bed boards that went missing",
+      "value": 4000,
+      "start": 0,
+      "count": {
+        "from": "s5@0.6",
+        "to": "s5@0.9"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s6",
+      "enter": "cut",
+      "clip": "film-lamps.mp4",
+      "credit": "Lamps underground · archive film, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s6@0.55",
+      "enter": "cut",
+      "image": "powcard.jpg",
+      "focus": "50% 50%",
+      "main": {
+        "text": "Sand hidden in their *trousers*.",
+        "at": "s6@0.6"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s7",
+      "enter": "cut",
+      "clip": "film-mist.mp4",
+      "credit": "Night over Germany · 1944 newsreel, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s7@0.55",
+      "enter": "cut",
+      "image": "harry1.jpg",
+      "focus": "50% 40%",
+      "kicker": "24 March 1944",
+      "main": {
+        "text": "Through *Harry*.",
+        "at": "s7@0.65"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s8",
+      "enter": "cut",
+      "clip": "film-miners.mp4",
+      "credit": "Archive film, illustrative"
+    },
+    {
+      "type": "number",
+      "from": "s8@0.25",
+      "enter": "cut",
+      "image": "zagan.jpg",
+      "focus": "50% 50%",
+      "label": "Men who crawled out",
+      "value": 76,
+      "start": 0,
+      "count": {
+        "from": "s8@0.28",
+        "to": "s8@0.5"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s8@0.65",
+      "enter": "cut",
+      "image": "harry1.jpg",
+      "focus": "50% 80%",
+      "kicker": "4:55 a.m.",
+      "main": {
+        "text": "Number 77 — !!spotted!!.",
+        "at": "s8@0.75"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s9",
+      "enter": "cut",
+      "image": "camp-drawing.jpg",
+      "focus": "60% 50%",
+      "main": {
+        "text": "73 !!caught!!.",
+        "at": "s9@0.3"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s10",
+      "enter": "cut",
+      "image": "memorial.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The memorial to \"the Fifty\", Żagań"
+    },
+    {
+      "type": "statement",
+      "from": "s10@0.5",
+      "enter": "cut",
+      "image": "memorial.jpg",
+      "focus": "30% 50%",
+      "kicker": "On Hitler's orders",
+      "main": {
+        "text": "50 !!shot!!.",
+        "at": "s10@0.6"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s11",
+      "enter": "cut",
+      "image": "muller.jpg",
+      "focus": "60% 50%",
+      "move": "in",
+      "fact": "Jens Müller, Norwegian RAF pilot, 1941"
+    },
+    {
+      "type": "film",
+      "from": "s11@0.55",
+      "enter": "cut",
+      "clip": "film-lancaster.mp4",
+      "credit": "An RAF bomber, 1944 · newsreel"
+    },
+    {
+      "type": "statement",
+      "from": "s12",
+      "enter": "cut",
+      "image": "trent-group.jpg",
+      "focus": "50% 40%",
+      "kicker": "Hollywood, 1963",
+      "main": {
+        "text": "Only *one* American.",
+        "at": "s12@0.65"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s13",
+      "enter": "cut",
+      "image": "harry1.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The line of tunnel Harry today, Żagań"
+    },
+    {
+      "type": "film",
+      "from": "s13@0.5",
+      "enter": "cut",
+      "clip": "film-museum.mp4",
+      "credit": "Żagań, 2026 · US Army film"
+    },
+    {
+      "type": "film",
+      "from": "s13@0.78",
+      "enter": "cut",
+      "clip": "film-mural.mp4",
+      "credit": "\"The Six from Żagań\" mural · US Army film, 2026"
+    },
+    {
+      "type": "film",
+      "from": "s14",
+      "enter": "cut",
+      "clip": "film-honor.mp4",
+      "credit": "Remembrance at Żagań, March 2026 · US Army film"
+    },
+    {
+      "type": "portrait",
+      "from": "s14@0.4",
+      "enter": "fade",
+      "image": "trent.jpg",
+      "focus": "50% 25%",
+      "kicker": "Leonard Trent VC",
+      "date": "Caught at the tree line",
+      "line": {
+        "text": "Was it *worth it*?",
+        "at": "s14@0.55"
+      }
     }
   ],
   "post": {
-    "tiktok": "",
-    "facebook": ""
+    "tiktok": "In March 1944, 76 men crawled out of a Nazi prison camp through a tunnel built from bed boards and tin cans. Only three made it home. 🕳️\n\nThe real Great Escape: three tunnels — Tom, Dick and Harry — 600 men, 4,000 stolen bed boards and sand hidden in their trousers. 73 were caught. 50 were shot on Hitler's orders.\n\nWas it worth it? 👇\n\n#thegreatescape #ww2 #history #worldwar2 #stalagluft3 #ww2history #historytok #truestory",
+    "facebook": "In March 1944, 76 men crawled out of a Nazi prison camp through a tunnel built from bed boards and tin cans. Only three made it home.\n\nStalag Luft III held captured Allied airmen and was built on sand so nobody could tunnel out. Squadron Leader Roger Bushell planned three tunnels anyway — Tom, Dick and Harry — and 600 men worked on them: nine metres down, held up with 4,000 boards stolen from their own beds, with an air pump made of hockey sticks and milk tins, and the sand smuggled out in bags hidden inside their trousers.\n\nOn a moonless night, 24 March 1944, 76 men crawled through Harry into the forest before number 77 was spotted. 73 were caught, and on Hitler's orders 50 of them were shot by the Gestapo. Only three reached freedom: two Norwegian pilots who reached Sweden by boat, and a Dutch pilot who made it to Spain.\n\nHollywood later filled the tunnel with Americans — in reality only one American took part. Fifty men died for a few days of freedom. Was it worth it? 👇\n\n#TheGreatEscape #WW2 #History #StalagLuftIII",
+    "youtube": {
+      "title": "The REAL Great Escape: 76 Men Crawled Out — Only 3 Made It #Shorts",
+      "description": "In March 1944, 76 men crawled out of a Nazi prison camp through a tunnel built from bed boards and tin cans. Only three made it home.\n\nThe true story behind The Great Escape (1963): Squadron Leader Roger Bushell's plan for three tunnels — Tom, Dick and Harry — under Stalag Luft III at Sagan (now Żagań, Poland). 600 prisoners dug nine metres down through sand, using 4,000 stolen bed boards and a pump made of hockey sticks and Klim milk tins. On 24–25 March 1944, 76 men escaped through Harry; 73 were recaptured and 50 were executed by the Gestapo on Hitler's orders. Only Per Bergsland, Jens Müller and Bram van der Stok reached freedom — and only one American took part.\n\nSubscribe for more history that sounds made up.\n\nImages: Imperial War Museum and prisoners' drawings, public domain / CC0 via Wikimedia Commons. Film: 'Mining and Preparation of Anthracite Coal' (illustrative), Universal Newsreel (1944) and US Army footage from Żagań (2026), public domain. Music: Grieg, In the Hall of the Mountain King, public domain. Sources: Wikipedia.\n\n#Shorts #TheGreatEscape #WW2 #History #StalagLuftIII\n\nKeywords: the great escape, great escape, stalag luft iii, the great escape 1963, world war 2, ww2 history, steve mcqueen the great escape, prison escape.",
+      "tags": [
+        "the great escape",
+        "great escape",
+        "the great escape true story",
+        "real great escape",
+        "stalag luft iii",
+        "stalag luft 3",
+        "the great escape 1963",
+        "steve mcqueen the great escape",
+        "roger bushell",
+        "tunnel harry",
+        "tom dick and harry",
+        "the fifty",
+        "prisoner of war",
+        "pow escape",
+        "prison escape",
+        "prison break",
+        "world war 2",
+        "ww2",
+        "ww2 history",
+        "ww2 stories",
+        "ww2 tales",
+        "military history",
+        "raf",
+        "history",
+        "history shorts",
+        "true story",
+        "history documentary",
+        "history explained",
+        "history facts"
+      ]
+    },
+    "pinned": "Fifty men were executed after the escape. Was it worth it — or should they have stayed put? 👇"
   }
 }

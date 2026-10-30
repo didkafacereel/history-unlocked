@@ -1,0 +1,238 @@
+{
+  "drawing.jpg": {
+    "file": "File:Stalag Luft III drawing.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Stalag_Luft_III_drawing.jpg",
+    "licence": "Public domain",
+    "artist": "Drawing: Lt. Robert M. Polich, Sr. Photograph: Kevin Rofidal (nephew of Robert M. Polich, Sr. )",
+    "date": "Drawn during World War II",
+    "description": "Drawn by POW in the Stalag Luft III camp"
+  },
+  "camp-drawing.jpg": {
+    "file": "File:Stalag Luft III.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Stalag_Luft_III.jpg",
+    "licence": "Public domain",
+    "artist": "Drawing: Lt. Robert M. Polich, Sr. Photograph: Kevin Rofidal (nephew of Robert M. Polich, Sr. )",
+    "date": "Drawn during World War II",
+    "description": "Drawn by POW in the Stalag Luft III camp"
+  },
+  "pows.jpg": {
+    "file": "File:Allied Prisoners of War in Germany, 1939-1945 (IWM HU 1605).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Allied_Prisoners_of_War_in_Germany,_1939-1945_(IWM_HU_1605).jpg",
+    "licence": "Public domain",
+    "artist": "Official photographer",
+    "date": "before April 1944",
+    "description": "Squadron Leaders Robert Stanford Tuck and Roger Bushell (Big X) in Stalag Luft III, Sagan."
+  },
+  "harry1.jpg": {
+    "file": "File:HarrySagan1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:HarrySagan1.jpg",
+    "licence": "Public domain",
+    "artist": "CSvBibra",
+    "date": "",
+    "description": "\"Harry\"."
+  },
+  "memorial.jpg": {
+    "file": "File:The50Memorial.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:The50Memorial.jpg",
+    "licence": "Public domain",
+    "artist": "CSvBibra",
+    "date": "2006-08-02 14:34:13",
+    "description": "Memorial to \"The Fifty\" down the road toward Żagań. Memorial to \"The Fifty\" Allied airmen executed after the \"Great Escape\"."
+  },
+  "zagan.jpg": {
+    "file": "File:2015 Zagan Stalag 2.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:2015_Zagan_Stalag_2.JPG",
+    "licence": "CC0",
+    "artist": "Qasinka",
+    "date": "2015-05-03 11:55:11",
+    "description": "Museum of Allied Prisoners of War Martyrdom in Żagań (Sagan)"
+  },
+  "muller.jpg": {
+    "file": "File:331hurricatterickmuller.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:331hurricatterickmuller.jpg",
+    "licence": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "date": "1941",
+    "description": "Hurricane from 331 (N) Squadron at Skeabrae, Orkney Islands, 1941. The pilot in front of the plane is Jens Müller"
+  },
+  "powcard.jpg": {
+    "file": "File:Peter Butterworth's prisoner-of-war card.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Peter_Butterworth%27s_prisoner-of-war_card.png",
+    "licence": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "date": "1943-10",
+    "description": "British actor Peter Butterworth's ID card when he was a prisoner at Stalag Luft III camp in 1943."
+  },
+  "trent-group.jpg": {
+    "file": "File:Trent Grindell Turnbull IWM HU 81283.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Trent_Grindell_Turnbull_IWM_HU_81283.jpg",
+    "licence": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "date": "circa. April-May 1943",
+    "description": "Left to right : Squadron Leader Leonard Henry Trent, later awarded the Victoria Cross; Wing Commander G J \"Chopper\" Grindell, Commanding Officer of No. 487 Squadron RNZAF; Squadron Leader T Turnbull."
+  },
+  "trent.jpg": {
+    "file": "File:Leonard Henry Trent.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Leonard_Henry_Trent.jpg",
+    "licence": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "date": "circa. April-May 1943",
+    "description": "Left to right : Squadron Leader Leonard Henry Trent, later awarded the Victoria Cross; Wing Commander G J \"Chopper\" Grindell, Commanding Officer of No. 487 Squadron RNZAF; Squadron Leader T Turnbull."
+  },
+  "film-museum.mp4": {
+    "file": "File:The 82nd Anniversary of the Great Escape (1000717).webm",
+    "page": "https://commons.wikimedia.org/wiki/File:The_82nd_Anniversary_of_the_Great_Escape_(1000717).webm",
+    "licence": "Public domain",
+    "artist": "U.S. Army video by Sgt. Bernabe Lopez",
+    "date": "Taken on 24 March 2026",
+    "description": "Service members, families and distinguished guests gather during a commemoration event marking the 82nd anniversary of the Great Escape in Zagan, Poland, March 24, 2026. The annual observance honors the courage and sacrifice of Allied priso",
+    "film": {
+      "at": 0.5,
+      "len": 5,
+      "fit": "fill"
+    }
+  },
+  "film-mural.mp4": {
+    "file": "File:The 82nd Anniversary of the Great Escape (1000717).webm",
+    "page": "https://commons.wikimedia.org/wiki/File:The_82nd_Anniversary_of_the_Great_Escape_(1000717).webm",
+    "licence": "Public domain",
+    "artist": "U.S. Army video by Sgt. Bernabe Lopez",
+    "date": "Taken on 24 March 2026",
+    "description": "Service members, families and distinguished guests gather during a commemoration event marking the 82nd anniversary of the Great Escape in Zagan, Poland, March 24, 2026. The annual observance honors the courage and sacrifice of Allied priso",
+    "film": {
+      "at": 6,
+      "len": 5.5,
+      "fit": "fill"
+    }
+  },
+  "film-honor.mp4": {
+    "file": "File:The 82nd Anniversary of the Great Escape (1000717).webm",
+    "page": "https://commons.wikimedia.org/wiki/File:The_82nd_Anniversary_of_the_Great_Escape_(1000717).webm",
+    "licence": "Public domain",
+    "artist": "U.S. Army video by Sgt. Bernabe Lopez",
+    "date": "Taken on 24 March 2026",
+    "description": "Service members, families and distinguished guests gather during a commemoration event marking the 82nd anniversary of the Great Escape in Zagan, Poland, March 24, 2026. The annual observance honors the courage and sacrifice of Allied priso",
+    "film": {
+      "at": 17.5,
+      "len": 5.5,
+      "fit": "fill"
+    }
+  },
+  "film-miners.mp4": {
+    "file": "File:Mining and Preparation of Anthracite Coal.webm",
+    "page": "https://commons.wikimedia.org/wiki/File:Mining_and_Preparation_of_Anthracite_Coal.webm",
+    "licence": "Public Domain",
+    "artist": "Handy (Jam) Organization",
+    "date": "Unknown date",
+    "description": "Underground mining scenes Sequence shows miners leaving work, washing up and going home to greet families.",
+    "film": {
+      "at": 38,
+      "len": 5.5,
+      "fit": "band"
+    }
+  },
+  "film-lamps.mp4": {
+    "file": "File:Mining and Preparation of Anthracite Coal.webm",
+    "page": "https://commons.wikimedia.org/wiki/File:Mining_and_Preparation_of_Anthracite_Coal.webm",
+    "licence": "Public Domain",
+    "artist": "Handy (Jam) Organization",
+    "date": "Unknown date",
+    "description": "Underground mining scenes Sequence shows miners leaving work, washing up and going home to greet families.",
+    "film": {
+      "at": 58,
+      "len": 5.97,
+      "fit": "band"
+    }
+  },
+  "film-dig.mp4": {
+    "file": "File:Mining and Preparation of Anthracite Coal.webm",
+    "page": "https://commons.wikimedia.org/wiki/File:Mining_and_Preparation_of_Anthracite_Coal.webm",
+    "licence": "Public Domain",
+    "artist": "Handy (Jam) Organization",
+    "date": "Unknown date",
+    "description": "Underground mining scenes Sequence shows miners leaving work, washing up and going home to greet families.",
+    "film": {
+      "at": 98,
+      "len": 6,
+      "fit": "band"
+    }
+  },
+  "film-tunnel.mp4": {
+    "file": "File:Mining and Preparation of Anthracite Coal.webm",
+    "page": "https://commons.wikimedia.org/wiki/File:Mining_and_Preparation_of_Anthracite_Coal.webm",
+    "licence": "Public Domain",
+    "artist": "Handy (Jam) Organization",
+    "date": "Unknown date",
+    "description": "Underground mining scenes Sequence shows miners leaving work, washing up and going home to greet families.",
+    "film": {
+      "at": 117,
+      "len": 5.97,
+      "fit": "band"
+    }
+  },
+  "film-cart.mp4": {
+    "file": "File:Mining and Preparation of Anthracite Coal.webm",
+    "page": "https://commons.wikimedia.org/wiki/File:Mining_and_Preparation_of_Anthracite_Coal.webm",
+    "licence": "Public Domain",
+    "artist": "Handy (Jam) Organization",
+    "date": "Unknown date",
+    "description": "Underground mining scenes Sequence shows miners leaving work, washing up and going home to greet families.",
+    "film": {
+      "at": 137,
+      "len": 5.5,
+      "fit": "band"
+    }
+  },
+  "film-lancaster.mp4": {
+    "file": "File:1944-11-22 RAF Sinks Tirpitz.ogv",
+    "page": "https://commons.wikimedia.org/wiki/File:1944-11-22_RAF_Sinks_Tirpitz.ogv",
+    "licence": "Public domain",
+    "artist": "Universal Newsreels",
+    "date": "1944-11-22",
+    "description": "Universal Newsreels > RAF Sinks Tirpitz, 1944/11/22 (1) RAF Sinks Tirpitz! \"RAF Lancasters converge on the 45,000 ton Nazi Battlewagon, hidden in Tennsue Fjord in Norway. She is throwing tons of bursting steel skyward, but super blockbuster",
+    "film": {
+      "at": 7,
+      "len": 5,
+      "fit": "band"
+    }
+  },
+  "film-forest.mp4": {
+    "file": "File:1944-11-22 RAF Sinks Tirpitz.ogv",
+    "page": "https://commons.wikimedia.org/wiki/File:1944-11-22_RAF_Sinks_Tirpitz.ogv",
+    "licence": "Public domain",
+    "artist": "Universal Newsreels",
+    "date": "1944-11-22",
+    "description": "Universal Newsreels > RAF Sinks Tirpitz, 1944/11/22 (1) RAF Sinks Tirpitz! \"RAF Lancasters converge on the 45,000 ton Nazi Battlewagon, hidden in Tennsue Fjord in Norway. She is throwing tons of bursting steel skyward, but super blockbuster",
+    "film": {
+      "at": 110,
+      "len": 6,
+      "fit": "band"
+    }
+  },
+  "film-mist.mp4": {
+    "file": "File:1944-11-22 RAF Sinks Tirpitz.ogv",
+    "page": "https://commons.wikimedia.org/wiki/File:1944-11-22_RAF_Sinks_Tirpitz.ogv",
+    "licence": "Public domain",
+    "artist": "Universal Newsreels",
+    "date": "1944-11-22",
+    "description": "Universal Newsreels > RAF Sinks Tirpitz, 1944/11/22 (1) RAF Sinks Tirpitz! \"RAF Lancasters converge on the 45,000 ton Nazi Battlewagon, hidden in Tennsue Fjord in Norway. She is throwing tons of bursting steel skyward, but super blockbuster",
+    "film": {
+      "at": 121,
+      "len": 5.5,
+      "fit": "band"
+    }
+  },
+  "film-night.mp4": {
+    "file": "File:1944-11-22 RAF Sinks Tirpitz.ogv",
+    "page": "https://commons.wikimedia.org/wiki/File:1944-11-22_RAF_Sinks_Tirpitz.ogv",
+    "licence": "Public domain",
+    "artist": "Universal Newsreels",
+    "date": "1944-11-22",
+    "description": "Universal Newsreels > RAF Sinks Tirpitz, 1944/11/22 (1) RAF Sinks Tirpitz! \"RAF Lancasters converge on the 45,000 ton Nazi Battlewagon, hidden in Tennsue Fjord in Norway. She is throwing tons of bursting steel skyward, but super blockbuster",
+    "film": {
+      "at": 165,
+      "len": 5,
+      "fit": "band"
+    }
+  }
+}
