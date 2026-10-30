@@ -134,5 +134,13 @@
     "music": "grieg-concerto-adagio",
     "seconds": 93,
     "cta": "Shackleton never gave up on his men. Don't give up on history. Subscribe."
+  },
+  {
+    "slug": "scott",
+    "made": "2026-11-01",
+    "title": "John Paul Scott — the man who swam from Alcatraz to the Golden Gate",
+    "music": "satie-gnossienne-1",
+    "seconds": 90,
+    "cta": "Scott made it across the bay. Make it to the subscribe button too."
   }
 ]
