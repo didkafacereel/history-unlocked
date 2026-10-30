@@ -11,7 +11,7 @@
 | 4 | greatescape | Голямото бягство, Stalag Luft III (1944) | Stalag Luft III, Stalag Luft III murders | ✅ готов (ready/greatescape) |
 | 5 | earhart | Амелия Еърхарт | Amelia Earhart | ✅ готов (ready/earhart) |
 | 6 | libby | Тунелът в затвора Libby (1864) | Libby Prison escape | ✅ готов (ready/libby) |
-| 7 | lindbergh | Отвличането на бебето Линдбърг (1932) | Lindbergh kidnapping | — |
+| 7 | lindbergh | Отвличането на бебето Линдбърг (1932) | Lindbergh kidnapping | ✅ готов (ready/lindbergh) |
 | 8 | papillon | Papillon / Дяволския остров — истина или лъжа | Henri Charrière | — |
 | 9 | roanoke | Изчезналата колония Роанок, „CROATOAN“ | Roanoke Colony | — |
 | 10 | colditz | Планерът от Колдиц (1944) | Colditz Cock | — |

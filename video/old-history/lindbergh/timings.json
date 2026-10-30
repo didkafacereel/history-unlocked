@@ -1,0 +1,95 @@
+{
+  "total": 91.869,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "In 1932, someone climbed a ladder into the nursery of the most famous man in America, and took his baby son.",
+      "start": 0.4,
+      "end": 8.571
+    },
+    {
+      "id": "s2",
+      "show": "Charles Lindbergh. The first man to fly solo across the Atlantic.",
+      "start": 8.971,
+      "end": 13.515
+    },
+    {
+      "id": "s3",
+      "show": "On 1 March, his little son was gone from his crib. On the windowsill, a ransom note.",
+      "start": 13.915,
+      "end": 19.547
+    },
+    {
+      "id": "s4",
+      "show": "$50,000, badly spelled, signed with three holes.",
+      "start": 19.947,
+      "end": 23.872
+    },
+    {
+      "id": "s5",
+      "show": "A go-between, John Condon, handed the money to a man in a dark Bronx cemetery. Cemetery John.",
+      "start": 24.272,
+      "end": 31.269
+    },
+    {
+      "id": "s6",
+      "show": "The man said the boy was safe. He wasn't.",
+      "start": 31.669,
+      "end": 34.4
+    },
+    {
+      "id": "s7",
+      "show": "Ten weeks later, the child was found in the woods, a few miles from home.",
+      "start": 34.8,
+      "end": 39.323
+    },
+    {
+      "id": "s8",
+      "show": "Kidnapping across state lines became a federal crime.",
+      "start": 39.723,
+      "end": 43.307
+    },
+    {
+      "id": "s9",
+      "show": "But the ransom was a trap. Gold certificates, every serial number written down.",
+      "start": 43.707,
+      "end": 48.805
+    },
+    {
+      "id": "s10",
+      "show": "Two years later, a gas station attendant scribbled a licence plate on one of those bills. It led to a German carpenter, Bruno Hauptmann.",
+      "start": 49.205,
+      "end": 58.123
+    },
+    {
+      "id": "s11",
+      "show": "In his garage, $20,000 of ransom money. And a wood expert said the ladder matched a board from his attic.",
+      "start": 58.523,
+      "end": 66.203
+    },
+    {
+      "id": "s12",
+      "show": "Hauptmann swore he was innocent, refused to confess even to save his life, and died in the electric chair in 1936.",
+      "start": 66.603,
+      "end": 75.413
+    },
+    {
+      "id": "s13",
+      "show": "His widow fought to clear his name until she died. Some believe he didn't act alone. Others, that he was framed.",
+      "start": 75.813,
+      "end": 82.981
+    },
+    {
+      "id": "s14",
+      "show": "So, the crime of the century, or the frame-up of the century?",
+      "start": 83.381,
+      "end": 87.221
+    },
+    {
+      "id": "end2",
+      "show": "The ransom left a trail. Leave one too, and subscribe.",
+      "start": 87.721,
+      "end": 91.369
+    }
+  ]
+}

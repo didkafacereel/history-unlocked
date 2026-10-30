@@ -1,46 +1,484 @@
 {
   "format": 2,
   "pace": "fast",
+  "mode": "channel",
   "date": "2026-11-07",
   "dateKey": "11-07",
   "slug": "lindbergh",
-  "title": "",
+  "title": "The Lindbergh kidnapping — crime of the century, or frame-up of the century?",
   "eventId": "",
-  "category": "",
-  "sources": [],
+  "category": "Crime & Mystery",
+  "sources": [
+    "Wikipedia: Lindbergh kidnapping — on 1 March 1932 the 20-month-old son of Charles Lindbergh (the first to fly solo nonstop across the Atlantic, 1927) and Anne Morrow Lindbergh was taken from his crib at their home near Hopewell, New Jersey; a homemade ladder was used and a ransom note asking for $50,000, with spelling errors and a symbol of three holes, was left; retired teacher John F. Condon ('Jafsie') acted as go-between and on 2 April 1932 handed $50,000 to 'Cemetery John' at St. Raymond's Cemetery in the Bronx, who said the child was safe; on 12 May 1932 the child's body was found about 4.5 miles from the home; many ransom bills were gold certificates and their serial numbers were recorded; on 18 September 1934 a gas-station attendant's note of a licence plate on a ransom gold certificate led to the German-born carpenter Bruno Richard Hauptmann; about $20,000 of the ransom was found in his garage, and wood expert Arthur Koehler testified that a rail of the ladder matched a floorboard from Hauptmann's attic; convicted at the 'Trial of the Century' in Flemington, he maintained his innocence, refused to confess in exchange for his life, and was executed in the electric chair on 3 April 1936; his widow Anna fought to clear his name for the rest of her life; books have argued he was innocent or did not act alone.",
+    "The Federal Kidnapping Act ('Lindbergh Law', 1932) made kidnapping across state lines a federal crime.",
+    "Photos (public domain, Wikimedia Commons / Library of Congress / New York World-Telegram): Charles Lindbergh (1927); Anne Lindbergh and Charles Jr. (1931); the police poster and ransom note (1932); John F. Condon; Hauptmann's NYPD mugshot (1934); the Flemington trial (1935); a 1928 $20 gold certificate",
+    "Archive film (public domain): 'First Pictures of Lindbergh as He Reaches Paris' (Pathé, 1927); 'Lindbergh with Mother Before Solo' (1927); Polygoon newsreel of Charles and Anne Lindbergh at Schiphol (1933)",
+    "Music: Chopin, Nocturne in C minor, public domain"
+  ],
   "music": {
-    "track": ""
+    "track": "chopin-nocturne-c-minor"
   },
-  "highlight": [],
+  "highlight": [
+    "LINDBERGH",
+    "CONDON",
+    "HAUPTMANN",
+    "GOLD",
+    "LADDER",
+    "ATTIC",
+    "FEDERAL",
+    "CENTURY",
+    "RANSOM"
+  ],
+  "alert": [
+    "KIDNAPPED",
+    "DEAD",
+    "ELECTRIC",
+    "CHAIR",
+    "FRAMED",
+    "WASN'T",
+    "TOOK"
+  ],
   "cover": {
-    "image": "",
-    "focus": "50% 40%",
-    "date": "",
+    "image": "hauptmann.jpg",
+    "focus": "50% 35%",
+    "kicker": "CRIME OF THE CENTURY",
+    "date": "1932 – 1936",
+    "top": 1120,
     "lines": [
-      "",
-      ""
+      "GUILTY",
+      "*OR FRAMED*",
+      "?"
     ]
+  },
+  "thumb": {
+    "image": "hauptmann.jpg",
+    "focus": 0.35,
+    "zoom": 1,
+    "lines": [
+      "GUILTY",
+      "OR",
+      "FRAMED?"
+    ],
+    "hi": 2,
+    "tint": [
+      200,
+      60,
+      50
+    ],
+    "kicker": "THE LINDBERGH CASE"
   },
   "sentences": [
     {
       "id": "s1",
-      "say": "",
-      "show": "",
-      "pauseAfter": 0.45
+      "say": "In nineteen thirty-two, someone climbed a ladder into the nursery of the most famous man in America, and took his baby son.",
+      "show": "In 1932, someone climbed a ladder into the nursery of the most famous man in America, and took his baby son.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s2",
+      "say": "Charles Lindbergh. The first man to fly solo across the Atlantic.",
+      "show": "Charles Lindbergh. The first man to fly solo across the Atlantic.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "On March first, his little son was gone from his crib. On the windowsill, a ransom note.",
+      "show": "On 1 March, his little son was gone from his crib. On the windowsill, a ransom note.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "Fifty thousand dollars, badly spelled, signed with three holes.",
+      "show": "$50,000, badly spelled, signed with three holes.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s5",
+      "say": "A go-between, John Condon, handed the money to a man in a dark Bronx cemetery. Cemetery John.",
+      "show": "A go-between, John Condon, handed the money to a man in a dark Bronx cemetery. Cemetery John.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s6",
+      "say": "The man said the boy was safe. He wasn't.",
+      "show": "The man said the boy was safe. He wasn't.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s7",
+      "say": "Ten weeks later, the child was found in the woods, a few miles from home.",
+      "show": "Ten weeks later, the child was found in the woods, a few miles from home.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s8",
+      "say": "Kidnapping across state lines became a federal crime.",
+      "show": "Kidnapping across state lines became a federal crime.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s9",
+      "say": "But the ransom was a trap. Gold certificates, every serial number written down.",
+      "show": "But the ransom was a trap. Gold certificates, every serial number written down.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s10",
+      "say": "Two years later, a gas station attendant scribbled a licence plate on one of those bills. It led to a German carpenter, Bruno Hauptmann.",
+      "show": "Two years later, a gas station attendant scribbled a licence plate on one of those bills. It led to a German carpenter, Bruno Hauptmann.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s11",
+      "say": "In his garage, twenty thousand dollars of ransom money. And a wood expert said the ladder matched a board from his attic.",
+      "show": "In his garage, $20,000 of ransom money. And a wood expert said the ladder matched a board from his attic.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s12",
+      "say": "Hauptmann swore he was innocent, refused to confess even to save his life, and died in the electric chair in nineteen thirty-six.",
+      "show": "Hauptmann swore he was innocent, refused to confess even to save his life, and died in the electric chair in 1936.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s13",
+      "say": "His widow fought to clear his name until she died. Some believe he didn't act alone. Others, that he was framed.",
+      "show": "His widow fought to clear his name until she died. Some believe he didn't act alone. Others, that he was framed.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s14",
+      "say": "So, the crime of the century, or the frame-up of the century?",
+      "show": "So, the crime of the century, or the frame-up of the century?",
+      "pauseAfter": 0.5
     }
   ],
+  "cta": {
+    "story": "The money gave him away.",
+    "say": "The ransom left a trail. Leave one too, and subscribe.",
+    "pill": "FOLLOW THE MONEY",
+    "note": "more true stories that sound made up"
+  },
+  "endImage": "testifying.jpg",
+  "imageCredit": "Library of Congress; New York World-Telegram; NYPD; Wikimedia Commons (public domain)",
   "scenes": [
     {
+      "type": "photo",
+      "note": "hook",
+      "image": "lindy.jpg",
+      "focus": "50% 35%",
+      "move": "in",
+      "fact": "Charles Lindbergh, 1927"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.4",
+      "enter": "cut",
+      "clip": "film-p-crowds.mp4",
+      "credit": "Crowds for Lindbergh, Paris 1927 · Pathé newsreel"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.72",
+      "enter": "cut",
+      "image": "poster.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "Police poster, March 1932"
+    },
+    {
       "type": "title",
-      "image": "",
+      "from": "s2",
+      "enter": "cut",
+      "image": "grandjury.jpg",
+      "focus": "50% 35%",
+      "kicker": "Crime of the century",
+      "date": "THE LINDBERGH CASE",
+      "year": "1932",
+      "place": "Hopewell, New Jersey"
+    },
+    {
+      "type": "film",
+      "from": "s2@0.3",
+      "enter": "cut",
+      "clip": "film-p-takeoff.mp4",
+      "credit": "The Spirit of St. Louis, 1927 · Pathé newsreel"
+    },
+    {
+      "type": "film",
+      "from": "s2@0.62",
+      "enter": "cut",
+      "clip": "film-m-face.mp4",
+      "credit": "Charles Lindbergh, May 1927 · newsreel"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "family.jpg",
+      "focus": "50% 60%",
+      "move": "in",
+      "fact": "Anne Lindbergh and Charles Jr., 1931"
+    },
+    {
+      "type": "film",
+      "from": "s3@0.5",
+      "enter": "cut",
+      "clip": "film-m-night.mp4",
+      "credit": "Night · 1927 newsreel, illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s4",
+      "enter": "cut",
+      "image": "note.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "The ransom note, 1 March 1932"
+    },
+    {
+      "type": "statement",
+      "from": "s4@0.55",
+      "enter": "cut",
+      "image": "note.jpg",
+      "focus": "50% 90%",
+      "kicker": "Signed with three holes",
+      "main": {
+        "text": "*$50,000*.",
+        "at": "s4@0.6"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s5",
+      "enter": "cut",
+      "image": "condon.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "John F. Condon — \"Jafsie\""
+    },
+    {
+      "type": "statement",
+      "from": "s5@0.6",
+      "enter": "cut",
+      "image": "court.jpg",
+      "focus": "50% 40%",
+      "kicker": "St. Raymond's Cemetery, Bronx",
+      "main": {
+        "text": "\"*Cemetery John*\"",
+        "at": "s5@0.75"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s6",
+      "enter": "cut",
+      "image": "poster.jpg",
+      "focus": "50% 20%",
+      "kicker": "\"The child is in gut care\"",
+      "main": {
+        "text": "He !!wasn't!!.",
+        "at": "s6@0.7"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s7",
+      "enter": "cut",
+      "image": "family.jpg",
+      "focus": "50% 30%",
+      "kicker": "12 May 1932",
+      "main": {
+        "text": "Found in the woods.",
+        "at": "s7@0.5"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s8",
+      "enter": "cut",
+      "clip": "film-p-cheer.mp4",
+      "credit": "Crowds, 1927 · Pathé newsreel, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s8@0.5",
+      "enter": "cut",
+      "image": "testifying.jpg",
       "focus": "50% 50%",
-      "date": "",
-      "year": "",
-      "place": ""
+      "kicker": "The Lindbergh Law, 1932",
+      "main": {
+        "text": "A *federal* crime.",
+        "at": "s8@0.6"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s9",
+      "enter": "cut",
+      "image": "gold.jpg",
+      "focus": "50% 25%",
+      "move": "in",
+      "fact": "A 1928 $20 gold certificate"
+    },
+    {
+      "type": "statement",
+      "from": "s9@0.6",
+      "enter": "cut",
+      "image": "gold.jpg",
+      "focus": "50% 75%",
+      "main": {
+        "text": "Every *serial number* recorded.",
+        "at": "s9@0.7"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s10",
+      "enter": "cut",
+      "clip": "film-p-night.mp4",
+      "credit": "1927 newsreel · illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s10@0.65",
+      "enter": "cut",
+      "image": "hauptmann.jpg",
+      "focus": "50% 35%",
+      "move": "in",
+      "fact": "Bruno Richard Hauptmann, NYPD, September 1934"
+    },
+    {
+      "type": "number",
+      "from": "s11",
+      "enter": "cut",
+      "image": "hauptmann-full.jpg",
+      "focus": "70% 40%",
+      "label": "Ransom dollars found in his garage",
+      "value": 20000,
+      "start": 0,
+      "count": {
+        "from": "s11@0.03",
+        "to": "s11@0.35"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s11@0.5",
+      "enter": "cut",
+      "image": "hauptmann-full.jpg",
+      "focus": "20% 40%",
+      "kicker": "The wood expert",
+      "main": {
+        "text": "The *ladder* matched his *attic*.",
+        "at": "s11@0.6"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s12",
+      "enter": "cut",
+      "image": "testifying.jpg",
+      "focus": "40% 40%",
+      "move": "in",
+      "fact": "The trial at Flemington, 1935 — Lindbergh testifying"
+    },
+    {
+      "type": "statement",
+      "from": "s12@0.65",
+      "enter": "cut",
+      "image": "hauptmann.jpg",
+      "focus": "50% 70%",
+      "kicker": "3 April 1936",
+      "main": {
+        "text": "The !!electric chair!!.",
+        "at": "s12@0.75"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s13",
+      "enter": "cut",
+      "clip": "film-s-couple.mp4",
+      "credit": "Charles and Anne Lindbergh, 1933 · Polygoon newsreel"
+    },
+    {
+      "type": "film",
+      "from": "s13@0.4",
+      "enter": "cut",
+      "clip": "film-s-walk.mp4",
+      "credit": "Charles Lindbergh, 1933 · Polygoon newsreel"
+    },
+    {
+      "type": "statement",
+      "from": "s13@0.7",
+      "enter": "cut",
+      "image": "hauptmann-full.jpg",
+      "focus": "70% 40%",
+      "main": {
+        "text": "Not alone? Or !!framed!!?",
+        "at": "s13@0.8"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s14",
+      "enter": "cut",
+      "clip": "film-p-hero.mp4",
+      "credit": "Charles Lindbergh, 1927 · Pathé newsreel"
+    },
+    {
+      "type": "portrait",
+      "from": "s14@0.4",
+      "enter": "fade",
+      "image": "hauptmann.jpg",
+      "focus": "50% 35%",
+      "kicker": "Bruno Hauptmann",
+      "date": "Executed 1936",
+      "line": {
+        "text": "Guilty — or *framed*?",
+        "at": "s14@0.5"
+      }
     }
   ],
   "post": {
-    "tiktok": "",
-    "facebook": ""
+    "tiktok": "In 1932 someone climbed a homemade ladder into the nursery of the most famous man in America and took his baby son. 🪜\n\nThe Lindbergh kidnapping: a misspelled ransom note, a midnight payoff to \"Cemetery John\", and gold certificates that led police — two and a half years later — to Bruno Hauptmann. He died in the electric chair swearing he was innocent.\n\nCrime of the century, or frame-up of the century? 👇\n\n#lindbergh #truecrime #history #crimeofthecentury #unsolvedmysteries #historytok #1930s #truestory",
+    "facebook": "In 1932, someone climbed a homemade ladder into the nursery of the most famous man in America and took his baby son.\n\nCharles Lindbergh had been the first to fly solo nonstop across the Atlantic. On the night of 1 March 1932 his 20-month-old son vanished from his crib, leaving a misspelled ransom note for $50,000 signed with three holes. A retired teacher, John Condon, handed the money to \"Cemetery John\" in a dark Bronx cemetery — and was told the boy was safe. He wasn't: ten weeks later the child was found in the woods a few miles from home. Congress made kidnapping across state lines a federal crime.\n\nBut the ransom was a trap: gold certificates with every serial number recorded. Two and a half years later a gas station attendant wrote a licence plate on one of those bills, leading police to German carpenter Bruno Hauptmann. $20,000 of ransom money was in his garage, and a wood expert matched the ladder to a board from his attic. Hauptmann swore he was innocent, refused to confess even to save his life, and died in the electric chair in 1936. His widow fought to clear his name for the rest of her life.\n\nCrime of the century — or frame-up of the century? 👇\n\n#Lindbergh #TrueCrime #History #CrimeOfTheCentury",
+    "youtube": {
+      "title": "The Lindbergh Kidnapping: Crime of the Century — or Frame-Up? #Shorts",
+      "description": "In 1932, someone climbed a homemade ladder into the nursery of the most famous man in America and took his baby son.\n\nThe Lindbergh kidnapping: the son of aviator Charles Lindbergh was taken from his home near Hopewell, New Jersey, on 1 March 1932. A $50,000 ransom was paid to 'Cemetery John' through go-between John Condon, but the child was found dead ten weeks later. Ransom gold certificates led police in 1934 to Bruno Richard Hauptmann; money in his garage and a ladder rail matched to his attic convicted him at the 'Trial of the Century', and he was executed in 1936 still protesting his innocence. Was he guilty, part of a conspiracy, or framed?\n\nSubscribe for more history that sounds made up.\n\nImages: public domain via Wikimedia Commons (Library of Congress, New York World-Telegram, NYPD). Film: Pathé newsreel (1927), 'Lindbergh with Mother Before Solo' (1927) and Polygoon newsreel (1933), public domain. Music: Chopin, Nocturne in C minor, public domain. Sources: Wikipedia.\n\n#Shorts #TrueCrime #Lindbergh #History #UnsolvedMysteries\n\nKeywords: lindbergh kidnapping, lindbergh baby, charles lindbergh, bruno hauptmann, crime of the century, true crime, unsolved mysteries, trial of the century.",
+      "tags": [
+        "lindbergh kidnapping",
+        "lindbergh baby",
+        "lindbergh baby kidnapping",
+        "charles lindbergh",
+        "bruno hauptmann",
+        "bruno richard hauptmann",
+        "crime of the century",
+        "trial of the century",
+        "lindbergh law",
+        "cemetery john",
+        "john condon",
+        "ransom note",
+        "gold certificate",
+        "kidnapping",
+        "true crime",
+        "true crime stories",
+        "true crime documentary",
+        "unsolved mysteries",
+        "cold case",
+        "1930s",
+        "depression era",
+        "american history",
+        "history",
+        "history shorts",
+        "true story",
+        "history documentary",
+        "history explained",
+        "weird history",
+        "history facts"
+      ]
+    },
+    "pinned": "Hauptmann refused to confess even to save his own life. Guilty, not alone, or framed — what do YOU think? 👇"
   }
 }
