@@ -1,46 +1,458 @@
 {
   "format": 2,
   "pace": "fast",
+  "mode": "channel",
   "date": "2026-11-06",
   "dateKey": "11-06",
   "slug": "libby",
-  "title": "",
+  "title": "Rat Hell — the Libby Prison tunnel escape of 1864",
   "eventId": "",
-  "category": "",
-  "sources": [],
+  "category": "War",
+  "sources": [
+    "Wikipedia: Libby Prison escape — Libby Prison, a former warehouse in Richmond, Virginia, held captured Union officers; the Confederates believed it inescapable and whitewashed the outer walls so lurking prisoners would stand out; the flooded, rat-infested eastern basement kitchen was closed off and known as 'Rat Hell'; led by Colonel Thomas E. Rose of the 77th Pennsylvania, officers removed a stove and chipped through a chimney to reach it; they dug with few proper tools while hundreds of rats ran over them; the dirt was hidden under two feet of straw, and one man stayed buried in the straw all day to conceal the tunnel; after 17 days they broke through under a tobacco shed in the yard of Kerr's Warehouse; on the night of 9 February 1864 they walked out into Richmond, Rose striding past a sentinel unchallenged; a stampede followed, and a guard joked that 'somebody's coffeepot' had upset; 109 escaped and the alarm was not raised for nearly twelve hours; following the North Star, 59 reached Union lines; Rose was caught by Confederate pickets minutes from the Union front at Williamsburg, returned to Libby and exchanged for a Confederate colonel on 30 April 1864.",
+    "Images (public domain, Wikimedia Commons / Library of Congress): Libby Prison stereographs; Harper's Weekly interior view (1863); David Gilmour Blythe's painting 'Libby Prison' (1863); the interior in 1891; Colonel Thomas E. Rose; 'The escaped refugees from the Libey Prison' (1864); a prisoner's letter of 14 February 1864",
+    "Archive film (public domain): D. W. Griffith, 'The House with Closed Shutters' (1910) and 'Swords and Hearts' (1911) — Civil War dramas, illustrative; a candle (CC0)",
+    "Music: The Battle Hymn of the Republic (slow), public domain"
+  ],
   "music": {
-    "track": ""
+    "track": "battle-hymn-slow"
   },
-  "highlight": [],
+  "highlight": [
+    "LIBBY",
+    "ROSE",
+    "TUNNEL",
+    "UNION",
+    "RICHMOND",
+    "STAR",
+    "STRAW",
+    "CHIMNEY",
+    "COFFEEPOT",
+    "NORTH"
+  ],
+  "alert": [
+    "RATS",
+    "RAT",
+    "HELL",
+    "CAUGHT",
+    "CONFEDERATE",
+    "ESCAPE-PROOF",
+    "DARK"
+  ],
   "cover": {
-    "image": "",
-    "focus": "50% 40%",
-    "date": "",
+    "image": "rose.jpg",
+    "focus": "50% 35%",
+    "kicker": "IMPOSSIBLE ESCAPES",
+    "date": "FEBRUARY 1864",
+    "top": 1120,
     "lines": [
-      "",
-      ""
+      "109 ESCAPED",
+      "THROUGH",
+      "*RAT HELL*"
     ]
+  },
+  "thumb": {
+    "image": "rose.jpg",
+    "focus": 0.35,
+    "zoom": 1,
+    "lines": [
+      "109 MEN",
+      "ESCAPED",
+      "THROUGH RAT HELL"
+    ],
+    "hi": 2,
+    "tint": [
+      190,
+      120,
+      60
+    ],
+    "kicker": "CIVIL WAR, 1864"
   },
   "sentences": [
     {
       "id": "s1",
-      "say": "",
-      "show": "",
+      "say": "In eighteen sixty-four, one hundred and nine Union officers escaped from a Confederate prison, through a tunnel dug in a cellar full of rats.",
+      "show": "In 1864, 109 Union officers escaped from a Confederate prison, through a tunnel dug in a cellar full of rats.",
+      "pauseAfter": 0.55
+    },
+    {
+      "id": "s2",
+      "say": "Libby Prison, in Richmond, Virginia. An old warehouse, packed with captured Union officers.",
+      "show": "Libby Prison, in Richmond, Virginia. An old warehouse, packed with captured Union officers.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s3",
+      "say": "The guards thought it was escape-proof. They even painted the walls white, so anyone sneaking outside would stand out.",
+      "show": "The guards thought it was escape-proof. They even painted the walls white, so anyone sneaking outside would stand out.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "But in the basement was a room nobody wanted to enter. Flooded, pitch dark, and crawling with rats. They called it Rat Hell.",
+      "show": "But in the basement was a room nobody wanted to enter. Flooded, pitch dark, and crawling with rats. They called it Rat Hell.",
       "pauseAfter": 0.45
+    },
+    {
+      "id": "s5",
+      "say": "Colonel Thomas Rose and his men got in through a chimney, behind a stove.",
+      "show": "Colonel Thomas Rose and his men got in through a chimney, behind a stove.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s6",
+      "say": "Every night they dug, with almost no tools, while hundreds of rats ran over them.",
+      "show": "Every night they dug, with almost no tools, while hundreds of rats ran over them.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s7",
+      "say": "The dirt went under the straw. One man stayed buried in it all day, to hide the hole.",
+      "show": "The dirt went under the straw. One man stayed buried in it all day, to hide the hole.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s8",
+      "say": "After seventeen days, the tunnel came up under a tobacco shed, outside the prison.",
+      "show": "After 17 days, the tunnel came up under a tobacco shed, outside the prison.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s9",
+      "say": "On the night of February ninth, they simply walked out into the streets of Richmond. Rose strolled right past a sentry.",
+      "show": "On the night of 9 February, they simply walked out into the streets of Richmond. Rose strolled right past a sentry.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s10",
+      "say": "Then the whole prison found out, and stampeded for the hole. A guard heard the racket, and joked that somebody's coffeepot had tipped over.",
+      "show": "Then the whole prison found out, and stampeded for the hole. A guard heard the racket, and joked that somebody's coffeepot had tipped over.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s11",
+      "say": "One hundred and nine men got out. Nobody noticed for almost twelve hours.",
+      "show": "109 men got out. Nobody noticed for almost twelve hours.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s12",
+      "say": "Following the North Star, fifty-nine of them reached Union lines.",
+      "show": "Following the North Star, 59 of them reached Union lines.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s13",
+      "say": "Their leader wasn't one of them. Rose was caught minutes from the Union front, and dragged back to Libby.",
+      "show": "Their leader wasn't one of them. Rose was caught minutes from the Union front, and dragged back to Libby.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s14",
+      "say": "So, would you have crawled into Rat Hell?",
+      "show": "So, would you have crawled into Rat Hell?",
+      "pauseAfter": 0.6
     }
   ],
+  "cta": {
+    "story": "They dug out with their bare hands.",
+    "say": "They followed the North Star. Follow the channel, and subscribe.",
+    "pill": "FOLLOW",
+    "note": "more true stories that sound made up"
+  },
+  "endImage": "libby-1.jpg",
+  "imageCredit": "Library of Congress; Harper's Weekly; Wikimedia Commons (public domain)",
   "scenes": [
     {
+      "type": "photo",
+      "note": "hook",
+      "image": "rose.jpg",
+      "focus": "50% 35%",
+      "move": "in",
+      "fact": "Colonel Thomas E. Rose, 77th Pennsylvania"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.35",
+      "enter": "cut",
+      "clip": "film-candle.mp4",
+      "credit": "Candlelight · illustrative"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.65",
+      "enter": "cut",
+      "clip": "film-night-ride.mp4",
+      "credit": "1911 Civil War film · illustrative"
+    },
+    {
       "type": "title",
-      "image": "",
+      "from": "s2",
+      "enter": "cut",
+      "image": "libby-1.jpg",
       "focus": "50% 50%",
-      "date": "",
-      "year": "",
-      "place": ""
+      "kicker": "Impossible escapes",
+      "date": "LIBBY PRISON",
+      "year": "1864",
+      "place": "Richmond, Virginia"
+    },
+    {
+      "type": "photo",
+      "from": "s2@0.5",
+      "enter": "cut",
+      "image": "interior.jpg",
+      "focus": "50% 55%",
+      "move": "in",
+      "fact": "Inside Libby Prison · Harper's Weekly, 1863"
+    },
+    {
+      "type": "film",
+      "from": "s3",
+      "enter": "cut",
+      "clip": "film-soldiers.mp4",
+      "credit": "Confederate soldiers · 1910 film, illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s3@0.5",
+      "enter": "cut",
+      "image": "libby-2.jpg",
+      "focus": "50% 50%",
+      "move": "left",
+      "fact": "Libby Prison, Richmond"
+    },
+    {
+      "type": "photo",
+      "from": "s4",
+      "enter": "cut",
+      "image": "blythe.jpg",
+      "focus": "40% 50%",
+      "move": "in",
+      "fact": "Libby Prison · painting by David Gilmour Blythe, 1863"
+    },
+    {
+      "type": "statement",
+      "from": "s4@0.75",
+      "enter": "cut",
+      "image": "blythe.jpg",
+      "focus": "70% 50%",
+      "kicker": "The basement",
+      "main": {
+        "text": "!!Rat Hell!!.",
+        "at": "s4@0.85"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s5",
+      "enter": "cut",
+      "image": "streight.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Inside Libby Prison, 1891"
+    },
+    {
+      "type": "statement",
+      "from": "s5@0.5",
+      "enter": "cut",
+      "image": "streight.jpg",
+      "focus": "30% 50%",
+      "main": {
+        "text": "Behind the stove. Down the *chimney*.",
+        "at": "s5@0.55"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s6",
+      "enter": "cut",
+      "clip": "film-scuffle.mp4",
+      "credit": "1911 film · illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s6@0.55",
+      "enter": "cut",
+      "image": "blythe.jpg",
+      "focus": "20% 50%",
+      "main": {
+        "text": "Hundreds of !!rats!!.",
+        "at": "s6@0.65"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s7",
+      "enter": "cut",
+      "image": "interior.jpg",
+      "focus": "50% 80%",
+      "kicker": "Hiding the dirt",
+      "main": {
+        "text": "Buried in *straw*, all day.",
+        "at": "s7@0.5"
+      }
+    },
+    {
+      "type": "number",
+      "from": "s8",
+      "enter": "cut",
+      "image": "libby-3.jpg",
+      "focus": "50% 50%",
+      "label": "Days of digging",
+      "value": 17,
+      "start": 0,
+      "count": {
+        "from": "s8@0.05",
+        "to": "s8@0.3"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s8@0.5",
+      "enter": "cut",
+      "clip": "film-road.mp4",
+      "credit": "1910 film · illustrative"
+    },
+    {
+      "type": "film",
+      "from": "s9",
+      "enter": "cut",
+      "clip": "film-woods.mp4",
+      "credit": "1911 film · illustrative"
+    },
+    {
+      "type": "film",
+      "from": "s9@0.55",
+      "enter": "cut",
+      "clip": "film-rider.mp4",
+      "credit": "Sentries · 1910 film, illustrative"
+    },
+    {
+      "type": "film",
+      "from": "s10",
+      "enter": "cut",
+      "clip": "film-soldiers2.mp4",
+      "credit": "1910 film · illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s10@0.55",
+      "enter": "cut",
+      "image": "libby-2.jpg",
+      "focus": "30% 50%",
+      "kicker": "A guard, 9 February 1864",
+      "main": {
+        "text": "\"Somebody's *coffeepot* upset!\"",
+        "at": "s10@0.65"
+      }
+    },
+    {
+      "type": "number",
+      "from": "s11",
+      "enter": "cut",
+      "image": "libby-3.jpg",
+      "focus": "60% 50%",
+      "label": "Union officers who escaped",
+      "value": 109,
+      "start": 0,
+      "count": {
+        "from": "s11@0.05",
+        "to": "s11@0.35"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s11@0.55",
+      "enter": "cut",
+      "image": "libby-1.jpg",
+      "focus": "40% 50%",
+      "main": {
+        "text": "*12 hours* unnoticed.",
+        "at": "s11@0.65"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s12",
+      "enter": "cut",
+      "image": "refugees.jpg",
+      "focus": "50% 45%",
+      "move": "in",
+      "fact": "\"The escaped refugees from the Libby Prison\", 1864"
+    },
+    {
+      "type": "film",
+      "from": "s12@0.55",
+      "enter": "cut",
+      "clip": "film-camp.mp4",
+      "credit": "An army camp · 1910 film, illustrative"
+    },
+    {
+      "type": "film",
+      "from": "s13",
+      "enter": "cut",
+      "clip": "film-battle.mp4",
+      "credit": "1910 film · illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s13@0.55",
+      "enter": "cut",
+      "image": "letter.jpg",
+      "focus": "50% 40%",
+      "move": "in",
+      "fact": "A letter from Libby Prison, 14 February 1864"
+    },
+    {
+      "type": "portrait",
+      "from": "s14",
+      "enter": "fade",
+      "image": "rose.jpg",
+      "focus": "50% 35%",
+      "kicker": "Col. Thomas E. Rose",
+      "date": "Exchanged, April 1864",
+      "line": {
+        "text": "Would you crawl into *Rat Hell*?",
+        "at": "s14@0.3"
+      }
     }
   ],
   "post": {
-    "tiktok": "",
-    "facebook": ""
+    "tiktok": "In 1864, 109 Union officers escaped a Confederate prison through a tunnel dug in a cellar full of rats. 🐀\n\nThey called it Rat Hell. For 17 days they dug in the dark while rats ran over them, hid the dirt under straw — and then walked out into Richmond past the sentries. Nobody noticed for 12 hours.\n\nWould you have crawled into Rat Hell? 👇\n\n#history #civilwar #prisonbreak #escape #americanhistory #historytok #truestory #libbyprison",
+    "facebook": "In 1864, 109 Union officers escaped from a Confederate prison through a tunnel dug in a cellar full of rats.\n\nLibby Prison in Richmond, Virginia, was an old warehouse packed with captured Union officers. The guards thought it was escape-proof — they even whitewashed the walls so anyone sneaking outside would stand out. But in the basement was a flooded, pitch-dark room crawling with rats that nobody wanted to enter: Rat Hell.\n\nColonel Thomas Rose and his men got in through a chimney behind a stove. Every night they dug with almost no tools while hundreds of rats ran over them, hiding the dirt under the straw — one man stayed buried in it all day to cover the hole. After 17 days the tunnel came up under a tobacco shed outside the prison. On 9 February 1864 they simply walked out into Richmond; Rose strolled right past a sentry. When the rest of the prison found out there was a stampede — a guard heard the racket and joked that somebody's coffeepot had tipped over.\n\n109 men got out and nobody noticed for almost twelve hours. Following the North Star, 59 reached Union lines. Rose was caught minutes from the Union front and dragged back to Libby.\n\nWould you have crawled into Rat Hell? 👇\n\n#History #CivilWar #PrisonBreak #LibbyPrison",
+    "youtube": {
+      "title": "109 Men Escaped Through \"Rat Hell\" — The Great Civil War Prison Break #Shorts",
+      "description": "In 1864, 109 Union officers escaped from a Confederate prison through a tunnel dug in a cellar full of rats.\n\nLibby Prison in Richmond, Virginia, was thought to be escape-proof. Led by Colonel Thomas E. Rose of the 77th Pennsylvania, prisoners broke through a chimney into the flooded, rat-infested basement known as 'Rat Hell', hid the dirt under straw and, after 17 days of digging, came up under a tobacco shed outside the prison. On the night of 9 February 1864, 109 men walked out into Richmond; the alarm wasn't raised for nearly twelve hours, and 59 reached Union lines following the North Star. Rose himself was caught minutes from the Union front.\n\nSubscribe for more history that sounds made up.\n\nImages: public domain via Wikimedia Commons and the Library of Congress (stereographs, Harper's Weekly, David Gilmour Blythe). Film: D. W. Griffith's 'The House with Closed Shutters' (1910) and 'Swords and Hearts' (1911), public domain — illustrative. Music: The Battle Hymn of the Republic, public domain. Sources: Wikipedia.\n\n#Shorts #History #CivilWar #PrisonBreak #LibbyPrison\n\nKeywords: libby prison escape, civil war prison, prison break, prison escape, civil war history, american civil war, tunnel escape.",
+      "tags": [
+        "libby prison",
+        "libby prison escape",
+        "rat hell",
+        "civil war",
+        "american civil war",
+        "civil war prison",
+        "civil war history",
+        "civil war stories",
+        "union army",
+        "confederate prison",
+        "richmond virginia",
+        "thomas e rose",
+        "tunnel escape",
+        "great escape",
+        "prison break",
+        "prison escape",
+        "prison escapes",
+        "escape",
+        "1864",
+        "military history",
+        "american history",
+        "history",
+        "history shorts",
+        "true story",
+        "history documentary",
+        "history explained",
+        "weird history",
+        "history facts"
+      ]
+    },
+    "pinned": "Rats in the dark for 17 days for a chance at freedom — would YOU have crawled into Rat Hell? 🐀👇"
   }
 }
