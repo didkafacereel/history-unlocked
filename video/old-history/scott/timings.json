@@ -1,0 +1,95 @@
+{
+  "total": 90.259,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "Officially, nobody ever escaped from Alcatraz. But one man swam all the way to the Golden Gate Bridge, and they found him alive.",
+      "start": 0.4,
+      "end": 9.189
+    },
+    {
+      "id": "s2",
+      "show": "In 29 years, 36 men tried to escape the Rock.",
+      "start": 9.789,
+      "end": 13.907
+    },
+    {
+      "id": "s3",
+      "show": "Six were shot dead. Two drowned. Five vanished in the freezing bay, and were never seen again.",
+      "start": 14.257,
+      "end": 20.379
+    },
+    {
+      "id": "s4",
+      "show": "In June 1962, three of them disappeared on a raft made of raincoats. The guards said the bay had swallowed them.",
+      "start": 20.879,
+      "end": 29.114
+    },
+    {
+      "id": "s5",
+      "show": "Six months later, inmate 1403, John Paul Scott, decided to prove them wrong.",
+      "start": 29.614,
+      "end": 35.63
+    },
+    {
+      "id": "s6",
+      "show": "On 16 December, he slipped out of the cell house.",
+      "start": 36.08,
+      "end": 39.621
+    },
+    {
+      "id": "s7",
+      "show": "His life jacket? Rubber kitchen gloves, blown up like balloons, and tied to his arms.",
+      "start": 39.971,
+      "end": 45.454
+    },
+    {
+      "id": "s8",
+      "show": "Then he jumped into the freezing water, in the middle of winter, and started to swim.",
+      "start": 45.954,
+      "end": 50.797
+    },
+    {
+      "id": "s9",
+      "show": "Five kilometres. Through the currents everyone said nobody could survive.",
+      "start": 51.247,
+      "end": 56.004
+    },
+    {
+      "id": "s10",
+      "show": "He came ashore at Fort Point, right under the Golden Gate Bridge.",
+      "start": 56.454,
+      "end": 60.699
+    },
+    {
+      "id": "s11",
+      "show": "Some teenagers found him on the rocks, frozen, with hypothermia, too weak to run.",
+      "start": 61.149,
+      "end": 66.845
+    },
+    {
+      "id": "s12",
+      "show": "He woke up in an army hospital. Then they sent him straight back to Alcatraz.",
+      "start": 67.345,
+      "end": 72.145
+    },
+    {
+      "id": "s13",
+      "show": "He is the only prisoner known to have reached the shore by swimming. With worse gear than Frank Morris, in worse water.",
+      "start": 72.645,
+      "end": 79.899
+    },
+    {
+      "id": "s14",
+      "show": "So if John Paul Scott made it, could Morris and the Anglins have made it too?",
+      "start": 80.349,
+      "end": 84.978
+    },
+    {
+      "id": "end2",
+      "show": "Scott made it across the bay. Make it to the subscribe button too.",
+      "start": 85.578,
+      "end": 89.759
+    }
+  ]
+}

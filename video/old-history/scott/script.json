@@ -1,0 +1,487 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "mode": "channel",
+  "date": "2026-11-01",
+  "slug": "scott",
+  "title": "John Paul Scott — the man who swam from Alcatraz to the Golden Gate",
+  "category": "Crime & Mystery",
+  "sources": [
+    "Wikipedia: Alcatraz Federal Penitentiary — in its 29 years the prison claimed no prisoner ever successfully escaped; 36 prisoners made 14 attempts: 23 were caught, 6 shot dead, 2 drowned and 5 listed as 'missing and presumed drowned'; Theodore Cole and Ralph Roe vanished into a stormy bay in December 1937; the prison closed on 21 March 1963 after the June 1962 escape.",
+    "Wikipedia: June 1962 Alcatraz escape — on 16 December 1962 inmate John Paul Scott made inflatable armbands from rubber gloves and swam about 2.7 nautical miles (5 km) from Alcatraz to Fort Point, at the southern end of the Golden Gate Bridge; teenagers found him there with hypothermia and exhaustion; after recovering at Letterman Army Hospital he was returned to Alcatraz; he is the only Alcatraz inmate known to have reached the shore by swimming, in worse conditions and with worse gear than Morris and the Anglins, which fed the theory that they could have made it too.",
+    "Photos (public domain, Wikimedia Commons / US Bureau of Prisons / Library of Congress — Carol M. Highsmith / Historic American Buildings Survey / US National Archives): John Paul Scott's Alcatraz mugshot (no. 1403); aerial view of Alcatraz; the cell house and guard tower; an Alcatraz menu (1946); Fort Point under the Golden Gate Bridge; the Golden Gate in November 1960",
+    "Archive film (public domain): 'US Army Special Forces Dive Team' (1956) — swimmers and rafts in open water; 'Golden Gate Bridge Opening' (1936) — illustrative, not Scott himself",
+    "Music: Satie, Gnossienne No. 1, public domain"
+  ],
+  "music": {
+    "track": "satie-gnossienne-1"
+  },
+  "highlight": [
+    "ALCATRAZ",
+    "SCOTT",
+    "GOLDEN",
+    "GATE",
+    "GLOVES",
+    "SHORE",
+    "ONLY",
+    "SWAM",
+    "POSSIBLE",
+    "MORRIS"
+  ],
+  "alert": [
+    "FREEZING",
+    "DROWNED",
+    "SHOT",
+    "DEAD",
+    "HYPOTHERMIA",
+    "SHARKS",
+    "DIE"
+  ],
+  "cover": {
+    "image": "scott-mugshot.jpg",
+    "focus": "50% 28%",
+    "kicker": "ALCATRAZ, PART 2",
+    "date": "DECEMBER 1962",
+    "top": 1120,
+    "lines": [
+      "HE SWAM",
+      "*FROM ALCATRAZ*",
+      "AND LIVED"
+    ]
+  },
+  "thumb": {
+    "image": "scott-mugshot.jpg",
+    "focus": 0.28,
+    "zoom": 1,
+    "lines": [
+      "HE SWAM",
+      "FROM ALCATRAZ",
+      "AND LIVED"
+    ],
+    "hi": 1,
+    "tint": [
+      60,
+      200,
+      255
+    ],
+    "kicker": "ALCATRAZ PART 2"
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "Officially, nobody ever escaped from Alcatraz. But one man swam all the way to the Golden Gate Bridge, and they found him alive.",
+      "show": "Officially, nobody ever escaped from Alcatraz. But one man swam all the way to the Golden Gate Bridge, and they found him alive.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s2",
+      "say": "In twenty-nine years, thirty-six men tried to escape the Rock.",
+      "show": "In 29 years, 36 men tried to escape the Rock.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s3",
+      "say": "Six were shot dead. Two drowned. Five vanished in the freezing bay, and were never seen again.",
+      "show": "Six were shot dead. Two drowned. Five vanished in the freezing bay, and were never seen again.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s4",
+      "say": "In June nineteen sixty-two, three of them disappeared on a raft made of raincoats. The guards said the bay had swallowed them.",
+      "show": "In June 1962, three of them disappeared on a raft made of raincoats. The guards said the bay had swallowed them.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s5",
+      "say": "Six months later, inmate fourteen-oh-three, John Paul Scott, decided to prove them wrong.",
+      "show": "Six months later, inmate 1403, John Paul Scott, decided to prove them wrong.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s6",
+      "say": "On the sixteenth of December, he slipped out of the cell house.",
+      "show": "On 16 December, he slipped out of the cell house.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s7",
+      "say": "His life jacket? Rubber kitchen gloves, blown up like balloons, and tied to his arms.",
+      "show": "His life jacket? Rubber kitchen gloves, blown up like balloons, and tied to his arms.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s8",
+      "say": "Then he jumped into the freezing water, in the middle of winter, and started to swim.",
+      "show": "Then he jumped into the freezing water, in the middle of winter, and started to swim.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s9",
+      "say": "Five kilometres. Through the currents everyone said nobody could survive.",
+      "show": "Five kilometres. Through the currents everyone said nobody could survive.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s10",
+      "say": "He came ashore at Fort Point, right under the Golden Gate Bridge.",
+      "show": "He came ashore at Fort Point, right under the Golden Gate Bridge.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s11",
+      "say": "Some teenagers found him on the rocks, frozen, with hypothermia, too weak to run.",
+      "show": "Some teenagers found him on the rocks, frozen, with hypothermia, too weak to run.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s12",
+      "say": "He woke up in an army hospital. Then they sent him straight back to Alcatraz.",
+      "show": "He woke up in an army hospital. Then they sent him straight back to Alcatraz.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s13",
+      "say": "He is the only prisoner known to have reached the shore by swimming. With worse gear than Frank Morris, in worse water.",
+      "show": "He is the only prisoner known to have reached the shore by swimming. With worse gear than Frank Morris, in worse water.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s14",
+      "say": "So if John Paul Scott made it, could Morris and the Anglins have made it too?",
+      "show": "So if John Paul Scott made it, could Morris and the Anglins have made it too?",
+      "pauseAfter": 0.6
+    }
+  ],
+  "cta": {
+    "story": "The Rock wasn't escape-proof.",
+    "say": "Scott made it across the bay. Make it to the subscribe button too.",
+    "pill": "SWIM OVER",
+    "note": "more true stories that sound made up"
+  },
+  "endImage": "golden-gate-1960.jpg",
+  "imageCredit": "US Bureau of Prisons; Library of Congress (Carol M. Highsmith); Historic American Buildings Survey; US National Archives via Wikimedia Commons",
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook",
+      "image": "scott-mugshot.jpg",
+      "focus": "50% 28%",
+      "move": "in",
+      "fact": "John Paul Scott, Alcatraz inmate 1403"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.3",
+      "enter": "cut",
+      "image": "aerial-a.jpg",
+      "focus": "30% 55%",
+      "move": "in",
+      "fact": "Alcatraz Island, San Francisco Bay"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.55",
+      "enter": "cut",
+      "clip": "film-swimmer.mp4",
+      "credit": "A swimmer in open water, 1956 · archive film, illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.75",
+      "enter": "cut",
+      "image": "golden-gate-1960.jpg",
+      "focus": "50% 50%",
+      "move": "left",
+      "fact": "The Golden Gate, November 1960"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "block-a-north.jpg",
+      "focus": "50% 50%",
+      "kicker": "Alcatraz, part 2",
+      "date": "JOHN PAUL SCOTT",
+      "year": "1962",
+      "place": "The swim nobody believed"
+    },
+    {
+      "type": "number",
+      "from": "s2@0.45",
+      "enter": "cut",
+      "image": "guardhouse-ne.jpg",
+      "focus": "50% 50%",
+      "label": "Men who tried to escape Alcatraz",
+      "value": 36,
+      "start": 0,
+      "count": {
+        "from": "s2@0.5",
+        "to": "s2@0.9"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s3",
+      "enter": "cut",
+      "image": "guardhouse-ne.jpg",
+      "focus": "70% 40%",
+      "kicker": "1934 – 1963",
+      "main": {
+        "text": "!!Shot!!. !!Drowned!!. *Vanished*.",
+        "at": "s3@0.15"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s3@0.6",
+      "enter": "cut",
+      "clip": "film-shore.mp4",
+      "credit": "Cold open water · archive film, illustrative"
+    },
+    {
+      "type": "film",
+      "from": "s4",
+      "enter": "cut",
+      "clip": "film-raft2.mp4",
+      "credit": "A rubber raft in open water, 1956 · archive film, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s4@0.5",
+      "enter": "cut",
+      "image": "aerial-a.jpg",
+      "focus": "40% 50%",
+      "kicker": "June 1962",
+      "main": {
+        "text": "A raft of *raincoats*. Gone.",
+        "at": "s4@0.6"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s5",
+      "enter": "cut",
+      "image": "scott-mugshot.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "Inmate 1403"
+    },
+    {
+      "type": "statement",
+      "from": "s5@0.6",
+      "enter": "cut",
+      "image": "scott-mugshot.jpg",
+      "focus": "50% 70%",
+      "main": {
+        "text": "He'd *prove them wrong*.",
+        "at": "s5@0.7"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s6",
+      "enter": "cut",
+      "image": "block-a-north.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The Alcatraz cell house"
+    },
+    {
+      "type": "film",
+      "from": "s6@0.5",
+      "enter": "cut",
+      "clip": "film-rope.mp4",
+      "credit": "Into the water, 1956 · archive film, illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s7",
+      "enter": "cut",
+      "image": "kitchen.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "An Alcatraz menu — the prison kitchen"
+    },
+    {
+      "type": "statement",
+      "from": "s7@0.45",
+      "enter": "cut",
+      "image": "aerial-a.jpg",
+      "focus": "60% 50%",
+      "kicker": "His life jacket",
+      "main": {
+        "text": "Inflated *rubber gloves*.",
+        "at": "s7@0.55"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s8",
+      "enter": "cut",
+      "clip": "film-swimmer.mp4",
+      "credit": "A swimmer in open water, 1956 · archive film, illustrative"
+    },
+    {
+      "type": "film",
+      "from": "s8@0.5",
+      "enter": "cut",
+      "clip": "film-swimmers.mp4",
+      "credit": "Open water, 1956 · archive film, illustrative"
+    },
+    {
+      "type": "number",
+      "from": "s9",
+      "enter": "cut",
+      "image": "golden-gate-1960.jpg",
+      "focus": "40% 50%",
+      "label": "Across the freezing bay",
+      "value": 5,
+      "start": 0,
+      "suffix": " km",
+      "count": {
+        "from": "s9@0.05",
+        "to": "s9@0.35"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s10",
+      "enter": "cut",
+      "clip": "film-bridge-a.mp4",
+      "credit": "The Golden Gate Bridge, 1936 · archive film"
+    },
+    {
+      "type": "photo",
+      "from": "s10@0.4",
+      "enter": "cut",
+      "image": "fort-point.jpg",
+      "focus": "50% 60%",
+      "move": "in",
+      "fact": "Fort Point (old postcard)"
+    },
+    {
+      "type": "photo",
+      "from": "s10@0.72",
+      "enter": "cut",
+      "image": "fort-point-2.jpg",
+      "focus": "50% 40%",
+      "move": "up",
+      "fact": "Fort Point, under the Golden Gate Bridge"
+    },
+    {
+      "type": "film",
+      "from": "s11",
+      "enter": "cut",
+      "clip": "film-beach.mp4",
+      "credit": "A shoreline, 1956 · archive film, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s11@0.55",
+      "enter": "cut",
+      "image": "fort-point-2.jpg",
+      "focus": "50% 70%",
+      "main": {
+        "text": "!!Hypothermia!!. *Alive*.",
+        "at": "s11@0.65"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s12",
+      "enter": "cut",
+      "clip": "film-boat.mp4",
+      "credit": "A boat on the bay, 1956 · archive film, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s12@0.5",
+      "enter": "cut",
+      "image": "guardhouse-ne.jpg",
+      "focus": "30% 50%",
+      "kicker": "December 1962",
+      "main": {
+        "text": "Straight back to *Alcatraz*.",
+        "at": "s12@0.7"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s13",
+      "enter": "cut",
+      "clip": "film-bridge-b.mp4",
+      "credit": "The Golden Gate Bridge, 1936 · archive film"
+    },
+    {
+      "type": "statement",
+      "from": "s13@0.45",
+      "enter": "cut",
+      "image": "savannah-bridge.jpg",
+      "focus": "50% 50%",
+      "kicker": "The only one",
+      "main": {
+        "text": "He reached *the shore*.",
+        "at": "s13@0.5"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s14",
+      "enter": "cut",
+      "clip": "film-bridge-c.mp4",
+      "credit": "The Golden Gate Bridge, 1936 · archive film"
+    },
+    {
+      "type": "portrait",
+      "from": "s14@0.45",
+      "enter": "fade",
+      "image": "scott-mugshot.jpg",
+      "focus": "50% 28%",
+      "kicker": "John Paul Scott",
+      "date": "Alcatraz, 1962",
+      "line": {
+        "text": "Proof it was *possible*?",
+        "at": "s14@0.6"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "Officially, nobody ever escaped Alcatraz. But one man swam all the way to the Golden Gate Bridge — and they found him alive. 🌊\n\nSix months after the famous 1962 escape, inmate John Paul Scott tied blown-up rubber gloves to his arms and swam 5 km through the freezing bay. Teenagers found him under the bridge with hypothermia.\n\nSo could Morris and the Anglins have made it too? 👇\n\n#history #alcatraz #escapefromalcatraz #prisonbreak #truestory #historytok #truecrime #mystery",
+    "facebook": "Officially, nobody ever escaped from Alcatraz. But one man swam all the way to the Golden Gate Bridge — and they found him alive.\n\nIn 29 years, 36 men tried to escape the Rock: six were shot dead, two drowned, five vanished in the freezing bay. In June 1962 three of them disappeared on a raft made of raincoats, and the guards said the bay had swallowed them.\n\nSix months later, inmate 1403, John Paul Scott, set out to prove them wrong. On 16 December 1962 he slipped out of the cell house with a life jacket made of rubber kitchen gloves, blown up like balloons and tied to his arms. He jumped into the winter water and swam about 5 km through the currents everyone said nobody could survive — coming ashore at Fort Point, right under the Golden Gate Bridge. Teenagers found him on the rocks with hypothermia, too weak to run. He woke up in an army hospital and was sent straight back to Alcatraz.\n\nHe is the only prisoner known to have reached the shore by swimming — with worse gear than Frank Morris, in worse water. So if Scott made it… could Morris and the Anglins have made it too? 👇\n\n#History #Alcatraz #EscapeFromAlcatraz #PrisonBreak",
+    "youtube": {
+      "title": "He Swam From Alcatraz to the Golden Gate Bridge — and Lived | Escape From Alcatraz Part 2 #Shorts",
+      "description": "Officially, nobody ever escaped from Alcatraz. But one man swam all the way to the Golden Gate Bridge, and they found him alive.\n\nSix months after Frank Morris and the Anglin brothers vanished in June 1962, Alcatraz inmate John Paul Scott tied inflated rubber gloves to his arms and swam about 5 km through the freezing San Francisco Bay to Fort Point, under the Golden Gate Bridge. Teenagers found him with hypothermia; he was sent back to Alcatraz. He is the only inmate known to have reached the shore by swimming — which raises the question: did Morris and the Anglins make it too?\n\nSubscribe for more history that sounds made up.\n\nImages: public domain via Wikimedia Commons (US Bureau of Prisons, Library of Congress — Carol M. Highsmith, HABS, US National Archives). Film: US Army Special Forces Dive Team (1956) and Golden Gate Bridge Opening (1936), public domain — illustrative. Music: Satie, Gnossienne No. 1, public domain. Sources: Wikipedia.\n\n#Shorts #History #Alcatraz #EscapeFromAlcatraz #PrisonBreak\n\nKeywords: escape from alcatraz, alcatraz escape, prison break, alcatraz prison escape, unsolved mysteries.",
+      "tags": [
+        "escape from alcatraz",
+        "alcatraz escape",
+        "alcatraz prison escape",
+        "alcatraz",
+        "alcatraz prison",
+        "alcatraz island",
+        "john paul scott",
+        "alcatraz swim",
+        "prison break",
+        "prison escape",
+        "prison escapes",
+        "frank morris",
+        "anglin brothers",
+        "golden gate bridge",
+        "san francisco bay",
+        "true crime",
+        "true crime stories",
+        "unsolved mysteries",
+        "alcatraz mystery",
+        "1962",
+        "history",
+        "history shorts",
+        "true story",
+        "history documentary",
+        "history explained",
+        "weird history",
+        "survival story",
+        "mystery"
+      ]
+    },
+    "pinned": "If Scott made it across the bay… do YOU think Morris and the Anglins made it too? 🌊👇"
+  }
+}

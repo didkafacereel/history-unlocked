@@ -54,3 +54,9 @@ in script.json; otherwise it is built from `cover`. Upload it in YouTube Studio 
 
 **Music**: always thematic and period-matched (see music/library.json); `make.mjs` re-muxes
 mix.wav if the renderer comes out quieter than −16 LUFS.
+
+**Film first (the user, 30 Oct 2026: "as much video footage as possible")**: aim for at least a third
+of the scenes to be archive film (Scott: 11 of 30). Cut 2–4 moments from every public-domain film you
+find, put film before the statement card in a sentence ("film" at sN, statement at sN@0.5), and use
+photos mainly for faces and documents. Never reuse another clip's shots for a sequel — find new ones.
+`contact_sheet.py <dir> <out.jpg>` makes the labelled review grid.

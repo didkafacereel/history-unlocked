@@ -1,0 +1,46 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-11-10",
+  "dateKey": "11-10",
+  "slug": "colditz",
+  "title": "",
+  "eventId": "",
+  "category": "",
+  "sources": [],
+  "music": {
+    "track": ""
+  },
+  "highlight": [],
+  "cover": {
+    "image": "",
+    "focus": "50% 40%",
+    "date": "",
+    "lines": [
+      "",
+      ""
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "",
+      "show": "",
+      "pauseAfter": 0.45
+    }
+  ],
+  "scenes": [
+    {
+      "type": "title",
+      "image": "",
+      "focus": "50% 50%",
+      "date": "",
+      "year": "",
+      "place": ""
+    }
+  ],
+  "post": {
+    "tiktok": "",
+    "facebook": ""
+  }
+}
