@@ -1,0 +1,95 @@
+{
+  "total": 97.875,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "In 1969, a killer mailed a secret code to a San Francisco newspaper. It took 51 years to crack it.",
+      "start": 0.4,
+      "end": 8.656
+    },
+    {
+      "id": "s2",
+      "show": "He called himself the Zodiac. In less than a year, he attacked seven people around San Francisco Bay. Five of them died.",
+      "start": 9.256,
+      "end": 17.256
+    },
+    {
+      "id": "s3",
+      "show": "Young couples, on lonely country roads. Then a taxi driver, in the middle of the city.",
+      "start": 17.706,
+      "end": 23.253
+    },
+    {
+      "id": "s4",
+      "show": "Then came the letters. Signed with a crosshair, and a demand: print this on the front page.",
+      "start": 23.703,
+      "end": 29.249
+    },
+    {
+      "id": "s5",
+      "show": "Inside were ciphers. The first one was cracked within days, by an ordinary couple in Salinas.",
+      "start": 29.699,
+      "end": 36.163
+    },
+    {
+      "id": "s6",
+      "show": "It said he liked killing, and that his victims would be his slaves in the afterlife.",
+      "start": 36.563,
+      "end": 41.491
+    },
+    {
+      "id": "s7",
+      "show": "But the next one, 340 symbols, beat everyone who tried, for half a century.",
+      "start": 41.991,
+      "end": 48.093
+    },
+    {
+      "id": "s8",
+      "show": "Then, in December 2020, three amateurs in America, Australia and Belgium ran 650,000 possible keys through a computer.",
+      "start": 48.543,
+      "end": 58.996
+    },
+    {
+      "id": "s9",
+      "show": "And it cracked. The FBI confirmed it.",
+      "start": 59.396,
+      "end": 62.041
+    },
+    {
+      "id": "s10",
+      "show": "The first line: \"I hope you are having lots of fun in trying to catch me.\"",
+      "start": 62.541,
+      "end": 66.808
+    },
+    {
+      "id": "s11",
+      "show": "He wasn't afraid of the gas chamber, he wrote, because it would send him to paradise all the sooner.",
+      "start": 67.258,
+      "end": 73.231
+    },
+    {
+      "id": "s12",
+      "show": "But no name. Police only ever named one suspect, Arthur Leigh Allen. He died in 1992, never charged.",
+      "start": 73.681,
+      "end": 81.724
+    },
+    {
+      "id": "s13",
+      "show": "Two of his ciphers are still unsolved. One of them begins: \"My name is…\"",
+      "start": 82.174,
+      "end": 87.187
+    },
+    {
+      "id": "s14",
+      "show": "So the Zodiac may have told us exactly who he was. We just can't read it.",
+      "start": 87.687,
+      "end": 92.338
+    },
+    {
+      "id": "end2",
+      "show": "His last code is still unsolved. This one's easy: subscribe.",
+      "start": 92.938,
+      "end": 97.375
+    }
+  ]
+}

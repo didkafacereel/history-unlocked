@@ -1,0 +1,259 @@
+{
+  "sketch.jpg": {
+    "file": "File:Zodiac-Killer.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Zodiac-Killer.jpg",
+    "licence": "Public domain",
+    "artist": "San Francisco Police Department",
+    "date": "1969",
+    "description": "Sketch of the Zodiac Killer."
+  },
+  "letter-1969.jpg": {
+    "file": "File:Zodiac-July1969.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Zodiac-July1969.jpg",
+    "licence": "Public domain",
+    "artist": "Zodiac killer",
+    "date": "1969-07-31",
+    "description": "Page 2 of the Zodiac Killer's July 31st 1969 letter to the San Francisco Chronicle, San Francisco Examiner and Vallejo Times"
+  },
+  "z13.jpg": {
+    "file": "File:Zodiac-name.gif",
+    "page": "https://commons.wikimedia.org/wiki/File:Zodiac-name.gif",
+    "licence": "Public domain",
+    "artist": "The Zodiac Killer",
+    "date": "1970-04-20",
+    "description": "Zodiac-name letter"
+  },
+  "bomb.jpg": {
+    "file": "File:Zodiac-Bomb.gif",
+    "page": "https://commons.wikimedia.org/wiki/File:Zodiac-Bomb.gif",
+    "licence": "Public domain",
+    "artist": "The Zodiac Killer",
+    "date": "1970-04-20",
+    "description": "Zodiac-Bomb diagram"
+  },
+  "belli.jpg": {
+    "file": "File:Zodiac-MelvinBelli.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Zodiac-MelvinBelli.jpg",
+    "licence": "Public domain",
+    "artist": "The Zodiac Killer",
+    "date": "1969-12-20",
+    "description": "Zodiac-MelvinBelli-letter"
+  },
+  "halloween.jpg": {
+    "file": "File:Zodiac-Hallo.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Zodiac-Hallo.jpg",
+    "licence": "Public domain",
+    "artist": "The Zodiac Killer",
+    "date": "1970-10-27",
+    "description": "Zodiac-Hallo"
+  },
+  "letter-colour.jpg": {
+    "file": "File:Zodiac-Colour-SFC.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Zodiac-Colour-SFC.jpg",
+    "licence": "Public domain",
+    "artist": "The Zodiac Killer",
+    "date": "1970-06-26",
+    "description": "Zodiac-Color-SFC"
+  },
+  "schoolbus.jpg": {
+    "file": "File:Zodiac-Schoolbus.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Zodiac-Schoolbus.jpg",
+    "licence": "Public domain",
+    "artist": "The Zodiac Killer",
+    "date": "1969-10-13",
+    "description": "The Zodiac Killer's October 13th 1969 letter to the San Francisco Chronicle"
+  },
+  "cipher.jpg": {
+    "file": "File:Zodiac cipher.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Zodiac_cipher.png",
+    "licence": "Public domain",
+    "artist": "Anastrophe. at English Wikipedia",
+    "date": "",
+    "description": "The Zodiac cipher"
+  },
+  "berryessa.jpg": {
+    "file": "File:Lake Berryessa.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lake_Berryessa.jpg",
+    "licence": "Public domain",
+    "artist": "Gh5046",
+    "date": "Taken on 6 April 2008",
+    "description": "A panorama (roughly 270°) of Lake Berryessa in California, USA. This image was stitched together using multiple photographs, cropped, and resized. Otherwise it is in its original state."
+  },
+  "symbol.jpg": {
+    "file": "File:Zodiac Killer symbol.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Zodiac_Killer_symbol.svg",
+    "licence": "Public domain",
+    "artist": "(Original uploader on Wikipedia) PNG crusade bot",
+    "date": "2015-07-13",
+    "description": "Symbol used by the Zodiac Killer to sign his correspondence; resembles a position tolerance symbol, ⌖."
+  },
+  "film-road-a.mp4": {
+    "file": "File:Caltrans Photolog Sample.webm",
+    "page": "https://commons.wikimedia.org/wiki/File:Caltrans_Photolog_Sample.webm",
+    "licence": "Public Domain",
+    "artist": "California Department of Transportation",
+    "date": "on archive.org : 2007-03-01",
+    "description": "Sample of Caltrans documentation of state highways. Camera-equipped vans travel all state highways at regular intervals and shoot still images, which combine into films like these. They now have an official website, at http://video.dot.ca.g",
+    "film": {
+      "at": 100,
+      "len": 6,
+      "fit": "band"
+    }
+  },
+  "film-road-forest.mp4": {
+    "file": "File:Caltrans Photolog Sample.webm",
+    "page": "https://commons.wikimedia.org/wiki/File:Caltrans_Photolog_Sample.webm",
+    "licence": "Public Domain",
+    "artist": "California Department of Transportation",
+    "date": "on archive.org : 2007-03-01",
+    "description": "Sample of Caltrans documentation of state highways. Camera-equipped vans travel all state highways at regular intervals and shoot still images, which combine into films like these. They now have an official website, at http://video.dot.ca.g",
+    "film": {
+      "at": 120,
+      "len": 5.97,
+      "fit": "band"
+    }
+  },
+  "film-road-curve.mp4": {
+    "file": "File:Caltrans Photolog Sample.webm",
+    "page": "https://commons.wikimedia.org/wiki/File:Caltrans_Photolog_Sample.webm",
+    "licence": "Public Domain",
+    "artist": "California Department of Transportation",
+    "date": "on archive.org : 2007-03-01",
+    "description": "Sample of Caltrans documentation of state highways. Camera-equipped vans travel all state highways at regular intervals and shoot still images, which combine into films like these. They now have an official website, at http://video.dot.ca.g",
+    "film": {
+      "at": 385,
+      "len": 5.97,
+      "fit": "band"
+    }
+  },
+  "film-road-car.mp4": {
+    "file": "File:Caltrans Photolog Sample.webm",
+    "page": "https://commons.wikimedia.org/wiki/File:Caltrans_Photolog_Sample.webm",
+    "licence": "Public Domain",
+    "artist": "California Department of Transportation",
+    "date": "on archive.org : 2007-03-01",
+    "description": "Sample of Caltrans documentation of state highways. Camera-equipped vans travel all state highways at regular intervals and shoot still images, which combine into films like these. They now have an official website, at http://video.dot.ca.g",
+    "film": {
+      "at": 472,
+      "len": 6,
+      "fit": "band"
+    }
+  },
+  "film-road-b.mp4": {
+    "file": "File:Caltrans Photolog Sample.webm",
+    "page": "https://commons.wikimedia.org/wiki/File:Caltrans_Photolog_Sample.webm",
+    "licence": "Public Domain",
+    "artist": "California Department of Transportation",
+    "date": "on archive.org : 2007-03-01",
+    "description": "Sample of Caltrans documentation of state highways. Camera-equipped vans travel all state highways at regular intervals and shoot still images, which combine into films like these. They now have an official website, at http://video.dot.ca.g",
+    "film": {
+      "at": 75,
+      "len": 6,
+      "fit": "band"
+    }
+  },
+  "film-crowd.mp4": {
+    "file": "File:Rolling Stones at Altamont (1969).webm",
+    "page": "https://commons.wikimedia.org/wiki/File:Rolling_Stones_at_Altamont_(1969).webm",
+    "licence": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "date": "1969",
+    "description": "Rolling Stones at Altamont: \"Silent, edited footage of the free concert at Altamont Speedway on the afternoon and evening of Saturday, December 6, 1969. The film begins and ends with a shot of burning wood. The footage taken in the daytime ",
+    "film": {
+      "at": 352,
+      "len": 6,
+      "fit": "band"
+    }
+  },
+  "film-crowd2.mp4": {
+    "file": "File:Rolling Stones at Altamont (1969).webm",
+    "page": "https://commons.wikimedia.org/wiki/File:Rolling_Stones_at_Altamont_(1969).webm",
+    "licence": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "date": "1969",
+    "description": "Rolling Stones at Altamont: \"Silent, edited footage of the free concert at Altamont Speedway on the afternoon and evening of Saturday, December 6, 1969. The film begins and ends with a shot of burning wood. The footage taken in the daytime ",
+    "film": {
+      "at": 150,
+      "len": 6,
+      "fit": "band"
+    }
+  },
+  "film-night.mp4": {
+    "file": "File:Rolling Stones at Altamont (1969).webm",
+    "page": "https://commons.wikimedia.org/wiki/File:Rolling_Stones_at_Altamont_(1969).webm",
+    "licence": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "date": "1969",
+    "description": "Rolling Stones at Altamont: \"Silent, edited footage of the free concert at Altamont Speedway on the afternoon and evening of Saturday, December 6, 1969. The film begins and ends with a shot of burning wood. The footage taken in the daytime ",
+    "film": {
+      "at": 1048,
+      "len": 6,
+      "fit": "band"
+    }
+  },
+  "film-fire.mp4": {
+    "file": "File:Rolling Stones at Altamont (1969).webm",
+    "page": "https://commons.wikimedia.org/wiki/File:Rolling_Stones_at_Altamont_(1969).webm",
+    "licence": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "date": "1969",
+    "description": "Rolling Stones at Altamont: \"Silent, edited footage of the free concert at Altamont Speedway on the afternoon and evening of Saturday, December 6, 1969. The film begins and ends with a shot of burning wood. The footage taken in the daytime ",
+    "film": {
+      "at": 1546,
+      "len": 6,
+      "fit": "band"
+    }
+  },
+  "film-press-type.mp4": {
+    "file": "File:Tidningstryck 1937.ogv",
+    "page": "https://commons.wikimedia.org/wiki/File:Tidningstryck_1937.ogv",
+    "licence": "Public domain",
+    "artist": "AB Svensk Filmindustri",
+    "date": "1937",
+    "description": "Layout (after typesetting), stereotyping, and printing of the newspaper Stockholms-Tidningen in 1937. Excerpt from the film \"Varje dag en världsrevy\", offset 9:38 to 11:22. Encoded with the command \"ffmpeg -i film.mp4 -ss 578 -t 104 -b 1200",
+    "film": {
+      "at": 0.5,
+      "len": 5.5,
+      "fit": "band"
+    }
+  },
+  "film-press-roll.mp4": {
+    "file": "File:Tidningstryck 1937.ogv",
+    "page": "https://commons.wikimedia.org/wiki/File:Tidningstryck_1937.ogv",
+    "licence": "Public domain",
+    "artist": "AB Svensk Filmindustri",
+    "date": "1937",
+    "description": "Layout (after typesetting), stereotyping, and printing of the newspaper Stockholms-Tidningen in 1937. Excerpt from the film \"Varje dag en världsrevy\", offset 9:38 to 11:22. Encoded with the command \"ffmpeg -i film.mp4 -ss 578 -t 104 -b 1200",
+    "film": {
+      "at": 66,
+      "len": 5.5,
+      "fit": "band"
+    }
+  },
+  "film-press-paper.mp4": {
+    "file": "File:Tidningstryck 1937.ogv",
+    "page": "https://commons.wikimedia.org/wiki/File:Tidningstryck_1937.ogv",
+    "licence": "Public domain",
+    "artist": "AB Svensk Filmindustri",
+    "date": "1937",
+    "description": "Layout (after typesetting), stereotyping, and printing of the newspaper Stockholms-Tidningen in 1937. Excerpt from the film \"Varje dag en världsrevy\", offset 9:38 to 11:22. Encoded with the command \"ffmpeg -i film.mp4 -ss 578 -t 104 -b 1200",
+    "film": {
+      "at": 84,
+      "len": 5.5,
+      "fit": "band"
+    }
+  },
+  "film-press-run.mp4": {
+    "file": "File:Tidningstryck 1937.ogv",
+    "page": "https://commons.wikimedia.org/wiki/File:Tidningstryck_1937.ogv",
+    "licence": "Public domain",
+    "artist": "AB Svensk Filmindustri",
+    "date": "1937",
+    "description": "Layout (after typesetting), stereotyping, and printing of the newspaper Stockholms-Tidningen in 1937. Excerpt from the film \"Varje dag en världsrevy\", offset 9:38 to 11:22. Encoded with the command \"ffmpeg -i film.mp4 -ss 578 -t 104 -b 1200",
+    "film": {
+      "at": 96,
+      "len": 5.5,
+      "fit": "band"
+    }
+  }
+}

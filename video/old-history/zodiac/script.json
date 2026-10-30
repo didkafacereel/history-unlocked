@@ -1,46 +1,102 @@
 {
   "format": 2,
   "pace": "fast",
+  "mode": "channel",
   "date": "2026-11-03",
   "dateKey": "11-03",
   "slug": "zodiac",
-  "title": "",
+  "title": "The Zodiac Killer's 340 cipher — cracked after 51 years",
   "eventId": "",
-  "category": "",
-  "sources": [],
-  "music": {
-    "track": ""
-  },
-  "highlight": [],
+  "category": "Crime & Mystery",
+  "sources": [
+    "Wikipedia: Zodiac Killer — an unidentified serial killer who attacked seven people on four occasions in the San Francisco Bay Area between December 1968 and October 1969; five died, two survived; three couples (Lake Herman Road, Blue Rock Springs, Lake Berryessa) and the cab driver Paul Stine in Presidio Heights; from 1969 to 1974 he sent over twenty letters to newspapers, signed with a crosshair-like symbol; the Z408 cipher, mailed in three parts on 31 July 1969 with a demand to print it on the front page, was cracked on 5 August 1969 by Donald and Bettye Harden of Salinas, neither a cryptologist — it spoke of killing and of victims becoming his slaves in the afterlife; the Z340 cipher (8 November 1969) stayed unsolved for 51 years until 5 December 2020, when David Oranchak (US), Sam Blake (Australia) and Jarl Van Eycke (Belgium) ran 650,000 possible solutions through Van Eycke's AZdecrypt; the FBI verified it; the message begins 'I hope you are having lots of fun in trying to catch me' and says he is not afraid of the gas chamber 'because it will send me to paradice all the sooner'; it gives no clue to his identity; the only suspect police named was Arthur Leigh Allen, who died in 1992; the short Z13 ('My name is…') and Z32 ciphers remain unsolved.",
+    "Images (public domain, Wikimedia Commons): Zodiac letters and ciphers (1969–1970), the SFPD composite sketch (1969), Lake Berryessa",
+    "Archive film (public domain): Caltrans Photolog (California state highways); 'Rolling Stones at Altamont' (Bay Area, December 1969); 'Tidningstryck' (newspaper printing, 1937) — illustrative",
+    "Music: Beethoven, Moonlight Sonata, 1st movement, public domain"
+  ],
+  "music": { "track": "beethoven-moonlight-1" },
+  "highlight": ["ZODIAC", "CIPHER", "CODE", "CRACKED", "FBI", "CHRONICLE", "FRONT", "PAGE", "NAME", "ALLEN", "FUN"],
+  "alert": ["KILLER", "KILLING", "DIED", "SLAVES", "GAS", "CHAMBER", "MURDER", "UNSOLVED"],
   "cover": {
-    "image": "",
-    "focus": "50% 40%",
-    "date": "",
-    "lines": [
-      "",
-      ""
-    ]
+    "image": "sketch.jpg",
+    "focus": "50% 35%",
+    "kicker": "UNSOLVED",
+    "date": "1969 → 2020",
+    "top": 1120,
+    "lines": ["HIS CODE WAS", "*CRACKED*", "AFTER 51 YEARS"]
+  },
+  "thumb": {
+    "image": "sketch.jpg",
+    "focus": 0.35,
+    "zoom": 1,
+    "lines": ["HIS CODE", "CRACKED", "AFTER 51 YEARS"],
+    "hi": 1,
+    "tint": [200, 40, 40],
+    "kicker": "THE ZODIAC KILLER"
   },
   "sentences": [
-    {
-      "id": "s1",
-      "say": "",
-      "show": "",
-      "pauseAfter": 0.45
-    }
+    { "id": "s1", "say": "In nineteen sixty-nine, a killer mailed a secret code to a San Francisco newspaper. It took fifty-one years to crack it.", "show": "In 1969, a killer mailed a secret code to a San Francisco newspaper. It took 51 years to crack it.", "pauseAfter": 0.6 },
+    { "id": "s2", "say": "He called himself the Zodiac. In less than a year, he attacked seven people around San Francisco Bay. Five of them died.", "show": "He called himself the Zodiac. In less than a year, he attacked seven people around San Francisco Bay. Five of them died.", "pauseAfter": 0.45 },
+    { "id": "s3", "say": "Young couples, on lonely country roads. Then a taxi driver, in the middle of the city.", "show": "Young couples, on lonely country roads. Then a taxi driver, in the middle of the city.", "pauseAfter": 0.45 },
+    { "id": "s4", "say": "Then came the letters. Signed with a crosshair, and a demand: print this on the front page.", "show": "Then came the letters. Signed with a crosshair, and a demand: print this on the front page.", "pauseAfter": 0.45 },
+    { "id": "s5", "say": "Inside were ciphers. The first one was cracked within days, by an ordinary couple in Salinas.", "show": "Inside were ciphers. The first one was cracked within days, by an ordinary couple in Salinas.", "pauseAfter": 0.4 },
+    { "id": "s6", "say": "It said he liked killing, and that his victims would be his slaves in the afterlife.", "show": "It said he liked killing, and that his victims would be his slaves in the afterlife.", "pauseAfter": 0.5 },
+    { "id": "s7", "say": "But the next one, three hundred and forty symbols, beat everyone who tried, for half a century.", "show": "But the next one, 340 symbols, beat everyone who tried, for half a century.", "pauseAfter": 0.45 },
+    { "id": "s8", "say": "Then, in December twenty-twenty, three amateurs in America, Australia and Belgium ran six hundred and fifty thousand possible keys through a computer.", "show": "Then, in December 2020, three amateurs in America, Australia and Belgium ran 650,000 possible keys through a computer.", "pauseAfter": 0.4 },
+    { "id": "s9", "say": "And it cracked. The FBI confirmed it.", "show": "And it cracked. The FBI confirmed it.", "pauseAfter": 0.5 },
+    { "id": "s10", "say": "The first line: I hope you are having lots of fun in trying to catch me.", "show": "The first line: \"I hope you are having lots of fun in trying to catch me.\"", "pauseAfter": 0.45 },
+    { "id": "s11", "say": "He wasn't afraid of the gas chamber, he wrote, because it would send him to paradise all the sooner.", "show": "He wasn't afraid of the gas chamber, he wrote, because it would send him to paradise all the sooner.", "pauseAfter": 0.45 },
+    { "id": "s12", "say": "But no name. Police only ever named one suspect, Arthur Leigh Allen. He died in nineteen ninety-two, never charged.", "show": "But no name. Police only ever named one suspect, Arthur Leigh Allen. He died in 1992, never charged.", "pauseAfter": 0.45 },
+    { "id": "s13", "say": "Two of his ciphers are still unsolved. One of them begins: My name is.", "show": "Two of his ciphers are still unsolved. One of them begins: \"My name is…\"", "pauseAfter": 0.5 },
+    { "id": "s14", "say": "So the Zodiac may have told us exactly who he was. We just can't read it.", "show": "So the Zodiac may have told us exactly who he was. We just can't read it.", "pauseAfter": 0.6 }
   ],
+  "cta": {
+    "story": "Some codes are still waiting.",
+    "say": "His last code is still unsolved. This one's easy: subscribe.",
+    "pill": "CRACK IT",
+    "note": "more true stories that sound made up"
+  },
+  "endImage": "z13.jpg",
+  "imageCredit": "Zodiac letters (San Francisco Chronicle archive); SFPD composite sketch; Wikimedia Commons (public domain)",
   "scenes": [
-    {
-      "type": "title",
-      "image": "",
-      "focus": "50% 50%",
-      "date": "",
-      "year": "",
-      "place": ""
-    }
+    { "type": "photo", "note": "hook", "image": "sketch.jpg", "focus": "50% 35%", "move": "in", "fact": "SFPD composite sketch of the Zodiac, 1969" },
+    { "type": "film", "from": "s1@0.35", "enter": "cut", "clip": "film-press-run.mp4", "credit": "A newspaper press · 1937 film, illustrative" },
+    { "type": "photo", "from": "s1@0.65", "enter": "cut", "image": "letter-1969.jpg", "focus": "50% 20%", "move": "in", "fact": "Zodiac letter, July 1969" },
+    { "type": "title", "from": "s2", "enter": "cut", "image": "sketch.jpg", "focus": "50% 40%", "kicker": "Unsolved", "date": "THE ZODIAC", "year": "1969", "place": "San Francisco Bay Area" },
+    { "type": "film", "from": "s2@0.4", "enter": "cut", "clip": "film-crowd2.mp4", "credit": "The Bay Area, December 1969 · archive film, illustrative" },
+    { "type": "number", "from": "s2@0.68", "enter": "cut", "image": "berryessa.jpg", "focus": "50% 50%", "label": "People attacked, 1968–1969", "value": 7, "start": 0, "count": { "from": "s2@0.7", "to": "s2@0.85" } },
+    { "type": "film", "from": "s3", "enter": "cut", "clip": "film-road-forest.mp4", "credit": "A California country road · Caltrans film, illustrative" },
+    { "type": "film", "from": "s3@0.5", "enter": "cut", "clip": "film-road-car.mp4", "credit": "Caltrans film, illustrative" },
+    { "type": "film", "from": "s4", "enter": "cut", "clip": "film-press-type.mp4", "credit": "Setting type for a newspaper · 1937 film, illustrative" },
+    { "type": "photo", "from": "s4@0.35", "enter": "cut", "image": "letter-colour.jpg", "focus": "50% 30%", "move": "in", "fact": "A Zodiac letter to the Chronicle, 1970" },
+    { "type": "statement", "from": "s4@0.65", "enter": "cut", "image": "belli.jpg", "focus": "50% 50%", "kicker": "His demand", "main": { "text": "Print it on the *front page*.", "at": "s4@0.7" } },
+    { "type": "photo", "from": "s5", "enter": "cut", "image": "letter-1969.jpg", "focus": "50% 60%", "move": "up", "fact": "\"Here is part of a cipher\" — July 1969" },
+    { "type": "film", "from": "s5@0.55", "enter": "cut", "clip": "film-press-paper.mp4", "credit": "Newspaper printing · 1937 film, illustrative" },
+    { "type": "photo", "from": "s6", "enter": "cut", "image": "cipher.jpg", "focus": "50% 50%", "move": "in", "fact": "The 408 cipher, decoded in August 1969" },
+    { "type": "statement", "from": "s6@0.55", "enter": "cut", "image": "halloween.jpg", "focus": "30% 50%", "main": { "text": "His victims, his !!slaves!!.", "at": "s6@0.6" } },
+    { "type": "number", "from": "s7", "enter": "cut", "image": "letter-colour.jpg", "focus": "50% 90%", "label": "Symbols in the second cipher", "value": 340, "start": 0, "count": { "from": "s7@0.1", "to": "s7@0.45" } },
+    { "type": "film", "from": "s7@0.55", "enter": "cut", "clip": "film-press-roll.mp4", "credit": "Printing rolls · 1937 film, illustrative" },
+    { "type": "statement", "from": "s8", "enter": "cut", "image": "z13.jpg", "focus": "50% 20%", "kicker": "December 2020", "main": { "text": "Three amateurs. Three countries.", "at": "s8@0.25" } },
+    { "type": "number", "from": "s8@0.6", "enter": "cut", "image": "letter-1969.jpg", "focus": "50% 40%", "label": "Possible keys tested", "value": 650000, "start": 0, "count": { "from": "s8@0.62", "to": "s8@0.95" } },
+    { "type": "statement", "from": "s9", "enter": "cut", "image": "letter-colour.jpg", "focus": "50% 85%", "kicker": "51 years later", "main": { "text": "*Cracked*.", "at": "s9@0.15" } },
+    { "type": "film", "from": "s10", "enter": "cut", "clip": "film-road-curve.mp4", "credit": "Caltrans film, illustrative" },
+    { "type": "statement", "from": "s10@0.4", "enter": "cut", "image": "schoolbus.jpg", "focus": "50% 30%", "kicker": "The 340 cipher", "main": { "text": "\"Lots of *fun* trying to catch me\"", "at": "s10@0.45" } },
+    { "type": "film", "from": "s11", "enter": "cut", "clip": "film-fire.mp4", "credit": "Archive film, 1969 · illustrative" },
+    { "type": "statement", "from": "s11@0.5", "enter": "cut", "image": "bomb.jpg", "focus": "50% 40%", "main": { "text": "Not afraid of the !!gas chamber!!.", "at": "s11@0.55" } },
+    { "type": "photo", "from": "s12", "enter": "cut", "image": "sketch.jpg", "focus": "50% 45%", "move": "in", "fact": "The composite sketch, 1969" },
+    { "type": "statement", "from": "s12@0.65", "enter": "cut", "image": "sketch.jpg", "focus": "50% 80%", "kicker": "Arthur Leigh Allen", "main": { "text": "Died 1992. *Never charged*.", "at": "s12@0.7" } },
+    { "type": "photo", "from": "s13", "enter": "cut", "image": "z13.jpg", "focus": "50% 15%", "move": "in", "fact": "1970: \"My name is —\"" },
+    { "type": "film", "from": "s14", "enter": "cut", "clip": "film-road-b.mp4", "credit": "A California road · Caltrans film, illustrative" },
+    { "type": "portrait", "from": "s14@0.45", "enter": "fade", "image": "sketch.jpg", "focus": "50% 35%", "kicker": "The Zodiac", "date": "Still unidentified", "line": { "text": "His name, in *code*?", "at": "s14@0.55" } }
   ],
   "post": {
-    "tiktok": "",
-    "facebook": ""
+    "tiktok": "In 1969 a killer mailed a secret code to a San Francisco newspaper. It took 51 years to crack. 🔐\n\nThe Zodiac's 340 cipher beat everyone until December 2020, when three amateurs ran 650,000 keys through a computer. The FBI confirmed it. The first line: \"I hope you are having lots of fun in trying to catch me.\"\n\nBut no name. Two of his ciphers are still unsolved — one begins \"My name is…\" 👇\n\n#zodiackiller #truecrime #unsolvedmysteries #history #coldcase #mystery #historytok #zodiac",
+    "facebook": "In 1969, a killer mailed a secret code to a San Francisco newspaper. It took 51 years to crack it.\n\nHe called himself the Zodiac. In less than a year he attacked seven people around San Francisco Bay; five died. Then came the letters, signed with a crosshair, demanding to be printed on the front page. His first cipher was cracked within days by an ordinary couple in Salinas. The second — 340 symbols — beat everyone who tried for half a century.\n\nIn December 2020, three amateurs in America, Australia and Belgium ran 650,000 possible keys through a computer, and it cracked. The FBI confirmed it. The first line: \"I hope you are having lots of fun in trying to catch me.\" He wasn't afraid of the gas chamber, he wrote, because it would send him to paradise all the sooner.\n\nBut no name. The only suspect police ever named, Arthur Leigh Allen, died in 1992, never charged. Two of the Zodiac's ciphers are still unsolved — and one begins \"My name is…\" 👇\n\n#ZodiacKiller #TrueCrime #UnsolvedMysteries #History",
+    "youtube": {
+      "title": "They Cracked the Zodiac Killer's Code After 51 Years… He's Still Unknown #Shorts",
+      "description": "In 1969, a killer mailed a secret code to a San Francisco newspaper. It took 51 years to crack it.\n\nThe Zodiac Killer attacked seven people around San Francisco Bay in 1968–69 and taunted police with letters and ciphers. His 408-symbol cipher was solved within days by a couple in Salinas; his 340-symbol cipher (Z340) stayed unsolved until December 2020, when David Oranchak, Sam Blake and Jarl Van Eycke cracked it — the FBI confirmed the solution. It reveals no name. The only suspect police named, Arthur Leigh Allen, died in 1992, and two of the Zodiac's ciphers, including the one that begins \"My name is\", are still unsolved.\n\nSubscribe for more history that sounds made up.\n\nImages: Zodiac letters and the SFPD composite sketch, public domain via Wikimedia Commons. Film: Caltrans Photolog, 'Rolling Stones at Altamont' (1969) and 'Tidningstryck' (1937), public domain — illustrative. Music: Beethoven, Moonlight Sonata, public domain. Sources: Wikipedia, FBI.\n\n#Shorts #ZodiacKiller #TrueCrime #UnsolvedMysteries #History\n\nKeywords: zodiac killer, the zodiac killer, zodiac cipher, unsolved mysteries, true crime, cold case, serial killer, arthur leigh allen.",
+      "tags": ["zodiac killer", "the zodiac killer", "zodiac", "the zodiac", "zodiac cipher", "zodiac killer cipher", "z340", "zodiac code solved", "zodiac killer documentary", "the hunt for the zodiac killer", "arthur leigh allen", "serial killer", "serial killers", "true crime", "true crime documentary", "cold case", "unsolved mysteries", "unsolved mystery", "unsolved", "mystery", "crime", "san francisco", "codebreaking", "fbi", "history", "history shorts", "true story", "history explained", "weird history"]
+    },
+    "pinned": "Two Zodiac ciphers are still unsolved — do you think we'll ever read his name? 🔐👇"
   }
 }
