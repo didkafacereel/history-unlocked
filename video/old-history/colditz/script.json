@@ -1,46 +1,470 @@
 {
   "format": 2,
   "pace": "fast",
+  "mode": "channel",
   "date": "2026-11-10",
   "dateKey": "11-10",
   "slug": "colditz",
-  "title": "",
+  "title": "The Colditz Cock — the glider POWs built in a Nazi castle attic",
   "eventId": "",
-  "category": "",
-  "sources": [],
+  "category": "War",
+  "sources": [
+    "Wikipedia: Colditz Cock — a glider built by British prisoners of war at Oflag IV-C, Colditz Castle, Germany; Lieutenant Tony Rolt noticed the chapel roof line was hidden from the guards and could launch a glider across the River Mulde, about 60 m below; Bill Goldfinch and Jack Best led the work with 12 assistants (the 'apostles'), using the two-volume 'Aircraft Design' by C. H. Latimer-Needham found in the prison library; they built it in the lower attic above the chapel behind a false wall, with lookouts and an electric alarm; over thirty ribs, mostly from bed slats; wing spars from floorboards; control wires from electrical wiring in unused parts of the castle; skinned with blue-and-white checked prison sleeping bags sealed with boiled German ration millet; wingspan about 10 m (32 ft); weight 110 kg (240 lb); it was to be launched from a 20 m runway of tables by a falling bathtub full of concrete; the take-off was planned for spring 1945, but the Americans liberated the prisoners on 16 April 1945 before it flew; war correspondent Lee Carson took the only photograph of it in the attic; its fate is unknown; a full-size replica flew successfully at RAF Odiham in 2000 with Goldfinch and Best watching, and in March 2012 a radio-controlled replica launched unmanned from the same roof crossed the river and landed safely in a meadow.",
+    "Photos (public domain, Wikimedia Commons / Imperial War Museum): Colditz Castle; the glider in the attic (Lee Carson, 15 April 1945); prisoners at Oflag IV-C; the plan of Oflag IV-C; a playing card hiding an escape map; the replica",
+    "Archive film (public domain): Polygoon newsreels of early glider flights in the Netherlands (1931, 1936); US Army 'The Big Picture: Airborne to Battle' (WWII gliders) — illustrative",
+    "Music: It's a Long Way to Tipperary, public domain"
+  ],
   "music": {
-    "track": ""
+    "track": "tipperary"
   },
-  "highlight": [],
+  "highlight": [
+    "GLIDER",
+    "COLDITZ",
+    "ATTIC",
+    "BATHTUB",
+    "FLEW",
+    "ROOF",
+    "RIVER",
+    "BED",
+    "SLATS",
+    "SLEEPING",
+    "BAGS"
+  ],
+  "alert": [
+    "NAZI",
+    "SS",
+    "MASSACRE",
+    "NEVER",
+    "ESCAPE-PROOF",
+    "CONCRETE"
+  ],
   "cover": {
-    "image": "",
-    "focus": "50% 40%",
-    "date": "",
+    "image": "glider-1945.jpg",
+    "focus": "50% 50%",
+    "kicker": "IMPOSSIBLE ESCAPES",
+    "date": "COLDITZ, 1945",
+    "top": 1120,
     "lines": [
-      "",
-      ""
+      "THEY BUILT A",
+      "*GLIDER*",
+      "IN THE ATTIC"
     ]
+  },
+  "thumb": {
+    "image": "castle.jpg",
+    "focus": 0.35,
+    "zoom": 1,
+    "lines": [
+      "THEY BUILT",
+      "A GLIDER",
+      "IN A NAZI PRISON"
+    ],
+    "hi": 1,
+    "tint": [
+      90,
+      150,
+      210
+    ],
+    "kicker": "COLDITZ 1945"
   },
   "sentences": [
     {
       "id": "s1",
-      "say": "",
-      "show": "",
-      "pauseAfter": 0.45
+      "say": "In a Nazi castle prison, British officers secretly built a glider in the attic. Out of bed slats and sleeping bags.",
+      "show": "In a Nazi castle prison, British officers secretly built a glider in the attic. Out of bed slats and sleeping bags.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s2",
+      "say": "Colditz Castle. A special prison for officers who had already escaped elsewhere.",
+      "show": "Colditz Castle. A special prison for officers who had already escaped elsewhere.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "On a cliff, above a river. Escape-proof, they said.",
+      "show": "On a cliff, above a river. Escape-proof, they said.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "But one prisoner noticed the guards couldn't see the chapel roof. From there, you could fly over the river, sixty metres below.",
+      "show": "But one prisoner noticed the guards couldn't see the chapel roof. From there, you could fly over the river, 60 metres below.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s5",
+      "say": "In the prison library, they found a book on aircraft design.",
+      "show": "In the prison library, they found a book on aircraft design.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s6",
+      "say": "Behind a fake wall in the attic, with lookouts and an alarm, they started to build.",
+      "show": "Behind a fake wall in the attic, with lookouts and an alarm, they started to build.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s7",
+      "say": "Ribs from bed slats. Wing spars from floorboards. Control wires stolen from the castle's own cables.",
+      "show": "Ribs from bed slats. Wing spars from floorboards. Control wires stolen from the castle's own cables.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s8",
+      "say": "The skin, blue and white prison sleeping bags, sealed with boiled millet porridge.",
+      "show": "The skin, blue and white prison sleeping bags, sealed with boiled millet porridge.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s9",
+      "say": "Ten metres wide. And the launch? A bathtub full of concrete, dropped through the floor, to fling it off the roof.",
+      "show": "10 metres wide. And the launch? A bathtub full of concrete, dropped through the floor, to fling it off the roof.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s10",
+      "say": "By spring nineteen forty-five it was almost ready, a last resort in case the SS tried to massacre the prisoners.",
+      "show": "By spring 1945 it was almost ready, a last resort in case the SS tried to massacre the prisoners.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s11",
+      "say": "Then the Americans arrived. The glider never flew. One photo was taken, and then it vanished.",
+      "show": "Then the Americans arrived. The glider never flew. One photo was taken, and then it vanished.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s12",
+      "say": "Fifty-five years later, a replica flew, while the men who built the first one watched.",
+      "show": "55 years later, a replica flew, while the men who built the first one watched.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s13",
+      "say": "In twenty twelve, a remote-controlled copy was launched from the same roof. It crossed the river, and landed safely.",
+      "show": "In 2012, a remote-controlled copy was launched from the same roof. It crossed the river, and landed safely.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s14",
+      "say": "So it would have worked. Would you have been the first to climb in?",
+      "show": "So it would have worked. Would you have been the first to climb in?",
+      "pauseAfter": 0.5
     }
   ],
+  "cta": {
+    "story": "It would have flown.",
+    "say": "They built wings to get out. One tap gets you in. Subscribe.",
+    "pill": "TAKE OFF",
+    "note": "more true stories that sound made up"
+  },
+  "endImage": "castle.jpg",
+  "imageCredit": "Lee Carson (1945); Imperial War Museum; Wikimedia Commons (public domain)",
   "scenes": [
     {
-      "type": "title",
-      "image": "",
+      "type": "photo",
+      "note": "hook",
+      "image": "glider-1945.jpg",
       "focus": "50% 50%",
-      "date": "",
-      "year": "",
-      "place": ""
+      "move": "in",
+      "fact": "The glider in the Colditz attic, 15 April 1945"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.35",
+      "enter": "cut",
+      "clip": "film-fly.mp4",
+      "credit": "An early glider, 1936 · Polygoon newsreel, illustrative"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.7",
+      "enter": "cut",
+      "clip": "film-build.mp4",
+      "credit": "Building a glider, 1931 · Polygoon newsreel, illustrative"
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "castle.jpg",
+      "focus": "40% 40%",
+      "kicker": "Impossible escapes",
+      "date": "COLDITZ",
+      "year": "1945",
+      "place": "Oflag IV-C, Saxony"
+    },
+    {
+      "type": "photo",
+      "from": "s2@0.45",
+      "enter": "cut",
+      "image": "pows3.jpg",
+      "focus": "50% 40%",
+      "move": "in",
+      "fact": "Allied officers at Oflag IV-C, Colditz"
+    },
+    {
+      "type": "photo",
+      "from": "s2@0.75",
+      "enter": "cut",
+      "image": "castle2.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "A playing card hiding an escape map"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "painting.jpg",
+      "focus": "50% 40%",
+      "move": "up",
+      "fact": "Colditz above the River Mulde · painting, 1828"
+    },
+    {
+      "type": "statement",
+      "from": "s3@0.55",
+      "enter": "cut",
+      "image": "castle.jpg",
+      "focus": "60% 40%",
+      "main": {
+        "text": "\"!!Escape-proof!!\"",
+        "at": "s3@0.6"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s4",
+      "enter": "cut",
+      "image": "plan.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Plan of Oflag IV-C"
+    },
+    {
+      "type": "statement",
+      "from": "s4@0.6",
+      "enter": "cut",
+      "image": "castle.jpg",
+      "focus": "30% 40%",
+      "kicker": "The chapel roof",
+      "main": {
+        "text": "*60 m* down to the river.",
+        "at": "s4@0.75"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s5",
+      "enter": "cut",
+      "clip": "film-wing.mp4",
+      "credit": "A glider wing, 1936 · Polygoon newsreel, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s6",
+      "enter": "cut",
+      "image": "interior.jpg",
+      "focus": "50% 40%",
+      "kicker": "The attic",
+      "main": {
+        "text": "Behind a *fake wall*.",
+        "at": "s6@0.25"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s6@0.55",
+      "enter": "cut",
+      "clip": "film-build2.mp4",
+      "credit": "Glider builders, 1931 · Polygoon newsreel, illustrative"
+    },
+    {
+      "type": "film",
+      "from": "s7",
+      "enter": "cut",
+      "clip": "film-pilot.mp4",
+      "credit": "1931 Polygoon newsreel · illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s7@0.5",
+      "enter": "cut",
+      "image": "glider-1945.jpg",
+      "focus": "30% 50%",
+      "main": {
+        "text": "*Bed slats*. Floorboards. Stolen wire.",
+        "at": "s7@0.55"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s8",
+      "enter": "cut",
+      "image": "glider-1945.jpg",
+      "focus": "70% 50%",
+      "kicker": "The skin",
+      "main": {
+        "text": "Prison *sleeping bags*.",
+        "at": "s8@0.3"
+      }
+    },
+    {
+      "type": "number",
+      "from": "s9",
+      "enter": "cut",
+      "image": "glider-1945.jpg",
+      "focus": "50% 60%",
+      "label": "Metres, wingtip to wingtip",
+      "value": 10,
+      "start": 0,
+      "count": {
+        "from": "s9@0.02",
+        "to": "s9@0.15"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s9@0.45",
+      "enter": "cut",
+      "image": "castle.jpg",
+      "focus": "50% 30%",
+      "kicker": "The launch",
+      "main": {
+        "text": "A *bathtub* of !!concrete!!.",
+        "at": "s9@0.6"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s10",
+      "enter": "cut",
+      "clip": "film-army-men.mp4",
+      "credit": "American troops, 1944 · US Army film"
+    },
+    {
+      "type": "statement",
+      "from": "s10@0.55",
+      "enter": "cut",
+      "image": "count.jpg",
+      "focus": "50% 50%",
+      "kicker": "The last resort",
+      "main": {
+        "text": "If the !!SS!! came.",
+        "at": "s10@0.75"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s11",
+      "enter": "cut",
+      "clip": "film-army-glider.mp4",
+      "credit": "WWII gliders · US Army film, illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s11@0.5",
+      "enter": "cut",
+      "image": "glider-1945.jpg",
+      "focus": "50% 50%",
+      "move": "left",
+      "fact": "The only photo · Lee Carson, 1945"
+    },
+    {
+      "type": "photo",
+      "from": "s12",
+      "enter": "cut",
+      "image": "replica.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "A replica of the Colditz glider"
+    },
+    {
+      "type": "film",
+      "from": "s12@0.55",
+      "enter": "cut",
+      "clip": "film-fly3.mp4",
+      "credit": "A glider in flight, 1936 · Polygoon newsreel, illustrative"
+    },
+    {
+      "type": "film",
+      "from": "s13",
+      "enter": "cut",
+      "clip": "film-beach.mp4",
+      "credit": "A glider flight, 1931 · Polygoon newsreel, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s13@0.6",
+      "enter": "cut",
+      "image": "castle.jpg",
+      "focus": "50% 40%",
+      "kicker": "March 2012",
+      "main": {
+        "text": "It *flew*.",
+        "at": "s13@0.75"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s14",
+      "enter": "cut",
+      "clip": "film-fly4.mp4",
+      "credit": "1936 Polygoon newsreel · illustrative"
+    },
+    {
+      "type": "portrait",
+      "from": "s14@0.4",
+      "enter": "fade",
+      "image": "pows2.jpg",
+      "focus": "50% 60%",
+      "kicker": "Oflag IV-C",
+      "date": "Colditz, 1941–1945",
+      "line": {
+        "text": "Would you *climb in*?",
+        "at": "s14@0.5"
+      }
     }
   ],
   "post": {
-    "tiktok": "",
-    "facebook": ""
+    "tiktok": "In a Nazi castle prison, British officers secretly built a full-size glider in the attic — out of bed slats and sleeping bags. ✈️🏰\n\nWing spars from floorboards, wires stolen from the castle, a launch powered by a falling bathtub full of concrete. The Americans arrived before it flew… but in 2012 a copy launched from the same roof — and made it.\n\nWould you have climbed in? 👇\n\n#colditz #ww2 #history #escape #ww2history #prisonbreak #historytok #truestory",
+    "facebook": "In a Nazi castle prison, British officers secretly built a full-size glider in the attic — out of bed slats and sleeping bags.\n\nColditz Castle was the Germans' special prison for officers who had already escaped from somewhere else, perched on a cliff above a river. But one prisoner noticed the guards couldn't see the chapel roof — and from there you could fly over the river 60 metres below. With a book on aircraft design from the prison library, behind a fake wall in the attic, with lookouts and an electric alarm, they built it: ribs from bed slats, wing spars from floorboards, control wires stolen from the castle's own wiring, and a skin of blue-and-white prison sleeping bags sealed with boiled millet. Ten metres wide, two seats — launched by a bathtub full of concrete dropped through the floor.\n\nBy spring 1945 it was almost ready, kept as a last resort in case the SS tried to massacre the prisoners. Then the Americans arrived. It never flew; one photo was taken, and it vanished. But in 2000 a replica flew with its builders watching — and in 2012 a remote-controlled copy launched from the same roof crossed the river and landed safely.\n\nWould you have climbed in? 👇\n\n#Colditz #WW2 #History #Escape",
+    "youtube": {
+      "title": "POWs Built a Glider in a Nazi Castle Attic — and It Would Have Flown #Shorts",
+      "description": "In a Nazi castle prison, British officers secretly built a full-size glider in the attic — out of bed slats and sleeping bags.\n\nThe Colditz Cock: at Oflag IV-C, Colditz Castle, Tony Rolt spotted that the chapel roof was hidden from the guards. Bill Goldfinch, Jack Best and their 'apostles' built a two-seat glider behind a false wall — ribs from bed slats, spars from floorboards, control wires from the castle's wiring, skinned with prison sleeping bags sealed with millet — to be launched by a falling bathtub of concrete. The Americans liberated Colditz on 16 April 1945 before it flew. A replica flew in 2000, and in 2012 a radio-controlled copy launched from the same roof crossed the river and landed safely.\n\nSubscribe for more history that sounds made up.\n\nImages: Lee Carson (1945), Imperial War Museum and others, public domain via Wikimedia Commons. Film: Polygoon newsreels (1931, 1936) and US Army 'Airborne to Battle', public domain — illustrative. Music: It's a Long Way to Tipperary, public domain. Sources: Wikipedia.\n\n#Shorts #Colditz #WW2 #History #Escape\n\nKeywords: colditz, colditz castle, colditz glider, colditz cock, ww2 escape, prisoner of war, great escape, ww2 history.",
+      "tags": [
+        "colditz",
+        "colditz castle",
+        "colditz glider",
+        "colditz cock",
+        "oflag iv-c",
+        "escape from colditz",
+        "pow escape",
+        "prisoner of war",
+        "ww2 escape",
+        "great escape",
+        "glider",
+        "bill goldfinch",
+        "jack best",
+        "tony rolt",
+        "prison break",
+        "prison escape",
+        "world war 2",
+        "ww2",
+        "ww2 history",
+        "ww2 stories",
+        "ww2 tales",
+        "military history",
+        "history",
+        "history shorts",
+        "true story",
+        "history documentary",
+        "history explained",
+        "weird history",
+        "history facts"
+      ]
+    },
+    "pinned": "A glider made of bed slats, launched by a bathtub of concrete — would YOU have been the pilot? ✈️👇"
   }
 }

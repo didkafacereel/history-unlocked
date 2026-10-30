@@ -14,6 +14,6 @@
 | 7 | lindbergh | Отвличането на бебето Линдбърг (1932) | Lindbergh kidnapping | ✅ готов (ready/lindbergh) |
 | 8 | papillon | Papillon / Дяволския остров — истина или лъжа | Henri Charrière | ✅ готов (ready/papillon) |
 | 9 | roanoke | Изчезналата колония Роанок, „CROATOAN“ | Roanoke Colony | ✅ готов (ready/roanoke) |
-| 10 | colditz | Планерът от Колдиц (1944) | Colditz Cock | — |
+| 10 | colditz | Планерът от Колдиц (1944) | Colditz Cock | ✅ готов (ready/colditz) |
 
 Предложен ред за пускане: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 → 9 → 10 (сериите се редуват).
