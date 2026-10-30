@@ -1,0 +1,95 @@
+{
+  "total": 90.377,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "In 1590, a governor came back to his colony in America. Everyone was gone. The only clue was one word, carved into a post.",
+      "start": 0.4,
+      "end": 9.872
+    },
+    {
+      "id": "s2",
+      "show": "CROATOAN.",
+      "start": 10.272,
+      "end": 11.339
+    },
+    {
+      "id": "s3",
+      "show": "The Roanoke Colony, sent by Sir Walter Raleigh.",
+      "start": 11.939,
+      "end": 15.139
+    },
+    {
+      "id": "s4",
+      "show": "In 1587, about 115 men, women and children landed on Roanoke Island.",
+      "start": 15.539,
+      "end": 22.472
+    },
+    {
+      "id": "s5",
+      "show": "Weeks later, the governor's granddaughter was born. Virginia Dare, the first English child born in the New World.",
+      "start": 22.872,
+      "end": 30.147
+    },
+    {
+      "id": "s6",
+      "show": "The colonists sent the governor, John White, back to England for supplies.",
+      "start": 30.547,
+      "end": 35.219
+    },
+    {
+      "id": "s7",
+      "show": "Then the Spanish Armada came. Every English ship was kept at home.",
+      "start": 35.569,
+      "end": 39.665
+    },
+    {
+      "id": "s8",
+      "show": "It took White three years to get back. He landed on his granddaughter's third birthday.",
+      "start": 40.065,
+      "end": 45.035
+    },
+    {
+      "id": "s9",
+      "show": "The houses were taken apart. His chests were dug up and looted. The boats were gone. And every single person.",
+      "start": 45.435,
+      "end": 52.625
+    },
+    {
+      "id": "s10",
+      "show": "They had agreed. If you leave, carve where you went. If you're in danger, carve a cross. There was no cross. Just CROATOAN.",
+      "start": 53.025,
+      "end": 60.811
+    },
+    {
+      "id": "s11",
+      "show": "Croatoan was a nearby island of friendly natives. But a storm snapped the anchor cable, and White had to sail away.",
+      "start": 61.211,
+      "end": 69.147
+    },
+    {
+      "id": "s12",
+      "show": "He never saw his family again.",
+      "start": 69.547,
+      "end": 71.553
+    },
+    {
+      "id": "s13",
+      "show": "Today, on Hatteras Island, the old Croatoan, archaeologists have found English sword and gun parts in a Native village.",
+      "start": 71.953,
+      "end": 80.315
+    },
+    {
+      "id": "s14",
+      "show": "Did they simply join the tribe? Or did that word mean something else? Where did they go?",
+      "start": 80.715,
+      "end": 86.155
+    },
+    {
+      "id": "end2",
+      "show": "Croatoan was their clue. Subscribe is yours.",
+      "start": 86.655,
+      "end": 89.877
+    }
+  ]
+}

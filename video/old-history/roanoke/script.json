@@ -1,46 +1,456 @@
 {
   "format": 2,
   "pace": "fast",
+  "mode": "channel",
   "date": "2026-11-09",
   "dateKey": "11-09",
   "slug": "roanoke",
-  "title": "",
+  "title": "The Lost Colony of Roanoke — 115 people gone, one word left behind",
   "eventId": "",
-  "category": "",
-  "sources": [],
+  "category": "Mystery",
+  "sources": [
+    "Wikipedia: Roanoke Colony — Sir Walter Raleigh's attempts to found the first permanent English settlement in North America; in 1587 about 115 colonists, including Governor John White's pregnant daughter Eleanor and her husband Ananias Dare, settled on Roanoke Island (present-day North Carolina); on 18 August 1587 Virginia Dare was born; the colonists persuaded White to return to England for help; the Spanish Armada crisis kept every able ship in England, and White could not return until 1590; he landed on 18 August 1590, his granddaughter's third birthday, finding 'CRO' carved on a tree and 'CROATOAN' on a palisade post; the houses had been dismantled, his own trunks dug up and looted, and the boats were gone; the colonists had agreed to carve their destination, with a cross pattée as a sign of distress — there was none; White believed they had gone to Croatoan Island, but the Hopewell's anchor cable snapped and the search was abandoned; he never found them; theories include assimilation with the Croatan (ancestors of the Hatteras), and Mark Horton's excavation found European artifacts, including part of a sword and part of a gun, at a Native village site on Hatteras Island; tree rings show 1587 was the worst growing season in 800 years.",
+    "Images (public domain / CC0, Wikimedia Commons): John White's watercolours and maps (1585) and Theodor de Bry's engravings (1590–91); Nicholas Hilliard's miniature of Sir Walter Raleigh (c. 1585); 'The baptism of Virginia Dare' (1876); illustrations of the CROATOAN discovery (1890, 1906); the Fort Raleigh reconstruction and the 2009 excavation",
+    "Film (public domain): Louis Lumière, 'Barque sortant du port' (1897); USCGC Eagle under sail (US Coast Guard, 2026); NOAA, shipwrecks off the North Carolina coast — illustrative",
+    "Music: Mussorgsky, The Old Castle (Pictures at an Exhibition), public domain"
+  ],
   "music": {
-    "track": ""
+    "track": "mussorgsky-old-castle"
   },
-  "highlight": [],
+  "highlight": [
+    "CROATOAN",
+    "ROANOKE",
+    "VIRGINIA",
+    "DARE",
+    "WHITE",
+    "RALEIGH",
+    "HATTERAS",
+    "CROSS",
+    "CRO"
+  ],
+  "alert": [
+    "GONE",
+    "ARMADA",
+    "LOOTED",
+    "SNAPPED",
+    "NEVER",
+    "VANISHED"
+  ],
   "cover": {
-    "image": "",
-    "focus": "50% 40%",
-    "date": "",
+    "image": "croatoan-1890.jpg",
+    "focus": "50% 25%",
+    "kicker": "THE LOST COLONY",
+    "date": "1587 – 1590",
+    "top": 1120,
     "lines": [
-      "",
-      ""
+      "115 VANISHED",
+      "ONE WORD",
+      "*LEFT BEHIND*"
     ]
+  },
+  "thumb": {
+    "image": "croatoan-1890.jpg",
+    "focus": 0.25,
+    "zoom": 1,
+    "lines": [
+      "115 VANISHED",
+      "ONE WORD",
+      "LEFT BEHIND"
+    ],
+    "hi": 1,
+    "tint": [
+      170,
+      140,
+      80
+    ],
+    "kicker": "CROATOAN"
   },
   "sentences": [
     {
       "id": "s1",
-      "say": "",
-      "show": "",
-      "pauseAfter": 0.45
+      "say": "In fifteen ninety, a governor came back to his colony in America. Everyone was gone. The only clue was one word, carved into a post.",
+      "show": "In 1590, a governor came back to his colony in America. Everyone was gone. The only clue was one word, carved into a post.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s2",
+      "say": "Croatoan.",
+      "show": "CROATOAN.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s3",
+      "say": "The Roanoke Colony, sent by Sir Walter Raleigh.",
+      "show": "The Roanoke Colony, sent by Sir Walter Raleigh.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "In fifteen eighty-seven, about a hundred and fifteen men, women and children landed on Roanoke Island.",
+      "show": "In 1587, about 115 men, women and children landed on Roanoke Island.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s5",
+      "say": "Weeks later, the governor's granddaughter was born. Virginia Dare, the first English child born in the New World.",
+      "show": "Weeks later, the governor's granddaughter was born. Virginia Dare, the first English child born in the New World.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s6",
+      "say": "The colonists sent the governor, John White, back to England for supplies.",
+      "show": "The colonists sent the governor, John White, back to England for supplies.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s7",
+      "say": "Then the Spanish Armada came. Every English ship was kept at home.",
+      "show": "Then the Spanish Armada came. Every English ship was kept at home.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s8",
+      "say": "It took White three years to get back. He landed on his granddaughter's third birthday.",
+      "show": "It took White three years to get back. He landed on his granddaughter's third birthday.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s9",
+      "say": "The houses were taken apart. His chests were dug up and looted. The boats were gone. And every single person.",
+      "show": "The houses were taken apart. His chests were dug up and looted. The boats were gone. And every single person.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s10",
+      "say": "They had agreed. If you leave, carve where you went. If you're in danger, carve a cross. There was no cross. Just Croatoan.",
+      "show": "They had agreed. If you leave, carve where you went. If you're in danger, carve a cross. There was no cross. Just CROATOAN.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s11",
+      "say": "Croatoan was a nearby island of friendly natives. But a storm snapped the anchor cable, and White had to sail away.",
+      "show": "Croatoan was a nearby island of friendly natives. But a storm snapped the anchor cable, and White had to sail away.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s12",
+      "say": "He never saw his family again.",
+      "show": "He never saw his family again.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s13",
+      "say": "Today, on Hatteras Island, the old Croatoan, archaeologists have found English sword and gun parts in a Native village.",
+      "show": "Today, on Hatteras Island, the old Croatoan, archaeologists have found English sword and gun parts in a Native village.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s14",
+      "say": "Did they simply join the tribe? Or did that word mean something else? Where did they go?",
+      "show": "Did they simply join the tribe? Or did that word mean something else? Where did they go?",
+      "pauseAfter": 0.5
     }
   ],
+  "cta": {
+    "story": "They left one word behind.",
+    "say": "Croatoan was their clue. Subscribe is yours.",
+    "pill": "CLUE",
+    "note": "more true stories that sound made up"
+  },
+  "endImage": "debry.jpg",
+  "imageCredit": "John White and Theodor de Bry (1585–1591); Nicholas Hilliard; Wikimedia Commons (public domain / CC0)",
   "scenes": [
     {
+      "type": "photo",
+      "note": "hook",
+      "image": "croatoan-1890.jpg",
+      "focus": "50% 25%",
+      "move": "in",
+      "fact": "Finding \"CRO\" on a tree · illustration, 1890"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.4",
+      "enter": "cut",
+      "clip": "film-row.mp4",
+      "credit": "A landing party · Lumière film, 1897, illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.75",
+      "enter": "cut",
+      "image": "croatoan-1906.jpg",
+      "focus": "40% 30%",
+      "move": "in",
+      "fact": "Illustration, 1906"
+    },
+    {
+      "type": "statement",
+      "from": "s2",
+      "enter": "cut",
+      "image": "croatoan-1890.jpg",
+      "focus": "50% 20%",
+      "kicker": "Carved into a post",
+      "main": {
+        "text": "*CROATOAN*",
+        "at": "s2@0.1"
+      }
+    },
+    {
       "type": "title",
-      "image": "",
+      "from": "s3",
+      "enter": "cut",
+      "image": "debry.jpg",
       "focus": "50% 50%",
-      "date": "",
-      "year": "",
-      "place": ""
+      "kicker": "Unsolved",
+      "date": "THE LOST COLONY",
+      "year": "1587",
+      "place": "Roanoke Island"
+    },
+    {
+      "type": "photo",
+      "from": "s3@0.6",
+      "enter": "cut",
+      "image": "raleigh.jpg",
+      "focus": "50% 35%",
+      "move": "in",
+      "fact": "Sir Walter Raleigh, c. 1585 · Nicholas Hilliard"
+    },
+    {
+      "type": "film",
+      "from": "s4",
+      "enter": "cut",
+      "clip": "film-masts.mp4",
+      "credit": "A tall ship · illustrative"
+    },
+    {
+      "type": "number",
+      "from": "s4@0.45",
+      "enter": "cut",
+      "image": "arrival.jpg",
+      "focus": "50% 50%",
+      "label": "Men, women and children",
+      "value": 115,
+      "start": 0,
+      "count": {
+        "from": "s4@0.48",
+        "to": "s4@0.75"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s5",
+      "enter": "cut",
+      "image": "baptism.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The baptism of Virginia Dare · engraving, 1876"
+    },
+    {
+      "type": "statement",
+      "from": "s5@0.6",
+      "enter": "cut",
+      "image": "baptism.jpg",
+      "focus": "30% 50%",
+      "kicker": "18 August 1587",
+      "main": {
+        "text": "*Virginia Dare*.",
+        "at": "s5@0.65"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s6",
+      "enter": "cut",
+      "clip": "film-sail.mp4",
+      "credit": "A ship under sail · illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s6@0.5",
+      "enter": "cut",
+      "image": "map1584.jpg",
+      "focus": "50% 40%",
+      "move": "up",
+      "fact": "John White's map of the coast, 1585"
+    },
+    {
+      "type": "statement",
+      "from": "s7",
+      "enter": "cut",
+      "image": "debry.jpg",
+      "focus": "70% 50%",
+      "kicker": "1588",
+      "main": {
+        "text": "The !!Armada!!.",
+        "at": "s7@0.25"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s8",
+      "enter": "cut",
+      "clip": "film-row2.mp4",
+      "credit": "Rowing ashore · Lumière film, 1897, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s8@0.55",
+      "enter": "cut",
+      "image": "village.jpg",
+      "focus": "50% 40%",
+      "kicker": "18 August 1590",
+      "main": {
+        "text": "*Three years* later.",
+        "at": "s8@0.6"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s9",
+      "enter": "cut",
+      "image": "fort.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The Roanoke fort · artist's reconstruction"
+    },
+    {
+      "type": "statement",
+      "from": "s9@0.7",
+      "enter": "cut",
+      "image": "fort.jpg",
+      "focus": "30% 50%",
+      "main": {
+        "text": "Every person — !!gone!!.",
+        "at": "s9@0.8"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s10",
+      "enter": "cut",
+      "image": "croatoan-1906.jpg",
+      "focus": "40% 25%",
+      "move": "in",
+      "fact": "\"CRO\" carved on a tree · illustration, 1906"
+    },
+    {
+      "type": "statement",
+      "from": "s10@0.55",
+      "enter": "cut",
+      "image": "croatoan-1890.jpg",
+      "focus": "50% 60%",
+      "kicker": "The secret signal",
+      "main": {
+        "text": "No *cross*.",
+        "at": "s10@0.6"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s11",
+      "enter": "cut",
+      "clip": "film-rowfar.mp4",
+      "credit": "Lumière film, 1897 · illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s11@0.6",
+      "enter": "cut",
+      "image": "arrival.jpg",
+      "focus": "60% 50%",
+      "main": {
+        "text": "The anchor cable !!snapped!!.",
+        "at": "s11@0.65"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s12",
+      "enter": "cut",
+      "image": "baptism.jpg",
+      "focus": "60% 50%",
+      "main": {
+        "text": "!!Never!! seen again.",
+        "at": "s12@0.4"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s13",
+      "enter": "cut",
+      "image": "dig.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Excavation at Fort Raleigh, 2009"
+    },
+    {
+      "type": "photo",
+      "from": "s13@0.55",
+      "enter": "cut",
+      "image": "village.jpg",
+      "focus": "50% 50%",
+      "move": "up",
+      "fact": "A Native village, painted by John White, 1585"
+    },
+    {
+      "type": "film",
+      "from": "s14",
+      "enter": "cut",
+      "clip": "film-wreck.mp4",
+      "credit": "The seabed off North Carolina · NOAA, illustrative"
+    },
+    {
+      "type": "portrait",
+      "from": "s14@0.45",
+      "enter": "fade",
+      "image": "chief.jpg",
+      "focus": "50% 25%",
+      "kicker": "Roanoke",
+      "date": "1587 – ?",
+      "line": {
+        "text": "Where did they *go*?",
+        "at": "s14@0.55"
+      }
     }
   ],
   "post": {
-    "tiktok": "",
-    "facebook": ""
+    "tiktok": "In 1590 a governor came back to his colony in America. All 115 people were gone. The only clue: one word carved into a post — CROATOAN. 🌲\n\nNo bodies, no boats, no cross (their secret danger signal). Then a storm snapped his anchor cable and he never saw his family — or his granddaughter Virginia Dare — again.\n\nWhere did they go? 👇\n\n#roanoke #lostcolony #croatoan #history #unsolvedmysteries #mystery #historytok #truestory",
+    "facebook": "In 1590, a governor came back to his colony in America. All 115 people were gone. The only clue was one word, carved into a post: CROATOAN.\n\nThe Roanoke Colony was England's first real try at settling America, sent by Sir Walter Raleigh. In 1587 about 115 men, women and children landed on Roanoke Island in today's North Carolina, and weeks later Governor John White's granddaughter Virginia Dare was born — the first English child born in the New World. The colonists sent White back to England for supplies. Then the Spanish Armada came, and every English ship was kept at home.\n\nIt took White three years to return. He landed on his granddaughter's third birthday. The houses were taken apart, his chests dug up and looted, the boats gone — and every single person with them. They had agreed to carve their destination, and a cross if in danger. There was no cross: just CRO on a tree and CROATOAN on a post. Then a storm snapped the ship's anchor cable and White had to sail away. He never saw his family again.\n\nToday archaeologists on Hatteras Island — the old Croatoan — have found English sword and gun parts in a Native village. Did they simply join the tribe? 👇\n\n#Roanoke #LostColony #Croatoan #History",
+    "youtube": {
+      "title": "115 People Vanished — and Left One Word Behind: CROATOAN #Shorts",
+      "description": "In 1590, a governor came back to his colony in America. All 115 people were gone. The only clue was one word, carved into a post: CROATOAN.\n\nThe Lost Colony of Roanoke: in 1587 Sir Walter Raleigh's colonists settled Roanoke Island, where Virginia Dare became the first English child born in the New World. Governor John White sailed home for supplies, but the Spanish Armada kept him in England until 1590. He returned to find the settlement dismantled, his belongings looted and the word CROATOAN carved on a post — but no cross, the agreed sign of danger. A snapped anchor cable ended his search. Excavations on Hatteras Island (the old Croatoan) have since found English sword and gun parts in a Native village.\n\nSubscribe for more history that sounds made up.\n\nImages: John White's watercolours, Theodor de Bry's engravings and later illustrations, public domain / CC0 via Wikimedia Commons. Film: Lumière (1897), US Coast Guard and NOAA footage, public domain — illustrative. Music: Mussorgsky, The Old Castle, public domain. Sources: Wikipedia.\n\n#Shorts #Roanoke #LostColony #History #UnsolvedMysteries\n\nKeywords: roanoke colony, lost colony of roanoke, croatoan, roanoke mystery, virginia dare, unsolved mysteries, american history.",
+      "tags": [
+        "roanoke colony",
+        "lost colony",
+        "lost colony of roanoke",
+        "the lost colony",
+        "croatoan",
+        "roanoke mystery",
+        "roanoke island",
+        "virginia dare",
+        "john white",
+        "walter raleigh",
+        "hatteras island",
+        "outer banks",
+        "north carolina history",
+        "colonial america",
+        "1587",
+        "unsolved mysteries",
+        "unsolved mystery",
+        "mystery",
+        "disappearance",
+        "vanished",
+        "american history",
+        "history",
+        "history shorts",
+        "true story",
+        "history documentary",
+        "history explained",
+        "weird history",
+        "history facts"
+      ]
+    },
+    "pinned": "Joined the Croatoan, killed, or lost at sea — what do YOU think happened to the 115 colonists? 🌲👇"
   }
 }
