@@ -1,46 +1,482 @@
 {
   "format": 2,
   "pace": "fast",
+  "mode": "channel",
   "date": "2026-11-08",
   "dateKey": "11-08",
   "slug": "papillon",
-  "title": "",
+  "title": "Papillon — the most famous escape ever written, and what the French files say",
   "eventId": "",
-  "category": "",
-  "sources": [],
+  "category": "Mystery",
+  "sources": [
+    "Wikipedia: Henri Charrière — a Paris underworld figure nicknamed 'Papillon' after a butterfly tattoo on his chest; convicted in 1931 of murdering a pimp, which he always denied, and sentenced to life with hard labour; transported in 1933 to the penal colony at Saint-Laurent-du-Maroni, French Guiana; his 1969 book Papillon describes repeated escapes, life with an indigenous tribe in Colombia, solitary confinement, imprisonment on Devil's Island and a final escape in 1941 on a bag of coconuts riding the tide; he reached Venezuela, was freed in 1944–45, became a citizen and opened restaurants in Caracas and Maracaibo; the book sold over 1.5 million copies in France and was filmed in 1973 with Steve McQueen; he called it '75 percent true'; French records show he worked as a nursing assistant at the André-Bouron colonial hospital, where returning escapees told him their stories, and say he never served time on Devil's Island; Devil's Island has no towering cliffs but slopes gently into the sea; critics say the rescue of a guard's daughter from sharks was done by another convict, Alfred Steffen, who lost both legs; a French justice ministry report said the book 'should be divided by at least 10 to get near the truth'; in 2005, 104-year-old Charles Brunier, who also had a butterfly tattoo and was in the colony at the same time, claimed to be the real Papillon; Charrière was pardoned in 1970 and died in 1973.",
+    "Photos (public domain / CC0, Wikimedia Commons, Gallica/BnF): Henri Charrière (1971) and at his home in Caracas (1971); Devil's Island (1908) and the Îles du Salut (postcard); the penal colony at Saint-Laurent-du-Maroni; the convicts' hospital (1907); Le Petit Journal (1894); Charles Brunier",
+    "Film (public domain / CC0): US Virgin Islands coast, ocean surface waves, crashing waves (San Juan Islands), a thresher shark — illustrative, not French Guiana",
+    "Music: Satie, Gymnopédie No. 1, public domain"
+  ],
   "music": {
-    "track": ""
+    "track": "satie-gymnopedie-1"
   },
-  "highlight": [],
+  "highlight": [
+    "PAPILLON",
+    "DEVIL'S",
+    "ISLAND",
+    "COCONUTS",
+    "VENEZUELA",
+    "HOLLYWOOD",
+    "BRUNIER",
+    "TRUTH",
+    "BUTTERFLY",
+    "TEN"
+  ],
+  "alert": [
+    "NEVER",
+    "MURDER",
+    "LIFE",
+    "SHARKS",
+    "LEGS",
+    "SOLITARY"
+  ],
   "cover": {
-    "image": "",
-    "focus": "50% 40%",
-    "date": "",
+    "image": "charriere.jpg",
+    "focus": "50% 30%",
+    "kicker": "PAPILLON",
+    "date": "TRUE STORY?",
+    "top": 1120,
     "lines": [
-      "",
-      ""
+      "THE GREATEST ESCAPE",
+      "*NEVER HAPPENED*",
+      "?"
     ]
+  },
+  "thumb": {
+    "image": "charriere.jpg",
+    "focus": 0.3,
+    "zoom": 1,
+    "lines": [
+      "PAPILLON",
+      "WAS A",
+      "LIE?"
+    ],
+    "hi": 2,
+    "tint": [
+      60,
+      170,
+      160
+    ],
+    "kicker": "DEVIL'S ISLAND"
   },
   "sentences": [
     {
       "id": "s1",
-      "say": "",
-      "show": "",
-      "pauseAfter": 0.45
+      "say": "Papillon. The most famous prison escape ever written. A man who floated off Devil's Island on a sack of coconuts.",
+      "show": "Papillon. The most famous prison escape ever written. A man who floated off Devil's Island on a sack of coconuts.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s2",
+      "say": "But French records say he was never on Devil's Island at all.",
+      "show": "But French records say he was never on Devil's Island at all.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "Henri Charrière, a Paris crook nicknamed Papillon, the butterfly. In nineteen thirty-one he got life for murder, and swore he was innocent.",
+      "show": "Henri Charrière, a Paris crook nicknamed Papillon, the butterfly. In 1931 he got life for murder, and swore he was innocent.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "He was shipped to the penal colony of French Guiana.",
+      "show": "He was shipped to the penal colony of French Guiana.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s5",
+      "say": "In his book, he escapes again and again, survives solitary, and ends up on Devil's Island, the prison nobody leaves.",
+      "show": "In his book, he escapes again and again, survives solitary, and ends up on Devil's Island, the prison nobody leaves.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s6",
+      "say": "He studies the waves, then jumps into the sea on a sack of coconuts, and rides the tide away.",
+      "show": "He studies the waves, then jumps into the sea on a sack of coconuts, and rides the tide away.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s7",
+      "say": "He reaches Venezuela, goes free, and opens restaurants in Caracas.",
+      "show": "He reaches Venezuela, goes free, and opens restaurants in Caracas.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s8",
+      "say": "The book sold a million and a half copies in France, and became a Hollywood movie.",
+      "show": "The book sold 1.5 million copies in France, and became a Hollywood movie.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s9",
+      "say": "But the prison files say he worked in the colony hospital, where escaped convicts told him their stories.",
+      "show": "But the prison files say he worked in the colony hospital, where escaped convicts told him their stories.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s10",
+      "say": "And those famous cliffs on Devil's Island? The island slopes gently into the sea.",
+      "show": "And those famous cliffs on Devil's Island? The island slopes gently into the sea.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s11",
+      "say": "Even his heroic rescue of a girl from sharks, critics say another convict did it, and lost both legs.",
+      "show": "Even his heroic rescue of a girl from sharks, critics say another convict did it, and lost both legs.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s12",
+      "say": "A French ministry said divide his story by ten to get near the truth. Charrière said it was seventy-five percent true.",
+      "show": "A French ministry said divide his story by ten to get near the truth. Charrière said it was 75 percent true.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s13",
+      "say": "In two thousand five, a man of a hundred and four said he was the real Papillon. With a butterfly tattoo too.",
+      "show": "In 2005, a man of 104 said he was the real Papillon. With a butterfly tattoo too.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s14",
+      "say": "So whose escape was it?",
+      "show": "So whose escape was it?",
+      "pauseAfter": 0.5
     }
   ],
+  "cta": {
+    "story": "Some legends are borrowed.",
+    "say": "Butterflies fly away. Don't. Stay, and subscribe.",
+    "pill": "STAY",
+    "note": "more true stories that sound made up"
+  },
+  "endImage": "devils-1908.jpg",
+  "imageCredit": "Wikimedia Commons; Gallica / BnF (public domain / CC0)",
   "scenes": [
     {
-      "type": "title",
-      "image": "",
+      "type": "photo",
+      "note": "hook",
+      "image": "charriere.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "Henri Charrière — \"Papillon\", 1971"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.4",
+      "enter": "cut",
+      "clip": "film-coast.mp4",
+      "credit": "A tropical coast · illustrative"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.72",
+      "enter": "cut",
+      "clip": "film-ocean.mp4",
+      "credit": "Open sea · illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s2",
+      "enter": "cut",
+      "image": "devils-1908.jpg",
       "focus": "50% 50%",
-      "date": "",
-      "year": "",
-      "place": ""
+      "move": "in",
+      "fact": "Devil's Island, 1908"
+    },
+    {
+      "type": "statement",
+      "from": "s2@0.55",
+      "enter": "cut",
+      "image": "salut.jpg",
+      "focus": "40% 50%",
+      "kicker": "French records",
+      "main": {
+        "text": "!!Never!! there?",
+        "at": "s2@0.65"
+      }
+    },
+    {
+      "type": "title",
+      "from": "s3",
+      "enter": "cut",
+      "image": "barracks.jpg",
+      "focus": "50% 50%",
+      "kicker": "Impossible escapes?",
+      "date": "PAPILLON",
+      "year": "1931",
+      "place": "French Guiana"
+    },
+    {
+      "type": "photo",
+      "from": "s3@0.3",
+      "enter": "cut",
+      "image": "charriere.jpg",
+      "focus": "50% 40%",
+      "move": "in",
+      "fact": "Henri Charrière"
+    },
+    {
+      "type": "statement",
+      "from": "s3@0.72",
+      "enter": "cut",
+      "image": "charriere.jpg",
+      "focus": "50% 80%",
+      "kicker": "Paris, 1931",
+      "main": {
+        "text": "Life. \"*Innocent*.\"",
+        "at": "s3@0.8"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s4",
+      "enter": "cut",
+      "image": "revolt.jpg",
+      "focus": "50% 55%",
+      "move": "in",
+      "fact": "Convicts shipped to Guiana · Le Petit Journal, 1894"
+    },
+    {
+      "type": "photo",
+      "from": "s4@0.55",
+      "enter": "cut",
+      "image": "barracks.jpg",
+      "focus": "50% 50%",
+      "move": "left",
+      "fact": "The penal colony at Saint-Laurent-du-Maroni"
+    },
+    {
+      "type": "film",
+      "from": "s5",
+      "enter": "cut",
+      "clip": "film-walls.mp4",
+      "credit": "Stone walls · illustrative"
+    },
+    {
+      "type": "film",
+      "from": "s5@0.35",
+      "enter": "cut",
+      "clip": "film-tower.mp4",
+      "credit": "Illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s5@0.68",
+      "enter": "cut",
+      "image": "salut.jpg",
+      "focus": "30% 50%",
+      "move": "in",
+      "fact": "Îles du Salut — Devil's Island, old postcard"
+    },
+    {
+      "type": "film",
+      "from": "s6",
+      "enter": "cut",
+      "clip": "film-crash.mp4",
+      "credit": "Waves on rocks · illustrative"
+    },
+    {
+      "type": "film",
+      "from": "s6@0.5",
+      "enter": "cut",
+      "clip": "film-storm.mp4",
+      "credit": "Rough sea · illustrative"
+    },
+    {
+      "type": "film",
+      "from": "s7",
+      "enter": "cut",
+      "clip": "film-ocean2.mp4",
+      "credit": "Open sea · illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s7@0.5",
+      "enter": "cut",
+      "image": "caracas.jpg",
+      "focus": "60% 40%",
+      "move": "in",
+      "fact": "Charrière at home in Caracas, 1971"
+    },
+    {
+      "type": "number",
+      "from": "s8",
+      "enter": "cut",
+      "image": "caracas.jpg",
+      "focus": "50% 50%",
+      "label": "Copies sold in France",
+      "value": 1500000,
+      "start": 0,
+      "suffix": "+",
+      "count": {
+        "from": "s8@0.05",
+        "to": "s8@0.45"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s8@0.6",
+      "enter": "cut",
+      "image": "devils-1926b.jpg",
+      "focus": "50% 50%",
+      "kicker": "1973",
+      "main": {
+        "text": "Then *Hollywood*.",
+        "at": "s8@0.65"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s9",
+      "enter": "cut",
+      "image": "hospital.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The convicts' hospital, Saint-Laurent-du-Maroni, 1907"
+    },
+    {
+      "type": "statement",
+      "from": "s9@0.6",
+      "enter": "cut",
+      "image": "hospital.jpg",
+      "focus": "50% 80%",
+      "kicker": "The prison files",
+      "main": {
+        "text": "He *listened*.",
+        "at": "s9@0.7"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s10",
+      "enter": "cut",
+      "clip": "film-palms.mp4",
+      "credit": "A tropical shore · illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s10@0.5",
+      "enter": "cut",
+      "image": "devils-1908.jpg",
+      "focus": "60% 50%",
+      "kicker": "Devil's Island",
+      "main": {
+        "text": "No *cliffs*.",
+        "at": "s10@0.6"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s11",
+      "enter": "cut",
+      "clip": "film-shark.mp4",
+      "credit": "A shark · illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s11@0.6",
+      "enter": "cut",
+      "image": "port.jpg",
+      "focus": "50% 50%",
+      "main": {
+        "text": "Another man's !!legs!!.",
+        "at": "s11@0.7"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s12",
+      "enter": "cut",
+      "image": "charriere.jpg",
+      "focus": "50% 60%",
+      "kicker": "French justice ministry",
+      "main": {
+        "text": "*Divide by ten*.",
+        "at": "s12@0.2"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s12@0.6",
+      "enter": "cut",
+      "image": "caracas.jpg",
+      "focus": "60% 40%",
+      "kicker": "Charrière",
+      "main": {
+        "text": "\"*75%* true.\"",
+        "at": "s12@0.7"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s13",
+      "enter": "cut",
+      "image": "brunier.jpg",
+      "focus": "50% 40%",
+      "move": "in",
+      "fact": "Charles Brunier, the other \"Papillon\""
+    },
+    {
+      "type": "portrait",
+      "from": "s14",
+      "enter": "fade",
+      "image": "charriere.jpg",
+      "focus": "50% 30%",
+      "kicker": "Henri Charrière",
+      "date": "Pardoned 1970",
+      "line": {
+        "text": "Whose *escape*?",
+        "at": "s14@0.3"
+      }
     }
   ],
   "post": {
-    "tiktok": "",
-    "facebook": ""
+    "tiktok": "Papillon: the most famous prison escape ever written — a man floating away from Devil's Island on a sack of coconuts. 🦋🥥\n\nBut French records say Henri Charrière was never on Devil's Island at all. He worked in the colony hospital, listening to other convicts' stories. A ministry report said: divide his book by ten to get near the truth. And in 2005, a 104-year-old man claimed HE was the real Papillon.\n\nWhose escape was it? 👇\n\n#papillon #history #devilsisland #prisonbreak #truestory #historytok #mystery #escape",
+    "facebook": "Papillon — the most famous prison escape ever written: a man who floated away from Devil's Island on a sack of coconuts. But French records say he was never on Devil's Island at all.\n\nHenri Charrière, a Paris crook nicknamed Papillon after the butterfly tattooed on his chest, got life for murder in 1931 and always said he was innocent. He was shipped to the penal colony of French Guiana. In his book he escapes again and again, lives with a tribe in Colombia, survives solitary, ends up on Devil's Island and finally rides the tide away on a sack of coconuts, reaching Venezuela. The book sold over 1.5 million copies in France and became a Hollywood film with Steve McQueen.\n\nBut the prison files say he worked in the colony hospital, where escaped convicts told him their stories. Devil's Island has no famous cliffs — it slopes gently into the sea. Critics say even his rescue of a girl from sharks was another convict's deed. A French ministry report said to divide his story by ten to get near the truth; Charrière said it was 75 percent true. And in 2005, 104-year-old Charles Brunier said he was the real Papillon — butterfly tattoo and all.\n\nSo whose escape was it? 👇\n\n#Papillon #History #DevilsIsland #PrisonBreak",
+    "youtube": {
+      "title": "Papillon's Famous Escape Was a Lie? What the French Files Say #Shorts",
+      "description": "Papillon — the most famous prison escape ever written. But French records say Henri Charrière was never on Devil's Island at all.\n\nCharrière, nicknamed Papillon after his butterfly tattoo, was sentenced to life in 1931 and sent to the penal colony of French Guiana. His 1969 bestseller (and the 1973 film with Steve McQueen) describes escapes, solitary confinement and a final getaway from Devil's Island on a sack of coconuts. French records tell another story: he worked as a nursing assistant in the colony hospital, hearing other convicts' tales, and never served on Devil's Island. A ministry report said his book should be 'divided by ten'; he called it 75% true. In 2005, 104-year-old Charles Brunier claimed to be the real Papillon.\n\nSubscribe for more history that sounds made up.\n\nImages: public domain / CC0 via Wikimedia Commons and Gallica (BnF). Film: public domain / CC0 coast and ocean footage — illustrative, not French Guiana. Music: Satie, Gymnopédie No. 1, public domain. Sources: Wikipedia.\n\n#Shorts #Papillon #History #DevilsIsland #PrisonBreak\n\nKeywords: papillon, papillon true story, henri charriere, devil's island, prison escape, prison break, french guiana penal colony, steve mcqueen papillon.",
+      "tags": [
+        "papillon",
+        "papillon true story",
+        "papillon real story",
+        "henri charriere",
+        "henri charrière",
+        "devil's island",
+        "devils island escape",
+        "french guiana",
+        "penal colony",
+        "bagne",
+        "charles brunier",
+        "steve mcqueen papillon",
+        "papillon 1973",
+        "papillon book",
+        "prison escape",
+        "prison break",
+        "prison escapes",
+        "escape",
+        "true story or lie",
+        "myth vs reality",
+        "unsolved mysteries",
+        "mystery",
+        "history",
+        "history shorts",
+        "true story",
+        "history documentary",
+        "history explained",
+        "weird history",
+        "history facts"
+      ]
+    },
+    "pinned": "Charrière said 75% true, the French ministry said divide by ten. Who do YOU believe? 🦋👇"
   }
 }
