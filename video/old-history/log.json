@@ -166,5 +166,13 @@
     "music": "mountain-king",
     "seconds": 97,
     "cta": "They dug for a year to get out. You only need one tap: subscribe."
+  },
+  {
+    "slug": "earhart",
+    "made": "2026-11-05",
+    "title": "Amelia Earhart — the last radio calls, and 89 years of searching",
+    "music": "grieg-aase-death",
+    "seconds": 98,
+    "cta": "Amelia never found her island. You can still find the subscribe button."
   }
 ]

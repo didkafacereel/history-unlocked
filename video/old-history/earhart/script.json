@@ -1,46 +1,477 @@
 {
   "format": 2,
   "pace": "fast",
+  "mode": "channel",
   "date": "2026-11-05",
   "dateKey": "11-05",
   "slug": "earhart",
-  "title": "",
+  "title": "Amelia Earhart — the last radio calls, and 89 years of searching",
   "eventId": "",
-  "category": "",
-  "sources": [],
+  "category": "Mystery",
+  "sources": [
+    "Wikipedia: Amelia Earhart — the first woman to fly solo nonstop across the Atlantic (1932); in 1937 she tried to become the first woman to fly around the world with navigator Fred Noonan in a Lockheed Electra 10E; at Lae, New Guinea, about 22,000 miles were done and 7,000 remained, over the Pacific; on 2 July 1937 they took off for Howland Island, a strip of land 6,500 ft (2 km) long; the Coast Guard cutter Itasca waited to guide them by radio; Itasca received her voice clearly but she could not hear the ship; a radio log at 7:30–7:40 a.m. reported only half an hour of fuel left and that they could not find the ship; the US Navy searched until 19 July at a cost of $4 million; theories include a crash at sea (the government's conclusion), a castaway landing on Nikumaroro (Gardner Island) and capture by the Japanese; she was declared dead in 1939; in October 2026 an expedition by the Archaeological Legacy Institute and Purdue University examined the underwater 'Taraia Object' at Nikumaroro, which turned out to be a clump of trees.",
+    "The photo said in a 2017 TV documentary to show Earhart and Noonan in the Marshall Islands appeared in the Japanese book 'Umi no seimeisen' (1935), two years before the disappearance (both images on Wikimedia Commons).",
+    "Photos (public domain, Wikimedia Commons / NASA / US Coast Guard): Amelia Earhart; Earhart in Darwin, 28 June 1937; Earhart with the Electra (1936); USCGC Itasca; Nikumaroro",
+    "Archive film (public domain): 'Amelia Earhart Disappears' (Pathé, 1937), 'Amelia Earhart's Flight Venture' (British Movietone, 1937), 'Amelia Earhart, Heroine of the Skies' (Pathé, 1932)",
+    "Music: Grieg, Åse's Death, public domain"
+  ],
   "music": {
-    "track": ""
+    "track": "grieg-aase-death"
   },
-  "highlight": [],
+  "highlight": [
+    "EARHART",
+    "AMELIA",
+    "ATLANTIC",
+    "HOWLAND",
+    "ITASCA",
+    "NOONAN",
+    "NIKUMARORO",
+    "ELECTRA",
+    "PACIFIC",
+    "TREES"
+  ],
+  "alert": [
+    "VANISHED",
+    "FUEL",
+    "SILENCE",
+    "CRASH",
+    "CAPTURED",
+    "NOTHING",
+    "LOW"
+  ],
   "cover": {
-    "image": "",
-    "focus": "50% 40%",
-    "date": "",
+    "image": "ae-stand.jpg",
+    "focus": "50% 20%",
+    "kicker": "UNSOLVED",
+    "date": "2 JULY 1937",
+    "top": 1120,
     "lines": [
-      "",
-      ""
+      "SHE VANISHED",
+      "*OVER THE PACIFIC*",
+      "89 YEARS AGO"
     ]
+  },
+  "thumb": {
+    "image": "ae-stand.jpg",
+    "focus": 0.2,
+    "zoom": 1,
+    "lines": [
+      "WHERE IS",
+      "AMELIA",
+      "EARHART?"
+    ],
+    "hi": 1,
+    "tint": [
+      70,
+      160,
+      230
+    ],
+    "kicker": "VANISHED 1937"
   },
   "sentences": [
     {
       "id": "s1",
-      "say": "",
-      "show": "",
+      "say": "In nineteen thirty-seven, the most famous pilot in the world vanished over the Pacific. Eighty-nine years later, we are still looking for her.",
+      "show": "In 1937, the most famous pilot in the world vanished over the Pacific. 89 years later, we are still looking for her.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s2",
+      "say": "Amelia Earhart. The first woman to fly solo across the Atlantic.",
+      "show": "Amelia Earhart. The first woman to fly solo across the Atlantic.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "In nineteen thirty-seven, she set out to fly around the world, with her navigator, Fred Noonan.",
+      "show": "In 1937, she set out to fly around the world, with her navigator, Fred Noonan.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "Twenty-two thousand miles done. Seven thousand to go, almost all of it ocean.",
+      "show": "22,000 miles done. 7,000 to go, almost all of it ocean.",
       "pauseAfter": 0.45
+    },
+    {
+      "id": "s5",
+      "say": "On the second of July, they took off from New Guinea for Howland Island. A strip of land two kilometres long, in the middle of the Pacific.",
+      "show": "On 2 July, they took off from New Guinea for Howland Island. A strip of land two kilometres long, in the middle of the Pacific.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s6",
+      "say": "A Coast Guard ship, the Itasca, waited there to guide them in by radio.",
+      "show": "A Coast Guard ship, the Itasca, waited there to guide them in by radio.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s7",
+      "say": "The ship could hear her loud and clear. But she could not hear the ship.",
+      "show": "The ship could hear her loud and clear. But she could not hear the ship.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s8",
+      "say": "Her last calls said they were running low on fuel, and could not find the island.",
+      "show": "Her last calls said they were running low on fuel, and could not find the island.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s9",
+      "say": "Then, silence.",
+      "show": "Then, silence.",
+      "pauseAfter": 0.7
+    },
+    {
+      "id": "s10",
+      "say": "The Navy searched for over two weeks. Ships, seaplanes, an aircraft carrier. Four million dollars. Nothing.",
+      "show": "The Navy searched for over two weeks. Ships, seaplanes, an aircraft carrier. $4 million. Nothing.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s11",
+      "say": "Did they crash into the sea? Die as castaways on a remote island? Or were they captured by the Japanese?",
+      "show": "Did they crash into the sea? Die as castaways on a remote island? Or were they captured by the Japanese?",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s12",
+      "say": "In twenty seventeen, a photo seemed to show them alive in Japanese hands. Then it turned up in a book from nineteen thirty-five. Two years before they vanished.",
+      "show": "In 2017, a photo seemed to show them alive in Japanese hands. Then it turned up in a book from 1935. Two years before they vanished.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s13",
+      "say": "And this October, an expedition to Nikumaroro Island checked a shape under the water that might have been her plane. It was a clump of trees.",
+      "show": "And this October, an expedition to Nikumaroro Island checked a shape under the water that might have been her plane. It was a clump of trees.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s14",
+      "say": "So where is Amelia Earhart?",
+      "show": "So where is Amelia Earhart?",
+      "pauseAfter": 0.6
     }
   ],
+  "cta": {
+    "story": "She never reached Howland.",
+    "say": "Amelia never found her island. You can still find the subscribe button.",
+    "pill": "LAND HERE",
+    "note": "more true stories that sound made up"
+  },
+  "endImage": "nikumaroro.jpg",
+  "imageCredit": "NASA; US Coast Guard; Wikimedia Commons (public domain)",
   "scenes": [
     {
+      "type": "photo",
+      "note": "hook",
+      "image": "ae-portrait.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "Amelia Earhart"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.35",
+      "enter": "cut",
+      "clip": "film-d-takeoff.mp4",
+      "credit": "The Electra takes off, 1937 · Pathé newsreel"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.7",
+      "enter": "cut",
+      "clip": "film-d-ship.mp4",
+      "credit": "The search at sea, July 1937 · Pathé newsreel"
+    },
+    {
       "type": "title",
-      "image": "",
+      "from": "s2",
+      "enter": "cut",
+      "image": "ae-1937.jpg",
+      "focus": "50% 40%",
+      "kicker": "Unsolved",
+      "date": "AMELIA EARHART",
+      "year": "1937",
+      "place": "Lost over the Pacific"
+    },
+    {
+      "type": "film",
+      "from": "s2@0.3",
+      "enter": "cut",
+      "clip": "film-h-face.mp4",
+      "credit": "Amelia Earhart, 1932 · Pathé newsreel"
+    },
+    {
+      "type": "film",
+      "from": "s2@0.65",
+      "enter": "cut",
+      "clip": "film-h-crowd.mp4",
+      "credit": "Crowds after her Atlantic flight, 1932 · Pathé newsreel"
+    },
+    {
+      "type": "film",
+      "from": "s3",
+      "enter": "cut",
+      "clip": "film-d-engine.mp4",
+      "credit": "Earhart and the Electra, 1937 · Pathé newsreel"
+    },
+    {
+      "type": "film",
+      "from": "s3@0.55",
+      "enter": "cut",
+      "clip": "film-d-group.mp4",
+      "credit": "Preparing the world flight, 1937 · Pathé newsreel"
+    },
+    {
+      "type": "number",
+      "from": "s4",
+      "enter": "cut",
+      "image": "electra-1936.jpg",
+      "focus": "50% 40%",
+      "label": "Miles already flown",
+      "value": 22000,
+      "start": 0,
+      "count": {
+        "from": "s4@0.03",
+        "to": "s4@0.35"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s4@0.5",
+      "enter": "cut",
+      "clip": "film-v-air.mp4",
+      "credit": "The Electra in flight, 1937 · Movietone newsreel"
+    },
+    {
+      "type": "photo",
+      "from": "s5",
+      "enter": "cut",
+      "image": "darwin.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "Darwin, 28 June 1937 — four days before"
+    },
+    {
+      "type": "film",
+      "from": "s5@0.45",
+      "enter": "cut",
+      "clip": "film-d-cockpit.mp4",
+      "credit": "Climbing into the Electra · 1937 newsreel"
+    },
+    {
+      "type": "photo",
+      "from": "s6",
+      "enter": "cut",
+      "image": "itasca.jpg",
       "focus": "50% 50%",
-      "date": "",
-      "year": "",
-      "place": ""
+      "move": "in",
+      "fact": "The Coast Guard cutter Itasca"
+    },
+    {
+      "type": "statement",
+      "from": "s7",
+      "enter": "cut",
+      "image": "itasca.jpg",
+      "focus": "30% 50%",
+      "kicker": "\"KHAQQ calling Itasca\"",
+      "main": {
+        "text": "She *couldn't hear* them.",
+        "at": "s7@0.6"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s8",
+      "enter": "cut",
+      "clip": "film-v-bridge.mp4",
+      "credit": "The Electra in flight, 1937 · Movietone newsreel"
+    },
+    {
+      "type": "statement",
+      "from": "s8@0.55",
+      "enter": "cut",
+      "image": "ae-1937.jpg",
+      "focus": "50% 40%",
+      "kicker": "7:40 a.m.",
+      "main": {
+        "text": "!!Low on fuel!!.",
+        "at": "s8@0.6"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s9",
+      "enter": "cut",
+      "image": "electra-side.jpg",
+      "focus": "50% 50%",
+      "kicker": "2 July 1937",
+      "main": {
+        "text": "Then — *silence*.",
+        "at": "s9@0.2"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s10",
+      "enter": "cut",
+      "clip": "film-d-headline.mp4",
+      "credit": "Pathé newsreel, 1937"
+    },
+    {
+      "type": "film",
+      "from": "s10@0.15",
+      "enter": "cut",
+      "clip": "film-d-headline2.mp4",
+      "credit": "Pathé newsreel, 1937"
+    },
+    {
+      "type": "film",
+      "from": "s10@0.32",
+      "enter": "cut",
+      "clip": "film-d-seaplane.mp4",
+      "credit": "A seaplane joins the search, July 1937 · Pathé"
+    },
+    {
+      "type": "film",
+      "from": "s10@0.55",
+      "enter": "cut",
+      "clip": "film-d-carrier.mp4",
+      "credit": "An aircraft carrier joins the search · Pathé, 1937"
+    },
+    {
+      "type": "number",
+      "from": "s10@0.75",
+      "enter": "cut",
+      "image": "itasca.jpg",
+      "focus": "50% 50%",
+      "label": "Dollars spent on the search",
+      "value": 4,
+      "start": 0,
+      "suffix": " million",
+      "count": {
+        "from": "s10@0.77",
+        "to": "s10@0.88"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s11",
+      "enter": "cut",
+      "clip": "film-d-planes.mp4",
+      "credit": "Navy planes over the Pacific · Pathé, 1937"
+    },
+    {
+      "type": "statement",
+      "from": "s11@0.6",
+      "enter": "cut",
+      "image": "nikumaroro.jpg",
+      "focus": "50% 50%",
+      "main": {
+        "text": "Sea? Island? !!Captured!!?",
+        "at": "s11@0.65"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s12",
+      "enter": "cut",
+      "image": "jaluit-photo.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The photo called \"proof\" in 2017"
+    },
+    {
+      "type": "photo",
+      "from": "s12@0.55",
+      "enter": "cut",
+      "image": "jaluit-book.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "…the same photo in a Japanese book, 1935"
+    },
+    {
+      "type": "photo",
+      "from": "s13",
+      "enter": "cut",
+      "image": "nikumaroro.jpg",
+      "focus": "50% 50%",
+      "move": "left",
+      "fact": "Nikumaroro Island, Kiribati"
+    },
+    {
+      "type": "statement",
+      "from": "s13@0.78",
+      "enter": "cut",
+      "image": "nikumaroro.jpg",
+      "focus": "30% 50%",
+      "kicker": "October 2026",
+      "main": {
+        "text": "A clump of *trees*.",
+        "at": "s13@0.85"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s14",
+      "enter": "cut",
+      "clip": "film-v-smile.mp4",
+      "credit": "Amelia Earhart, 1937 · Movietone newsreel"
+    },
+    {
+      "type": "portrait",
+      "from": "s14@0.6",
+      "enter": "fade",
+      "image": "ae-face.jpg",
+      "focus": "40% 30%",
+      "kicker": "Amelia Earhart",
+      "date": "1897 – ?",
+      "line": {
+        "text": "Where is *she*?",
+        "at": "s14@0.7"
+      }
     }
   ],
   "post": {
-    "tiktok": "",
-    "facebook": ""
+    "tiktok": "In 1937 the most famous pilot in the world vanished over the Pacific. 89 years later, we're still looking for her. ✈️🌊\n\nAmelia Earhart's last radio calls: low on fuel, can't find the island. The ship could hear her — she couldn't hear the ship. And this October, a new expedition to Nikumaroro checked a shape under the water… it was a clump of trees.\n\nCrash, castaway or captured? 👇\n\n#ameliaearhart #history #unsolvedmysteries #mystery #aviation #historytok #truestory #nikumaroro",
+    "facebook": "In 1937, the most famous pilot in the world vanished over the Pacific. 89 years later, we are still looking for her.\n\nAmelia Earhart — the first woman to fly solo across the Atlantic — set out to fly around the world with navigator Fred Noonan. With 22,000 miles done and 7,000 to go, on 2 July 1937 they took off from New Guinea for Howland Island, a strip of land two kilometres long in the middle of the Pacific. The Coast Guard cutter Itasca could hear her loud and clear — but she could not hear the ship. Her last calls said they were low on fuel and could not find the island. Then, silence.\n\nThe Navy searched for over two weeks and spent $4 million. Nothing. Crash at sea, castaways on a remote island, or captured by the Japanese? In 2017 a photo seemed to show them alive in Japanese hands — until it turned up in a book from 1935. And this October, an expedition to Nikumaroro checked an underwater shape that might have been her plane. It was a clump of trees.\n\nSo where is Amelia Earhart? 👇\n\n#AmeliaEarhart #History #UnsolvedMysteries #Aviation",
+    "youtube": {
+      "title": "Amelia Earhart Vanished in 1937 — In 2026 They Searched Again #Shorts",
+      "description": "In 1937, the most famous pilot in the world vanished over the Pacific. 89 years later, we are still looking for her.\n\nOn 2 July 1937, Amelia Earhart and navigator Fred Noonan took off from Lae, New Guinea, for tiny Howland Island in their Lockheed Electra. The Coast Guard cutter Itasca heard her last radio calls — low on fuel, unable to find the island — but she could not hear the ship. A $4 million Navy search found nothing. Theories: a crash at sea, a castaway landing on Nikumaroro (Gardner Island), or capture by the Japanese. The 2017 'Jaluit photo' turned out to be from a 1935 book, and in October 2026 the underwater 'Taraia Object' at Nikumaroro turned out to be a clump of trees.\n\nSubscribe for more history that sounds made up.\n\nImages: public domain via Wikimedia Commons (NASA, US Coast Guard). Film: Pathé (1932, 1937) and British Movietone (1937) newsreels, public domain. Music: Grieg, Åse's Death, public domain. Sources: Wikipedia.\n\n#Shorts #AmeliaEarhart #History #UnsolvedMysteries #Aviation\n\nKeywords: amelia earhart, amelia earhart disappearance, amelia earhart mystery, amelia earhart plane, fred noonan, nikumaroro, howland island, unsolved mysteries, missing plane.",
+      "tags": [
+        "amelia earhart",
+        "amelia earhart disappearance",
+        "amelia earhart mystery",
+        "amelia earhart plane",
+        "amelia earhart history",
+        "amelia earhart documentary",
+        "amelia earhart found",
+        "amelia earhart last words",
+        "fred noonan",
+        "nikumaroro",
+        "howland island",
+        "lockheed electra",
+        "missing plane",
+        "plane crash",
+        "pacific ocean",
+        "ocean exploration",
+        "unsolved mysteries",
+        "unsolved mystery",
+        "mystery",
+        "aviation history",
+        "women in history",
+        "1937",
+        "history",
+        "history shorts",
+        "true story",
+        "history documentary",
+        "history explained",
+        "weird history",
+        "history facts"
+      ]
+    },
+    "pinned": "Crash at sea, castaway on Nikumaroro, or captured by the Japanese — what do YOU think happened to Amelia? ✈️👇"
   }
 }

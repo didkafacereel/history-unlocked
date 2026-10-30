@@ -9,7 +9,7 @@
 | 2 | dillinger | John Dillinger и дървеният пистолет (1934) | John Dillinger | ✅ готов (ready/dillinger) |
 | 3 | zodiac | Zodiac Killer, шифърът разбит 2020 | Zodiac Killer | ✅ готов (ready/zodiac) |
 | 4 | greatescape | Голямото бягство, Stalag Luft III (1944) | Stalag Luft III, Stalag Luft III murders | ✅ готов (ready/greatescape) |
-| 5 | earhart | Амелия Еърхарт | Amelia Earhart | — |
+| 5 | earhart | Амелия Еърхарт | Amelia Earhart | ✅ готов (ready/earhart) |
 | 6 | libby | Тунелът в затвора Libby (1864) | Libby Prison escape | — |
 | 7 | lindbergh | Отвличането на бебето Линдбърг (1932) | Lindbergh kidnapping | — |
 | 8 | papillon | Papillon / Дяволския остров — истина или лъжа | Henri Charrière | — |
