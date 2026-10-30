@@ -1,0 +1,95 @@
+{
+  "total": 95.891,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "In 1934, the most wanted man in America broke out of an escape-proof jail. With a gun he may have carved from wood.",
+      "start": 0.4,
+      "end": 9.147
+    },
+    {
+      "id": "s2",
+      "show": "His name was John Dillinger. Accused of robbing 24 banks.",
+      "start": 9.747,
+      "end": 14.227
+    },
+    {
+      "id": "s3",
+      "show": "In January he was caught, and locked up in Crown Point, Indiana.",
+      "start": 14.627,
+      "end": 18.851
+    },
+    {
+      "id": "s4",
+      "show": "The police told the newspapers it was escape-proof. They even posted extra guards.",
+      "start": 19.201,
+      "end": 24.555
+    },
+    {
+      "id": "s5",
+      "show": "On 3 March, during morning exercise, Dillinger pulled out a pistol.",
+      "start": 25.005,
+      "end": 29.741
+    },
+    {
+      "id": "s6",
+      "show": "He took hostages, locked up the guards, and walked out, without firing a single shot.",
+      "start": 30.141,
+      "end": 35.752
+    },
+    {
+      "id": "s7",
+      "show": "Then he drove away in the sheriff's own car.",
+      "start": 36.102,
+      "end": 38.577
+    },
+    {
+      "id": "s8",
+      "show": "But was the gun even real? FBI files say he carved it out of wood, with a razor blade.",
+      "start": 39.127,
+      "end": 45.441
+    },
+    {
+      "id": "s9",
+      "show": "A deputy swore it was real. His lawyer's investigator claimed he had smuggled it in himself. Nobody agrees, to this day.",
+      "start": 45.891,
+      "end": 54.169
+    },
+    {
+      "id": "s10",
+      "show": "That stolen car crossed a state line. Now J. Edgar Hoover's agents hunted him as Public Enemy No. 1.",
+      "start": 54.669,
+      "end": 62.071
+    },
+    {
+      "id": "s11",
+      "show": "Dillinger paid for plastic surgery, and tried to burn off his fingerprints with acid.",
+      "start": 62.521,
+      "end": 67.684
+    },
+    {
+      "id": "s12",
+      "show": "It wasn't enough. In July, a brothel owner, Anna Sage, tipped off the FBI, to save herself from deportation.",
+      "start": 68.134,
+      "end": 76.155
+    },
+    {
+      "id": "s13",
+      "show": "He walked out of the Biograph Theater in Chicago. Agents were waiting. He ran for the alley, and was shot dead.",
+      "start": 76.605,
+      "end": 83.624
+    },
+    {
+      "id": "s14",
+      "show": "Crowds dipped handkerchiefs in his blood. And the gun from Crown Point? Real steel, or wood?",
+      "start": 84.124,
+      "end": 90.289
+    },
+    {
+      "id": "end2",
+      "show": "Dillinger broke out of Crown Point. Break out of the scroll, and subscribe.",
+      "start": 90.889,
+      "end": 95.391
+    }
+  ]
+}

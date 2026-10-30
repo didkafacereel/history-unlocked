@@ -186,6 +186,20 @@
       "mood": "British naval, proud — Royal Navy, British ships, sailors",
       "credit": "Rule, Britannia! · United States Army Strings · public domain",
       "note": "played twice with a 3 s crossfade (local edit)"
+    },
+    {
+      "id": "st-louis-blues",
+      "file": "st-louis-blues.mp3",
+      "commons": "File:Bessie Smith and Louis Armstrong - The St. Louis Blues (1925).mp3",
+      "mood": "smoky 1925 blues with VOCALS (Bessie Smith) — only under light narration; gangsters, Prohibition",
+      "credit": "W.C. Handy, St. Louis Blues · Bessie Smith & Louis Armstrong, 1925 recording · public domain"
+    },
+    {
+      "id": "margie-1921",
+      "file": "margie-1921.oga",
+      "commons": "File:\"Margie\" (1921), performed by Gene Rodemich's Orchestra.oga",
+      "mood": "instrumental 1920s dance band, jaunty and cheeky — gangsters, Prohibition, Roaring Twenties, Depression-era outlaws",
+      "credit": "Margie (1920) · Gene Rodemich's Orchestra, 1921 recording · public domain"
     }
   ]
 }

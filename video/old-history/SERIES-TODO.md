@@ -5,8 +5,8 @@
 
 | # | slug | тема | статия(и) | статус |
 |---|---|---|---|---|
-| 1 | scott | Алкатраз ч.2: John Paul Scott доплува до Голдън Гейт (16.12.1962) | June 1962 Alcatraz escape (ред 60), Alcatraz Federal Penitentiary | само факти |
-| 2 | dillinger | John Dillinger и дървеният пистолет (1934) | John Dillinger | — |
+| 1 | scott | Алкатраз ч.2: John Paul Scott доплува до Голдън Гейт (16.12.1962) | June 1962 Alcatraz escape (ред 60), Alcatraz Federal Penitentiary | ✅ готов (ready/scott) |
+| 2 | dillinger | John Dillinger и дървеният пистолет (1934) | John Dillinger | ✅ готов (ready/dillinger) |
 | 3 | zodiac | Zodiac Killer, шифърът разбит 2020 | Zodiac Killer | — |
 | 4 | greatescape | Голямото бягство, Stalag Luft III (1944) | Stalag Luft III, Stalag Luft III murders | — |
 | 5 | earhart | Амелия Еърхарт | Amelia Earhart | — |

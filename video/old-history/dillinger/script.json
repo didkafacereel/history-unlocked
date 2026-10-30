@@ -1,46 +1,470 @@
 {
   "format": 2,
   "pace": "fast",
+  "mode": "channel",
   "date": "2026-11-02",
   "dateKey": "11-02",
   "slug": "dillinger",
-  "title": "",
+  "title": "John Dillinger — the jailbreak with a gun that may have been carved from wood",
   "eventId": "",
-  "category": "",
-  "sources": [],
+  "category": "Crime & Mystery",
+  "sources": [
+    "Wikipedia: John Dillinger — accused of robbing 24 banks; captured in Tucson in January 1934 and held at the Lake County jail in Crown Point, Indiana, which local police boasted was escape-proof, with extra guards; on 3 March 1934 he escaped during morning exercises, producing a pistol and taking hostages without firing a shot; whether the gun was real is disputed — Deputy Ernest Blunk said it was real, FBI files say it was carved from wood, the trustee Sam Cahoon believed he carved it with a razor from shelving in his cell, and the lawyer's investigator Art O'Leary claimed he smuggled the gun in himself; he had plastic surgery in 1934; Ana Cumpănaș (Anna Sage) tipped off the Bureau to avoid deportation; on 22 July 1934 he was shot dead by agents in an alley beside the Biograph Theater, Chicago, after watching Manhattan Melodrama; souvenir hunters dipped handkerchiefs in his blood.",
+    "FBI wanted poster (1934): wanted under the National Motor Vehicle Theft Act for taking the car of Lillian Holley, Sheriff of Lake County, from Crown Point to Chicago.",
+    "Photos (public domain, Wikimedia Commons / FBI / Library of Congress): Dillinger's mug shots (1924, 1934); the 1934 FBI wanted poster; the Lake County Sheriff's House and Jail, Crown Point; evidence from his hideout (1934); Anna Sage (1934); Melvin Purvis; the Biograph Theater in 1934 and the crowd after his death",
+    "Archive film (public domain): 'Depression era gangsters' newsreel; 'Saint Paul Police Detectives and Their Work' (1941) — illustrative",
+    "Music: Margie (1920), Gene Rodemich's Orchestra, 1921 recording, public domain"
+  ],
   "music": {
-    "track": ""
+    "track": "margie-1921"
   },
-  "highlight": [],
+  "highlight": [
+    "DILLINGER",
+    "CROWN",
+    "POINT",
+    "WOOD",
+    "WOODEN",
+    "HOOVER",
+    "BIOGRAPH",
+    "FBI",
+    "ENEMY",
+    "ESCAPE-PROOF",
+    "CAR"
+  ],
+  "alert": [
+    "GUN",
+    "PISTOL",
+    "SHOT",
+    "DEAD",
+    "BLOOD",
+    "HOSTAGES",
+    "ACID",
+    "WANTED"
+  ],
   "cover": {
-    "image": "",
-    "focus": "50% 40%",
-    "date": "",
+    "image": "mugshot.jpg",
+    "focus": "50% 22%",
+    "kicker": "IMPOSSIBLE ESCAPES",
+    "date": "MARCH 1934",
+    "top": 1120,
     "lines": [
-      "",
-      ""
+      "HE ESCAPED",
+      "*WITH A WOODEN GUN*",
+      "?"
     ]
+  },
+  "thumb": {
+    "image": "mugshot.jpg",
+    "focus": 0.22,
+    "zoom": 1,
+    "lines": [
+      "HE ESCAPED",
+      "WITH A",
+      "WOODEN GUN?"
+    ],
+    "hi": 2,
+    "tint": [
+      255,
+      170,
+      60
+    ],
+    "kicker": "PUBLIC ENEMY NO. 1"
   },
   "sentences": [
     {
       "id": "s1",
-      "say": "",
-      "show": "",
+      "say": "In nineteen thirty-four, the most wanted man in America broke out of an escape-proof jail. With a gun he may have carved from wood.",
+      "show": "In 1934, the most wanted man in America broke out of an escape-proof jail. With a gun he may have carved from wood.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s2",
+      "say": "His name was John Dillinger. Accused of robbing twenty-four banks.",
+      "show": "His name was John Dillinger. Accused of robbing 24 banks.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "In January he was caught, and locked up in Crown Point, Indiana.",
+      "show": "In January he was caught, and locked up in Crown Point, Indiana.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s4",
+      "say": "The police told the newspapers it was escape-proof. They even posted extra guards.",
+      "show": "The police told the newspapers it was escape-proof. They even posted extra guards.",
       "pauseAfter": 0.45
+    },
+    {
+      "id": "s5",
+      "say": "On the third of March, during morning exercise, Dillinger pulled out a pistol.",
+      "show": "On 3 March, during morning exercise, Dillinger pulled out a pistol.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s6",
+      "say": "He took hostages, locked up the guards, and walked out, without firing a single shot.",
+      "show": "He took hostages, locked up the guards, and walked out, without firing a single shot.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s7",
+      "say": "Then he drove away in the sheriff's own car.",
+      "show": "Then he drove away in the sheriff's own car.",
+      "pauseAfter": 0.55
+    },
+    {
+      "id": "s8",
+      "say": "But was the gun even real? FBI files say he carved it out of wood, with a razor blade.",
+      "show": "But was the gun even real? FBI files say he carved it out of wood, with a razor blade.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s9",
+      "say": "A deputy swore it was real. His lawyer's investigator claimed he had smuggled it in himself. Nobody agrees, to this day.",
+      "show": "A deputy swore it was real. His lawyer's investigator claimed he had smuggled it in himself. Nobody agrees, to this day.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s10",
+      "say": "That stolen car crossed a state line. Now J. Edgar Hoover's agents hunted him as Public Enemy Number One.",
+      "show": "That stolen car crossed a state line. Now J. Edgar Hoover's agents hunted him as Public Enemy No. 1.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s11",
+      "say": "Dillinger paid for plastic surgery, and tried to burn off his fingerprints with acid.",
+      "show": "Dillinger paid for plastic surgery, and tried to burn off his fingerprints with acid.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s12",
+      "say": "It wasn't enough. In July, a brothel owner, Anna Sage, tipped off the FBI, to save herself from deportation.",
+      "show": "It wasn't enough. In July, a brothel owner, Anna Sage, tipped off the FBI, to save herself from deportation.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s13",
+      "say": "He walked out of the Biograph Theater in Chicago. Agents were waiting. He ran for the alley, and was shot dead.",
+      "show": "He walked out of the Biograph Theater in Chicago. Agents were waiting. He ran for the alley, and was shot dead.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s14",
+      "say": "Crowds dipped handkerchiefs in his blood. And the gun from Crown Point? Real steel, or wood?",
+      "show": "Crowds dipped handkerchiefs in his blood. And the gun from Crown Point? Real steel, or wood?",
+      "pauseAfter": 0.6
     }
   ],
+  "cta": {
+    "story": "Escape-proof never lasts.",
+    "say": "Dillinger broke out of Crown Point. Break out of the scroll, and subscribe.",
+    "pill": "BREAK OUT",
+    "note": "more true stories that sound made up"
+  },
+  "endImage": "biograph-1934.jpg",
+  "imageCredit": "FBI; Library of Congress; Chicago Daily News; Wikimedia Commons (public domain)",
   "scenes": [
     {
+      "type": "photo",
+      "note": "hook",
+      "image": "mugshot.jpg",
+      "focus": "50% 25%",
+      "move": "in",
+      "fact": "John Dillinger, 1934"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.4",
+      "enter": "cut",
+      "clip": "film-cell.mp4",
+      "credit": "A cell door · 1930s newsreel, illustrative"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.7",
+      "enter": "cut",
+      "clip": "film-pistol.mp4",
+      "credit": "A pistol · 1941 police film, illustrative"
+    },
+    {
       "type": "title",
-      "image": "",
+      "from": "s2",
+      "enter": "cut",
+      "image": "poster.jpg",
+      "focus": "50% 30%",
+      "kicker": "Impossible escapes",
+      "date": "JOHN DILLINGER",
+      "year": "1934",
+      "place": "The wooden gun"
+    },
+    {
+      "type": "film",
+      "from": "s2@0.25",
+      "enter": "cut",
+      "clip": "film-tommy2.mp4",
+      "credit": "A Thompson gun · 1930s newsreel"
+    },
+    {
+      "type": "number",
+      "from": "s2@0.5",
+      "enter": "cut",
+      "image": "mug1924.jpg",
+      "focus": "70% 40%",
+      "label": "Banks he was accused of robbing",
+      "value": 24,
+      "start": 0,
+      "count": {
+        "from": "s2@0.55",
+        "to": "s2@0.9"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s3",
+      "enter": "cut",
+      "clip": "film-escort.mp4",
+      "credit": "Gangsters under arrest · 1930s newsreel, illustrative"
+    },
+    {
+      "type": "photo",
+      "from": "s3@0.55",
+      "enter": "cut",
+      "image": "crownpoint.jpg",
       "focus": "50% 50%",
-      "date": "",
-      "year": "",
-      "place": ""
+      "move": "in",
+      "fact": "Lake County jail, Crown Point, Indiana"
+    },
+    {
+      "type": "statement",
+      "from": "s4",
+      "enter": "cut",
+      "image": "crownpoint.jpg",
+      "focus": "30% 50%",
+      "kicker": "Crown Point, 1934",
+      "main": {
+        "text": "\"*Escape-proof*\"",
+        "at": "s4@0.3"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s4@0.6",
+      "enter": "cut",
+      "clip": "film-armed.mp4",
+      "credit": "Armed lawmen · 1930s newsreel, illustrative"
+    },
+    {
+      "type": "film",
+      "from": "s5",
+      "enter": "cut",
+      "clip": "film-tommy.mp4",
+      "credit": "1930s newsreel, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s5@0.6",
+      "enter": "cut",
+      "image": "mugshot.jpg",
+      "focus": "50% 60%",
+      "kicker": "3 March 1934",
+      "main": {
+        "text": "He pulled a !!gun!!.",
+        "at": "s5@0.7"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s6",
+      "enter": "cut",
+      "image": "crownpoint.jpg",
+      "focus": "70% 50%",
+      "main": {
+        "text": "!!Hostages!!. Not one *shot*.",
+        "at": "s6@0.2"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s7",
+      "enter": "cut",
+      "image": "poster.jpg",
+      "focus": "50% 92%",
+      "move": "up",
+      "fact": "His wanted poster: the sheriff's own car"
+    },
+    {
+      "type": "film",
+      "from": "s8",
+      "enter": "cut",
+      "clip": "film-table.mp4",
+      "credit": "Seized gangster weapons · 1930s newsreel"
+    },
+    {
+      "type": "statement",
+      "from": "s8@0.45",
+      "enter": "cut",
+      "image": "mugshot.jpg",
+      "focus": "50% 30%",
+      "kicker": "FBI files",
+      "main": {
+        "text": "Carved from *wood*?",
+        "at": "s8@0.5"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s9",
+      "enter": "cut",
+      "clip": "film-robbery.mp4",
+      "credit": "A revolver as evidence · 1941 police film, illustrative"
+    },
+    {
+      "type": "statement",
+      "from": "s9@0.65",
+      "enter": "cut",
+      "image": "poster.jpg",
+      "focus": "50% 75%",
+      "kicker": "Still disputed",
+      "main": {
+        "text": "!!Real!!… or *wood*?",
+        "at": "s9@0.7"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s10",
+      "enter": "cut",
+      "clip": "film-fbi.mp4",
+      "credit": "1941 police film"
+    },
+    {
+      "type": "film",
+      "from": "s10@0.4",
+      "enter": "cut",
+      "clip": "film-hoover.mp4",
+      "credit": "A Bureau press conference · 1930s newsreel"
+    },
+    {
+      "type": "statement",
+      "from": "s10@0.72",
+      "enter": "cut",
+      "image": "poster.jpg",
+      "focus": "50% 20%",
+      "main": {
+        "text": "Public Enemy *No. 1*",
+        "at": "s10@0.78"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s11",
+      "enter": "cut",
+      "image": "surgery.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Evidence from his hideout, 1934"
+    },
+    {
+      "type": "photo",
+      "from": "s12",
+      "enter": "cut",
+      "image": "sage.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "Ana Cumpănaș (\"Anna Sage\"), 1934"
+    },
+    {
+      "type": "photo",
+      "from": "s12@0.6",
+      "enter": "cut",
+      "image": "purvis.jpg",
+      "focus": "50% 35%",
+      "move": "in",
+      "fact": "Agent Melvin Purvis"
+    },
+    {
+      "type": "photo",
+      "from": "s13",
+      "enter": "cut",
+      "image": "biograph-1934.jpg",
+      "focus": "40% 50%",
+      "move": "in",
+      "fact": "The Biograph Theater, Chicago, 1934"
+    },
+    {
+      "type": "statement",
+      "from": "s13@0.65",
+      "enter": "cut",
+      "image": "biograph-1934.jpg",
+      "focus": "20% 50%",
+      "kicker": "22 July 1934",
+      "main": {
+        "text": "!!Shot!! in the alley.",
+        "at": "s13@0.75"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s14",
+      "enter": "cut",
+      "image": "biograph-crowd.jpg",
+      "focus": "50% 50%",
+      "move": "left",
+      "fact": "Crowds at the Biograph after his death"
+    },
+    {
+      "type": "portrait",
+      "from": "s14@0.5",
+      "enter": "fade",
+      "image": "mugshot.jpg",
+      "focus": "50% 25%",
+      "kicker": "John Dillinger",
+      "date": "Crown Point, 1934",
+      "line": {
+        "text": "Steel, or *wood*?",
+        "at": "s14@0.6"
+      }
     }
   ],
   "post": {
-    "tiktok": "",
-    "facebook": ""
+    "tiktok": "In 1934 the most wanted man in America walked out of an \"escape-proof\" jail — with a gun he may have carved out of wood. 🔫🪵\n\nJohn Dillinger took hostages, locked up the guards and drove off in the sheriff's own car without firing a shot. FBI files say the gun was wood. A deputy swore it was real.\n\nSteel or wood — what do you think? 👇\n\n#history #johndillinger #dillinger #truecrime #gangster #prisonbreak #historytok #1930s",
+    "facebook": "In 1934, the most wanted man in America broke out of an \"escape-proof\" jail — with a gun he may have carved out of wood.\n\nJohn Dillinger, accused of robbing 24 banks, was locked up in the Lake County jail in Crown Point, Indiana. Police told the papers it was escape-proof and posted extra guards. On 3 March 1934, during morning exercise, Dillinger pulled out a pistol, took hostages, locked up the guards and walked out without firing a shot — then drove away in the sheriff's own car.\n\nWas the gun real? FBI files say he carved it from wood with a razor blade. A deputy swore it was real. His lawyer's investigator claimed he smuggled it in himself. Nobody agrees to this day.\n\nThe stolen car crossing a state line made him a federal case. Four months later, tipped off by Anna Sage, agents shot him dead outside the Biograph Theater in Chicago.\n\nSteel or wood — what do you think? 👇\n\n#History #JohnDillinger #TrueCrime #PrisonBreak",
+    "youtube": {
+      "title": "He Broke Out of an \"Escape-Proof\" Jail With a Wooden Gun | John Dillinger #Shorts",
+      "description": "In 1934, the most wanted man in America broke out of an escape-proof jail — with a gun he may have carved out of wood.\n\nOn 3 March 1934, bank robber John Dillinger pulled a pistol during morning exercise at the Lake County jail in Crown Point, Indiana, took hostages, locked up the guards and drove off in the sheriff's own car without firing a shot. FBI files say the gun was carved from wood; a deputy swore it was real; his lawyer's investigator claimed he smuggled it in. Driving the stolen car across a state line made him a federal case, and J. Edgar Hoover's agents hunted him as Public Enemy No. 1 — until he was shot dead outside the Biograph Theater in Chicago on 22 July 1934.\n\nSubscribe for more history that sounds made up.\n\nImages: public domain via Wikimedia Commons (FBI, Library of Congress). Film: 1930s gangster newsreel and 'Saint Paul Police Detectives and Their Work' (1941), public domain — illustrative. Music: 'Margie', Gene Rodemich's Orchestra (1921), public domain. Sources: Wikipedia, FBI.\n\n#Shorts #History #JohnDillinger #TrueCrime #PrisonBreak\n\nKeywords: john dillinger, dillinger, public enemies, bank robber, gangster, true crime stories, prison break, depression era.",
+      "tags": [
+        "john dillinger",
+        "dillinger",
+        "john dillinger wooden gun",
+        "dillinger escape",
+        "crown point jail",
+        "public enemies",
+        "public enemy number one",
+        "bank robber",
+        "gangster",
+        "gangsters",
+        "mobster",
+        "depression era",
+        "1930s",
+        "j edgar hoover",
+        "fbi history",
+        "biograph theater",
+        "prison break",
+        "prison escape",
+        "jail escape",
+        "true crime",
+        "true crime stories",
+        "unsolved mysteries",
+        "history",
+        "history shorts",
+        "true story",
+        "history documentary",
+        "history explained",
+        "weird history",
+        "history facts"
+      ]
+    },
+    "pinned": "Real steel or a piece of carved wood — which gun do YOU think Dillinger used? 🔫🪵👇"
   }
 }
