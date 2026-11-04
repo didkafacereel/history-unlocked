@@ -1,0 +1,360 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-11-07",
+  "dateKey": "11-07",
+  "slug": "october-revolution",
+  "title": "The October Revolution, 1917 — the storming that was mostly staged later",
+  "eventId": "evt-11-07-1917-october-revolution",
+  "category": "Politics & Power",
+  "sources": [
+    "Wikipedia: October Revolution — led by Lenin's Bolsheviks; began with an insurrection in Petrograd on 7 November 1917 (25 October in the Julian calendar Russia still used — hence 'October'); the Provisional Government was led by Alexander Kerensky; that night they captured the Winter Palace, seat of the Provisional Government; the cruiser Aurora fired a blank shot from the harbour; the final assault on the palace — against 3,000 cadets, officers, cossacks and female soldiers — was not vigorously resisted; the cadets and the 140 volunteers of the Women's Battalion surrendered rather than resist the 40,000-strong attacking force; the initial stage occurred largely without casualties; a 1920 reenactment, The Storming of the Winter Palace, watched by 100,000 spectators, provided the model for official films showing fierce fighting, although the insurgents had faced little opposition; stills from Sergei Eisenstein's staged film October (1928) came to be taken as truth; 7 November became the Soviet Union's national day",
+    "Also on this day (candidates.md, in the app): 1916 Jeannette Rankin becomes the first woman elected to the US Congress; 1861 Ulysses S. Grant's first combat",
+    "Archive film (public domain): Sergei Eisenstein and Grigori Aleksandrov, October: Ten Days That Shook the World (1928) — a staged dramatisation",
+    "Photos and art (public domain): the Winter Palace after the seizure, 8 November 1917 (Yakov Steinberg); the Gothic Hall after the seizure; the Women's Battalion at the Winter Palace; Lenin, 1920; Lenin speaking, 1917; the July 1917 riot on Nevsky Prospect (Viktor Bulla); the Military Revolutionary Committee proclamation; Boris Kustodiev, The Bolshevik; E. Barnard Lintott, The Attack on the Winter Palace (1917); the cruiser Aurora's gun"
+  ],
+  "music": {
+    "track": "mussorgsky-catacombs"
+  },
+  "highlight": [
+    "STAGED",
+    "BLANK",
+    "FILM",
+    "OCTOBER",
+    "NOVEMBER",
+    "3,000",
+    "40,000"
+  ],
+  "alert": [
+    "STORMING",
+    "SURRENDERED",
+    "FAKE",
+    "FIERCE"
+  ],
+  "names": [
+    "LENIN",
+    "PETROGRAD",
+    "KERENSKY",
+    "AURORA",
+    "EISENSTEIN",
+    "BOLSHEVIKS",
+    "PALACE"
+  ],
+  "cover": {
+    "image": "attack-art.jpg",
+    "focus": "50% 40%",
+    "date": "7 NOVEMBER 1917",
+    "lines": [
+      "THE STORMING",
+      "THAT *WASN'T*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "The most famous scenes of the Russian Revolution were mostly staged, years later.",
+      "show": "The most famous scenes of the Russian Revolution were mostly staged, years later.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "The real night came on this day in nineteen seventeen.",
+      "show": "The real night came on this day in 1917.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s3",
+      "say": "It's called the October Revolution because of Russia's old calendar. Everywhere else, it was November.",
+      "show": "It's called the October Revolution because of Russia's old calendar. Everywhere else, it was November.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s4",
+      "say": "Lenin's Bolsheviks moved on the Winter Palace in Petrograd.",
+      "show": "Lenin's Bolsheviks moved on the Winter Palace in Petrograd.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s5",
+      "say": "The cruiser Aurora fired a single shot from the river. A blank.",
+      "show": "The cruiser Aurora fired a single shot from the river. A blank.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s6",
+      "say": "Inside, about three thousand defenders, including a battalion of women.",
+      "show": "Inside, about 3,000 defenders, including a battalion of women.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s7",
+      "say": "Outside, forty thousand.",
+      "show": "Outside, 40,000.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s8",
+      "say": "Most surrendered. It went almost without casualties.",
+      "show": "Most surrendered. It went almost without casualties.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s9",
+      "say": "Three years later, the storming was restaged, for a hundred thousand spectators.",
+      "show": "Three years later, the storming was restaged, for 100,000 spectators.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s10",
+      "say": "Then Sergei Eisenstein filmed it, with fierce fighting that never happened.",
+      "show": "Then Sergei Eisenstein filmed it, with fierce fighting that never happened.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s11",
+      "say": "That's the film you're watching. For decades, it was taken as the truth.",
+      "show": "That's the film you're watching. For decades, it was taken as the truth.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "also": {
+    "say": "Also on this day: the first woman was elected to Congress, and Ulysses Grant fought his first battle.",
+    "items": [
+      {
+        "year": "1916",
+        "text": "Jeannette Rankin, first woman in Congress"
+      },
+      {
+        "year": "1861",
+        "text": "Ulysses S. Grant's first combat"
+      }
+    ],
+    "image": "palace-after.jpg"
+  },
+  "cta": {
+    "story": "History, not the remake.",
+    "say": "Our app tells what really happened, every single day. Subscribe, and see the real story first.",
+    "pill": "THE REAL STORY",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook — the cover painting",
+      "image": "attack-art.jpg",
+      "focus": "50% 40%",
+      "move": "in"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.35",
+      "enter": "cut",
+      "clip": "film-charge.mp4",
+      "credit": "From Eisenstein's \"October\" (1928) — a staged film"
+    },
+    {
+      "type": "statement",
+      "from": "s1@0.75",
+      "enter": "cut",
+      "image": "after.jpg",
+      "focus": "50% 50%",
+      "ghost": "STAGED",
+      "main": {
+        "text": "Mostly *staged*. Years later.",
+        "at": "s1@0.82"
+      }
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "palace-after.jpg",
+      "focus": "50% 50%",
+      "date": "7 NOVEMBER",
+      "year": "1917",
+      "place": "Petrograd, Russia"
+    },
+    {
+      "type": "statement",
+      "from": "s3",
+      "enter": "cut",
+      "image": "proclamation.jpg",
+      "focus": "50% 30%",
+      "ghost": "25 OCT",
+      "kicker": "The old Russian calendar",
+      "main": {
+        "text": "*October* in Russia. *November* everywhere else.",
+        "at": "s3@0.55"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s4",
+      "enter": "cut",
+      "image": "lenin-speech.jpg",
+      "focus": "50% 40%",
+      "move": "in",
+      "fact": "Lenin speaking, 1917"
+    },
+    {
+      "type": "photo",
+      "from": "s4@0.5",
+      "enter": "cut",
+      "image": "riot.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Petrograd, July 1917 — Viktor Bulla"
+    },
+    {
+      "type": "photo",
+      "from": "s5",
+      "enter": "cut",
+      "image": "aurora-gun.jpg",
+      "focus": "40% 50%",
+      "move": "in",
+      "fact": "A gun of the cruiser Aurora, today a museum ship"
+    },
+    {
+      "type": "statement",
+      "from": "s5@0.6",
+      "enter": "cut",
+      "image": "aurora-gun.jpg",
+      "focus": "60% 50%",
+      "ghost": "BLANK",
+      "kicker": "The cruiser ++Aurora++",
+      "main": {
+        "text": "One shot. A *blank*.",
+        "at": "s5@0.7"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s6",
+      "enter": "cut",
+      "image": "womens.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The Women's Battalion at the Winter Palace"
+    },
+    {
+      "type": "statement",
+      "from": "s7",
+      "enter": "cut",
+      "image": "bolshevik.jpg",
+      "focus": "50% 50%",
+      "ghost": "40,000",
+      "kicker": "3,000 inside",
+      "main": {
+        "text": "*40,000* outside.",
+        "at": "s7@0.3"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s8",
+      "enter": "cut",
+      "image": "gothic-hall.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The Winter Palace after the seizure, 8 November 1917"
+    },
+    {
+      "type": "photo",
+      "from": "s8@0.5",
+      "enter": "cut",
+      "image": "after.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The morning after — Yakov Steinberg"
+    },
+    {
+      "type": "film",
+      "from": "s9",
+      "enter": "cut",
+      "clip": "film-crowd.mp4",
+      "credit": "From Eisenstein's \"October\" (1928) — a staged film"
+    },
+    {
+      "type": "film",
+      "from": "s9@0.6",
+      "enter": "cut",
+      "clip": "film-smoke.mp4",
+      "credit": "From Eisenstein's \"October\" (1928) — a staged film"
+    },
+    {
+      "type": "film",
+      "from": "s10",
+      "enter": "cut",
+      "clip": "film-rifles.mp4",
+      "credit": "From Eisenstein's \"October\" (1928) — a staged film"
+    },
+    {
+      "type": "film",
+      "from": "s10@0.5",
+      "enter": "cut",
+      "clip": "film-gate.mp4",
+      "credit": "From Eisenstein's \"October\" (1928) — a staged film"
+    },
+    {
+      "type": "film",
+      "from": "s11",
+      "enter": "cut",
+      "clip": "film-hall.mp4",
+      "credit": "From Eisenstein's \"October\" (1928) — a staged film"
+    },
+    {
+      "type": "statement",
+      "from": "s11@0.55",
+      "enter": "cut",
+      "image": "attack-art.jpg",
+      "focus": "50% 60%",
+      "ghost": "1928",
+      "kicker": "++Eisenstein++'s \"October\"",
+      "main": {
+        "text": "Taken for *the truth*.",
+        "at": "s11@0.75"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "The most famous scenes of the Russian Revolution were mostly STAGED — years later. 🎬🇷🇺\n\n7 November 1917: the Bolsheviks took the Winter Palace. The cruiser Aurora fired one blank. 3,000 defenders, 40,000 attackers — and almost no fighting. The epic battle you've seen? Eisenstein filmed it in 1928.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #historytok #russianrevolution #1917 #lenin",
+    "facebook": "On this day in 1917, Lenin's Bolsheviks took the Winter Palace in Petrograd — the night now called the October Revolution, because Russia still used the old Julian calendar.\n\nThe cruiser Aurora fired a single shot from the river: a blank. Inside the palace were about 3,000 defenders — cadets, Cossacks and the Women's Battalion. Outside, some 40,000. The palace was barely defended; most of its defenders surrendered, and the first stage of the revolution went almost without casualties.\n\nThe epic \"storming\" came later. In 1920 it was restaged as a spectacle for 100,000 spectators, and in 1928 Sergei Eisenstein filmed it again for his film October, with fierce fighting that never happened. For decades, stills from that staged film were taken as the truth.\n\nThe film clips in our video are from Eisenstein's October — a dramatisation, not news footage.\n\nAlso on 7 November: Jeannette Rankin became the first woman elected to the US Congress (1916), and Ulysses S. Grant fought his first battle (1861).\n\nOur app tells what really happened, every single day. Follow the page and see the real story first. 📜\n\n#OnThisDay #History #RussianRevolution #1917",
+    "youtube": {
+      "title": "The Famous Storming Of The Winter Palace Was Mostly Staged #Shorts",
+      "description": "7 November 1917: the Bolsheviks took the Winter Palace in Petrograd — the October Revolution, named after Russia's old calendar. The cruiser Aurora fired one blank shot; about 3,000 defenders faced 40,000 attackers, and most surrendered with almost no fighting. The dramatic storming came later: a 1920 restaging for 100,000 spectators, then Sergei Eisenstein's 1928 film October — whose staged scenes were taken as the truth for decades.\n\nAlso on 7 November: Jeannette Rankin, first woman in Congress (1916), and Grant's first battle (1861).\n\nSubscribe — our history app, with a story for every date, is on its way.\n\nFilm: Eisenstein's \"October\" (1928), a staged film, public domain. Photos and art: public domain (Wikimedia Commons). Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #RussianRevolution #1917",
+      "tags": [
+        "october revolution",
+        "russian revolution",
+        "storming of the winter palace",
+        "winter palace",
+        "bolsheviks",
+        "lenin",
+        "petrograd",
+        "1917",
+        "cruiser aurora",
+        "kerensky",
+        "eisenstein",
+        "october 1928",
+        "ten days that shook the world",
+        "soviet union",
+        "russian history",
+        "ussr",
+        "communism history",
+        "propaganda",
+        "history myths",
+        "history",
+        "on this day",
+        "history facts",
+        "history shorts",
+        "documentary",
+        "russian revolution 1917",
+        "sergei eisenstein",
+        "vladimir lenin",
+        "soviet history",
+        "history documentary",
+        "ww1"
+      ]
+    },
+    "pinned": "For decades, a staged film was taken as real footage. What other 'famous' history scenes do you think were staged? 👇"
+  }
+}

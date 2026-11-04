@@ -1,0 +1,83 @@
+{
+  "total": 66.943,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "Mussolini told Greece to let his army in. Greece answered with one word.",
+      "start": 0.4,
+      "end": 5.285
+    },
+    {
+      "id": "s2",
+      "show": "On this day in 1940, his invasion ground to a halt.",
+      "start": 5.735,
+      "end": 9.874
+    },
+    {
+      "id": "s3",
+      "show": "Before dawn on October 28th, Italy's ambassador woke the Greek leader, Metaxas.",
+      "start": 10.274,
+      "end": 15.949
+    },
+    {
+      "id": "s4",
+      "show": "The demand: let Italian troops occupy Greece.",
+      "start": 16.299,
+      "end": 19.648
+    },
+    {
+      "id": "s5",
+      "show": "Metaxas replied: \"Then it is war.\" Greeks remember one word. Ochi. No.",
+      "start": 20.048,
+      "end": 24.848
+    },
+    {
+      "id": "s6",
+      "show": "Italy attacked from Albania, before its own deadline ran out.",
+      "start": 25.348,
+      "end": 29.316
+    },
+    {
+      "id": "s7",
+      "show": "Their general promised to finish the Greeks in two weeks.",
+      "start": 29.666,
+      "end": 32.909
+    },
+    {
+      "id": "s8",
+      "show": "Instead, in the mountains, the Greeks held, and an Italian division was almost wiped out.",
+      "start": 33.359,
+      "end": 38.991
+    },
+    {
+      "id": "s9",
+      "show": "On November 8th, the offensive was called off, and its commander removed.",
+      "start": 39.391,
+      "end": 43.849
+    },
+    {
+      "id": "s10",
+      "show": "Then the Greeks pushed the Italians back into Albania.",
+      "start": 44.299,
+      "end": 47.265
+    },
+    {
+      "id": "s11",
+      "show": "The first Axis setback of the war. Greece still celebrates the day it said no.",
+      "start": 47.665,
+      "end": 52.721
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: Australia lost its war against emus, and the Stockholm Bloodbath shocked Sweden.",
+      "start": 53.321,
+      "end": 60.254
+    },
+    {
+      "id": "end2",
+      "show": "Here's ours: yes, our history app is coming. Subscribe, and be there when we say go.",
+      "start": 60.704,
+      "end": 66.443
+    }
+  ]
+}

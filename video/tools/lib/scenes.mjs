@@ -139,6 +139,11 @@ html, body { margin: 0; overflow: hidden; background: var(--void); }
 .c-kicker { font-family: "Anton", sans-serif; font-size: 44px; letter-spacing: 0.22em; color: var(--gold); }
 .c-date { font-family: "Anton", sans-serif; font-size: 60px; letter-spacing: 0.08em; color: var(--text); background: rgba(6, 7, 10, 0.55); padding: 6px 26px; border: 3px solid var(--gold); }
 .c-hook { font-family: "Anton", sans-serif; line-height: 0.98; text-transform: uppercase; color: var(--text); text-shadow: 0 6px 30px rgba(0, 0, 0, 0.85); }
+/* clickbait extras (1 Nov 2026, the user: "sometimes an arrow and a clickbait line on the thumbnail") */
+.c-badge { position: absolute; left: 60px; top: 230px; transform: rotate(-6deg); font-family: "Anton", sans-serif; font-size: 72px; letter-spacing: 0.04em; text-transform: uppercase; color: #fff; background: var(--red); padding: 10px 34px 14px; border: 6px solid #fff; box-shadow: 0 14px 40px rgba(0, 0, 0, 0.7); z-index: 3; max-width: 960px; line-height: 1.02; }
+.c-arrow { position: absolute; width: 360px; height: 360px; z-index: 3; filter: drop-shadow(0 10px 22px rgba(0, 0, 0, 0.75)); transform-origin: 100% 50%; }
+.c-badge .hl { color: #ffe08a; }
+.c-ring { position: absolute; border: 14px solid var(--red); border-radius: 50%; z-index: 3; box-shadow: 0 0 0 5px #fff, 0 10px 30px rgba(0, 0, 0, 0.6); }
 
 /* also on this day — the day's other events, just before the end card */
 .a-list { display: flex; flex-direction: column; gap: 34px; margin-top: 30px; max-width: 858px; }
@@ -520,6 +525,29 @@ export const renderers = {
 };
 
 /** The thumbnail: the first frames of the video, so it is the default cover everywhere. */
+
+/** Optional thumbnail hooks: a red tilted badge, a ring round the thing that
+ *  matters, and a fat red arrow whose TIP lands on (x, y). Use them on some
+ *  covers, not all — a channel where every thumbnail shouts stops being heard. */
+function coverExtras(cover) {
+  let out = '';
+  if (cover.badge) out += `
+        <div class="c-badge">${md(cover.badge)}</div>`;
+  if (cover.ring) {
+    const { x, y, r = 130 } = cover.ring;
+    out += `
+        <div class="c-ring" style="left: ${x - r}px; top: ${y - r}px; width: ${2 * r}px; height: ${2 * r}px"></div>`;
+  }
+  if (cover.arrow) {
+    // The SVG points right; its tip sits at the box's right-middle, which is also
+    // the rotation origin, so the tip stays on (x, y) whatever the angle.
+    const { x, y, angle = 35, size = 360 } = cover.arrow;
+    out += `
+        <svg class="c-arrow" viewBox="0 0 100 100" style="left: ${x - size}px; top: ${y - size / 2}px; width: ${size}px; height: ${size}px; transform: rotate(${angle}deg)"><path d="M4 38 H62 V18 L98 50 L62 82 V62 H4 Z" fill="#ff3b30" stroke="#fff" stroke-width="5" stroke-linejoin="round"/></svg>`;
+  }
+  return out;
+}
+
 export function renderCover(cover, asset, duration) {
   const lines = (cover.lines ?? []).map(String);
   const longest = Math.max(...lines.map(plainLen), 1);
@@ -528,7 +556,7 @@ export function renderCover(cover, asset, duration) {
       <div id="cover" class="clip" data-start="0" data-duration="${duration}" data-track-index="20" style="position: absolute; inset: 0; z-index: 40">
         <div class="layer solid"></div>
         ${img(asset(cover.image), cover.focus)}
-        <div class="layer c-shade"></div>
+        <div class="layer c-shade"></div>${coverExtras(cover)}
         <div class="c-box"${Number.isFinite(cover.top) ? ` style="top: ${cover.top}px"` : ''}>
           <div class="c-kicker">${md(cover.kicker ?? 'ON THIS DAY')}</div>
           <div class="c-date">${md(cover.date)}</div>

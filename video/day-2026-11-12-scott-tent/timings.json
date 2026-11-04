@@ -1,0 +1,83 @@
+{
+  "total": 71.169,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "Eight months after they died, a search party found a tent, buried in the snow.",
+      "start": 0.4,
+      "end": 5.371
+    },
+    {
+      "id": "s2",
+      "show": "Inside lay Captain Scott, between two of his friends. And his diary.",
+      "start": 5.821,
+      "end": 10.493
+    },
+    {
+      "id": "s3",
+      "show": "They were found on this day in 1912, in Antarctica.",
+      "start": 10.993,
+      "end": 14.982
+    },
+    {
+      "id": "s4",
+      "show": "In January, Scott's five reached the South Pole. A Norwegian tent was already there.",
+      "start": 15.382,
+      "end": 21.334
+    },
+    {
+      "id": "s5",
+      "show": "Roald Amundsen had beaten them by 34 days.",
+      "start": 21.684,
+      "end": 24.863
+    },
+    {
+      "id": "s6",
+      "show": "On the way home, Lawrence Oates, crippled by frostbite, walked out into a blizzard.",
+      "start": 25.363,
+      "end": 30.675
+    },
+    {
+      "id": "s7",
+      "show": "His last words, Scott wrote: \"I am just going outside, and may be some time.\"",
+      "start": 31.025,
+      "end": 36.123
+    },
+    {
+      "id": "s8",
+      "show": "A dog team had waited for them at a supply depot. It turned back when they were only 55 miles away.",
+      "start": 36.673,
+      "end": 43.82
+    },
+    {
+      "id": "s9",
+      "show": "Then a blizzard trapped the last three, just 11 miles from food.",
+      "start": 44.22,
+      "end": 48.273
+    },
+    {
+      "id": "s10",
+      "show": "Scott's last entry: \"For God's sake, look after our people.\"",
+      "start": 48.773,
+      "end": 52.635
+    },
+    {
+      "id": "s11",
+      "show": "The searchers lowered the tent over them, and left it as their tomb.",
+      "start": 53.235,
+      "end": 57.117
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: a probe landed on a comet, and football got its first paid pro.",
+      "start": 57.717,
+      "end": 63.456
+    },
+    {
+      "id": "end2",
+      "show": "Our app is on its way, with a story for every day. Subscribe now, and don't get left out in the cold.",
+      "start": 63.906,
+      "end": 70.669
+    }
+  ]
+}

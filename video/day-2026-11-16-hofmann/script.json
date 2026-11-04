@@ -1,0 +1,343 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-11-16",
+  "dateKey": "11-16",
+  "slug": "hofmann",
+  "title": "Albert Hofmann makes LSD, 1938 — the molecule left on a shelf for five years",
+  "eventId": "evt-11-16-1938-albert-hofmann",
+  "category": "Culture & Ideas",
+  "sources": [
+    "Wikipedia: Albert Hofmann — at Sandoz Laboratories in Basel he studied squill and the fungus ergot; first synthesized LSD on 16 November 1938, aiming for a respiratory and circulatory stimulant; it was set aside for five years until 16 April 1943, when he re-examined it and accidentally discovered its effects; on 19 April 1943 he intentionally took 250 micrograms, which he thought small but was a strong dose; he died aged 102 on 29 April 2008; he said it was misused by the counterculture of the 1960s",
+    "Wikipedia: History of LSD — while re-synthesizing it he accidentally absorbed a small amount; 250 micrograms is about 10 times the minimum active amount; he asked his assistant to escort him home and, as was customary in Basel, they went by bicycle — the origin of \"Bicycle Day\"; Sandoz supplied it to researchers as Delysid from 1947 and halted production in August 1965",
+    "Also on this day (candidates.md, in the app): 1632 King Gustavus Adolphus is killed at Lützen; 2022 NASA launches Artemis 1",
+    "Images: rye ergot (Claviceps purpurea), CC0; the LSD molecule, public domain. No photo of Hofmann or of Sandoz is used",
+    "Illustrative stock footage (Pexels, free licence; not of the event): a flask, a grain field, a street with bicycles"
+  ],
+  "music": {
+    "track": "satie-gymnopedie-1"
+  },
+  "highlight": [
+    "LSD",
+    "ERGOT",
+    "BICYCLE",
+    "ACCIDENTALLY",
+    "SHELF",
+    "ASIDE"
+  ],
+  "alert": [
+    "BANNED",
+    "MISUSED",
+    "TEN",
+    "STRONG"
+  ],
+  "names": [
+    "HOFMANN",
+    "ALBERT",
+    "SANDOZ",
+    "BASEL"
+  ],
+  "cover": {
+    "image": "molecule.jpg",
+    "focus": "85% 50%",
+    "date": "16 NOVEMBER 1938",
+    "lines": [
+      "LEFT ON A SHELF",
+      "FOR *5 YEARS*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "A chemist made a new molecule, then left it on a shelf for five years.",
+      "show": "A chemist made a new molecule, then left it on a shelf for five years.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s2",
+      "say": "Albert Hofmann first made LSD on this day in nineteen thirty-eight.",
+      "show": "Albert Hofmann first made LSD on this day in 1938.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "He worked for Sandoz, in Basel, studying ergot, a fungus that grows on rye.",
+      "show": "He worked for Sandoz, in Basel, studying ergot, a fungus that grows on rye.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "He hoped for a medicine for breathing and circulation. It was set aside.",
+      "show": "He hoped for a medicine for breathing and circulation. It was set aside.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s5",
+      "say": "In April nineteen forty-three, he made it again, and accidentally absorbed a tiny amount.",
+      "show": "In April 1943, he made it again, and accidentally absorbed a tiny amount.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s6",
+      "say": "Three days later, he took what he thought was a small dose. It was about ten times the amount needed.",
+      "show": "Three days later, he took what he thought was a small dose. It was about ten times the amount needed.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s7",
+      "say": "He asked his assistant to take him home. As was usual in Basel, they went by bicycle.",
+      "show": "He asked his assistant to take him home. As was usual in Basel, they went by bicycle.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s8",
+      "say": "That ride is now known as Bicycle Day.",
+      "show": "That ride is now known as Bicycle Day.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s9",
+      "say": "It spread far beyond the lab. In nineteen sixty-five, Sandoz stopped making it.",
+      "show": "It spread far beyond the lab. In 1965, Sandoz stopped making it.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s10",
+      "say": "Hofmann lived to a hundred and two. He believed his discovery had been misused.",
+      "show": "Hofmann lived to 102. He believed his discovery had been misused.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "also": {
+    "say": "Also on this day: Sweden's king fell at Lützen, and Artemis One launched.",
+    "items": [
+      {
+        "year": "1632",
+        "text": "Gustavus Adolphus killed at Lützen"
+      },
+      {
+        "year": "2022",
+        "text": "Artemis 1 launches"
+      }
+    ],
+    "image": "ergot.jpg"
+  },
+  "cta": {
+    "story": "Some discoveries wait years on a shelf.",
+    "say": "Our app is on its way, with a story for every day. Subscribe now, so ours doesn't wait.",
+    "pill": "OFF THE SHELF",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "film",
+      "note": "hook",
+      "clip": "stock-flask.mp4",
+      "credit": "A laboratory flask · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s1@0.4",
+      "enter": "cut",
+      "image": "molecule.jpg",
+      "focus": "60% 50%",
+      "ghost": "5",
+      "kicker": "On a shelf",
+      "main": {
+        "text": "*Five years*. Then he looked again.",
+        "at": "s1@0.6"
+      }
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "molecule.jpg",
+      "focus": "15% 50%",
+      "date": "16 NOVEMBER",
+      "year": "1938",
+      "place": "Sandoz Laboratories, Basel"
+    },
+    {
+      "type": "film",
+      "from": "s3",
+      "enter": "cut",
+      "clip": "stock-rye.mp4",
+      "credit": "A grain field · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s3@0.55",
+      "enter": "cut",
+      "image": "ergot-tall.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Ergot, the dark growths on rye"
+    },
+    {
+      "type": "photo",
+      "from": "s4",
+      "enter": "cut",
+      "image": "molecule.jpg",
+      "focus": "20% 50%",
+      "move": "in",
+      "fact": "The molecule: lysergic acid diethylamide"
+    },
+    {
+      "type": "statement",
+      "from": "s4@0.6",
+      "enter": "cut",
+      "image": "molecule.jpg",
+      "focus": "70% 50%",
+      "ghost": "LSD-25",
+      "main": {
+        "text": "Set *aside*.",
+        "at": "s4@0.85"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s5",
+      "enter": "cut",
+      "clip": "stock-flask.mp4",
+      "credit": "A laboratory flask · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s5@0.5",
+      "enter": "cut",
+      "image": "molecule.jpg",
+      "focus": "95% 50%",
+      "ghost": "1943",
+      "kicker": "16 April 1943",
+      "main": {
+        "text": "An *accident*.",
+        "at": "s5@0.65"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s6",
+      "enter": "cut",
+      "image": "ergot.jpg",
+      "focus": "50% 50%",
+      "ghost": "10×",
+      "kicker": "A quarter of a milligram",
+      "main": {
+        "text": "About !!ten times!! too much.",
+        "at": "s6@0.75"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s7",
+      "enter": "cut",
+      "clip": "stock-street.mp4",
+      "credit": "A street with bicycles · illustrative · Pexels"
+    },
+    {
+      "type": "film",
+      "from": "s7@0.5",
+      "enter": "cut",
+      "clip": "stock-street2.mp4",
+      "credit": "A street with bicycles · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s8",
+      "enter": "cut",
+      "image": "ergot-tall.jpg",
+      "focus": "50% 75%",
+      "ghost": "19.4",
+      "kicker": "19 April 1943",
+      "main": {
+        "text": "*Bicycle* Day.",
+        "at": "s8@0.4"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s9",
+      "enter": "cut",
+      "image": "molecule.jpg",
+      "focus": "85% 50%",
+      "move": "in",
+      "fact": "Sold to researchers as \"Delysid\" from 1947"
+    },
+    {
+      "type": "statement",
+      "from": "s9@0.55",
+      "enter": "cut",
+      "image": "ergot-tall.jpg",
+      "focus": "50% 30%",
+      "ghost": "1965",
+      "kicker": "++Sandoz++, August 1965",
+      "main": {
+        "text": "Production !!stopped!!.",
+        "at": "s9@0.8"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s10",
+      "enter": "cut",
+      "clip": "stock-field.mp4",
+      "credit": "A grain field · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s10@0.45",
+      "enter": "cut",
+      "image": "ergot.jpg",
+      "focus": "30% 50%",
+      "ghost": "102",
+      "kicker": "++Albert Hofmann++, 1906–2008",
+      "main": {
+        "text": "\"!!Misused!!.\"",
+        "at": "s10@0.8"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "A chemist made a molecule — then left it on a shelf for five years. 🧪\n\n16 November 1938: Albert Hofmann first made LSD at Sandoz in Basel, hoping for a circulation stimulant. In 1943 he made it again, absorbed a trace by accident, and three days later took a dose ten times stronger than needed. His assistant took him home by bicycle.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #science #chemistry #switzerland #historytok",
+    "facebook": "On this day in 1938, the Swiss chemist Albert Hofmann first made LSD, at Sandoz Laboratories in Basel.\n\nHe was studying ergot, a fungus that grows on rye, and hoped for a medicine to stimulate breathing and circulation. The new compound was set aside. Five years later, on 16 April 1943, he made it again and accidentally absorbed a tiny amount. Three days later he deliberately took a quarter of a milligram — which he thought was small, but was about ten times the amount needed for an effect. He asked his assistant to take him home; as was usual in Basel, they went by bicycle. That ride is now known as \"Bicycle Day\".\n\nSandoz supplied the drug to researchers from 1947, but it spread far beyond the lab, and Sandoz stopped making it in 1965. Hofmann lived to 102 and believed his discovery had been misused.\n\nAlso on 16 November: King Gustavus Adolphus of Sweden was killed at Lützen (1632), and NASA launched Artemis 1 (2022).\n\nSome discoveries wait years on a shelf. Our app, with a story for every day, is on its way — follow the page so ours doesn't wait. 📜\n\n#OnThisDay #History #Science #Chemistry",
+    "youtube": {
+      "title": "The Molecule Left On A Shelf For 5 Years #Shorts",
+      "description": "16 November 1938: Swiss chemist Albert Hofmann first made LSD at Sandoz Laboratories in Basel, while studying ergot, a fungus on rye. He hoped for a circulation stimulant; the compound was set aside. In April 1943 he made it again, absorbed a trace by accident, and three days later took a quarter of a milligram — about ten times the active amount. His assistant took him home by bicycle: \"Bicycle Day\". Sandoz stopped making it in 1965; Hofmann lived to 102 and believed it had been misused.\n\nAlso on 16 November: Gustavus Adolphus is killed at Lützen (1632) and Artemis 1 launches (2022).\n\nSubscribe — our history app, with a story for every date, is on its way.\n\nImages: CC0 / public domain (Wikimedia Commons). Flask, field and street shots: illustrative stock footage (Pexels). Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #Science #Chemistry",
+      "tags": [
+        "albert hofmann",
+        "history of lsd",
+        "lsd discovery",
+        "bicycle day",
+        "sandoz",
+        "basel",
+        "switzerland history",
+        "ergot",
+        "claviceps purpurea",
+        "chemistry history",
+        "science history",
+        "accidental discovery",
+        "accidental discoveries",
+        "chemist",
+        "pharmacology",
+        "history of medicine",
+        "scientific discovery",
+        "swiss chemist",
+        "1938",
+        "1943",
+        "history",
+        "on this day",
+        "history facts",
+        "history shorts",
+        "documentary",
+        "science facts",
+        "weird history",
+        "drug history",
+        "psychedelic history",
+        "lysergic acid diethylamide",
+        "medicine history"
+      ]
+    },
+    "pinned": "He shelved it for five years — and then an accident changed everything. What other discovery happened by accident? 👇"
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-11-13",
+  "dateKey": "11-13",
+  "slug": "fantasia",
+  "title": "Fantasia, 1940 — the first commercial film in stereo, and a flop",
+  "eventId": "evt-11-13-1940-walt-disney",
+  "category": "Culture & Ideas",
+  "sources": [
+    "Wikipedia: Fantasia (1940 film) — premiered as a roadshow at the Broadway Theatre, New York, on November 13, 1940; Disney wanted audiences to \"feel as though they were standing at the podium with Stokowski\"; 33 microphones around the Philadelphia Orchestra fed eight optical recording machines; more than 1,000 artists and technicians, more than 500 animated characters; Mickey was given pupils for the first time; RKO called it a \"longhair musical\"; despite critical acclaim it was an initial box office failure; the $85,000 cost of a single Fantasound setup; selected for the National Film Registry in 1990 and regarded as one of the greatest animated films ever made",
+    "Wikipedia: Fantasound — the first roadshow opened at the Broadway Theatre, the same theater where Steamboat Willie appeared 12 years earlier; installation took a week working around the clock; speakers left, centre and right, with \"pan pots\" moving the sound",
+    "candidates.md (in the app): Walt Disney's Fantasia, the first commercial film shown with stereophonic sound. Also on this day: 1927 the Holland Tunnel opens; 2012 a total solar eclipse in Australia",
+    "No Fantasia imagery is used (still under copyright). Public domain: Steamboat Willie (1928) film scan and still; Leopold Stokowski (LOC); the Philadelphia Orchestra, 1916; the Academy of Music, Philadelphia; Walt Disney, 1935; Stokowski in Carnegie Hall (1947)",
+    "Illustrative stock footage (Pexels, free licence; not of the event): an orchestra and conductor, a violin, a cello, film strips"
+  ],
+  "music": {
+    "track": "bach-air-1920"
+  },
+  "highlight": [
+    "STEREO",
+    "FANTASIA",
+    "PUPILS",
+    "GREATEST",
+    "SOUND",
+    "FIRST"
+  ],
+  "alert": [
+    "FLOPPED",
+    "LONG-HAIR",
+    "COST"
+  ],
+  "names": [
+    "DISNEY",
+    "WALT",
+    "STOKOWSKI",
+    "LEOPOLD",
+    "MICKEY",
+    "PHILADELPHIA",
+    "BROADWAY",
+    "WILLIE"
+  ],
+  "cover": {
+    "image": "stokowski.jpg",
+    "focus": "50% 30%",
+    "date": "13 NOVEMBER 1940",
+    "lines": [
+      "THE FIRST FILM",
+      "IN *STEREO*"
+    ],
+    "badge": "And it !!flopped!!"
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "Walt Disney wanted his audience to feel like they were standing right next to the conductor.",
+      "show": "Walt Disney wanted his audience to feel like they were standing right next to the conductor.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s2",
+      "say": "So he built a new kind of cinema sound.",
+      "show": "So he built a new kind of cinema sound.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s3",
+      "say": "Fantasia premiered on this day in nineteen forty, in New York.",
+      "show": "Fantasia premiered on this day in 1940, in New York.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s4",
+      "say": "It was the first commercial film shown in stereo.",
+      "show": "It was the first commercial film shown in stereo.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s5",
+      "say": "Thirty-three microphones surrounded the orchestra, and its conductor, Leopold Stokowski.",
+      "show": "33 microphones surrounded the orchestra, and its conductor, Leopold Stokowski.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s6",
+      "say": "In the theatre, speakers moved the music across the room. Installing them took a week, around the clock.",
+      "show": "In the theatre, speakers moved the music across the room. Installing them took a week, around the clock.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s7",
+      "say": "It was the same Broadway theatre where Mickey Mouse's Steamboat Willie had played, twelve years before.",
+      "show": "It was the same Broadway theatre where Mickey Mouse's Steamboat Willie had played, 12 years before.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s8",
+      "say": "Over a thousand artists drew five hundred characters. Mickey got pupils in his eyes, for the first time.",
+      "show": "Over 1,000 artists drew 500 characters. Mickey got pupils in his eyes, for the first time.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s9",
+      "say": "But one sound system cost eighty-five thousand dollars. The film flopped.",
+      "show": "But one sound system cost $85,000. The film flopped.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s10",
+      "say": "Its own distributor called it a long-hair musical.",
+      "show": "Its own distributor called it a \"long-hair musical\".",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s11",
+      "say": "Today, it is counted among the greatest animated films ever made.",
+      "show": "Today, it is counted among the greatest animated films ever made.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "also": {
+    "say": "Also on this day: the Holland Tunnel opened, and a solar eclipse darkened Australia.",
+    "items": [
+      {
+        "year": "1927",
+        "text": "The Holland Tunnel opens"
+      },
+      {
+        "year": "2012",
+        "text": "A total solar eclipse in Australia"
+      }
+    ],
+    "image": "willie.jpg"
+  },
+  "cta": {
+    "story": "Some ideas arrive ahead of their time.",
+    "say": "Our app is on its way, with a story for every day. Subscribe now, and hear it first.",
+    "pill": "HEAR IT FIRST",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "film",
+      "note": "hook",
+      "clip": "stock-conductor.mp4",
+      "credit": "A conductor and orchestra · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.55",
+      "enter": "cut",
+      "image": "stokowski.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "Leopold Stokowski, conductor"
+    },
+    {
+      "type": "statement",
+      "from": "s2",
+      "enter": "cut",
+      "image": "orchestra.jpg",
+      "focus": "50% 50%",
+      "ghost": "SOUND",
+      "main": {
+        "text": "A new kind of *sound*.",
+        "at": "s2@0.4"
+      }
+    },
+    {
+      "type": "title",
+      "from": "s3",
+      "enter": "cut",
+      "image": "disney.jpg",
+      "focus": "50% 35%",
+      "date": "13 NOVEMBER",
+      "year": "1940",
+      "place": "Broadway Theatre, New York"
+    },
+    {
+      "type": "film",
+      "from": "s4",
+      "enter": "cut",
+      "clip": "stock-violin.mp4",
+      "credit": "A violin · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s4@0.4",
+      "enter": "cut",
+      "image": "orchestra.jpg",
+      "focus": "30% 50%",
+      "ghost": "L · C · R",
+      "kicker": "++Fantasia++, 1940",
+      "main": {
+        "text": "The *first* film in *stereo*.",
+        "at": "s4@0.5"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s5",
+      "enter": "cut",
+      "image": "orchestra.jpg",
+      "focus": "60% 50%",
+      "move": "in",
+      "fact": "The Philadelphia Orchestra under Stokowski, 1916"
+    },
+    {
+      "type": "statement",
+      "from": "s5@0.55",
+      "enter": "cut",
+      "image": "stokowski.jpg",
+      "focus": "50% 60%",
+      "ghost": "33",
+      "kicker": "++Leopold Stokowski++",
+      "main": {
+        "text": "*33* microphones.",
+        "at": "s5@0.6"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s6",
+      "enter": "cut",
+      "clip": "stock-orchestra.mp4",
+      "credit": "An orchestra · illustrative · Pexels"
+    },
+    {
+      "type": "film",
+      "from": "s6@0.5",
+      "enter": "cut",
+      "clip": "stock-cello.mp4",
+      "credit": "A cello · illustrative · Pexels"
+    },
+    {
+      "type": "film",
+      "from": "s7",
+      "enter": "cut",
+      "clip": "film-willie-wheel.mp4",
+      "credit": "Steamboat Willie (1928) — public domain"
+    },
+    {
+      "type": "film",
+      "from": "s7@0.55",
+      "enter": "cut",
+      "clip": "film-willie-boat.mp4",
+      "credit": "Steamboat Willie (1928) — public domain"
+    },
+    {
+      "type": "photo",
+      "from": "s8",
+      "enter": "cut",
+      "image": "disney.jpg",
+      "focus": "50% 40%",
+      "move": "in",
+      "fact": "Walt Disney with Mickey Mouse, 1935"
+    },
+    {
+      "type": "statement",
+      "from": "s8@0.55",
+      "enter": "cut",
+      "image": "willie.jpg",
+      "focus": "50% 40%",
+      "ghost": "500",
+      "kicker": "1,000+ artists",
+      "main": {
+        "text": "++Mickey++ got *pupils*.",
+        "at": "s8@0.7"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s9",
+      "enter": "cut",
+      "clip": "stock-film.mp4",
+      "credit": "Film strips · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s9@0.5",
+      "enter": "cut",
+      "image": "orchestra.jpg",
+      "focus": "20% 50%",
+      "ghost": "$85K",
+      "kicker": "One sound system: $85,000",
+      "main": {
+        "text": "The film !!flopped!!.",
+        "at": "s9@0.75"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s10",
+      "enter": "cut",
+      "image": "orchestra.jpg",
+      "focus": "70% 50%",
+      "ghost": "RKO",
+      "kicker": "Its distributor, ++RKO++",
+      "main": {
+        "text": "A \"!!long-hair!! musical\".",
+        "at": "s10@0.6"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s11",
+      "enter": "cut",
+      "image": "stokowski-1947.jpg",
+      "focus": "50% 40%",
+      "move": "in",
+      "fact": "Stokowski conducting, 1947"
+    },
+    {
+      "type": "film",
+      "from": "s11@0.5",
+      "enter": "cut",
+      "clip": "film-willie-pete.mp4",
+      "credit": "Steamboat Willie (1928) — public domain"
+    }
+  ],
+  "post": {
+    "tiktok": "Walt Disney wanted you to feel like you were standing next to the conductor. 🎻🔊\n\n13 November 1940: Fantasia premiered on Broadway — the first commercial film shown in stereo. 33 microphones, speakers moving the music around the room… and $85,000 per theatre. It flopped. Today it's one of the greatest animated films ever made.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #disney #filmhistory #animation #historytok",
+    "facebook": "On this day in 1940, Walt Disney's Fantasia premiered at the Broadway Theatre in New York — the first commercial film shown with stereophonic sound.\n\nDisney wanted audiences to feel \"as though they were standing at the podium\" with the conductor, Leopold Stokowski. Thirty-three microphones surrounded the Philadelphia Orchestra, feeding eight recording machines. In the theatre, a new system called Fantasound moved the music between speakers; installing it took a week, around the clock. It was the same theatre where Mickey Mouse's Steamboat Willie had played 12 years earlier.\n\nMore than 1,000 artists drew over 500 characters, and Mickey got pupils in his eyes for the first time. But one Fantasound setup cost $85,000, the distributor RKO called it a \"longhair musical\", and despite rave reviews the film was a box-office failure at first.\n\nToday it is counted among the greatest animated films ever made, and it was chosen for the U.S. National Film Registry in 1990.\n\nAlso on 13 November: the Holland Tunnel opened under the Hudson (1927), and a total solar eclipse darkened northern Australia (2012).\n\nSome ideas arrive ahead of their time. Our app, with a story for every day, is on its way — follow the page and hear it first. 📜\n\n#OnThisDay #History #Disney #FilmHistory",
+    "youtube": {
+      "title": "Disney's Stereo Experiment That Flopped #Shorts",
+      "description": "13 November 1940: Walt Disney's Fantasia premiered at the Broadway Theatre in New York — the first commercial film shown in stereophonic sound. 33 microphones surrounded the Philadelphia Orchestra and Leopold Stokowski; in the theatre, Fantasound moved the music between speakers. It was the same theatre where Steamboat Willie played 12 years earlier. Each sound system cost $85,000, the distributor called it a \"longhair musical\", and the film was a flop at first. Today it is counted among the greatest animated films ever made.\n\nAlso on 13 November: the Holland Tunnel opens (1927) and a total solar eclipse crosses Australia (2012).\n\nSubscribe — our history app, with a story for every date, is on its way.\n\nNo Fantasia footage is shown. Steamboat Willie (1928) and photos: public domain (Wikimedia Commons). Orchestra, violin, cello and film-strip shots: illustrative stock footage (Pexels). Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #Disney #FilmHistory",
+      "tags": [
+        "fantasia",
+        "fantasia 1940",
+        "walt disney",
+        "disney history",
+        "fantasound",
+        "stereo sound",
+        "first stereo film",
+        "leopold stokowski",
+        "philadelphia orchestra",
+        "steamboat willie",
+        "mickey mouse",
+        "sorcerers apprentice",
+        "disney animation",
+        "animation history",
+        "classic animation",
+        "film history",
+        "movie history",
+        "cinema history",
+        "surround sound",
+        "broadway theatre",
+        "classical music",
+        "1940",
+        "history",
+        "on this day",
+        "history facts",
+        "history shorts",
+        "documentary",
+        "hollywood history",
+        "old hollywood",
+        "box office flop"
+      ]
+    },
+    "pinned": "Fantasia flopped in 1940 and is a classic today. Which film do you think was way ahead of its time? 👇"
+  }
+}

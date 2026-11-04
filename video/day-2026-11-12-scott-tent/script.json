@@ -1,0 +1,372 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-11-12",
+  "dateKey": "11-12",
+  "slug": "scott-tent",
+  "title": "Scott's tent found, 1912 — the diary in the snow, eight months later",
+  "eventId": "evt-11-12-1912-terra-nova-expedition",
+  "category": "Science & Technology",
+  "sources": [
+    "Wikipedia: Terra Nova Expedition — Scott and four companions reached the South Pole on 17 January 1912 and found that Amundsen had preceded them by 34 days; on 18 January they found Amundsen's tent; Oates walked out of the tent into a blizzard, saying \"I am just going outside and may be some time\"; Scott, Wilson and Bowers were halted 11 miles (18 km) south of One Ton Depot by a blizzard on 20 March; Scott's last diary entry, 29 March 1912, ends \"For God's sake look after our people\"; Cherry-Garrard and Dimitri waited at One Ton Depot and turned back on 10 March, when Scott's party was 55 miles south",
+    "Wikipedia: Robert Falcon Scott — the bodies were discovered by a search party on 12 November 1912; Tryggve Gran described the tent \"snowcovered til up above the door, with Scott in the middle\"; their final camp became their tomb, the tent roof lowered over the bodies",
+    "Wikipedia: Lawrence Oates; Apsley Cherry-Garrard — on 12 November the bodies of Scott, Wilson and Bowers were found in their tent, with their diaries, records and geological specimens; Oates's body was never found",
+    "Also on this day (candidates.md, in the app): 2014 the Philae lander touches down on comet 67P; 1892 William Heffelfinger is paid $500 to play football, the first known professional player",
+    "Film: The Great White Silence (1924), Herbert Ponting, public domain. Photos and painting (public domain): the polar party at the pole; Amundsen's tent (Polheim); Scott in the Cape Evans hut, 1911; Oates, 1911; Terra Nova; \"The Last Rest\"; \"A Very Gallant Gentleman\" (Dollman, 1913); a grotto in an iceberg"
+  ],
+  "music": {
+    "track": "chopin-nocturne-c-minor"
+  },
+  "highlight": [
+    "POLE",
+    "DIARY",
+    "TENT",
+    "SNOW",
+    "FOUND",
+    "PEOPLE"
+  ],
+  "alert": [
+    "BLIZZARD",
+    "FROSTBITE",
+    "TOMB",
+    "TRAPPED",
+    "BACK",
+    "BEATEN"
+  ],
+  "names": [
+    "SCOTT",
+    "OATES",
+    "AMUNDSEN",
+    "WILSON",
+    "BOWERS",
+    "ANTARCTICA",
+    "NORWEGIAN",
+    "ROALD",
+    "LAWRENCE"
+  ],
+  "cover": {
+    "image": "pole-group.jpg",
+    "focus": "50% 40%",
+    "date": "12 NOVEMBER 1912",
+    "lines": [
+      "FOUND IN THE TENT",
+      "*8 MONTHS* LATER"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "Eight months after they died, a search party found a tent, buried in the snow.",
+      "show": "Eight months after they died, a search party found a tent, buried in the snow.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "Inside lay Captain Scott, between two of his friends. And his diary.",
+      "show": "Inside lay Captain Scott, between two of his friends. And his diary.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s3",
+      "say": "They were found on this day in nineteen twelve, in Antarctica.",
+      "show": "They were found on this day in 1912, in Antarctica.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "In January, Scott's five reached the South Pole. A Norwegian tent was already there.",
+      "show": "In January, Scott's five reached the South Pole. A Norwegian tent was already there.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s5",
+      "say": "Roald Amundsen had beaten them by thirty-four days.",
+      "show": "Roald Amundsen had beaten them by 34 days.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s6",
+      "say": "On the way home, Lawrence Oates, crippled by frostbite, walked out into a blizzard.",
+      "show": "On the way home, Lawrence Oates, crippled by frostbite, walked out into a blizzard.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s7",
+      "say": "His last words, Scott wrote: I am just going outside, and may be some time.",
+      "show": "His last words, Scott wrote: \"I am just going outside, and may be some time.\"",
+      "pauseAfter": 0.55
+    },
+    {
+      "id": "s8",
+      "say": "A dog team had waited for them at a supply depot. It turned back when they were only fifty-five miles away.",
+      "show": "A dog team had waited for them at a supply depot. It turned back when they were only 55 miles away.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s9",
+      "say": "Then a blizzard trapped the last three, just eleven miles from food.",
+      "show": "Then a blizzard trapped the last three, just 11 miles from food.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s10",
+      "say": "Scott's last entry: For God's sake, look after our people.",
+      "show": "Scott's last entry: \"For God's sake, look after our people.\"",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s11",
+      "say": "The searchers lowered the tent over them, and left it as their tomb.",
+      "show": "The searchers lowered the tent over them, and left it as their tomb.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "also": {
+    "say": "Also on this day: a probe landed on a comet, and football got its first paid pro.",
+    "items": [
+      {
+        "year": "2014",
+        "text": "Philae lands on a comet"
+      },
+      {
+        "year": "1892",
+        "text": "The first paid football pro"
+      }
+    ],
+    "image": "grotto.jpg"
+  },
+  "cta": {
+    "story": "Some stories wait years to be found.",
+    "say": "Our app is on its way, with a story for every day. Subscribe now, and don't get left out in the cold.",
+    "pill": "DON'T FREEZE",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "film",
+      "note": "hook",
+      "clip": "film-mountains.mp4",
+      "credit": "The Great White Silence (1924) — Herbert Ponting's expedition film"
+    },
+    {
+      "type": "statement",
+      "from": "s1@0.5",
+      "enter": "cut",
+      "image": "last-rest.jpg",
+      "focus": "50% 50%",
+      "ghost": "TENT",
+      "kicker": "++Antarctica++, 1912",
+      "main": {
+        "text": "A tent in the *snow*.",
+        "at": "s1@0.7"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s2",
+      "enter": "cut",
+      "image": "scott-hut.jpg",
+      "focus": "45% 45%",
+      "move": "in",
+      "fact": "Scott writing his diary, Cape Evans hut, 1911"
+    },
+    {
+      "type": "statement",
+      "from": "s2@0.6",
+      "enter": "cut",
+      "image": "scott.jpg",
+      "focus": "50% 30%",
+      "ghost": "DIARY",
+      "main": {
+        "text": "And his *diary*.",
+        "at": "s2@0.75"
+      }
+    },
+    {
+      "type": "title",
+      "from": "s3",
+      "enter": "cut",
+      "image": "terra-nova.jpg",
+      "focus": "50% 50%",
+      "date": "12 NOVEMBER",
+      "year": "1912",
+      "place": "Ross Ice Shelf, Antarctica"
+    },
+    {
+      "type": "photo",
+      "from": "s4",
+      "enter": "cut",
+      "image": "pole-group.jpg",
+      "focus": "50% 45%",
+      "move": "in",
+      "fact": "Scott's party at the South Pole, January 1912"
+    },
+    {
+      "type": "photo",
+      "from": "s4@0.6",
+      "enter": "cut",
+      "image": "polheim.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Amundsen's tent at the Pole, photographed by Scott's party"
+    },
+    {
+      "type": "statement",
+      "from": "s5",
+      "enter": "cut",
+      "image": "polheim.jpg",
+      "focus": "60% 40%",
+      "ghost": "34",
+      "kicker": "++Roald Amundsen++, Norway",
+      "main": {
+        "text": "!!Beaten!! by *34 days*.",
+        "at": "s5@0.6"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s6",
+      "enter": "cut",
+      "clip": "film-tent.mp4",
+      "credit": "The Great White Silence (1924) — Herbert Ponting's expedition film"
+    },
+    {
+      "type": "photo",
+      "from": "s6@0.45",
+      "enter": "cut",
+      "image": "oates.jpg",
+      "focus": "50% 35%",
+      "move": "in",
+      "fact": "Captain Lawrence Oates, 1911"
+    },
+    {
+      "type": "photo",
+      "from": "s7",
+      "enter": "cut",
+      "image": "gallant.jpg",
+      "focus": "55% 50%",
+      "move": "in",
+      "fact": "\"A Very Gallant Gentleman\" — Oates, painted in 1913"
+    },
+    {
+      "type": "statement",
+      "from": "s7@0.45",
+      "enter": "cut",
+      "image": "gallant.jpg",
+      "focus": "40% 50%",
+      "ghost": "OUT",
+      "kicker": "++Lawrence Oates++",
+      "main": {
+        "text": "\"…and may be *some time*.\"",
+        "at": "s7@0.65"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s8",
+      "enter": "cut",
+      "clip": "film-dogs.mp4",
+      "credit": "The Great White Silence (1924) — Herbert Ponting's expedition film"
+    },
+    {
+      "type": "statement",
+      "from": "s8@0.5",
+      "enter": "cut",
+      "image": "grotto.jpg",
+      "focus": "50% 50%",
+      "ghost": "55",
+      "kicker": "The dogs turned back, 10 March",
+      "main": {
+        "text": "Only *55 miles* away.",
+        "at": "s8@0.8"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s9",
+      "enter": "cut",
+      "clip": "film-cave.mp4",
+      "credit": "The Great White Silence (1924) — Herbert Ponting's expedition film"
+    },
+    {
+      "type": "statement",
+      "from": "s9@0.4",
+      "enter": "cut",
+      "image": "grotto.jpg",
+      "focus": "30% 70%",
+      "ghost": "11",
+      "kicker": "++Scott++, ++Wilson++, ++Bowers++",
+      "main": {
+        "text": "!!Trapped!! *11 miles* from food.",
+        "at": "s9@0.5"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s10",
+      "enter": "cut",
+      "image": "scott-hut.jpg",
+      "focus": "55% 40%",
+      "ghost": "29.3",
+      "kicker": "Last entry, 29 March 1912",
+      "main": {
+        "text": "\"Look after our *people*.\"",
+        "at": "s10@0.55"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s11",
+      "enter": "cut",
+      "image": "last-rest.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The cairn over the tent — \"The Last Rest\""
+    },
+    {
+      "type": "film",
+      "from": "s11@0.55",
+      "enter": "cut",
+      "clip": "film-ship.mp4",
+      "credit": "The Great White Silence (1924) — Herbert Ponting's expedition film"
+    }
+  ],
+  "post": {
+    "tiktok": "Eight months after they died, a search party found a tent buried in the snow. Inside: Captain Scott — and his diary. ❄️📓\n\n12 November 1912. Scott's team reached the South Pole 34 days after Amundsen. On the way home Oates walked into a blizzard, a dog team turned back 55 miles away, and the last three died 11 miles from food.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #antarctica #explorers #southpole #historytok",
+    "facebook": "On this day in 1912, a search party in Antarctica found a tent half-buried in snow. Inside lay Captain Robert Falcon Scott, between Edward Wilson and Henry Bowers — with their diaries and the rock samples they had hauled from the mountains.\n\nScott's team of five had reached the South Pole on 17 January 1912, only to find a Norwegian tent already there: Roald Amundsen had beaten them by 34 days. On the march home, frostbite crippled them. Lawrence Oates walked out of the tent into a blizzard; his last words, Scott wrote, were \"I am just going outside and may be some time.\"\n\nA dog team had waited for them at One Ton Depot, and turned back on 10 March — when Scott's party was only 55 miles away. Then a blizzard trapped the last three, 11 miles from the depot. Scott's last entry, on 29 March, ends: \"For God's sake look after our people.\"\n\nThe searchers lowered the tent over them and left it as their tomb.\n\nAlso on 12 November: the Philae lander touched down on a comet (2014), and William Heffelfinger became the first known paid football player (1892).\n\nSome stories wait years to be found. Our app, with a story for every day, is on its way — follow the page and don't get left out in the cold. 📜\n\n#OnThisDay #History #Antarctica #Explorers",
+    "youtube": {
+      "title": "They Found Scott's Tent 8 Months Later #Shorts",
+      "description": "12 November 1912: a search party in Antarctica found Captain Scott's tent buried in snow, with Scott, Wilson and Bowers inside, and their diaries. They had reached the South Pole 34 days after Roald Amundsen. On the way back Lawrence Oates walked out into a blizzard (\"I am just going outside and may be some time\"), a dog team turned back only 55 miles away, and the last three were trapped 11 miles from food. Scott's last entry: \"For God's sake look after our people.\"\n\nAlso on 12 November: Philae lands on a comet (2014) and the first known pro football player is paid (1892).\n\nSubscribe — our history app, with a story for every date, is on its way.\n\nFilm: The Great White Silence (1924, Herbert Ponting). Photos and painting: public domain (Wikimedia Commons). Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #Antarctica #SouthPole",
+      "tags": [
+        "robert falcon scott",
+        "scott of the antarctic",
+        "terra nova expedition",
+        "race to the south pole",
+        "south pole",
+        "roald amundsen",
+        "lawrence oates",
+        "i am just going outside",
+        "antarctica",
+        "antarctic exploration",
+        "polar exploration",
+        "edward wilson",
+        "henry bowers",
+        "apsley cherry-garrard",
+        "the worst journey in the world",
+        "herbert ponting",
+        "the great white silence",
+        "one ton depot",
+        "explorers",
+        "1912",
+        "history",
+        "on this day",
+        "history facts",
+        "history shorts",
+        "documentary",
+        "exploration history",
+        "british history"
+      ]
+    },
+    "pinned": "They were 11 miles from food — and a dog team turned back 55 miles away. Bad luck, or bad planning? 👇"
+  }
+}

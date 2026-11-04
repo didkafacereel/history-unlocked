@@ -1,0 +1,358 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-11-15",
+  "dateKey": "11-15",
+  "slug": "buran",
+  "title": "Buran, 1988 — the Soviet shuttle that flew once, with nobody on board",
+  "eventId": "evt-11-15-1988-buran-spacecraft",
+  "category": "Science & Technology",
+  "sources": [
+    "Wikipedia: Buran (spacecraft) — the only orbital launch, at 03:00 UTC on 15 November 1988 from Baikonur, uncrewed, on the Energia rocket; it touched down under its own control 206 minutes after launch, in a 61 km/h crosswind, within 3 metres laterally and 10 metres longitudinally of the target mark; the automatic landing system chose an unlikely manoeuvre (estimated 3% probability) on approach; over 1,000 companies across the Soviet Union worked on it; the programme was cancelled in 1993 after the dissolution of the Soviet Union; on 12 May 2002 the roof of hangar MIK 112 at Baikonur collapsed, destroying Buran and killing at least six construction workers",
+    "Wikipedia: Buran programme — a response to the US Space Shuttle; the name means \"snowstorm\" or \"blizzard\"; carried on the An-225 Mriya",
+    "Also on this day (candidates.md, in the app): 1864 Sherman begins his March to the Sea; 2001 the Xbox launches in North America",
+    "Images (public domain): Buran on the An-225 and from the rear at Le Bourget, 1989 (U.S. DoD); a 1984 U.S. intelligence artist's concept; the Buran hangar under construction, KH-9 satellite photo, 1983 (NRO); Soviet stamps, 1988 and 1991; Buran 2.01 at the Gromov Institute, 2011",
+    "Illustrative stock footage (Pexels, free licence; not of the event): the edge of space, a rocket trail, snow at night"
+  ],
+  "music": {
+    "track": "satie-gnossienne-1"
+  },
+  "highlight": [
+    "SPACE",
+    "LANDED",
+    "COMPUTER",
+    "BLIZZARD",
+    "ONLY",
+    "ITSELF"
+  ],
+  "alert": [
+    "COLLAPSED",
+    "CANCELLED",
+    "KILLING",
+    "DESTROYING",
+    "NOBODY"
+  ],
+  "names": [
+    "BURAN",
+    "ENERGIA",
+    "BAIKONUR",
+    "SOVIET",
+    "SOVIETS",
+    "AMERICA'S"
+  ],
+  "cover": {
+    "image": "an225.jpg",
+    "focus": "50% 45%",
+    "date": "15 NOVEMBER 1988",
+    "lines": [
+      "IT FLEW ITSELF",
+      "INTO *SPACE*"
+    ],
+    "badge": "No one on *board*"
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "It flew into space and landed itself, with nobody on board. Years later, its own hangar fell on it.",
+      "show": "It flew into space and landed itself, with nobody on board. Years later, its own hangar fell on it.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s2",
+      "say": "This is Buran, the Soviet space shuttle.",
+      "show": "This is Buran, the Soviet space shuttle.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "On this day in nineteen eighty-eight, it made its first and only flight.",
+      "show": "On this day in 1988, it made its first and only flight.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "Built to answer America's Space Shuttle, it took more than a thousand companies.",
+      "show": "Built to answer America's Space Shuttle, it took more than 1,000 companies.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s5",
+      "say": "Its name, Buran, means blizzard.",
+      "show": "Its name, Buran, means blizzard.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s6",
+      "say": "A giant Energia rocket lifted it into orbit, without a single cosmonaut on board.",
+      "show": "A giant Energia rocket lifted it into orbit, without a single cosmonaut on board.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s7",
+      "say": "Two hundred and six minutes later, its computer landed it, in a strong crosswind.",
+      "show": "206 minutes later, its computer landed it, in a strong crosswind.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s8",
+      "say": "It stopped within three metres of its centre line.",
+      "show": "It stopped within 3 metres of its centre line.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s9",
+      "say": "On approach, the computer even chose a turn that engineers had rated at just three percent.",
+      "show": "On approach, the computer even chose a turn that engineers had rated at just 3%.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s10",
+      "say": "Then the Soviet Union collapsed, and in nineteen ninety-three, Buran was cancelled.",
+      "show": "Then the Soviet Union collapsed, and in 1993, Buran was cancelled.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s11",
+      "say": "In two thousand and two, its hangar roof at Baikonur fell in, destroying Buran, and killing at least six workers.",
+      "show": "In 2002, its hangar roof at Baikonur fell in, destroying Buran, and killing at least six workers.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "also": {
+    "say": "Also on this day: Sherman began his March to the Sea, and the first Xbox went on sale.",
+    "items": [
+      {
+        "year": "1864",
+        "text": "Sherman's March to the Sea"
+      },
+      {
+        "year": "2001",
+        "text": "The Xbox launches"
+      }
+    ],
+    "image": "rear.jpg"
+  },
+  "cta": {
+    "story": "History rarely lands where you expect.",
+    "say": "Our app is on its way, with a story for every day. Subscribe now. No crew required.",
+    "pill": "LAUNCH WITH US",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "film",
+      "note": "hook",
+      "clip": "stock-orbit.mp4",
+      "credit": "High above the Earth · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s1@0.5",
+      "enter": "cut",
+      "image": "decay.jpg",
+      "focus": "50% 50%",
+      "ghost": "0",
+      "kicker": "Crew on board: !!none!!",
+      "main": {
+        "text": "Then its hangar !!fell on it!!.",
+        "at": "s1@0.75"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s2",
+      "enter": "cut",
+      "image": "an225.jpg",
+      "focus": "50% 45%",
+      "move": "in",
+      "fact": "Buran riding the An-225 Mriya, Paris Air Show, 1989"
+    },
+    {
+      "type": "title",
+      "from": "s3",
+      "enter": "cut",
+      "image": "an225.jpg",
+      "focus": "65% 40%",
+      "date": "15 NOVEMBER",
+      "year": "1988",
+      "place": "Baikonur Cosmodrome, Kazakhstan"
+    },
+    {
+      "type": "photo",
+      "from": "s4",
+      "enter": "cut",
+      "image": "concept.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "How U.S. intelligence imagined it — artist's concept, 1984"
+    },
+    {
+      "type": "photo",
+      "from": "s4@0.55",
+      "enter": "cut",
+      "image": "hangar-spy.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Its hangar being built, seen by a U.S. spy satellite, 1983"
+    },
+    {
+      "type": "statement",
+      "from": "s5",
+      "enter": "cut",
+      "image": "rear.jpg",
+      "focus": "50% 50%",
+      "ghost": "БУРАН",
+      "main": {
+        "text": "++Buran++ = *blizzard*.",
+        "at": "s5@0.4"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s6",
+      "enter": "cut",
+      "image": "sheet.jpg",
+      "focus": "84% 50%",
+      "move": "in",
+      "fact": "Energia lifts Buran — Soviet stamp sheet, 1988"
+    },
+    {
+      "type": "film",
+      "from": "s6@0.5",
+      "enter": "cut",
+      "clip": "stock-trail.mp4",
+      "credit": "A trail in the sky · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s7",
+      "enter": "cut",
+      "image": "stamp.jpg",
+      "focus": "50% 40%",
+      "ghost": "206",
+      "kicker": "Landed by !!computer!!",
+      "main": {
+        "text": "*206* minutes.",
+        "at": "s7@0.15"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s7@0.55",
+      "enter": "cut",
+      "image": "rear.jpg",
+      "focus": "40% 50%",
+      "move": "in",
+      "fact": "Buran at Le Bourget, 1989"
+    },
+    {
+      "type": "statement",
+      "from": "s8",
+      "enter": "cut",
+      "image": "an225.jpg",
+      "focus": "35% 50%",
+      "ghost": "3 m",
+      "main": {
+        "text": "*3 metres* off the line.",
+        "at": "s8@0.5"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s9",
+      "enter": "cut",
+      "image": "concept.jpg",
+      "focus": "40% 40%",
+      "ghost": "3%",
+      "kicker": "Its own choice",
+      "main": {
+        "text": "A turn rated at *3%*.",
+        "at": "s9@0.75"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s10",
+      "enter": "cut",
+      "image": "decay.jpg",
+      "focus": "45% 50%",
+      "move": "in",
+      "fact": "Sister ship Buran 2.01, never flown — 2011"
+    },
+    {
+      "type": "statement",
+      "from": "s10@0.6",
+      "enter": "cut",
+      "image": "decay.jpg",
+      "focus": "70% 50%",
+      "ghost": "1993",
+      "main": {
+        "text": "!!Cancelled!!.",
+        "at": "s10@0.85"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s11",
+      "enter": "cut",
+      "clip": "stock-blizzard.mp4",
+      "credit": "Snow at night · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s11@0.35",
+      "enter": "cut",
+      "image": "hangar-spy.jpg",
+      "focus": "50% 50%",
+      "ghost": "2002",
+      "kicker": "++Baikonur++, 12 May 2002",
+      "main": {
+        "text": "The roof !!fell in!!.",
+        "at": "s11@0.45"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "It flew into space and landed itself — with nobody on board. 🚀❄️\n\n15 November 1988: the Soviet shuttle Buran made its first and only flight. 206 minutes later its computer landed it 3 metres off the centre line, in a strong crosswind. Then the USSR collapsed, the programme was cancelled, and in 2002 its hangar roof fell in on it.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #space #ussr #buran #historytok",
+    "facebook": "On this day in 1988, the Soviet space shuttle Buran — \"blizzard\" — made its first and only flight.\n\nBuilt as the Soviet answer to NASA's Space Shuttle, with more than 1,000 companies working on it, Buran was lifted into orbit from Baikonur by the giant Energia rocket — without a single cosmonaut on board. 206 minutes after launch it came home, and its computer landed it in a 61 km/h crosswind, within 3 metres of the centre line. On approach it even chose a manoeuvre engineers had rated at about a 3% chance.\n\nIt never flew again. After the Soviet Union collapsed the money ran out, and the programme was cancelled in 1993. On 12 May 2002 the roof of its hangar at Baikonur collapsed, destroying Buran and killing at least six workers.\n\nAlso on 15 November: Sherman began his March to the Sea (1864), and the first Xbox went on sale (2001).\n\nHistory rarely lands where you expect. Our app, with a story for every day, is on its way — follow the page. No crew required. 📜\n\n#OnThisDay #History #Space #Buran",
+    "youtube": {
+      "title": "The Soviet Shuttle That Flew With Nobody Aboard #Shorts",
+      "description": "15 November 1988: the Soviet space shuttle Buran made its first and only flight — uncrewed. The Energia rocket lifted it into orbit from Baikonur, and 206 minutes later its computer landed it in a strong crosswind, about 3 metres from the centre line. Then the Soviet Union collapsed and the programme was cancelled in 1993. In 2002 the roof of its hangar at Baikonur fell in, destroying Buran and killing at least six workers.\n\nAlso on 15 November: Sherman's March to the Sea begins (1864) and the Xbox launches (2001).\n\nSubscribe — our history app, with a story for every date, is on its way.\n\nPhotos: public domain (U.S. DoD, NRO, USSR Post via Wikimedia Commons). Space, rocket-trail and snow shots: illustrative stock footage (Pexels). Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #Space #Buran",
+      "tags": [
+        "buran",
+        "buran shuttle",
+        "soviet space shuttle",
+        "buran 1988",
+        "energia rocket",
+        "baikonur cosmodrome",
+        "soviet space program",
+        "space race",
+        "ussr",
+        "soviet union",
+        "cold war",
+        "space shuttle",
+        "an-225 mriya",
+        "antonov an 225",
+        "space history",
+        "cosmonaut",
+        "automatic landing",
+        "unmanned spaceflight",
+        "lost places",
+        "abandoned spacecraft",
+        "russian space history",
+        "1988",
+        "history",
+        "on this day",
+        "history facts",
+        "history shorts",
+        "documentary",
+        "cold war history",
+        "aviation history",
+        "soviet engineering",
+        "spaceplane",
+        "kazakhstan"
+      ]
+    },
+    "pinned": "It landed itself perfectly in 1988 — then never flew again. What would Buran have done if the USSR had survived? 👇"
+  }
+}

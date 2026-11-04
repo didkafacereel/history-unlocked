@@ -1,0 +1,83 @@
+{
+  "total": 73.151,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "The Berlin Wall stood for 28 years. It fell because a spokesman misread a note.",
+      "start": 0.4,
+      "end": 5.904
+    },
+    {
+      "id": "s2",
+      "show": "It happened on this night in 1989.",
+      "start": 6.354,
+      "end": 9.362
+    },
+    {
+      "id": "s3",
+      "show": "East Germany had decided to let its people cross the border more freely, starting the next day.",
+      "start": 9.762,
+      "end": 15.351
+    },
+    {
+      "id": "s4",
+      "show": "Party spokesman Günter Schabowski was handed the note just before a live press conference. No one told him the details.",
+      "start": 15.701,
+      "end": 23.808
+    },
+    {
+      "id": "s5",
+      "show": "He read it out. A reporter asked: when does it take effect?",
+      "start": 24.258,
+      "end": 27.991
+    },
+    {
+      "id": "s6",
+      "show": "He hesitated, and said: \"As far as I know… immediately. Without delay.\"",
+      "start": 28.391,
+      "end": 33.17
+    },
+    {
+      "id": "s7",
+      "show": "West German TV broadcast it that evening: the border is open.",
+      "start": 33.72,
+      "end": 38.179
+    },
+    {
+      "id": "s8",
+      "show": "Thousands rushed to the crossings. The guards had no orders.",
+      "start": 38.579,
+      "end": 42.483
+    },
+    {
+      "id": "s9",
+      "show": "At 11:30 pm, at Bornholmer Street, an officer named Harald Jäger opened the gates.",
+      "start": 42.933,
+      "end": 49.269
+    },
+    {
+      "id": "s10",
+      "show": "East Berliners poured through, and were met with flowers and champagne.",
+      "start": 49.719,
+      "end": 53.793
+    },
+    {
+      "id": "s11",
+      "show": "By morning, people were chipping the Wall apart with hammers.",
+      "start": 54.193,
+      "end": 57.607
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: Garry Kasparov became world chess champion at twenty-two, and the raider Emden was finally caught.",
+      "start": 58.207,
+      "end": 66.292
+    },
+    {
+      "id": "end2",
+      "show": "As far as we know, our app is coming. Without delay. Subscribe, and cross over with us.",
+      "start": 66.742,
+      "end": 72.651
+    }
+  ]
+}

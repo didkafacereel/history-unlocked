@@ -1,0 +1,105 @@
+{
+  "stokowski.jpg": {
+    "file": "File:Leopold Stokowski LOC 26447u.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Leopold_Stokowski_LOC_26447u.jpg",
+    "licence": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "date": "Unknown date",
+    "description": "Leopold Stokowski."
+  },
+  "orchestra.jpg": {
+    "file": "File:Philadelphia Orchestra at American premiere of Mahler's 8th Symphony (1916).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Philadelphia_Orchestra_at_American_premiere_of_Mahler%27s_8th_Symphony_(1916).jpg",
+    "licence": "Public domain",
+    "artist": "",
+    "date": "",
+    "description": ""
+  },
+  "academy.jpg": {
+    "file": "File:Phila AcademyofMusicl03.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Phila_AcademyofMusicl03.JPG",
+    "licence": "Public domain",
+    "artist": "Dthomsen8",
+    "date": "2009-08-21",
+    "description": "American Academy of Music, Southwest corner, Broad and Locust Sts., Philadelphia, Pennsylvania, USA 19102 View from the Northeast corner, Broad and Locust Sts. Added to NRHP: October 15, 1966 Designated NHL: December 29, 1962 NRHP Reference"
+  },
+  "disney.jpg": {
+    "file": "File:Walt Disney with film roll and Mickey Mouse on his right arm, year 1935.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Walt_Disney_with_film_roll_and_Mickey_Mouse_on_his_right_arm,_year_1935.jpg",
+    "licence": "CC0",
+    "artist": "not listed. New York World-Telegram and the Sun Newspaper Photograph Collection",
+    "date": "1935",
+    "description": "\"Walt Disney, seated, examines film with Mickey Mouse perched on his right arm.\" Library of Congress file."
+  },
+  "taylor.jpg": {
+    "file": "File:Deems Taylor (1885-1966).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Deems_Taylor_(1885-1966).jpg",
+    "licence": "Public domain",
+    "artist": "ASCAP Foundation",
+    "date": "circa 1950date QS:P,+1950-00-00T00:00:00",
+    "description": "Studio portrait of Joseph Deems Taylor."
+  },
+  "disney-1951.jpg": {
+    "file": "File:DisneySchiphol1951.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:DisneySchiphol1951.jpg",
+    "licence": "CC0",
+    "artist": "Carel L. de Vogel (ANEFO)",
+    "date": "1951-06-29",
+    "description": "Bezoek Walt Disney aan Amsterdam. Aankomst Walt Disney op Schiphol, met echtgenote Lillian en twee dochters Sharon en Diane"
+  },
+  "stokowski-1947.jpg": {
+    "file": "File:Leopold Stokowski - Carnegie Hall 1947 (05) wmplayer 2013-04-16.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Leopold_Stokowski_-_Carnegie_Hall_1947_(05)_wmplayer_2013-04-16.jpg",
+    "licence": "Public domain",
+    "artist": "United Artists / Federal Films",
+    "date": "1947",
+    "description": "Leopold Stokowski from \"Carnegie Hall\"."
+  },
+  "willie.jpg": {
+    "file": "File:Mickey Mouse - Steamboat Willie (1928).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mickey_Mouse_-_Steamboat_Willie_(1928).jpg",
+    "licence": "Public domain",
+    "artist": "Walt Disney / Ub Iwerks",
+    "date": "1928",
+    "description": "Mickey Mouse en \"El botero Willie\" (1928)"
+  },
+  "film-willie-boat.mp4": {
+    "file": "File:Steamboat Willie (16mm Film Scan) ProRes (3400x2550) 01 von 03.webm",
+    "page": "https://commons.wikimedia.org/wiki/File:Steamboat_Willie_(16mm_Film_Scan)_ProRes_(3400x2550)_01_von_03.webm",
+    "licence": "Public domain",
+    "artist": "Walt Disney / Ub Iwerks / Wilfred Jackson / Bert Lewis",
+    "date": "1928-11-18",
+    "description": "Video of \"Steamboat Willie\", scanned from 16mm film with every detail in very high quality, including artifacts such as scratches. Converted bx PantheraLeo1359531 😺 (talk).",
+    "film": {
+      "at": 10,
+      "len": 4,
+      "fit": "band"
+    }
+  },
+  "film-willie-wheel.mp4": {
+    "file": "File:Steamboat Willie (16mm Film Scan) ProRes (3400x2550) 01 von 03.webm",
+    "page": "https://commons.wikimedia.org/wiki/File:Steamboat_Willie_(16mm_Film_Scan)_ProRes_(3400x2550)_01_von_03.webm",
+    "licence": "Public domain",
+    "artist": "Walt Disney / Ub Iwerks / Wilfred Jackson / Bert Lewis",
+    "date": "1928-11-18",
+    "description": "Video of \"Steamboat Willie\", scanned from 16mm film with every detail in very high quality, including artifacts such as scratches. Converted bx PantheraLeo1359531 😺 (talk).",
+    "film": {
+      "at": 16,
+      "len": 4,
+      "fit": "band"
+    }
+  },
+  "film-willie-pete.mp4": {
+    "file": "File:Steamboat Willie (16mm Film Scan) ProRes (3400x2550) 01 von 03.webm",
+    "page": "https://commons.wikimedia.org/wiki/File:Steamboat_Willie_(16mm_Film_Scan)_ProRes_(3400x2550)_01_von_03.webm",
+    "licence": "Public domain",
+    "artist": "Walt Disney / Ub Iwerks / Wilfred Jackson / Bert Lewis",
+    "date": "1928-11-18",
+    "description": "Video of \"Steamboat Willie\", scanned from 16mm film with every detail in very high quality, including artifacts such as scratches. Converted bx PantheraLeo1359531 😺 (talk).",
+    "film": {
+      "at": 50,
+      "len": 4,
+      "fit": "band"
+    }
+  }
+}

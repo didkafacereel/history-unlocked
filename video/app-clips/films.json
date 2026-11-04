@@ -334,16 +334,112 @@
       "eventId": "evt-11-04-1922-tomb-of-tutankhamun",
       "title": "Tutankhamun's tomb, 1922 — one last season, one step in the sand",
       "seconds": 60.8,
-      "video": "2026-11-04-tutankhamun.mp4?v=3971100",
-      "poster": "2026-11-04-tutankhamun.jpg?v=123711"
+      "video": "2026-11-04-tutankhamun.mp4?v=3892492",
+      "poster": "2026-11-04-tutankhamun.jpg?v=130199"
     },
     "11-05": {
       "date": "2026-11-05",
       "eventId": "evt-11-05-1605-gunpowder-plot",
       "title": "The Gunpowder Plot, 1605 — 36 barrels, one letter, and a man called John Johnson",
       "seconds": 62.8,
-      "video": "2026-11-05-gunpowder-plot.mp4?v=5442396",
-      "poster": "2026-11-05-gunpowder-plot.jpg?v=151216"
+      "video": "2026-11-05-gunpowder-plot.mp4?v=5192650",
+      "poster": "2026-11-05-gunpowder-plot.jpg?v=151239"
+    },
+    "11-06": {
+      "date": "2026-11-06",
+      "eventId": "evt-11-06-1794-french-revolutionary-wars",
+      "title": "HMS Alexander, 1794 — the captain who sent his friend away and fought five ships alone",
+      "seconds": 64.1,
+      "video": "2026-11-06-hms-alexander.mp4?v=4227029",
+      "poster": "2026-11-06-hms-alexander.jpg?v=75478"
+    },
+    "11-07": {
+      "date": "2026-11-07",
+      "eventId": "evt-11-07-1917-october-revolution",
+      "title": "The October Revolution, 1917 — the storming that was mostly staged later",
+      "seconds": 59.1,
+      "video": "2026-11-07-october-revolution.mp4?v=4391469",
+      "poster": "2026-11-07-october-revolution.jpg?v=103446"
+    },
+    "11-08": {
+      "date": "2026-11-08",
+      "eventId": "evt-11-08-1940-greco-italian-war",
+      "title": "Greece says no, 1940 — the first Axis setback of the war",
+      "seconds": 60.3,
+      "video": "2026-11-08-greece-1940.mp4?v=6568575",
+      "poster": "2026-11-08-greece-1940.jpg?v=63191"
+    },
+    "11-09": {
+      "date": "2026-11-09",
+      "eventId": "evt-11-09-1989-fall-of-the-berlin-wall",
+      "title": "The fall of the Berlin Wall, 1989 — opened by a mistake at a press conference",
+      "seconds": 66.3,
+      "video": "2026-11-09-berlin-wall.mp4?v=3651128",
+      "poster": "2026-11-09-berlin-wall.jpg?v=81357"
+    },
+    "11-10": {
+      "date": "2026-11-10",
+      "eventId": "evt-11-10-1202-fourth-crusade",
+      "title": "The Siege of Zara, 1202 — the crusade that attacked a Christian city to pay a bill",
+      "seconds": 62.8,
+      "video": "2026-11-10-siege-of-zara.mp4?v=5628498",
+      "poster": "2026-11-10-siege-of-zara.jpg?v=117884"
+    },
+    "11-11": {
+      "date": "2026-11-11",
+      "eventId": "evt-11-11-1918-armistice-of-11-november-1918",
+      "title": "The Armistice, 1918 — the soldier killed one minute before the war ended",
+      "seconds": 57.7,
+      "video": "2026-11-11-armistice.mp4?v=5289758",
+      "poster": "2026-11-11-armistice.jpg?v=91768"
+    },
+    "11-12": {
+      "date": "2026-11-12",
+      "eventId": "evt-11-12-1912-terra-nova-expedition",
+      "title": "Scott's tent found, 1912 — the diary in the snow, eight months later",
+      "seconds": 63.5,
+      "video": "2026-11-12-scott-tent.mp4?v=3733467",
+      "poster": "2026-11-12-scott-tent.jpg?v=77424"
+    },
+    "11-13": {
+      "date": "2026-11-13",
+      "eventId": "evt-11-13-1940-walt-disney",
+      "title": "Fantasia, 1940 — the first commercial film in stereo, and a flop",
+      "seconds": 63.2,
+      "video": "2026-11-13-fantasia.mp4?v=5533830",
+      "poster": "2026-11-13-fantasia.jpg?v=83018"
+    },
+    "11-14": {
+      "date": "2026-11-14",
+      "eventId": "evt-11-14-1960-ruby-bridges",
+      "title": "Ruby Bridges, 1960 — the six-year-old who walked in alone",
+      "seconds": 61.4,
+      "video": "2026-11-14-ruby-bridges.mp4?v=3597635",
+      "poster": "2026-11-14-ruby-bridges.jpg?v=114938"
+    },
+    "11-15": {
+      "date": "2026-11-15",
+      "eventId": "evt-11-15-1988-buran-spacecraft",
+      "title": "Buran, 1988 — the Soviet shuttle that flew once, with nobody on board",
+      "seconds": 64.6,
+      "video": "2026-11-15-buran.mp4?v=3383213",
+      "poster": "2026-11-15-buran.jpg?v=104789"
+    },
+    "11-16": {
+      "date": "2026-11-16",
+      "eventId": "evt-11-16-1938-albert-hofmann",
+      "title": "Albert Hofmann makes LSD, 1938 — the molecule left on a shelf for five years",
+      "seconds": 61,
+      "video": "2026-11-16-hofmann.mp4?v=3652643",
+      "poster": "2026-11-16-hofmann.jpg?v=41006"
+    },
+    "11-17": {
+      "date": "2026-11-17",
+      "eventId": "evt-11-17-1558-elizabeth-i",
+      "title": "Elizabeth I becomes queen, 1558 — from the Tower to the throne in four years",
+      "seconds": 61.4,
+      "video": "2026-11-17-elizabeth-i.mp4?v=4535955",
+      "poster": "2026-11-17-elizabeth-i.jpg?v=137820"
     }
   }
 }

@@ -1,0 +1,83 @@
+{
+  "total": 71.544,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "It flew into space and landed itself, with nobody on board. Years later, its own hangar fell on it.",
+      "start": 0.4,
+      "end": 7.376
+    },
+    {
+      "id": "s2",
+      "show": "This is Buran, the Soviet space shuttle.",
+      "start": 7.876,
+      "end": 10.5
+    },
+    {
+      "id": "s3",
+      "show": "On this day in 1988, it made its first and only flight.",
+      "start": 10.9,
+      "end": 15.295
+    },
+    {
+      "id": "s4",
+      "show": "Built to answer America's Space Shuttle, it took more than 1,000 companies.",
+      "start": 15.695,
+      "end": 20.601
+    },
+    {
+      "id": "s5",
+      "show": "Its name, Buran, means blizzard.",
+      "start": 21.001,
+      "end": 23.263
+    },
+    {
+      "id": "s6",
+      "show": "A giant Energia rocket lifted it into orbit, without a single cosmonaut on board.",
+      "start": 23.663,
+      "end": 29.188
+    },
+    {
+      "id": "s7",
+      "show": "206 minutes later, its computer landed it, in a strong crosswind.",
+      "start": 29.588,
+      "end": 34.751
+    },
+    {
+      "id": "s8",
+      "show": "It stopped within 3 metres of its centre line.",
+      "start": 35.151,
+      "end": 37.86
+    },
+    {
+      "id": "s9",
+      "show": "On approach, the computer even chose a turn that engineers had rated at just 3%.",
+      "start": 38.31,
+      "end": 44.177
+    },
+    {
+      "id": "s10",
+      "show": "Then the Soviet Union collapsed, and in 1993, Buran was cancelled.",
+      "start": 44.627,
+      "end": 49.768
+    },
+    {
+      "id": "s11",
+      "show": "In 2002, its hangar roof at Baikonur fell in, destroying Buran, and killing at least six workers.",
+      "start": 50.218,
+      "end": 57.834
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: Sherman began his March to the Sea, and the first Xbox went on sale.",
+      "start": 58.434,
+      "end": 64.557
+    },
+    {
+      "id": "end2",
+      "show": "Our app is on its way, with a story for every day. Subscribe now. No crew required.",
+      "start": 65.007,
+      "end": 71.044
+    }
+  ]
+}

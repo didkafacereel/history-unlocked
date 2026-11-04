@@ -1,0 +1,344 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-11-10",
+  "dateKey": "11-10",
+  "slug": "siege-of-zara",
+  "title": "The Siege of Zara, 1202 — the crusade that attacked a Christian city to pay a bill",
+  "eventId": "evt-11-10-1202-fourth-crusade",
+  "category": "Military & Conflict",
+  "sources": [
+    "Wikipedia: Siege of Zara — the crusaders' deal with Venice was for transport of about 35,000 crusaders for 94,000 marks of silver; Venice suspended its regular commerce for a year to build and crew the ships, but only about 12,000 crusaders showed up; they could only pay 51,000 marks, even after the nobles pledged their gold and silver plate; Venice accepted the capture of Zara (Zadar), a Catholic city on the Adriatic that had rebelled against Venice and placed itself under the protection of the Pope and King Emeric of Hungary — who had himself pledged to join the crusade; the attack began in November 1202 despite letters from Pope Innocent III forbidding it and threatening excommunication; some crusaders refused and camped apart; the citizens hung flags with crosses on the walls to show they were a Christian city; the fleet burst through the harbour chains; on 13 November siege engines bombarded the walls; Zara fell on 24 November and was sacked; in 1203 Innocent III excommunicated the entire army and the Venetians (later lifting it for the non-Venetians); the campaign led on to the siege of Constantinople",
+    "Wikipedia: Enrico Dandolo — the Doge of Venice, already aged and blind, but deeply ambitious",
+    "Also on this day (candidates.md, in the app): 1871 Henry Morton Stanley finds David Livingstone; 1975 the SS Edmund Fitzgerald sinks in Lake Superior",
+    "Paintings (public domain): Andrea Vicentino, The Siege of Zara; Jacopo Tintoretto, The Conquest of Zara (1584); Zara in Konrad Grünenberg's pilgrimage book (c. 1487); Gustave Doré, Dandolo preaching the crusade; portrait engraving of Enrico Dandolo; Palma il Giovane and Delacroix, the taking of Constantinople; a 15th-century miniature of the crusader fleet; a map of Dalmatia",
+    "Illustrative stock footage (Pexels, free licence; not of the event): a sailing ship's masts, fire, a torch"
+  ],
+  "music": {
+    "track": "mussorgsky-old-castle"
+  },
+  "highlight": [
+    "BILL",
+    "SILVER",
+    "CROSSES",
+    "35,000",
+    "12,000",
+    "DEBT"
+  ],
+  "alert": [
+    "EXCOMMUNICATED",
+    "SACKED",
+    "FORBIDDING",
+    "ATTACKED",
+    "BLIND"
+  ],
+  "names": [
+    "ZARA",
+    "VENICE",
+    "DANDOLO",
+    "INNOCENT",
+    "CONSTANTINOPLE",
+    "HUNGARY",
+    "ZADAR"
+  ],
+  "cover": {
+    "image": "siege.jpg",
+    "focus": "50% 35%",
+    "date": "10 NOVEMBER 1202",
+    "lines": [
+      "A CRUSADE",
+      "TO PAY A *BILL*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "An army set out to free Jerusalem. Instead, it attacked a Christian city, to pay off a bill.",
+      "show": "An army set out to free Jerusalem. Instead, it attacked a Christian city, to pay off a bill.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "The siege of Zara began on this day in twelve-oh-two.",
+      "show": "The siege of Zara began on this day in 1202.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "The Fourth Crusade had ordered a fleet from Venice for thirty-five thousand men.",
+      "show": "The Fourth Crusade had ordered a fleet from Venice for 35,000 men.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s4",
+      "say": "Only about twelve thousand showed up. They couldn't pay.",
+      "show": "Only about 12,000 showed up. They couldn't pay.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s5",
+      "say": "Venice's old, blind doge, Enrico Dandolo, offered a deal: capture Zara for us.",
+      "show": "Venice's old, blind doge, Enrico Dandolo, offered a deal: capture Zara for us.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s6",
+      "say": "Zara was a Catholic city, under the Pope's own protection.",
+      "show": "Zara was a Catholic city, under the Pope's own protection.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s7",
+      "say": "The Pope wrote, forbidding it, and threatened excommunication. Most crusaders went anyway.",
+      "show": "The Pope wrote, forbidding it, and threatened excommunication. Most crusaders went anyway.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s8",
+      "say": "The people of Zara hung crosses on their walls, to show they were Christians too.",
+      "show": "The people of Zara hung crosses on their walls, to show they were Christians too.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s9",
+      "say": "It made no difference. Two weeks later, the city fell, and was sacked.",
+      "show": "It made no difference. Two weeks later, the city fell, and was sacked.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s10",
+      "say": "The Pope excommunicated the entire army.",
+      "show": "The Pope excommunicated the entire army.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s11",
+      "say": "And the crusade never reached Jerusalem. Its next target was Constantinople.",
+      "show": "And the crusade never reached Jerusalem. Its next target was Constantinople.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "also": {
+    "say": "Also on this day: Stanley found Doctor Livingstone, and the Edmund Fitzgerald sank in Lake Superior.",
+    "items": [
+      {
+        "year": "1871",
+        "text": "Stanley finds Dr Livingstone"
+      },
+      {
+        "year": "1975",
+        "text": "The Edmund Fitzgerald sinks"
+      }
+    ],
+    "image": "zara-1487.jpg"
+  },
+  "cta": {
+    "story": "History takes strange detours.",
+    "say": "Our app follows every detour of history, day by day. Subscribe, no bill to pay.",
+    "pill": "JOIN THE CRUSADE",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook — the cover painting",
+      "image": "siege.jpg",
+      "focus": "50% 35%",
+      "move": "in"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.4",
+      "enter": "cut",
+      "clip": "stock-ship.mp4",
+      "credit": "A sailing ship's masts · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s1@0.7",
+      "enter": "cut",
+      "image": "tintoretto.jpg",
+      "focus": "50% 40%",
+      "ghost": "BILL",
+      "main": {
+        "text": "A crusade to pay a *bill*.",
+        "at": "s1@0.8"
+      }
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "zara-1487.jpg",
+      "focus": "50% 50%",
+      "date": "10 NOVEMBER",
+      "year": "1202",
+      "place": "Zara (Zadar), Croatia"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "fleet.jpg",
+      "focus": "50% 60%",
+      "move": "in",
+      "fact": "A crusader fleet, 15th-century miniature"
+    },
+    {
+      "type": "statement",
+      "from": "s4",
+      "enter": "cut",
+      "image": "fleet.jpg",
+      "focus": "30% 60%",
+      "ghost": "12,000",
+      "kicker": "Ordered for 35,000",
+      "main": {
+        "text": "Only *12,000* came. !!No money!!.",
+        "at": "s4@0.5"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s5",
+      "enter": "cut",
+      "image": "dandolo.jpg",
+      "focus": "50% 40%",
+      "move": "in",
+      "fact": "Enrico Dandolo, Doge of Venice"
+    },
+    {
+      "type": "photo",
+      "from": "s5@0.55",
+      "enter": "cut",
+      "image": "dore-dandolo.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Dandolo preaching the crusade — Gustave Doré"
+    },
+    {
+      "type": "photo",
+      "from": "s6",
+      "enter": "cut",
+      "image": "zara-1487.jpg",
+      "focus": "40% 40%",
+      "move": "in",
+      "fact": "Zara, drawn around 1487"
+    },
+    {
+      "type": "statement",
+      "from": "s7",
+      "enter": "cut",
+      "image": "dore-dandolo.jpg",
+      "focus": "50% 30%",
+      "ghost": "POPE",
+      "kicker": "Pope ++Innocent III++",
+      "main": {
+        "text": "!!Forbidden!!. They went anyway.",
+        "at": "s7@0.6"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s8",
+      "enter": "cut",
+      "image": "siege.jpg",
+      "focus": "70% 20%",
+      "ghost": "✝",
+      "kicker": "On the walls of ++Zara++",
+      "main": {
+        "text": "*Crosses* on the walls.",
+        "at": "s8@0.5"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s9",
+      "enter": "cut",
+      "clip": "stock-fire.mp4",
+      "credit": "Fire · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s9@0.45",
+      "enter": "cut",
+      "image": "tintoretto.jpg",
+      "focus": "50% 60%",
+      "move": "in",
+      "fact": "The Conquest of Zara — Tintoretto, 1584"
+    },
+    {
+      "type": "statement",
+      "from": "s10",
+      "enter": "cut",
+      "image": "siege.jpg",
+      "focus": "40% 70%",
+      "ghost": "1203",
+      "kicker": "Pope ++Innocent III++",
+      "main": {
+        "text": "The whole army !!excommunicated!!.",
+        "at": "s10@0.5"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s11",
+      "enter": "cut",
+      "image": "delacroix.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The crusaders in Constantinople, 1204 — Delacroix"
+    },
+    {
+      "type": "photo",
+      "from": "s11@0.55",
+      "enter": "cut",
+      "image": "constantinople.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The assault on Constantinople — Palma il Giovane"
+    }
+  ],
+  "post": {
+    "tiktok": "An army set out to free Jerusalem. Instead it attacked a Christian city — to pay off a bill. ⚔️💰\n\n10 November 1202: the Fourth Crusade owed Venice a fortune, so it besieged Zara. The citizens hung crosses on their walls. The Pope forbade it. The city fell anyway — and the Pope excommunicated the whole army.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #crusades #medieval #venice #historytok",
+    "facebook": "On this day in 1202, the Fourth Crusade began the siege of Zara — a Christian city.\n\nThe crusaders had ordered a fleet from Venice big enough for 35,000 men, at 94,000 marks of silver. Venice stopped its trade for a year to build it. Only about 12,000 crusaders showed up, and they couldn't pay. Venice's aged, blind doge, Enrico Dandolo, offered a deal: help us capture Zara, the Catholic city on the Adriatic that had rebelled against us.\n\nZara was under the protection of the Pope and the King of Hungary — who had himself sworn to go on crusade. Pope Innocent III wrote forbidding the attack and threatening excommunication. Some crusaders refused, but most went anyway. The people of Zara hung crosses on their walls to show they were Christians too. It made no difference: the city fell on 24 November and was sacked.\n\nThe Pope excommunicated the entire army. And the crusade never reached Jerusalem — its next target was Constantinople.\n\nAlso on 10 November: Stanley found Dr Livingstone (1871), and the Edmund Fitzgerald sank in Lake Superior (1975).\n\nHistory takes strange detours. Our app follows every one, day by day — follow the page, no bill to pay. 📜\n\n#OnThisDay #History #Crusades #Medieval",
+    "youtube": {
+      "title": "The Crusade That Attacked A Christian City To Pay A Bill #Shorts",
+      "description": "10 November 1202: the Fourth Crusade besieged Zara (Zadar), a Catholic city on the Adriatic. The crusaders had ordered a Venetian fleet for 35,000 men but only about 12,000 came, and they couldn't pay. The blind Doge of Venice, Enrico Dandolo, offered a deal — capture Zara for Venice. The Pope forbade it, the citizens hung crosses on their walls, and the city fell anyway. Innocent III excommunicated the whole army, and the crusade never reached Jerusalem; its next target was Constantinople.\n\nAlso on 10 November: Stanley finds Livingstone (1871) and the Edmund Fitzgerald sinks (1975).\n\nSubscribe — our history app, with a story for every date, is on its way.\n\nPaintings: public domain (Wikimedia Commons). Ship, fire and torch shots: illustrative stock footage (Pexels), not of the event. Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #Crusades #Medieval",
+      "tags": [
+        "siege of zara",
+        "fourth crusade",
+        "crusades",
+        "enrico dandolo",
+        "pope innocent iii",
+        "venice",
+        "republic of venice",
+        "zadar",
+        "zara 1202",
+        "medieval history",
+        "crusader",
+        "constantinople",
+        "sack of constantinople",
+        "excommunication",
+        "1202",
+        "croatia history",
+        "middle ages",
+        "the crusades",
+        "military history",
+        "history",
+        "on this day",
+        "history facts",
+        "history shorts",
+        "documentary",
+        "medieval",
+        "crusades history",
+        "fourth crusade 1202",
+        "doge of venice",
+        "medieval warfare",
+        "siege warfare",
+        "byzantine empire",
+        "dalmatia"
+      ]
+    },
+    "pinned": "They went on a holy war — and attacked fellow Christians for money. Were the crusaders soldiers of faith or just mercenaries? 👇"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "total": 69.24,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "An army set out to free Jerusalem. Instead, it attacked a Christian city, to pay off a bill.",
+      "start": 0.4,
+      "end": 6.715
+    },
+    {
+      "id": "s2",
+      "show": "The siege of Zara began on this day in 1202.",
+      "start": 7.165,
+      "end": 10.621
+    },
+    {
+      "id": "s3",
+      "show": "The Fourth Crusade had ordered a fleet from Venice for 35,000 men.",
+      "start": 11.021,
+      "end": 15.863
+    },
+    {
+      "id": "s4",
+      "show": "Only about 12,000 showed up. They couldn't pay.",
+      "start": 16.213,
+      "end": 19.733
+    },
+    {
+      "id": "s5",
+      "show": "Venice's old, blind doge, Enrico Dandolo, offered a deal: capture Zara for us.",
+      "start": 20.183,
+      "end": 26.093
+    },
+    {
+      "id": "s6",
+      "show": "Zara was a Catholic city, under the Pope's own protection.",
+      "start": 26.443,
+      "end": 30.155
+    },
+    {
+      "id": "s7",
+      "show": "The Pope wrote, forbidding it, and threatened excommunication. Most crusaders went anyway.",
+      "start": 30.555,
+      "end": 36.293
+    },
+    {
+      "id": "s8",
+      "show": "The people of Zara hung crosses on their walls, to show they were Christians too.",
+      "start": 36.743,
+      "end": 41.565
+    },
+    {
+      "id": "s9",
+      "show": "It made no difference. Two weeks later, the city fell, and was sacked.",
+      "start": 42.065,
+      "end": 46.331
+    },
+    {
+      "id": "s10",
+      "show": "The Pope excommunicated the entire army.",
+      "start": 46.781,
+      "end": 49.469
+    },
+    {
+      "id": "s11",
+      "show": "And the crusade never reached Jerusalem. Its next target was Constantinople.",
+      "start": 49.919,
+      "end": 55.253
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: Stanley found Doctor Livingstone, and the Edmund Fitzgerald sank in Lake Superior.",
+      "start": 55.853,
+      "end": 62.722
+    },
+    {
+      "id": "end2",
+      "show": "Our app follows every detour of history, day by day. Subscribe, no bill to pay.",
+      "start": 63.172,
+      "end": 68.74
+    }
+  ]
+}

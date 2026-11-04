@@ -1,0 +1,77 @@
+{
+  "total": 67.959,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "A chemist made a new molecule, then left it on a shelf for five years.",
+      "start": 0.4,
+      "end": 4.944
+    },
+    {
+      "id": "s2",
+      "show": "Albert Hofmann first made LSD on this day in 1938.",
+      "start": 5.444,
+      "end": 9.86
+    },
+    {
+      "id": "s3",
+      "show": "He worked for Sandoz, in Basel, studying ergot, a fungus that grows on rye.",
+      "start": 10.26,
+      "end": 15.807
+    },
+    {
+      "id": "s4",
+      "show": "He hoped for a medicine for breathing and circulation. It was set aside.",
+      "start": 16.207,
+      "end": 20.623
+    },
+    {
+      "id": "s5",
+      "show": "In April 1943, he made it again, and accidentally absorbed a tiny amount.",
+      "start": 21.073,
+      "end": 27.387
+    },
+    {
+      "id": "s6",
+      "show": "Three days later, he took what he thought was a small dose. It was about ten times the amount needed.",
+      "start": 27.787,
+      "end": 34.273
+    },
+    {
+      "id": "s7",
+      "show": "He asked his assistant to take him home. As was usual in Basel, they went by bicycle.",
+      "start": 34.723,
+      "end": 40.931
+    },
+    {
+      "id": "s8",
+      "show": "That ride is now known as Bicycle Day.",
+      "start": 41.331,
+      "end": 43.912
+    },
+    {
+      "id": "s9",
+      "show": "It spread far beyond the lab. In 1965, Sandoz stopped making it.",
+      "start": 44.412,
+      "end": 49.959
+    },
+    {
+      "id": "s10",
+      "show": "Hofmann lived to 102. He believed his discovery had been misused.",
+      "start": 50.409,
+      "end": 55.443
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: Sweden's king fell at Lützen, and Artemis One launched.",
+      "start": 56.043,
+      "end": 60.907
+    },
+    {
+      "id": "end2",
+      "show": "Our app is on its way, with a story for every day. Subscribe now, so ours doesn't wait.",
+      "start": 61.357,
+      "end": 67.459
+    }
+  ]
+}

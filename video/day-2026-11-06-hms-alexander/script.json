@@ -1,0 +1,383 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-11-06",
+  "dateKey": "11-06",
+  "slug": "hms-alexander",
+  "title": "HMS Alexander, 1794 — the captain who sent his friend away and fought five ships alone",
+  "eventId": "evt-11-06-1794-french-revolutionary-wars",
+  "category": "Military & Conflict",
+  "sources": [
+    "Wikipedia: Action of 6 November 1794 — HMS Alexander (Captain Richard Rodney Bligh) and HMS Canada (Captain Charles Hamilton), two 74-gun ships returning to Britain, were intercepted in the Celtic Sea by a French squadron under Contre-amiral Nielly: five 74-gun ships of the line plus frigates; the British watching force was absent at Plymouth; Nielly disguised his squadron's nationality to lure them close, then hoisted the French tricolour; Bligh ordered Hamilton to separate so he could escape without the slower Alexander; Canada outran the pursuit with no damage or casualties; Alexander was caught by several French ships in succession — the first two were driven off, Tigre lost her main and mizen topmasts; at 13:00, rigging and sails in tatters, masts shot through, hull shattered and fires burning, Bligh surrendered; Bligh estimated about 40 killed or wounded (French accounts: 28 killed, 30 wounded); a rare French victory between the Glorious First of June and the Battle of Groix",
+    "Wikipedia: HMS Alexander (1778) — Bligh was honourably acquitted by court martial on 27 May 1795; as the French Alexandre the ship was a poor sailor and at the Battle of Groix in June 1795 she was overrun by the British fleet and recaptured",
+    "Also on this day (candidates.md, in the app): 1217 Henry III issues the Charter of the Forest; 1917 Canadian forces capture Passendale",
+    "Paintings (public domain): William Shayer, HMS Alexander shortly before striking her colours, 6 November 1794 (1819); John Cleveley the Younger, the launch of HMS Alexander at Deptford, 1778; Lord Bridport's action off L'Orient (Groix), June 1795, paintings and prints; Thomas Luny, two ships hove to (illustrative); Julius Ibbetson, a storm (illustrative)",
+    "Illustrative stock footage (Pexels, free licence; not of the event): a stormy sea, a sailing ship's masts, rough water"
+  ],
+  "music": {
+    "track": "mussorgsky-old-castle"
+  },
+  "highlight": [
+    "ALONE",
+    "74",
+    "FLAG",
+    "ESCAPED",
+    "RECAPTURED",
+    "ACQUITTED"
+  ],
+  "alert": [
+    "TRAP",
+    "FIRES",
+    "SURRENDERED",
+    "CAUGHT",
+    "SHATTERED",
+    "FIVE"
+  ],
+  "names": [
+    "ALEXANDER",
+    "CANADA",
+    "BLIGH",
+    "NIELLY",
+    "FRENCH",
+    "BRITISH",
+    "GROIX"
+  ],
+  "cover": {
+    "image": "striking.jpg",
+    "focus": "40% 50%",
+    "date": "6 NOVEMBER 1794",
+    "lines": [
+      "ONE SHIP",
+      "VS *FIVE*"
+    ],
+    "badge": "He sent his friend *away*",
+    "ring": {
+      "x": 400,
+      "y": 1000,
+      "r": 190
+    },
+    "arrow": {
+      "x": 610,
+      "y": 1000,
+      "angle": 180,
+      "size": 280
+    },
+    "top": 1230
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "Two British warships ran into a French trap. One captain told the other to run, and stayed to fight five ships alone.",
+      "show": "Two British warships ran into a French trap. One captain told the other to run, and stayed to fight five ships alone.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "It happened on this day in seventeen ninety-four.",
+      "show": "It happened on this day in 1794.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "The seventy-fours Alexander and Canada were sailing home to Britain.",
+      "show": "The 74s Alexander and Canada were sailing home to Britain.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s4",
+      "say": "At dawn, a squadron appeared. It was disguised as British.",
+      "show": "At dawn, a squadron appeared. It was disguised as British.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s5",
+      "say": "Then it raised the French flag. Five ships of the line, against two.",
+      "show": "Then it raised the French flag. Five ships of the line, against two.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s6",
+      "say": "Alexander was the slower ship. So Captain Bligh ordered Canada to break away and save herself.",
+      "show": "Alexander was the slower ship. So Captain Bligh ordered Canada to break away and save herself.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s7",
+      "say": "Canada escaped without a scratch.",
+      "show": "Canada escaped without a scratch.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s8",
+      "say": "Alexander was caught. Bligh drove off the first French ship, then the second.",
+      "show": "Alexander was caught. Bligh drove off the first French ship, then the second.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s9",
+      "say": "By one o'clock, his sails were in rags, his masts shot through, and fires were burning below.",
+      "show": "By one o'clock, his sails were in rags, his masts shot through, and fires were burning below.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s10",
+      "say": "Bligh surrendered.",
+      "show": "Bligh surrendered.",
+      "pauseAfter": 0.55
+    },
+    {
+      "id": "s11",
+      "say": "A court martial cleared him with honour.",
+      "show": "A court martial cleared him with honour.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s12",
+      "say": "And seven months later, at the Battle of Groix, the British took Alexander back.",
+      "show": "And seven months later, at the Battle of Groix, the British took Alexander back.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "also": {
+    "say": "Also on this day: a king gave ordinary people rights in the royal forests, and Canadians took Passchendaele.",
+    "items": [
+      {
+        "year": "1217",
+        "text": "The Charter of the Forest is issued"
+      },
+      {
+        "year": "1917",
+        "text": "Canadian troops capture Passendale"
+      }
+    ],
+    "image": "bridport.jpg"
+  },
+  "cta": {
+    "story": "Never strike your colours.",
+    "say": "Our app sails on, one day of history at a time. Subscribe, and stand by to board.",
+    "pill": "ALL ABOARD",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook — the cover painting",
+      "image": "striking.jpg",
+      "focus": "40% 50%",
+      "move": "in"
+    },
+    {
+      "type": "film",
+      "from": "s1@0.4",
+      "enter": "cut",
+      "clip": "stock-storm.mp4",
+      "credit": "A stormy sea · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s1@0.72",
+      "enter": "cut",
+      "image": "striking.jpg",
+      "focus": "70% 50%",
+      "ghost": "1 VS 5",
+      "main": {
+        "text": "One ship. !!Five!! enemies.",
+        "at": "s1@0.8"
+      }
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "launch.jpg",
+      "focus": "50% 50%",
+      "date": "6 NOVEMBER",
+      "year": "1794",
+      "place": "The Celtic Sea"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "launch.jpg",
+      "focus": "30% 50%",
+      "move": "in",
+      "fact": "The launch of HMS Alexander, Deptford, 1778"
+    },
+    {
+      "type": "film",
+      "from": "s4",
+      "enter": "cut",
+      "clip": "stock-mast.mp4",
+      "credit": "A sailing ship's masts · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s4@0.55",
+      "enter": "cut",
+      "image": "two-ships.jpg",
+      "focus": "50% 50%",
+      "ghost": "TRAP",
+      "kicker": "Admiral ++Nielly++'s ruse",
+      "main": {
+        "text": "Disguised as *British*.",
+        "at": "s4@0.65"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s5",
+      "enter": "cut",
+      "image": "bridport.jpg",
+      "focus": "50% 50%",
+      "ghost": "5 v 2",
+      "kicker": "Then the tricolour went up",
+      "main": {
+        "text": "!!Five!! ships of the line.",
+        "at": "s5@0.6"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s6",
+      "enter": "cut",
+      "image": "two-ships.jpg",
+      "focus": "30% 50%",
+      "move": "in",
+      "fact": "Two 74-gun ships at sea (illustrative) — Thomas Luny"
+    },
+    {
+      "type": "statement",
+      "from": "s6@0.55",
+      "enter": "cut",
+      "image": "storm.jpg",
+      "focus": "50% 50%",
+      "kicker": "Captain ++Richard Bligh++'s order",
+      "main": {
+        "text": "++Canada++ must *break away*.",
+        "at": "s6@0.65"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s7",
+      "enter": "cut",
+      "clip": "stock-waves.mp4",
+      "credit": "Rough sea · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s8",
+      "enter": "cut",
+      "image": "striking.jpg",
+      "focus": "20% 50%",
+      "move": "in",
+      "fact": "Alexander fighting on alone — William Shayer"
+    },
+    {
+      "type": "photo",
+      "from": "s9",
+      "enter": "cut",
+      "image": "striking.jpg",
+      "focus": "75% 45%",
+      "move": "in",
+      "fact": "Shot to pieces, 6 November 1794"
+    },
+    {
+      "type": "film",
+      "from": "s9@0.6",
+      "enter": "cut",
+      "clip": "stock-storm.mp4",
+      "credit": "A stormy sea · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s10",
+      "enter": "cut",
+      "image": "striking.jpg",
+      "focus": "40% 50%",
+      "ghost": "13:00",
+      "kicker": "HMS ++Alexander++",
+      "main": {
+        "text": "!!Surrendered!!.",
+        "at": "s10@0.3"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s11",
+      "enter": "cut",
+      "image": "launch.jpg",
+      "focus": "60% 50%",
+      "ghost": "1795",
+      "kicker": "Court martial, 27 May 1795",
+      "main": {
+        "text": "*Honourably* acquitted.",
+        "at": "s11@0.6"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s12",
+      "enter": "cut",
+      "image": "groix.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The Battle of Groix, 23 June 1795"
+    },
+    {
+      "type": "statement",
+      "from": "s12@0.55",
+      "enter": "cut",
+      "image": "capture.jpg",
+      "focus": "50% 45%",
+      "ghost": "GROIX",
+      "kicker": "June 1795",
+      "main": {
+        "text": "++Alexander++ *recaptured*.",
+        "at": "s12@0.75"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "Two British warships ran into a French trap. One captain told the other to run — and stayed to fight five ships alone. ⚓🔥\n\n6 November 1794: Captain Bligh of HMS Alexander sent HMS Canada away, held off two French 74s, and only surrendered with his masts shot through and fires below. Seven months later, Britain took his ship back.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #navalhistory #royalnavy #historytok #1794",
+    "facebook": "On this day in 1794, two British 74-gun ships, HMS Alexander and HMS Canada, sailing home through the Celtic Sea, ran into a trap.\n\nAt dawn a squadron appeared, disguised as British. Then it raised the French tricolour: five ships of the line under Admiral Nielly. Alexander was the slower ship, so her captain, Richard Rodney Bligh, ordered Canada to break away and save herself. Canada escaped without a scratch.\n\nAlexander was caught. Bligh drove off the first French ship, then the second. By one o'clock his sails were in rags, his masts shot through, his hull shattered and fires burning below — and he surrendered.\n\nA court martial honourably acquitted him. And seven months later, at the Battle of Groix, the British fleet overran the French Alexandre and took her back.\n\nAlso on 6 November: the Charter of the Forest (1217), and Canadian troops took Passendale (1917).\n\nOur app sails on, one day of history at a time. Follow the page and stand by to board. 📜\n\n#OnThisDay #History #RoyalNavy #NavalHistory",
+    "youtube": {
+      "title": "He Sent His Friend Away — And Fought Five Ships Alone #Shorts",
+      "description": "6 November 1794: HMS Alexander and HMS Canada were sailing home when a squadron disguised as British raised the French flag — five ships of the line against two. Captain Richard Rodney Bligh ordered the faster Canada to escape, then fought on alone, driving off two French ships until his masts were shot through and fires burned below. He surrendered at one o'clock, was honourably acquitted — and seven months later the British recaptured his ship at the Battle of Groix.\n\nAlso on 6 November: the Charter of the Forest (1217) and Passchendaele (1917).\n\nSubscribe — our history app, with a story for every date, is on its way.\n\nPaintings: public domain (Wikimedia Commons); some are illustrative. Sea and mast shots: illustrative stock footage (Pexels), not of the event. Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #RoyalNavy #NavalHistory",
+      "tags": [
+        "action of 6 november 1794",
+        "hms alexander",
+        "hms canada",
+        "richard rodney bligh",
+        "royal navy",
+        "naval history",
+        "age of sail",
+        "ship of the line",
+        "74 gun ship",
+        "naval battle",
+        "french revolutionary wars",
+        "napoleonic wars",
+        "battle of groix",
+        "sea battle",
+        "royal navy history",
+        "british history",
+        "18th century",
+        "1794",
+        "military history",
+        "history",
+        "on this day",
+        "history facts",
+        "history shorts",
+        "documentary",
+        "war history",
+        "captain bligh",
+        "french navy",
+        "celtic sea",
+        "sea battles",
+        "history of the royal navy"
+      ]
+    },
+    "pinned": "Bligh sent the faster ship away and took the fight himself. Hero's choice — or should both ships have stood together? 👇"
+  }
+}

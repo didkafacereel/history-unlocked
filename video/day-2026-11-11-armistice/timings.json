@@ -1,0 +1,83 @@
+{
+  "total": 64.177,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "At 10:59, one minute before the war ended, an American soldier charged German machine guns.",
+      "start": 0.4,
+      "end": 7.717
+    },
+    {
+      "id": "s2",
+      "show": "The Germans tried to wave him away. He kept going.",
+      "start": 8.167,
+      "end": 11.367
+    },
+    {
+      "id": "s3",
+      "show": "World War One ended on this day in 1918.",
+      "start": 11.867,
+      "end": 15.43
+    },
+    {
+      "id": "s4",
+      "show": "Germany signed at 5 a.m., in a railway carriage near Compiègne.",
+      "start": 15.83,
+      "end": 20.395
+    },
+    {
+      "id": "s5",
+      "show": "But the guns would only fall silent at 11:00. The eleventh hour, of the eleventh day, of the eleventh month.",
+      "start": 20.745,
+      "end": 27.849
+    },
+    {
+      "id": "s6",
+      "show": "Until then, the guns kept firing.",
+      "start": 28.299,
+      "end": 30.646
+    },
+    {
+      "id": "s7",
+      "show": "On that last day, 2,738 men died.",
+      "start": 31.046,
+      "end": 35.526
+    },
+    {
+      "id": "s8",
+      "show": "Henry Gunther had been demoted for a letter home about the misery at the front.",
+      "start": 36.026,
+      "end": 40.847
+    },
+    {
+      "id": "s9",
+      "show": "He wanted to make good. At 10:59, he was killed.",
+      "start": 41.197,
+      "end": 44.803
+    },
+    {
+      "id": "s10",
+      "show": "One minute later, the guns fell silent.",
+      "start": 45.353,
+      "end": 47.913
+    },
+    {
+      "id": "s11",
+      "show": "Pershing named him the last American killed in the war.",
+      "start": 48.313,
+      "end": 51.641
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: Ned Kelly was hanged, and London buried its Unknown Warrior.",
+      "start": 52.241,
+      "end": 57.617
+    },
+    {
+      "id": "end2",
+      "show": "Our app is coming, a story for every day. Subscribe now, before the eleventh hour.",
+      "start": 58.067,
+      "end": 63.677
+    }
+  ]
+}

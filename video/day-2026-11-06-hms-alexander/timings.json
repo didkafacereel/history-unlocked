@@ -1,0 +1,89 @@
+{
+  "total": 70.735,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "Two British warships ran into a French trap. One captain told the other to run, and stayed to fight five ships alone.",
+      "start": 0.4,
+      "end": 8.037
+    },
+    {
+      "id": "s2",
+      "show": "It happened on this day in 1794.",
+      "start": 8.487,
+      "end": 11.538
+    },
+    {
+      "id": "s3",
+      "show": "The 74s Alexander and Canada were sailing home to Britain.",
+      "start": 11.938,
+      "end": 16.375
+    },
+    {
+      "id": "s4",
+      "show": "At dawn, a squadron appeared. It was disguised as British.",
+      "start": 16.725,
+      "end": 20.672
+    },
+    {
+      "id": "s5",
+      "show": "Then it raised the French flag. Five ships of the line, against two.",
+      "start": 21.072,
+      "end": 25.232
+    },
+    {
+      "id": "s6",
+      "show": "Alexander was the slower ship. So Captain Bligh ordered Canada to break away and save herself.",
+      "start": 25.682,
+      "end": 31.997
+    },
+    {
+      "id": "s7",
+      "show": "Canada escaped without a scratch.",
+      "start": 32.397,
+      "end": 34.573
+    },
+    {
+      "id": "s8",
+      "show": "Alexander was caught. Bligh drove off the first French ship, then the second.",
+      "start": 35.023,
+      "end": 39.993
+    },
+    {
+      "id": "s9",
+      "show": "By one o'clock, his sails were in rags, his masts shot through, and fires were burning below.",
+      "start": 40.343,
+      "end": 46.295
+    },
+    {
+      "id": "s10",
+      "show": "Bligh surrendered.",
+      "start": 46.695,
+      "end": 47.869
+    },
+    {
+      "id": "s11",
+      "show": "A court martial cleared him with honour.",
+      "start": 48.419,
+      "end": 50.552
+    },
+    {
+      "id": "s12",
+      "show": "And seven months later, at the Battle of Groix, the British took Alexander back.",
+      "start": 50.902,
+      "end": 56.001
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: a king gave ordinary people rights in the royal forests, and Canadians took Passchendaele.",
+      "start": 56.601,
+      "end": 64.067
+    },
+    {
+      "id": "end2",
+      "show": "Our app sails on, one day of history at a time. Subscribe, and stand by to board.",
+      "start": 64.517,
+      "end": 70.235
+    }
+  ]
+}

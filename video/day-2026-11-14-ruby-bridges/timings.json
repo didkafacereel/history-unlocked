@@ -1,0 +1,83 @@
+{
+  "total": 68.209,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "Every morning, a six-year-old girl walked to school past a crowd. One woman held up a black doll in a coffin.",
+      "start": 0.4,
+      "end": 7.824
+    },
+    {
+      "id": "s2",
+      "show": "Her name was Ruby Bridges.",
+      "start": 8.324,
+      "end": 10.244
+    },
+    {
+      "id": "s3",
+      "show": "On this day in 1960, she became the first Black child at an all-white school in New Orleans.",
+      "start": 10.644,
+      "end": 17.172
+    },
+    {
+      "id": "s4",
+      "show": "Federal marshals walked her in.",
+      "start": 17.572,
+      "end": 19.599
+    },
+    {
+      "id": "s5",
+      "show": "Seeing the crowd, she later said, she thought it was Mardi Gras.",
+      "start": 19.999,
+      "end": 23.775
+    },
+    {
+      "id": "s6",
+      "show": "White parents pulled their children out. All the teachers but one refused to teach her.",
+      "start": 24.225,
+      "end": 29.451
+    },
+    {
+      "id": "s7",
+      "show": "Barbara Henry, from Boston, taught her alone, for over a year.",
+      "start": 29.851,
+      "end": 33.713
+    },
+    {
+      "id": "s8",
+      "show": "A woman threatened to poison her, so the marshals let her eat only food from home.",
+      "start": 34.163,
+      "end": 39.475
+    },
+    {
+      "id": "s9",
+      "show": "Her family paid too. Her father lost his job, and the grocery store turned them away.",
+      "start": 39.925,
+      "end": 45.599
+    },
+    {
+      "id": "s10",
+      "show": "But neighbours walked behind the marshals' car to school.",
+      "start": 45.999,
+      "end": 49.093
+    },
+    {
+      "id": "s11",
+      "show": "Fifty years later, President Obama told her: \"If it hadn't been for you guys, I might not be here.\"",
+      "start": 49.593,
+      "end": 55.417
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: Apollo Twelve launched, and a plane first took off from a ship.",
+      "start": 56.017,
+      "end": 61.35
+    },
+    {
+      "id": "end2",
+      "show": "Our app is on its way, with a story for every day. Subscribe now, and walk in with us.",
+      "start": 61.8,
+      "end": 67.709
+    }
+  ]
+}

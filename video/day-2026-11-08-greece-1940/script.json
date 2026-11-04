@@ -1,0 +1,372 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-11-08",
+  "dateKey": "11-08",
+  "slug": "greece-1940",
+  "title": "Greece says no, 1940 — the first Axis setback of the war",
+  "eventId": "evt-11-08-1940-greco-italian-war",
+  "category": "Military & Conflict",
+  "sources": [
+    "Wikipedia: Greco-Italian War — on the eve of 28 October 1940 Italy's ambassador Emanuele Grazzi handed Ioannis Metaxas an ultimatum from Mussolini demanding that Axis forces be allowed to occupy 'strategic positions' in Greece; Metaxas rejected it with the words 'Alors, c'est la guerre' ('Then it is war'); the popular story is that he answered 'Ochi!' ('No!'); Italian forces in Albania attacked at 05:30, half an hour before the ultimatum expired; the Italian commander Visconti Prasca had promised to finish off the Greek forces in Epirus in ten to fifteen days; on 8 November, as the failure mounted, Visconti Prasca was relieved of overall command; the Greeks then counter-attacked and pushed the Italians back into Albania; Mark Mazower called it 'the first Axis setback of the entire war'; a captured Greek officer: 'we are sure that we will lose the war, but we will give you the s[lap]...'",
+    "Wikipedia: Battle of Elaia–Kalamas (2–8 November 1940) — on 8 November the fruitless Italian offensive was suspended and the Italians began withdrawing to defensive positions; the Julia Alpine division was virtually wiped out in the Pindus",
+    "Wikipedia: Ohi Day — 28 October, commemorating the rejection of the ultimatum, is a national holiday in Greece",
+    "Also on this day (candidates.md, in the app): 1932 the Australian army withdraws from its 'war' against emus; 1520 the Stockholm Bloodbath",
+    "Photos (public domain / CC0): Greek soldier on a captured Italian tankette at Kalpaki, 1940; Greek gun crew in Albania, 1940–41 (US Office of War Information); Greek soldier holding his daughter, 1940–41 (OWI); Greek soldiers with a Hotchkiss machine gun, Albanian front 1940; the march to the Kleisoura pass; Ioannis Metaxas, 1937; Benito Mussolini; the newspaper Ellinikon Mellon, 30 October 1940 ('OXI!'); an RAF Blenheim in Greece",
+    "Illustrative stock footage (Pexels, free licence; not of the event): snowfall, a winter forest"
+  ],
+  "music": {
+    "track": "grieg-aase-death"
+  },
+  "highlight": [
+    "NO",
+    "OCHI",
+    "WAR",
+    "STOPPED",
+    "SETBACK",
+    "PUSHED"
+  ],
+  "alert": [
+    "ULTIMATUM",
+    "INVADED",
+    "ATTACKED",
+    "WIPED",
+    "DISMISSED"
+  ],
+  "names": [
+    "GREECE",
+    "METAXAS",
+    "MUSSOLINI",
+    "ITALY",
+    "ALBANIA",
+    "PINDUS",
+    "JULIA",
+    "GREEKS"
+  ],
+  "cover": {
+    "image": "kalpaki.jpg",
+    "focus": "50% 45%",
+    "date": "8 NOVEMBER 1940",
+    "lines": [
+      "ONE WORD:",
+      "*NO*"
+    ],
+    "top": 1250
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "Mussolini told Greece to let his army in. Greece answered with one word.",
+      "show": "Mussolini told Greece to let his army in. Greece answered with one word.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "On this day in nineteen forty, his invasion ground to a halt.",
+      "show": "On this day in 1940, his invasion ground to a halt.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "Before dawn on October twenty-eighth, Italy's ambassador woke the Greek leader, Metaxas.",
+      "show": "Before dawn on October 28th, Italy's ambassador woke the Greek leader, Metaxas.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s4",
+      "say": "The demand: let Italian troops occupy Greece.",
+      "show": "The demand: let Italian troops occupy Greece.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s5",
+      "say": "Metaxas replied: then it is war. Greeks remember one word. Ochi. No.",
+      "show": "Metaxas replied: \"Then it is war.\" Greeks remember one word. Ochi. No.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s6",
+      "say": "Italy attacked from Albania, before its own deadline ran out.",
+      "show": "Italy attacked from Albania, before its own deadline ran out.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s7",
+      "say": "Their general promised to finish the Greeks in two weeks.",
+      "show": "Their general promised to finish the Greeks in two weeks.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s8",
+      "say": "Instead, in the mountains, the Greeks held, and an Italian division was almost wiped out.",
+      "show": "Instead, in the mountains, the Greeks held, and an Italian division was almost wiped out.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s9",
+      "say": "On November eighth, the offensive was called off, and its commander removed.",
+      "show": "On November 8th, the offensive was called off, and its commander removed.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s10",
+      "say": "Then the Greeks pushed the Italians back into Albania.",
+      "show": "Then the Greeks pushed the Italians back into Albania.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s11",
+      "say": "The first Axis setback of the war. Greece still celebrates the day it said no.",
+      "show": "The first Axis setback of the war. Greece still celebrates the day it said no.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "also": {
+    "say": "Also on this day: Australia lost its war against emus, and the Stockholm Bloodbath shocked Sweden.",
+    "items": [
+      {
+        "year": "1932",
+        "text": "Australia's army retreats from the Emu War"
+      },
+      {
+        "year": "1520",
+        "text": "The Stockholm Bloodbath"
+      }
+    ],
+    "image": "mountain-gun.jpg"
+  },
+  "cta": {
+    "story": "Some answers are one word.",
+    "say": "Here's ours: yes, our history app is coming. Subscribe, and be there when we say go.",
+    "pill": "SAY YES",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook — the cover photo",
+      "image": "kalpaki.jpg",
+      "focus": "50% 45%",
+      "move": "in"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.25",
+      "enter": "cut",
+      "image": "mussolini.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "Benito Mussolini"
+    },
+    {
+      "type": "statement",
+      "from": "s1@0.7",
+      "enter": "cut",
+      "image": "ochi-paper.jpg",
+      "focus": "30% 40%",
+      "ghost": "ΟΧΙ",
+      "main": {
+        "text": "One word: *NO*.",
+        "at": "s1@0.8"
+      }
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "machinegun.jpg",
+      "focus": "50% 50%",
+      "date": "8 NOVEMBER",
+      "year": "1940",
+      "place": "Epirus, Greece"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "metaxas.jpg",
+      "focus": "50% 35%",
+      "move": "in",
+      "fact": "Ioannis Metaxas, prime minister of Greece"
+    },
+    {
+      "type": "statement",
+      "from": "s4",
+      "enter": "cut",
+      "image": "mussolini.jpg",
+      "focus": "50% 40%",
+      "ghost": "28.10",
+      "kicker": "++Mussolini++'s ultimatum",
+      "main": {
+        "text": "Let Italy !!occupy!! Greece.",
+        "at": "s4@0.5"
+      }
+    },
+    {
+      "type": "quote",
+      "from": "s5",
+      "enter": "cut",
+      "image": "metaxas.jpg",
+      "focus": "50% 35%",
+      "kicker": "Ioannis Metaxas",
+      "quote": {
+        "text": "Then it is war.",
+        "at": "s5@0.2"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s5@0.6",
+      "enter": "cut",
+      "image": "ochi-paper.jpg",
+      "focus": "50% 50%",
+      "ghost": "ΟΧΙ",
+      "kicker": "As Greece remembers it",
+      "main": {
+        "text": "*Ochi.* No.",
+        "at": "s5@0.75"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s6",
+      "enter": "cut",
+      "image": "italians.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Italian troops on the Greek front"
+    },
+    {
+      "type": "statement",
+      "from": "s7",
+      "enter": "cut",
+      "image": "italians.jpg",
+      "focus": "70% 40%",
+      "ghost": "2 WEEKS",
+      "kicker": "General Visconti Prasca's promise",
+      "main": {
+        "text": "Finished in *two weeks*.",
+        "at": "s7@0.6"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s8",
+      "enter": "cut",
+      "clip": "stock-snow.mp4",
+      "credit": "Snow in the mountains · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s8@0.4",
+      "enter": "cut",
+      "image": "kleisoura.jpg",
+      "focus": "50% 45%",
+      "move": "in",
+      "fact": "Greek troops march to the Kleisoura pass"
+    },
+    {
+      "type": "photo",
+      "from": "s8@0.75",
+      "enter": "cut",
+      "image": "machinegun.jpg",
+      "focus": "40% 50%",
+      "move": "in",
+      "fact": "Greek machine-gunners, Albanian front, 1940"
+    },
+    {
+      "type": "statement",
+      "from": "s9",
+      "enter": "cut",
+      "image": "kalpaki.jpg",
+      "focus": "60% 50%",
+      "ghost": "8.11",
+      "kicker": "8 November 1940",
+      "main": {
+        "text": "The invasion !!stopped!!.",
+        "at": "s9@0.45"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s10",
+      "enter": "cut",
+      "image": "mountain-gun.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "A Greek gun crew in Albania, 1940–41"
+    },
+    {
+      "type": "film",
+      "from": "s10@0.5",
+      "enter": "cut",
+      "clip": "stock-forest.mp4",
+      "credit": "A winter forest · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s11",
+      "enter": "cut",
+      "image": "farewell.jpg",
+      "focus": "50% 35%",
+      "move": "in",
+      "fact": "A Greek soldier and his daughter, 1940–41"
+    },
+    {
+      "type": "statement",
+      "from": "s11@0.5",
+      "enter": "cut",
+      "image": "ochi-paper.jpg",
+      "focus": "50% 40%",
+      "ghost": "28 OCT",
+      "kicker": "++Ochi++ Day, every 28 October",
+      "main": {
+        "text": "The *first* Axis setback.",
+        "at": "s11@0.6"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "Mussolini demanded that Greece open its borders. Greece answered with ONE word — and stopped his army. 🇬🇷\n\n\"Ochi!\" — No. Italy invaded from Albania, promising to win in two weeks. On 8 November 1940 the Italian offensive was called off, and the Greeks pushed them back. The first Axis setback of WW2.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #ww2 #greece #ochi #historytok",
+    "facebook": "On this day in 1940, the Italian invasion of Greece ground to a halt.\n\nIn the early hours of 28 October, Italy's ambassador woke the Greek prime minister, Ioannis Metaxas, with an ultimatum from Mussolini: let Italian troops occupy Greek territory. Metaxas replied in French: \"Then it is war.\" Greeks remember it as a single word — \"Ochi\". No.\n\nItalian troops attacked from Albania half an hour before their own deadline expired. Their commander promised to finish the Greeks in two weeks. Instead, in the mountains of Epirus and the Pindus, the Greeks held, and an Italian Alpine division was nearly wiped out. On 8 November the Italian offensive was called off and its commander removed. Then the Greeks counter-attacked and pushed the Italians back into Albania.\n\nIt has been called the first Axis setback of the entire war. Greece still celebrates 28 October as Ochi Day.\n\nAlso on 8 November: Australia's army withdrew from its \"Emu War\" (1932), and the Stockholm Bloodbath (1520).\n\nSome answers are one word. Here's ours: yes, our history app is coming. Follow the page and be there when we say go. 📜\n\n#OnThisDay #History #WW2 #Greece",
+    "youtube": {
+      "title": "Mussolini Demanded Surrender — Greece Said One Word #Shorts",
+      "description": "28 October 1940: Mussolini gave Greece an ultimatum — let Italian troops occupy Greek territory. Prime minister Ioannis Metaxas replied \"Then it is war\"; Greeks remember it as one word, \"Ochi\" (No). Italy invaded from Albania promising victory in two weeks, but in the mountains the Greeks held. On 8 November 1940 the Italian offensive was called off and its commander removed; the Greeks then pushed the Italians back into Albania — the first Axis setback of the war.\n\nAlso on 8 November: the Emu War ends (1932) and the Stockholm Bloodbath (1520).\n\nSubscribe — our history app, with a story for every date, is on its way.\n\nPhotos: public domain / CC0 (Wikimedia Commons, US Office of War Information). Snow and forest shots: illustrative stock footage (Pexels), not of the event. Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #WW2 #Greece",
+      "tags": [
+        "greco-italian war",
+        "ochi day",
+        "oxi day",
+        "greece ww2",
+        "greece 1940",
+        "metaxas",
+        "ioannis metaxas",
+        "mussolini",
+        "italian invasion of greece",
+        "battle of elaia-kalamas",
+        "pindus",
+        "albania 1940",
+        "world war 2",
+        "ww2",
+        "wwii history",
+        "axis powers",
+        "greek history",
+        "italy ww2",
+        "military history",
+        "1940",
+        "history",
+        "on this day",
+        "history facts",
+        "history shorts",
+        "documentary",
+        "ww2 history",
+        "world war ii",
+        "greek army",
+        "oxi",
+        "italian army",
+        "balkans history",
+        "european history"
+      ]
+    },
+    "pinned": "Greece was outnumbered and still said no. Would your country have dared? 👇"
+  }
+}

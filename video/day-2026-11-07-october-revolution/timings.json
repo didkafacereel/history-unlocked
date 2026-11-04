@@ -1,0 +1,83 @@
+{
+  "total": 66.36,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "The most famous scenes of the Russian Revolution were mostly staged, years later.",
+      "start": 0.4,
+      "end": 5.435
+    },
+    {
+      "id": "s2",
+      "show": "The real night came on this day in 1917.",
+      "start": 5.885,
+      "end": 9.362
+    },
+    {
+      "id": "s3",
+      "show": "It's called the October Revolution because of Russia's old calendar. Everywhere else, it was November.",
+      "start": 9.712,
+      "end": 16.048
+    },
+    {
+      "id": "s4",
+      "show": "Lenin's Bolsheviks moved on the Winter Palace in Petrograd.",
+      "start": 16.498,
+      "end": 20.295
+    },
+    {
+      "id": "s5",
+      "show": "The cruiser Aurora fired a single shot from the river. A blank.",
+      "start": 20.695,
+      "end": 24.834
+    },
+    {
+      "id": "s6",
+      "show": "Inside, about 3,000 defenders, including a battalion of women.",
+      "start": 25.284,
+      "end": 30.105
+    },
+    {
+      "id": "s7",
+      "show": "Outside, 40,000.",
+      "start": 30.455,
+      "end": 32.354
+    },
+    {
+      "id": "s8",
+      "show": "Most surrendered. It went almost without casualties.",
+      "start": 32.854,
+      "end": 36.203
+    },
+    {
+      "id": "s9",
+      "show": "Three years later, the storming was restaged, for 100,000 spectators.",
+      "start": 36.653,
+      "end": 41.816
+    },
+    {
+      "id": "s10",
+      "show": "Then Sergei Eisenstein filmed it, with fierce fighting that never happened.",
+      "start": 42.216,
+      "end": 46.867
+    },
+    {
+      "id": "s11",
+      "show": "That's the film you're watching. For decades, it was taken as the truth.",
+      "start": 47.317,
+      "end": 51.626
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: the first woman was elected to Congress, and Ulysses Grant fought his first battle.",
+      "start": 52.226,
+      "end": 59.095
+    },
+    {
+      "id": "end2",
+      "show": "Our app tells what really happened, every single day. Subscribe, and see the real story first.",
+      "start": 59.545,
+      "end": 65.86
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "pole-group.jpg": {
+    "file": "File:Scottgroup.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Scottgroup.jpg",
+    "licence": "Public domain",
+    "artist": "Henry Bowers (1883–1912)",
+    "date": "Taken on 18 January 1912",
+    "description": "Last expedition of Robert Falcon Scott. The image shows Wilson, Scott and Oates (standing); and Bowers and Evans (sitting)."
+  },
+  "polheim.jpg": {
+    "file": "File:Robert F. Scott at Polheim.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Robert_F._Scott_at_Polheim.JPG",
+    "licence": "Public domain",
+    "artist": "Lawrence Oates",
+    "date": "Taken on 18 January 1912",
+    "description": "Scott and his men at the south pole. Left to right: Scott, Bowers, Wilson and P.O. Evans."
+  },
+  "last-rest.jpg": {
+    "file": "File:Last Rest (Grave of Scott, Wilson, and Bowers).png",
+    "page": "https://commons.wikimedia.org/wiki/File:Last_Rest_(Grave_of_Scott,_Wilson,_and_Bowers).png",
+    "licence": "Public domain",
+    "artist": "R. F. Scott",
+    "date": "1913-01-01",
+    "description": "Last Rest (Grave of Scott, Wilson, and Bowers)"
+  },
+  "grotto.jpg": {
+    "file": "File:Grotto in an iceberg.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Grotto_in_an_iceberg.jpg",
+    "licence": "Public domain",
+    "artist": "Herbert Ponting",
+    "date": "Taken on 5 January 1911 per source",
+    "description": "Grotto in an iceberg, photographed during the British Antarctic Expedition of 1911-1913, 5 Jan 1911."
+  },
+  "terra-nova.jpg": {
+    "file": "File:TerraNova-Ponting.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:TerraNova-Ponting.jpg",
+    "licence": "Public domain",
+    "artist": "Herbert Ponting",
+    "date": "Taken on 13 December 1910",
+    "description": "Terra Nova held up in pack ice, 13 Dec. 1910."
+  },
+  "scott-hut.jpg": {
+    "file": "File:Robert Falcon Scott in the Cape Evans hut, October 1911.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Robert_Falcon_Scott_in_the_Cape_Evans_hut,_October_1911.jpg",
+    "licence": "Public domain",
+    "artist": "Herbert Ponting",
+    "date": "Taken on 7 October 1911",
+    "description": "Captain Robert Falcon Scott writing in his diary, Cape Evans hut, 7th October 1911. Brown toned carbon print."
+  },
+  "oates.jpg": {
+    "file": "File:Lawrence Oates c1911.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lawrence_Oates_c1911.jpg",
+    "licence": "Public domain",
+    "artist": "Herbert Ponting",
+    "date": "1911",
+    "description": "Captain Lawrence Edward Grace Oates during the British Antarctic Expedition of 1911-1913, ca 1911, Reference Number: PA1-f-067-069-1, Silver gelatin print, Photographic Archive, Alexander Turnbull Library"
+  },
+  "gallant.jpg": {
+    "file": "File:A Very Gallant Gentleman.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:A_Very_Gallant_Gentleman.jpg",
+    "licence": "Public domain",
+    "artist": "John Charles Dollman",
+    "date": "1913-01-01",
+    "description": "A Very Gallant Gentleman"
+  },
+  "scott.jpg": {
+    "file": "File:Scott of the Antarctic (bw) (cropped).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Scott_of_the_Antarctic_(bw)_(cropped).jpg",
+    "licence": "Public domain",
+    "artist": "Henry Maull (1829–1914) and John Fox (1832–1907)",
+    "date": "1905",
+    "description": "Robert Falcon Scott in full regalia: this was reproduced as a frontispiece for Scott's The Voyage of the Discovery (London 1905).[1]"
+  },
+  "film-ship.mp4": {
+    "file": "File:The Great White Silence (1924).webm",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Great_White_Silence_(1924).webm",
+    "licence": "Public domain",
+    "artist": "Herbert Ponting",
+    "date": "1924",
+    "description": "Silent documentary film, tinted and toned.",
+    "film": {
+      "at": 1100,
+      "len": 4,
+      "fit": "band"
+    }
+  },
+  "film-rigging.mp4": {
+    "file": "File:The Great White Silence (1924).webm",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Great_White_Silence_(1924).webm",
+    "licence": "Public domain",
+    "artist": "Herbert Ponting",
+    "date": "1924",
+    "description": "Silent documentary film, tinted and toned.",
+    "film": {
+      "at": 1300,
+      "len": 4,
+      "fit": "band"
+    }
+  },
+  "film-hut.mp4": {
+    "file": "File:The Great White Silence (1924).webm",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Great_White_Silence_(1924).webm",
+    "licence": "Public domain",
+    "artist": "Herbert Ponting",
+    "date": "1924",
+    "description": "Silent documentary film, tinted and toned.",
+    "film": {
+      "at": 1700,
+      "len": 4,
+      "fit": "band"
+    }
+  },
+  "film-cave.mp4": {
+    "file": "File:The Great White Silence (1924).webm",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Great_White_Silence_(1924).webm",
+    "licence": "Public domain",
+    "artist": "Herbert Ponting",
+    "date": "1924",
+    "description": "Silent documentary film, tinted and toned.",
+    "film": {
+      "at": 2900,
+      "len": 4,
+      "fit": "band"
+    }
+  },
+  "film-dogs.mp4": {
+    "file": "File:The Great White Silence (1924).webm",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Great_White_Silence_(1924).webm",
+    "licence": "Public domain",
+    "artist": "Herbert Ponting",
+    "date": "1924",
+    "description": "Silent documentary film, tinted and toned.",
+    "film": {
+      "at": 3100,
+      "len": 4,
+      "fit": "band"
+    }
+  },
+  "film-mountains.mp4": {
+    "file": "File:The Great White Silence (1924).webm",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Great_White_Silence_(1924).webm",
+    "licence": "Public domain",
+    "artist": "Herbert Ponting",
+    "date": "1924",
+    "description": "Silent documentary film, tinted and toned.",
+    "film": {
+      "at": 4900,
+      "len": 4,
+      "fit": "band"
+    }
+  },
+  "film-tent.mp4": {
+    "file": "File:The Great White Silence (1924).webm",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Great_White_Silence_(1924).webm",
+    "licence": "Public domain",
+    "artist": "Herbert Ponting",
+    "date": "1924",
+    "description": "Silent documentary film, tinted and toned.",
+    "film": {
+      "at": 5100,
+      "len": 4,
+      "fit": "band"
+    }
+  },
+  "film-pole.mp4": {
+    "file": "File:The Great White Silence (1924).webm",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Great_White_Silence_(1924).webm",
+    "licence": "Public domain",
+    "artist": "Herbert Ponting",
+    "date": "1924",
+    "description": "Silent documentary film, tinted and toned.",
+    "film": {
+      "at": 5700,
+      "len": 4,
+      "fit": "band"
+    }
+  }
+}

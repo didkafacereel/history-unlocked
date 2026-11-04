@@ -1,0 +1,372 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-11-14",
+  "dateKey": "11-14",
+  "slug": "ruby-bridges",
+  "title": "Ruby Bridges, 1960 — the six-year-old who walked in alone",
+  "eventId": "evt-11-14-1960-ruby-bridges",
+  "category": "Science & Technology",
+  "sources": [
+    "Wikipedia: Ruby Bridges — the first African American child to attend the formerly whites-only William Frantz Elementary School in New Orleans, on November 14, 1960, aged six; escorted by U.S. Marshals; \"Driving up I could see the crowd, but living in New Orleans, I actually thought it was Mardi Gras\"; white parents pulled their children out and all the teachers except one refused to teach; Barbara Henry, from Boston, taught her alone for over a year \"as if she were teaching a whole class\"; every morning one woman threatened to poison her and another held up a black baby doll in a coffin, so the marshals let her eat only food from home; her father lost his job, the grocery store would no longer let the family shop there; neighbours, black and white, walked behind the marshals' car; on July 15, 2011 she met President Obama at the White House, who told her \"if it hadn't been for you guys, I might not be here\"",
+    "Also on this day (candidates.md, in the app): 1969 Apollo 12 launches; 1910 Eugene Ely makes the first takeoff from a ship",
+    "Photos (public domain): U.S. Marshals with Ruby Bridges, 1960 (Department of Justice); a protest against school integration, Little Rock, 1959; soldiers escorting the Little Rock Nine, 1957; a Citizens' Council flyer, New Orleans, c. 1963; Ruby Bridges and President Obama, 2011 (White House, painting blurred). The 1964 Rockwell painting is not shown",
+    "Illustrative stock footage (Pexels, free licence; not of the event): empty classrooms"
+  ],
+  "music": {
+    "track": "grieg-concerto-adagio"
+  },
+  "highlight": [
+    "FIRST",
+    "ONE",
+    "ALONE",
+    "WHOLE",
+    "MARDI",
+    "GRAS"
+  ],
+  "alert": [
+    "COFFIN",
+    "POISON",
+    "REFUSED",
+    "PULLED",
+    "LOST"
+  ],
+  "names": [
+    "RUBY",
+    "BRIDGES",
+    "BARBARA",
+    "HENRY",
+    "OBAMA",
+    "BOSTON",
+    "ORLEANS"
+  ],
+  "cover": {
+    "image": "marshals.jpg",
+    "focus": "45% 50%",
+    "date": "14 NOVEMBER 1960",
+    "lines": [
+      "SIX YEARS OLD",
+      "A CLASS OF *ONE*"
+    ]
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "Every morning, a six-year-old girl walked to school past a crowd. One woman held up a black doll in a coffin.",
+      "show": "Every morning, a six-year-old girl walked to school past a crowd. One woman held up a black doll in a coffin.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s2",
+      "say": "Her name was Ruby Bridges.",
+      "show": "Her name was Ruby Bridges.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "On this day in nineteen sixty, she became the first Black child at an all-white school in New Orleans.",
+      "show": "On this day in 1960, she became the first Black child at an all-white school in New Orleans.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "Federal marshals walked her in.",
+      "show": "Federal marshals walked her in.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s5",
+      "say": "Seeing the crowd, she later said, she thought it was Mardi Gras.",
+      "show": "Seeing the crowd, she later said, she thought it was Mardi Gras.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s6",
+      "say": "White parents pulled their children out. All the teachers but one refused to teach her.",
+      "show": "White parents pulled their children out. All the teachers but one refused to teach her.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s7",
+      "say": "Barbara Henry, from Boston, taught her alone, for over a year.",
+      "show": "Barbara Henry, from Boston, taught her alone, for over a year.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s8",
+      "say": "A woman threatened to poison her, so the marshals let her eat only food from home.",
+      "show": "A woman threatened to poison her, so the marshals let her eat only food from home.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s9",
+      "say": "Her family paid too. Her father lost his job, and the grocery store turned them away.",
+      "show": "Her family paid too. Her father lost his job, and the grocery store turned them away.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s10",
+      "say": "But neighbours walked behind the marshals' car to school.",
+      "show": "But neighbours walked behind the marshals' car to school.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s11",
+      "say": "Fifty years later, President Obama told her: if it hadn't been for you, I might not be here.",
+      "show": "Fifty years later, President Obama told her: \"If it hadn't been for you guys, I might not be here.\"",
+      "pauseAfter": 0.6
+    }
+  ],
+  "also": {
+    "say": "Also on this day: Apollo Twelve launched, and a plane first took off from a ship.",
+    "items": [
+      {
+        "year": "1969",
+        "text": "Apollo 12 launches"
+      },
+      {
+        "year": "1910",
+        "text": "First takeoff from a ship"
+      }
+    ],
+    "image": "marshals.jpg"
+  },
+  "cta": {
+    "story": "Small steps can change history.",
+    "say": "Our app is on its way, with a story for every day. Subscribe now, and walk in with us.",
+    "pill": "WALK IN WITH US",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "film",
+      "note": "hook",
+      "clip": "stock-empty.mp4",
+      "credit": "An empty classroom · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s1@0.45",
+      "enter": "cut",
+      "image": "protest.jpg",
+      "focus": "50% 50%",
+      "ghost": "6",
+      "kicker": "++New Orleans++, 1960",
+      "main": {
+        "text": "A doll in a !!coffin!!.",
+        "at": "s1@0.8"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s2",
+      "enter": "cut",
+      "image": "marshals.jpg",
+      "focus": "45% 50%",
+      "move": "in",
+      "fact": "Ruby Bridges with U.S. Marshals, 1960"
+    },
+    {
+      "type": "title",
+      "from": "s3",
+      "enter": "cut",
+      "image": "marshals.jpg",
+      "focus": "55% 40%",
+      "date": "14 NOVEMBER",
+      "year": "1960",
+      "place": "William Frantz Elementary, New Orleans"
+    },
+    {
+      "type": "statement",
+      "from": "s3@0.55",
+      "enter": "cut",
+      "image": "marshals.jpg",
+      "focus": "40% 60%",
+      "ghost": "1st",
+      "main": {
+        "text": "The *first* Black child.",
+        "at": "s3@0.6"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s4",
+      "enter": "cut",
+      "image": "marshals.jpg",
+      "focus": "25% 50%",
+      "move": "in",
+      "fact": "Escorted by U.S. Marshals"
+    },
+    {
+      "type": "photo",
+      "from": "s5",
+      "enter": "cut",
+      "image": "protest.jpg",
+      "focus": "40% 50%",
+      "move": "in",
+      "fact": "A protest against school integration — Little Rock, 1959"
+    },
+    {
+      "type": "statement",
+      "from": "s5@0.5",
+      "enter": "cut",
+      "image": "protest.jpg",
+      "focus": "70% 50%",
+      "ghost": "?",
+      "kicker": "++Ruby++ remembered",
+      "main": {
+        "text": "\"I thought it was *Mardi Gras*.\"",
+        "at": "s5@0.6"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s6",
+      "enter": "cut",
+      "clip": "stock-classroom.mp4",
+      "credit": "An empty classroom · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s6@0.5",
+      "enter": "cut",
+      "image": "marshals.jpg",
+      "focus": "70% 40%",
+      "ghost": "1",
+      "kicker": "Parents !!pulled!! their children out",
+      "main": {
+        "text": "Only *one* teacher stayed.",
+        "at": "s6@0.7"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s7",
+      "enter": "cut",
+      "image": "marshals.jpg",
+      "focus": "50% 85%",
+      "ghost": "1",
+      "kicker": "++Barbara Henry++, Boston",
+      "main": {
+        "text": "A class of *one*.",
+        "at": "s7@0.6"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s8",
+      "enter": "cut",
+      "image": "protest.jpg",
+      "focus": "20% 50%",
+      "ghost": "!",
+      "kicker": "Every morning",
+      "main": {
+        "text": "!!Poison!! threats.",
+        "at": "s8@0.3"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s9",
+      "enter": "cut",
+      "image": "flyer.jpg",
+      "focus": "50% 25%",
+      "move": "in",
+      "fact": "A segregationist Citizens' Council flyer, New Orleans, c. 1963"
+    },
+    {
+      "type": "statement",
+      "from": "s9@0.45",
+      "enter": "cut",
+      "image": "flyer.jpg",
+      "focus": "50% 70%",
+      "ghost": "JOB",
+      "main": {
+        "text": "Her father !!lost!! his job.",
+        "at": "s9@0.5"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s10",
+      "enter": "cut",
+      "image": "little-rock.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Three years earlier: troops escort the Little Rock Nine, 1957"
+    },
+    {
+      "type": "statement",
+      "from": "s10@0.4",
+      "enter": "cut",
+      "image": "marshals.jpg",
+      "focus": "60% 30%",
+      "ghost": "♥",
+      "kicker": "Black and white",
+      "main": {
+        "text": "Neighbours *walked behind* her.",
+        "at": "s10@0.5"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s11",
+      "enter": "cut",
+      "image": "obama.jpg",
+      "focus": "22% 45%",
+      "move": "in",
+      "fact": "Ruby Bridges and President Obama, 2011"
+    },
+    {
+      "type": "statement",
+      "from": "s11@0.5",
+      "enter": "cut",
+      "image": "obama.jpg",
+      "focus": "15% 45%",
+      "ghost": "2011",
+      "kicker": "++Barack Obama++",
+      "main": {
+        "text": "\"I might *not be here*.\"",
+        "at": "s11@0.75"
+      }
+    }
+  ],
+  "post": {
+    "tiktok": "She was six. Every morning a crowd waited for her — one woman held up a black doll in a coffin. 💔🏫\n\n14 November 1960: Ruby Bridges became the first Black child at William Frantz Elementary in New Orleans. Parents pulled their kids out, every teacher but one refused — so Barbara Henry taught her alone for a year.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #rubybridges #civilrights #blackhistory #historytok",
+    "facebook": "On this day in 1960, six-year-old Ruby Bridges walked into William Frantz Elementary School in New Orleans — the first Black child at the formerly whites-only school.\n\nFederal marshals escorted her past the crowd. \"I actually thought it was Mardi Gras,\" she later said. White parents pulled their children out, and every teacher except one refused to teach her. Barbara Henry, from Boston, taught her alone for over a year, \"as if she were teaching a whole class.\"\n\nEvery morning one woman threatened to poison her and another held up a black doll in a coffin, so the marshals let her eat only food from home. Her father lost his job, and the grocery store turned the family away. But neighbours, Black and white, found her father work, watched the house, and walked behind the marshals' car to school.\n\nIn 2011 she met President Obama at the White House. He told her: \"If it hadn't been for you guys, I might not be here.\"\n\nAlso on 14 November: Apollo 12 launched (1969), and Eugene Ely made the first takeoff from a ship (1910).\n\nSmall steps can change history. Our app, with a story for every day, is on its way — follow the page and walk in with us. 📜\n\n#OnThisDay #History #RubyBridges #CivilRights",
+    "youtube": {
+      "title": "She Was 6 And Walked In Alone #Shorts",
+      "description": "14 November 1960: six-year-old Ruby Bridges became the first Black child at William Frantz Elementary School in New Orleans, escorted by U.S. Marshals past an angry crowd. White parents pulled their children out and every teacher but one refused to teach her — Barbara Henry taught her alone for over a year. She was threatened with poison, her father lost his job, but neighbours walked behind the marshals' car to school. In 2011, President Obama told her: \"If it hadn't been for you guys, I might not be here.\"\n\nAlso on 14 November: Apollo 12 launches (1969) and Eugene Ely makes the first takeoff from a ship (1910).\n\nSubscribe — our history app, with a story for every date, is on its way.\n\nPhotos: public domain (U.S. Department of Justice, White House, Wikimedia Commons). Classroom shots: illustrative stock footage (Pexels). Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #RubyBridges #CivilRights",
+      "tags": [
+        "ruby bridges",
+        "ruby bridges story",
+        "civil rights movement",
+        "civil rights history",
+        "school desegregation",
+        "school integration",
+        "new orleans history",
+        "william frantz elementary",
+        "barbara henry",
+        "us marshals",
+        "black history",
+        "black history month",
+        "segregation",
+        "brown v board of education",
+        "the problem we all live with",
+        "little rock nine",
+        "american history",
+        "1960",
+        "history",
+        "on this day",
+        "history facts",
+        "history shorts",
+        "documentary",
+        "inspiring story",
+        "ruby",
+        "louisiana history",
+        "education history"
+      ]
+    },
+    "pinned": "She was six years old and walked in anyway. Could you have done what her parents did? 👇"
+  }
+}

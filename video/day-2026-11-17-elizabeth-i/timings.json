@@ -1,0 +1,77 @@
+{
+  "total": 68.435,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "In 1554, a princess was locked in the Tower of London. The queen was warned: you will never be safe while she lives.",
+      "start": 0.4,
+      "end": 8.997
+    },
+    {
+      "id": "s2",
+      "show": "Four years later, on this day in 1558, that princess became queen. Elizabeth the First.",
+      "start": 9.497,
+      "end": 16.111
+    },
+    {
+      "id": "s3",
+      "show": "Her mother, Anne Boleyn, was beheaded before Elizabeth turned three. She was declared illegitimate.",
+      "start": 16.561,
+      "end": 22.811
+    },
+    {
+      "id": "s4",
+      "show": "When her half-sister Mary was queen, a rebellion broke out, and Elizabeth was questioned.",
+      "start": 23.261,
+      "end": 28.893
+    },
+    {
+      "id": "s5",
+      "show": "She was sent to the Tower, protesting her innocence.",
+      "start": 29.293,
+      "end": 32.365
+    },
+    {
+      "id": "s6",
+      "show": "With no hard evidence, Mary spared her.",
+      "start": 32.815,
+      "end": 35.589
+    },
+    {
+      "id": "s7",
+      "show": "She spent almost a year under house arrest. Crowds cheered her along the way.",
+      "start": 35.989,
+      "end": 40.789
+    },
+    {
+      "id": "s8",
+      "show": "Then Mary died, aged 42, and Elizabeth became queen, at 25.",
+      "start": 41.239,
+      "end": 46.465
+    },
+    {
+      "id": "s9",
+      "show": "She ruled for 44 years, and never married.",
+      "start": 46.915,
+      "end": 50.243
+    },
+    {
+      "id": "s10",
+      "show": "She saw off the Spanish Armada, and gave her name to an age.",
+      "start": 50.693,
+      "end": 54.597
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: Prague's Velvet Revolution began, and Napoleon won at Arcole.",
+      "start": 55.197,
+      "end": 61.384
+    },
+    {
+      "id": "end2",
+      "show": "Our app is on its way, with a story for every day. Subscribe now, and let the reign begin.",
+      "start": 61.834,
+      "end": 67.935
+    }
+  ]
+}

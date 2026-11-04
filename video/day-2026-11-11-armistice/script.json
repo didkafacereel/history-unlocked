@@ -1,0 +1,385 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-11-11",
+  "dateKey": "11-11",
+  "slug": "armistice",
+  "title": "The Armistice, 1918 — the soldier killed one minute before the war ended",
+  "eventId": "evt-11-11-1918-armistice-of-11-november-1918",
+  "category": "Military & Conflict",
+  "sources": [
+    "Wikipedia: Armistice of 11 November 1918 — signed in a railroad car in the Compiègne Forest; agreed at 5:00 a.m., signatures between 5:00 and 5:45 a.m. Paris time; in effect at 11:00 a.m. Paris time, \"the eleventh hour of the eleventh day of the eleventh month\"; the German delegation was headed by Matthias Erzberger, aboard Foch's private train; many artillery units kept firing to avoid hauling away spare ammunition; 10,944 casualties, of whom 2,738 men died, on the last day of the war",
+    "Wikipedia: Henry Gunther — from Baltimore; supply sergeant, demoted after a critical letter home about \"miserable conditions\" was intercepted by the censor; at Chaumont-devant-Damvillers he charged a roadblock of two German machine guns against his sergeant's orders; the Germans, aware of the armistice, tried to wave him away; killed at 10:59 a.m., about one minute before the armistice; James M. Cain wrote that he was determined \"to make good\"; Pershing's order of the day named him the last American killed in the war; the Army posthumously restored his rank of sergeant",
+    "Also on this day (candidates.md, in the app): 1880 Ned Kelly is hanged in Melbourne; 1920 the Cenotaph is unveiled in London and the Unknown Warrior buried in Westminster Abbey",
+    "Film: \"La journée de l'Armistice\" (Paris, 11 November 1918), CC0 via Wikimedia Commons",
+    "Images (public domain / CC0): the signing in the railway carriage (painting); Foch's train; the signed armistice; US 64th Infantry celebrating; New York crowds announcing the armistice; The New York Times, 11 November 1918; German prisoners, Hundred Days Offensive; Armistice Day in London"
+  ],
+  "music": {
+    "track": "beethoven-moonlight-1"
+  },
+  "highlight": [
+    "ELEVENTH",
+    "MINUTE",
+    "SILENT",
+    "ARMISTICE",
+    "10:59",
+    "11:00"
+  ],
+  "alert": [
+    "KILLED",
+    "DEMOTED",
+    "DIED",
+    "CHARGED",
+    "FIRING",
+    "DEAD"
+  ],
+  "names": [
+    "GUNTHER",
+    "HENRY",
+    "PERSHING",
+    "BALTIMORE",
+    "COMPIÈGNE",
+    "GERMANY",
+    "GERMAN",
+    "GERMANS",
+    "FOCH"
+  ],
+  "cover": {
+    "image": "carriage.jpg",
+    "focus": "45% 40%",
+    "date": "11 NOVEMBER 1918",
+    "lines": [
+      "THE LAST MAN",
+      "KILLED AT *10:59*"
+    ],
+    "badge": "1 minute before *peace*"
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "At ten fifty-nine, one minute before the war ended, an American soldier charged German machine guns.",
+      "show": "At 10:59, one minute before the war ended, an American soldier charged German machine guns.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "The Germans tried to wave him away. He kept going.",
+      "show": "The Germans tried to wave him away. He kept going.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s3",
+      "say": "World War One ended on this day in nineteen eighteen.",
+      "show": "World War One ended on this day in 1918.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s4",
+      "say": "Germany signed at five in the morning, in a railway carriage near Compiègne.",
+      "show": "Germany signed at 5 a.m., in a railway carriage near Compiègne.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s5",
+      "say": "But the guns would only fall silent at eleven. The eleventh hour, of the eleventh day, of the eleventh month.",
+      "show": "But the guns would only fall silent at 11:00. The eleventh hour, of the eleventh day, of the eleventh month.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s6",
+      "say": "Until then, the guns kept firing.",
+      "show": "Until then, the guns kept firing.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s7",
+      "say": "On that last day, two thousand seven hundred and thirty-eight men died.",
+      "show": "On that last day, 2,738 men died.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s8",
+      "say": "Henry Gunther had been demoted for a letter home about the misery at the front.",
+      "show": "Henry Gunther had been demoted for a letter home about the misery at the front.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s9",
+      "say": "He wanted to make good. At ten fifty-nine, he was killed.",
+      "show": "He wanted to make good. At 10:59, he was killed.",
+      "pauseAfter": 0.55
+    },
+    {
+      "id": "s10",
+      "say": "One minute later, the guns fell silent.",
+      "show": "One minute later, the guns fell silent.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s11",
+      "say": "Pershing named him the last American killed in the war.",
+      "show": "Pershing named him the last American killed in the war.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "also": {
+    "say": "Also on this day: Ned Kelly was hanged, and London buried its Unknown Warrior.",
+    "items": [
+      {
+        "year": "1880",
+        "text": "Ned Kelly is hanged"
+      },
+      {
+        "year": "1920",
+        "text": "The Unknown Warrior is buried"
+      }
+    ],
+    "image": "london.jpg"
+  },
+  "cta": {
+    "story": "Every minute of history counts.",
+    "say": "Our app is coming, a story for every day. Subscribe now, before the eleventh hour.",
+    "pill": "BEAT THE 11:00",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "statement",
+      "note": "hook",
+      "image": "prisoners.jpg",
+      "focus": "50% 40%",
+      "ghost": "10:59",
+      "kicker": "One minute to ++peace++",
+      "main": {
+        "text": "!!10:59!! a.m.",
+        "at": "s1@0.1"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s1@0.4",
+      "enter": "cut",
+      "clip": "film-cannons.mp4",
+      "credit": "Paris on Armistice Day, 11 November 1918 — newsreel"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.75",
+      "enter": "cut",
+      "image": "celebrate.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "American troops, 11 November 1918"
+    },
+    {
+      "type": "statement",
+      "from": "s2",
+      "enter": "cut",
+      "image": "prisoners.jpg",
+      "focus": "30% 60%",
+      "ghost": "STOP",
+      "main": {
+        "text": "They tried to *wave him away*.",
+        "at": "s2@0.2"
+      }
+    },
+    {
+      "type": "title",
+      "from": "s3",
+      "enter": "cut",
+      "image": "carriage.jpg",
+      "focus": "50% 50%",
+      "date": "11 NOVEMBER",
+      "year": "1918",
+      "place": "Compiègne Forest, France"
+    },
+    {
+      "type": "photo",
+      "from": "s4",
+      "enter": "cut",
+      "image": "carriage.jpg",
+      "focus": "60% 45%",
+      "move": "in",
+      "fact": "The signing in the railway carriage — painting"
+    },
+    {
+      "type": "photo",
+      "from": "s4@0.6",
+      "enter": "cut",
+      "image": "foch-train.jpg",
+      "focus": "50% 55%",
+      "move": "in",
+      "fact": "Marshal Foch's railway carriage"
+    },
+    {
+      "type": "statement",
+      "from": "s5",
+      "enter": "cut",
+      "image": "signatures.jpg",
+      "focus": "50% 80%",
+      "ghost": "11:00",
+      "kicker": "Signed at ++5 a.m.++",
+      "main": {
+        "text": "Peace at *11:00*.",
+        "at": "s5@0.3"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s5@0.55",
+      "enter": "cut",
+      "image": "signatures.jpg",
+      "focus": "50% 85%",
+      "move": "in",
+      "fact": "The armistice, signed by Foch and Erzberger"
+    },
+    {
+      "type": "film",
+      "from": "s6",
+      "enter": "cut",
+      "clip": "film-cheer.mp4",
+      "credit": "Paris on Armistice Day, 11 November 1918 — newsreel"
+    },
+    {
+      "type": "statement",
+      "from": "s6@0.4",
+      "enter": "cut",
+      "image": "prisoners.jpg",
+      "focus": "70% 50%",
+      "ghost": "BOOM",
+      "kicker": "Until ++11:00++",
+      "main": {
+        "text": "The guns !!kept firing!!.",
+        "at": "s6@0.5"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s7",
+      "enter": "cut",
+      "image": "prisoners.jpg",
+      "focus": "50% 70%",
+      "ghost": "2,738",
+      "kicker": "Killed or wounded: 10,944",
+      "main": {
+        "text": "*2,738* !!dead!! on the last day.",
+        "at": "s7@0.6"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s8",
+      "enter": "cut",
+      "image": "celebrate.jpg",
+      "focus": "40% 40%",
+      "move": "in",
+      "fact": "American soldiers in France, 1918"
+    },
+    {
+      "type": "statement",
+      "from": "s8@0.55",
+      "enter": "cut",
+      "image": "celebrate.jpg",
+      "focus": "60% 60%",
+      "ghost": "LETTER",
+      "kicker": "++Henry Gunther++, Baltimore",
+      "main": {
+        "text": "!!Demoted!! for a letter home.",
+        "at": "s8@0.6"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s9",
+      "enter": "cut",
+      "image": "prisoners.jpg",
+      "focus": "40% 30%",
+      "ghost": "10:59",
+      "kicker": "++Chaumont-devant-Damvillers++",
+      "main": {
+        "text": "!!Killed!! at *10:59*.",
+        "at": "s9@0.65"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s10",
+      "enter": "cut",
+      "clip": "film-flags.mp4",
+      "credit": "Paris on Armistice Day, 11 November 1918 — newsreel"
+    },
+    {
+      "type": "film",
+      "from": "s10@0.35",
+      "enter": "cut",
+      "clip": "film-faces.mp4",
+      "credit": "Paris on Armistice Day, 11 November 1918 — newsreel"
+    },
+    {
+      "type": "photo",
+      "from": "s10@0.7",
+      "enter": "cut",
+      "image": "new-york.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "New York celebrates, November 1918"
+    },
+    {
+      "type": "photo",
+      "from": "s11",
+      "enter": "cut",
+      "image": "nyt.jpg",
+      "focus": "50% 15%",
+      "move": "in",
+      "fact": "The New York Times, 11 November 1918"
+    },
+    {
+      "type": "film",
+      "from": "s11@0.5",
+      "enter": "cut",
+      "clip": "film-packed.mp4",
+      "credit": "Paris on Armistice Day, 11 November 1918 — newsreel"
+    }
+  ],
+  "post": {
+    "tiktok": "He was killed at 10:59. The war ended at 11:00. ⏱️🕊️\n\n11 November 1918: the armistice was signed at 5 a.m. — but the guns only stopped at 11. On that last day 2,738 men died. One of them, Henry Gunther, charged German machine guns while the Germans tried to wave him away.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #ww1 #armisticeday #remembranceday #historytok",
+    "facebook": "On this day in 1918, the First World War ended — at 11 o'clock.\n\nGermany signed the armistice at 5 a.m. in Marshal Foch's railway carriage in the Compiègne Forest. But the ceasefire was set for 11:00 a.m. — \"the eleventh hour of the eleventh day of the eleventh month\". Until then, the fighting went on; many artillery units fired off their spare ammunition rather than haul it away. On that last day there were 10,944 casualties, and 2,738 men died.\n\nAt 10:59, Henry Gunther of Baltimore — demoted after a letter home about the misery at the front was intercepted — charged a German machine-gun post. The German soldiers, who knew the armistice was a minute away, tried to wave him off. He kept going, and was killed. General Pershing named him the last American killed in the war, and the Army gave him back his rank of sergeant.\n\nAlso on 11 November: Ned Kelly was hanged in Melbourne (1880), and London buried its Unknown Warrior (1920).\n\nEvery minute of history counts. Our app, with a story for every day, is on its way — follow the page and don't wait for the eleventh hour. 📜\n\n#OnThisDay #History #WW1 #ArmisticeDay #RemembranceDay",
+    "youtube": {
+      "title": "Killed One Minute Before The War Ended #Shorts",
+      "description": "11 November 1918: Germany signed the armistice at 5 a.m. in a railway carriage in the Compiègne Forest — but the guns would only stop at 11:00, the eleventh hour of the eleventh day of the eleventh month. On that last day 2,738 men died. At 10:59, Henry Gunther of Baltimore charged two German machine guns while the Germans tried to wave him away. He was killed one minute before the war ended; Pershing named him the last American killed in the war.\n\nAlso on 11 November: Ned Kelly is hanged (1880) and the Unknown Warrior is buried in London (1920).\n\nSubscribe — our history app, with a story for every date, is on its way.\n\nFilm and photos: public domain / CC0 (Wikimedia Commons). Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #WW1 #ArmisticeDay",
+      "tags": [
+        "armistice day",
+        "armistice 1918",
+        "armistice of 11 november 1918",
+        "henry gunther",
+        "last soldier killed in ww1",
+        "world war 1",
+        "ww1",
+        "first world war",
+        "great war",
+        "remembrance day",
+        "veterans day",
+        "eleventh hour",
+        "11 november 1918",
+        "compiegne",
+        "ferdinand foch",
+        "matthias erzberger",
+        "western front",
+        "john pershing",
+        "american expeditionary forces",
+        "ww1 history",
+        "military history",
+        "history",
+        "on this day",
+        "history facts",
+        "history shorts",
+        "documentary",
+        "end of ww1",
+        "lest we forget",
+        "1918",
+        "ww1 documentary"
+      ]
+    },
+    "pinned": "He died 60 seconds before peace — while the enemy tried to wave him back. Bravery, or a tragedy that should never have happened? 👇"
+  }
+}

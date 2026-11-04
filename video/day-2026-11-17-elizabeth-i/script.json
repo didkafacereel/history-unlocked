@@ -1,0 +1,374 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-11-17",
+  "dateKey": "11-17",
+  "slug": "elizabeth-i",
+  "title": "Elizabeth I becomes queen, 1558 — from the Tower to the throne in four years",
+  "eventId": "evt-11-17-1558-elizabeth-i",
+  "category": "Politics & Power",
+  "sources": [
+    "Wikipedia: Elizabeth I — queen of England and Ireland from 17 November 1558 until her death in 1603, aged 25 at her accession; the last and longest-reigning Tudor; her mother Anne Boleyn was beheaded on 19 May 1536 when Elizabeth was two years and eight months old, and Elizabeth was declared illegitimate; after Wyatt's rebellion (January–February 1554) she was interrogated and on 18 March 1554 imprisoned in the Tower of London, protesting her innocence; Simon Renard argued Mary's throne would never be safe while Elizabeth lived; supporters including Lord Paget convinced Mary to spare her for lack of hard evidence; on 22 May she was moved to Woodstock for almost a year under house arrest, cheered by crowds along the way; she never married; the Spanish Armada was defeated in 1588; the Elizabethan era of Shakespeare, Marlowe and Drake",
+    "Wikipedia: Mary I — died on 17 November 1558, aged 42, at St James's Palace",
+    "Also on this day (candidates.md, in the app): 1989 students march in Prague, beginning the Velvet Revolution; 1796 French forces win the Battle of Arcole",
+    "Paintings (public domain): Elizabeth as a princess (c. 1546); Anne Boleyn; Henry VIII; the Family of Henry VIII (c. 1545); Mary I by Hans Eworth (1554); Sir Thomas Wyatt the Younger; the Tower of London (15th-century illumination, and the Buck brothers, 1737); Elizabeth in coronation robes; the coronation procession, 1559; the Armada Portrait (1588); the Procession Portrait (c. 1600); Hilliard miniature",
+    "Illustrative stock footage (Pexels, free licence; not of the event): candle flames, a stone wall"
+  ],
+  "music": {
+    "track": "mussorgsky-old-castle"
+  },
+  "highlight": [
+    "QUEEN",
+    "TOWER",
+    "INNOCENCE",
+    "CHEERED",
+    "ARMADA",
+    "NEVER"
+  ],
+  "alert": [
+    "BEHEADED",
+    "ILLEGITIMATE",
+    "LOCKED",
+    "BLAMED",
+    "SAFE"
+  ],
+  "names": [
+    "ELIZABETH",
+    "MARY",
+    "ANNE",
+    "BOLEYN",
+    "SHAKESPEARE",
+    "DRAKE",
+    "LONDON",
+    "SPANISH"
+  ],
+  "cover": {
+    "image": "coronation.jpg",
+    "focus": "50% 30%",
+    "date": "17 NOVEMBER 1558",
+    "lines": [
+      "LOCKED IN THE TOWER",
+      "THEN *QUEEN*"
+    ],
+    "badge": "From *prisoner* to queen"
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "In fifteen fifty-four, a princess was locked in the Tower of London. The queen was warned: you will never be safe while she lives.",
+      "show": "In 1554, a princess was locked in the Tower of London. The queen was warned: you will never be safe while she lives.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s2",
+      "say": "Four years later, on this day in fifteen fifty-eight, that princess became queen. Elizabeth the First.",
+      "show": "Four years later, on this day in 1558, that princess became queen. Elizabeth the First.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s3",
+      "say": "Her mother, Anne Boleyn, was beheaded before Elizabeth turned three. She was declared illegitimate.",
+      "show": "Her mother, Anne Boleyn, was beheaded before Elizabeth turned three. She was declared illegitimate.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s4",
+      "say": "When her half-sister Mary was queen, a rebellion broke out, and Elizabeth was questioned.",
+      "show": "When her half-sister Mary was queen, a rebellion broke out, and Elizabeth was questioned.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s5",
+      "say": "She was sent to the Tower, protesting her innocence.",
+      "show": "She was sent to the Tower, protesting her innocence.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s6",
+      "say": "With no hard evidence, Mary spared her.",
+      "show": "With no hard evidence, Mary spared her.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s7",
+      "say": "She spent almost a year under house arrest. Crowds cheered her along the way.",
+      "show": "She spent almost a year under house arrest. Crowds cheered her along the way.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s8",
+      "say": "Then Mary died, aged forty-two, and Elizabeth became queen, at twenty-five.",
+      "show": "Then Mary died, aged 42, and Elizabeth became queen, at 25.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s9",
+      "say": "She ruled for forty-four years, and never married.",
+      "show": "She ruled for 44 years, and never married.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s10",
+      "say": "She saw off the Spanish Armada, and gave her name to an age.",
+      "show": "She saw off the Spanish Armada, and gave her name to an age.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "also": {
+    "say": "Also on this day: Prague's Velvet Revolution began, and Napoleon won at Arcole.",
+    "items": [
+      {
+        "year": "1989",
+        "text": "Prague's Velvet Revolution begins"
+      },
+      {
+        "year": "1796",
+        "text": "Battle of Arcole"
+      }
+    ],
+    "image": "procession-1559.jpg"
+  },
+  "cta": {
+    "story": "Every reign starts somewhere.",
+    "say": "Our app is on its way, with a story for every day. Subscribe now, and let the reign begin.",
+    "pill": "GOD SAVE HISTORY",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "film",
+      "note": "hook",
+      "clip": "stock-candle.mp4",
+      "credit": "A candle flame · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.25",
+      "enter": "cut",
+      "image": "tower-old.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The Tower of London, late 15th century"
+    },
+    {
+      "type": "statement",
+      "from": "s1@0.55",
+      "enter": "cut",
+      "image": "princess.jpg",
+      "focus": "50% 30%",
+      "ghost": "1554",
+      "kicker": "Advice to Queen ++Mary++",
+      "main": {
+        "text": "Never !!safe!! while she lives.",
+        "at": "s1@0.8"
+      }
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "coronation.jpg",
+      "focus": "50% 30%",
+      "date": "17 NOVEMBER",
+      "year": "1558",
+      "place": "Hatfield, England"
+    },
+    {
+      "type": "photo",
+      "from": "s2@0.7",
+      "enter": "cut",
+      "image": "coronation.jpg",
+      "focus": "50% 25%",
+      "move": "in",
+      "fact": "Elizabeth I in her coronation robes"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "anne.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "Anne Boleyn, her mother"
+    },
+    {
+      "type": "statement",
+      "from": "s3@0.55",
+      "enter": "cut",
+      "image": "henry.jpg",
+      "focus": "50% 30%",
+      "ghost": "1536",
+      "kicker": "Daughter of ++Henry VIII++",
+      "main": {
+        "text": "Declared !!illegitimate!!.",
+        "at": "s3@0.75"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s4",
+      "enter": "cut",
+      "image": "mary.jpg",
+      "focus": "50% 30%",
+      "move": "in",
+      "fact": "Queen Mary I, 1554 — Hans Eworth"
+    },
+    {
+      "type": "photo",
+      "from": "s4@0.5",
+      "enter": "cut",
+      "image": "wyatt.jpg",
+      "focus": "50% 35%",
+      "move": "in",
+      "fact": "Sir Thomas Wyatt, who led the 1554 rebellion"
+    },
+    {
+      "type": "film",
+      "from": "s5",
+      "enter": "cut",
+      "clip": "stock-wall.mp4",
+      "credit": "A stone wall · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s5@0.45",
+      "enter": "cut",
+      "image": "tower-1737.jpg",
+      "focus": "50% 50%",
+      "ghost": "18.3",
+      "kicker": "Tower of ++London++, 18 March 1554",
+      "main": {
+        "text": "Protesting her *innocence*.",
+        "at": "s5@0.55"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s6",
+      "enter": "cut",
+      "image": "mary.jpg",
+      "focus": "50% 60%",
+      "ghost": "?",
+      "kicker": "No hard evidence",
+      "main": {
+        "text": "++Mary++ spared her.",
+        "at": "s6@0.75"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s7",
+      "enter": "cut",
+      "clip": "stock-candle2.mp4",
+      "credit": "A candle flame · illustrative · Pexels"
+    },
+    {
+      "type": "statement",
+      "from": "s7@0.5",
+      "enter": "cut",
+      "image": "princess.jpg",
+      "focus": "50% 60%",
+      "ghost": "1555",
+      "kicker": "House arrest at Woodstock",
+      "main": {
+        "text": "Crowds *cheered*.",
+        "at": "s7@0.7"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s8",
+      "enter": "cut",
+      "image": "procession-1559.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Elizabeth's coronation procession, January 1559"
+    },
+    {
+      "type": "statement",
+      "from": "s8@0.55",
+      "enter": "cut",
+      "image": "hilliard.jpg",
+      "focus": "50% 40%",
+      "ghost": "25",
+      "main": {
+        "text": "*Queen* at 25.",
+        "at": "s8@0.8"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s9",
+      "enter": "cut",
+      "image": "procession.jpg",
+      "focus": "50% 40%",
+      "ghost": "44",
+      "kicker": "1558–1603",
+      "main": {
+        "text": "*44 years*. !!Never!! married.",
+        "at": "s9@0.5"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s10",
+      "enter": "cut",
+      "image": "armada.jpg",
+      "focus": "50% 40%",
+      "move": "in",
+      "fact": "The Armada Portrait, 1588"
+    },
+    {
+      "type": "photo",
+      "from": "s10@0.55",
+      "enter": "cut",
+      "image": "procession.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "The Procession Portrait, c. 1600"
+    }
+  ],
+  "post": {
+    "tiktok": "In 1554 she was locked in the Tower of London. Four years later she was queen. 👑\n\n17 November 1558: Elizabeth I came to the throne at 25. Her mother had been beheaded, she'd been declared illegitimate, and her sister's advisers warned the throne would never be safe while she lived. She ruled for 44 years.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #elizabethi #tudors #britishhistory #historytok",
+    "facebook": "On this day in 1558, Elizabeth I became Queen of England and Ireland — four years after she had been locked in the Tower of London.\n\nHer mother, Anne Boleyn, was beheaded before Elizabeth turned three, and she was declared illegitimate. When her half-sister Mary was queen, Wyatt's rebellion broke out in 1554; Elizabeth was questioned and sent to the Tower on 18 March, protesting her innocence. Mary's confidant Simon Renard argued that her throne would never be safe while Elizabeth lived. But there was no hard evidence, and Elizabeth's friends at court persuaded Mary to spare her. She spent almost a year under house arrest at Woodstock — and crowds cheered her along the way.\n\nOn 17 November 1558 Mary died, aged 42, and Elizabeth became queen at 25. She ruled for 44 years, never married, saw off the Spanish Armada, and gave her name to the age of Shakespeare and Drake.\n\nAlso on 17 November: students marched in Prague, starting the Velvet Revolution (1989), and Napoleon won the Battle of Arcole (1796).\n\nEvery reign starts somewhere. Our app, with a story for every day, is on its way — follow the page and let the reign begin. 📜\n\n#OnThisDay #History #ElizabethI #Tudors",
+    "youtube": {
+      "title": "From The Tower Of London To Queen #Shorts",
+      "description": "17 November 1558: Elizabeth I became Queen of England at 25 — four years after she was locked in the Tower of London. Her mother Anne Boleyn had been beheaded and she was declared illegitimate. After Wyatt's rebellion in 1554 she was sent to the Tower, protesting her innocence, and her sister Mary was warned her throne would never be safe while Elizabeth lived. Spared for lack of evidence, she was cheered by crowds on her way to house arrest. She ruled for 44 years, never married, and saw off the Spanish Armada.\n\nAlso on 17 November: the Velvet Revolution begins in Prague (1989) and the Battle of Arcole (1796).\n\nSubscribe — our history app, with a story for every date, is on its way.\n\nPaintings: public domain (Wikimedia Commons). Candle and wall shots: illustrative stock footage (Pexels). Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #ElizabethI #Tudors",
+      "tags": [
+        "elizabeth i",
+        "queen elizabeth i",
+        "elizabeth 1",
+        "tudors",
+        "tudor history",
+        "the tudors",
+        "tower of london",
+        "anne boleyn",
+        "henry viii",
+        "mary i",
+        "bloody mary",
+        "wyatt rebellion",
+        "virgin queen",
+        "elizabethan era",
+        "spanish armada",
+        "english history",
+        "british history",
+        "british monarchy",
+        "kings and queens",
+        "royal history",
+        "1558",
+        "history",
+        "on this day",
+        "history facts",
+        "history shorts",
+        "documentary",
+        "queens of england",
+        "tudor dynasty",
+        "elizabethan england",
+        "english monarchy",
+        "house of tudor",
+        "renaissance"
+      ]
+    },
+    "pinned": "Locked in the Tower in 1554, queen in 1558. Who else in history went from prisoner to ruler? 👇"
+  }
+}

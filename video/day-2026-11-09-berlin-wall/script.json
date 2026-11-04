@@ -1,0 +1,341 @@
+{
+  "format": 2,
+  "pace": "fast",
+  "date": "2026-11-09",
+  "dateKey": "11-09",
+  "slug": "berlin-wall",
+  "title": "The fall of the Berlin Wall, 1989 — opened by a mistake at a press conference",
+  "eventId": "evt-11-09-1989-fall-of-the-berlin-wall",
+  "category": "Culture & Ideas",
+  "sources": [
+    "Wikipedia: Fall of the Berlin Wall — on 9 November 1989 the Krenz-led Politburo decided East Germans could cross directly, including between East and West Berlin; the new regulations were to take effect the next day; Günter Schabowski, the regime's spokesman, was handed a note from Krenz shortly before his press conference with no instructions on how to handle it; at the end he read it out; a reporter asked when it would take effect; after a few seconds' hesitation Schabowski replied 'As far as I know, it takes effect immediately, without delay'; he ended the press conference at 19:00; excerpts led West German news (ZDF 19:17, ARD 20:00 Tagesschau: 'The GDR has announced that, starting immediately, its borders are open to everyone'); crowds gathered at the Wall; at 23:30 Stasi officer Harald Jäger decided to open the gates at the Bornholmer Straße crossing; the crowds vastly outnumbered the border guards; East Berliners were greeted with flowers and champagne; people called Mauerspechte (wallpeckers) chipped off souvenirs; the Wall opened after 28 years",
+    "Wikipedia: Günter Schabowski — he improvised a slightly mistaken answer that seemed to announce the Wall's immediate end",
+    "Also on this day (candidates.md, in the app): 1985 Garry Kasparov, aged 22, becomes the youngest world chess champion; 1914 HMAS Sydney defeats SMS Emden at the Cocos Islands",
+    "Photos (public domain / CC0): Berliners on the Wall, people with a pickaxe, crossing at the Wall, 10 November 1989; East German policemen at the Brandenburg Gate (US DoD); a crane removing part of the Wall at the Brandenburg Gate; the Wall in 1961 and in 1990; an escape in 1961 (CIA); Kennedy in Berlin, 1963; Berlin at night from the ISS",
+    "Illustrative stock footage (Pexels, free licence; not of the event): television screens, a champagne bottle opening, fireworks"
+  ],
+  "music": {
+    "track": "grieg-morning"
+  },
+  "highlight": [
+    "IMMEDIATELY",
+    "NOTE",
+    "MISTAKE",
+    "OPEN",
+    "CHAMPAGNE",
+    "FREEDOM"
+  ],
+  "alert": [
+    "WALL",
+    "GUARDS",
+    "WITHOUT",
+    "DELAY"
+  ],
+  "names": [
+    "BERLIN",
+    "SCHABOWSKI",
+    "BORNHOLMER",
+    "JÄGER",
+    "KRENZ",
+    "EAST",
+    "WEST"
+  ],
+  "cover": {
+    "image": "climbing.jpg",
+    "focus": "50% 50%",
+    "date": "9 NOVEMBER 1989",
+    "lines": [
+      "OPENED BY",
+      "*MISTAKE*"
+    ],
+    "badge": "One answer. No *Wall*.",
+    "top": 1300
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "The Berlin Wall stood for twenty-eight years. It fell because a spokesman misread a note.",
+      "show": "The Berlin Wall stood for 28 years. It fell because a spokesman misread a note.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s2",
+      "say": "It happened on this night in nineteen eighty-nine.",
+      "show": "It happened on this night in 1989.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "East Germany had decided to let its people cross the border more freely, starting the next day.",
+      "show": "East Germany had decided to let its people cross the border more freely, starting the next day.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "s4",
+      "say": "Party spokesman Günter Schabowski was handed the note just before a live press conference. No one told him the details.",
+      "show": "Party spokesman Günter Schabowski was handed the note just before a live press conference. No one told him the details.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s5",
+      "say": "He read it out. A reporter asked: when does it take effect?",
+      "show": "He read it out. A reporter asked: when does it take effect?",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s6",
+      "say": "He hesitated, and said: as far as I know, immediately. Without delay.",
+      "show": "He hesitated, and said: \"As far as I know… immediately. Without delay.\"",
+      "pauseAfter": 0.55
+    },
+    {
+      "id": "s7",
+      "say": "West German TV broadcast it that evening: the border is open.",
+      "show": "West German TV broadcast it that evening: the border is open.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s8",
+      "say": "Thousands rushed to the crossings. The guards had no orders.",
+      "show": "Thousands rushed to the crossings. The guards had no orders.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s9",
+      "say": "At half past eleven, at Bornholmer Street, an officer named Harald Jäger opened the gates.",
+      "show": "At 11:30 pm, at Bornholmer Street, an officer named Harald Jäger opened the gates.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "s10",
+      "say": "East Berliners poured through, and were met with flowers and champagne.",
+      "show": "East Berliners poured through, and were met with flowers and champagne.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s11",
+      "say": "By morning, people were chipping the Wall apart with hammers.",
+      "show": "By morning, people were chipping the Wall apart with hammers.",
+      "pauseAfter": 0.6
+    }
+  ],
+  "also": {
+    "say": "Also on this day: Garry Kasparov became world chess champion at twenty-two, and the raider Emden was finally caught.",
+    "items": [
+      {
+        "year": "1985",
+        "text": "Kasparov, 22, becomes world chess champion"
+      },
+      {
+        "year": "1914",
+        "text": "HMAS Sydney defeats the raider Emden"
+      }
+    ],
+    "image": "wall1990.jpg"
+  },
+  "cta": {
+    "story": "Effective immediately.",
+    "say": "As far as we know, our app is coming. Without delay. Subscribe, and cross over with us.",
+    "pill": "CROSS OVER",
+    "note": "our history app is on its way"
+  },
+  "scenes": [
+    {
+      "type": "photo",
+      "note": "hook — the cover photo",
+      "image": "climbing.jpg",
+      "focus": "50% 50%",
+      "move": "in"
+    },
+    {
+      "type": "photo",
+      "from": "s1@0.3",
+      "enter": "cut",
+      "image": "wall1961.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "Building the Wall, November 1961"
+    },
+    {
+      "type": "statement",
+      "from": "s1@0.6",
+      "enter": "cut",
+      "image": "wall1990.jpg",
+      "focus": "50% 50%",
+      "ghost": "28",
+      "main": {
+        "text": "*28 years*. One misread note.",
+        "at": "s1@0.7"
+      }
+    },
+    {
+      "type": "title",
+      "from": "s2",
+      "enter": "cut",
+      "image": "crane.jpg",
+      "focus": "50% 50%",
+      "date": "9 NOVEMBER",
+      "year": "1989",
+      "place": "Berlin"
+    },
+    {
+      "type": "photo",
+      "from": "s3",
+      "enter": "cut",
+      "image": "escape1961.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "An escape across the border, Berlin, 1961"
+    },
+    {
+      "type": "photo",
+      "from": "s3@0.55",
+      "enter": "cut",
+      "image": "guards.jpg",
+      "focus": "50% 40%",
+      "move": "in",
+      "fact": "East German border police at the Brandenburg Gate"
+    },
+    {
+      "type": "statement",
+      "from": "s4",
+      "enter": "cut",
+      "image": "wall1990.jpg",
+      "focus": "30% 50%",
+      "ghost": "NOTE",
+      "kicker": "++Günter Schabowski++, party spokesman",
+      "main": {
+        "text": "Handed a *note*. No instructions.",
+        "at": "s4@0.55"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s5",
+      "enter": "cut",
+      "clip": "stock-tvs.mp4",
+      "credit": "Television screens · illustrative · Pexels"
+    },
+    {
+      "type": "quote",
+      "from": "s6",
+      "enter": "cut",
+      "image": "guards.jpg",
+      "focus": "50% 40%",
+      "kicker": "Günter Schabowski, 9 November 1989",
+      "quote": {
+        "text": "As far as I know… immediately. Without delay.",
+        "at": "s6@0.35"
+      }
+    },
+    {
+      "type": "statement",
+      "from": "s7",
+      "enter": "cut",
+      "image": "berlin-night.jpg",
+      "focus": "50% 50%",
+      "ghost": "20:00",
+      "kicker": "West German TV news",
+      "main": {
+        "text": "The border is *open*.",
+        "at": "s7@0.6"
+      }
+    },
+    {
+      "type": "photo",
+      "from": "s8",
+      "enter": "cut",
+      "image": "handshake.jpg",
+      "focus": "50% 50%",
+      "move": "in",
+      "fact": "At the Wall, 10 November 1989"
+    },
+    {
+      "type": "statement",
+      "from": "s9",
+      "enter": "cut",
+      "image": "crane.jpg",
+      "focus": "50% 50%",
+      "ghost": "23:30",
+      "kicker": "++Bornholmer Straße++",
+      "main": {
+        "text": "++Harald Jäger++ opened the *gates*.",
+        "at": "s9@0.7"
+      }
+    },
+    {
+      "type": "film",
+      "from": "s10",
+      "enter": "cut",
+      "clip": "stock-champagne.mp4",
+      "credit": "Champagne · illustrative · Pexels"
+    },
+    {
+      "type": "photo",
+      "from": "s10@0.55",
+      "enter": "cut",
+      "image": "climbing.jpg",
+      "focus": "40% 50%",
+      "move": "in",
+      "fact": "On top of the Wall, 10 November 1989"
+    },
+    {
+      "type": "photo",
+      "from": "s11",
+      "enter": "cut",
+      "image": "pickaxe.jpg",
+      "focus": "50% 40%",
+      "move": "in",
+      "fact": "Chipping at the Wall, 10 November 1989"
+    },
+    {
+      "type": "film",
+      "from": "s11@0.6",
+      "enter": "cut",
+      "clip": "stock-fireworks.mp4",
+      "credit": "Fireworks · illustrative · Pexels"
+    }
+  ],
+  "post": {
+    "tiktok": "The Berlin Wall stood for 28 years. It fell because a spokesman misread a note. 🧱📝\n\n9 November 1989: asked when the new travel rules started, Günter Schabowski said \"immediately, without delay\" — they were meant for the next day. TV said the border was open, crowds rushed the gates, and at 11:30 pm a guard let them through.\n\nFollow to find out when our app comes out 📜\n\n#history #onthisday #berlinwall #historytok #1989 #coldwar",
+    "facebook": "On this night in 1989, the Berlin Wall opened — because of a misread note.\n\nEast Germany's leaders had decided to let citizens cross the border more freely, starting the next day. Party spokesman Günter Schabowski was handed the note just before a live press conference, with no instructions. He read it out. A reporter asked when it took effect. After a few seconds' hesitation, he said: \"As far as I know… immediately, without delay.\"\n\nWest German television broadcast it that evening: the border was open. Thousands rushed to the crossings. The guards had no orders. At 11:30 pm, at Bornholmer Straße, Stasi officer Harald Jäger opened the gates. East Berliners poured through and were met with flowers and champagne — and by morning, people were chipping the Wall apart with hammers.\n\nAlso on 9 November: Garry Kasparov became world chess champion at 22 (1985), and HMAS Sydney caught the raider Emden (1914).\n\nEffective immediately: our history app is coming. Follow the page and cross over with us. 📜\n\n#OnThisDay #History #BerlinWall #ColdWar",
+    "youtube": {
+      "title": "The Berlin Wall Fell Because Of A Misread Note #Shorts",
+      "description": "9 November 1989: East Germany planned to ease border crossings from the next day. Spokesman Günter Schabowski, handed the note without instructions, read it at a live press conference — and when asked when it took effect, answered \"As far as I know, immediately, without delay.\" TV reported the border was open, crowds rushed the crossings, and at 11:30 pm Stasi officer Harald Jäger opened the gates at Bornholmer Straße. After 28 years, the Berlin Wall was open.\n\nAlso on 9 November: Kasparov becomes world champion (1985) and the Emden is caught (1914).\n\nSubscribe — our history app, with a story for every date, is on its way.\n\nPhotos: public domain / CC0 (Wikimedia Commons, US DoD, CIA). TV, champagne and fireworks shots: illustrative stock footage (Pexels), not of the event. Sources: Wikipedia.\n\n#Shorts #History #OnThisDay #BerlinWall #ColdWar",
+      "tags": [
+        "fall of the berlin wall",
+        "berlin wall",
+        "berlin wall 1989",
+        "9 november 1989",
+        "gunter schabowski",
+        "schabowski press conference",
+        "bornholmer strasse",
+        "harald jager",
+        "east germany",
+        "gdr",
+        "west berlin",
+        "cold war",
+        "iron curtain",
+        "german reunification",
+        "1989",
+        "mauerfall",
+        "german history",
+        "european history",
+        "cold war history",
+        "history",
+        "on this day",
+        "history facts",
+        "history shorts",
+        "documentary",
+        "fall of berlin wall 1989",
+        "brandenburg gate",
+        "berlin",
+        "germany",
+        "checkpoint",
+        "soviet union",
+        "1980s"
+      ]
+    },
+    "pinned": "One unscripted answer opened the Berlin Wall. Mistake — or did Schabowski know exactly what he was doing? 👇"
+  }
+}

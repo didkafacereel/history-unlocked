@@ -355,6 +355,17 @@ scene. Text: `*word*` = gold.
 | `portrait` | epilogue / a person | `image`, `focus`, `fit`, `kicker`, `date`, `line`, `line2` |
 | `quote` | words from the sources | `kicker`, `quote`, `by`, optional `image` |
 
+**Clickbait cover extras — sometimes, not always** (the user, 3 Nov: "on the
+thumbnail, not every time, an arrow and a clickbait line"). On roughly every
+other clip, add to `cover`:
+- `badge`: a short, true teaser in a red tilted sticker ("They almost *gave up*",
+  "No light *meter*") — never a claim the video doesn't back.
+- `arrow`: `{x, y, angle, size}` — the TIP lands on (x, y) in the 1080×1920
+  frame; angle 0 points right, 180 left, −30 up-right.
+- `ring`: `{x, y, r}` — a red circle round the thing that matters.
+Check the cover frame (`snapshots/frame-00-at-0.2s.png`): the arrow must point
+at the right thing and nothing may hide the hook text.
+
 **Caption colours** (the user, 1 Nov: "different colours on the important
 things — make the clips much more interesting"). Every clip uses all three:
 

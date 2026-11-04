@@ -1,0 +1,83 @@
+{
+  "total": 69.624,
+  "sentences": [
+    {
+      "id": "s1",
+      "show": "Walt Disney wanted his audience to feel like they were standing right next to the conductor.",
+      "start": 0.4,
+      "end": 5.499
+    },
+    {
+      "id": "s2",
+      "show": "So he built a new kind of cinema sound.",
+      "start": 5.899,
+      "end": 8.245
+    },
+    {
+      "id": "s3",
+      "show": "Fantasia premiered on this day in 1940, in New York.",
+      "start": 8.695,
+      "end": 12.642
+    },
+    {
+      "id": "s4",
+      "show": "It was the first commercial film shown in stereo.",
+      "start": 12.992,
+      "end": 15.915
+    },
+    {
+      "id": "s5",
+      "show": "33 microphones surrounded the orchestra, and its conductor, Leopold Stokowski.",
+      "start": 16.365,
+      "end": 22.21
+    },
+    {
+      "id": "s6",
+      "show": "In the theatre, speakers moved the music across the room. Installing them took a week, around the clock.",
+      "start": 22.61,
+      "end": 29.138
+    },
+    {
+      "id": "s7",
+      "show": "It was the same Broadway theatre where Mickey Mouse's Steamboat Willie had played, 12 years before.",
+      "start": 29.538,
+      "end": 36.045
+    },
+    {
+      "id": "s8",
+      "show": "Over 1,000 artists drew 500 characters. Mickey got pupils in his eyes, for the first time.",
+      "start": 36.495,
+      "end": 43.3
+    },
+    {
+      "id": "s9",
+      "show": "But one sound system cost $85,000. The film flopped.",
+      "start": 43.75,
+      "end": 48.529
+    },
+    {
+      "id": "s10",
+      "show": "Its own distributor called it a \"long-hair musical\".",
+      "start": 48.929,
+      "end": 52.065
+    },
+    {
+      "id": "s11",
+      "show": "Today, it is counted among the greatest animated films ever made.",
+      "start": 52.565,
+      "end": 56.661
+    },
+    {
+      "id": "also",
+      "show": "Also on this day: the Holland Tunnel opened, and a solar eclipse darkened Australia.",
+      "start": 57.261,
+      "end": 63.149
+    },
+    {
+      "id": "end2",
+      "show": "Our app is on its way, with a story for every day. Subscribe now, and hear it first.",
+      "start": 63.599,
+      "end": 69.124
+    }
+  ]
+}
