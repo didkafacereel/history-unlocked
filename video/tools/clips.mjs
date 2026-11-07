@@ -257,8 +257,17 @@ if (![cl, ct, cr, cb].every((v) => v >= 0 && v < 0.5)) {
   process.exit(1);
 }
 const crop = cl || ct || cr || cb ? `crop=iw*${1 - cl - cr}:ih*${1 - ct - cb}:iw*${cl}:ih*${ct},` : '';
-const filter =
-  fit === 'fill'
+// --wide: a 1920x1080 cut for the 16:9 long videos (make-wide.mjs); "band" keeps
+// the whole frame centred over a blurred copy of itself, "fill" crops to fill.
+const wide = flag('wide');
+const filter = wide
+  ? fit === 'fill'
+    ? `[0:v]${crop}scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080:(iw-1920)*${focus}:(ih-1080)/2,${tone},setsar=1,fps=30[v]`
+    : `[0:v]${crop}split=2[a][b];` +
+      `[a]scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,boxblur=28:2,eq=brightness=-0.12${grade}[bg];` +
+      `[b]scale=1920:1080:force_original_aspect_ratio=decrease,${tone}[fg];` +
+      `[bg][fg]overlay=(W-w)/2:(H-h)/2,setsar=1,fps=30[v]`
+  : fit === 'fill'
     ? `[0:v]${crop}scale=-2:1920,crop=1080:1920:(iw-1080)*${focus}:0,${tone},setsar=1,fps=30[v]`
     : `[0:v]${crop}split=2[a][b];` +
       `[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=28:2,eq=brightness=-0.12${grade}[bg];` +

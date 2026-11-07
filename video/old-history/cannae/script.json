@@ -1,0 +1,1979 @@
+{
+  "format": 2,
+  "mode": "wide",
+  "date": "2026-11-12",
+  "slug": "cannae",
+  "title": "Cannae — how Hannibal destroyed Rome’s biggest army in one afternoon",
+  "category": "War",
+  "speed": 1,
+  "mapSource": "Polybius and Livy (as summarised on Wikipedia)",
+  "imageCredit": "Wikimedia Commons, the Library of Congress, the Metropolitan Museum of Art (CC0), Conrad Cichorius, J. M. W. Turner, Henri Motte, Benjamin West and others",
+  "sources": [
+    "Wikipedia: Battle of Cannae — Polybius and Livy on the army sizes, deployment, battle and casualties; Rome's eight legions; the Gisgo anecdote; Maharbal's exchange; Mago and the gold rings; Scipio at Canusium; Rome's refusal of peace and total mobilisation; the Cannae model and Schlieffen, Eisenhower and Schwarzkopf. Numbers for ancient armies and casualties are estimates and disputed.",
+    "Film (public domain): Cabiria (1914) — an Italian silent epic with Hannibal crossing the Alps; used as illustrative footage and always labelled as fiction.",
+    "Maps: schematic, built for this video from the accounts of Polybius and Livy; positions are approximate and modern historians disagree on details.",
+    "Music: Mussorgsky (Old Castle, Bydlo) and Grieg (In the Hall of the Mountain King, Åse’s Death), public domain."
+  ],
+  "music": {
+    "tracks": [
+      {
+        "id": "mussorgsky-old-castle",
+        "start": 0,
+        "len": 95
+      },
+      {
+        "id": "mussorgsky-bydlo",
+        "start": 0,
+        "len": 110
+      },
+      {
+        "id": "mountain-king",
+        "start": 0,
+        "len": 110
+      },
+      {
+        "id": "grieg-aase-death",
+        "start": 15,
+        "len": 150
+      }
+    ]
+  },
+  "highlight": [
+    "CANNAE",
+    "ROME",
+    "HANNIBAL",
+    "CARTHAGE",
+    "CAVALRY",
+    "LIBYANS",
+    "PINCER",
+    "AUFIDUS",
+    "SCIPIO"
+  ],
+  "alert": [
+    "MASSACRE",
+    "KILLED",
+    "DIED",
+    "DEAD",
+    "DESTROY",
+    "TRAPPED",
+    "PANIC",
+    "SURROUNDED",
+    "POCKET"
+  ],
+  "names": [
+    "HANNIBAL",
+    "FABIUS",
+    "VARRO",
+    "PAULLUS",
+    "SCIPIO",
+    "MAHARBAL",
+    "GISGO",
+    "MAGO",
+    "POLYBIUS",
+    "LIVY",
+    "SCHLIEFFEN",
+    "EISENHOWER",
+    "SCHWARZKOPF",
+    "CARTHAGE",
+    "AUFIDUS"
+  ],
+  "chapters": [
+    {
+      "at": "s1",
+      "title": "A battle still studied today"
+    },
+    {
+      "at": "s4",
+      "title": "Hannibal in Italy"
+    },
+    {
+      "at": "s12",
+      "title": "The plan"
+    },
+    {
+      "at": "s18",
+      "title": "How the armies lined up"
+    },
+    {
+      "at": "s24",
+      "title": "The trap closes"
+    },
+    {
+      "at": "s33",
+      "title": "The massacre"
+    },
+    {
+      "at": "s37",
+      "title": "Rome after Cannae"
+    },
+    {
+      "at": "s46",
+      "title": "The Cannae model"
+    }
+  ],
+  "thumb": {
+    "image": "bust-capua",
+    "mode": "contain",
+    "lines": [
+      "HOW 50,000",
+      "TRAPPED",
+      "86,000"
+    ],
+    "hi": 1,
+    "tint": [
+      217,
+      56,
+      46
+    ],
+    "kicker": "CANNAE · 216 BC",
+    "side": "left"
+  },
+  "cta": {
+    "story": "Hannibal never took Rome.",
+    "say": "Hannibal never reached Rome. The subscribe button is much closer. Take it.",
+    "pill": "CLOSE IN",
+    "note": "a new story every week"
+  },
+  "endImage": "ofanto-painting",
+  "maps": {
+    "cannae": {
+      "shift": [
+        0,
+        50
+      ],
+      "zoom": [
+        1.12,
+        1.18
+      ],
+      "legend": [
+        {
+          "color": "#d9382e",
+          "text": "Rome and allies"
+        },
+        {
+          "color": "#2fb4e0",
+          "text": "Carthage"
+        },
+        {
+          "color": "#bbbbbb",
+          "text": "cavalry (striped)",
+          "cav": true
+        }
+      ],
+      "terrain": {
+        "rivers": [
+          {
+            "points": [
+              [
+                -80,
+                734
+              ],
+              [
+                260,
+                716
+              ],
+              [
+                620,
+                730
+              ],
+              [
+                980,
+                708
+              ],
+              [
+                1340,
+                726
+              ],
+              [
+                1700,
+                702
+              ],
+              [
+                2000,
+                720
+              ]
+            ],
+            "width": 44
+          }
+        ],
+        "hills": [
+          {
+            "cx": 1600,
+            "cy": 300,
+            "rx": 230,
+            "ry": 160
+          }
+        ],
+        "areas": [
+          {
+            "points": [
+              [
+                250,
+                470
+              ],
+              [
+                470,
+                470
+              ],
+              [
+                470,
+                620
+              ],
+              [
+                250,
+                620
+              ]
+            ],
+            "fill": "rgba(217,56,46,0.10)",
+            "stroke": "rgba(217,56,46,0.5)",
+            "dash": true
+          },
+          {
+            "points": [
+              [
+                1480,
+                500
+              ],
+              [
+                1740,
+                500
+              ],
+              [
+                1740,
+                650
+              ],
+              [
+                1480,
+                650
+              ]
+            ],
+            "fill": "rgba(47,180,224,0.10)",
+            "stroke": "rgba(47,180,224,0.5)",
+            "dash": true
+          }
+        ],
+        "labels": [
+          {
+            "x": 360,
+            "y": 555,
+            "text": "ROMAN CAMP",
+            "serif": false,
+            "size": 28,
+            "color": "rgba(255,170,160,0.97)"
+          },
+          {
+            "x": 1610,
+            "y": 585,
+            "text": "CARTHAGINIAN CAMP",
+            "serif": false,
+            "size": 24,
+            "color": "rgba(150,225,250,0.97)"
+          },
+          {
+            "x": 1600,
+            "y": 300,
+            "text": "Cannae",
+            "size": 50,
+            "color": "rgba(244,246,251,0.92)"
+          },
+          {
+            "x": 960,
+            "y": 724,
+            "text": "river Aufidus",
+            "size": 34,
+            "color": "rgba(235,248,255,0.98)"
+          },
+          {
+            "x": 1840,
+            "y": 190,
+            "text": "N ↑",
+            "serif": false,
+            "size": 40,
+            "color": "rgba(244,246,251,0.85)"
+          }
+        ]
+      },
+      "units": [
+        {
+          "id": "rc",
+          "side": "rome",
+          "x": 800,
+          "y": 420,
+          "w": 210,
+          "h": 250
+        },
+        {
+          "id": "rcr",
+          "side": "rome",
+          "kind": "cav",
+          "label": "",
+          "x": 800,
+          "y": 640,
+          "w": 150,
+          "h": 84,
+          "color": "#c22f26"
+        },
+        {
+          "id": "rcl",
+          "side": "ally",
+          "kind": "cav",
+          "label": "",
+          "x": 800,
+          "y": 205,
+          "w": 150,
+          "h": 84
+        },
+        {
+          "id": "cc1",
+          "side": "carth",
+          "x": 1010,
+          "y": 335,
+          "w": 88,
+          "h": 100
+        },
+        {
+          "id": "cc2",
+          "side": "carth",
+          "x": 985,
+          "y": 420,
+          "w": 88,
+          "h": 100
+        },
+        {
+          "id": "cc3",
+          "side": "carth",
+          "x": 1010,
+          "y": 505,
+          "w": 88,
+          "h": 100
+        },
+        {
+          "id": "ln",
+          "side": "libya",
+          "x": 1100,
+          "y": 262,
+          "w": 80,
+          "h": 130
+        },
+        {
+          "id": "ls",
+          "side": "libya",
+          "x": 1100,
+          "y": 578,
+          "w": 80,
+          "h": 130
+        },
+        {
+          "id": "hc",
+          "side": "carth",
+          "kind": "cav",
+          "x": 1030,
+          "y": 645,
+          "w": 150,
+          "h": 86
+        },
+        {
+          "id": "nm",
+          "side": "num",
+          "kind": "cav",
+          "x": 1030,
+          "y": 200,
+          "w": 130,
+          "h": 76
+        }
+      ]
+    }
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "In two hundred sixteen before Christ, in southern Italy, one army trapped an army far bigger than itself, and killed tens of thousands of men in a single afternoon.",
+      "show": "In 216 BC, in southern Italy, one army trapped an army far bigger than itself, and killed tens of thousands of men in a single afternoon.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s2",
+      "say": "More than two thousand years later, generals still study how.",
+      "show": "More than 2,000 years later, generals still study how.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s3",
+      "say": "This is the battle of Cannae. It began with a problem Rome could not solve. His name was Hannibal.",
+      "show": "This is the battle of Cannae. It began with a problem Rome could not solve. His name was Hannibal.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s4",
+      "say": "Two years earlier, the Carthaginian general Hannibal had marched an army over the Alps and into Italy.",
+      "show": "Two years earlier, the Carthaginian general Hannibal had marched an army over the Alps and into Italy.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s5",
+      "say": "He crushed the Romans at the river Trebia. Then again, at Lake Trasimene.",
+      "show": "He crushed the Romans at the river Trebia. Then again, at Lake Trasimene.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s6",
+      "say": "Rome panicked, and gave command to a dictator, Fabius, with a new plan. Do not fight Hannibal. Follow him. Starve him. Wear him down.",
+      "show": "Rome panicked, and gave command to a dictator, Fabius, with a new plan. Do not fight Hannibal. Follow him. Starve him. Wear him down.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s7",
+      "say": "It worked. But Romans hated it. Hannibal was plundering Italy, and Rome’s allies began to wonder if Rome could protect them.",
+      "show": "It worked. But Romans hated it. Hannibal was plundering Italy, and Rome’s allies began to wonder if Rome could protect them.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s8",
+      "say": "So Rome decided to end it. Its next two consuls were told to find Hannibal, and destroy him.",
+      "show": "So Rome decided to end it. Its next two consuls were told to find Hannibal, and destroy him.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s9",
+      "say": "The Senate raised an army of unprecedented size. Eight legions, plus allies. Ancient writers count about eighty thousand infantry, and six thousand cavalry.",
+      "show": "The Senate raised an army of unprecedented size. Eight legions, plus allies. Ancient writers count about 80,000 infantry, and 6,000 cavalry.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s10",
+      "say": "Hannibal had perhaps forty to fifty thousand. Spaniards, Gauls, Libyans, Numidian horsemen, held together by loyalty to one man.",
+      "show": "Hannibal had perhaps 40,000 to 50,000. Spaniards, Gauls, Libyans, Numidian horsemen, held together by loyalty to one man.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s11",
+      "say": "Ancient numbers are never exact. But everyone agrees: Rome had far more men.",
+      "show": "Ancient numbers are never exact. But everyone agrees: Rome had far more men.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s12",
+      "say": "Hannibal knew that head-on, Roman heavy infantry was superior. So he would not fight head-on.",
+      "show": "Hannibal knew that head-on, Roman heavy infantry was superior. So he would not fight head-on.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s13",
+      "say": "But he had more cavalry, and better cavalry.",
+      "show": "But he had more cavalry, and better cavalry.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s14",
+      "say": "His plan was not to beat the Roman strength. It was to turn it against them.",
+      "show": "His plan was not to beat the Roman strength. It was to turn it against them.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s15",
+      "say": "On the second of August, by the Roman calendar, the armies met on a flat plain at Cannae, beside the river Aufidus.",
+      "show": "On 2 August, by the Roman calendar, the armies met on a flat plain at Cannae, beside the river Aufidus.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s16",
+      "say": "The ground favored Hannibal. The river guarded one flank, and the Romans would face the morning sun, with dust in their eyes.",
+      "show": "The ground favored Hannibal. The river guarded one flank, and the Romans would face the morning sun, with dust in their eyes.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s17",
+      "say": "Before the battle, an officer named Gisgo called the Roman army astonishing. Hannibal reportedly replied: even more astonishing, in all those thousands, there is not one man called Gisgo.",
+      "show": "Before the battle, an officer named Gisgo called the Roman army astonishing. Hannibal reportedly replied: even more astonishing, in all those thousands, there is not one man called Gisgo.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s18",
+      "say": "Here is how the armies lined up.",
+      "show": "Here is how the armies lined up.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s19",
+      "say": "The Romans packed their infantry deep, in a tight mass, to punch straight through the middle.",
+      "show": "The Romans packed their infantry deep, in a tight mass, to punch straight through the middle.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s20",
+      "say": "Cavalry guarded both flanks, and the river was on their right.",
+      "show": "Cavalry guarded both flanks, and the river was on their right.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s21",
+      "say": "Hannibal did the opposite. In the center, his Spanish and Gallic infantry pushed forward, in a curve.",
+      "show": "Hannibal did the opposite. In the center, his Spanish and Gallic infantry pushed forward, in a curve.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s22",
+      "say": "At the two ends, his best heavy infantry, the Libyans, held back, and waited.",
+      "show": "At the two ends, his best heavy infantry, the Libyans, held back, and waited.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s23",
+      "say": "By the river, his heavy cavalry. On the far side, the fast Numidians.",
+      "show": "By the river, his heavy cavalry. On the far side, the fast Numidians.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s24",
+      "say": "The battle began with the cavalry. By the river, Hannibal’s horsemen charged the Roman cavalry, and smashed it.",
+      "show": "The battle began with the cavalry. By the river, Hannibal’s horsemen charged the Roman cavalry, and smashed it.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s25",
+      "say": "But they did not chase the survivors. They rode around behind the whole Roman army.",
+      "show": "But they did not chase the survivors. They rode around behind the whole Roman army.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s26",
+      "say": "There, they hit the allied cavalry, and drove it from the field.",
+      "show": "There, they hit the allied cavalry, and drove it from the field.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s27",
+      "say": "In the center, the infantry collided. The Romans pushed hard, and Hannibal’s curve bent backward, step by step.",
+      "show": "In the center, the infantry collided. The Romans pushed hard, and Hannibal’s curve bent backward, step by step.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s28",
+      "say": "It looked like his center was collapsing. The Romans poured in, packed tighter and tighter, until they could barely lift their swords.",
+      "show": "It looked like his center was collapsing. The Romans poured in, packed tighter and tighter, until they could barely lift their swords.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s29",
+      "say": "And they never noticed the Libyans, standing at the sides of the trap.",
+      "show": "And they never noticed the Libyans, standing at the sides of the trap.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s30",
+      "say": "Then Hannibal gave the signal. The Libyans turned inward, and struck both flanks.",
+      "show": "Then Hannibal gave the signal. The Libyans turned inward, and struck both flanks.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s31",
+      "say": "The cavalry returned, and closed the rear. One of the earliest pincer movements in recorded history.",
+      "show": "The cavalry returned, and closed the rear. One of the earliest pincer movements in recorded history.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s32",
+      "say": "The Romans were inside a pocket, with no way out.",
+      "show": "The Romans were inside a pocket, with no way out.",
+      "pauseAfter": 0.7
+    },
+    {
+      "id": "s33",
+      "say": "What followed was a massacre. The Greek historian Polybius says seventy thousand Romans died. The Roman historian Livy says about forty-five thousand.",
+      "show": "What followed was a massacre. The Greek historian Polybius says 70,000 Romans died. The Roman historian Livy says about 45,000.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s34",
+      "say": "Some modern historians think even that is too high. We simply do not know.",
+      "show": "Some modern historians think even that is too high. We simply do not know.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s35",
+      "say": "What is certain is who died: the consul Paullus, most of the senior officers, and about eighty senators or former magistrates.",
+      "show": "What is certain is who died: the consul Paullus, most of the senior officers, and about eighty senators or former magistrates.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s36",
+      "say": "Hannibal lost perhaps six to eight thousand. The other consul, Varro, escaped with seventy horsemen.",
+      "show": "Hannibal lost perhaps 6,000 to 8,000. The other consul, Varro, escaped with 70 horsemen.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s37",
+      "say": "In Rome, there was panic.",
+      "show": "In Rome, there was panic.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s38",
+      "say": "Rome declared a day of mourning. Almost every family had lost someone.",
+      "show": "Rome declared a day of mourning. Almost every family had lost someone.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s39",
+      "say": "Most of southern Italy went over to Hannibal, and the king of Macedon pledged his support.",
+      "show": "Most of southern Italy went over to Hannibal, and the king of Macedon pledged his support.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s40",
+      "say": "His brother Mago poured a pile of gold rings, taken from dead Romans, onto the floor of the Senate in Carthage.",
+      "show": "His brother Mago poured a pile of gold rings, taken from dead Romans, onto the floor of the Senate in Carthage.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s41",
+      "say": "His cavalry commander, Maharbal, begged him to march on Rome. Hannibal refused. Maharbal answered: you know how to win a victory, Hannibal. You do not know how to use one.",
+      "show": "His cavalry commander, Maharbal, begged him to march on Rome. Hannibal refused. Maharbal answered: you know how to win a victory, Hannibal. You do not know how to use one.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s42",
+      "say": "Historians still argue. Some say he was right: his army was in no state to besiege a city like Rome.",
+      "show": "Historians still argue. Some say he was right: his army was in no state to besiege a city like Rome.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s43",
+      "say": "And Rome refused to negotiate. It raised new legions from landless peasants, even slaves, and banned the word peace.",
+      "show": "And Rome refused to negotiate. It raised new legions from landless peasants, even slaves, and banned the word peace.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s44",
+      "say": "A young officer named Scipio drew his sword on nobles who talked of fleeing, and made them swear to defend Rome.",
+      "show": "A young officer named Scipio drew his sword on nobles who talked of fleeing, and made them swear to defend Rome.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s45",
+      "say": "Fourteen years later, at Zama, that same Scipio, with a reformed army, ended the war.",
+      "show": "Fourteen years later, at Zama, that same Scipio, with a reformed army, ended the war.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s46",
+      "say": "But Cannae became a model: the perfect battle of annihilation, where you surround the enemy completely.",
+      "show": "But Cannae became a model: the perfect battle of annihilation, where you surround the enemy completely.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s47",
+      "say": "Around the year nineteen hundred, Germany’s chief of staff, Alfred von Schlieffen, wrote that a modern battle of annihilation could follow Hannibal’s plan. It shaped the German plan for the First World War.",
+      "show": "Around 1900, Germany’s chief of staff, Alfred von Schlieffen, wrote that a modern battle of annihilation could follow Hannibal’s plan. It shaped the German plan for the First World War.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s48",
+      "say": "Dwight Eisenhower wrote that every commander seeks a battle of annihilation, and tries to repeat Cannae.",
+      "show": "Dwight Eisenhower wrote that every commander seeks a battle of annihilation, and tries to repeat Cannae.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s49",
+      "say": "In nineteen ninety-one, General Norman Schwarzkopf cited Cannae as an inspiration for the Gulf War.",
+      "show": "In 1991, General Norman Schwarzkopf cited Cannae as an inspiration for the Gulf War.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s50",
+      "say": "An outnumbered general taught the world how to win a battle in a day. And still lost the war.",
+      "show": "An outnumbered general taught the world how to win a battle in a day. And still lost the war.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s51",
+      "say": "So, was Cannae the perfect battle, or the most expensive victory in history? Tell us what you think.",
+      "show": "So, was Cannae the perfect battle, or the most expensive victory in history? Tell us what you think.",
+      "pauseAfter": 0.4
+    }
+  ],
+  "scenes": [
+    {
+      "type": "photo",
+      "image": "bust-capua",
+      "kicker": "Cannae, 216 BC",
+      "move": "in",
+      "enter": "cut"
+    },
+    {
+      "type": "film",
+      "clip": "cab-alps-a.mp4",
+      "credit": "Hannibal crosses the Alps · \"Cabiria\", 1914 film — illustrative",
+      "from": "s1@0.333",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "paullus-death",
+      "move": "left",
+      "credit": "The death of Paullus at Cannae · John Trumbull, 1773",
+      "from": "s1@0.667",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "eisenhower",
+      "fact": "Dwight D. Eisenhower",
+      "move": "in",
+      "from": "s2",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "schwarzkopf",
+      "move": "in",
+      "from": "s2@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "statement",
+      "main": "The battle of *Cannae*",
+      "image": "ofanto-painting",
+      "kicker": "The perfect battle",
+      "from": "s3",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "statue-louvre",
+      "move": "up",
+      "fact": "Hannibal · statue by Sébastien Slodtz, 1704",
+      "from": "s3@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "map-218",
+      "fact": "Rome and Carthage, 218 BC",
+      "from": "s4",
+      "enter": "cut"
+    },
+    {
+      "type": "film",
+      "clip": "cab-e1.mp4",
+      "credit": "Elephants in the Alps · \"Cabiria\", 1914 film — illustrative",
+      "from": "s4@0.333",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "turner-alps",
+      "move": "in",
+      "credit": "Hannibal crossing the Alps · J. M. W. Turner",
+      "from": "s4@0.667",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "map-trebia",
+      "kicker": "218 BC · Trebia",
+      "from": "s5",
+      "enter": "cut"
+    },
+    {
+      "type": "film",
+      "clip": "cab-pass.mp4",
+      "credit": "Hannibal’s army · \"Cabiria\", 1914 film — illustrative",
+      "from": "s5@0.250",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "flaminius",
+      "fact": "The Roman general Flaminius at Trasimene",
+      "move": "in",
+      "from": "s5@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "trasimene",
+      "kicker": "217 BC · Lake Trasimene",
+      "move": "left",
+      "from": "s5@0.750",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "fabius",
+      "fact": "Quintus Fabius Maximus",
+      "move": "in",
+      "from": "s6",
+      "enter": "cut"
+    },
+    {
+      "type": "film",
+      "clip": "cab-army-a.mp4",
+      "credit": "An army on the march · \"Cabiria\", 1914 film — illustrative",
+      "from": "s6@0.333",
+      "enter": "cut"
+    },
+    {
+      "type": "statement",
+      "main": "Don’t fight. *Wear him down.*",
+      "image": "hollar-romans",
+      "kicker": "The Fabian strategy",
+      "from": "s6@0.667",
+      "enter": "cut"
+    },
+    {
+      "type": "film",
+      "clip": "cab-horse.mp4",
+      "credit": "Hannibal’s column · \"Cabiria\", 1914 film — illustrative",
+      "from": "s7",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "ofanto-painting",
+      "move": "right",
+      "fact": "The Italian countryside",
+      "from": "s7@0.333",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "tavoliere",
+      "move": "right",
+      "credit": "The Apulian plain",
+      "from": "s7@0.667",
+      "enter": "cut"
+    },
+    {
+      "type": "statement",
+      "main": "Find him. *Destroy him.*",
+      "image": "cichorius-81",
+      "kicker": "Rome, 216 BC",
+      "from": "s8",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "livy",
+      "fact": "Livy, who told the story of Cannae",
+      "move": "in",
+      "from": "s8@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "cichorius-81",
+      "move": "left",
+      "credit": "Roman soldiers · Trajan’s Column, drawn by Conrad Cichorius",
+      "from": "s9",
+      "enter": "cut"
+    },
+    {
+      "type": "film",
+      "clip": "cab-legion.mp4",
+      "credit": "Roman soldiers · \"Cabiria\", 1914 film — illustrative",
+      "from": "s9@0.333",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "standard-bearer",
+      "fact": "A Roman standard-bearer",
+      "from": "s9@0.667",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "gaul-soldier",
+      "fact": "A Gaul",
+      "from": "s10",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "spanish-soldier",
+      "fact": "A Spaniard",
+      "from": "s10@0.333",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "numidian",
+      "fact": "A Numidian horseman",
+      "from": "s10@0.667",
+      "enter": "cut"
+    },
+    {
+      "type": "compare",
+      "image": "coin",
+      "a": {
+        "name": "Rome and allies",
+        "value": 86000,
+        "color": "#ff6a5c",
+        "sub": "about 80,000 infantry + 6,000 cavalry",
+        "at": "s11@0.05"
+      },
+      "b": {
+        "name": "Carthage",
+        "value": 50000,
+        "prefix": "≈ ",
+        "color": "#4fd1ff",
+        "sub": "at most 40,000 foot + 10,000 horse (estimates)",
+        "at": "s11@0.45"
+      },
+      "from": "s11",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "cichorius-98",
+      "move": "right",
+      "credit": "Roman legionaries · Trajan’s Column",
+      "from": "s12",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "gladius",
+      "fact": "A Roman gladius",
+      "move": "in",
+      "from": "s12@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "numidian",
+      "fact": "Numidian light cavalry",
+      "from": "s13",
+      "enter": "cut"
+    },
+    {
+      "type": "film",
+      "clip": "cab-battle.mp4",
+      "credit": "A galloping horse · Eadweard Muybridge, 1887 — illustrative",
+      "from": "s13@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "statement",
+      "main": "Turn their *strength* into a *weakness*.",
+      "image": "bust-capua2",
+      "kicker": "Hannibal’s plan",
+      "from": "s14",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "ofanto-painting",
+      "move": "left",
+      "fact": "The river Ofanto — the ancient Aufidus",
+      "credit": "Giuseppe De Nittis, 1870",
+      "from": "s15",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "tavoliere",
+      "move": "left",
+      "credit": "The Apulian plain",
+      "from": "s15@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "tavoliere",
+      "move": "right",
+      "fact": "The plain around Cannae",
+      "from": "s16",
+      "enter": "cut"
+    },
+    {
+      "type": "film",
+      "clip": "cab-column.mp4",
+      "credit": "Hannibal’s army on the march · \"Cabiria\", 1914 film — illustrative",
+      "from": "s16@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "bust-capua",
+      "move": "in",
+      "fact": "Hannibal, according to Plutarch and Polybius’s tradition",
+      "from": "s17",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "oath-west",
+      "fact": "Hannibal swears eternal enmity to Rome · Benjamin West",
+      "from": "s17@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "map",
+      "map": "cannae",
+      "kicker": "The two armies",
+      "note": "deployment",
+      "heads": [
+        {
+          "at": "s18",
+          "text": "Cannae, *2 August* 216 BC"
+        },
+        {
+          "at": "s19@0.2",
+          "text": "Rome: !!deep!! and tight"
+        },
+        {
+          "at": "s21@0.1",
+          "text": "Carthage: a ++curve++ bulging toward Rome"
+        }
+      ],
+      "steps": [
+        {
+          "at": "s18@0.15",
+          "show": [
+            "rc",
+            "rcr",
+            "rcl"
+          ]
+        },
+        {
+          "at": "s21@0.15",
+          "show": [
+            "cc1",
+            "cc2",
+            "cc3"
+          ]
+        },
+        {
+          "at": "s22@0.2",
+          "show": [
+            "ln",
+            "ls"
+          ]
+        },
+        {
+          "at": "s23@0.15",
+          "show": [
+            "hc",
+            "nm"
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "at": "s19@0.35",
+          "x": 690,
+          "y": 392,
+          "text": "ROMAN INFANTRY\nPACKED DEEP",
+          "color": "#ff8c80",
+          "size": 30,
+          "anchor": "end",
+          "to": [
+            698,
+            430
+          ]
+        },
+        {
+          "at": "s20@0.1",
+          "x": 700,
+          "y": 650,
+          "text": "ROMAN CAVALRY",
+          "color": "#ff8c80",
+          "size": 26,
+          "anchor": "end",
+          "to": [
+            724,
+            640
+          ]
+        },
+        {
+          "at": "s20@0.3",
+          "x": 700,
+          "y": 225,
+          "text": "ALLIED CAVALRY",
+          "color": "#ffa89e",
+          "size": 26,
+          "anchor": "end",
+          "to": [
+            724,
+            205
+          ]
+        },
+        {
+          "at": "s21@0.55",
+          "x": 1290,
+          "y": 420,
+          "text": "SPANISH + GAULS\n(with Hannibal)",
+          "color": "#7fdcff",
+          "size": 28,
+          "anchor": "start",
+          "to": [
+            1010,
+            420
+          ]
+        },
+        {
+          "at": "s22@0.5",
+          "x": 1290,
+          "y": 270,
+          "text": "LIBYANS",
+          "color": "#7fdcff",
+          "size": 26,
+          "anchor": "start",
+          "to": [
+            1140,
+            262
+          ]
+        },
+        {
+          "at": "s22@0.7",
+          "x": 1290,
+          "y": 585,
+          "text": "LIBYANS",
+          "color": "#7fdcff",
+          "size": 26,
+          "anchor": "start",
+          "to": [
+            1140,
+            578
+          ]
+        },
+        {
+          "at": "s23@0.3",
+          "x": 1290,
+          "y": 690,
+          "text": "HEAVY CAVALRY",
+          "color": "#7fdcff",
+          "size": 26,
+          "anchor": "start",
+          "to": [
+            1105,
+            650
+          ]
+        },
+        {
+          "at": "s23@0.65",
+          "x": 1290,
+          "y": 200,
+          "text": "NUMIDIANS",
+          "color": "#a8ecff",
+          "size": 26,
+          "anchor": "start",
+          "to": [
+            1096,
+            200
+          ]
+        }
+      ],
+      "from": "s18",
+      "enter": "cut"
+    },
+    {
+      "type": "map",
+      "map": "cannae",
+      "kicker": "The trap closes",
+      "note": "battle",
+      "heads": [
+        {
+          "at": "s24",
+          "text": "++1++ · The cavalry fight"
+        },
+        {
+          "at": "s27",
+          "text": "++2++ · The center gives way"
+        },
+        {
+          "at": "s30",
+          "text": "++3++ · The pincer closes"
+        },
+        {
+          "at": "s32@0.3",
+          "text": "Surrounded."
+        }
+      ],
+      "steps": [
+        {
+          "at": "s24@0.1",
+          "dur": 1.6,
+          "move": {
+            "hc": {
+              "x": 850,
+              "y": 645
+            }
+          },
+          "arrows": [
+            {
+              "points": [
+                [
+                  1030,
+                  645
+                ],
+                [
+                  930,
+                  645
+                ],
+                [
+                  875,
+                  645
+                ]
+              ],
+              "color": "#4fd1ff",
+              "width": 14,
+              "dur": 1.4
+            }
+          ]
+        },
+        {
+          "at": "s24@0.55",
+          "bursts": [
+            {
+              "x": 828,
+              "y": 645,
+              "color": "#f5b73b"
+            }
+          ],
+          "hide": [
+            "rcr"
+          ],
+          "hideDur": 1
+        },
+        {
+          "at": "s25@0.05",
+          "dur": 1.3,
+          "move": {
+            "hc": {
+              "x": 640,
+              "y": 605
+            }
+          },
+          "arrows": [
+            {
+              "points": [
+                [
+                  850,
+                  645
+                ],
+                [
+                  798,
+                  644
+                ],
+                [
+                  750,
+                  640
+                ],
+                [
+                  708,
+                  633
+                ],
+                [
+                  671,
+                  622
+                ],
+                [
+                  639,
+                  608
+                ],
+                [
+                  613,
+                  591
+                ],
+                [
+                  591,
+                  571
+                ],
+                [
+                  574,
+                  547
+                ],
+                [
+                  563,
+                  520
+                ],
+                [
+                  557,
+                  490
+                ],
+                [
+                  556,
+                  457
+                ],
+                [
+                  560,
+                  420
+                ],
+                [
+                  564,
+                  377
+                ],
+                [
+                  574,
+                  340
+                ],
+                [
+                  592,
+                  307
+                ],
+                [
+                  618,
+                  279
+                ],
+                [
+                  650,
+                  256
+                ],
+                [
+                  689,
+                  237
+                ],
+                [
+                  736,
+                  224
+                ],
+                [
+                  790,
+                  215
+                ]
+              ],
+              "color": "#4fd1ff",
+              "width": 12,
+              "dur": 3.2,
+              "until": "s27"
+            }
+          ]
+        },
+        {
+          "at": "s25@0.4",
+          "dur": 1.3,
+          "move": {
+            "hc": {
+              "x": 585,
+              "y": 420
+            }
+          }
+        },
+        {
+          "at": "s25@0.75",
+          "dur": 1.3,
+          "move": {
+            "hc": {
+              "x": 650,
+              "y": 250
+            }
+          }
+        },
+        {
+          "at": "s26@0.1",
+          "dur": 0.9,
+          "move": {
+            "hc": {
+              "x": 790,
+              "y": 212
+            }
+          }
+        },
+        {
+          "at": "s26@0.2",
+          "bursts": [
+            {
+              "x": 790,
+              "y": 205,
+              "color": "#f5b73b"
+            }
+          ],
+          "hide": [
+            "rcl"
+          ],
+          "hideDur": 1
+        },
+        {
+          "at": "s27@0.1",
+          "dur": 2,
+          "move": {
+            "rc": {
+              "x": 900,
+              "y": 420,
+              "sx": 0.9
+            },
+            "cc2": {
+              "x": 1010,
+              "y": 420
+            }
+          },
+          "arrows": [
+            {
+              "points": [
+                [
+                  800,
+                  420
+                ],
+                [
+                  880,
+                  420
+                ],
+                [
+                  945,
+                  420
+                ]
+              ],
+              "color": "#ff5a4d",
+              "width": 14,
+              "dur": 1.4,
+              "until": "s29"
+            }
+          ]
+        },
+        {
+          "at": "s27@0.45",
+          "dur": 2.2,
+          "move": {
+            "cc1": {
+              "x": 1030,
+              "y": 350,
+              "rot": 18
+            },
+            "cc3": {
+              "x": 1030,
+              "y": 490,
+              "rot": -18
+            },
+            "cc2": {
+              "x": 1060,
+              "y": 420
+            }
+          },
+          "bursts": [
+            {
+              "x": 960,
+              "y": 420,
+              "color": "#ff5a4d"
+            }
+          ]
+        },
+        {
+          "at": "s28@0.2",
+          "dur": 3.2,
+          "move": {
+            "rc": {
+              "x": 960,
+              "y": 420,
+              "sx": 0.78,
+              "sy": 0.82
+            }
+          },
+          "bursts": [
+            {
+              "x": 1000,
+              "y": 420,
+              "color": "#ff5a4d",
+              "at": "s28@0.5"
+            }
+          ]
+        },
+        {
+          "at": "s30@0.15",
+          "dur": 1.6,
+          "move": {
+            "ln": {
+              "x": 965,
+              "y": 305,
+              "rot": 25
+            },
+            "ls": {
+              "x": 965,
+              "y": 535,
+              "rot": -25
+            }
+          },
+          "arrows": [
+            {
+              "points": [
+                [
+                  1100,
+                  262
+                ],
+                [
+                  1040,
+                  290
+                ],
+                [
+                  975,
+                  330
+                ]
+              ],
+              "color": "#4fd1ff",
+              "width": 14,
+              "dur": 1.3
+            },
+            {
+              "points": [
+                [
+                  1100,
+                  578
+                ],
+                [
+                  1040,
+                  550
+                ],
+                [
+                  975,
+                  510
+                ]
+              ],
+              "color": "#4fd1ff",
+              "width": 14,
+              "dur": 1.3
+            }
+          ]
+        },
+        {
+          "at": "s30@0.6",
+          "bursts": [
+            {
+              "x": 940,
+              "y": 330,
+              "color": "#f5b73b"
+            },
+            {
+              "x": 940,
+              "y": 510,
+              "color": "#f5b73b"
+            }
+          ]
+        },
+        {
+          "at": "s31@0.1",
+          "dur": 2.2,
+          "move": {
+            "hc": {
+              "x": 690,
+              "y": 420
+            },
+            "nm": {
+              "x": 760,
+              "y": 320
+            }
+          },
+          "arrows": [
+            {
+              "points": [
+                [
+                  790,
+                  212
+                ],
+                [
+                  758,
+                  223
+                ],
+                [
+                  732,
+                  236
+                ],
+                [
+                  710,
+                  251
+                ],
+                [
+                  692,
+                  268
+                ],
+                [
+                  680,
+                  288
+                ],
+                [
+                  672,
+                  310
+                ],
+                [
+                  670,
+                  334
+                ],
+                [
+                  672,
+                  360
+                ],
+                [
+                  678,
+                  389
+                ],
+                [
+                  690,
+                  420
+                ]
+              ],
+              "color": "#4fd1ff",
+              "width": 14,
+              "dur": 1.8
+            }
+          ]
+        },
+        {
+          "at": "s31@0.7",
+          "bursts": [
+            {
+              "x": 700,
+              "y": 420,
+              "color": "#f5b73b",
+              "r": 70
+            }
+          ]
+        },
+        {
+          "at": "s32@0.1",
+          "dur": 2,
+          "move": {
+            "rc": {
+              "x": 870,
+              "y": 420,
+              "sx": 0.55,
+              "sy": 0.6
+            }
+          }
+        }
+      ],
+      "tags": [
+        {
+          "at": "s24@0.5",
+          "x": 640,
+          "y": 545,
+          "text": "ROMAN CAVALRY\nROUTED",
+          "color": "#ff8c80",
+          "size": 26,
+          "anchor": "middle"
+        },
+        {
+          "at": "s27@0.8",
+          "x": 1230,
+          "y": 430,
+          "text": "THE CURVE BENDS BACK",
+          "color": "#7fdcff",
+          "size": 30,
+          "anchor": "start",
+          "to": [
+            1070,
+            420
+          ],
+          "until": "s30"
+        },
+        {
+          "at": "s29@0.2",
+          "x": 1300,
+          "y": 640,
+          "text": "THE LIBYANS WAIT",
+          "color": "#7fdcff",
+          "size": 28,
+          "anchor": "start",
+          "to": [
+            1140,
+            585
+          ],
+          "until": "s30@0.3"
+        },
+        {
+          "at": "s32@0.3",
+          "x": 960,
+          "y": 620,
+          "text": "NO WAY OUT",
+          "color": "#ff8c80",
+          "size": 44,
+          "anchor": "middle"
+        }
+      ],
+      "from": "s24",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "paullus-death",
+      "move": "in",
+      "credit": "Cannae · painting by John Trumbull",
+      "from": "s33",
+      "enter": "cut"
+    },
+    {
+      "type": "compare",
+      "image": "paullus-death",
+      "a": {
+        "name": "Polybius",
+        "value": 70000,
+        "color": "#ff6a5c",
+        "sub": "Roman and allied infantry killed",
+        "at": "s33@0.32"
+      },
+      "b": {
+        "name": "Livy",
+        "value": 45500,
+        "prefix": "≈ ",
+        "color": "#f5b73b",
+        "sub": "infantry killed, plus 2,700 horse",
+        "at": "s33@0.7"
+      },
+      "from": "s33@0.3",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "polybius",
+      "fact": "Polybius, Greek historian",
+      "move": "in",
+      "from": "s34",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "livy",
+      "fact": "Livy, Roman historian",
+      "move": "in",
+      "from": "s34@0.333",
+      "enter": "cut"
+    },
+    {
+      "type": "statement",
+      "main": "We simply *do not know*.",
+      "image": "paullus-death",
+      "kicker": "Historians disagree",
+      "from": "s34@0.667",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "paullus-death",
+      "move": "in",
+      "credit": "The death of Paullus at Cannae · John Trumbull, 1773",
+      "from": "s35",
+      "enter": "cut"
+    },
+    {
+      "type": "statement",
+      "main": "*80* senators or ex-magistrates dead",
+      "image": "cichorius-98",
+      "kicker": "According to Livy",
+      "from": "s35@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "dying-gaul",
+      "fact": "A Gaul — most of Hannibal’s dead were Gauls",
+      "move": "in",
+      "from": "s36",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "paullus-death",
+      "move": "left",
+      "credit": "Cannae · painting by John Trumbull",
+      "from": "s36@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "quote",
+      "quote": "Never when the city was in safety was there so great a panic and confusion within the walls of Rome.",
+      "by": "Livy",
+      "image": "cichorius-81",
+      "from": "s37",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "hollar-romans",
+      "move": "left",
+      "fact": "Rome in mourning",
+      "from": "s38",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "map-battles",
+      "move": "up",
+      "kicker": "Rome’s allies defect",
+      "from": "s39",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "hannibal-senate",
+      "fact": "Hannibal before the Senate of Carthage",
+      "move": "in",
+      "from": "s40",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "coin",
+      "fact": "Carthaginian coin, 237–209 BC",
+      "from": "s40@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "statement",
+      "main": "“You know how to *win*. You don’t know how to *use* a victory.”",
+      "image": "bust-capua",
+      "kicker": "Maharbal, according to Livy",
+      "from": "s41",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "statue-louvre",
+      "move": "up",
+      "from": "s42",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "cichorius-81",
+      "move": "right",
+      "from": "s42@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "film",
+      "clip": "cab-legion2.mp4",
+      "credit": "Roman legionaries · \"Cabiria\", 1914 film — illustrative",
+      "from": "s43",
+      "enter": "cut"
+    },
+    {
+      "type": "statement",
+      "main": "Even the word “peace” was *banned*.",
+      "image": "hollar-romans",
+      "kicker": "Rome’s answer",
+      "from": "s43@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "scipio-bronze",
+      "fact": "Scipio · bronze, Bode Museum",
+      "move": "in",
+      "from": "s44",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "scipio-met",
+      "move": "in",
+      "from": "s44@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "zama-motte",
+      "move": "left",
+      "fact": "The battle of Zama, 202 BC",
+      "from": "s45",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "hannibal-scipio",
+      "move": "in",
+      "fact": "Hannibal and Scipio",
+      "from": "s45@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "statement",
+      "main": "The *Cannae* model",
+      "image": "paullus-death",
+      "kicker": "The legacy",
+      "from": "s46",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "cannae-map-horstmann",
+      "fact": "A modern map of the battle",
+      "from": "s46@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "schlieffen",
+      "move": "in",
+      "fact": "Alfred von Schlieffen",
+      "from": "s47",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "schlieffen-plan",
+      "fact": "The Schlieffen Plan",
+      "from": "s47@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "eisenhower",
+      "move": "in",
+      "fact": "Dwight D. Eisenhower",
+      "from": "s48",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "schwarzkopf",
+      "move": "in",
+      "fact": "Gen. H. Norman Schwarzkopf",
+      "from": "s49",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "bust-capua",
+      "move": "in",
+      "fact": "Hannibal Barca, 247–c. 183 BC",
+      "from": "s50",
+      "enter": "cut"
+    },
+    {
+      "type": "statement",
+      "main": "Perfect battle… or *wasted victory*?",
+      "image": "ofanto-painting",
+      "kicker": "You decide",
+      "from": "s51",
+      "enter": "cut"
+    }
+  ],
+  "post": {
+    "youtube": {
+      "title": "The Perfect Battle: How Hannibal Destroyed Rome's Army at Cannae",
+      "description": "In 216 BC, in southern Italy, one army trapped an army far bigger than itself and killed tens of thousands of men in a single afternoon. This is the battle of Cannae — and the animated map shows exactly how Hannibal did it.\n\nWe follow Hannibal from the Alps to Cannae, see why Rome, after Trebia and Trasimene, finally decided to fight him, and watch the trap close: the cavalry round the back, the curved center giving way, the Libyans turning in. Then the aftermath: Rome's panic, Maharbal's famous warning, Scipio at Canusium — and why Schlieffen, Eisenhower and Schwarzkopf all kept coming back to this one afternoon.\n\nNumbers in ancient sources are estimates and the sources disagree (Polybius: about 70,000 Roman dead; Livy: about 45,000). We say so on screen.\n\nSubscribe for more battles, rulers and forgotten tactics.\n\nImages: public domain / CC0 via Wikimedia Commons (Cichorius, Turner, Motte, West, De Nittis, the Metropolitan Museum of Art and others). Film: \"Cabiria\" (1914, public domain), used as illustrative footage. Maps: schematic. Music: Mussorgsky and Grieg, public domain. Sources: Wikipedia, Polybius, Livy.\n\n#History #Hannibal #Cannae #Rome #MilitaryHistory\n\nKeywords: battle of cannae, hannibal, hannibal barca, cannae, punic wars, second punic war, hannibal vs rome, rome vs carthage, double envelopment, ancient warfare, military history, ancient rome.",
+      "tags": [
+        "battle of cannae",
+        "cannae",
+        "hannibal",
+        "hannibal barca",
+        "hannibal vs rome",
+        "rome vs carthage",
+        "second punic war",
+        "punic wars",
+        "carthage",
+        "ancient rome",
+        "roman republic",
+        "roman army",
+        "roman legions",
+        "pincer movement",
+        "double envelopment",
+        "ancient warfare",
+        "ancient battles",
+        "military tactics",
+        "military history",
+        "ancient history",
+        "roman history",
+        "battle explained",
+        "history explained",
+        "history documentary",
+        "scipio africanus",
+        "schlieffen plan",
+        "kings and generals",
+        "greatest battles in history",
+        "history"
+      ]
+    },
+    "pinned": "Was Cannae the perfect battle, or did Hannibal waste his victory by not marching on Rome? Tell us what you think. 👇"
+  }
+}
