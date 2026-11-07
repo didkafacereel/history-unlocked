@@ -222,5 +222,13 @@
     "music": "mussorgsky-old-castle+mussorgsky-bydlo+mountain-king+grieg-aase-death",
     "seconds": 365,
     "cta": "Hannibal never reached Rome. The subscribe button is much closer. Take it."
+  },
+  {
+    "slug": "stalingrad",
+    "made": "2026-11-19",
+    "title": "Stalingrad — how the Red Army trapped 300,000 Germans in four days",
+    "music": "mussorgsky-bydlo+chopin-marche-funebre+mountain-king+grieg-aase-death",
+    "seconds": 285,
+    "cta": "The Red Army closed a pincer. You can close one too, on the subscribe button."
   }
 ]

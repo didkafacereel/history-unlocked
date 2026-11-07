@@ -1,0 +1,1633 @@
+{
+  "format": 2,
+  "mode": "wide",
+  "date": "2026-11-19",
+  "slug": "stalingrad",
+  "title": "Stalingrad — how the Red Army trapped 300,000 Germans in four days",
+  "category": "War",
+  "speed": 1,
+  "mapSource": "Wikipedia on Stalingrad and Operation Uranus",
+  "imageCredit": "Wikimedia Commons (public domain)",
+  "sources": [
+    "Wikipedia: Battle of Stalingrad and Operation Uranus — Case Blue (June 1942); the Sixth Army and the city that bore Stalin’s name; Chuikov’s “hugging” tactic; Pavlov’s House; the 13th Guards Rifle Division’s losses; the Romanian armies on the flanks and their obsolete equipment; Uranus: about 1.1 million Soviet personnel, 804 tanks, 13,400 guns, over 1,000 aircraft; deception (radio silence, couriers, camouflage); 111,000 soldiers ferried across the Volga in three weeks; 19 November 1942 attack on the Third Romanian Army (27,000 captured on day one); 20 November attack from the south; the link-up near Sovetsky on 23 November (tanks first mistook each other for Germans; the link-up was not filmed and was re-enacted for a newsreel); 250,000–330,000 Axis personnel trapped (estimates differ); the airlift (105 tons a day delivered, 750 needed); Manstein’s relief attempt (to within 48 km); surrender on 2 February 1943 (about 91,000 prisoners, 22 generals); Göring’s Thermopylae speech; casualty estimates range from 800,000 to 1.5 million Axis and over 1.1 million Soviet (disputed).",
+    "Film: “Stalingrad / The City That Stopped Hitler: Heroic Stalingrad” (1943), Central Documentary Film Studio, public domain; used as the real footage of the period. Any re-enacted scene is labelled as such.",
+    "Maps: schematic, built for this video; positions approximate. Music: Mussorgsky, Grieg and Chopin, public domain."
+  ],
+  "music": {
+    "tracks": [
+      {
+        "id": "mussorgsky-bydlo",
+        "start": 0,
+        "len": 110
+      },
+      {
+        "id": "chopin-marche-funebre",
+        "start": 0,
+        "len": 150
+      },
+      {
+        "id": "mountain-king",
+        "start": 0,
+        "len": 110
+      },
+      {
+        "id": "grieg-aase-death",
+        "start": 15,
+        "len": 150
+      }
+    ]
+  },
+  "highlight": [
+    "STALINGRAD",
+    "KALACH",
+    "PINCER",
+    "URANUS",
+    "VOLGA",
+    "FLANKS",
+    "CANNAE",
+    "TRAPPED"
+  ],
+  "alert": [
+    "SURROUNDED",
+    "DEFEAT",
+    "COLLAPSED",
+    "DEAD",
+    "PRISONERS",
+    "STARVING",
+    "DIED"
+  ],
+  "names": [
+    "HITLER",
+    "STALIN",
+    "PAULUS",
+    "MANSTEIN",
+    "CHUIKOV",
+    "GÖRING",
+    "HANNIBAL",
+    "ZHUKOV",
+    "ROMANIAN",
+    "ROMANIANS"
+  ],
+  "chapters": [
+    {
+      "at": "s1",
+      "title": "Four days in November 1942"
+    },
+    {
+      "at": "s4",
+      "title": "How the Germans got to Stalingrad"
+    },
+    {
+      "at": "s13",
+      "title": "The weak flanks"
+    },
+    {
+      "at": "s17",
+      "title": "The secret preparation"
+    },
+    {
+      "at": "s21",
+      "title": "The pincers close"
+    },
+    {
+      "at": "s29",
+      "title": "The cauldron"
+    },
+    {
+      "at": "s35",
+      "title": "The cost, and the legacy"
+    }
+  ],
+  "thumb": {
+    "image": "krichevsky",
+    "mode": "contain",
+    "lines": [
+      "300,000",
+      "TRAPPED IN",
+      "4 DAYS"
+    ],
+    "hi": 0,
+    "tint": [
+      217,
+      56,
+      46
+    ],
+    "kicker": "STALINGRAD 1942",
+    "side": "left"
+  },
+  "cta": {
+    "story": "Cannae, again.",
+    "say": "The Red Army closed a pincer. You can close one too, on the subscribe button.",
+    "pill": "PINCER",
+    "note": "a new story every week"
+  },
+  "endImage": "festung",
+  "maps": {
+    "uranus": {
+      "shift": [
+        0,
+        50
+      ],
+      "zoom": [
+        1.1,
+        1.16
+      ],
+      "legend": [
+        {
+          "color": "#d9382e",
+          "text": "Soviet forces"
+        },
+        {
+          "color": "#8d98a5",
+          "text": "German Sixth Army"
+        },
+        {
+          "color": "#c9b458",
+          "text": "Romanian armies"
+        }
+      ],
+      "terrain": {
+        "land1": "#242c38",
+        "land2": "#10151e",
+        "rivers": [
+          {
+            "points": [
+              [
+                1500,
+                100
+              ],
+              [
+                1535,
+                250
+              ],
+              [
+                1495,
+                420
+              ],
+              [
+                1535,
+                580
+              ],
+              [
+                1500,
+                700
+              ]
+            ],
+            "width": 40
+          },
+          {
+            "points": [
+              [
+                330,
+                110
+              ],
+              [
+                430,
+                230
+              ],
+              [
+                560,
+                340
+              ],
+              [
+                680,
+                430
+              ],
+              [
+                760,
+                520
+              ],
+              [
+                770,
+                610
+              ],
+              [
+                700,
+                710
+              ]
+            ],
+            "width": 28
+          }
+        ],
+        "areas": [
+          {
+            "points": [
+              [
+                1370,
+                320
+              ],
+              [
+                1465,
+                320
+              ],
+              [
+                1465,
+                580
+              ],
+              [
+                1370,
+                580
+              ]
+            ],
+            "fill": "rgba(160,170,185,0.16)",
+            "stroke": "rgba(200,210,225,0.5)",
+            "dash": true
+          }
+        ],
+        "labels": [
+          {
+            "x": 1418,
+            "y": 300,
+            "text": "STALINGRAD",
+            "serif": false,
+            "size": 24,
+            "color": "rgba(235,240,250,0.95)"
+          },
+          {
+            "x": 1590,
+            "y": 420,
+            "text": "Volga",
+            "size": 38,
+            "color": "rgba(235,248,255,0.98)",
+            "rot": 90
+          },
+          {
+            "x": 400,
+            "y": 210,
+            "text": "Don",
+            "size": 34,
+            "color": "rgba(235,248,255,0.98)",
+            "rot": 45
+          },
+          {
+            "x": 745,
+            "y": 538,
+            "text": "KALACH",
+            "serif": false,
+            "size": 22,
+            "color": "rgba(255,230,160,0.98)",
+            "anchor": "middle"
+          },
+          {
+            "x": 1840,
+            "y": 190,
+            "text": "N ↑",
+            "serif": false,
+            "size": 40,
+            "color": "rgba(244,246,251,0.85)"
+          }
+        ]
+      },
+      "units": [
+        {
+          "id": "g6",
+          "side": "axis",
+          "color": "#8d98a5",
+          "x": 1130,
+          "y": 450,
+          "w": 380,
+          "h": 200
+        },
+        {
+          "id": "g6c",
+          "side": "axis",
+          "color": "#7d8895",
+          "x": 1415,
+          "y": 450,
+          "w": 70,
+          "h": 120
+        },
+        {
+          "id": "r3",
+          "side": "allyaxis",
+          "color": "#c9b458",
+          "x": 900,
+          "y": 235,
+          "w": 330,
+          "h": 70
+        },
+        {
+          "id": "r4",
+          "side": "allyaxis",
+          "color": "#c9b458",
+          "x": 900,
+          "y": 650,
+          "w": 330,
+          "h": 70
+        },
+        {
+          "id": "sn1",
+          "side": "rome",
+          "x": 500,
+          "y": 150,
+          "w": 150,
+          "h": 80
+        },
+        {
+          "id": "sn2",
+          "side": "rome",
+          "x": 610,
+          "y": 120,
+          "w": 110,
+          "h": 70
+        },
+        {
+          "id": "ss1",
+          "side": "rome",
+          "x": 1260,
+          "y": 700,
+          "w": 150,
+          "h": 70
+        },
+        {
+          "id": "ss2",
+          "side": "rome",
+          "x": 1150,
+          "y": 720,
+          "w": 110,
+          "h": 60
+        },
+        {
+          "id": "sc",
+          "side": "rome",
+          "x": 1478,
+          "y": 450,
+          "w": 32,
+          "h": 120
+        }
+      ]
+    }
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "In November nineteen forty-two, in just four days, the Red Army surrounded about three hundred thousand Axis soldiers, on the frozen steppe beside the Volga.",
+      "show": "In November 1942, in just four days, the Red Army surrounded about 300,000 Axis soldiers, on the frozen steppe beside the Volga.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s2",
+      "say": "Many historians call it the greatest defeat in the history of the German Army.",
+      "show": "Many historians call it the greatest defeat in the history of the German Army.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s3",
+      "say": "And it was built on a trick Hannibal made famous at Cannae: the pincer.",
+      "show": "And it was built on a trick Hannibal made famous at Cannae: the pincer.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s4",
+      "say": "In the summer of nineteen forty-two, Germany launched a new offensive in the south of the Soviet Union. It was called Case Blue.",
+      "show": "In the summer of 1942, Germany launched a new offensive in the south of the Soviet Union. It was called Case Blue.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s5",
+      "say": "Hitler split his forces. One half went for the oil of the Caucasus. The other, the Sixth Army, went for Stalingrad.",
+      "show": "Hitler split his forces. One half went for the oil of the Caucasus. The other, the Sixth Army, went for Stalingrad.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s6",
+      "say": "The city carried Stalin’s name. That alone made it a prize.",
+      "show": "The city carried Stalin’s name. That alone made it a prize.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s7",
+      "say": "For three months, the Germans fought for it, street by street, house by house.",
+      "show": "For three months, the Germans fought for it, street by street, house by house.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s8",
+      "say": "The Soviet commander, Chuikov, ordered his men to hug the enemy, to stay so close that German planes and artillery could not hit them without hitting their own men.",
+      "show": "The Soviet commander, Chuikov, ordered his men to hug the enemy, to stay so close that German planes and artillery could not hit them without hitting their own men.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s9",
+      "say": "Pavlov’s House, a four-story building, was held by a single platoon for weeks.",
+      "show": "Pavlov’s House, a four-story building, was held by a single platoon for weeks.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s10",
+      "say": "One division lost thirty percent of its men in the first twenty-four hours. Of ten thousand, only three hundred twenty were left at the end.",
+      "show": "One division lost 30 percent of its men in the first 24 hours. Of 10,000, only 320 were left at the end.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s11",
+      "say": "By November, the Germans held ninety percent of the ruined city, and had pinned the defenders against the Volga.",
+      "show": "By November, the Germans held 90 percent of the ruined city, and had pinned the defenders against the Volga.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s12",
+      "say": "But the Germans had a weakness. And the Soviets knew exactly where.",
+      "show": "But the Germans had a weakness. And the Soviets knew exactly where.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s13",
+      "say": "The long flanks of the Sixth Army, north and south of the city, were guarded not by Germans, but by Romanian armies.",
+      "show": "The long flanks of the Sixth Army, north and south of the city, were guarded not by Germans, but by Romanian armies.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s14",
+      "say": "Poorly equipped. Old guns, horse-drawn artillery, and tanks whose small guns could not hurt a Soviet T-thirty-four.",
+      "show": "Poorly equipped. Old guns, horse-drawn artillery, and tanks whose small guns could not hurt a Soviet T-34.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s15",
+      "say": "Hitler trusted them anyway.",
+      "show": "Hitler trusted them anyway.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s16",
+      "say": "Stalin’s generals saw the weakness, and built a plan on it. Operation Uranus.",
+      "show": "Stalin’s generals saw the weakness, and built a plan on it. Operation Uranus.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s17",
+      "say": "They gathered about one point one million men, eight hundred tanks, and thirteen thousand guns.",
+      "show": "They gathered about 1.1 million men, 800 tanks, and 13,000 guns.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s18",
+      "say": "And they hid it. Radio silence. Camouflage. Orders carried by couriers instead of radio.",
+      "show": "And they hid it. Radio silence. Camouflage. Orders carried by couriers instead of radio.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s19",
+      "say": "In three weeks, they ferried a hundred and eleven thousand soldiers, and hundreds of tanks, across the Volga.",
+      "show": "In three weeks, they ferried 111,000 soldiers, and hundreds of tanks, across the Volga.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s20",
+      "say": "The Germans suspected an attack. But they did not know where, or when.",
+      "show": "The Germans suspected an attack. But they did not know where, or when.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s21",
+      "say": "On the nineteenth of November, in the fog, the northern pincer struck the Third Romanian Army.",
+      "show": "On 19 November, in the fog, the northern pincer struck the Third Romanian Army.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s22",
+      "say": "The Romanians held for a few hours, then collapsed. By the end of the day, twenty-seven thousand were prisoners.",
+      "show": "The Romanians held for a few hours, then collapsed. By the end of the day, 27,000 were prisoners.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s23",
+      "say": "The next day, the southern pincer broke through the Fourth Romanian Army.",
+      "show": "The next day, the southern pincer broke through the Fourth Romanian Army.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s24",
+      "say": "Two arrows, aimed at one place: the town of Kalach, on the river Don, behind the Sixth Army.",
+      "show": "Two arrows, aimed at one place: the town of Kalach, on the river Don, behind the Sixth Army.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s25",
+      "say": "On the twenty-third of November, Soviet tanks from the north met Soviet tanks from the south.",
+      "show": "On 23 November, Soviet tanks from the north met Soviet tanks from the south.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s26",
+      "say": "At first, they mistook each other for Germans, and traded fire.",
+      "show": "At first, they mistook each other for Germans, and traded fire.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s27",
+      "say": "The ring was closed. Inside it, between two hundred fifty thousand and three hundred thirty thousand men. Estimates differ.",
+      "show": "The ring was closed. Inside it, between 250,000 and 330,000 men. Estimates differ.",
+      "pauseAfter": 0.7
+    },
+    {
+      "id": "s28",
+      "say": "The link-up had not been filmed. So the Soviets staged it again, for the newsreels.",
+      "show": "The link-up had not been filmed. So the Soviets staged it again, for the newsreels.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s29",
+      "say": "Hitler refused to let the Sixth Army break out. It would be supplied from the air.",
+      "show": "Hitler refused to let the Sixth Army break out. It would be supplied from the air.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s30",
+      "say": "The airlift needed seven hundred fifty tons a day. It delivered a hundred and five.",
+      "show": "The airlift needed 750 tons a day. It delivered 105.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s31",
+      "say": "Field Marshal Manstein tried to break in from the outside. He got within forty-eight kilometers. But the starving Sixth Army never broke out to meet him.",
+      "show": "Field Marshal Manstein tried to break in from the outside. He got within 48 kilometers. But the starving Sixth Army never broke out to meet him.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s32",
+      "say": "On the second of February, nineteen forty-three, the last pocket surrendered.",
+      "show": "On 2 February, 1943, the last pocket surrendered.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s33",
+      "say": "About ninety-one thousand exhausted, starving men were taken prisoner, among them twenty-two generals.",
+      "show": "About 91,000 exhausted, starving men were taken prisoner, among them 22 generals.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s34",
+      "say": "Days earlier, Göring had compared the trapped army to the three hundred Spartans at Thermopylae. The soldiers did not appreciate it.",
+      "show": "Days earlier, Göring had compared the trapped army to the 300 Spartans at Thermopylae. The soldiers did not appreciate it.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s35",
+      "say": "The total cost is still debated. Axis casualties: from eight hundred thousand to one and a half million, depending on the source.",
+      "show": "The total cost is still debated. Axis casualties: from 800,000 to 1.5 million, depending on the source.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s36",
+      "say": "Soviet casualties: more than one million, by official figures. Some historians say that is too low.",
+      "show": "Soviet casualties: more than 1 million, by official figures. Some historians say that is too low.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s37",
+      "say": "More than a million soldiers and civilians may have died. It is one of the bloodiest battles in history.",
+      "show": "More than a million soldiers and civilians may have died. It is one of the bloodiest battles in history.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s38",
+      "say": "The myth of the invincible German army was gone. In the Soviet Union, they said: you cannot stop an army that has done Stalingrad.",
+      "show": "The myth of the invincible German army was gone. In the Soviet Union, they said: you cannot stop an army that has done Stalingrad.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s39",
+      "say": "More than two thousand years after Cannae, the pincer had won again. Different armies. Same lesson. Guard only your front, and you will be hit on the flanks.",
+      "show": "More than two thousand years after Cannae, the pincer had won again. Different armies. Same lesson. Guard only your front, and you will be hit on the flanks.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s40",
+      "say": "So, was Stalingrad won in the ruined streets, or on the open steppe, on the flanks? Tell us what you think.",
+      "show": "So, was Stalingrad won in the ruined streets, or on the open steppe, on the flanks? Tell us what you think.",
+      "pauseAfter": 0.4
+    }
+  ],
+  "scenes": [
+    {
+      "type": "film",
+      "clip": "st-hook1.mp4",
+      "credit": "Soviet troops attack · Stalingrad · Soviet documentary, 1943",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "krichevsky",
+      "move": "up",
+      "credit": "“Liberation of Stalingrad” · Abram Krichevsky, 1943",
+      "from": "s1@0.333",
+      "enter": "cut"
+    },
+    {
+      "type": "film",
+      "clip": "st-hook2.mp4",
+      "credit": "The Volga front · Stalingrad · Soviet documentary, 1943",
+      "from": "s1@0.667",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "frontpage",
+      "move": "up",
+      "credit": "Front page, 4 February 1943 · Belgian newspaper",
+      "from": "s2",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "german-pows",
+      "fact": "German prisoners, February 1943",
+      "move": "in",
+      "from": "s2@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "statement",
+      "main": "The *pincer*, 2,000 years later",
+      "image": "kalach-map",
+      "kicker": "Operation Uranus",
+      "from": "s3",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "german-map",
+      "fact": "A German map of Stalingrad, 1942",
+      "from": "s4",
+      "enter": "cut"
+    },
+    {
+      "type": "film",
+      "clip": "st-blue.mp4",
+      "credit": "German columns advance · Stalingrad · Soviet documentary, 1943",
+      "from": "s4@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "paulus",
+      "fact": "Friedrich Paulus, commander of the Sixth Army",
+      "move": "in",
+      "from": "s5",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "panzer-div",
+      "fact": "The 24th Panzer Division at Stalingrad, September 1942",
+      "move": "in",
+      "from": "s5@0.333",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "manstein",
+      "move": "right",
+      "fact": "German generals on the Eastern Front",
+      "from": "s5@0.667",
+      "enter": "cut"
+    },
+    {
+      "type": "statement",
+      "main": "The city had *Stalin’s name*.",
+      "image": "stalingrad-1942",
+      "kicker": "Why Stalingrad?",
+      "from": "s6",
+      "enter": "cut"
+    },
+    {
+      "type": "film",
+      "clip": "st-ruins1.mp4",
+      "credit": "Fighting in the ruins · Stalingrad · Soviet documentary, 1943",
+      "from": "s7",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "germans-stalingrad",
+      "fact": "German troops in Stalingrad, 1942",
+      "from": "s7@0.333",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "ruined-city",
+      "fact": "Stalingrad in ruins",
+      "from": "s7@0.667",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "chuikov",
+      "move": "in",
+      "fact": "Vasily Chuikov, commander of the 62nd Army",
+      "credit": "Statue, Poznań",
+      "from": "s8",
+      "enter": "cut"
+    },
+    {
+      "type": "film",
+      "clip": "st-street.mp4",
+      "credit": "Street fighting · Stalingrad · Soviet documentary, 1943",
+      "from": "s8@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "pavlov-house",
+      "fact": "Pavlov’s House, 1943",
+      "move": "in",
+      "from": "s9",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "marines-volga",
+      "fact": "Soviet troops on the Volga bank",
+      "from": "s9@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "zaytsev-snipers",
+      "move": "right",
+      "fact": "Red Army snipers, Stalingrad, December 1942",
+      "from": "s10",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "zaytsev-volga",
+      "move": "left",
+      "fact": "Vasily Zaytsev, sniper",
+      "from": "s10@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "film",
+      "clip": "st-volga.mp4",
+      "credit": "The Volga bank · Stalingrad · Soviet documentary, 1943",
+      "from": "s11",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "festung",
+      "move": "in",
+      "fact": "German positions in Stalingrad, winter 1942",
+      "from": "s11@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "statement",
+      "main": "But they had a *weakness*.",
+      "image": "sept-front",
+      "kicker": "November 1942",
+      "from": "s12",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "romanians",
+      "move": "up",
+      "fact": "Romanian troops, January 1942",
+      "from": "s13",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "t34-urano",
+      "move": "in",
+      "fact": "A Soviet T-34 tank, 1942",
+      "from": "s14",
+      "enter": "cut"
+    },
+    {
+      "type": "film",
+      "clip": "st-tanks.mp4",
+      "credit": "Soviet tanks · Stalingrad · Soviet documentary, 1943",
+      "from": "s14@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "hitler",
+      "move": "in",
+      "fact": "Hitler, June 1942",
+      "from": "s15",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "zhukov",
+      "fact": "Georgy Zhukov",
+      "move": "in",
+      "from": "s16",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "vasilevsky",
+      "fact": "Aleksandr Vasilevsky, 1928",
+      "move": "in",
+      "from": "s16@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "number",
+      "image": "factory",
+      "label": "Soviet soldiers for Operation Uranus",
+      "value": 1100000,
+      "suffix": "+",
+      "count": {
+        "from": "s17@0.25",
+        "to": "s17@0.85"
+      },
+      "sub": "804 tanks · 13,400 guns · over 1,000 aircraft",
+      "from": "s17",
+      "enter": "cut"
+    },
+    {
+      "type": "statement",
+      "main": "Radio *silence*. Couriers only.",
+      "image": "dead-wehrmacht",
+      "kicker": "The deception",
+      "from": "s18",
+      "enter": "cut"
+    },
+    {
+      "type": "film",
+      "clip": "st-night.mp4",
+      "credit": "Preparations · Stalingrad · Soviet documentary, 1943",
+      "from": "s18@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "film",
+      "clip": "st-ferry.mp4",
+      "credit": "Crossing the Volga · Stalingrad · Soviet documentary, 1943",
+      "from": "s19",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "marines-volga",
+      "move": "left",
+      "from": "s19@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "german-map",
+      "move": "right",
+      "fact": "A German map of the front",
+      "from": "s20",
+      "enter": "cut"
+    },
+    {
+      "type": "map",
+      "map": "uranus",
+      "kicker": "Operation Uranus · November 1942",
+      "heads": [
+        {
+          "at": "s21",
+          "text": "The Sixth Army’s !!weak flanks!!"
+        },
+        {
+          "at": "s21@0.55",
+          "text": "++1++ · The northern pincer"
+        },
+        {
+          "at": "s23",
+          "text": "++2++ · The southern pincer"
+        },
+        {
+          "at": "s25",
+          "text": "++3++ · Kalach, *23 November*"
+        },
+        {
+          "at": "s27@0.2",
+          "text": "The ring is closed."
+        }
+      ],
+      "steps": [
+        {
+          "at": "s21@0.02",
+          "show": [
+            "g6",
+            "g6c",
+            "sc",
+            "r3",
+            "r4"
+          ],
+          "showDur": 0.8
+        },
+        {
+          "at": "s21@0.35",
+          "show": [
+            "sn1",
+            "sn2"
+          ]
+        },
+        {
+          "at": "s21@0.6",
+          "dur": 1.8,
+          "move": {
+            "sn1": {
+              "x": 770,
+              "y": 240
+            },
+            "sn2": {
+              "x": 840,
+              "y": 215
+            }
+          },
+          "arrows": [
+            {
+              "points": [
+                [
+                  500,
+                  150
+                ],
+                [
+                  640,
+                  200
+                ],
+                [
+                  775,
+                  238
+                ]
+              ],
+              "color": "#ff5a4d",
+              "width": 14,
+              "dur": 1.5
+            }
+          ]
+        },
+        {
+          "at": "s22@0.1",
+          "bursts": [
+            {
+              "x": 790,
+              "y": 240,
+              "color": "#f5b73b",
+              "r": 60
+            }
+          ],
+          "hide": [
+            "r3"
+          ],
+          "hideDur": 1.2
+        },
+        {
+          "at": "s22@0.5",
+          "dur": 1.8,
+          "move": {
+            "sn1": {
+              "x": 690,
+              "y": 425
+            },
+            "sn2": {
+              "x": 740,
+              "y": 400
+            }
+          },
+          "arrows": [
+            {
+              "points": [
+                [
+                  775,
+                  238
+                ],
+                [
+                  750,
+                  247
+                ],
+                [
+                  728,
+                  259
+                ],
+                [
+                  711,
+                  272
+                ],
+                [
+                  697,
+                  287
+                ],
+                [
+                  686,
+                  305
+                ],
+                [
+                  680,
+                  324
+                ],
+                [
+                  677,
+                  345
+                ],
+                [
+                  677,
+                  368
+                ],
+                [
+                  682,
+                  393
+                ],
+                [
+                  690,
+                  420
+                ]
+              ],
+              "color": "#ff5a4d",
+              "width": 14,
+              "dur": 1.6
+            }
+          ]
+        },
+        {
+          "at": "s23@0.05",
+          "show": [
+            "ss1",
+            "ss2"
+          ]
+        },
+        {
+          "at": "s23@0.25",
+          "dur": 1.8,
+          "move": {
+            "ss1": {
+              "x": 930,
+              "y": 640
+            },
+            "ss2": {
+              "x": 1020,
+              "y": 660
+            }
+          },
+          "arrows": [
+            {
+              "points": [
+                [
+                  1260,
+                  700
+                ],
+                [
+                  1100,
+                  665
+                ],
+                [
+                  935,
+                  640
+                ]
+              ],
+              "color": "#ff5a4d",
+              "width": 14,
+              "dur": 1.5
+            }
+          ]
+        },
+        {
+          "at": "s23@0.7",
+          "bursts": [
+            {
+              "x": 920,
+              "y": 650,
+              "color": "#f5b73b",
+              "r": 60
+            }
+          ],
+          "hide": [
+            "r4"
+          ],
+          "hideDur": 1.2
+        },
+        {
+          "at": "s24@0.2",
+          "dur": 2,
+          "move": {
+            "ss1": {
+              "x": 740,
+              "y": 470
+            },
+            "ss2": {
+              "x": 800,
+              "y": 490
+            }
+          },
+          "arrows": [
+            {
+              "points": [
+                [
+                  935,
+                  640
+                ],
+                [
+                  903,
+                  638
+                ],
+                [
+                  874,
+                  633
+                ],
+                [
+                  847,
+                  625
+                ],
+                [
+                  823,
+                  613
+                ],
+                [
+                  801,
+                  598
+                ],
+                [
+                  782,
+                  579
+                ],
+                [
+                  765,
+                  557
+                ],
+                [
+                  751,
+                  531
+                ],
+                [
+                  739,
+                  502
+                ],
+                [
+                  730,
+                  470
+                ]
+              ],
+              "color": "#ff5a4d",
+              "width": 14,
+              "dur": 1.8
+            }
+          ]
+        },
+        {
+          "at": "s25@0.45",
+          "bursts": [
+            {
+              "x": 720,
+              "y": 445,
+              "color": "#f5b73b",
+              "r": 80
+            }
+          ]
+        },
+        {
+          "at": "s27@0.1",
+          "arrows": [
+            {
+              "points": [
+                [
+                  1130,
+                  720
+                ],
+                [
+                  1063,
+                  717
+                ],
+                [
+                  997,
+                  707
+                ],
+                [
+                  935,
+                  691
+                ],
+                [
+                  877,
+                  668
+                ],
+                [
+                  826,
+                  641
+                ],
+                [
+                  782,
+                  609
+                ],
+                [
+                  747,
+                  573
+                ],
+                [
+                  721,
+                  533
+                ],
+                [
+                  705,
+                  492
+                ],
+                [
+                  700,
+                  450
+                ],
+                [
+                  705,
+                  408
+                ],
+                [
+                  721,
+                  367
+                ],
+                [
+                  747,
+                  327
+                ],
+                [
+                  782,
+                  291
+                ],
+                [
+                  826,
+                  259
+                ],
+                [
+                  877,
+                  232
+                ],
+                [
+                  935,
+                  209
+                ],
+                [
+                  997,
+                  193
+                ],
+                [
+                  1063,
+                  183
+                ],
+                [
+                  1130,
+                  180
+                ],
+                [
+                  1197,
+                  183
+                ],
+                [
+                  1263,
+                  193
+                ],
+                [
+                  1325,
+                  209
+                ],
+                [
+                  1383,
+                  232
+                ],
+                [
+                  1434,
+                  259
+                ],
+                [
+                  1478,
+                  291
+                ],
+                [
+                  1513,
+                  327
+                ],
+                [
+                  1539,
+                  367
+                ],
+                [
+                  1555,
+                  408
+                ],
+                [
+                  1560,
+                  450
+                ],
+                [
+                  1555,
+                  492
+                ],
+                [
+                  1539,
+                  533
+                ],
+                [
+                  1513,
+                  573
+                ],
+                [
+                  1478,
+                  609
+                ],
+                [
+                  1434,
+                  641
+                ],
+                [
+                  1383,
+                  668
+                ],
+                [
+                  1325,
+                  691
+                ],
+                [
+                  1263,
+                  707
+                ],
+                [
+                  1197,
+                  717
+                ],
+                [
+                  1130,
+                  720
+                ]
+              ],
+              "color": "#ff5a4d",
+              "width": 16,
+              "dur": 3.2
+            }
+          ],
+          "dur": 1,
+          "move": {
+            "g6": {
+              "sx": 0.82,
+              "sy": 0.9
+            }
+          }
+        }
+      ],
+      "tags": [
+        {
+          "at": "s21@0.1",
+          "x": 900,
+          "y": 168,
+          "text": "THIRD ROMANIAN ARMY",
+          "color": "#e6d27a",
+          "size": 26,
+          "anchor": "middle",
+          "to": [
+            900,
+            210
+          ]
+        },
+        {
+          "at": "s21@0.2",
+          "x": 1130,
+          "y": 330,
+          "text": "GERMAN SIXTH ARMY",
+          "color": "#cfd8e2",
+          "size": 28,
+          "anchor": "middle",
+          "to": [
+            1130,
+            360
+          ]
+        },
+        {
+          "at": "s22@0.8",
+          "x": 650,
+          "y": 330,
+          "text": "27,000 PRISONERS",
+          "color": "#ffb0a8",
+          "size": 26,
+          "anchor": "end"
+        },
+        {
+          "at": "s23@0.4",
+          "x": 900,
+          "y": 735,
+          "text": "FOURTH ROMANIAN ARMY",
+          "color": "#e6d27a",
+          "size": 26,
+          "anchor": "middle",
+          "to": [
+            900,
+            690
+          ]
+        },
+        {
+          "at": "s27@0.4",
+          "x": 1130,
+          "y": 460,
+          "text": "TRAPPED",
+          "color": "#ffffff",
+          "size": 48,
+          "anchor": "middle"
+        }
+      ],
+      "from": "s21",
+      "enter": "cut"
+    },
+    {
+      "type": "statement",
+      "main": "The link-up was *staged* again for the cameras.",
+      "image": "t34-urano",
+      "kicker": "Re-enacted for the newsreel",
+      "from": "s28",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "paulus-pow",
+      "fact": "Paulus after his capture, 1943",
+      "move": "in",
+      "from": "s29",
+      "enter": "cut"
+    },
+    {
+      "type": "film",
+      "clip": "st-pocket.mp4",
+      "credit": "Inside the pocket · Stalingrad · Soviet documentary, 1943",
+      "from": "s29@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "compare",
+      "image": "pocket-map",
+      "a": {
+        "name": "Needed",
+        "value": 750,
+        "suffix": " t/day",
+        "color": "#f5b73b",
+        "sub": "to feed the Sixth Army",
+        "at": "s30@0.12"
+      },
+      "b": {
+        "name": "Delivered",
+        "value": 105,
+        "suffix": " t/day",
+        "color": "#ff6a5c",
+        "sub": "by air, on average",
+        "at": "s30@0.55"
+      },
+      "from": "s30",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "manstein",
+      "move": "in",
+      "fact": "Erich von Manstein",
+      "from": "s31",
+      "enter": "cut"
+    },
+    {
+      "type": "film",
+      "clip": "st-winter.mp4",
+      "credit": "Winter on the steppe · Stalingrad · Soviet documentary, 1943",
+      "from": "s31@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "paulus-pow",
+      "move": "in",
+      "from": "s32",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "disfatta",
+      "fact": "After the defeat, February 1943",
+      "from": "s32@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "film",
+      "clip": "st-prisoners.mp4",
+      "credit": "German prisoners · Stalingrad · Soviet documentary, 1943",
+      "from": "s33",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "german-pows",
+      "move": "left",
+      "from": "s33@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "statement",
+      "main": "“Like the *Spartans* at Thermopylae.”",
+      "image": "festung",
+      "kicker": "Göring, 30 January 1943",
+      "from": "s34",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "dead-wehrmacht",
+      "move": "in",
+      "from": "s35",
+      "enter": "cut"
+    },
+    {
+      "type": "statement",
+      "main": "*800,000* to *1,500,000*",
+      "image": "disfatta",
+      "kicker": "Axis casualties — sources differ",
+      "from": "s35@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "film",
+      "clip": "st-memorial.mp4",
+      "credit": "The city after the battle · Stalingrad · Soviet documentary, 1943",
+      "from": "s36",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "ruined-city",
+      "move": "in",
+      "from": "s36@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "statement",
+      "main": "Over *one million* dead",
+      "image": "marines-volga",
+      "kicker": "Estimate — sources differ",
+      "from": "s37",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "krichevsky",
+      "move": "up",
+      "from": "s38",
+      "enter": "cut"
+    },
+    {
+      "type": "film",
+      "clip": "st-victory.mp4",
+      "credit": "Red Army troops celebrate · Stalingrad · Soviet documentary, 1943",
+      "from": "s38@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "statement",
+      "main": "Guard only the front… and *lose the flanks*.",
+      "image": "kalach-map",
+      "kicker": "The lesson of Cannae — and Stalingrad",
+      "from": "s39",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "zaytsev-snipers",
+      "move": "in",
+      "from": "s40",
+      "enter": "cut"
+    },
+    {
+      "type": "statement",
+      "main": "Won in the *streets*… or on the *steppe*?",
+      "image": "festung",
+      "kicker": "You decide",
+      "from": "s40@0.500",
+      "enter": "cut"
+    }
+  ],
+  "post": {
+    "youtube": {
+      "title": "Stalingrad: How the Red Army Trapped 300,000 Germans in Four Days",
+      "description": "In November 1942, in just four days, the Red Army surrounded about 300,000 Axis soldiers on the frozen steppe beside the Volga. Many historians call it the greatest defeat in the history of the German Army — and it was built on a trick Hannibal made famous at Cannae: the pincer.\n\nThis animated explainer follows Operation Uranus on the map: the weak Romanian flanks of the German Sixth Army, the secret Soviet build-up, the northern and southern pincers meeting at Kalach, the airlift that could not feed 300,000 men, Manstein's failed relief attempt and the surrender on 2 February 1943. We also show the street fighting that led up to it — and we say plainly where the sources disagree (casualty figures range from 800,000 to 1.5 million for the Axis, and over a million for the Soviets).\n\nSubscribe for more battles, rulers and forgotten tactics.\n\nFilm: \"Stalingrad / The City That Stopped Hitler\" (1943, public domain) and a labelled re-enactment. Images: public domain via Wikimedia Commons. Maps: schematic. Music: Mussorgsky, Chopin and Grieg, public domain. Sources: Wikipedia.\n\n#History #Stalingrad #WW2 #MilitaryHistory #OperationUranus\n\nKeywords: battle of stalingrad, stalingrad, operation uranus, stalingrad explained, ww2 battles, eastern front, sixth army, friedrich paulus, double envelopment, pincer movement, military history.",
+      "tags": [
+        "battle of stalingrad",
+        "stalingrad",
+        "operation uranus",
+        "stalingrad explained",
+        "stalingrad 1942",
+        "stalingrad 1943",
+        "sixth army",
+        "friedrich paulus",
+        "chuikov",
+        "zhukov",
+        "manstein",
+        "eastern front",
+        "ww2",
+        "ww2 history",
+        "world war 2",
+        "ww2 battles",
+        "pincer movement",
+        "double envelopment",
+        "military history",
+        "military tactics",
+        "battle explained",
+        "history explained",
+        "history documentary",
+        "turning point of ww2",
+        "greatest battles in history",
+        "history"
+      ]
+    },
+    "pinned": "Was Stalingrad won in the ruined streets, or on the open steppe, on the flanks? Tell us what you think. 👇"
+  }
+}
