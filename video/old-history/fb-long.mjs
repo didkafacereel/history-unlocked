@@ -9,7 +9,7 @@ const FB = {
 
 Hannibal was outnumbered almost two to one. So he did something that looked like a mistake: he pushed the centre of his line forward and let it bend backwards. The Romans followed, packed tighter and tighter, until his cavalry closed behind them and his Libyan veterans turned in from both sides. Nobody could run, nobody could even swing a sword.
 
-Ancient numbers are always uncertain — Polybius and Livy don't agree, and we say so in the video. But the idea has been copied for 2,000 years. This new video shows it on an animated map, with real archive pictures and film.
+Ancient numbers are always uncertain — Polybius and Livy don't agree, and we say so in the video. But the idea has been copied for 2,000 years. This new video shows it on an animated map, with archive art and busts, plus film clearly labelled as illustrative.
 
 ▶ Watch the full video on YouTube: [PASTE YOUTUBE LINK HERE]
 
