@@ -230,5 +230,13 @@
     "music": "mussorgsky-bydlo+chopin-marche-funebre+mountain-king+grieg-aase-death",
     "seconds": 285,
     "cta": "The Red Army closed a pincer. You can close one too, on the subscribe button."
+  },
+  {
+    "slug": "pegasus",
+    "made": "2026-11-26",
+    "title": "Pegasus Bridge — the ten minutes that opened D-Day",
+    "music": "mussorgsky-old-castle+mountain-king+mussorgsky-bydlo+grieg-aase-death",
+    "seconds": 326,
+    "cta": "Their signal was Ham and Jam. Yours is a single tap on subscribe."
   }
 ]

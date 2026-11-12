@@ -1,0 +1,1702 @@
+{
+  "format": 2,
+  "mode": "wide",
+  "date": "2026-11-26",
+  "slug": "pegasus",
+  "title": "Pegasus Bridge — the ten minutes that opened D-Day",
+  "category": "War",
+  "speed": 1,
+  "mapSource": "Wikipedia on the capture of the Caen Canal and Orne bridges",
+  "imageCredit": "Wikimedia Commons (public domain / CC0; many IWM Crown-copyright-expired photos)",
+  "sources": [
+    "Wikipedia: Operation Deadstick (capture of the Caen Canal and Orne River bridges) — the bridges as the only exit east from Sword; 50 German guards; D Company 2nd Ox and Bucks under Major John Howard; night training; practice bridges near Exeter; 181 men (139 infantry, 30 engineers, 12 pilots) in six Horsa gliders; Wallwork’s overload warning; code words Ham and Jam; take-off at 22:56 from RAF Tarrant Rushton; release over the coast; first glider at 00:16; glider two broke near a pond and Lance-Corporal Fred Greenhalgh drowned; two sentries, the flare; Brotheridge wounded throwing a grenade; canal bridge cleared by 00:21; river bridge: glider six landed 300 m away, a mortar destroyed the MG 34; glider four landed at the Dives, about 13 km away; bridges prepared but explosives not attached; Major Schmidt captured in his half-track; the Panzer IV destroyed by the only working PIAT; Hitler asleep; gunboats at 09:00; the bomb at 10:00 that failed to explode; bagpipes at 13:30; casualties 2 killed, 14 wounded; Leigh-Mallory’s praise; Howard’s DSO from Montgomery; DFMs for eight pilots; renaming as Pegasus Bridge.",
+    "Wikipedia: Den Brotheridge (often considered the first Allied soldier killed in action on D-Day; wife eight months pregnant; daughter born two weeks after his death); Jim Wallwork (pilots thrown through the cockpit); John Howard (former Oxford City policeman; returned every 6 June); Bill Millin (Lovat’s piper; commandos arrived a little past 1 PM against a noon schedule).",
+    "Film: “The True Glory” (1945) and “Normandy: The Airborne Invasion of Fortress Europe” (US Army Air Forces) — general airborne and D-Day footage, mostly American gliders; not of this bridge. Map: schematic, positions approximate. Music: public domain."
+  ],
+  "music": {
+    "tracks": [
+      {
+        "id": "mussorgsky-old-castle",
+        "start": 0,
+        "len": 100
+      },
+      {
+        "id": "mountain-king",
+        "start": 0,
+        "len": 110
+      },
+      {
+        "id": "mussorgsky-bydlo",
+        "start": 0,
+        "len": 100
+      },
+      {
+        "id": "grieg-aase-death",
+        "start": 15,
+        "len": 150
+      }
+    ]
+  },
+  "highlight": [
+    "PEGASUS",
+    "HAM",
+    "JAM",
+    "D-DAY",
+    "BRIDGE",
+    "GLIDER",
+    "GLIDERS",
+    "BAGPIPES"
+  ],
+  "alert": [
+    "CRASHED",
+    "DROWNED",
+    "KILLED",
+    "EXPLODED",
+    "TANKS",
+    "DIED"
+  ],
+  "names": [
+    "HOWARD",
+    "WALLWORK",
+    "BROTHERIDGE",
+    "GREENHALGH",
+    "HITLER",
+    "MILLIN",
+    "LOVAT",
+    "MONTGOMERY",
+    "LEIGH-MALLORY"
+  ],
+  "chapters": [
+    {
+      "at": "s1",
+      "title": "A glider in the barbed wire"
+    },
+    {
+      "at": "s4",
+      "title": "Why two bridges mattered"
+    },
+    {
+      "at": "s9",
+      "title": "Howard’s men"
+    },
+    {
+      "at": "s15",
+      "title": "The silent flight"
+    },
+    {
+      "at": "s20",
+      "title": "Ten minutes: the assault"
+    },
+    {
+      "at": "s30",
+      "title": "Holding the bridges"
+    },
+    {
+      "at": "s36",
+      "title": "The bagpipes"
+    },
+    {
+      "at": "s39",
+      "title": "Afterwards"
+    }
+  ],
+  "thumb": {
+    "image": "gliders-canal",
+    "fx": 0.5,
+    "fy": 0.55,
+    "zoom": 1.1,
+    "lines": [
+      "10 MINUTES",
+      "THAT OPENED",
+      "D-DAY"
+    ],
+    "hi": 0,
+    "tint": [
+      47,
+      180,
+      224
+    ],
+    "kicker": "PEGASUS BRIDGE 1944",
+    "side": "left"
+  },
+  "cta": {
+    "story": "Ham and Jam.",
+    "say": "Their signal was Ham and Jam. Yours is a single tap on subscribe.",
+    "pill": "HAM AND JAM",
+    "note": "a new story every week"
+  },
+  "endImage": "bridge-1944",
+  "maps": {
+    "bridges": {
+      "schematic": "schematic — positions approximate",
+      "shift": [
+        0,
+        40
+      ],
+      "zoom": [
+        1.06,
+        1.12
+      ],
+      "legend": [
+        {
+          "color": "#2fb4e0",
+          "text": "British"
+        },
+        {
+          "color": "#8d98a5",
+          "text": "German"
+        },
+        {
+          "color": "#e8dfc8",
+          "text": "Horsa glider"
+        }
+      ],
+      "terrain": {
+        "rivers": [
+          {
+            "points": [
+              [
+                700,
+                60
+              ],
+              [
+                700,
+                300
+              ],
+              [
+                700,
+                560
+              ],
+              [
+                700,
+                800
+              ]
+            ],
+            "width": 34
+          },
+          {
+            "points": [
+              [
+                1290,
+                60
+              ],
+              [
+                1270,
+                250
+              ],
+              [
+                1310,
+                420
+              ],
+              [
+                1260,
+                600
+              ],
+              [
+                1290,
+                800
+              ]
+            ],
+            "width": 46
+          }
+        ],
+        "areas": [
+          {
+            "points": [
+              [
+                300,
+                452
+              ],
+              [
+                1700,
+                452
+              ],
+              [
+                1700,
+                478
+              ],
+              [
+                300,
+                478
+              ]
+            ],
+            "fill": "rgba(210,200,170,0.22)",
+            "stroke": "rgba(210,200,170,0.35)"
+          },
+          {
+            "points": [
+              [
+                850,
+                560
+              ],
+              [
+                960,
+                560
+              ],
+              [
+                960,
+                640
+              ],
+              [
+                850,
+                640
+              ]
+            ],
+            "fill": "rgba(79,209,255,0.14)",
+            "stroke": "rgba(79,209,255,0.4)",
+            "dash": true
+          }
+        ],
+        "labels": [
+          {
+            "x": 700,
+            "y": 430,
+            "text": "CANAL BRIDGE",
+            "serif": false,
+            "size": 22,
+            "color": "rgba(255,230,160,0.98)",
+            "anchor": "middle"
+          },
+          {
+            "x": 1290,
+            "y": 430,
+            "text": "RIVER BRIDGE",
+            "serif": false,
+            "size": 22,
+            "color": "rgba(255,230,160,0.98)",
+            "anchor": "middle"
+          },
+          {
+            "x": 640,
+            "y": 640,
+            "text": "Caen Canal",
+            "size": 30,
+            "color": "rgba(235,248,255,0.98)",
+            "rot": 90
+          },
+          {
+            "x": 1370,
+            "y": 660,
+            "text": "river Orne",
+            "size": 30,
+            "color": "rgba(235,248,255,0.98)",
+            "rot": 90
+          },
+          {
+            "x": 290,
+            "y": 560,
+            "text": "BÉNOUVILLE",
+            "serif": false,
+            "size": 22,
+            "color": "rgba(244,246,251,0.9)",
+            "anchor": "middle"
+          },
+          {
+            "x": 1560,
+            "y": 560,
+            "text": "RANVILLE",
+            "serif": false,
+            "size": 22,
+            "color": "rgba(244,246,251,0.9)",
+            "anchor": "middle"
+          },
+          {
+            "x": 905,
+            "y": 670,
+            "text": "pond",
+            "size": 22,
+            "color": "rgba(200,235,255,0.85)",
+            "anchor": "middle"
+          },
+          {
+            "x": 1840,
+            "y": 190,
+            "text": "N ↑",
+            "serif": false,
+            "size": 40,
+            "color": "rgba(244,246,251,0.85)"
+          }
+        ]
+      },
+      "units": [
+        {
+          "id": "gw",
+          "side": "axis",
+          "color": "#8d98a5",
+          "x": 640,
+          "y": 400,
+          "w": 60,
+          "h": 40
+        },
+        {
+          "id": "ge",
+          "side": "axis",
+          "color": "#8d98a5",
+          "x": 760,
+          "y": 520,
+          "w": 60,
+          "h": 40
+        },
+        {
+          "id": "gr",
+          "side": "axis",
+          "color": "#8d98a5",
+          "x": 1350,
+          "y": 520,
+          "w": 60,
+          "h": 40
+        },
+        {
+          "id": "h1",
+          "side": "glider",
+          "color": "#e8dfc8",
+          "x": 1100,
+          "y": 140,
+          "w": 74,
+          "h": 26,
+          "rot": -30
+        },
+        {
+          "id": "h2",
+          "side": "glider",
+          "color": "#e8dfc8",
+          "x": 1160,
+          "y": 120,
+          "w": 74,
+          "h": 26,
+          "rot": -30
+        },
+        {
+          "id": "h3",
+          "side": "glider",
+          "color": "#e8dfc8",
+          "x": 1220,
+          "y": 100,
+          "w": 74,
+          "h": 26,
+          "rot": -30
+        },
+        {
+          "id": "h6",
+          "side": "glider",
+          "color": "#e8dfc8",
+          "x": 900,
+          "y": 120,
+          "w": 74,
+          "h": 26,
+          "rot": 30
+        },
+        {
+          "id": "p1",
+          "side": "brit",
+          "color": "#2fb4e0",
+          "x": 790,
+          "y": 395,
+          "w": 64,
+          "h": 36
+        },
+        {
+          "id": "p6",
+          "side": "brit",
+          "color": "#2fb4e0",
+          "x": 1080,
+          "y": 330,
+          "w": 64,
+          "h": 36
+        },
+        {
+          "id": "tk",
+          "side": "axis",
+          "color": "#6f7a86",
+          "x": 300,
+          "y": 300,
+          "w": 70,
+          "h": 40
+        },
+        {
+          "id": "tk2",
+          "side": "axis",
+          "color": "#6f7a86",
+          "x": 230,
+          "y": 250,
+          "w": 60,
+          "h": 34
+        },
+        {
+          "id": "piat",
+          "side": "brit",
+          "color": "#2fb4e0",
+          "x": 560,
+          "y": 420,
+          "w": 50,
+          "h": 30
+        },
+        {
+          "id": "hq",
+          "side": "brit",
+          "color": "#2fb4e0",
+          "x": 790,
+          "y": 500,
+          "w": 54,
+          "h": 30
+        }
+      ]
+    }
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "say": "Just after midnight on the sixth of June, nineteen forty-four, a glider with no engine crashed into a field in Normandy.",
+      "show": "Just after midnight on 6 June 1944, a glider with no engine crashed into a field in Normandy.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s2",
+      "say": "Its nose stopped in the German barbed wire, a few dozen meters from the bridge it had come to take.",
+      "show": "Its nose stopped in the German barbed wire, a few dozen meters from the bridge it had come to take.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s3",
+      "say": "Ten minutes later, both bridges were in British hands. This is the story of Pegasus Bridge.",
+      "show": "Ten minutes later, both bridges were in British hands. This is the story of Pegasus Bridge.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "s4",
+      "say": "Two bridges, five hundred meters apart. One over the Caen Canal, one over the river Orne.",
+      "show": "Two bridges, 500 meters apart. One over the Caen Canal, one over the river Orne.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s5",
+      "say": "They were the only way east from Sword Beach, where British troops would land at dawn.",
+      "show": "They were the only way east from Sword Beach, where British troops would land at dawn.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s6",
+      "say": "If the Germans blew them up, the British paratroopers on the far side would be cut off. If the Germans kept them, their tanks could drive straight to the beaches.",
+      "show": "If the Germans blew them up, the British paratroopers on the far side would be cut off. If the Germans kept them, their tanks could drive straight to the beaches.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s7",
+      "say": "Intelligence said the bridges were guarded, and wired for demolition. There would be no time for a long fight.",
+      "show": "Intelligence said the bridges were guarded, and wired for demolition. There would be no time for a long fight.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s8",
+      "say": "So the plan was simple, and insane. Land right on top of them. In the dark. In gliders.",
+      "show": "So the plan was simple, and insane. Land right on top of them. In the dark. In gliders.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s9",
+      "say": "The job went to Major John Howard, a former policeman, and D Company of the Oxfordshire and Buckinghamshire Light Infantry.",
+      "show": "The job went to Major John Howard, a former policeman, and D Company of the Oxfordshire and Buckinghamshire Light Infantry.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s10",
+      "say": "For weeks at a time they trained at night. They got up at eight in the evening and went to bed at one in the afternoon.",
+      "show": "For weeks at a time they trained at night. They got up at 8 in the evening and went to bed at 1 in the afternoon.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s11",
+      "say": "They practised on two bridges in England that looked just like the real ones.",
+      "show": "They practised on two bridges in England that looked just like the real ones.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s12",
+      "say": "One hundred eighty-one men, in six wooden gliders.",
+      "show": "181 men, in six wooden gliders.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s13",
+      "say": "The lead pilot, Staff Sergeant Jim Wallwork, warned that the gliders were too heavy. Howard left men behind to make them lighter.",
+      "show": "The lead pilot, Staff Sergeant Jim Wallwork, warned that the gliders were too heavy. Howard left men behind to make them lighter.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s14",
+      "say": "The code words for success were Ham, for the canal bridge, and Jam, for the river bridge.",
+      "show": "The code words for success were Ham, for the canal bridge, and Jam, for the river bridge.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s15",
+      "say": "At four minutes to eleven on the fifth of June, Halifax bombers towed the gliders into the air from the south of England.",
+      "show": "At 10:56 PM on 5 June, Halifax bombers towed the gliders into the air from the south of England.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s16",
+      "say": "Over the French coast, the ropes were cut. The pilots flew on in silence, by compass and stopwatch.",
+      "show": "Over the French coast, the ropes were cut. The pilots flew on in silence, by compass and stopwatch.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s17",
+      "say": "At sixteen minutes past midnight, Wallwork’s glider hit the ground, bounced across the field, and smashed into the barbed wire.",
+      "show": "At 00:16, Wallwork’s glider hit the ground, bounced across the field, and smashed into the barbed wire.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s18",
+      "say": "Both pilots were thrown through the cockpit glass. They were stunned, but alive.",
+      "show": "Both pilots were thrown through the cockpit glass. They were stunned, but alive.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s19",
+      "say": "Two more gliders landed a minute apart. One broke in half beside a pond. Lance Corporal Fred Greenhalgh was thrown into the water, and drowned.",
+      "show": "Two more gliders landed a minute apart. One broke in half beside a pond. Lance Corporal Fred Greenhalgh was thrown into the water, and drowned.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s20",
+      "say": "On the bridge, two German sentries heard the noise. One ran, shouting “paratroops.” The other fired a flare.",
+      "show": "On the bridge, two German sentries heard the noise. One ran, shouting “paratroops.” The other fired a flare.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s21",
+      "say": "Lieutenant Den Brotheridge led the first platoon across the bridge at a run.",
+      "show": "Lieutenant Den Brotheridge led the first platoon across the bridge at a run.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s22",
+      "say": "A machine gun opened fire. Brotheridge threw a grenade, and was hit in the neck.",
+      "show": "A machine gun opened fire. Brotheridge threw a grenade, and was hit in the neck.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s23",
+      "say": "His men cleared the trenches and the pillbox with grenades and Sten guns. By twenty-one minutes past midnight, the canal bridge was theirs.",
+      "show": "His men cleared the trenches and the pillbox with grenades and Sten guns. By 00:21, the canal bridge was theirs.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s24",
+      "say": "At the river bridge, one glider landed three hundred meters away. A single mortar round knocked out the machine gun, and the platoon walked across.",
+      "show": "At the river bridge, one glider landed 300 meters away. A single mortar round knocked out the machine gun, and the platoon walked across.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s25",
+      "say": "Another glider was missing. It had landed by the wrong river, thirteen kilometers away.",
+      "show": "Another glider was missing. It had landed by the wrong river, 13 kilometers away.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s26",
+      "say": "The engineers searched for the explosives. The bridges were ready to be blown, but the charges had never been put in place.",
+      "show": "The engineers searched for the explosives. The bridges were ready to be blown, but the charges had never been put in place.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s27",
+      "say": "Howard’s radio operator sent the signal: Ham and Jam. Both bridges taken, intact.",
+      "show": "Howard’s radio operator sent the signal: Ham and Jam. Both bridges taken, intact.",
+      "pauseAfter": 0.7
+    },
+    {
+      "id": "s28",
+      "say": "Den Brotheridge died of his wounds. He is often called the first Allied soldier killed by enemy fire on D-Day.",
+      "show": "Den Brotheridge died of his wounds. He is often called the first Allied soldier killed by enemy fire on D-Day.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s29",
+      "say": "His wife was eight months pregnant. His daughter was born two weeks later.",
+      "show": "His wife was 8 months pregnant. His daughter was born two weeks later.",
+      "pauseAfter": 0.7
+    },
+    {
+      "id": "s30",
+      "say": "Now they had to hold. Howard blew the letter V in Morse code on his whistle, to guide the paratroopers landing in the dark.",
+      "show": "Now they had to hold. Howard blew the letter V in Morse code on his whistle, to guide the paratroopers landing in the dark.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s31",
+      "say": "The German commander of the bridges drove onto them in a half-track to see what was happening. He was taken prisoner.",
+      "show": "The German commander of the bridges drove onto them in a half-track to see what was happening. He was taken prisoner.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s32",
+      "say": "Around two in the morning, German tanks came down the road toward the bridge.",
+      "show": "Around 2 AM, German tanks came down the road toward the bridge.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "s33",
+      "say": "D Company had one working anti-tank weapon, a PIAT. Its first round hit the leading tank. The tank exploded, and the rest pulled back.",
+      "show": "D Company had one working anti-tank weapon, a PIAT. Its first round hit the leading tank. The tank exploded, and the rest pulled back.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s34",
+      "say": "The big Panzer divisions could not move without Hitler’s order. Hitler was asleep, and his staff would not wake him.",
+      "show": "The big Panzer divisions could not move without Hitler’s order. Hitler was asleep, and his staff would not wake him.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s35",
+      "say": "At dawn came snipers. At nine, two German gunboats. At ten, a single plane dropped a bomb, which hit the bridge, and did not explode.",
+      "show": "At dawn came snipers. At 9, two German gunboats. At 10, a single plane dropped a bomb, which hit the bridge, and did not explode.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s36",
+      "say": "Then, at half past one in the afternoon, the men on the bridge heard bagpipes.",
+      "show": "Then, at 1:30 PM, the men on the bridge heard bagpipes.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s37",
+      "say": "It was Bill Millin, the piper of Lord Lovat’s commandos, marching up from Sword Beach. The relief had arrived.",
+      "show": "It was Bill Millin, the piper of Lord Lovat’s commandos, marching up from Sword Beach. The relief had arrived.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s38",
+      "say": "Legend says Lovat apologised for being a few minutes late. By the plan, they were well over an hour late.",
+      "show": "Legend says Lovat apologised for being a few minutes late. By the plan, they were well over an hour late.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "s39",
+      "say": "Of the one hundred eighty-one men who landed, two were killed and fourteen wounded.",
+      "show": "Of the 181 men who landed, two were killed and 14 wounded.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s40",
+      "say": "Air Chief Marshal Leigh-Mallory called the landings among the most outstanding flying achievements of the war.",
+      "show": "Air Chief Marshal Leigh-Mallory called the landings among the most outstanding flying achievements of the war.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s41",
+      "say": "Howard received the Distinguished Service Order from Montgomery himself. Eight of the glider pilots got the Distinguished Flying Medal.",
+      "show": "Howard received the Distinguished Service Order from Montgomery himself. Eight of the glider pilots got the Distinguished Flying Medal.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s42",
+      "say": "The canal bridge was renamed Pegasus Bridge, after the winged horse on the badge of the British airborne troops.",
+      "show": "The canal bridge was renamed Pegasus Bridge, after the winged horse on the badge of the British airborne troops.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s43",
+      "say": "Every sixth of June until he died, John Howard came back to lay a wreath where the gliders had landed.",
+      "show": "Every 6 June until he died, John Howard came back to lay a wreath where the gliders had landed.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "s44",
+      "say": "So, was Pegasus Bridge won by perfect planning, or by perfect luck? Tell us what you think.",
+      "show": "So, was Pegasus Bridge won by perfect planning, or by perfect luck? Tell us what you think.",
+      "pauseAfter": 0.4
+    }
+  ],
+  "scenes": [
+    {
+      "type": "film",
+      "clip": "f-gliders.mp4",
+      "credit": "Gliders in flight, 1944 — Allied gliders, not this mission · “Normandy: The Airborne Invasion of Fortress Europe” · US Army Air Forces",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "gliders-canal",
+      "move": "in",
+      "credit": "Three of the gliders beside the canal bridge, June 1944 · IWM",
+      "from": "s1@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "glider-b5232",
+      "move": "right",
+      "fact": "One of the gliders at the canal bridge, 8 June 1944",
+      "from": "s2",
+      "enter": "cut"
+    },
+    {
+      "type": "statement",
+      "main": "Ten minutes. *Two bridges.*",
+      "image": "bridge-1944",
+      "kicker": "Pegasus Bridge · 6 June 1944",
+      "from": "s3",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "bridge-july",
+      "fact": "The canal bridge at Bénouville, July 1944",
+      "from": "s4",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "orne-bridge",
+      "fact": "The river Orne bridge, 1944",
+      "move": "in",
+      "from": "s4@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "sword-landing",
+      "move": "in",
+      "fact": "Sword Beach, 6 June 1944",
+      "from": "s5",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "gale-troops",
+      "fact": "Major-General Richard Gale and men of the 6th Airborne Division",
+      "move": "in",
+      "from": "s6",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "panzer-iv",
+      "fact": "A German Panzer IV, Normandy 1944",
+      "move": "right",
+      "from": "s6@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "atlantic-wall",
+      "move": "in",
+      "fact": "Atlantic Wall gun battery, Normandy",
+      "credit": "Longues-sur-Mer · CC0",
+      "from": "s7",
+      "enter": "cut"
+    },
+    {
+      "type": "statement",
+      "main": "No time for a *long fight*.",
+      "image": "caen-sign",
+      "kicker": "The problem",
+      "from": "s7@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "horsa-flight",
+      "fact": "An Airspeed Horsa glider",
+      "move": "left",
+      "from": "s8",
+      "enter": "cut"
+    },
+    {
+      "type": "film",
+      "clip": "f-tow.mp4",
+      "credit": "Gliders under tow — Allied gliders, not this mission · “Normandy: The Airborne Invasion of Fortress Europe” · US Army Air Forces",
+      "from": "s8@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "glider-troops",
+      "move": "in",
+      "fact": "Glider troops in Normandy, June 1944",
+      "from": "s9",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "horsa-troops",
+      "fact": "Airborne troops leaving a Horsa glider in training",
+      "move": "right",
+      "from": "s10",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "glider-inside",
+      "move": "in",
+      "fact": "Airborne troops inside a Horsa glider",
+      "from": "s11",
+      "enter": "cut"
+    },
+    {
+      "type": "number",
+      "image": "pilots-briefing",
+      "label": "men in the assault",
+      "value": 181,
+      "count": {
+        "from": "s12@0.2",
+        "to": "s12@0.7"
+      },
+      "sub": "139 infantry · 30 engineers · 12 glider pilots",
+      "from": "s12",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "glider-pilots",
+      "fact": "Glider pilots before D-Day",
+      "move": "up",
+      "from": "s13",
+      "enter": "cut"
+    },
+    {
+      "type": "statement",
+      "main": "*HAM* · canal bridge  —  *JAM* · river bridge",
+      "image": "halifax-crew",
+      "kicker": "The code words",
+      "from": "s14",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "halifax-horsa",
+      "fact": "A Halifax tows a Horsa glider into the air",
+      "move": "right",
+      "from": "s15",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "halifax",
+      "move": "right",
+      "fact": "A Handley Page Halifax bomber",
+      "from": "s15@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "film",
+      "clip": "f-cockpit.mp4",
+      "credit": "Glider pilots at the controls — Allied gliders, not this mission · “Normandy: The Airborne Invasion of Fortress Europe” · US Army Air Forces",
+      "from": "s16",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "tow",
+      "move": "left",
+      "fact": "Gliders under tow",
+      "from": "s16@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "gliders-crash",
+      "move": "in",
+      "fact": "Crash-landed gliders by the canal bridge",
+      "from": "s17",
+      "enter": "cut"
+    },
+    {
+      "type": "film",
+      "clip": "f-crash.mp4",
+      "credit": "A glider after a crash landing — Allied gliders, not this mission · “Normandy: The Airborne Invasion of Fortress Europe” · US Army Air Forces",
+      "from": "s18",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "gliders-b7035",
+      "move": "right",
+      "fact": "The gliders near the bridge, June 1944",
+      "from": "s18@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "glider-wall",
+      "move": "in",
+      "fact": "A Horsa glider wrecked on landing, Normandy",
+      "from": "s19",
+      "enter": "cut"
+    },
+    {
+      "type": "map",
+      "map": "bridges",
+      "kicker": "Bénouville · 00:16, 6 June 1944",
+      "note": "battle",
+      "heads": [
+        {
+          "at": "s20",
+          "text": "++1++ · The gliders land"
+        },
+        {
+          "at": "s21",
+          "text": "++2++ · Across the *canal bridge*"
+        },
+        {
+          "at": "s24",
+          "text": "++3++ · The *river bridge*"
+        },
+        {
+          "at": "s27",
+          "text": "*HAM* and *JAM*"
+        }
+      ],
+      "steps": [
+        {
+          "at": "s20@0.02",
+          "show": [
+            "gw",
+            "ge",
+            "gr"
+          ],
+          "showDur": 0.6
+        },
+        {
+          "at": "s20@0.05",
+          "show": [
+            "h1",
+            "h2",
+            "h3"
+          ]
+        },
+        {
+          "at": "s20@0.08",
+          "dur": 1.6,
+          "move": {
+            "h1": {
+              "x": 790,
+              "y": 440,
+              "rot": -8
+            },
+            "h2": {
+              "x": 860,
+              "y": 520,
+              "rot": -15
+            },
+            "h3": {
+              "x": 900,
+              "y": 600,
+              "rot": 20
+            }
+          },
+          "arrows": [
+            {
+              "points": [
+                [
+                  1100,
+                  140
+                ],
+                [
+                  1070,
+                  157
+                ],
+                [
+                  1040,
+                  177
+                ],
+                [
+                  1010,
+                  200
+                ],
+                [
+                  980,
+                  225
+                ],
+                [
+                  950,
+                  253
+                ],
+                [
+                  920,
+                  283
+                ],
+                [
+                  890,
+                  316
+                ],
+                [
+                  860,
+                  351
+                ],
+                [
+                  830,
+                  389
+                ],
+                [
+                  800,
+                  430
+                ]
+              ],
+              "color": "#e8dfc8",
+              "width": 8,
+              "dur": 1.4,
+              "until": "s22"
+            }
+          ]
+        },
+        {
+          "at": "s20@0.6",
+          "bursts": [
+            {
+              "x": 640,
+              "y": 380,
+              "color": "#f5b73b",
+              "r": 50
+            }
+          ]
+        },
+        {
+          "at": "s21@0.05",
+          "show": [
+            "p1"
+          ]
+        },
+        {
+          "at": "s21@0.3",
+          "dur": 1.8,
+          "move": {
+            "p1": {
+              "x": 620,
+              "y": 460
+            }
+          },
+          "arrows": [
+            {
+              "points": [
+                [
+                  790,
+                  420
+                ],
+                [
+                  700,
+                  462
+                ],
+                [
+                  630,
+                  462
+                ]
+              ],
+              "color": "#4fd1ff",
+              "width": 14,
+              "dur": 1.4,
+              "until": "s24"
+            }
+          ]
+        },
+        {
+          "at": "s22@0.4",
+          "bursts": [
+            {
+              "x": 640,
+              "y": 420,
+              "color": "#ff5a4d",
+              "r": 60
+            }
+          ]
+        },
+        {
+          "at": "s23@0.3",
+          "bursts": [
+            {
+              "x": 760,
+              "y": 520,
+              "color": "#f5b73b"
+            },
+            {
+              "x": 640,
+              "y": 400,
+              "color": "#f5b73b"
+            }
+          ],
+          "hide": [
+            "gw",
+            "ge"
+          ],
+          "hideDur": 1
+        },
+        {
+          "at": "s24@0.05",
+          "show": [
+            "h6"
+          ]
+        },
+        {
+          "at": "s24@0.1",
+          "dur": 1.4,
+          "move": {
+            "h6": {
+              "x": 1090,
+              "y": 360,
+              "rot": 10
+            }
+          },
+          "arrows": [
+            {
+              "points": [
+                [
+                  900,
+                  120
+                ],
+                [
+                  936,
+                  137
+                ],
+                [
+                  968,
+                  157
+                ],
+                [
+                  997,
+                  180
+                ],
+                [
+                  1023,
+                  208
+                ],
+                [
+                  1045,
+                  238
+                ],
+                [
+                  1063,
+                  272
+                ],
+                [
+                  1078,
+                  309
+                ],
+                [
+                  1090,
+                  350
+                ]
+              ],
+              "color": "#e8dfc8",
+              "width": 8,
+              "dur": 1.2,
+              "until": "s26"
+            }
+          ]
+        },
+        {
+          "at": "s24@0.4",
+          "show": [
+            "p6"
+          ],
+          "bursts": [
+            {
+              "x": 1350,
+              "y": 520,
+              "color": "#f5b73b",
+              "at": "s24@0.6"
+            }
+          ]
+        },
+        {
+          "at": "s24@0.65",
+          "hide": [
+            "gr"
+          ],
+          "dur": 1.6,
+          "move": {
+            "p6": {
+              "x": 1360,
+              "y": 470
+            }
+          },
+          "arrows": [
+            {
+              "points": [
+                [
+                  1100,
+                  400
+                ],
+                [
+                  1250,
+                  462
+                ],
+                [
+                  1350,
+                  465
+                ]
+              ],
+              "color": "#4fd1ff",
+              "width": 14,
+              "dur": 1.3
+            }
+          ]
+        },
+        {
+          "at": "s27@0.15",
+          "bursts": [
+            {
+              "x": 700,
+              "y": 465,
+              "color": "#4fd1ff",
+              "r": 80
+            },
+            {
+              "x": 1290,
+              "y": 465,
+              "color": "#4fd1ff",
+              "r": 80,
+              "at": "s27@0.35"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "at": "s20@0.1",
+          "x": 560,
+          "y": 340,
+          "text": "SENTRIES",
+          "color": "#cfd8e2",
+          "size": 24,
+          "anchor": "end",
+          "to": [
+            630,
+            390
+          ]
+        },
+        {
+          "at": "s21@0.5",
+          "x": 560,
+          "y": 560,
+          "text": "BROTHERIDGE",
+          "color": "#9fe6ff",
+          "size": 24,
+          "anchor": "end",
+          "to": [
+            615,
+            475
+          ]
+        },
+        {
+          "at": "s25@0.2",
+          "x": 1700,
+          "y": 300,
+          "text": "GLIDER 4: 13 KM AWAY",
+          "color": "#ffb0a8",
+          "size": 24,
+          "anchor": "end"
+        },
+        {
+          "at": "s26@0.2",
+          "x": 905,
+          "y": 720,
+          "text": "NO CHARGES FITTED",
+          "color": "#ffe08a",
+          "size": 26,
+          "anchor": "middle"
+        }
+      ],
+      "from": "s20",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "brotheridge-grave",
+      "move": "up",
+      "fact": "The grave of Lt Den Brotheridge, Ranville",
+      "credit": "Ranville churchyard · public domain",
+      "from": "s28",
+      "enter": "cut"
+    },
+    {
+      "type": "statement",
+      "main": "He never met his *daughter*.",
+      "image": "brotheridge-grave",
+      "kicker": "Lt Den Brotheridge, 1915–1944",
+      "from": "s29",
+      "enter": "cut"
+    },
+    {
+      "type": "film",
+      "clip": "f-paras.mp4",
+      "credit": "Paratroopers drop — Allied gliders, not this mission · “Normandy: The Airborne Invasion of Fortress Europe” · US Army Air Forces",
+      "from": "s30",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "gliders-aerial",
+      "fact": "Gliders and parachutes on the landing zone",
+      "move": "in",
+      "from": "s30@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "map",
+      "map": "bridges",
+      "kicker": "Holding the bridges · 6 June 1944",
+      "note": "battle",
+      "heads": [
+        {
+          "at": "s31",
+          "text": "A German *half-track* drives in"
+        },
+        {
+          "at": "s32",
+          "text": "!!Tanks!! from Bénouville"
+        },
+        {
+          "at": "s33",
+          "text": "One *PIAT*. One shot."
+        }
+      ],
+      "steps": [
+        {
+          "at": "s31@0.05",
+          "show": [
+            "hq",
+            "p1"
+          ]
+        },
+        {
+          "at": "s31@0.15",
+          "show": [
+            "tk2"
+          ],
+          "dur": 1.8,
+          "move": {
+            "tk2": {
+              "x": 600,
+              "y": 465
+            }
+          },
+          "arrows": [
+            {
+              "points": [
+                [
+                  230,
+                  465
+                ],
+                [
+                  450,
+                  465
+                ],
+                [
+                  600,
+                  465
+                ]
+              ],
+              "color": "#cfd8e2",
+              "width": 10,
+              "dur": 1.4,
+              "until": "s32"
+            }
+          ]
+        },
+        {
+          "at": "s31@0.7",
+          "bursts": [
+            {
+              "x": 640,
+              "y": 465,
+              "color": "#f5b73b"
+            }
+          ],
+          "hide": [
+            "tk2"
+          ]
+        },
+        {
+          "at": "s32@0.05",
+          "show": [
+            "tk",
+            "piat"
+          ]
+        },
+        {
+          "at": "s32@0.2",
+          "dur": 2.2,
+          "move": {
+            "tk": {
+              "x": 470,
+              "y": 400,
+              "rot": 30
+            }
+          },
+          "arrows": [
+            {
+              "points": [
+                [
+                  300,
+                  300
+                ],
+                [
+                  325,
+                  308
+                ],
+                [
+                  348,
+                  318
+                ],
+                [
+                  371,
+                  328
+                ],
+                [
+                  393,
+                  340
+                ],
+                [
+                  413,
+                  353
+                ],
+                [
+                  433,
+                  368
+                ],
+                [
+                  452,
+                  383
+                ],
+                [
+                  470,
+                  400
+                ]
+              ],
+              "color": "#cfd8e2",
+              "width": 12,
+              "dur": 1.6
+            }
+          ]
+        },
+        {
+          "at": "s33@0.45",
+          "bursts": [
+            {
+              "x": 480,
+              "y": 405,
+              "color": "#f5b73b",
+              "r": 90
+            }
+          ],
+          "arrows": [
+            {
+              "points": [
+                [
+                  560,
+                  420
+                ],
+                [
+                  520,
+                  412
+                ],
+                [
+                  490,
+                  405
+                ]
+              ],
+              "color": "#4fd1ff",
+              "width": 10,
+              "dur": 0.5
+            }
+          ]
+        },
+        {
+          "at": "s33@0.7",
+          "hide": [
+            "tk"
+          ],
+          "hideDur": 1.2
+        }
+      ],
+      "tags": [
+        {
+          "at": "s31@0.6",
+          "x": 520,
+          "y": 560,
+          "text": "COMMANDER CAPTURED",
+          "color": "#ffe08a",
+          "size": 24,
+          "anchor": "middle"
+        },
+        {
+          "at": "s33@0.5",
+          "x": 470,
+          "y": 330,
+          "text": "PANZER IV",
+          "color": "#ffb0a8",
+          "size": 24,
+          "anchor": "middle"
+        }
+      ],
+      "from": "s31",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "panzer-iv",
+      "move": "in",
+      "from": "s34",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "atlantic-wall",
+      "move": "right",
+      "fact": "German coastal defences, Normandy",
+      "from": "s34@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "benouville-1944",
+      "move": "in",
+      "fact": "Bénouville, June 1944",
+      "from": "s35",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "bridge-1944",
+      "move": "left",
+      "from": "s35@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "millin",
+      "move": "in",
+      "fact": "Piper Bill Millin, 1944",
+      "from": "s36",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "lovat-dieppe",
+      "move": "in",
+      "fact": "Lord Lovat, 1942",
+      "from": "s37",
+      "enter": "cut"
+    },
+    {
+      "type": "film",
+      "clip": "f-commandos.mp4",
+      "credit": "British commandos before the invasion · “The True Glory” (1945)",
+      "from": "s37@0.333",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "commandos-march",
+      "move": "right",
+      "fact": "Commandos move inland from Sword, 6 June 1944",
+      "from": "s37@0.667",
+      "enter": "cut"
+    },
+    {
+      "type": "statement",
+      "main": "“Sorry we’re *late*.”",
+      "image": "carrier-bridge",
+      "kicker": "The legend — the real delay was longer",
+      "from": "s38",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "commandos-b5058",
+      "move": "in",
+      "fact": "British troops, D-Day",
+      "from": "s39",
+      "enter": "cut"
+    },
+    {
+      "type": "quote",
+      "quote": "One of the most outstanding flying achievements of the war.",
+      "by": "Air Chief Marshal Trafford Leigh-Mallory",
+      "image": "leigh-mallory",
+      "from": "s40",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "montgomery-gale",
+      "fact": "Montgomery with Gale and Poett, Normandy 1944",
+      "move": "in",
+      "from": "s41",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "bridge-today",
+      "move": "in",
+      "fact": "The original bridge, now at the Pegasus Memorial museum",
+      "credit": "Bénouville · public domain",
+      "from": "s42",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "cafe-gondree",
+      "move": "up",
+      "fact": "Café Gondrée, beside the bridge, today",
+      "credit": "CC0",
+      "from": "s42@0.500",
+      "enter": "cut"
+    },
+    {
+      "type": "photo",
+      "image": "gliders-canal",
+      "move": "in",
+      "from": "s43",
+      "enter": "cut"
+    },
+    {
+      "type": "statement",
+      "main": "Perfect *planning*… or perfect *luck*?",
+      "image": "gliders-b5202",
+      "kicker": "You decide",
+      "from": "s44",
+      "enter": "cut"
+    }
+  ],
+  "post": {
+    "facebook": "Just after midnight on D-Day, a glider with no engine crashed into the barbed wire beside a bridge in Normandy. Ten minutes later, the bridge was in British hands.\n\nMajor John Howard and 181 men flew in six wooden Horsa gliders, cut loose over the French coast and flown in silence by compass and stopwatch. Lieutenant Den Brotheridge led the charge across the canal bridge and was hit in the neck — he is often called the first Allied soldier killed by enemy fire on D-Day. His daughter was born two weeks later. Both bridges were taken intact: \"Ham and Jam\".\n\nThen they held them — against a German tank, gunboats and a bomb that hit the bridge and didn't explode — until the bagpipes of Lord Lovat's commandos came up the road from Sword Beach.\n\n▶ Watch the full video on YouTube: [PASTE YOUTUBE LINK HERE]\n\nPerfect planning, or perfect luck? 👇\n\n#History #DDay #PegasusBridge #WW2 #Normandy",
+    "youtube": {
+      "title": "The Glider That Crashed Into D-Day: How 181 Men Took Pegasus Bridge in 10 Minutes",
+      "description": "Just after midnight on 6 June 1944, a glider with no engine crashed into the barbed wire beside a bridge in Normandy. Ten minutes later, both bridges were in British hands.\n\nThis animated explainer follows Major John Howard and 181 men of D Company, 2nd Ox and Bucks, as they fly six wooden Horsa gliders onto the Caen Canal and Orne river bridges — and then hold them against tanks, gunboats and a bomb that did not explode, until Lord Lovat's commandos arrive to the sound of Bill Millin's bagpipes. We also tell the story of Lieutenant Den Brotheridge, often called the first Allied soldier killed by enemy fire on D-Day.\n\nSubscribe for more battles, rulers and forgotten heroes.\n\nFilm: \"The True Glory\" (1945) and \"Normandy: The Airborne Invasion of Fortress Europe\" (US Army Air Forces) — general airborne footage, not of this mission. Images: public domain / CC0 via Wikimedia Commons (IWM). Map: schematic. Music: public domain. Sources: Wikipedia.\n\n#History #DDay #PegasusBridge #WW2 #Normandy\n\nKeywords: pegasus bridge, d-day, operation deadstick, john howard, horsa glider, normandy 1944, 6th airborne division, ww2 history, d-day explained, airborne assault, military history.",
+      "tags": [
+        "pegasus bridge",
+        "d-day",
+        "d day",
+        "operation deadstick",
+        "pegasus bridge d-day",
+        "john howard",
+        "den brotheridge",
+        "jim wallwork",
+        "horsa glider",
+        "glider assault",
+        "normandy 1944",
+        "d-day 1944",
+        "6th airborne division",
+        "ox and bucks",
+        "bill millin",
+        "lord lovat",
+        "sword beach",
+        "operation overlord",
+        "ww2",
+        "ww2 history",
+        "world war 2",
+        "d-day explained",
+        "airborne assault",
+        "military history",
+        "battle explained",
+        "history documentary",
+        "heroes of ww2",
+        "history"
+      ]
+    },
+    "pinned": "Was Pegasus Bridge won by perfect planning, or by perfect luck? Tell us what you think. 👇"
+  }
+}

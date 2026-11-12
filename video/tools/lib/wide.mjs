@@ -564,7 +564,7 @@ export const renderers = {
           </g>
         </g>
         ${legend}
-        <text x="96" y="${H - 262}" text-anchor="start" font-family="DM Serif Display" font-style="italic" font-size="24" fill="rgba(244,246,251,0.95)">schematic — positions approximate; ancient sources differ</text>
+        <text x="96" y="${H - 262}" text-anchor="start" font-family="DM Serif Display" font-style="italic" font-size="24" fill="rgba(244,246,251,0.95)">${esc(def.schematic ?? 'schematic — positions approximate; ancient sources differ')}</text>
       </svg>
       <div class="layer vig"></div>
       <div class="tl">
